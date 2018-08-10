@@ -1,0 +1,112 @@
+1	установить	установить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+2	температуру	температура	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	23	23	NUM	NUM	_	4	nummod	_	_
+4	градуса	градус	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+5	в	в	ADP	ADP	_	7	case	_	_
+6	ночное	ночной	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	время	время	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	_
+8	когда	когда	SCONJ	SCONJ	_	1	mark	_	_
+9	я	я	PRON	PRON	Case=Nom|Number=Sing|Person=1	11	nsubj	_	_
+10	буду	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	спать	спать	VERB	VERB	Aspect=Imp|VerbForm=Inf|Voice=Act	1	advcl	_	_
+
+1	проветрить	проветрить	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+2	здесь	здесь	ADV	ADV	Degree=Pos	1	advmod	_	_
+3	пока	пока	ADV	ADV	Degree=Pos	1	mark	_	_
+4	я	я	PRON	PRON	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
+5	буду	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	на	на	ADP	ADP	_	7	case	_	_
+7	кухне	кухня	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	advcl	_	_
+
+1	разогрей	разогреть	VERB	VERB	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	духовку	духовка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	до	до	ADP	ADP	_	5	case	_	_
+4	140	140	NUM	NUM	_	5	nummod	_	_
+5	градусов	градус	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+6	к	к	ADP	ADP	_	8	case	_	_
+7	17	17	NUM	NUM	_	8	amod	_	_
+8	часам	час	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	1	obl	_	_
+9	если	если	SCONJ	SCONJ	_	1	cc	_	_
+10	меня	я	PRON	PRON	Case=Acc|Number=Sing|Person=1	9	nsubj	_	_
+11	не	не	PART	PART	_	10	advmod	_	_
+12	будет	быть	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	cop	_	_
+13	дома	дома	ADV	ADV	Degree=Pos	10	nsubj	_	_
+14	в	в	ADP	ADP	_	15	case	_	_
+15	17:30	17:30	NUM	NUM	_	10	nmod	_	_
+16	выключи	выключить	VERB	VERB	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	_	_
+
+1	в	в	ADP	ADP	_	2	case	_	_
+2	углу	угол	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	под	под	ADP	ADP	_	4	case	_	_
+4	столом	стол	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	в	в	ADP	ADP	_	6	case	_	_
+6	комнате	комната	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+7	осталась	оставаться	VERB	VERB	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	пыль	пыль	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+
+1	здесь	здесь	ADV	ADV	Degree=Pos	3	advmod	_	_
+2	слишком	слишком	ADV	ADV	Degree=Pos	3	advmod	_	_
+3	жарко	жарко	ADV	ADV	Degree=Pos	0	root	_	_
+
+1	какой	какой	DET	DET	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+2	средний	средний	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	расход	расход	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+4	бензина	бензин	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	в	в	ADP	ADP	_	6	case	_	_
+6	зависимости	зависимость	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	от	от	ADP	ADP	_	8	case	_	_
+8	заправки	заправка	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nmod	_	_
+9	был	быть	AUX	AUX	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	за	за	ADP	ADP	_	12	case	_	_
+11	последние	последний	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	полгода	полгода	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	obl	_	_
+
+1	на	на	ADP	ADP	_	2	case	_	_
+2	сколько	сколько	ADV	ADV	Degree=Pos	3	obl	_	_
+3	хватит	хватать	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	энергии	энергия	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
+5	в	в	ADP	ADP	_	6	case	_	_
+6	аккумуляторах	аккумулятор	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	nmod	_	_
+
+1	потребляй	потреблять	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	энергию	энергия	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	из	из	ADP	ADP	_	4	case	_	_
+4	аккумуляторов	аккумулятор	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+5	если	если	SCONJ	SCONJ	_	7	cc	_	_
+6	она	она	PRON	PRON	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+7	закончится	заканчиваться	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	1	conj	_	_
+8	потребляй	потреблять	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	xcomp	_	_
+9	из	из	ADP	ADP	_	10	case	_	_
+10	электросети	электросеть	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
+
+1	включай	включать	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	стиральную	стиральный	ADJ	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	flat:name	_	_
+3	машину	машин	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	в	в	ADP	ADP	_	5	case	_	_
+5	23:05	23:05	NUM	NUM	_	1	obl	_	_
+6	каждое	каждый	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	четное	четное	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nmod	_	_
+8	число	число	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	obj	_	_
+9	месяца	месяц	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+
+1	когда	когда	SCONJ	SCONJ	_	4	advmod	_	_
+2	стиральная	стиральный	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	машина	машин	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	закончит	заканчивать	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	стирку	стирка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	сообщи	сообщить	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	obl	_	_
+7	мужу	муж	NOUN	NOUN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+
+1	включи	включить	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	стирку	стирка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+3	а	а	CCONJ	CCONJ	_	5	cc	_	_
+4	потом	потом	ADV	ADV	Degree=Pos	5	advmod	_	_
+5	отжим	отжим	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+
+1	сколько	сколько	ADV	ADV	Degree=Pos	4	advmod	_	_
+2	раз	раз	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	за	за	ADP	ADP	_	4	case	_	_
+4	месяц	месяц	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+5	я	я	PRON	PRON	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
+6	стирал	стирать	VERB	VERB	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
