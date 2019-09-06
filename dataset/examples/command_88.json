@@ -1,0 +1,11 @@
+{
+	"utterance_id": 88,
+	"speaker": "user",
+	"text": ["здесь слишком влажно"],
+	"slots-indices": [
+		[0, "B-LOCCurrent"],
+		[1, "B-Quantifier"],
+		[2, "0"]
+	],
+	"hidden-slot-indices": [{"CommandFeature": [2]}]
+}

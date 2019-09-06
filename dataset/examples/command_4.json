@@ -1,0 +1,18 @@
+{
+	"utterance_id": 4,
+	"ontology-label": "HeaterController",
+	"text": ["в TIME включи обогреватель на кухне на 25 градусов"],
+	"slots-indices": [
+
+		[0, "O"],
+		[1, "B-Time"],
+		[2, "B-COMMAND"],
+		[3, "B-DEVICE"],
+		[4, "O"],
+		[5, "B-LOC"],
+		[6, "O"],
+		[7, "B-CommandParameterValue"],
+		[8, "B-CommandParameter"]
+	],
+	"schedule": [{"time:DateTimeDescription": [1]}]
+}

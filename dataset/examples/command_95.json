@@ -1,0 +1,10 @@
+{
+	"utterance_id": 95,
+	"speaker": "user",
+	"ontology-label": ["SmartOven", "SmartMicrowave"],
+	"text": "погрей еду",
+	"slots-indices": [
+		[0, "B-COMMAND"],
+		[1, "B-CommandFeature"]
+	]
+}

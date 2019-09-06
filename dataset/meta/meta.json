@@ -1,0 +1,28 @@
+{
+
+	"utterance_id": 0,
+	
+	"ontology-label": "some-label",
+	
+	"text": ["some example string goes here on"],
+	
+	"schedule": [{"time:DateTimeDescription": [0,1,2]}, {"time:Interval": [0]}, {"regularlyRepeating": [3]}], 
+
+	"slots-BIO": [
+  		{"some":"O"},
+  		{"example":"B-DEVICE"},
+		{"string":"I-DEVICE"},
+		{"goes":"O"},
+		{"here":"O"},
+		{"on":"COMMAND"}
+	],
+		 
+	"slots-indices": [{ "COMMAND": [4], "DeviceFeature": [1], "DeviceState": [2]}],
+	
+	"hidden-slot-indices": [{"B-DeviceParameter": [0], "DeviceParameterValue": [3,4]}],
+	
+	"coreference": [{"5": [1]}],
+	
+	"condition-indices": [0]
+
+}

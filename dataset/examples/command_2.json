@@ -1,0 +1,14 @@
+{
+	"utterance_id": 2,
+	"ontology-label": "Boiler",
+	"text": ["когда будет готова еда в пароварке"],
+	"slots-indices": [
+
+		[0, "B-RequestQuestion"],
+		[1, "B-REQUEST"],
+		[2, "I-REQUEST"],
+		[3, "B-CommandFeature"],
+		[4, "O"],
+		[5, "B-DEVICE"]
+	]
+}
