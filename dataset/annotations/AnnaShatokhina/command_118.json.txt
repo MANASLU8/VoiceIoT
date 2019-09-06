@@ -1,4 +1,4 @@
-{
+﻿{
 	"utterance_id": 118,
 	"speaker": "user",
 	"text": ["сделай напор сильнее"],
