@@ -2,8 +2,6 @@
 	"utterance_id": 102,
 	"ontology-label": "SmartKettle",
 	"text": ["когда я приду сделай чай"],
-	"schedule": [{"time:DateTimeDescription": [1,2]}], 
-
 	"slots-BIO": [
 		[1,"B-Actor"],
 		[2,"B-Action"]
