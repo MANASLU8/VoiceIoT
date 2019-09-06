@@ -1,4 +1,4 @@
-{
+﻿{
 	"utterance_id": 101,
 	"ontology-label": "SmartBreadMaker",
 	"text": ["приготовь хлеб к моему приходу"],

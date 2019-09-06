@@ -1,4 +1,4 @@
-{
+﻿{
 	"utterance_id": 117,
 	"speaker": "user",
 	"text": ["сделай погор¤чее"],
