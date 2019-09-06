@@ -1,9 +1,9 @@
 {
-	"utterance_id": 00,
+	"utterance_id": 1000,
 	"ontology-label": "Light",
 	"text": ["если свет горит то выключи его"],
 	"slots-indices": [{ "COMMAND": [4], "DeviceFeature": [1], "DeviceState": [2]}],
-	"coreference": [{"5": [1]}]
+	"coreference": [{"5": [1]}],
 	"condition-indices": [0, 1, 2]
 
 }
