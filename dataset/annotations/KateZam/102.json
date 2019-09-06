@@ -5,7 +5,7 @@
 	"schedule": [{"time:DateTimeDescription": [1,2]}], 
 
 	"slots-BIO": [
-		[1,"B-Actor"]
+		[1,"B-Actor"],
   		[4,"COMMAND"],
 		[5,"B-CommandFeature"]
 		
