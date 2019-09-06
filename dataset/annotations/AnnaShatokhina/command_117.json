@@ -4,7 +4,7 @@
 	"text": ["сделай погорячее"],
 	"slots-indices": [
 		[0, "B-COMMAND"],
-		[1, "FeatureState"],
+		[1, "CommonFeature"],
 	],
 	"hidden-slot-indices": [{"DEVICE": [2], "DeviceParameter": [1]}]
 }
