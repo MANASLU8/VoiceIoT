@@ -10,7 +10,7 @@
 		[5,"B-CommandFeature"]
 		
 	],
-	"hidden-slot-indices": [{"B-DEVICE": [3], "DeviceParameterValue": [3,4]}]
+	"hidden-slot-indices": [{"B-DEVICE": [3], "DeviceParameterValue": [3,4]}],
 	"condition-indices": [0, 1, 2]
 
 }
