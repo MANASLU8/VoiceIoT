@@ -1,7 +1,7 @@
 {
 	"utterance_id": 117,
 	"speaker": "user",
-	"text": ["сделай погорячее"],
+	"text": ["СЃРґРµР»Р°Р№ РїРѕРіРѕСЂВ¤С‡РµРµ"],
 	"slots-indices": [
 		[0, "B-COMMAND"],
 		[1, "FeatureState"],

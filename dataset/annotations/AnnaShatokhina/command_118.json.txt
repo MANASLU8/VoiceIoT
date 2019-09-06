@@ -1,7 +1,7 @@
 {
 	"utterance_id": 118,
 	"speaker": "user",
-	"text": ["сделай напор сильнее"],
+	"text": ["СЃРґРµР»Р°Р№ РЅР°РїРѕСЂ СЃРёР»СЊРЅРµРµ"],
 	"slots-indices": [
 		[0, "B-COMMANDt"],
 		[1, "O"],
