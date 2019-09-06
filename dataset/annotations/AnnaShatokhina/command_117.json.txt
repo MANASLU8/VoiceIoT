@@ -1,0 +1,10 @@
+{
+	"utterance_id": 117,
+	"speaker": "user",
+	"text": ["сделай погор€чее"],
+	"slots-indices": [
+		[0, "B-COMMAND"],
+		[1, "FeatureState"],
+	],
+	"hidden-slot-indices": [{"DEVICE": [2], "DeviceParameter": [1]}]
+}
