@@ -1,0 +1,14 @@
+{
+	"utterance_id": 107,
+	"ontology-label": "SmartIron",
+	"text": ["Включи утюг я хочу погладить шелковую блузку"],
+	"slots-indices": [
+		[0,"COMMAND"],
+		[1,"B-DEVICE"],
+		[2,"B-Actor"],
+		[3,"B-Action"],
+		[4,"I-Action"]
+				
+	],
+	"hidden-slot-indices": [{"DeviceParameterValue": [5],"DeviceFeature":[6]}]
+}
