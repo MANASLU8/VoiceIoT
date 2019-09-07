@@ -1,0 +1,13 @@
+{
+	"utterance_id": 115,
+	"ontology-label": "WashingMachine",
+	"text": ["Запусти стирку для цветного"],
+	
+	"slots-indices": [
+  		[0,"B-COMMAND"],
+  		[1,"I-COMMANDE"]
+		
+	]
+	"hidden-slot-indices": [{"Device":[1], "DeviceParameterValue": [3]}]	 
+}
+	
