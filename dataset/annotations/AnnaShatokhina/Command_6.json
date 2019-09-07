@@ -1,0 +1,5 @@
+	"utterance_id": 6,
+	"ontology-label": "CoffeeMachine",
+	"text": ["каждый раз проверяй кофеварку в помещении"],
+	"slots-indices": [{"COMMAND":[2], "DEVICE":[3], "LOCCurrent"[5]}],
+	"schedule": [{"regularlyRepeating":[0,1]}]
