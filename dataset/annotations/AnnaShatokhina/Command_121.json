@@ -1,0 +1,4 @@
+  "utterance_id": 121,
+	"ontology-label": "WaterSupplySensor",
+	"text": ["набери ванную"],
+	"slots-indices": [{"COMMAND":[0], "DEVICE":[1]}]
