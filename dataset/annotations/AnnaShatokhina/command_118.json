@@ -4,7 +4,8 @@
 	"text": ["сделай напор сильнее"],
 	"slots-indices": [
 		[0, "B-COMMANDt"],
-		[1, "O"],
+		[1, "B-CommonFeature"],
+		[2, "B-Quantifire"]
 	],
 	"hidden-slot-indices": [{"DEVICE": [2], "DeviceParameter": [1]}]
 }

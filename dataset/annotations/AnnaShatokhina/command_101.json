@@ -2,8 +2,6 @@
 	"utterance_id": 101,
 	"ontology-label": "SmartBreadMaker",
 	"text": ["приготовь хлеб к моему приходу"],
-
-	"schedule": [{"time:DateTimeDescription": [0,1,2]}, {"{"regularlyRepeating": [1]}], 
 	
 	"slots-indices": [
 
