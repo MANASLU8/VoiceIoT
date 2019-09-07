@@ -2,12 +2,7 @@
 	"utterance_id": 101,
 	"ontology-label": "SmartBreadMaker",
 	"text": ["приготовь хлеб к моему приходу"],
-	"slots-indices": [{"COMMAND":[0], "DEVICE":[2],],
-		[1, "B-CommandFeature"],
-		[2, "O"],
-		[3, "B-Actor"]
-		[4, "B-Action"]
-	],
+	"slots-indices": [{"COMMAND":[0], "CommandFeature":[2], "Actor":[3], "Action":[4]}],
 	"hidden-slot-indices": [{"DEVICE": [1]}]
 }
 
