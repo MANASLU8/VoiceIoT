@@ -1,11 +1,6 @@
-﻿{
 	"utterance_id": 118,
-	"speaker": "user",
+	"ontology-label": "WaterTapRelay",
 	"text": ["сделай напор сильнее"],
-	"slots-indices": [
-		[0, "B-COMMANDt"],
-		[1, "B-CommonFeature"],
-		[2, "B-Quantifire"]
-	],
-	"hidden-slot-indices": [{"DEVICE": [2], "DeviceParameter": [1]}]
-}
+	"slots-indices": [{"COMMAND":[0], "CommonFeature":[1], "Quantifire":[2]}],
+	"hidden-slot-indices": [{"DEVICE": [1]}]
+	
