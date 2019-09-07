@@ -1,0 +1,11 @@
+{
+	"utterance_id": 103,
+	"ontology-label": "SmartToaster",
+	"text": ["сделай тост"],
+	"slots-indices": [
+
+		[0, "B-COMMAND"],
+		[1, "B-CommandFeature"],
+	],
+	"hidden-slot-indices": [{"DEVICE": [2]}]
+}
