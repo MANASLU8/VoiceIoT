@@ -6,7 +6,6 @@
 		[0,"COMMAND"],
 		[4,"B-Actor"],
 		[5,"B-Action"]
-				
 	],
 	"hidden-slot-indices": [{"Device": [2],"FeatureState":[1]}],
 	"schedule": [{"time:DateTimeDescription": [4,5]}]
