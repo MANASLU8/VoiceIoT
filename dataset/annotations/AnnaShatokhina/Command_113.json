@@ -1,0 +1,5 @@
+	"utterance_id": 113,
+	"ontology-label": "WashingMachine",
+	"text": ["Постирай на 90 градусах"],
+	"slots-indices": [{"COMMAND":[0], "DeviceState":[2], "DeviceState":[3]}],
+	"hidden-slot-indices": [{"DEVICE": [0]}]
