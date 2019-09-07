@@ -5,7 +5,7 @@
 	
 	"slots-indices": [
   		[0,"COMMAND"],
-  		[1,"B-LOCCurrent"],
+  		[1,"B-LOC"],
 		[3,"B-LOC"]
 	]
 }
