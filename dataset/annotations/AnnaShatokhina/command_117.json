@@ -1,10 +1,5 @@
-﻿{
 	"utterance_id": 117,
-	"speaker": "user",
+	"ontology-label": "WaterTapRelay",
 	"text": ["сделай погорячее"],
-	"slots-indices": [
-		[0, "B-COMMAND"],
-		[1, "CommonFeature"],
-	],
-	"hidden-slot-indices": [{"DEVICE": [2], "DeviceParameter": [1]}]
-}
+	"slots-indices": [{"COMMAND":[0], "FeatureState":[1]}],
+	"hidden-slot-indices": [{"DEVICE": [1]}]
