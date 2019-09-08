@@ -1,0 +1,12 @@
+{
+	"utterance_id": 119,
+	"ontology-label": "WaterTapRelay",
+	"text": ["Я хочу принять ванну"],
+	"slots-indices": [
+		[0,"B-Actor"],
+		[1,"B-Action"],
+		[2,"I-Action"]
+				
+	],
+	"hidden-slot-indices": [{"Device": [3],"DeviceFeature":[3]}]
+}

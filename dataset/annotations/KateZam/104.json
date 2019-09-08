@@ -1,0 +1,9 @@
+{
+	"utterance_id": 104,
+	"ontology-label": "SmartBreadMaker",
+	"text": ["приготовь хлеб"],
+	"slots-indices": [
+		[0,"COMMAND"]
+	],
+	"hidden-slot-indices": [{"CommandFeature": [1]}]
+}

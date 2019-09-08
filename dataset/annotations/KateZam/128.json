@@ -1,0 +1,13 @@
+{
+	"utterance_id": 128,
+	"ontology-label": ["HumiditySensor", "WindowRelay"],
+	"text": ["Закрыть окно если начался дождь"], 
+	
+	"slots-indices": [
+  		[0,"COMMAND"]		
+	],
+	"hidden-slot-indices":[{"Device":[1,4]}],
+	"condition-indices": [2, 3, 4]
+}
+	
+	

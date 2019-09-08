@@ -1,0 +1,4 @@
+	"utterance_id": 106,
+	"ontology-label": "SmartIron",
+	"text": ["если утюг всё еще включен то выключи его"],
+	"slots-indices": [{"COMMAND":[6], "DEVICE":[2], "DeviceState":[5]}]
