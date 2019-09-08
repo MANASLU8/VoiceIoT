@@ -1,7 +1,7 @@
 {
 	"utterance_id": 123,
 	"ontology-label": "WindowRelay",
-	"text": ["В комнате душно, проветри."],
+	"text": ["В комнате душно проветри"],
         "slots-indices": [{"COMMAND":[3], "LOCCurrent": [1], "LOC":[1]}],
         "hidden-slot-indices": [{"CommandFeature": [2]}]
 }
