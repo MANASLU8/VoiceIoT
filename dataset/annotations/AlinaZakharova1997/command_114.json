@@ -1,0 +1,7 @@
+
+{
+	"utterance_id": 114,
+	"ontology-label": "WashingMachine",
+	"text": ["В машинке шелковое белье подбери режим и запусти стирку"],
+        "slots-indices": [{"COMMAND":[4, 7], "DEVICE":[0],"CommandFeature":[5, 8], "DeviceFeature":[3], "DeviceParameterValue":[2]}]
+}

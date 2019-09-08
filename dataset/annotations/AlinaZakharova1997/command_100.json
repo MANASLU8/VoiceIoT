@@ -1,9 +1,8 @@
+
 {
 	"utterance_id": 100,
 	"ontology-label": "SmartBreadMaker",
-	"text": ["Включи готовку в 8 вечера."],
+	"text": ["Включи готовку в 8 вечера"],
         "schedule": [{"time:DateTimeDescription": [2, 3, 4]}],
-        "slots-indices": [{"COMMAND":[0, 1], "CommandParameter": [2, 3, 4]}]
+        "slots-indices": [{"COMMAND":[0],"CommandFeature":[1]}]
 }
-
-

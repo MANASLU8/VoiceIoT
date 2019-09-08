@@ -1,0 +1,7 @@
+{
+	"utterance_id": 129,
+	"ontology-label": "WindowRelay",
+	"text": ["Открой окно на кухне на 30 градусов"],
+        "slots-indices": [{ " COMMAND":[0], "CommandFeature":[1], "LOC":[3], "DeviceParameterValue":[5], "DeviceParameter":[6]}]
+        
+}
