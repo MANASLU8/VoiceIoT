@@ -1,5 +1,6 @@
+{
 	"utterance_id": 122,
 	"ontology-label": "WaterTapRelay",
 	"text": ["Полностью перекрой воду"],
-	"slots-indices": [{"IntensityQuantifier":[0], "COMMAND":[1], "CommandFeature":[2]}],
-	"hidden-slot-indices": [{"DEVICE": [2]}]
+	"slots-indices": [{"IntensityQuantifier":[0], "COMMAND":[1], "CommandFeature":[2]}]
+}
