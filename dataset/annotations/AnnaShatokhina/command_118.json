@@ -2,5 +2,5 @@
 	"utterance_id": 118,
 	"ontology-label": "WaterTapRelay",
 	"text": ["сделай напор сильнее"],
-	"slots-indices": [{"COMMAND":[0], "CommonFeature":[1], "Quantifire":[2]}]
+	"slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Quantifier":[2]}]
 }
