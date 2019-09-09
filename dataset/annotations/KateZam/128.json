@@ -3,9 +3,9 @@
 	"ontology-label": ["HumiditySensor", "WindowRelay"],
 	"text": ["Закрыть окно если начался дождь"], 
 	
-	"slots-indices": [{"COMMAND":[0]}],
+	"slots-indices": [{"COMMAND":[0], "DeviceFeature": [1]}],
   		
-	"hidden-slot-indices":[{"Device":[1,4]}],
+	"hidden-slot-indices":[{"Device":[4]}],
 	"condition-indices": [2, 3, 4]
 }
 	
