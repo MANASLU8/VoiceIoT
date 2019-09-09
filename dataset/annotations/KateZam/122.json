@@ -2,12 +2,8 @@
 	"utterance_id": 122,
 	"ontology-label": "WaterTapRelay",
 	"text": ["Наполни горячую ванную к моему приходу"],
-	"slots-indices": [
-		[0,"COMMAND"],
-		[4,"B-Actor"],
-		[5,"B-Action"]
-	],
-	"hidden-slot-indices": [{"Device": [2],"FeatureState":[1]}],
+	"slots-indices": [{"COMMAND":[0],"FeatureState":[1],"CommandFeature":[2],"Actor":[4],"Action":[5]}],
+	"hidden-slot-indices": [{"Device": [2]}],
 	"schedule": [{"time:DateTimeDescription": [4,5]}]
 	
 }
