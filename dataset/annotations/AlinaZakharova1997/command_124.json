@@ -2,5 +2,5 @@
 	"utterance_id": 124,
 	"ontology-label": "HumiditySensor",
 	"text": ["Поддерживай влажность в комнате на уровне 60"],
-        "slots-indices": [{"COMMAND":[0],"DeviceParameter":[1], "LOC":[3],"LOCCurrent":[3], "DeviceParameterValue":[6]}]
+        "slots-indices": [{"COMMAND":[0],"CommandFeature":[1], "LOC":[3],"LOCCurrent":[3], "DeviceParameterValue":[6]}]
 }

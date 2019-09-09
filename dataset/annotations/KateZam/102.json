@@ -2,12 +2,11 @@
 	"utterance_id": 102,
 	"ontology-label": "SmartKettle",
 	"text": ["когда я приду сделай чай"],
-	"slots-indices": [
+	"slots-indices-bio": [
 		[1,"B-Actor"],
 		[2,"B-Action"],
-  		[3,"COMMAND"],
-		[5,"B-CommandFeature"]
+  		[3,"B-COMMAND"],
+		[4,"B-CommandFeature"]
 	],
-	"hidden-slot-indices": [{"DeviceParameterValue": [4]}],
 	"condition-indices": [0, 1, 2]
 }

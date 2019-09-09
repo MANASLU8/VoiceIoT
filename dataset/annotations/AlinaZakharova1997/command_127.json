@@ -2,6 +2,6 @@
 	"utterance_id": 127,
 	"ontology-label": "TemperatureSensor",
 	"text": ["Какая сейчас температура"],
-        "slots-indices": [{ " ParameterValueQuestion":[0], "DeviceParameterValue":[2]}]
+    "slots-indices": [{ " ParameterValueQuestion":[0], "DeviceParameter":[2]}]
         
 }

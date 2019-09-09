@@ -1,8 +1,8 @@
 
 {
 	"utterance_id": 100,
-	"ontology-label": "SmartBreadMaker",
+	"ontology-label": ["SmartBreadMaker", "SmartOven"],
 	"text": ["Включи готовку в 8 вечера"],
-        "schedule": [{"time:DateTimeDescription": [2, 3, 4]}],
+        "schedule": [{"time:DateTimeDescription": [3, 4]}],
         "slots-indices": [{"COMMAND":[0],"CommandFeature":[1]}]
 }
