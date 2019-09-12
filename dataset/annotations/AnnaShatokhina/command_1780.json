@@ -1,0 +1,7 @@
+{
+		"utterance_id": 1780,
+		"ontology-label": "CurtainsRelay",
+		"text": ["когда последний раз открывали шторы"],
+        "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[3, 4]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}
