@@ -200,6 +200,28 @@
         {
           "data": [
             {
+              "text": "помой",
+              "entity": "COMMAND",
+              "slot_name": "WaterTapRelay.COMMAND"
+            },
+            {
+              "text": "ягоды",
+              "entity": "CommandFeature",
+              "slot_name": "WaterTapRelay.CommandFeature"
+            },
+            {
+              "text": "и"
+            },
+            {
+              "text": "огурцы",
+              "entity": "CommandFeature",
+              "slot_name": "WaterTapRelay.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
               "text": "полностью",
               "entity": "Quantifier",
               "slot_name": "WaterTapRelay.Quantifier"
@@ -1375,6 +1397,28 @@
         {
           "data": [
             {
+              "text": "включи",
+              "entity": "COMMAND",
+              "slot_name": "SmartElectricityMeter.COMMAND"
+            },
+            {
+              "text": "электричество",
+              "entity": "CommandFeature",
+              "slot_name": "SmartElectricityMeter.CommandFeature"
+            },
+            {
+              "text": "в"
+            },
+            {
+              "text": "спальне",
+              "entity": "LOC",
+              "slot_name": "SmartElectricityMeter.LOC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
               "text": "сколько",
               "entity": "ParameterValueQuestion",
               "slot_name": "SmartElectricityMeter.ParameterValueQuestion"
@@ -1736,6 +1780,59 @@
               "text": "духовке",
               "entity": "DEVICE",
               "slot_name": "SmartOven.DEVICE"
+            }
+          ]
+        }
+      ]
+    },
+    "Phone": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "выведи",
+              "entity": "COMMAND",
+              "slot_name": "Phone.COMMAND"
+            },
+            {
+              "text": "статистику",
+              "entity": "CommandFeature",
+              "slot_name": "Phone.CommandFeature"
+            },
+            {
+              "text": "прослушиваний",
+              "entity": "CommandFeature",
+              "slot_name": "Phone.CommandFeature"
+            },
+            {
+              "text": "на"
+            },
+            {
+              "text": "мобильник",
+              "entity": "DEVICE",
+              "slot_name": "Phone.DEVICE"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "как",
+              "entity": "RequestQuestion",
+              "slot_name": "Phone.RequestQuestion"
+            },
+            {
+              "text": "доехать",
+              "entity": "Action",
+              "slot_name": "Phone.Action"
+            },
+            {
+              "text": "до"
+            },
+            {
+              "text": "больницы",
+              "entity": "LOC",
+              "slot_name": "Phone.LOC"
             }
           ]
         }
@@ -4247,6 +4344,71 @@
         }
       ]
     },
+    "SmartMicrowave": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "сколько",
+              "entity": "ParameterValueQuestion",
+              "slot_name": "SmartMicrowave.ParameterValueQuestion"
+            },
+            {
+              "text": "дней"
+            },
+            {
+              "text": "стоит",
+              "entity": "CommandFeature",
+              "slot_name": "SmartMicrowave.CommandFeature"
+            },
+            {
+              "text": "суп",
+              "entity": "CommandFeature",
+              "slot_name": "SmartMicrowave.CommandFeature"
+            },
+            {
+              "text": "в"
+            },
+            {
+              "text": "микроволновке",
+              "entity": "DEVICE",
+              "slot_name": "SmartMicrowave.DEVICE"
+            }
+          ]
+        }
+      ]
+    },
+    "SmartWaterMeter": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "если на"
+            },
+            {
+              "text": "улице",
+              "entity": "LOC",
+              "slot_name": "SmartWaterMeter.LOC"
+            },
+            {
+              "text": "холодно",
+              "entity": "CommandFeature",
+              "slot_name": "SmartWaterMeter.CommandFeature"
+            },
+            {
+              "text": "включи",
+              "entity": "COMMAND",
+              "slot_name": "SmartWaterMeter.COMMAND"
+            },
+            {
+              "text": "гвс",
+              "entity": "CommandFeature",
+              "slot_name": "SmartWaterMeter.CommandFeature"
+            }
+          ]
+        }
+      ]
+    },
     "WindowStatusSensor": {
       "utterances": [
         {
@@ -4545,32 +4707,6 @@
         }
       ]
     },
-    "Phone": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "text": "как",
-              "entity": "RequestQuestion",
-              "slot_name": "Phone.RequestQuestion"
-            },
-            {
-              "text": "доехать",
-              "entity": "Action",
-              "slot_name": "Phone.Action"
-            },
-            {
-              "text": "до"
-            },
-            {
-              "text": "больницы",
-              "entity": "LOC",
-              "slot_name": "Phone.LOC"
-            }
-          ]
-        }
-      ]
-    },
     "WaterSupplySensor": {
       "utterances": [
         {
@@ -4586,7 +4722,7 @@
     }
   },
   "entities": {
-    "COMMAND": {
+    "CommandState": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -4598,49 +4734,13 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "DeviceParameter": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "CommandQuestion": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "DeviceQuestion": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "FeatureState": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "DEVICE": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
     "FeatureStateValue": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "DeviceParameterValue": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Action": {
+    "DeviceState": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -4652,7 +4752,37 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "DeviceFeature": {
+    "COMMAND": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Action": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "ParameterValueQuestion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceQuestion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "LOC": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceParameter": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -4670,13 +4800,13 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "CommandState": {
+    "DeviceFeature": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "DeviceState": {
+    "DEVICE": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -4688,13 +4818,7 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "LOC": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "CommandParameter": {
+    "RequestQuestion": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -4706,13 +4830,25 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "ParameterValueQuestion": {
+    "CommandQuestion": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "RequestQuestion": {
+    "DeviceParameterValue": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "CommandParameter": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "FeatureState": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
