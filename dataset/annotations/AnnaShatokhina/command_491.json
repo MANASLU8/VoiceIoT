@@ -1,0 +1,7 @@
+{
+		"utterance_id": 491,
+		"ontology-label": "TemperatureSensor",
+		"text": ["что здесь так душно"],
+                "slots-indices": [{"ParameterValueQuestion":[0], "LOCCurrent":[1], "IntensityQuantifier":[2], "CommandFeature":[3]}],
+		"condition-indices": [0, 1, 2, 3]
+}
