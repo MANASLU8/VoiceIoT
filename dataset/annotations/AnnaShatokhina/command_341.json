@@ -1,0 +1,7 @@
+{
+		"utterance_id": 341,
+		"ontology-label": "Phone",
+		"text": ["выведи статистику прослушиваний на мобильник"],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1, 2], "DEVICE":[4]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}
