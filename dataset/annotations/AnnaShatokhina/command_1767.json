@@ -1,0 +1,8 @@
+{
+		"utterance_id": 1767,
+		"ontology-label": "SmartFridge",
+		"text": ["какие у нас есть орехи"],
+                "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[3, 4]}],
+		"hidden-slot-indices": [{"DEVICE": [4]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}
