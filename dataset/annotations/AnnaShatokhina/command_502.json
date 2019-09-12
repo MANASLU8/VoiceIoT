@@ -1,0 +1,7 @@
+{
+		"utterance_id": 502,
+		"ontology-label": "Printer",
+		"text": ["заполни документ"],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}],
+		"condition-indices": [0, 1]
+}
