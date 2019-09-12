@@ -2,6 +2,6 @@
 		"utterance_id": 1778,
 		"ontology-label": "WashingMachine", "Dishwasher"
 		"text": ["когда следуюущий технологический осмотр"],
-            "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[2, 3]}],
+            	"slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[2, 3]}],
 		"condition-indices": [0, 1, 2, 3]
 }
