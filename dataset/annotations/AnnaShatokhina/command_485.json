@@ -1,0 +1,7 @@
+{
+		"utterance_id": 485,
+		"ontology-label": "CurtainsRelay",
+		"text": ["допустим за окном небо закрой шторы"],
+                "slots-indices": [{"COMMAND":[4], "CommandFeature":[5], "LOC":[2]}],
+		"condition-indices": [0, 1, 2, 3, 4, 5]
+}
