@@ -1,0 +1,7 @@
+{
+		"utterance_id": 1769,
+		"ontology-label": "SmartKettle",
+		"text": ["когда я вернусь приготовь чай"],
+                "slots-indices": [{"COMMAND":[3], "CommandFeature":[4], "Actor":[1], "Action":[2]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}
