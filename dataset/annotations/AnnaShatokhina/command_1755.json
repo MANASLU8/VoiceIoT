@@ -1,0 +1,7 @@
+{
+		"utterance_id": 1755,
+		"ontology-label": "SmartOven",
+		"text": ["приготовь мне какие-нибудь овощи"],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[3], "Actor":[1]}],
+		"condition-indices": [0, 1, 2, 3]
+}
