@@ -1,0 +1,7 @@
+{
+	"utterance_id": 9000,
+	"ontology-label": "CoffeeMachine",
+	"text": "сколько кофе осталось", 
+        "slots-indices": [{ "CommandQuestion":[0], "FeatureState":[2],"DeviceFeature": [1]}]
+
+}

@@ -1,0 +1,7 @@
+{
+	"utterance_id": 5006,
+	"ontology-label": ["HeaterController", "TemperatureSensor"],
+	"text": ["закрыть дверь если начался снег"], 
+        "slots-indices": [{ "COMMAND":[0], "CommandFeature":[1]}],
+        "condition-indices": [ 2, 3, 4]  
+}

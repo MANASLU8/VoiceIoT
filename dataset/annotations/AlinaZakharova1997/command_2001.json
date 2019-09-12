@@ -1,0 +1,7 @@
+{
+	"utterance_id": 2001,
+	"ontology-label": "MotionSensor",
+	"text": ["проверь датчик движения за сегодня"],
+        "slots-indices": [{ " COMMAND":[0], "DEVICE":[1, 2]}],
+        "schedule":[{"time:Interval": [4]}]    
+}

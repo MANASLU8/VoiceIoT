@@ -1,0 +1,7 @@
+{
+	"utterance_id": 4009,
+	"ontology-label": "TemperatureSensor",
+	"text": ["Eсли на улице больше число градусов отключи электричество"],
+        "slots-indices": [{ " COMMAND":[6], "DeviceFeature":[7], "DeviceParameter":[5], "LOC":[2]}],
+        "condition-indices": [0, 1, 2, 3, 4, 5]   
+}

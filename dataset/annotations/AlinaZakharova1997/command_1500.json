@@ -1,0 +1,6 @@
+{
+	"utterance_id": 1500,
+	"ontology-label": "AudioSystem",
+	"text": ["добавить песню в мою коллекцию"],
+        "slots-indices": [{ " COMMAND":[0], "CommandFeature":[1], "DeviceFeature":[3, 4]}]   
+}

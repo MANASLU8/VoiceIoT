@@ -1,0 +1,6 @@
+{
+	"utterance_id": 6003,
+	"ontology-label": "TemperatureSensor",
+	"text": ["сколько сейчас градусов на улице"],
+        "slots-indices": [{"ParameterValueQuestion":[0], "DeviceFeature":[2], "LOC":[4]}]  
+}

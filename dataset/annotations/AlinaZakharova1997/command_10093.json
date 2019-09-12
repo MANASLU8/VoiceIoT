@@ -1,0 +1,7 @@
+{
+	"utterance_id": 10093,
+	"ontology-label": "HeaterController",
+	"text": "здесь слишком холодно сделай потеплее", 
+        "slots-indices": [{ "COMMAND":[3], "LOC": [0], "IntensityQuantifier":[1]}],
+        "hidden-slot-indices": [{"CommandFeature": [2, 4]}]
+}

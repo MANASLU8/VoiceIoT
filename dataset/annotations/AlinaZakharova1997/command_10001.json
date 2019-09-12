@@ -1,0 +1,7 @@
+{
+	"utterance_id": 10001,
+	"ontology-label": "SmartFeeder",
+	"text": "насыпай коту меньше корма", 
+        "slots-indices": [{ "COMMAND":[0], "CommandFeature": [1],"IntensityQuantifier":[2], "DeviceFeature":[3]}]
+
+}
