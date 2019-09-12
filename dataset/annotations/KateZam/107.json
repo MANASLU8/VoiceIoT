@@ -2,7 +2,7 @@
 	"utterance_id": 107,
 	"ontology-label": "SmartIron",
 	"text": ["Включи утюг я хочу погладить шелковую блузку"],
-	"slots-indices": [
+	"slots-indices-bio": [
 		[0,"B-COMMAND"],
 		[1,"B-DEVICE"],
 		[2,"B-Actor"],

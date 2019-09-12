@@ -1,0 +1,68 @@
+установить температуру на 23 градуса	HeaterController
+включи воду	WaterTapRelay
+проветрите здесь пока я буду в комнате	WindowRelay
+если за окном солнце открой шторы	CurtainsRelay
+если утюг всё еще включен то выключи его	SmartIron
+когда я вернусь приготовь чай	SmartKettle
+приготовь хлеб к моему приходу	SmartBreadMaker
+какая сегодня погода	TemperatureSensor
+если будет холодно то закрой окно	WindowRelay
+полностью перекрой воду	WaterTapRelay
+когда последний раз открывали шторы	CurtainsRelay
+тут слишком прохладно	TemperatureSensor
+включи телевизор	TVSet
+пропылесосить здесь покуда я буду на кухне	SmartVacuumCleaner
+подмети здесь пока я буду на кухне	SmartVacuumCleaner
+какие у нас есть орехи	SmartFridge
+если за окном солнце открой занавески	CurtainsRelay
+открой жалюзи если слишком темно	CurtainsRelay
+если меня нет дома не мой пол	SmartVacuumCleaner
+сколько в этом году я заплатил за свет	SmartElectricityMeter
+пропылесось здесь пока я буду в комнате	SmartVacuumCleaner
+сколько дней хранится салат в холодильнике	SmartFridge
+ежели будет жарко закрой окно	WindowRelay
+сколько раз за неделю я стирал	WashingMachine
+сделай погорячее	WaterTapRelay
+когда следуюущий технологический осмотр	WashingMachine
+набери воду в ванну к нашему приходу	WaterTapRelay
+в 8 часов включи обогреватель в ванной на 23 градуса	HeaterController
+поставь утюг на шерсть	SmartIron
+кот давненько не ел покорми его	SmartFeeder
+сделай тост	SmartToaster
+ставь эту песню чаще	AudioSystem
+у нас найдутся какиенибудь овощи	SmartFridge
+выключай свет когда меня нет в комнате	Lamp
+распечатай документ спустя 2 часа	Printer
+днем включи обогреватель в спальне	TemperatureSensor
+если на улице холодно включи отопление	TemperatureSensor
+сделай напор сильнее	WaterTapRelay
+включай свет когда я захожу в гостиную	Lamp
+как сейчас холодно	TemperatureSensor
+корми пса три раза в день	SmartFeeder
+постирай на 90 градусах	WashingMachine
+если меня нет дома не включай кондиционер	TemperatureSensor
+закрой шторы в 9 вечера	CurtainsRelay
+набери ванную	WaterTapRelay
+сколько дней стоит суп в духовке	SmartOven
+если будет дождь то сообщить взять зонт с уходом	AudioSystem
+включай свет когда я прихожу домой	Lamp
+поставь в расписание стирку на 6 утра	WashingMachine
+eсли уровень влажности в комнате меньше n то включи увлажнитель	HumiditySensor
+в машинке шелковое белье подбери режим и запусти стирку	WashingMachine
+в комнате душно проветри	WindowRelay
+поддерживай влажность в комнате на уровне 60	HumiditySensor
+eсли вода в чайнике остыла разогрей	SmartKettle
+утюг разогрей буду гладить нейлон	SmartIron
+включи готовку в 8 вечера	SmartBreadMaker
+какая сейчас температура	TemperatureSensor
+открой окно на кухне на 30 градусов	WindowRelay
+приготовь хлеб	SmartBreadMaker
+включи утюг я хочу погладить шелковую блузку	SmartIron
+когда я приду сделай чай	SmartKettle
+наполни горячую ванную к моему приходу	WaterTapRelay
+включай стиральную машину в 2305 каждое четное число месяца	WashingMachine
+я хочу принять ванну	WaterTapRelay
+включай стиральную машину по четвергам	WashingMachine
+закрыть окно если начался дождь	HumiditySensor
+запусти стирку для цветного	WashingMachine
+проветри зал и кухню	TemperatureSensor

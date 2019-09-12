@@ -1,0 +1,384 @@
+{
+  "intents": {
+    "WashingMachine": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Поставь",
+              "entity": "COMMAND",
+              "slot_name": "WashingMachine.COMMAND"
+            },
+            {
+              "text": "в расписание"
+            },
+            {
+              "text": "стирку",
+              "entity": "CommandFeature",
+              "slot_name": "WashingMachine.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "В"
+            },
+            {
+              "text": "машинке",
+              "entity": "DEVICE",
+              "slot_name": "WashingMachine.DEVICE"
+            },
+            {
+              "text": "шелковое",
+              "entity": "CommandParameterValue",
+              "slot_name": "WashingMachine.CommandParameterValue"
+            },
+            {
+              "text": "белье",
+              "entity": "CommandFeature",
+              "slot_name": "WashingMachine.CommandFeature"
+            },
+            {
+              "text": "подбери"
+            },
+            {
+              "text": "режим",
+              "entity": "CommandParameter",
+              "slot_name": "WashingMachine.CommandParameter"
+            },
+            {
+              "text": "и"
+            },
+            {
+              "text": "запусти",
+              "entity": "COMMAND",
+              "slot_name": "WashingMachine.COMMAND"
+            },
+            {
+              "text": "стирку",
+              "entity": "CommandFeature",
+              "slot_name": "WashingMachine.CommandFeature"
+            }
+          ]
+        }
+      ]
+    },
+    "HumiditySensor": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Eсли уровень"
+            },
+            {
+              "text": "влажности",
+              "entity": "DeviceFeature",
+              "slot_name": "HumiditySensor.DeviceFeature"
+            },
+            {
+              "text": "в"
+            },
+            {
+              "text": "комнате",
+              "entity": "LOC",
+              "slot_name": "HumiditySensor.LOC"
+            },
+            {
+              "text": "меньше",
+              "entity": "IntensityQuantifier",
+              "slot_name": "HumiditySensor.IntensityQuantifier"
+            },
+            {
+              "text": "n",
+              "entity": "DeviceParameterValue",
+              "slot_name": "HumiditySensor.DeviceParameterValue"
+            },
+            {
+              "text": "то"
+            },
+            {
+              "text": "включи",
+              "entity": "COMMAND",
+              "slot_name": "HumiditySensor.COMMAND"
+            },
+            {
+              "text": "увлажнитель",
+              "entity": "DEVICE",
+              "slot_name": "HumiditySensor.DEVICE"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Поддерживай",
+              "entity": "COMMAND",
+              "slot_name": "HumiditySensor.COMMAND"
+            },
+            {
+              "text": "влажность",
+              "entity": "CommandFeature",
+              "slot_name": "HumiditySensor.CommandFeature"
+            },
+            {
+              "text": "в"
+            },
+            {
+              "text": "комнате",
+              "entity": "LOC",
+              "slot_name": "HumiditySensor.LOC"
+            },
+            {
+              "text": "на уровне"
+            },
+            {
+              "text": "60",
+              "entity": "DeviceParameterValue",
+              "slot_name": "HumiditySensor.DeviceParameterValue"
+            }
+          ]
+        }
+      ]
+    },
+    "WindowRelay": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "В"
+            },
+            {
+              "text": "комнате",
+              "entity": "LOCCurrent",
+              "slot_name": "WindowRelay.LOCCurrent"
+            },
+            {
+              "text": "душно"
+            },
+            {
+              "text": "проветри",
+              "entity": "COMMAND",
+              "slot_name": "WindowRelay.COMMAND"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Открой",
+              "entity": "COMMAND",
+              "slot_name": "WindowRelay.COMMAND"
+            },
+            {
+              "text": "окно",
+              "entity": "DeviceFeature",
+              "slot_name": "WindowRelay.DeviceFeature"
+            },
+            {
+              "text": "на"
+            },
+            {
+              "text": "кухне",
+              "entity": "LOC",
+              "slot_name": "WindowRelay.LOC"
+            },
+            {
+              "text": "на"
+            },
+            {
+              "text": "30",
+              "entity": "CommandParameterValue",
+              "slot_name": "WindowRelay.CommandParameterValue"
+            },
+            {
+              "text": "градусов",
+              "entity": "CommandParameter",
+              "slot_name": "WindowRelay.CommandParameter"
+            }
+          ]
+        }
+      ]
+    },
+    "SmartKettle": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Eсли"
+            },
+            {
+              "text": "вода",
+              "entity": "CommandFeature",
+              "slot_name": "SmartKettle.CommandFeature"
+            },
+            {
+              "text": "в"
+            },
+            {
+              "text": "чайнике",
+              "entity": "DEVICE",
+              "slot_name": "SmartKettle.DEVICE"
+            },
+            {
+              "text": "остыла",
+              "entity": "FeatureState",
+              "slot_name": "SmartKettle.FeatureState"
+            },
+            {
+              "text": "разогрей",
+              "entity": "COMMAND",
+              "slot_name": "SmartKettle.COMMAND"
+            }
+          ]
+        }
+      ]
+    },
+    "SmartIron": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Утюг",
+              "entity": "DEVICE",
+              "slot_name": "SmartIron.DEVICE"
+            },
+            {
+              "text": "разогрей",
+              "entity": "COMMAND",
+              "slot_name": "SmartIron.COMMAND"
+            },
+            {
+              "text": "буду гладить"
+            },
+            {
+              "text": "нейлон",
+              "entity": "DeviceParameterValue",
+              "slot_name": "SmartIron.DeviceParameterValue"
+            }
+          ]
+        }
+      ]
+    },
+    "SmartBreadMaker": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Включи",
+              "entity": "COMMAND",
+              "slot_name": "SmartBreadMaker.COMMAND"
+            },
+            {
+              "text": "готовку",
+              "entity": "CommandFeature",
+              "slot_name": "SmartBreadMaker.CommandFeature"
+            }
+          ]
+        }
+      ]
+    },
+    "TemperatureSensor": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Какая",
+              "entity": "ParameterValueQuestion",
+              "slot_name": "TemperatureSensor.ParameterValueQuestion"
+            },
+            {
+              "text": "сейчас"
+            },
+            {
+              "text": "температура",
+              "entity": "DeviceParameter",
+              "slot_name": "TemperatureSensor.DeviceParameter"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "entities": {
+    "DeviceFeature": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "CommandParameterValue": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "ParameterValueQuestion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "FeatureState": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "LOCCurrent": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "IntensityQuantifier": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "CommandParameter": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "LOC": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "CommandFeature": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "COMMAND": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DEVICE": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceParameter": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceParameterValue": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    }
+  },
+  "language": "en"
+}
