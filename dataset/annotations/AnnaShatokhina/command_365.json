@@ -1,0 +1,8 @@
+{
+		"utterance_id": 365,
+		"ontology-label": "Printer",
+		"text": ["распечатай документ через 5 минут"],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "IntensityQuantifier":[]}],
+		"schedule": [{"time:DateTimeDescription": [2, 3, 4]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}
