@@ -2,6 +2,6 @@
 		"utterance_id": 4362,
 		"ontology-label": "WindowRelay",
 		"text": ["ежели будет жарко закрой окно"],
-    "slots-indices": [{"COMMAND":[3], "CommandFeature":[2, 4]}],
+    		"slots-indices": [{"COMMAND":[3], "CommandFeature":[2, 4]}],
 		"condition-indices": [0, 1, 2, 3, 4, 5]
 }
