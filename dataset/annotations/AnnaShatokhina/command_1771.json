@@ -1,0 +1,7 @@
+{
+		"utterance_id": 1771,
+		"ontology-label": "TemperatureSensor",
+		"text": ["если меня нет дома не включай кондиционер"],
+                "slots-indices": [{"COMMAND":[5], "DEVICE":[6], "LOC":[3], "Actor":[1], "Action":[2]}],
+		"condition-indices": [0, 1, 2, 3, 4, 5, 6]
+}
