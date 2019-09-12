@@ -1,0 +1,7 @@
+{
+		"utterance_id": 4374,
+		"ontology-label": "SmartFridge",
+		"text": ["сколько времени стоит суп в холодильнике"],
+    "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[2,3], "DEVICE": [5]}],
+		"condition-indices": [0, 1, 2, 3, 4, 5]
+}
