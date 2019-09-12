@@ -2,7 +2,7 @@
 		"utterance_id": 4383,
 		"ontology-label": "TemperatureSensor",
 		"text": ["как сейчас холодно"],
-    "slots-indices": [{"CommandFeature":[2]}],
+    		"slots-indices": [{"CommandFeature":[2]}],
 		"hidden-slot-indices": [{"DEVICE": [2]}],
 		"condition-indices": [0, 1, 2,]
 }
