@@ -1,8 +1,8 @@
 from snips_nlu import SnipsNLUEngine
 import json
 
-TRAIN_FILE = "../../dataset/snips_nlu/train.json"
-TEST_FILE = "../../dataset/snips_nlu/test.json"
+TRAIN_FILE = "../../dataset/snips-nlu/train.json"
+TEST_FILE = "../../dataset/snips-nlu/test.json"
 
 with open(TRAIN_FILE) as f:
 	train_dataset = json.load(f)

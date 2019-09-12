@@ -2,7 +2,7 @@ import os, re
 import json
 
 INPUT_FOLDER = "../../dataset/annotations"
-OUTPUT_FILE = "../../dataset/snips_nlu/data.json"
+OUTPUT_FILE = "../../dataset/snips-nlu/data.json"
 
 def list_dataset_files(dataset_path):
 	annotators_folders = [os.path.join(dataset_path, annotator_folder) for annotator_folder in os.listdir(dataset_path)]

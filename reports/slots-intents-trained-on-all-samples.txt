@@ -1,0 +1,47 @@
+закрыть дверь если начался снег                                                 	audiosystem         	heatercontroller    
+в 5 часов включи обогреватель на кухне                                          	temperaturesensor   	heatercontroller    
+набери ванную                                                                   	audiosystem         	watertaprelay       
+помой ягоды и огурцы                                                            	audiosystem         	watertaprelay       
+сделай напор сильнее                                                            	audiosystem         	watertaprelay       
+закрой шторы в 9 вечера                                                         	temperaturesensor   	curtainsrelay       
+допустим за окном небо закрой шторы                                             	audiosystem         	curtainsrelay       
+откроешь жалюзи если слишком темно                                              	audiosystem         	curtainsrelay       
+если будет холодно закрой окно                                                  	audiosystem         	windowrelay         
+если станет холодно то закрой окно                                              	audiosystem         	windowrelay         
+открой окно на кухне на 30 градусов                                             	temperaturesensor   	windowrelay         
+каждый день проверяй кофеварку в доме                                           	audiosystem         	coffeemachine       
+когда я поеду сделай кофе                                                       	audiosystem         	coffeemachine       
+гаси свет в спальне если никого нет                                             	audiosystem         	lamp                
+включай свет когда я захожу в спальню                                           	audiosystem         	lamp                
+на сколько хватает заряда                                                       	audiosystem         	lamp                
+выключай свет когда я выйду из комнаты                                          	audiosystem         	smartelectricitymeter
+сколько в этом месяце было за электричество                                     	audiosystem         	smartelectricitymeter
+покорми меня                                                                    	audiosystem         	smartoven           
+подай печенье на зватрак                                                        	audiosystem         	smartoven           
+приготовь хлеб к нашему возвращению                                             	audiosystem         	smartbreadmaker     
+если будет дождь то сообщить взять зонт с уходом                                	audiosystem         	audiosystem         
+почем в этом году я заплатил за свет                                            	audiosystem         	audiosystem         
+очень тихо                                                                      	audiosystem         	audiosystem         
+выключи динамики на кухне и отключи в спальне                                   	audiosystem         	audiosystem         
+ставь эту песню чаще                                                            	audiosystem         	audiosystem         
+если на улице температура число градусов включи обогреватель                    	audiosystem         	temperaturesensor   
+какая сегодня температура                                                       	audiosystem         	temperaturesensor   
+если меня нет дома не включай кондиционер                                       	audiosystem         	temperaturesensor   
+сколько сейчас градусов на улице                                                	audiosystem         	temperaturesensor   
+запиши передачу если я засну                                                    	audiosystem         	tvset               
+запомни передачу если я лягу                                                    	audiosystem         	tvset               
+если меня нет дома не мой пол                                                   	audiosystem         	smartvacuumcleaner  
+пропылесось здесь пока я буду в ванной                                          	audiosystem         	smartvacuumcleaner  
+ктото остался дома сегодня днем                                                 	audiosystem         	motionsensor        
+ктонибудь был дома сегодня днем                                                 	audiosystem         	motionsensor        
+нужно ли покупать продукты                                                      	audiosystem         	smartfridge         
+какие у нас есть орехи                                                          	audiosystem         	smartfridge         
+кот давненько не ел покорми его                                                 	audiosystem         	smartfeeder         
+мне кажется кот слишком много ест                                               	audiosystem         	smartfeeder         
+запусти стирку для цветного                                                     	audiosystem         	washingmachine      
+сколько раз за месяц была стирка                                                	audiosystem         	washingmachine      
+какие из окон в квартире сейчас открыты                                         	audiosystem         	doorwindowstatussensor
+выключи свет                                                                    	audiosystem         	lightsensor         
+выключай свет вдруг я выйду из комнаты                                          	audiosystem         	lightsensor         
+закрыть окно если начался дождь                                                 	audiosystem         	humiditysensor      
+Correctly recognized 5 of 46 (10.87 %)

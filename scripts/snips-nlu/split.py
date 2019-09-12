@@ -2,10 +2,10 @@ import json, random
 
 TEST_PERCENTAGE = 20
 
-INPUT_FILE = "../../dataset/snips_nlu/data.json"
+INPUT_FILE = "../../dataset/snips-nlu/data.json"
 
-TRAIN_FILE = "../../dataset/snips_nlu/train.json"
-TEST_FILE = "../../dataset/snips_nlu/test.json"
+TRAIN_FILE = "../../dataset/snips-nlu/train.json"
+TEST_FILE = "../../dataset/snips-nlu/test.json"
 
 with open(INPUT_FILE) as f:
 	data = json.load(f)
