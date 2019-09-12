@@ -1,6 +1,6 @@
 {
 		"utterance_id": 390,
-		"ontology-label": "DoorWindowStatusSensor"
+		"ontology-label": "DoorWindowStatusSensor",
 		"text": ["если кот уже поел выпусти его"],
                 "slots-indices": [{"COMMAND":[4], "CommandFeature":[1], "FeatureState":[3]}],
 		"hidden-slot-indices": [{"DEVICE": [4]}],

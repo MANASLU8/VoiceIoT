@@ -2,6 +2,6 @@
 		"utterance_id": 355,
 		"ontology-label": "TVSet",
 		"text": ["запиши передачи если я усну"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action"[4]}],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action": [4]}],
 		"condition-indices": [0, 1, 2, 3, 4]
 }

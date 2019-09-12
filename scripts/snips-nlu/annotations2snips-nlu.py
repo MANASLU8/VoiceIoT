@@ -58,6 +58,7 @@ def handle_files(input_files):
 	entity_names = set({})
 	for j in range(len(input_files)):
 		input_file = input_files[j]
+		print(f'handling file {input_file}')
 		with open(input_file) as f:
 			annotation = json.loads(f.read())
 		ontology_label = extract_ontology_label(annotation)
