@@ -1,0 +1,7 @@
+{
+		"utterance_id": 1762,
+		"ontology-label": "TemperatureSensor",
+		"text": ["тут слишком прохладно"],
+                "slots-indices": [{"LOC":[0], "IntensityQuantifier":[1], "CommandFeature":[2]}],
+		"condition-indices": [0, 1, 2]
+}
