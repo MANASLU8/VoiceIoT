@@ -1,0 +1,8 @@
+{
+	"utterance_id": 3005,
+	"ontology-label": "SmartBreadMaker",
+	"text": ["Приготовь хлеб к нашему возвращению"], 
+        "slots-indices": [{ "COMMAND":[0], "CommandFeature":[1]}],
+        "schedule": [{"time:DateTimeDescription": [3, 4]}]   
+
+}

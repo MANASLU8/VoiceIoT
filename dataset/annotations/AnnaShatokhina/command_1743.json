@@ -1,0 +1,8 @@
+{
+		"utterance_id": 1743,
+		"ontology-label": "HeaterController",
+		"text": ["в 5 часов включи обогреватель на кухне"],
+                "slots-indices": [{"COMMAND":[3], "LOC":[6], "DEVICE": [4]}],
+		"schedule": [{"time:DateTimeDescription": [0, 1, 2]}],
+		"condition-indices": [0, 1, 2, 3, 4, 5, 6, 7]
+}

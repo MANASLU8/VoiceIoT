@@ -1,0 +1,8 @@
+{
+	"utterance_id": 10022,
+	"ontology-label": "HeaterController",
+	"text": "Eсли на улице холодно включи обогреватель", 
+        "slots-indices": [{ "COMMAND":[4], "DEVICE": [5], "LOC":[2]}],
+        "condition-indices": [0, 1, 2, 3],
+        "hidden-slot-indices": [{"CommandFeature": [3]}]
+}

@@ -1,0 +1,7 @@
+{
+		"utterance_id": 395,
+		"ontology-label": "Printer",
+		"text": ["сделай копию паспорта"],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1, 2]}],
+		"condition-indices": [0, 1, 2]
+}

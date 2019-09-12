@@ -1,0 +1,8 @@
+{
+		"utterance_id": 391,
+		"ontology-label": "CoffeeMachine",
+		"text": ["когда я зайду сделай кофе"],
+                "slots-indices": [{"COMMAND":[3], "Actor":[1], "Action":[2], "CommandFeature":[4]}],
+		"schedule": [{"time:DateTimeDescription": [2, 3, 4]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}

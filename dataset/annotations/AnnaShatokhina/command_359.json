@@ -1,0 +1,8 @@
+{
+		"utterance_id": 359,
+		"ontology-label": "FloorLite",
+		"text": ["включи подсветку к 7 вечера"],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[2]}],
+		"schedule": [{"time:DateTimeDescription": [3, 4]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}

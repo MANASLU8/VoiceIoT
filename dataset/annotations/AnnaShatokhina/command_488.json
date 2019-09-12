@@ -1,0 +1,8 @@
+{
+		"utterance_id": 488,
+		"ontology-label": "CoffeeMachine",
+		"text": ["подогрей кофе завтра к полуночи"],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}],
+		"schedule": [{"time:DateTimeDescription": [2, 3, 4]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}

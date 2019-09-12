@@ -1,0 +1,7 @@
+{
+	"utterance_id": 10088,
+	"ontology-label": "SmartFeeder",
+	"text": "корми кота шесть раз в день", 
+        "slots-indices": [{ "COMMAND":[0], "CommandFeature": [1]}],
+        "schedule": [{"regularlyRepeating": [2, 3, 4, 5]}]
+}

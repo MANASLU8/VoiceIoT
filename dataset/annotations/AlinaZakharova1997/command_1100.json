@@ -1,0 +1,8 @@
+{
+	"utterance_id": 1100,
+	"ontology-label": "AudioSystem",
+	"text": ["выключи аудиосистему когда я возвращаюсь домой"],
+        "slots-indices": [{ " COMMAND":[0], "DEVICE":[1], "Actor":[3], "Action":[4],"LOC":[5]}],
+        "condition-indices": [2, 3, 4, 5]
+        
+}

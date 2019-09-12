@@ -1,0 +1,6 @@
+{
+	"utterance_id": 10084,
+	"ontology-label": "HeaterController",
+	"text": "включай отопление в комнате", 
+        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1], "LOC":[3]}]
+}

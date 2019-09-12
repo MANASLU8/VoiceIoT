@@ -1,0 +1,6 @@
+{
+	"utterance_id": 5008,
+	"ontology-label": "WaterTapRelay",
+	"text": ["выключи водопровод в комнате"],
+        "slots-indices": [{ " COMMAND":[0], "CommandFeature":[1], "LOC":[3]}]  
+}

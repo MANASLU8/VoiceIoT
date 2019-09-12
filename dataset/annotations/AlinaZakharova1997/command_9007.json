@@ -1,0 +1,8 @@
+{
+	"utterance_id": 9007,
+	"ontology-label": "TVSet",
+	"text": "запиши передачу если я засну", 
+        "slots-indices": [{ "COMMAND":[0], "Devicefeature": [1], "Actor":[3], "Action":[4]}],
+        "condition-indices": [2, 3, 4]
+
+}

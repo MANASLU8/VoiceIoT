@@ -1,0 +1,7 @@
+{
+	"utterance_id": 80,
+	"ontology-label": ["LightSensor","FloorLite","Lamp"],
+	"text": ["Выключи свет"],
+        "slots-indices": [{ " COMMAND":[0], "DeviceFeature":[1]}]
+        
+}

@@ -1,0 +1,8 @@
+{
+	"utterance_id": 7009,
+	"ontology-label": "CurtainsRelay",
+	"text": "откроешь жалюзи если слишком темно", 
+        "slots-indices": [{ "COMMAND":[0], "CommandFeature": [1], "IntensityQuantifier":[3], "CommandState":[4]}],
+        "condition-indices": [2, 3, 4]
+
+}

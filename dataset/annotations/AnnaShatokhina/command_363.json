@@ -1,0 +1,7 @@
+{
+		"utterance_id": 363,
+		"ontology-label": "TemperatureSensor",
+		"text": ["сколько градусов на улице"],
+                "slots-indices": [{"ParameterValueQuestion":[1], "LOC":[3]}],
+		"condition-indices": [0, 1, 2, 3]
+}

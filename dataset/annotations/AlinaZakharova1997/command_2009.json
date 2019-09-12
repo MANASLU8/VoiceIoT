@@ -1,0 +1,7 @@
+{
+	"utterance_id": 2009,
+	"ontology-label": "CoffeeMachine",
+	"text": ["Когда я поеду сделай кофе"],
+        "slots-indices": [{ "COMMAND":[3], "Actor":[1], "Action":[2], "CommandFeature":[4]}],
+        "condition-indices": [0, 1, 2]   
+}

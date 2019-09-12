@@ -1,0 +1,7 @@
+{
+		"utterance_id": 378,
+		"ontology-label": "Lamp",
+		"text": ["Выключай свет когда я иду из санузла"],
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action":[4], "LOC":[6]}],
+		"condition-indices": [0, 1, 2, 3, 4, 5, 6]
+}

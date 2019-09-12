@@ -1,0 +1,6 @@
+{
+	"utterance_id": 10012,
+	"ontology-label": "DoorWindowStatusSensor",
+	"text": "проверь двери в доме", 
+        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1], "LOC":[3]}]
+}

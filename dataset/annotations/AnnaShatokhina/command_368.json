@@ -1,0 +1,7 @@
+{
+		"utterance_id": 368,
+		"ontology-label": "MotionSensor",
+		"text": ["кто-нибудь был дома сегодня днем"],
+                "slots-indices": [{"Actor":[0], "Action":[1], "LOC":[2]}],
+		"condition-indices": [0, 1, 2, 3, 4]
+}	

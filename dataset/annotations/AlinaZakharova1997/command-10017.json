@@ -1,0 +1,7 @@
+{
+	"utterance_id": 10017,
+	"ontology-label": "HumiditySensor",
+	"text": "включи датчик влажности когда я приду домой", 
+        "slots-indices": [{ "COMMAND":[0], "DEVICE": [1, 2], "Actor":[4], "Action":[5], "LOC":[6]}],
+        "condition-indices": [3, 4, 5, 6]
+}

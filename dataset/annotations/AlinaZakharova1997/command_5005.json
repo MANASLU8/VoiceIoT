@@ -1,0 +1,6 @@
+{
+	"utterance_id": 5005,
+	"ontology-label": "SmartFridge",
+	"text": ["сколько мяса осталось"],
+        "slots-indices": [{ " RequestQuestion":[0], "CommandFeature":[1], "FeatureState":[2]}]  
+}

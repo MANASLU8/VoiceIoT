@@ -1,0 +1,7 @@
+{
+	"utterance_id": 70,
+	"ontology-label": "DoorWindowStatusSensor",
+	"text": ["какие из окон в квартире сейчас открыты"],
+        "slots-indices": [{ " DeviceQuestion":[0], "DeviceFeature":[2], "LOC":[4], "FeatureState":[6]}]
+        
+}

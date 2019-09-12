@@ -1,0 +1,7 @@
+{
+	"utterance_id": 3006,
+	"ontology-label": ["AudioSystem","AlarmClock"],
+	"text": ["увеличь звук на три пункта"], 
+        "slots-indices": [{ "COMMAND":[0], "CommandFeature":[1], "DeviceParameterValue":[3], "DeviceFeature":[4]}]  
+
+}

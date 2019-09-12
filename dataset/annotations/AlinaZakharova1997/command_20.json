@@ -1,0 +1,7 @@
+{
+	"utterance_id": 20,
+	"ontology-label": ["Lamp", "Phone"],
+	"text": ["На сколько хватает заряда"],
+        "slots-indices": [{ " DeviceQuestion":[1], "FeatureState":[2], "DeviceFeature":[3]}]
+        
+}

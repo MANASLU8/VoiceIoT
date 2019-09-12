@@ -1,0 +1,8 @@
+{
+	"utterance_id": 4003,
+	"ontology-label": "SmartFeeder",
+	"text": ["корми пса четыре раза в день"], 
+        "slots-indices": [{ "COMMAND":[0], "CommandFeature":[1]}],
+        "schedule" :[{"regularlyRepeating": [2, 3, 4, 5]}] 
+
+}

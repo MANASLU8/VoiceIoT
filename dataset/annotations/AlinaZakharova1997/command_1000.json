@@ -1,0 +1,7 @@
+{
+	"utterance_id": 1000,
+	"ontology-label": "MotionSensor",
+	"text": ["проверь второй этаж"],
+        "slots-indices": [{ " COMMAND":[0], "LOC":[1, 2]}]
+        
+}
