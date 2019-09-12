@@ -2,6 +2,6 @@
 		"utterance_id": 1777,
 		"ontology-label": "HeaterController",
 		"text": ["установить температуру на 23 градуса"],
-              "slots-indices": [{"COMMAND":[0], "DeviceParameter":[1], "DeviceParameterValue":[3, 4]}],
+              	"slots-indices": [{"COMMAND":[0], "DeviceParameter":[1], "DeviceParameterValue":[3, 4]}],
 		"condition-indices": [0, 1, 2, 3, 4]
 }
