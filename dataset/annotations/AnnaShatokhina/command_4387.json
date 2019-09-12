@@ -3,6 +3,6 @@
 		"ontology-label": "CurtainsRelay",
 		"text": ["закрой шторы в 9 вечера"],
 		"schedule": [{"time:DateTimeDescription": [3,4]}],
-    "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}],
+    		"slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}],
 		"condition-indices": [0, 1, 2, 3, 4]
 }
