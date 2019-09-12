@@ -1,7 +1,7 @@
 from snips_nlu import SnipsNLUEngine
 import json
 
-with open("../../dataset/snips_nlu/train-all.json") as f:
+with open("../../dataset/snips_nlu/train.json") as f:
 	sample_dataset = json.load(f)
 engine = SnipsNLUEngine()
 engine.fit(sample_dataset)
