@@ -1,0 +1,7 @@
+{
+		"utterance_id": 1772,
+		"ontology-label": "TemperatureSensor",
+		"text": ["какая сегодня погода"],
+                "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[2]}],
+		"condition-indices": [0, 1, 2]
+}
