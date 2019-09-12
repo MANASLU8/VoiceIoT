@@ -1,0 +1,7 @@
+{
+		"utterance_id": 338,
+		"ontology-label": "SmartWaterMeter",
+		"text": ["если на улице холодно включи гвс"],
+                "slots-indices": [{"COMMAND":[4], "CommandFeature":[3, 5], "LOC":[2]}],
+		"condition-indices": [0, 1, 2, 3, 4, 5]
+}
