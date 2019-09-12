@@ -1,0 +1,7 @@
+{
+		"utterance_id": 4368,
+		"ontology-label": "TVSet",
+		"text": ["включи телевизор"],
+    "slots-indices": [{"COMMAND":[0], "DEVICE": [1]}],
+		"condition-indices": [0, 1]
+}
