@@ -1,0 +1,7 @@
+{
+		"utterance_id": 1775,
+		"ontology-label": "WashingMachine",
+		"text": ["сколько раз за неделю я стирал"],
+              "slots-indices": [{"ParameterValueQuestion":[0], "Actor":[4], "Action":[5]}],
+		"condition-indices": [0, 1, 2, 3, 4, 5]
+}
