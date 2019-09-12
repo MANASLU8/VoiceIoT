@@ -1,3 +1,4 @@
+Sample                                                                          	recognized-label    	true-label          
 включай отопление в спальне                                                     	audiosystem         	heatercontroller    
 в 5 часов включи обогреватель на кухне                                          	audiosystem         	heatercontroller    
 отключи водопровод в гостинной                                                  	audiosystem         	watertaprelay       
