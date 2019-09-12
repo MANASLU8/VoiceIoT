@@ -1,0 +1,7 @@
+{
+		"utterance_id": 370,
+		"ontology-label": "SmartFeeder",
+		"text": ["мне кажется кот слишком много ест"],
+                "slots-indices": [{"Actor":[0], "Action":[1], "CommandFeature":[2], "IntensityQuantifier":[3] "FeatureState":[5]}],
+		"condition-indices": [0, 1, 2, 3, 4, 5]
+}
