@@ -1,0 +1,48 @@
+Sample                                                                          	recognized-label    	true-label          	correctly-recognized          
+eсли на улице холодно включи обогреватель                                       	WaterTapRelay       	HeaterController    	False
+закрыть дверь если начался снег                                                 	WaterTapRelay       	HeaterController    	False
+набери воду в ванну к нашему приходу                                            	HeaterController    	WaterTapRelay       	False
+я пытаюсь принять ванную                                                        	Humidifier          	WaterTapRelay       	False
+я хочу принять ванну                                                            	AudioSystem         	WaterTapRelay       	False
+допустим за окном небо закрой шторы                                             	AudioSystem         	CurtainsRelay       	False
+если за окном солнце открой шторы                                               	TVSet               	CurtainsRelay       	False
+открой жалюзи если слишком темно                                                	Printer             	CurtainsRelay       	False
+если будет холодно закрой окно                                                  	SmartKettle         	WindowRelay         	False
+проветри здесь пока я буду в ванной                                             	AudioSystem         	WindowRelay         	False
+открой окно на кухне на 30 градусов                                             	WaterTapRelay       	WindowRelay         	False
+когда я зайду сделай кофе                                                       	AudioSystem         	CoffeeMachine       	False
+проверь состояние кофеварки                                                     	WaterTapRelay       	CoffeeMachine       	False
+на сколько хватает заряда                                                       	AudioSystem         	Lamp                	False
+выключай свет каждый раз когда я ухожу из гостиной                              	WaterTapRelay       	Lamp                	False
+выключай свет если я выхожу из спальни                                          	WindowRelay         	Lamp                	False
+выключи электричество в ванной                                                  	HeaterController    	SmartElectricityMeter	False
+выключай свет когда я выйду из комнаты                                          	AudioSystem         	SmartElectricityMeter	False
+сколько часов стоит суп в духовке                                               	Humidifier          	SmartOven           	False
+когда будет готова пицца в духовке                                              	AudioSystem         	SmartOven           	False
+включи готовку в 8 вечера                                                       	WaterTapRelay       	SmartBreadMaker     	False
+добавляй песню в мою коллекцию                                                  	AudioSystem         	AudioSystem         	True
+почем в этом году я заплатил за свет                                            	Lamp                	AudioSystem         	False
+ставь эту песню чаще                                                            	HeaterController    	AudioSystem         	False
+сделай громче                                                                   	WaterTapRelay       	AudioSystem         	False
+пропусти песню                                                                  	Humidifier          	AudioSystem         	False
+сколько сейчас градусов на улице                                                	AudioSystem         	TemperatureSensor   	False
+если на улице холодно включи отопление                                          	HeaterController    	TemperatureSensor   	False
+eсли на улице больше число градусов отключи электричество                       	LightSensor         	TemperatureSensor   	False
+если меня нет дома не включай кондиционер                                       	TVSet               	TemperatureSensor   	False
+подготовить обстановку к просмотру фильма                                       	HeaterController    	TVSet               	False
+запомни передачу если я лягу                                                    	AudioSystem         	TVSet               	False
+пропылесось здесь пока я буду в комнате                                         	AudioSystem         	SmartVacuumCleaner  	False
+пропылесось здесь пока я буду на кухне                                          	AudioSystem         	SmartVacuumCleaner  	False
+предупреди когда грузовик сзади меня будет вплотную                             	LightSensor         	MotionSensor        	False
+ктонибудь был дома сегодня днем                                                 	LightSensor         	MotionSensor        	False
+сколько мяса осталось                                                           	SmartKettle         	SmartFridge         	False
+нужно ли покупать продукты                                                      	AudioSystem         	SmartFridge         	False
+если песик давно не ел покорми его                                              	TVSet               	SmartFeeder         	False
+кот давненько не ел покорми его                                                 	AudioSystem         	SmartFeeder         	False
+включай стиральную машину в 2305 каждое четное число месяца                     	AudioSystem         	WashingMachine      	False
+поставь в расписание стирку на 6 утра                                           	AudioSystem         	WashingMachine      	False
+какие двери в доме открыты                                                      	AudioSystem         	DoorWindowStatusSensor	False
+выключай свет если я ухожу из прихожей                                          	WindowRelay         	LightSensor         	False
+выключай свет вдруг я выйду из комнаты                                          	WindowRelay         	LightSensor         	False
+установи температуру на число а влажность на число                              	WaterTapRelay       	HumiditySensor      	False
+Correctly recognized 1 of 46 (2.17 %)

@@ -1,0 +1,48 @@
+Sample                                                                          	recognized-label    	true-label          
+закрыть дверь если начался снег                                                 	CurtainsRelay       	HeaterController    
+включай отопление в комнате                                                     	HeaterController    	HeaterController    
+включи воду                                                                     	AudioSystem         	WaterTapRelay       
+отключи водопровод в гостинной                                                  	AudioSystem         	WaterTapRelay       
+набери воду в ванну к нашему приходу                                            	HumiditySensor      	WaterTapRelay       
+когда последний раз снимали занавески                                           	CurtainsRelay       	CurtainsRelay       
+если за окном рассвет открой занавески                                          	CurtainsRelay       	CurtainsRelay       
+открой жалюзи если слишком темно                                                	CurtainsRelay       	CurtainsRelay       
+если на улице жарко открой окно                                                 	WindowRelay         	WindowRelay         
+проветрите здесь пока я буду в комнате                                          	SmartVacuumCleaner  	WindowRelay         
+ежели будет жарко закрой окно                                                   	WindowRelay         	WindowRelay         
+когда я поеду сделай кофе                                                       	CoffeeMachine       	CoffeeMachine       
+проверь состояние кофеварки                                                     	MotionSensor        	CoffeeMachine       
+выключи свет                                                                    	Lamp                	Lamp                
+включай солнце когда я захожу в комнату                                         	Lamp                	Lamp                
+выключай свет когда я иду из санузла                                            	Lamp                	Lamp                
+включай электричество в комнате                                                 	SmartElectricityMeter	SmartElectricityMeter
+сколько в этом месяце было за электричество                                     	SmartElectricityMeter	SmartElectricityMeter
+сколько дней стоит суп в духовке                                                	SmartOven           	SmartOven           
+приготовь мне какиенибудь овощи                                                 	AudioSystem         	SmartOven           
+приготовь хлеб                                                                  	SmartBreadMaker     	SmartBreadMaker     
+прочитай передачи тогда я засну                                                 	AudioSystem         	AudioSystem         
+увеличь громкость чтобы не мешал стук                                           	AudioSystem         	AudioSystem         
+выключи динамики на кухне и в спальне                                           	AudioSystem         	AudioSystem         
+отключи музыку если я лягу                                                      	AudioSystem         	AudioSystem         
+включи стереосистему если я приду домой                                         	AudioSystem         	AudioSystem         
+как сейчас холодно                                                              	WindowRelay         	TemperatureSensor   
+поддерживай температуру в комнате на уровне число                               	HumiditySensor      	TemperatureSensor   
+мне сейчас так жарко                                                            	TemperatureSensor   	TemperatureSensor   
+если меня нет дома не включай кондиционер                                       	SmartVacuumCleaner  	TemperatureSensor   
+запиши передачу если я засну                                                    	TVSet               	TVSet               
+включи телевизор                                                                	AudioSystem         	TVSet               
+пропылесось здесь пока я буду на кухне                                          	SmartVacuumCleaner  	SmartVacuumCleaner  
+подмети здесь пока я буду на кухне                                              	SmartVacuumCleaner  	SmartVacuumCleaner  
+ктонибудь был дома сегодня днем                                                 	MotionSensor        	MotionSensor        
+снимай парктроник когда я иду домой                                             	AudioSystem         	MotionSensor        
+какие у нас есть орехи                                                          	SmartFridge         	SmartFridge         
+проверь наличие еды в холодильнике                                              	SmartFridge         	SmartFridge         
+корми кота шесть раз в день                                                     	WashingMachine      	SmartFeeder         
+насыпай коту меньше корма                                                       	WashingMachine      	SmartFeeder         
+поставь в расписание стирку на 6 утра                                           	HeaterController    	WashingMachine      
+включай стиральную машину по четвергам                                          	WashingMachine      	WashingMachine      
+какие из окон в квартире сейчас открыты                                         	AudioSystem         	DoorWindowStatusSensor
+выключай свет если я ухожу из прихожей                                          	Lamp                	LightSensor         
+выключай свет вдруг я выйду из комнаты                                          	SmartElectricityMeter	LightSensor         
+закрыть окно если начался дождь                                                 	WindowRelay         	HumiditySensor      
+Correctly recognized 27 of 46 (58.7 %)

@@ -1,0 +1,35 @@
+{
+  "config": {
+    "task": {
+      "IntentSlotTask": {
+        "data": {
+          "Data": {
+            "source": {
+              "TSVDataSource": {
+                "field_names": [
+                  "label",
+                  "slots",
+                  "text",
+                  "doc_weight",
+                  "word_weight"
+                ],
+                "train_filename": "../../dataset/pytext/train-extended.tsv",
+                "test_filename": "../../dataset/pytext/validate-extended.tsv",
+                "eval_filename": "../../dataset/pytext/validate-extended.tsv"
+              }
+            }
+          }
+        },
+        "model": {
+          "representation": {
+            "BiLSTMDocSlotAttention": {}
+          }
+        },
+        "trainer": {
+          "epochs": 20
+        }
+      }
+    }
+  },
+  "export_torchscript_path": "../../models/pytext/model-bilstm.pt"
+}

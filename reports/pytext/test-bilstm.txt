@@ -1,0 +1,48 @@
+Sample                                                                          	recognized-label    	true-label          	correctly-recognized          
+в 8 часов включи обогреватель в ванной на 23 градуса                            	AudioSystem         	HeaterController    	False
+eсли на улице холодно включи обогреватель                                       	AlarmClock          	HeaterController    	False
+помой ягоды и огурцы                                                            	AudioSystem         	WaterTapRelay       	False
+полностью перекрой воду                                                         	AudioSystem         	WaterTapRelay       	False
+наполни горячую ванную к моему приходу                                          	AlarmClock          	WaterTapRelay       	False
+если за окном рассвет открой занавески                                          	AlarmClock          	CurtainsRelay       	False
+когда последний раз открывали шторы                                             	AudioSystem         	CurtainsRelay       	False
+открой жалюзи если слишком темно                                                	AudioSystem         	CurtainsRelay       	False
+если на улице жарко открой окно                                                 	AlarmClock          	WindowRelay         	False
+если будет холодно то закрой окно                                               	AlarmClock          	WindowRelay         	False
+если будет жарко то закрой окно                                                 	AlarmClock          	WindowRelay         	False
+подогрей кофе завтра к полуночи                                                 	AlarmClock          	CoffeeMachine       	False
+каждый день проверяй кофеварку в доме                                           	AudioSystem         	CoffeeMachine       	False
+на сколько хватает заряда                                                       	AlarmClock          	Lamp                	False
+выключай свет когда я иду из санузла                                            	AlarmClock          	Lamp                	False
+меняй каждый день фонарик на время                                              	AlarmClock          	Lamp                	False
+сколько в этом году я заплатил за свет                                          	AlarmClock          	SmartElectricityMeter	False
+выключи электричество в ванной                                                  	AudioSystem         	SmartElectricityMeter	False
+сколько дней стоит суп в духовке                                                	AlarmClock          	SmartOven           	False
+покорми меня                                                                    	SmartBreadMaker     	SmartOven           	False
+включи готовку в 8 вечера                                                       	AudioSystem         	SmartBreadMaker     	False
+включи стереосистему если я приду домой                                         	AudioSystem         	AudioSystem         	True
+включай аудиосистему если я возвращаюсь домой                                   	AudioSystem         	AudioSystem         	True
+отключи музыку если я лягу                                                      	AlarmClock          	AudioSystem         	False
+включи аудиосистему когда я приду домой                                         	SmartFeeder         	AudioSystem         	False
+увеличь звук на три пункта                                                      	AlarmClock          	AudioSystem         	False
+если на улице холодно включи отопление                                          	AlarmClock          	TemperatureSensor   	False
+проветри зал и кухню                                                            	AudioSystem         	TemperatureSensor   	False
+днем включи обогреватель в спальне                                              	AudioSystem         	TemperatureSensor   	False
+очень жарко                                                                     	AudioSystem         	TemperatureSensor   	False
+включи телевизор                                                                	AudioSystem         	TVSet               	False
+где пульт от телевизора                                                         	AudioSystem         	TVSet               	False
+пропылесось здесь пока я буду в ванной                                          	AudioSystem         	SmartVacuumCleaner  	False
+пропылесось здесь пока я буду в комнате                                         	AlarmClock          	SmartVacuumCleaner  	False
+ктото остался дома сегодня днем                                                 	AudioSystem         	MotionSensor        	False
+кто брал твою машину                                                            	AudioSystem         	MotionSensor        	False
+что из пищи осталось                                                            	AlarmClock          	SmartFridge         	False
+у нас найдутся какиенибудь овощи                                                	AudioSystem         	SmartFridge         	False
+кот давненько не ел покорми его                                                 	WaterTapRelay       	SmartFeeder         	False
+мне кажется кот слишком много ест                                               	AlarmClock          	SmartFeeder         	False
+включай стиральную машину по четвергам                                          	AudioSystem         	WashingMachine      	False
+включай стиральную машину в 2305 каждое четное число месяца                     	AudioSystem         	WashingMachine      	False
+какие из окон в квартире сейчас открыты                                         	AlarmClock          	DoorWindowStatusSensor	False
+гаси свет в комнате                                                             	AlarmClock          	LightSensor         	False
+выключай свет если я ухожу из прихожей                                          	AudioSystem         	LightSensor         	False
+закрыть окно если начался дождь                                                 	AlarmClock          	HumiditySensor      	False
+Correctly recognized 2 of 46 (4.35 %)

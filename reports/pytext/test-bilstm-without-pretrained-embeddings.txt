@@ -1,0 +1,48 @@
+Sample                                                                          	recognized-label    	true-label          	correctly-recognized          
+в 8 часов включи обогреватель в ванной на 23 градуса                            	__UNKNOWN__         	HeaterController    	False
+eсли на улице холодно включи обогреватель                                       	SmartWaterMeter     	HeaterController    	False
+помой ягоды и огурцы                                                            	WindowRelay         	WaterTapRelay       	False
+полностью перекрой воду                                                         	WindowRelay         	WaterTapRelay       	False
+наполни горячую ванную к моему приходу                                          	WindowRelay         	WaterTapRelay       	False
+если за окном рассвет открой занавески                                          	WindowRelay         	CurtainsRelay       	False
+когда последний раз открывали шторы                                             	WindowRelay         	CurtainsRelay       	False
+открой жалюзи если слишком темно                                                	SmartWaterMeter     	CurtainsRelay       	False
+если на улице жарко открой окно                                                 	WindowRelay         	WindowRelay         	True
+если будет холодно то закрой окно                                               	WindowRelay         	WindowRelay         	True
+если будет жарко то закрой окно                                                 	WindowRelay         	WindowRelay         	True
+подогрей кофе завтра к полуночи                                                 	WindowRelay         	CoffeeMachine       	False
+каждый день проверяй кофеварку в доме                                           	TVSet               	CoffeeMachine       	False
+на сколько хватает заряда                                                       	WindowRelay         	Lamp                	False
+выключай свет когда я иду из санузла                                            	SmartWaterMeter     	Lamp                	False
+меняй каждый день фонарик на время                                              	WindowRelay         	Lamp                	False
+сколько в этом году я заплатил за свет                                          	WindowRelay         	SmartElectricityMeter	False
+выключи электричество в ванной                                                  	TVSet               	SmartElectricityMeter	False
+сколько дней стоит суп в духовке                                                	SmartKettle         	SmartOven           	False
+покорми меня                                                                    	WindowRelay         	SmartOven           	False
+включи готовку в 8 вечера                                                       	TVSet               	SmartBreadMaker     	False
+включи стереосистему если я приду домой                                         	__UNKNOWN__         	AudioSystem         	False
+включай аудиосистему если я возвращаюсь домой                                   	WindowRelay         	AudioSystem         	False
+отключи музыку если я лягу                                                      	__UNKNOWN__         	AudioSystem         	False
+включи аудиосистему когда я приду домой                                         	__UNKNOWN__         	AudioSystem         	False
+увеличь звук на три пункта                                                      	__UNKNOWN__         	AudioSystem         	False
+если на улице холодно включи отопление                                          	WindowRelay         	TemperatureSensor   	False
+проветри зал и кухню                                                            	WindowRelay         	TemperatureSensor   	False
+днем включи обогреватель в спальне                                              	TVSet               	TemperatureSensor   	False
+очень жарко                                                                     	SmartWaterMeter     	TemperatureSensor   	False
+включи телевизор                                                                	SmartKettle         	TVSet               	False
+где пульт от телевизора                                                         	WindowRelay         	TVSet               	False
+пропылесось здесь пока я буду в ванной                                          	TVSet               	SmartVacuumCleaner  	False
+пропылесось здесь пока я буду в комнате                                         	Lamp                	SmartVacuumCleaner  	False
+ктото остался дома сегодня днем                                                 	__UNKNOWN__         	MotionSensor        	False
+кто брал твою машину                                                            	WindowRelay         	MotionSensor        	False
+что из пищи осталось                                                            	SmartWaterMeter     	SmartFridge         	False
+у нас найдутся какиенибудь овощи                                                	WindowRelay         	SmartFridge         	False
+кот давненько не ел покорми его                                                 	Lamp                	SmartFeeder         	False
+мне кажется кот слишком много ест                                               	SmartWaterMeter     	SmartFeeder         	False
+включай стиральную машину по четвергам                                          	WindowRelay         	WashingMachine      	False
+включай стиральную машину в 2305 каждое четное число месяца                     	TVSet               	WashingMachine      	False
+какие из окон в квартире сейчас открыты                                         	SmartWaterMeter     	DoorWindowStatusSensor	False
+гаси свет в комнате                                                             	WindowRelay         	LightSensor         	False
+выключай свет если я ухожу из прихожей                                          	SmartWaterMeter     	LightSensor         	False
+закрыть окно если начался дождь                                                 	WindowRelay         	HumiditySensor      	False
+Correctly recognized 3 of 46 (6.52 %)
