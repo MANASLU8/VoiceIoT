@@ -1,0 +1,7 @@
+{
+		"utterance_id": 201,
+		"ontology-label": ["WaterTapRelay","TemperatureSensor"],
+		"text": ["Eсли на улице меньше число температура включи водоснабжение"],
+    		"slots-indices": [{"COMMAND":[6], "CommandFeature":[7], "DeviceFeature": [5],"DeviceParameterValue":[4],"IntensityQuantifier":[3]}],
+			"condition-indices": [0, 1, 2, 3, 4, 5]
+}
