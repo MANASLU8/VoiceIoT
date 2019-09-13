@@ -1,0 +1,46 @@
+HeaterController	0:6:HeaterController.COMMAND,8:12:HeaterController.CommandFeature	закрыть дверь если начался снег
+HeaterController	0:6:HeaterController.COMMAND,8:16:HeaterController.DeviceFeature,20:26:HeaterController.LOC	включай отопление в комнате
+WaterTapRelay	0:5:WaterTapRelay.COMMAND,7:10:WaterTapRelay.CommandFeature	включи воду
+WaterTapRelay	0:6:WaterTapRelay.COMMAND,8:17:WaterTapRelay.CommandFeature,21:29:WaterTapRelay.LOC	отключи водопровод в гостинной
+WaterTapRelay	0:5:WaterTapRelay.COMMAND,7:10:WaterTapRelay.CommandFeature,14:18:WaterTapRelay.CommandFeature,22:27:WaterTapRelay.Actor,29:35:WaterTapRelay.Action	набери воду в ванну к нашему приходу
+CurtainsRelay	0:4:CurtainsRelay.CommandQuestion,20:26:CurtainsRelay.FeatureState,28:36:CurtainsRelay.DeviceFeature	когда последний раз снимали занавески
+CurtainsRelay	22:27:CurtainsRelay.COMMAND,29:37:CurtainsRelay.CommandFeature	если за окном рассвет открой занавески
+CurtainsRelay	0:5:CurtainsRelay.COMMAND,27:31:CurtainsRelay.CommandFeature,19:25:CurtainsRelay.IntensityQuantifier	открой жалюзи если слишком темно
+WindowRelay	20:25:WindowRelay.COMMAND,27:30:WindowRelay.CommandFeature,8:12:WindowRelay.LOC	если на улице жарко открой окно
+WindowRelay	0:9:WindowRelay.COMMAND,11:15:WindowRelay.LOCCurrent,22:22:WindowRelay.Actor,24:27:WindowRelay.Action,31:37:WindowRelay.LOC	проветрите здесь пока я буду в комнате
+WindowRelay	18:23:WindowRelay.COMMAND,12:16:WindowRelay.CommandFeature,25:28:WindowRelay.CommandFeature	ежели будет жарко закрой окно
+CoffeeMachine	14:19:CoffeeMachine.COMMAND,6:6:CoffeeMachine.Actor,8:12:CoffeeMachine.Action,21:24:CoffeeMachine.CommandFeature	когда я поеду сделай кофе
+CoffeeMachine	0:6:CoffeeMachine.COMMAND,8:16:CoffeeMachine.DeviceFeatureState,18:26:CoffeeMachine.DEVICE	проверь состояние кофеварки
+Lamp	0:6:Lamp.COMMAND,8:11:Lamp.DeviceFeature	выключи свет
+Lamp	0:6:Lamp.COMMAND,8:13:Lamp.DeviceFeature,21:21:Lamp.Actor,23:28:Lamp.Action,32:38:Lamp.LOC	включай солнце когда я захожу в комнату
+Lamp	0:7:Lamp.COMMAND,9:12:Lamp.CommandFeature,20:20:Lamp.Actor,22:24:Lamp.Action,29:35:Lamp.LOC	выключай свет когда я иду из санузла
+SmartElectricityMeter	0:6:SmartElectricityMeter.COMMAND,8:20:SmartElectricityMeter.CommandFeature,24:30:SmartElectricityMeter.LOC	включай электричество в комнате
+SmartElectricityMeter	0:6:SmartElectricityMeter.ParameterValueQuestion,30:42:SmartElectricityMeter.CommandFeature	сколько в этом месяце было за электричество
+SmartOven	0:6:SmartOven.ParameterValueQuestion,13:17:SmartOven.CommandFeature,19:21:SmartOven.CommandFeature,25:31:SmartOven.DEVICE	сколько дней стоит суп в духовке
+SmartOven	0:8:SmartOven.COMMAND,26:30:SmartOven.CommandFeature,10:12:SmartOven.Actor	приготовь мне какиенибудь овощи
+SmartBreadMaker	0:8:SmartBreadMaker.COMMAND	приготовь хлеб
+AudioSystem	0:7:AudioSystem.COMMAND,9:16:AudioSystem.CommandFeature,24:24:AudioSystem.Actor,26:30:AudioSystem.Action	прочитай передачи тогда я засну
+AudioSystem	0:6:AudioSystem.COMMAND,8:16:AudioSystem.CommandFeature	увеличь громкость чтобы не мешал стук
+AudioSystem	0:6:AudioSystem.COMMAND,8:15:AudioSystem.CommandFeature,20:24:AudioSystem.LOC,30:36:AudioSystem.LOC	выключи динамики на кухне и в спальне
+AudioSystem	0:6:AudioSystem.COMMAND,8:13:AudioSystem.CommandFeature,20:20:AudioSystem.Actor,22:25:AudioSystem.Action	отключи музыку если я лягу
+AudioSystem	0:5:AudioSystem.COMMAND,7:19:AudioSystem.DEVICE,26:26:AudioSystem.Actor,28:32:AudioSystem.Action,34:38:AudioSystem.LOC	включи стереосистему если я приду домой
+TemperatureSensor	11:17:TemperatureSensor.CommandFeature	как сейчас холодно
+TemperatureSensor	0:10:TemperatureSensor.COMMAND,12:22:TemperatureSensor.DeviceFeature,37:42:TemperatureSensor.DeviceFeature,44:48:TemperatureSensor.DeviceParameterValue,26:32:TemperatureSensor.LOC	поддерживай температуру в комнате на уровне число
+TemperatureSensor	11:13:TemperatureSensor.IntensityQuantifier,15:19:TemperatureSensor.CommandFeature,0:2:TemperatureSensor.Actor	мне сейчас так жарко
+TemperatureSensor	22:28:TemperatureSensor.COMMAND,30:40:TemperatureSensor.DEVICE,14:17:TemperatureSensor.LOC,5:8:TemperatureSensor.Actor,10:12:TemperatureSensor.Action	если меня нет дома не включай кондиционер
+TVSet	0:5:TVSet.COMMAND,7:14:TVSet.Devicefeature,21:21:TVSet.Actor,23:27:TVSet.Action	запиши передачу если я засну
+TVSet	0:5:TVSet.COMMAND,7:15:TVSet.DEVICE	включи телевизор
+SmartVacuumCleaner	0:10:SmartVacuumCleaner.COMMAND,12:16:SmartVacuumCleaner.LOCCurrent,23:23:SmartVacuumCleaner.Actor,25:28:SmartVacuumCleaner.Action,33:37:SmartVacuumCleaner.LOC	пропылесось здесь пока я буду на кухне
+SmartVacuumCleaner	0:6:SmartVacuumCleaner.COMMAND,8:12:SmartVacuumCleaner.LOCCurrent,19:19:SmartVacuumCleaner.Actor,21:24:SmartVacuumCleaner.Action,29:33:SmartVacuumCleaner.LOC	подмети здесь пока я буду на кухне
+MotionSensor	0:8:MotionSensor.Actor,10:12:MotionSensor.Action,14:17:MotionSensor.LOC	ктонибудь был дома сегодня днем
+MotionSensor	0:5:MotionSensor.COMMAND,7:16:MotionSensor.CommandFeature,24:24:MotionSensor.Actor,26:28:MotionSensor.Action,30:34:MotionSensor.LOC	снимай парктроник когда я иду домой
+SmartFridge	0:4:SmartFridge.ParameterValueQuestion,12:15:SmartFridge.CommandFeature,17:21:SmartFridge.CommandFeature	какие у нас есть орехи
+SmartFridge	0:6:SmartFridge.COMMAND,8:14:SmartFridge.FeatureState,16:18:SmartFridge.CommandFeature,22:33:SmartFridge.LOC	проверь наличие еды в холодильнике
+SmartFeeder	0:4:SmartFeeder.COMMAND,6:9:SmartFeeder.CommandFeature	корми кота шесть раз в день
+SmartFeeder	0:6:SmartFeeder.COMMAND,8:11:SmartFeeder.CommandFeature,13:18:SmartFeeder.IntensityQuantifier,20:24:SmartFeeder.DeviceFeature	насыпай коту меньше корма
+WashingMachine	0:6:WashingMachine.COMMAND,21:26:WashingMachine.CommandFeature	поставь в расписание стирку на 6 утра
+WashingMachine	0:6:WashingMachine.COMMAND,8:17:WashingMachine.DEVICE,19:24:WashingMachine.DEVICE	включай стиральную машину по четвергам
+DoorWindowStatusSensor	0:4:DoorWindowStatusSensor.DeviceQuestion,9:12:DoorWindowStatusSensor.DeviceFeature,16:23:DoorWindowStatusSensor.LOC,32:38:DoorWindowStatusSensor.FeatureState	какие из окон в квартире сейчас открыты
+LightSensor	0:7:LightSensor.COMMAND,9:12:LightSensor.CommandFeature,19:19:LightSensor.Actor,21:25:LightSensor.Action,30:37:LightSensor.LOC	выключай свет если я ухожу из прихожей
+LightSensor	0:7:LightSensor.COMMAND,9:12:LightSensor.CommandFeature,20:20:LightSensor.Actor,22:26:LightSensor.Action,31:37:LightSensor.LOC	выключай свет вдруг я выйду из комнаты
+HumiditySensor	0:6:HumiditySensor.COMMAND,8:11:HumiditySensor.DeviceFeature	закрыть окно если начался дождь

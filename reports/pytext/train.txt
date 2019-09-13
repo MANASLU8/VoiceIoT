@@ -1,0 +1,18 @@
+Install apex from https://github.com/NVIDIA/apex/.
+/home/zeio/VoiceIoT/python/lib/python3.7/site-packages/pytext/metrics/__init__.py:525: RuntimeWarning: invalid value encountered in long_scalars
+  recall_diff = added_positives / total_positive
+WARNING: Unable to export neural network graph to TensorBoard.
+Traceback (most recent call last):
+  File "/home/zeio/VoiceIoT/python/lib/python3.7/site-packages/pytext/metric_reporters/channel.py", line 288, in export
+    self.summary_writer.add_graph(model, input_to_model, **kwargs)
+  File "/home/zeio/VoiceIoT/python/lib/python3.7/site-packages/tensorboardX/writer.py", line 738, in add_graph
+    self._get_file_writer().add_graph(graph(model, input_to_model, verbose, **kwargs))
+  File "/home/zeio/VoiceIoT/python/lib/python3.7/site-packages/tensorboardX/pytorch_graph.py", line 255, in graph
+    list_of_nodes, node_stats = parse(graph, args)
+  File "/home/zeio/VoiceIoT/python/lib/python3.7/site-packages/tensorboardX/pytorch_graph.py", line 211, in parse
+    nodes_py.append(NodePyIO(node, 'input'))
+  File "/home/zeio/VoiceIoT/python/lib/python3.7/site-packages/tensorboardX/pytorch_graph.py", line 63, in __init__
+    super(NodePyIO, self).__init__(node_cpp, methods_IO)
+  File "/home/zeio/VoiceIoT/python/lib/python3.7/site-packages/tensorboardX/pytorch_graph.py", line 58, in __init__
+    setattr(self, m, getattr(node_cpp, m)())
+AttributeError: 'torch._C.Value' object has no attribute 'uniqueName'

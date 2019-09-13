@@ -4,12 +4,14 @@ sys.path.append("../../vendor/slots_intents/intents_slots")
 from model import BiLSTM_CRF
 from utils import intent_entities
 
+sys.path.append('../')
+from file_operators import read_json
+
 MODEL = "../../models/slots-intents/model.h5"
 DATASET_INFO = "../../dataset/slots-intents/dataset_info"
 TEST_FILE = "../../dataset/slots-intents/test.json"
 
-with open(TEST_FILE) as f:
-	test_dataset = json.load(f)
+test_dataset = read_json(TEST_FILE)
 
 counter = 0
 positive_counter = 0

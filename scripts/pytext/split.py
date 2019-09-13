@@ -5,11 +5,11 @@ from file_operators import read_lines, write_lines, write_json
 
 TEST_PERCENTAGE = 20
 
-INPUT_FILE = "../../dataset/slots-intents/data.csv"
+INPUT_FILE = "../../dataset/pytext/data.tsv"
 
-TRAIN_FILE = "../../dataset/slots-intents/train.csv"
-TEST_FILE = "../../dataset/slots-intents/test.json"
-VALIDATE_FILE = "../../dataset/slots-intents/validate.csv"
+TRAIN_FILE = "../../dataset/pytext/train.tsv"
+TEST_FILE = "../../dataset/pytext/test.json"
+VALIDATE_FILE = "../../dataset/pytext/validate.tsv"
 
 data = read_lines(INPUT_FILE)
 
@@ -19,7 +19,7 @@ validate_samples = []
 # group samples by labels
 samples = {}
 for sample in data:
-	label = sample.split(' ')[-1]
+	label = sample.split('\t')[0]
 	if label in samples:
 		samples[label].append(sample)
 	else:
@@ -27,7 +27,7 @@ for sample in data:
 
 print("Samples per label:")
 for label in samples.keys():
- 	print(f"{label:30s}: {len(samples[label])}")
+ 	print(f"{label:80s}: {len(samples[label])}")
  	quantity_for_test = len(samples[label]) * TEST_PERCENTAGE / float(100)
  	if quantity_for_test < 1:
  		continue
@@ -35,7 +35,7 @@ for label in samples.keys():
  	counter = 0
  	while counter < quantity_for_test:
  		choice = random.choice(samples[label])
- 		test_samples[label].append(' '.join(choice.split('\t')[0].split(' ')[1:-2]))
+ 		test_samples[label].append(choice.split('\t')[-1])
  		validate_samples.append(choice)
  		samples[label].remove(choice)
  		counter += 1

@@ -1,4 +1,7 @@
-import json, random
+import json, random, sys
+
+sys.path.append("../")
+from file_operators import read_json, write_json
 
 TEST_PERCENTAGE = 20
 
@@ -7,8 +10,7 @@ INPUT_FILE = "../../dataset/snips-nlu/data.json"
 TRAIN_FILE = "../../dataset/snips-nlu/train.json"
 TEST_FILE = "../../dataset/snips-nlu/test.json"
 
-with open(INPUT_FILE) as f:
-	data = json.load(f)
+data = read_json(INPUT_FILE)
 
 test_samples = {}
 
@@ -27,10 +29,5 @@ for label in data['intents'].keys():
 		data['intents'][label]['utterances'].remove(choice)
 		counter += 1
 
-with open(TRAIN_FILE, "w") as f:
-	f.write(json.dumps(data, indent=2).encode().decode('unicode-escape'))
-
-with open(TEST_FILE, "w") as f:
-	f.write(json.dumps(test_samples, indent=2).encode().decode('unicode-escape'))
-
-
+write_json(TRAIN_FILE, data)
+write_json(TEST_FILE, test_samples)

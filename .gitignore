@@ -1,2 +1,4 @@
 /python/
 /vendor/slots_intents/
+__pycache__/
+runs/

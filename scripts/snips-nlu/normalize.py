@@ -1,12 +1,14 @@
-import os, re
+import os, re, sys
 import json
+
+sys.path.append("../")
+from field_extractors import extract_text, extract_ontology_label
+from converters import decode_bio
+from utils import list_dataset_files
+from file_operators import write_json
 
 INPUT_FOLDER = "../../dataset/annotations"
 OUTPUT_FILE = "../../dataset/snips-nlu/data.json"
-
-def list_dataset_files(dataset_path):
-	annotators_folders = [os.path.join(dataset_path, annotator_folder) for annotator_folder in os.listdir(dataset_path)]
-	return [os.path.join(folder, file) for folder in annotators_folders for file in os.listdir(folder)]
 
 def join(collection, start_i, end_i):
 	return {"text": ' '.join([item['text'] for item in collection[start_i: end_i]])}
@@ -29,28 +31,6 @@ def join_empty(collection):
 	if empty_seq_start_i >= 0:
 		res.append(join(collection, empty_seq_start_i, len(collection)))
 	return res
-
-def extract_prop(annotation, property):
-	if type(annotation[property]) == list:
-		return annotation[property][0]
-	else:
-		return annotation[property]
-
-def extract_ontology_label(annotation):
-	return extract_prop(annotation, 'ontology-label')
-
-def extract_text(annotation):
-	return extract_prop(annotation, 'text')
-
-def decode_bio(bio):
-	dicti = {}
-	for pair in bio:
-		entity_name = pair[1].split("-", maxsplit = 1)[1]
-		if entity_name in dicti:
-			dicti[entity_name].append(pair[0])
-		else:
-			dicti[entity_name] = [pair[0]]
-	return dicti
 
 def make_chunk(i, entities, entity_names, word, ontology_label):
 	for entity_name in entities.keys():
@@ -83,7 +63,5 @@ def handle_files(input_files):
 			dicti[ontology_label] = {"utterances": [{"data": res}]}
 	return dicti, entity_names
 
-with open(OUTPUT_FILE, "w") as f:
-	intents, entities = handle_files(list_dataset_files(INPUT_FOLDER))
-	sample_entity = {"data": [], "use_synonyms": True, "automatically_extensible": True, "matching_strictness": 1.0}
-	f.write(json.dumps({"intents": intents, "entities": {entity: sample_entity for entity in entities}, "language": "en"}, indent=2).encode().decode('unicode-escape'))
+intents, entities = handle_files(list_dataset_files(INPUT_FOLDER))
+write_json(OUTPUT_FILE, {"intents": intents, "entities": {entity: {"data": [], "use_synonyms": True, "automatically_extensible": True, "matching_strictness": 1.0} for entity in entities}, "language": "en"})
