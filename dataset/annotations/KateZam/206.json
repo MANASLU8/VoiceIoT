@@ -1,0 +1,6 @@
+{
+	"utterance_id": 206,
+	"ontology-label": "AudioSystem",
+	"text": ["назови самую частую песню"],
+        "slots-indices": [{ " COMMAND":[0], "IntensityQuantifier":[1],"FeatureState":[2], "CommandFeature":[3]}]
+}
