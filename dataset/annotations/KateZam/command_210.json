@@ -1,0 +1,7 @@
+{
+		"utterance_id": 210,
+		"ontology-label": "SmartElectricityMeter",
+		"text": ["сколько в этом месяце уплачено за электричество"],
+                "slots-indices": [{"ParameterValueQuestion":[0],"Action":[4], "CommandFeature":[6]}],
+				"schedule": [{"time:DateTimeDescription": [2, 3]}]
+}
