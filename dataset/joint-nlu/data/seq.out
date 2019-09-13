@@ -1,0 +1,217 @@
+B-HeaterController.COMMAND B-HeaterController.DeviceParameter O B-HeaterController.DeviceParameterValue I-HeaterController.DeviceParameterValue
+B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature
+B-WaterTapRelay.Actor B-WaterTapRelay.Action I-WaterTapRelay.Action B-WaterTapRelay.CommandFeature
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O B-CurtainsRelay.IntensityQuantifier B-CurtainsRelay.CommandFeature
+B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC
+O O B-CurtainsRelay.LOC O B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature
+B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O O
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC
+B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature O B-SmartElectricityMeter.Actor B-SmartElectricityMeter.Action O B-SmartElectricityMeter.LOC
+O B-SmartIron.DEVICE O O B-SmartIron.DeviceState O B-SmartIron.COMMAND O
+B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature O I-WaterTapRelay.CommandFeature
+B-SmartOven.COMMAND B-SmartOven.Actor O B-SmartOven.CommandFeature
+B-Phone.COMMAND B-Phone.CommandFeature I-Phone.CommandFeature O B-Phone.DEVICE
+O B-SmartKettle.Actor B-SmartKettle.Action B-SmartKettle.COMMAND B-SmartKettle.CommandFeature
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O B-SmartBreadMaker.Actor B-SmartBreadMaker.Action
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O
+B-TemperatureSensor.ParameterValueQuestion O B-TemperatureSensor.CommandFeature
+B-TVSet.COMMAND O O B-TVSet.Action B-TVSet.CommandFeature
+O O B-WindowRelay.CommandFeature O B-WindowRelay.COMMAND B-WindowRelay.CommandFeature
+B-WaterTapRelay.Quantifier B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature
+B-CurtainsRelay.ParameterValueQuestion O O B-CurtainsRelay.CommandFeature I-CurtainsRelay.CommandFeature
+B-TemperatureSensor.LOC B-TemperatureSensor.IntensityQuantifier B-TemperatureSensor.CommandFeature
+O B-CoffeeMachine.Actor B-CoffeeMachine.Action B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature
+B-TVSet.COMMAND B-TVSet.DEVICE
+O O O B-HeaterController.COMMAND B-HeaterController.DEVICE O B-HeaterController.LOC
+B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.LOCCurrent O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.Action O B-SmartVacuumCleaner.LOC
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action
+B-TemperatureSensor.Actor O B-TemperatureSensor.IntensityQuantifier B-TemperatureSensor.CommandFeature
+B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.LOCCurrent O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.Action O B-SmartVacuumCleaner.LOC
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue
+B-MotionSensor.COMMAND B-MotionSensor.CommandFeature O B-MotionSensor.Actor B-MotionSensor.Action O
+B-SmartElectricityMeter.ParameterValueQuestion O O O O O B-SmartElectricityMeter.CommandFeature
+B-SmartFridge.ParameterValueQuestion O O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature
+B-SmartFridge.ParameterValueQuestion O B-SmartFridge.Action B-SmartFridge.CommandFeature
+O O B-CurtainsRelay.LOC O B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature
+O B-TemperatureSensor.IntensityQuantifier B-TemperatureSensor.CommandFeature
+B-CurtainsRelay.COMMAND O O B-CurtainsRelay.IntensityQuantifier B-CurtainsRelay.CommandFeature
+O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.Action B-SmartVacuumCleaner.LOC O B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.CommandFeature
+B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature O B-SmartElectricityMeter.LOC
+B-SmartElectricityMeter.ParameterValueQuestion O O O B-SmartElectricityMeter.Actor B-SmartElectricityMeter.Action O O
+B-MotionSensor.COMMAND O B-MotionSensor.CommandFeature B-MotionSensor.LOC I-MotionSensor.LOC B-MotionSensor.FeatureState B-MotionSensor.IntensityQuantifier
+B-Printer.COMMAND B-Printer.CommandFeature
+O B-SmartFeeder.CommandFeature B-SmartFeeder.FeatureState I-SmartFeeder.FeatureState I-SmartFeeder.FeatureState B-SmartFeeder.COMMAND O
+O B-SmartKettle.Actor B-SmartKettle.Action B-SmartKettle.COMMAND B-SmartKettle.CommandFeature
+B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.LOCCurrent O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.Action O B-SmartVacuumCleaner.LOC
+B-SmartFeeder.Actor B-SmartFeeder.Action B-SmartFeeder.CommandFeature B-SmartFeeder.IntensityQuantifier O B-SmartFeeder.FeatureState
+B-Printer.COMMAND B-Printer.CommandFeature O O O
+B-MotionSensor.ParameterValueQuestion B-MotionSensor.Action O B-MotionSensor.CommandFeature
+B-SmartFridge.ParameterValueQuestion O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature O B-SmartFridge.DEVICE
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature
+B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature O B-SmartElectricityMeter.LOC
+B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature
+B-MotionSensor.Actor B-MotionSensor.Action B-MotionSensor.LOC O O
+O O B-WindowRelay.CommandFeature B-WindowRelay.COMMAND B-WindowRelay.CommandFeature
+O O B-WindowRelay.CommandFeature B-WindowRelay.COMMAND B-WindowRelay.CommandFeature
+B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature O B-WaterTapRelay.LOC
+B-WashingMachine.ParameterValueQuestion O O O B-WashingMachine.Actor B-WashingMachine.Action
+B-WaterTapRelay.COMMAND B-WaterTapRelay.FeatureState
+B-FloorLite.COMMAND B-FloorLite.CommandFeature O B-FloorLite.LOC
+B-WashingMachine.ParameterValueQuestion O B-WashingMachine.CommandFeature I-WashingMachine.CommandFeature
+B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC
+B-SmartOven.COMMAND B-SmartOven.CommandFeature O O
+B-WashingMachine.COMMAND O B-WashingMachine.FeatureState B-WashingMachine.CommandFeature
+O O B-CurtainsRelay.LOC O B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature
+B-TemperatureSensor.ParameterValueQuestion B-TemperatureSensor.LOCCurrent B-TemperatureSensor.IntensityQuantifier B-TemperatureSensor.CommandFeature
+B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature O I-WaterTapRelay.CommandFeature O B-WaterTapRelay.Actor B-WaterTapRelay.Action
+B-MotionSensor.Actor B-MotionSensor.Action B-MotionSensor.LOC O O
+O B-TemperatureSensor.ParameterValueQuestion O B-TemperatureSensor.LOC
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action
+O O O B-HeaterController.COMMAND B-HeaterController.DEVICE O B-HeaterController.LOC O B-HeaterController.DeviceParameterValue B-HeaterController.DeviceParameter
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O
+B-SmartIron.COMMAND B-SmartIron.DEVICE O B-SmartIron.DeviceParameterValue
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.COMMAND B-Lamp.CommandFeature I-Lamp.CommandFeature
+O B-DoorWindowStatusSensor.CommandFeature O B-DoorWindowStatusSensor.FeatureState B-DoorWindowStatusSensor.COMMAND O
+O O O O B-SmartFeeder.COMMAND O
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC
+B-Humidifier.COMMAND B-Humidifier.DeviceParameter O B-Humidifier.DeviceParameterValue O B-Humidifier.DeviceParameter O B-Humidifier.DeviceParameterValue
+B-SmartToaster.COMMAND B-SmartToaster.CommandFeature
+B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature B-AudioSystem.IntensityQuantifier
+B-SmartMicrowave.ParameterValueQuestion O B-SmartMicrowave.CommandFeature I-SmartMicrowave.CommandFeature O B-SmartMicrowave.DEVICE
+O O B-SmartFridge.CommandFeature O I-SmartFridge.CommandFeature
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action B-Lamp.LOC O
+B-Printer.COMMAND B-Printer.CommandFeature O O O
+O O B-DoorWindowStatusSensor.CommandFeature B-DoorWindowStatusSensor.COMMAND B-DoorWindowStatusSensor.CommandFeature
+O B-TemperatureSensor.COMMAND B-TemperatureSensor.DEVICE O B-TemperatureSensor.LOC
+B-SmartFridge.ParameterValueQuestion O B-SmartFridge.CommandFeature B-SmartFridge.FeatureState
+B-SmartOven.ParameterValueQuestion B-SmartOven.FeatureState I-SmartOven.FeatureState B-SmartOven.CommandFeature
+O O O B-TemperatureSensor.CommandFeature B-TemperatureSensor.COMMAND B-TemperatureSensor.CommandFeature
+B-SmartOven.COMMAND B-SmartOven.Actor
+B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature B-WaterTapRelay.Quantifier
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC
+B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature O B-SmartElectricityMeter.LOC
+O O B-TemperatureSensor.CommandFeature
+B-SmartFeeder.COMMAND O O O O O
+B-WashingMachine.COMMAND O B-WashingMachine.DeviceParameterValue B-WashingMachine.DeviceParameter
+O B-TemperatureSensor.Actor B-TemperatureSensor.Action B-TemperatureSensor.LOC O B-TemperatureSensor.COMMAND B-TemperatureSensor.DEVICE
+B-WindowRelay.COMMAND B-WindowRelay.LOC
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O O O
+B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature
+O O B-CoffeeMachine.COMMAND B-CoffeeMachine.DEVICE O B-CoffeeMachine.LOC
+B-SmartOven.ParameterValueQuestion O B-SmartOven.CommandFeature I-SmartOven.CommandFeature O B-SmartOven.DEVICE
+B-FloorLite.COMMAND O B-FloorLite.CommandFeature O O
+O O B-SmartWaterMeter.LOC B-SmartWaterMeter.CommandFeature B-SmartWaterMeter.COMMAND B-SmartWaterMeter.CommandFeature
+O O O O B-AudioSystem.COMMAND I-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Action
+B-WindowStatusSensor.COMMAND B-WindowStatusSensor.LOC O O
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O
+B-TVSet.COMMAND B-TVSet.CommandFeature O B-TVSet.Actor B-TVSet.Action
+B-HeaterController.COMMAND B-HeaterController.DeviceFeature O B-HeaterController.LOC
+B-WashingMachine.COMMAND O O B-WashingMachine.CommandFeature O O O
+O O O O B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature
+B-TemperatureSensor.CommandQuestion O B-TemperatureSensor.DeviceParameterValue
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O
+B-DoorWindowStatusSensor.COMMAND B-DoorWindowStatusSensor.DeviceFeature O B-DoorWindowStatusSensor.LOC
+B-MotionSensor.COMMAND B-MotionSensor.DEVICE I-MotionSensor.DEVICE O O
+B-WashingMachine.RequestQuestion O O O B-WashingMachine.FeatureState B-WashingMachine.CommandFeature
+B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameter
+O B-CoffeeMachine.Actor B-CoffeeMachine.Action B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature
+B-TVSet.COMMAND B-TVSet.Devicefeature O B-TVSet.Actor B-TVSet.Action
+B-MotionSensor.COMMAND O B-MotionSensor.CommandFeature B-MotionSensor.LOC O O B-MotionSensor.IntensityQuantifier B-MotionSensor.FeatureState
+B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.COMMAND B-LightSensor.FeatureState B-LightSensor.CommandFeature
+O O B-WindowRelay.CommandState O B-WindowRelay.COMMAND B-WindowRelay.CommandFeature
+B-SmartOven.RequestQuestion O B-SmartOven.FeatureState B-SmartOven.CommandFeature O B-SmartOven.LOC
+B-HumiditySensor.COMMAND B-HumiditySensor.DEVICE I-HumiditySensor.DEVICE O B-HumiditySensor.Actor B-HumiditySensor.Action B-HumiditySensor.LOC
+O O O B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature
+B-AudioSystem.RequestQuestion O O O B-AudioSystem.Actor B-AudioSystem.Action O B-AudioSystem.CommandFeature
+O O B-HumiditySensor.DeviceFeature O B-HumiditySensor.LOC B-HumiditySensor.IntensityQuantifier B-HumiditySensor.DeviceParameterValue O B-HumiditySensor.COMMAND B-HumiditySensor.DEVICE
+B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC
+B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.LOCCurrent O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.Action O B-SmartVacuumCleaner.LOC
+B-TemperatureSensor.IntensityQuantifier O
+B-TVSet.DeviceQuestion B-TVSet.DeviceFeature O B-TVSet.DEVICE
+B-CoffeeMachine.CommandQuestion B-CoffeeMachine.DeviceFeature B-CoffeeMachine.FeatureState
+B-SmartOven.CommandQuestion B-SmartOven.FeatureState I-SmartOven.FeatureState B-SmartOven.CommandFeature O B-SmartOven.DEVICE
+O B-WashingMachine.DEVICE B-WashingMachine.CommandParameterValue B-WashingMachine.CommandFeature O B-WashingMachine.CommandParameter O B-WashingMachine.COMMAND B-WashingMachine.CommandFeature
+B-HumiditySensor.COMMAND B-HumiditySensor.Devicefeature O B-HumiditySensor.DeviceParameterValue O B-HumiditySensor.Devicefeature O B-HumiditySensor.DeviceParameterValue
+B-AudioSystem.COMMAND B-AudioSystem.DEVICE O B-AudioSystem.Actor B-AudioSystem.Action B-AudioSystem.LOC
+B-AudioSystem.COMMAND B-AudioSystem.DEVICE O B-AudioSystem.Actor B-AudioSystem.Action B-AudioSystem.LOC
+B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.LOC O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.Action O B-SmartVacuumCleaner.LOC
+B-SmartFridge.COMMAND B-SmartFridge.FeatureState B-SmartFridge.CommandFeature O B-SmartFridge.LOC
+B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC
+B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O
+O O B-WindowRelay.LOC O B-WindowRelay.COMMAND B-WindowRelay.CommandFeature
+B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC
+B-SmartFridge.RequestQuestion B-SmartFridge.CommandFeature B-SmartFridge.FeatureState
+O B-WindowRelay.LOCCurrent O B-WindowRelay.COMMAND
+B-Lamp.COMMAND B-Lamp.DeviceFeature O B-Lamp.LOC
+B-CoffeeMachine.COMMAND B-CoffeeMachine.DeviceFeatureState B-CoffeeMachine.DEVICE
+B-Lamp.COMMAND B-Lamp.Devicefeature O O O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC
+B-SmartOven.CommandQuestion B-SmartOven.FeatureState I-SmartOven.FeatureState B-SmartOven.CommandFeature O B-SmartOven.DEVICE
+B-Lamp.COMMAND B-Lamp.DeviceFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC
+B-Lamp.COMMAND B-Lamp.DeviceFeature O B-Lamp.LOC O O O
+O O B-TemperatureSensor.LOC O O B-TemperatureSensor.DeviceParameter B-TemperatureSensor.COMMAND B-TemperatureSensor.DeviceFeature
+O O O O B-WindowRelay.COMMAND B-WindowRelay.Devicefeature
+B-SmartFeeder.COMMAND B-SmartFeeder.CommandFeature O O O O
+B-HeaterController.COMMAND B-HeaterController.DeviceFeature O B-HeaterController.LOC
+B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier
+B-CurtainsRelay.CommandQuestion O O B-CurtainsRelay.FeatureState B-CurtainsRelay.DeviceFeature
+B-TVSet.COMMAND B-TVSet.DeviceFeature O B-TVSet.Actor B-TVSet.Action B-TVSet.LOC
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.LOC O O I-AudioSystem.LOC
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature
+B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue
+B-HeaterController.COMMAND B-HeaterController.CommandFeature O O O
+O O B-TemperatureSensor.LOC B-TemperatureSensor.DeviceFeature B-TemperatureSensor.DeviceParameterValue B-TemperatureSensor.DeviceParameter B-TemperatureSensor.COMMAND B-TemperatureSensor.DEVICE
+B-Lamp.COMMAND O O B-Lamp.DeviceFeature O B-Lamp.CommandParameterValue
+B-HumiditySensor.COMMAND B-HumiditySensor.CommandFeature O B-HumiditySensor.LOC O O B-HumiditySensor.DeviceParameterValue
+B-DoorWindowStatusSensor.DeviceQuestion O B-DoorWindowStatusSensor.DeviceFeature O B-DoorWindowStatusSensor.LOC O B-DoorWindowStatusSensor.FeatureState
+B-CurtainsRelay.COMMAND B-CurtainsRelay.DeviceFeature O B-CurtainsRelay.IntensityQuantifier O
+B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.LOC O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.Action O B-SmartVacuumCleaner.LOC
+B-SmartFridge.RequestQuestion O B-SmartFridge.FeatureState B-SmartFridge.CommandFeature O B-SmartFridge.LOC
+B-AudioSystem.IntensityQuantifier O
+B-TemperatureSensor.COMMAND B-TemperatureSensor.IntensityQuantifier
+B-TemperatureSensor.ParameterValueQuestion O B-TemperatureSensor.DeviceFeature O B-TemperatureSensor.LOC
+B-AudioSystem.COMMAND B-AudioSystem.DEVICE O B-AudioSystem.Actor B-AudioSystem.Action B-AudioSystem.LOC
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O
+B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.LOC
+O B-SmartKettle.CommandFeature O B-SmartKettle.DEVICE B-SmartKettle.FeatureState B-SmartKettle.COMMAND
+B-MotionSensor.COMMAND B-MotionSensor.LOC I-MotionSensor.LOC
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O B-CurtainsRelay.IntensityQuantifier B-CurtainsRelay.CommandState
+B-SmartIron.DEVICE B-SmartIron.COMMAND O O B-SmartIron.DeviceParameterValue
+B-TemperatureSensor.COMMAND B-TemperatureSensor.DeviceFeature O B-TemperatureSensor.LOC O B-TemperatureSensor.DeviceFeature B-TemperatureSensor.DeviceParameterValue
+B-DoorWindowStatusSensor.DeviceQuestion B-DoorWindowStatusSensor.DeviceFeature O B-DoorWindowStatusSensor.LOC B-DoorWindowStatusSensor.FeatureState
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DeviceParameterValue B-AudioSystem.DeviceFeature
+O B-Lamp.DeviceQuestion B-Lamp.FeatureState B-Lamp.DeviceFeature
+B-HeaterController.LOC B-HeaterController.IntensityQuantifier O B-HeaterController.COMMAND O
+B-Phone.RequestQuestion B-Phone.Action O B-Phone.LOC
+B-SmartFeeder.COMMAND B-SmartFeeder.CommandFeature B-SmartFeeder.IntensityQuantifier B-SmartFeeder.DeviceFeature
+B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature O B-WaterTapRelay.LOC
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O
+B-TVSet.COMMAND B-TVSet.DeviceFeature O B-TVSet.Actor B-TVSet.Action
+B-AudioSystem.IntensityQuantifier O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action
+B-AudioSystem.COMMAND B-AudioSystem.DeviceFeature O B-AudioSystem.LOC O B-AudioSystem.COMMAND O B-AudioSystem.LOC
+B-SmartFeeder.COMMAND B-SmartFeeder.CommandFeature O O O O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.IntensityQuantifier B-AudioSystem.FeatureState B-AudioSystem.DeviceFeature
+O O O O B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature
+B-TemperatureSensor.ParameterValueQuestion O B-TemperatureSensor.DeviceParameter
+B-WaterSupplySensor.COMMAND B-WaterSupplySensor.DeviceFeature
+B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature O B-WindowRelay.LOC O B-WindowRelay.CommandParameterValue B-WindowRelay.CommandParameter
+B-AudioSystem.COMMAND B-AudioSystem.DEVICE O B-AudioSystem.Actor B-AudioSystem.Action B-AudioSystem.LOC
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature
+O O O B-CurtainsRelay.CommandState B-CurtainsRelay.COMMAND B-CurtainsRelay.DeviceFeature
+O O B-HeaterController.LOC O B-HeaterController.COMMAND B-HeaterController.DEVICE
+B-LightSensor.COMMAND B-LightSensor.DeviceFeature
+B-Lamp.COMMAND B-Lamp.DeviceFeature
+B-HeaterController.COMMAND O
+B-SmartBreadMaker.COMMAND O
+B-SmartIron.COMMAND B-SmartIron.DEVICE B-SmartIron.Actor B-SmartIron.Action I-SmartIron.Action B-SmartIron.DeviceParameterValue O
+O B-SmartKettle.Actor B-SmartKettle.Action B-SmartKettle.COMMAND B-SmartKettle.CommandFeature
+B-WaterTapRelay.COMMAND B-WaterTapRelay.FeatureState B-WaterTapRelay.CommandFeature O B-WaterTapRelay.Actor B-WaterTapRelay.Action
+B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O O O O O
+B-WaterTapRelay.Actor B-WaterTapRelay.Action I-WaterTapRelay.Action B-WaterTapRelay.CommandFeature
+B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O
+B-HumiditySensor.COMMAND B-HumiditySensor.DeviceFeature O O O
+B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O B-WashingMachine.DeviceParameterValue
+B-TemperatureSensor.COMMAND B-TemperatureSensor.LOC O I-TemperatureSensor.LOC
