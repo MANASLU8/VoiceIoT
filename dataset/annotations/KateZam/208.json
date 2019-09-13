@@ -2,7 +2,7 @@
 	"utterance_id": 208,
 	"ontology-label": ["WaterTapRelay", "MotionSensor"],
 	"text": ["при появлении кота на газоне включи распыление воды 3 раза за раз"],
-        "slots-indices": [{ " COMMAND":[5], "CommandFeature":[6, 7], "LOC":[4]}],
+        "slots-indices": [{ " COMMAND":[5], "Actor":[2], "Action":[1],"CommandFeature":[6, 7], "LOC":[4]}],
 		"condition-indices": [0, 1, 2, 3, 4],
-		"schedule" :[{"regularlyRepeating": [8, 9, 10, 11]}]
+		"schedule" :[{"regularlyRepeating": [8, 9, 11]}]
 }
