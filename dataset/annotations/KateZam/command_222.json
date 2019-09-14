@@ -1,0 +1,7 @@
+{
+		"utterance_id": 222,
+		"ontology-label": ["TemperatureSensor", "DoorWindowStatusSensor", " DoorRelay"],
+		"text": ["если станет жарко тогда открой дверь"],
+    		"slots-indices": [{"COMMAND":[4], "CommandFeature":[5]}],
+			"condition-indices": [0, 1, 2]
+}
