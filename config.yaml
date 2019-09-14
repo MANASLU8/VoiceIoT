@@ -1,5 +1,6 @@
 test-percentage: 20
 paths:
+  slots-intents-module: vendor/slots_intents/intents_slots
   datasets:
     annotations: dataset/annotations
     pytext:
@@ -11,9 +12,36 @@ paths:
       test-extended: dataset/pytext/test-extended.json
       validate: dataset/pytext/validate.tsv
       validate-extended: dataset/pytext/validate-extended.tsv
-etc:
-  pytext:
-    model: models/pytext/model.caffe2.predictor
-    model-extended: models/pytext/model-bilstm-without-pretrained-embeddings.caffe2.predictor
-    model-config: vendor/pytext/docnn.json
-    model-config-extended: vendor/pytext/bilstm-without-pretrained-embeddings.json
+    snips-nlu:
+      data: dataset/snips-nlu/data.tsv
+      train: dataset/snips-nlu/train.tsv
+      test: dataset/snips-nlu/test.tsv
+    slots-intents:
+      data: dataset/slots-intents/data.tsv
+      train: dataset/slots-intents/train.tsv
+      test: dataset/slots-intents/test.tsv
+      validate: dataset/slots-intents/validate.tsv
+    joint-nlu:
+      data: dataset/joint-nlu/data
+      train: dataset/joint-nlu/train
+      test: dataset/joint-nlu/test
+      validate: dataset/joint-nlu/valid
+      vocabulary: dataset/joint-nlu
+      filenames:
+        data:
+          labels: label
+          texts: seq.in
+          slots: seq.out
+        vocabulary:
+          labels: intent_vocab
+          texts: in_vocab
+          slots: slot_vocab
+  etc:
+    pytext:
+      model: models/pytext/model.caffe2.predictor
+      model-extended: models/pytext/model-bilstm-without-pretrained-embeddings.caffe2.predictor
+      model-config: vendor/pytext/docnn.json
+      model-config-extended: vendor/pytext/bilstm-without-pretrained-embeddings.json
+    slots-intents:
+      model: models/slots-intents/model.h5
+      dataset-info: dataset/slots-intents/dataset_info

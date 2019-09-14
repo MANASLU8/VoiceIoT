@@ -1,14 +1,9 @@
 import os, re, sys
 import json
 
-sys.path.append("../")
-from field_extractors import extract_text, extract_ontology_label
-from converters import decode_bio
-from utils import list_dataset_files
-from file_operators import write_lines
+from .. import field_extractors as fe, converters, utils, file_operators as fo
 
-INPUT_FOLDER = "../../dataset/annotations"
-OUTPUT_FILE = "../../dataset/slots-intents/train.csv"
+config = utils.load_config(utils.parse_args().config)
 
 def join_labels(labels, out_label = 'O'):
 	res = []
@@ -39,17 +34,16 @@ def handle_files(input_files):
 		print(f'handling file {input_file}')
 		with open(input_file) as f:
 			annotation = json.loads(f.read())
-		ontology_label = extract_ontology_label(annotation)
-		text = extract_text(annotation)
+		ontology_label = fe.extract_ontology_label(annotation)
+		text = fe.extract_text(annotation)
 		sent = "BOS " + re.sub(r'[^\w\s]','',text).lower() + " EOS O"
-		
 		labels = []
 		for (i, word) in enumerate(re.sub(r'[^\w\s]','',text).lower().split(' ')):
 			appended = False
 			if 'slots-indices' in annotation:
 				labels.append(make_chunk(i, annotation['slots-indices'][0], entity_names, word, ontology_label))
 			elif 'slots-indices-bio' in annotation:
-				labels.append(make_chunk(i, decode_bio(annotation['slots-indices-bio']), entity_names, word, ontology_label))
+				labels.append(make_chunk(i, converters.decode_bio(annotation['slots-indices-bio']), entity_names, word, ontology_label))
 		sent += "\t"
 		sent += ' '.join(join_labels(labels))
 		sent += ' '
@@ -63,4 +57,4 @@ def handle_files(input_files):
 			dicti[ontology_label] = {"utterances": [{"data": res}]}
 	return result
 
-write_lines(OUTPUT_FILE, handle_files(list_dataset_files(INPUT_FOLDER)))
+fo.write_lines(config['paths']['datasets']['slots-intents']['data'], handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])))

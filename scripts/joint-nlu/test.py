@@ -42,7 +42,7 @@ parser.add_argument("--input_file", type=str, default='seq.in', help="Input file
 parser.add_argument("--slot_file", type=str, default='seq.out', help="Slot file name.")
 parser.add_argument("--intent_file", type=str, default='label', help="Intent file name.")
 
-arg=parser.parse_args()
+arg=parser.parse_args(['--dataset', 'joint-nlu'])
 
 
 #Print arguments

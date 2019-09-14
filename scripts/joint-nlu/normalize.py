@@ -2,15 +2,9 @@ import os, re, sys
 import json
 import itertools
 
-sys.path.append("../")
-from field_extractors import extract_text, extract_ontology_label
-from converters import decode_bio
-from utils import list_dataset_files
-from file_operators import write_lines
+from .. import field_extractors as fe, converters, utils, file_operators as fo
 
-INPUT_FOLDER = "../../dataset/annotations"
-OUTPUT_FOLDER = "../../dataset/joint-nlu/data"
-VOCAB_FOLDER = "../../dataset/joint-nlu"
+config = utils.load_config(utils.parse_args().config)
 
 def join_labels(labels, out_label = 'O'):
 	res = []
@@ -34,24 +28,23 @@ def make_chunk(i, entities, entity_names, word, ontology_label):
 	return 'O'
 
 def write_dataset(folder, items, vocab_folder = None):
-	write_lines(os.path.join(folder, "seq.in"), [item[0] for item in items])
-	write_lines(os.path.join(folder, "seq.out"), [item[1] for item in items])
-	write_lines(os.path.join(folder, "label"), [item[2] for item in items])
+	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['texts']), [item[0] for item in items])
+	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['slots']), [item[1] for item in items])
+	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['labels']), [item[2] for item in items])
 	if vocab_folder:
-		write_lines(os.path.join(vocab_folder, "slot_vocab"), set(itertools.chain(*[item[1].split(' ') for item in items])))
-		write_lines(os.path.join(vocab_folder, "in_vocab"), set(itertools.chain(*[item[0].split(' ') for item in items])))
-		write_lines(os.path.join(vocab_folder, "intent_vocab"), set([item[2] for item in items]))
+		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['slots']), set(itertools.chain(*[item[1].split(' ') for item in items])))
+		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['texts']), set(itertools.chain(*[item[0].split(' ') for item in items])))
+		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['labels']), set([item[2] for item in items]))
 
 def handle_files(input_files):
 	result = []
 	entity_names = set({})
 	for j in range(len(input_files)):
 		input_file = input_files[j]
-		print(f'handling file {input_file}')
 		with open(input_file) as f:
 			annotation = json.loads(f.read())
-		ontology_label = extract_ontology_label(annotation)
-		text = extract_text(annotation)
+		ontology_label = fe.extract_ontology_label(annotation)
+		text = fe.extract_text(annotation)
 		sent = re.sub(r'[^\w\s]','',text).lower()
 		labels = []
 		for (i, word) in enumerate(re.sub(r'[^\w\s]','',text).lower().split(' ')):
@@ -59,9 +52,10 @@ def handle_files(input_files):
 			if 'slots-indices' in annotation:
 				labels.append(make_chunk(i, annotation['slots-indices'][0], entity_names, word, ontology_label))
 			elif 'slots-indices-bio' in annotation:
-				labels.append(make_chunk(i, decode_bio(annotation['slots-indices-bio']), entity_names, word, ontology_label))
+				labels.append(make_chunk(i, converters.decode_bio(annotation['slots-indices-bio']), entity_names, word, ontology_label))
 		result.append([sent, ' '.join(join_labels(labels)), ontology_label])
 	return result
 
 if __name__ == "__main__":
-	write_dataset(OUTPUT_FOLDER, handle_files(list_dataset_files(INPUT_FOLDER)), VOCAB_FOLDER)
+	write_dataset(config['paths']['datasets']['joint-nlu']['data'],
+		handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])), config['paths']['datasets']['joint-nlu']['vocabulary'])

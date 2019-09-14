@@ -1,14 +1,9 @@
 import os, re, sys
 import json
 
-sys.path.append("../")
-from field_extractors import extract_text, extract_ontology_label
-from converters import decode_bio
-from utils import list_dataset_files
-from file_operators import write_json
+from .. import field_extractors as fe, converters, utils, file_operators as fo
 
-INPUT_FOLDER = "../../dataset/annotations"
-OUTPUT_FILE = "../../dataset/snips-nlu/data.json"
+config = utils.load_config(utils.parse_args().config)
 
 def join(collection, start_i, end_i):
 	return {"text": ' '.join([item['text'] for item in collection[start_i: end_i]])}
@@ -47,15 +42,15 @@ def handle_files(input_files):
 		print(f'handling file {input_file}')
 		with open(input_file) as f:
 			annotation = json.loads(f.read())
-		ontology_label = extract_ontology_label(annotation)
-		text = extract_text(annotation)
+		ontology_label = fe.extract_ontology_label(annotation)
+		text = fe.extract_text(annotation)
 		res = []
 		for (i, word) in enumerate(re.sub(r'[^\w\s]','',text).lower().split(' ')):
 			appended = False
 			if 'slots-indices' in annotation:
 				res.append(make_chunk(i, annotation['slots-indices'][0], entity_names, word, ontology_label))
 			elif 'slots-indices-bio' in annotation:
-				res.append(make_chunk(i, decode_bio(annotation['slots-indices-bio']), entity_names, word, ontology_label))
+				res.append(make_chunk(i, converters.decode_bio(annotation['slots-indices-bio']), entity_names, word, ontology_label))
 		res = join_empty(res)
 		if ontology_label in dicti:
 			dicti[ontology_label]["utterances"].append({"data": res})
@@ -63,5 +58,6 @@ def handle_files(input_files):
 			dicti[ontology_label] = {"utterances": [{"data": res}]}
 	return dicti, entity_names
 
-intents, entities = handle_files(list_dataset_files(INPUT_FOLDER))
-write_json(OUTPUT_FILE, {"intents": intents, "entities": {entity: {"data": [], "use_synonyms": True, "automatically_extensible": True, "matching_strictness": 1.0} for entity in entities}, "language": "en"})
+intents, entities = handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations']))
+fo.write_json(config['paths']['datasets']['snips-nlu']['data'], 
+	{"intents": intents, "entities": {entity: {"data": [], "use_synonyms": True, "automatically_extensible": True, "matching_strictness": 1.0} for entity in entities}, "language": "en"})
