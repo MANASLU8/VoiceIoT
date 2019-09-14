@@ -2,14 +2,9 @@ import os, re, sys
 import json
 import numpy as np
 
-sys.path.append("../")
-from field_extractors import extract_text, extract_ontology_label
-from converters import decode_bio
-from utils import list_dataset_files
-from file_operators import write_lines
+from .. import field_extractors as fe, converters, utils, file_operators as fo
 
-INPUT_FOLDER = "../../dataset/annotations"
-OUTPUT_FILE = "../../dataset/pytext/data.tsv"
+config = utils.load_config(utils.parse_args().config)
 
 def make_indices(annotations, text):
 	word_lengths = [len(w) for w in text]
@@ -23,18 +18,17 @@ def handle_files(input_files):
 	samples = []
 	entity_names = set({})
 	for input_file in input_files:
-		print(f'handling file {input_file}')
 		with open(input_file) as f:
 			annotation = json.loads(f.read())
-		ontology_label = extract_ontology_label(annotation)
-		text = extract_text(annotation)
+		ontology_label = fe.extract_ontology_label(annotation)
+		text = fe.extract_text(annotation)
 		simplified_text = re.sub(r'[^\w\s]','',text).lower()
 		splitted_text = simplified_text.split(' ')
 		if 'slots-indices' in annotation:
 			slots_char_indices = stringify_indices(make_indices(annotation['slots-indices'][0], splitted_text), ontology_label)
 		elif 'slots-indices-bio' in annotation:
-			slots_char_indices = stringify_indices(make_indices(decode_bio(annotation['slots-indices-bio']), splitted_text), ontology_label)
+			slots_char_indices = stringify_indices(make_indices(converters.decode_bio(annotation['slots-indices-bio']), splitted_text), ontology_label)
 		samples.append(f"{ontology_label}\t{slots_char_indices}\t{simplified_text}")
 	return samples
 
-write_lines(OUTPUT_FILE, handle_files(list_dataset_files(INPUT_FOLDER)))
+fo.write_lines(config['paths']['datasets']['pytext']['data'], handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])))

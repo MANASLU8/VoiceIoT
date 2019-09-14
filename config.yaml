@@ -1,0 +1,19 @@
+test-percentage: 20
+paths:
+  datasets:
+    annotations: dataset/annotations
+    pytext:
+      data: dataset/pytext/data.tsv
+      data-extended: dataset/pytext/data-extended.tsv
+      train: dataset/pytext/train.tsv
+      train-extended: dataset/pytext/train-extended.tsv
+      test: dataset/pytext/test.json
+      test-extended: dataset/pytext/test-extended.json
+      validate: dataset/pytext/validate.tsv
+      validate-extended: dataset/pytext/validate-extended.tsv
+etc:
+  pytext:
+    model: models/pytext/model.caffe2.predictor
+    model-extended: models/pytext/model-bilstm-without-pretrained-embeddings.caffe2.predictor
+    model-config: vendor/pytext/docnn.json
+    model-config-extended: vendor/pytext/bilstm-without-pretrained-embeddings.json

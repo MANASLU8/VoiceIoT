@@ -1,17 +1,10 @@
 import json, random, sys
 
-sys.path.append("../")
-from file_operators import read_lines, write_lines, write_json
+from .. import file_operators as fo, utils
 
-TEST_PERCENTAGE = 20
+config = utils.load_config(utils.parse_args().config)
 
-INPUT_FILE = "../../dataset/pytext/data-extended.tsv"
-
-TRAIN_FILE = "../../dataset/pytext/train-extended.tsv"
-TEST_FILE = "../../dataset/pytext/test-extended.json"
-VALIDATE_FILE = "../../dataset/pytext/validate-extended.tsv"
-
-data = read_lines(INPUT_FILE)
+data = fo.read_lines(config['paths']['datasets']['pytext']['data-extended'])
 
 test_samples = {}
 validate_samples = []
@@ -28,7 +21,7 @@ for sample in data:
 print("Samples per label:")
 for label in samples.keys():
  	print(f"{label:80s}: {len(samples[label])}")
- 	quantity_for_test = len(samples[label]) * TEST_PERCENTAGE / float(100)
+ 	quantity_for_test = len(samples[label]) * config['test-percentage'] / float(100)
  	if quantity_for_test < 1:
  		continue
  	test_samples[label] = []
@@ -40,6 +33,6 @@ for label in samples.keys():
  		samples[label].remove(choice)
  		counter += 1
 
-write_lines(TRAIN_FILE, [sample for label in samples.keys() for sample in samples[label]])
-write_lines(VALIDATE_FILE, validate_samples)
-write_json(TEST_FILE, test_samples)
+fo.write_lines(config['paths']['datasets']['pytext']['train-extended'], [sample for label in samples.keys() for sample in samples[label]])
+fo.write_lines(config['paths']['datasets']['pytext']['validate-extended'], validate_samples)
+fo.write_json(config['paths']['datasets']['pytext']['test-extended'], test_samples)

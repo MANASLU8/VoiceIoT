@@ -1,21 +1,18 @@
 import sys
 import pytext
 
-sys.path.append('../')
-from file_operators import read_json
+from .. import file_operators as fo, utils
 
-CONFIG_FILE = '../../vendor/pytext/bilstm-without-pretrained-embeddings.json'
-MODEL_FILE = '../../models/pytext/model-bilstm-without-pretrained-embeddings.caffe2.predictor'
-TEST_FILE = '../../dataset/pytext/test-extended.json'
+config = utils.load_config(utils.parse_args().config)
 
 def get_best_label(result):
     doc_label_scores_prefix = ('scores:' if any(r.startswith('scores:') for r in result) else 'doc_scores:')
     return max((label for label in result if label.startswith(doc_label_scores_prefix)), key=lambda label: result[label][0],)[len(doc_label_scores_prefix):]
 
-config = pytext.load_config(CONFIG_FILE)
-predictor = pytext.create_predictor(config, MODEL_FILE)
+config = pytext.load_config(config['etc']['pytext']['model-config-extended'])
+predictor = pytext.create_predictor(config, config['etc']['pytext']['model-extended'])
 
-test_dataset = read_json(TEST_FILE)
+test_dataset = fo.read_json(config['datasets']['pytext']['test'])
 
 counter = 0
 positive_counter = 0
