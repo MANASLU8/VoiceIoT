@@ -1,0 +1,7 @@
+{
+		"utterance_id": 227,
+		"ontology-label": "SmartVacuumCleaner",
+		"text": ["пропылесось сейчас пока я буду в гостинной"],
+    		"slots-indices": [{"COMMAND":[4], "Actor":[3], "Action":[4], "LOC":[6]}],
+			"condition-indices": [2, 3, 4, 5, 6]
+}
