@@ -2,5 +2,5 @@
 		"utterance_id": 333,
 		"ontology-label": "SmartElectricityMeter",
 		"text": ["выключай электричество в комнате"],
-    		"slots-indices": [{"COMMAND":[0], "CommandFeature":[1],"LOC":[3]}]
+    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1],"LOC": [3]}]
 }

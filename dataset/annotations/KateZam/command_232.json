@@ -2,6 +2,6 @@
 		"utterance_id": 232,
 		"ontology-label": ["TemperatureSensor", "CurtainsRelay"],
 		"text": ["закрой занавески если слишком холодно"],
-    		"slots-indices": [{"COMMAND":[0], "CommandFeature":[1, 4], "IntensityQuantifier":[3]}],
+    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1, 4], "IntensityQuantifier": [3]}],
 			"condition-indices": [2, 3, 4]
 }

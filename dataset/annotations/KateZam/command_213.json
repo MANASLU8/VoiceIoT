@@ -1,7 +1,7 @@
 {
 	"utterance_id": 213,
 	"ontology-label": ["AudioSystem", "Pulsometer", "MotionSensor"],
-	"text": "включай музыку когда я просыпаюсь", 
-        "slots-indices": [{ "COMMAND":[0], "CommandFeature": [1], "Actor":[3], "Action":[4]}],
+	"text": ["включай музыку когда я просыпаюсь"], 
+        "slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "Actor": [3], "Action": [4]}],
 		"conditon-indices": [2, 3, 4]
 }

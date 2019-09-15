@@ -2,5 +2,5 @@
 		"utterance_id": 254,
 		"ontology-label": "SmartCar",
 		"text": ["мне придется доехать до число больницы"],
-    		"slots-indices": [{"Actor":[0], "COMMAND":[1, 2], "CommandParameterValue":[4],"LOC":[5]}]
+    		"slots-indices": [{"Actor": [0], "COMMAND": [1, 2], "CommandParameterValue": [4],"LOC": [5]}]
 }

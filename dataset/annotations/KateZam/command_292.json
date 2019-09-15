@@ -1,6 +1,6 @@
 {
 	"utterance_id": 292,
 	"ontology-label": "TVSet",
-	"text": "включи программу по телевизору", 
-        "slots-indices": [{ "COMMAND":[0], "CommandFeature":[1], "DEVICE":[3]}]
+	"text": ["включи программу по телевизору"], 
+        "slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "DEVICE": [3]}]
 }

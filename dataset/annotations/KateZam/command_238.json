@@ -2,7 +2,7 @@
 	"utterance_id": 238,
 	"ontology-label": ["AudioSystem","AlarmClock", "Pulsometer"],
 	"text": ["если я засну разбуди меня в число"], 
-        "slots-indices": [{ "COMMAND":[3], "Actor":[1], "Action":[2], "DeviceParameterValue":[6]}],
+        "slots-indices": [{ "COMMAND": [3], "Actor": [1], "Action": [2], "DeviceParameterValue": [6]}],
 		"coreference": [{"4": [1]}],
 		"condition-indices": [0, 1, 2]
 }

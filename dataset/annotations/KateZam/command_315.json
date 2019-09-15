@@ -2,5 +2,5 @@
 		"utterance_id": 315,
 		"ontology-label": ["DoorWindowStatusSensor", "DoorRelay", "WindowRelay", "TemperatureSensor"],
 		"text": ["проветри все комнаты"],
-    		"slots-indices": [{"COMMAND":[0], "Quantor":[1],"LOC":[2]}]
+    		"slots-indices": [{"COMMAND": [0], "Quantor": [1], "LOC": [2]}]
 }

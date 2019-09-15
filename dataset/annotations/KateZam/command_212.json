@@ -2,6 +2,6 @@
 		"utterance_id": 212,
 		"ontology-label": ["LightSensor","Lamp","FloorLite","MotionSensor"],
 		"text": ["выключай свет когда я ухожу из комнат"],
-			"slots-indices": [{ " COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action":[4], "LOC":[6]}],
+			"slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "Actor": [3], "Action": [4], "LOC": [6]}],
 			"condition-indices": [2, 3, 4, 5, 6] 
 }

@@ -2,11 +2,6 @@
 	"utterance_id": 102,
 	"ontology-label": "SmartKettle",
 	"text": ["когда я приду сделай чай"],
-	"slots-indices-bio": [
-		[1,"B-Actor"],
-		[2,"B-Action"],
-  		[3,"B-COMMAND"],
-		[4,"B-CommandFeature"]
-	],
-	"condition-indices": [0, 1, 2]
+			"slots-indices": [{"Actor":[1],"Action":[2], "COMMAND":[3], "CommandFeature":[4]}],
+			"condition-indices": [0, 1, 2]
 }

@@ -2,5 +2,5 @@
 		"utterance_id": 216,
 		"ontology-label": ["TemperatureSensor"],
 		"text": ["отследи температуру в комнате на уровне число"],
-			"slots-indices": [{ " COMMAND":[0], "DeviceParameter":[1,5], "LOC":[3]}, "DeviceParameterValue": [6]]
+			"slots-indices": [{ "COMMAND": [0], "DeviceParameter": [1, 5], "LOC": [3], "DeviceParameterValue": [6]}]
 }

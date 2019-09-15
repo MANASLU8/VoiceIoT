@@ -1,7 +1,7 @@
 {
 		"utterance_id": 275,
 		"ontology-label": ["LightSensor","Lamp","FloorLite","MotionSensor"],
-		"text": ["Включай свет когда я заглядываю в комнату"],
-			"slots-indices": [{ " COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action":[4], "LOC":[6]}],
+		"text": ["включай свет когда я заглядываю в комнату"],
+			"slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "Actor": [3], "Action": [4], "LOC": [6]}],
 			"condition-indices": [2, 3, 4, 5, 6]
 }

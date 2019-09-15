@@ -2,11 +2,7 @@
 	"utterance_id": 125,
 	"ontology-label": ["TemperatureSensor", "HumiditySensor", "AirPollutionSensor", "WindowRelay", "Humidifier", "SmartAirConditioner"],
 	"text": ["Проветри зал и кухню."], 
-	"slots-indices-bio": [
-  		[0,"B-COMMAND"],
-  		[1,"B-LOC"],
-		[3,"B-LOC"]
-	]
+		"slots-indices": [{"COMMAND":[0], "LOC":[1, 3]}]
 }
 	
 	

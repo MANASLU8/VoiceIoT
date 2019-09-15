@@ -2,6 +2,6 @@
 		"utterance_id": 258,
 		"ontology-label": "CoffeeMachine",
 		"text": ["сделай кофе к моему приходу"],
-        "slots-indices": [{ " COMMAND":[0], "СommandFeature":[1], "Actor":[3], "Ation":[4]}],
+        "slots-indices": [{ "COMMAND": [0], "СommandFeature": [1], "Actor": [3], "Ation": [4]}],
 			"schedule": [{"time:DateTimeDescription": [3, 4]}]
 }

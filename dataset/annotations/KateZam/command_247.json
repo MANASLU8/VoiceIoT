@@ -2,7 +2,7 @@
 		"utterance_id": 247,
 		"ontology-label": "SmartVacuumCleaner",
 		"text": ["подмети там пока я буду на кухне"],
-        "slots-indices": [{ " COMMAND":[0], "LOC":[1, 6], "Actor":[3], "Action":[4]}],
+			"slots-indices": [{ "COMMAND": [0], "LOC": [1, 6], "Actor": [3], "Action": [4]}],
 			"schedule": [{"time:DateTimeDescription": [2, 3, 4, 5, 6]}]
 
 }

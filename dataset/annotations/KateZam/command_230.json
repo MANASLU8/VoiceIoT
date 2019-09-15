@@ -2,5 +2,5 @@
 		"utterance_id": 230,
 		"ontology-label": "WaterTapRelay",
 		"text": ["я собираюсь принять ванну"],
-    		"slots-indices": [{"Actor":[1], "Action":[2, 3], "CommandFeature":[3]}]
+    		"slots-indices": [{"Actor": [1], "Action": [2, 3], "CommandFeature": [3]}]
 }

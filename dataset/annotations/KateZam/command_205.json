@@ -2,6 +2,6 @@
 	"utterance_id": 205,
 	"ontology-label": "SmartOven",
 	"text": ["испеки мне еды к время"],
-        "slots-indices": [{ " COMMAND":[0], "Actor":[1], "CommandFeature":[2]}],
+        "slots-indices": [{ "COMMAND":[0], "Actor":[1], "CommandFeature":[2]}],
         "schedule": [{"time:DateTimeDescription": [4]}]
 }

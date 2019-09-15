@@ -1,7 +1,7 @@
 {
 		"utterance_id": 294,
 		"ontology-label": ["TemperatureSensor", "HeaterController"],
-		"text": ["Eсли на улице больше число температура включи электроотопление"],
-    		"slots-indices": [{"COMMAND":[6], "DEVICE":[7], "CommandParameter":[5], "CommandParameterValue":[4], "LOC":[1,2]}],
+		"text": ["если на улице больше число температура включи электроотопление"],
+    		"slots-indices": [{ "COMMAND": [6], "DEVICE": [7], "CommandParameter": [5], "CommandParameterValue": [4], "LOC": [1, 2]}],
 			"condition-indices": [0, 1, 2, 3, 4, 5]
 }

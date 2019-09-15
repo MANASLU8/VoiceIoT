@@ -2,12 +2,8 @@
 	"utterance_id": 110,
 	"ontology-label": "WashingMachine",
 	"text": ["включай стиральную машину в 23:05 каждое четное число месяца"],
-	"schedule": [{"regularlyRepeating": [4,5,6,7,8]}],
-	"slots-indices-bio": [
-  		[0,"B-COMMAND"],
-  		[1,"B-DEVICE"],
-		[2,"I-DEVICE"]
-	]
+		"slots-indices": [{"COMMAND":[0], "DEVICE":[1, 2]}],
+		"schedule": [{"regularlyRepeating": [4,5,6,7,8]}]
 }
 	
 

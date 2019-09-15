@@ -2,7 +2,7 @@
 		"utterance_id": 234,
 		"ontology-label": "Printer",
 		"text": ["распечатай документ название спустя число часов"],
-    		"slots-indices": [{"COMMAND":[0], "CommandFeature":[1, 2]}],
+    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1, 2]}],
 			"schedule": [{"time:DateTimeDescription": [3, 4, 5]}]
 
 }

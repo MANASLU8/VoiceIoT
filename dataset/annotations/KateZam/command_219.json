@@ -1,6 +1,6 @@
 {
 	"utterance_id": 219,
 	"ontology-label": "SmartKettle",
-	"text": "приготовь чай", 
-       "slots-indices": [{ "COMMAND":[3], "CommandFeature": [4]}]
+	"text": ["приготовь чай"], 
+       "slots-indices": [{"COMMAND": [0], "CommandFeature": [1]}]
 }

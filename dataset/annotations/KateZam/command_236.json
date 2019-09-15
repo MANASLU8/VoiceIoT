@@ -1,7 +1,7 @@
 {
 	"utterance_id": 236,
 	"ontology-label": "SmartFridge",
-	"text": "Сообщи какие фрукты в холодильнике", 
-        "slots-indices": [{ "COMMAND":[0], "CommandQuestion":[1], "CommandFeature":[2], "DEVICE":[4]}]
+	"text": ["сообщи какие фрукты в холодильнике"], 
+        "slots-indices": [{ "COMMAND": [0], "CommandQuestion": [1], "CommandFeature": [2], "DEVICE": [4]}]
 		
 }

@@ -2,7 +2,7 @@
 	"utterance_id": 111,
 	"ontology-label": "WashingMachine",
 	"text": ["Включай стиральную машину по четвергам"],
-	"schedule": [{"regularlyRepeating": [4]}],
-	"slots-indices": [{"COMMAND":[0], "DEVICE":[1,2]}]
+		"slots-indices": [{"COMMAND":[0], "DEVICE":[1,2]}],
+		"schedule": [{"regularlyRepeating": [4]}]
 }
 	

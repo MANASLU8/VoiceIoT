@@ -2,6 +2,5 @@
 	"utterance_id": 204,
 	"ontology-label": "DoorWindowStatusSensor",
 	"text": ["какие из окон в доме теперь открыты"],
-        "slots-indices": [{ " DeviceQuestion":[0], "DeviceFeature":[1], "LOC":[4], "FeatureState":[4]}]
-        
+        "slots-indices": [{ "DeviceQuestion":[0], "DeviceFeature":[1], "LOC":[4], "FeatureState":[4]}]
 }

@@ -2,5 +2,5 @@
 		"utterance_id": 311,
 		"ontology-label": "TemperatureSensor",
 		"text": ["сколько градусов на улице"],
-    		"slots-indices": [{"DeviceQuestion":[0], "DeviceParameter":[2],"LOC":[4]}]
+    		"slots-indices": [{"DeviceQuestion": [0], "DeviceParameter": [2], "LOC": [4]}]
 }
