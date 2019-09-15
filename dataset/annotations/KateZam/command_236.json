@@ -1,8 +1,7 @@
 {
-	"utterance_id": 325,
-	"ontology-label": ["TVSet", "MotionSensor", "Pulsometer"],
-	"text": "запиши программу если я усну", 
-        "slots-indices": [{ "COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action":[1]}],
-		"condition-indices": [2, 3, 4, 5]
+	"utterance_id": 236,
+	"ontology-label": "SmartFridge",
+	"text": "Сообщи какие фрукты в холодильнике", 
+        "slots-indices": [{ "COMMAND":[0], "CommandQuestion":[1], "CommandFeature":[2], "DEVICE":[4]}]
 		
 }
