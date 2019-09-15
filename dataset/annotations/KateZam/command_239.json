@@ -1,0 +1,6 @@
+{
+		"utterance_id": 239,
+		"ontology-label": "SmartMicrowave",
+		"text": ["разогрей мне завтрак"],
+			"slots-indices": [{ " COMMAND":[0], "CommandFeature":[2], "Actor": [1]}]
+}
