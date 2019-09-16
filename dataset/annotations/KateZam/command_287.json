@@ -1,0 +1,6 @@
+{
+		"utterance_id": 287,
+		"ontology-label": ["SmartKettle", "CoffeeMachine"],
+		"text": ["сделай кофе и чай"],
+    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1, 3]}]
+}

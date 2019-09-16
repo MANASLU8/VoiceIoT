@@ -1,0 +1,7 @@
+{
+	"utterance_id": 297,
+	"ontology-label": "AudioSystem",
+	"text": ["ставь стереосистему если я приду домой"], 
+        "slots-indices": [{ "COMMAND": [0], "DEVICE": [1], "Actor": [3], "Action": [4], "LOC": [5]}],
+        "condition-indices": [2, 3, 4, 5]
+}

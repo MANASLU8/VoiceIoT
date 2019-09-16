@@ -1,0 +1,6 @@
+{
+		"utterance_id": 261,
+		"ontology-label": "SmartCar",
+		"text": ["мне надо проехать до число больницы"],
+    		"slots-indices": [{"Actor": [0], "COMMAND": [1, 2], "CommandParameterValue": [4],"LOC": [5]}]
+}

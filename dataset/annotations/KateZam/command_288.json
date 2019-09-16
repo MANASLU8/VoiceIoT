@@ -1,0 +1,7 @@
+{
+		"utterance_id": 288,
+		"ontology-label": ["DoorWindowStatusSensor", " WindowRelay"],
+		"text": ["закрой окно если сильный ветер на улице"],
+    		"slots-indices": [{ "COMMAND": [0], "CommandFeature": [1, 4], "IntensityQuantifier": [3], "LOC": [6]}],
+			"condition-indices": [2, 3, 4, 5, 6]
+}

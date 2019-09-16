@@ -1,0 +1,6 @@
+{
+		"utterance_id": 264,
+		"ontology-label": ["LightSensor","Lamp","FloorLite"],
+		"text": ["освети комнату"],
+			"slots-indices": [{ "COMMAND": [0], "LOC": [1]}]
+}

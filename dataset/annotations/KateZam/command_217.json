@@ -1,0 +1,6 @@
+{
+		"utterance_id": 217,
+		"ontology-label": "SmartElectricityMeter",
+		"text": ["выключи электричество в спальне"],
+			"slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "LOC": [3]}]
+}

@@ -1,0 +1,7 @@
+{
+		"utterance_id": 299,
+		"ontology-label": ["AudioSystem", "TVSet"],
+		"text": ["увеличь частоту чтобы не мешал шум"],
+    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1, 5]}],
+			"condition-indices": [2, 3, 4, 5]
+}

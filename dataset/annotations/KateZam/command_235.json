@@ -1,0 +1,8 @@
+{
+		"utterance_id": 235,
+		"ontology-label": "Printer",
+		"text": ["отправь бланк название через число секунд"],
+    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1, 2]}],
+			"schedule": [{"time:DateTimeDescription": [3, 4, 5]}]
+
+}
