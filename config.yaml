@@ -1,7 +1,12 @@
 test-percentage: 20
 paths:
   slots-intents-module: vendor/slots_intents/intents_slots
+  joint-nlu-module: 
+    src: vendor/Joint-NLU/src
+  models:
+    joint-nlu: models/joint-nlu
   datasets:
+    root: dataset
     annotations: dataset/annotations
     pytext:
       data: dataset/pytext/data.tsv
@@ -22,6 +27,7 @@ paths:
       test: dataset/slots-intents/test.tsv
       validate: dataset/slots-intents/validate.tsv
     joint-nlu:
+      root: dataset/joint-nlu
       data: dataset/joint-nlu/data
       train: dataset/joint-nlu/train
       test: dataset/joint-nlu/test

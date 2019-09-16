@@ -5,14 +5,25 @@ import sys
 import tensorflow as tf
 import numpy as np
 
-sys.path.append('../../vendor/Joint-NLU/src')
+from .. import field_extractors as fe, converters, utils, file_operators as fo
+
+config = utils.load_config(utils.parse_args().config)
+
+sys.path.append(config['paths']['joint-nlu-module']['src'])
 from tensorflow.compat.v1.keras.layers import CuDNNLSTM
 from utils import createVocabulary
 from utils import loadVocabulary
 from utils import computeF1Score
 from utils import DataProcessor
 
-DATASETS_ROOT = '../../dataset'
+from tensorflow.compat.v1 import ConfigProto
+from tensorflow.compat.v1 import InteractiveSession
+
+configp = ConfigProto()
+configp.gpu_options.allow_growth = True
+session = InteractiveSession(config=configp)
+
+DATASETS_ROOT = config['paths']['datasets']['root']
 
 parser = argparse.ArgumentParser(allow_abbrev=False)
 
@@ -31,8 +42,8 @@ parser.add_argument("--patience", type=int, default=5, help="Patience to wait be
 #Model and Vocab
 parser.add_argument("--dataset", type=str, default=None, help="""Type 'atis' or 'snips' to use dataset provided by us or enter what ever you named your own dataset.
                 Note, if you don't want to use this part, enter --dataset=''. It can not be None""")
-parser.add_argument("--model_path", type=str, default='./src/model', help="Path to save model.")
-parser.add_argument("--vocab_path", type=str, default='./src/vocab', help="Path to vocabulary files.")
+parser.add_argument("--model_path", type=str, default=config['paths']['models']['joint-nlu'], help="Path to save model.")
+parser.add_argument("--vocab_path", type=str, default=config['paths']['datasets']['joint-nlu']['root'], help="Path to vocabulary files.")
 
 #Data
 parser.add_argument("--train_data_path", type=str, default='train', help="Path to training data files.")
@@ -75,9 +86,9 @@ full_train_path = os.path.join(DATASETS_ROOT,arg.dataset,arg.train_data_path)
 full_test_path = os.path.join(DATASETS_ROOT,arg.dataset,arg.test_data_path)
 full_valid_path = os.path.join(DATASETS_ROOT,arg.dataset,arg.valid_data_path)
 
-createVocabulary(os.path.join(full_train_path, arg.input_file), os.path.join(DATASETS_ROOT, arg.dataset, 'in_vocab'))
-createVocabulary(os.path.join(full_train_path, arg.slot_file), os.path.join(DATASETS_ROOT, arg.dataset, 'slot_vocab'))
-createVocabulary(os.path.join(full_train_path, arg.intent_file), os.path.join(DATASETS_ROOT, arg.dataset, 'intent_vocab'))
+#createVocabulary(os.path.join(full_train_path, arg.input_file), os.path.join(DATASETS_ROOT,'in_vocab'))
+#createVocabulary(os.path.join(full_train_path, arg.slot_file), os.path.join(DATASETS_ROOT,'slot_vocab'))
+#createVocabulary(os.path.join(full_train_path, arg.intent_file), os.path.join(DATASETS_ROOT, 'intent_vocab'))
 
 in_vocab = loadVocabulary(os.path.join(DATASETS_ROOT, arg.dataset, 'in_vocab'))
 slot_vocab = loadVocabulary(os.path.join(DATASETS_ROOT, arg.dataset, 'slot_vocab'))
@@ -423,8 +434,10 @@ if arg.dataset == 'atis':
     test_batch = 893
 elif arg.dataset == 'snips':
     test_batch = 700
+elif arg.dataset == "joint-nlu":
+    test_batch = 46
 
-model = MyModel(len(in_vocab['vocab']), len(slot_vocab['vocab']), len(intent_vocab['vocab']), layer_size=arg.layer_size)
+model = SlotGatedModel(len(in_vocab['vocab']), len(slot_vocab['vocab']), len(intent_vocab['vocab']), layer_size=arg.layer_size)
 opt = tf.keras.optimizers.Adam(learning_rate=1e-3)
 
 ckpt = tf.train.Checkpoint(step=tf.Variable(-1), optimizer=opt, net=model)

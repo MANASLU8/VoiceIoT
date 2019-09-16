@@ -88,14 +88,16 @@ snips-nlu-en==0.2.3
 snips-nlu-parsers==0.4.1
 snips-nlu-utils==0.9.1
 tabulate==0.8.3
+tb-nightly==1.14.0a20190301
 tensorboard==1.14.0
 tensorboardX==1.8
 tensorflow==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==2.0.0a0
 termcolor==1.1.0
 terminado==0.8.2
 testpath==0.4.2
+tf-estimator-nightly==1.14.0.dev2019030115
 torch==1.2.0
 torchtext==0.4.0
 tornado==6.0.3
