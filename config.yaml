@@ -4,6 +4,7 @@ paths:
   joint-nlu-module: 
     src: vendor/Joint-NLU/src
   models:
+    root: models
     joint-nlu: models/joint-nlu
   datasets:
     root: dataset
