@@ -6,6 +6,9 @@ paths:
   models:
     root: models
     joint-nlu: models/joint-nlu
+    slots-intents:
+      name: model.h5
+      path: models/slots-intents
   datasets:
     root: dataset
     annotations: dataset/annotations
@@ -23,10 +26,11 @@ paths:
       train: dataset/snips-nlu/train.tsv
       test: dataset/snips-nlu/test.tsv
     slots-intents:
-      data: dataset/slots-intents/data.tsv
-      train: dataset/slots-intents/train.tsv
-      test: dataset/slots-intents/test.tsv
-      validate: dataset/slots-intents/validate.tsv
+      data: dataset/slots-intents/data.csv
+      train: dataset/slots-intents/train.csv
+      test: dataset/slots-intents/test.json
+      validate: dataset/slots-intents/validate.csv
+      info: dataset/slots-intents/dataset_info
     joint-nlu:
       root: dataset/joint-nlu
       data: dataset/joint-nlu/data
@@ -50,5 +54,4 @@ paths:
       model-config: vendor/pytext/docnn.json
       model-config-extended: vendor/pytext/bilstm-without-pretrained-embeddings.json
     slots-intents:
-      model: models/slots-intents/model.h5
-      dataset-info: dataset/slots-intents/dataset_info
+      w2v: vendor/word-vectors/poincare.txt
