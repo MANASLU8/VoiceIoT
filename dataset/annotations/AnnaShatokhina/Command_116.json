@@ -1,5 +1,6 @@
 {
 	"utterance_id": 116,
+	"utterance-type": "Command",
 	"ontology-label": "WaterTapRelay",
 	"text": ["включи воду"],
 	"slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}]
