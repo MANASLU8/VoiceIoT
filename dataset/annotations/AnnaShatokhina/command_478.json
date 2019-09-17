@@ -1,7 +1,7 @@
 {
 		"utterance_id": 478,
+		"utterance-type": "Request",
 		"ontology-label": "MotionSensor",
 		"text": ["кто брал твою машину"],
-                "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[3], "Action":[1]}],
-		"condition-indices": [0, 1, 2, 3]
+                "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[3], "Action":[1]}]
 }
