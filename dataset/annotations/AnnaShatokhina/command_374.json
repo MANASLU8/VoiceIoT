@@ -1,7 +1,7 @@
 {
 		"utterance_id": 374,
+		"utterance-type": "Command",
 		"ontology-label": "TVSet",
 		"text": ["подготовить обстановку к просмотру фильма"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Action":[3], "CommandFeature":[4]}],
-		"condition-indices": [0, 1, 2, 3, 4]
+                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Action":[3], "CommandFeature":[4]}]
 }
