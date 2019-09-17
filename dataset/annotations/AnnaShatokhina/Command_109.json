@@ -1,5 +1,6 @@
 {
 	"utterance_id": 109,
+	"utterance-type": "Command",
 	"ontology-label": "SmartIron",
 	"text": ["поставь утюг на шерсть"],
 	"slots-indices": [{"COMMAND":[0], "DEVICE":[1], "DeviceParameterValue":[3]}]
