@@ -1,6 +1,7 @@
 {
 	"utterance_id": 117,
+	"utterance-type": "Command",
 	"ontology-label": "WaterTapRelay",
 	"text": ["сделай погорячее"],
-	"slots-indices": [{"COMMAND":[0], "FeatureState":[1]}]
+	"slots-indices": [{"COMMAND":[0], "CommandFeature":[2], "Quantifier":[2]}]
 }

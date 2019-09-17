@@ -1,7 +1,7 @@
 {
 		"utterance_id": 356,
+		"utterance-type": "Command",
 		"ontology-label": "AudioSystem",
 		"text": ["увеличьте громкость чтобы не мешал стук"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}],
-		"condition-indices": [0, 1, 2, 3, 4, 5]
+        "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}]
 }

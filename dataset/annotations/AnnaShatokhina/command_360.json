@@ -1,7 +1,7 @@
 {
 		"utterance_id": 360,
+		"utterance-type": "Request",
 		"ontology-label": "WashingMachine",
-		"text": ["доложи о соотоянии одежды"],
-                "slots-indices": [{"COMMAND":[0], "FeatureState":[2], "CommandFeature":[3]}],
-		"condition-indices": [0, 1, 2, 3]
+		"text": ["доложи о соcтоянии одежды"],
+        "slots-indices": [{"CommandState":[2], "CommandFeature":[3]}]
 }
