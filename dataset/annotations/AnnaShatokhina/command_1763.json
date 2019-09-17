@@ -1,7 +1,8 @@
 {
 		"utterance_id": 1763,
+		"utterance-type": "Command",
 		"ontology-label": "Lamp",
 		"text": ["выключай свет когда меня нет в комнате"],
                 "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action":[4], "LOC":[5]}],
-		"condition-indices": [0, 1, 2, 3, 4, 5]
+		"condition-indices": [2, 3, 4, 5, 6]
 }
