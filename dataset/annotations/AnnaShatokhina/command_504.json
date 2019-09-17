@@ -1,8 +1,8 @@
 {
 		"utterance_id": 504,
+		"utterance-type": "Command",
 		"ontology-label": "AudioSystem",
 		"text": ["увеличь громкость на 4 пункта"],
                 "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "FeatureStateValue":[2, 3, 4]}],
-		"hidden-slot-indices": [{"DEVICE": [1]}],
-		"condition-indices": [0, 1, 2, 3, 4]
+		"hidden-slot-indices": [{"DEVICE": [1]}]
 }
