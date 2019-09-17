@@ -2,5 +2,5 @@
 	"utterance_id": 207,
 	"ontology-label": ["TemperatureSensor", "HeaterController", "HeatingFloor"],
 	"text": ["сделай теплее во всех комнатах"],
-        "slots-indices": [{ " COMMAND":[0], "IntensityQuantifier":[1],"Quantor":[3],"LOC":4}]
+        "slots-indices": [{ " COMMAND":[0], "IntensityQuantifier":[1],"Quantor":[3],"LOC": [4]}]
 }

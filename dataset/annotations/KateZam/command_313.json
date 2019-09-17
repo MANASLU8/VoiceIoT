@@ -3,5 +3,5 @@
 	"ontology-label": "AudioSystem",
 	"text": ["выключи динамики на кухне и включи их в спальне"], 
         "slots-indices": [{ "COMMAND": [0, 5], "CommandFeature": [1], "LOC": [2, 3, 7, 8]}],
-		"coreference": [{"6": [1]}],
+		"coreference": [{"6": [1]}]
 }
