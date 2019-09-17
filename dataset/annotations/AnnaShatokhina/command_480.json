@@ -1,7 +1,8 @@
 {
 		"utterance_id": 480,
+		"utterance-type": "Command",
 		"ontology-label": "WindowRelay",
 		"text": ["если будет холодно закрой окно"],
                 "slots-indices": [{"COMMAND":[3], "CommandFeature":[2, 4]}],
-		"condition-indices": [0, 1, 2, 3, 4]
+		"condition-indices": [0, 1, 2]
 }
