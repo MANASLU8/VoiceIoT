@@ -1,8 +1,8 @@
 {
 		"utterance_id": 1774,
+		"utterance-type": "Request",
 		"ontology-label": "SmartFridge",
 		"text": ["у нас найдутся какие-нибудь овощи"],
                 "slots-indices": [{"CommandFeature":[2, 4]}],
-		"hidden-slot-indices": [{"DEVICE": [4]}],
-		"condition-indices": [0, 1, 2, 3, 4]
+		"hidden-slot-indices": [{"DEVICE": [4]}]
 }
