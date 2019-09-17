@@ -1,6 +1,6 @@
 {
 		"utterance_id": 1747,
-		"utterance-type": "Command"
+		"utterance-type": "Command",
 		"ontology-label": "SmartFeeder",
 		"text": ["если песик давно не ел покорми его"],
                 "slots-indices": [{"COMMAND":[5], "CommandFeature":[1], "FeatureState":[2, 3, 4]}],
