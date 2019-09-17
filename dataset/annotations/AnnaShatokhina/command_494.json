@@ -1,7 +1,7 @@
 {
 		"utterance_id": 494,
-		"ontology-label": "TemperatureSensor",
+		"utterance-type": "IndirectCommand",
+		"ontology-label": "HeaterController",
 		"text": ["разумеется совсем холодно"],
-                "slots-indices": [{"IntensityQuantifier":[1], "CommandFeature":[2]}],
-		"condition-indices": [0, 1, 2]
+                "slots-indices": [{"IntensityQuantifier":[1], "CommandFeature":[2]}]
 }
