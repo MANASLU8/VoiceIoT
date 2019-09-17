@@ -1,7 +1,7 @@
 {
 		"utterance_id": 369,
+		"utterance-type": "Request",
 		"ontology-label": "SmartElectricityMeter",
 		"text": ["сколько в этом месяце было за электричество"],
-                "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[6]}],
-		"condition-indices": [0, 1, 2, 3, 4, 5, 6]
+                "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[6]}]
 }
