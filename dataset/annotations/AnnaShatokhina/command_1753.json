@@ -1,7 +1,8 @@
 {
 		"utterance_id": 1753,
+		"utterance-type": "Command",
 		"ontology-label": "SmartKettle",
 		"text": ["когда я зайду завари чай"],
                 "slots-indices": [{"COMMAND":[3], "CommandFeature":[4], "Actor":[1], "Action":[2]}],
-		"condition-indices": [0, 1, 2, 3, 4]
+		"condition-indices": [0, 1, 2]
 }
