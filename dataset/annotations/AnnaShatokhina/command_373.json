@@ -1,7 +1,8 @@
 {
 		"utterance_id": 373,
+		"utterance-type": "Command",
 		"ontology-label": "CurtainsRelay",
 		"text": ["откроешь занавески если слишком темно"],
                 "slots-indices": [{"COMMAND":[0], "CommandFeature":[1, 4], "IntensityQuantifier":[3]}],
-		"condition-indices": [0, 1, 2, 3, 4]
+		"condition-indices": [2, 3, 4]
 }
