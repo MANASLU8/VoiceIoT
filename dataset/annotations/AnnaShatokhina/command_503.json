@@ -1,8 +1,9 @@
 {
 		"utterance_id": 503,
+		"utterance-type": "Command",
 		"ontology-label": "AudioSystem",
 		"text": ["прочитай передачи если я засну"],
                 "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action":[4]}],
 		"hidden-slot-indices": [{"DEVICE": [0]}],
-		"condition-indices": [0, 1, 2, 3, 4]
+		"condition-indices": [2, 3, 4]
 }
