@@ -1,7 +1,8 @@
 {
 		"utterance_id": 1760,
+		"utterance-type": "Command",
 		"ontology-label": "MotionSensor",
 		"text": ["предупреди когда грузовик сзади меня будет вплотную"],
                 "slots-indices": [{"COMMAND":[0], "CommandFeature":[2], "LOC":[3, 4], "FeatureState":[5], "IntensityQuantifier":[6]}],
-		"condition-indices": [0, 1, 2, 3, 4, 5]
+		"condition-indices": [1, 2, 3, 4, 5, 6]
 }
