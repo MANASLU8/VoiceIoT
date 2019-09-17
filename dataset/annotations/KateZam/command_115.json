@@ -1,5 +1,6 @@
 {
 	"utterance_id": 115,
+	"utterance-type": "Command",
 	"ontology-label": "WashingMachine",
 	"text": ["Запусти стирку для цветного"],
 		"slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "DeviceParameterValue":[3]}],

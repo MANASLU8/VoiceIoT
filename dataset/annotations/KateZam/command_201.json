@@ -1,7 +1,9 @@
 {
 		"utterance_id": 201,
-		"ontology-label": ["WaterTapRelay","TemperatureSensor"],
-		"text": ["если на улице меньше число температура включи водоснабжение"],
-    		"slots-indices": [{"COMMAND":[6], "CommandFeature":[7], "DeviceFeature": [5],"DeviceParameterValue":[4],"IntensityQuantifier":[3]}],
+		"utterance-type": "Command",
+		"ontology-label": ["HeatingFloor","TemperatureSensor"],
+		"text": ["если на улице меньше 10 температура включи подогрев пола"],
+    		"slots-indices": [{"COMMAND":[6], "DeviceFeature":[7,8],"DeviceParameterValue":[4],"IntensityQuantifier":[3]}],
 			"condition-indices": [0, 1, 2, 3, 4, 5]
 }
+

@@ -1,5 +1,6 @@
 {
 	"utterance_id": 110,
+	"utterance-type": "Command",
 	"ontology-label": "WashingMachine",
 	"text": ["включай стиральную машину в 23:05 каждое четное число месяца"],
 		"slots-indices": [{"COMMAND":[0], "DEVICE":[1, 2]}],

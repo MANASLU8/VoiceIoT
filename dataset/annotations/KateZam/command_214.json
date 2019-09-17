@@ -1,7 +1,8 @@
 {
 		"utterance_id": 214,
+		"utterance-type": "Command",
 		"ontology-label": ["LightSensor","Lamp","FloorLite"],
-		"text": ["включай свет вдруг я зашёл в комнату"],
+		"text": ["включай свет если я зашёл в комнату"],
 			"slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "Actor": [3], "Action": [4], "LOC": [6]}],
 			"condition-indices": [2, 3, 4, 5, 6] 
 }

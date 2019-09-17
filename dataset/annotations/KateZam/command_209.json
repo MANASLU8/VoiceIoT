@@ -1,7 +1,8 @@
 {
 	"utterance_id": 209,
+	"utterance-type": "Command",
 	"ontology-label": "TVSet",
-	"text": ["выключи информационно-развлекательную если я прихожу домой"],
-        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1], "Actor": [3],"Action": [4],"LOC": [5]}],
-        "condition-indices": [2, 3, 4, 5]
+	"text": ["выключи информационно-развлекательную программу если я прихожу домой"],
+        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1, 2], "Actor": [3],"Action": [4],"LOC": [5]}],
+        "condition-indices": [3, 4, 5, 6]
 }

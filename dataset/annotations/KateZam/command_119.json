@@ -1,5 +1,6 @@
 {
 	"utterance_id": 119,
+	"utterance-type": "IndirectCommand",
 	"ontology-label": "WaterTapRelay",
 	"text": ["Я хочу принять ванну"],
 		"slots-indices": [{"Actor":[0],"Action":[1,2],"CommandFeature":[3]}],
