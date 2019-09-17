@@ -1,8 +1,8 @@
 {
 	"utterance_id": 1400,
-	"ontology-label": "MotionSensor",
+	"ontology-label": ["MotionSensor","Phone"],
 	"text": ["Предупреди если автомобиль сзади меня придется очень вплотную"],
-        "slots-indices": [{ " COMMAND":[0], "CommandFeature":[2], "LOC":[3], "IntensityQuantifier":[6],"FeatureState":[7]}],
+        "slots-indices": [{ "COMMAND":[0]}, {"CommandFeature":[2], "LOC":[3], "IntensityQuantifier":[6],"FeatureState":[7]}],
         "condition-indices": [1, 2, 3, 4, 5, 6, 7]
         
 }
