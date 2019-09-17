@@ -1,8 +1,8 @@
 {
 		"utterance_id": 4383,
+		"utterance-type": "IndirectCommand",
 		"ontology-label": "TemperatureSensor",
 		"text": ["как сейчас холодно"],
     		"slots-indices": [{"CommandFeature":[2]}],
-		"hidden-slot-indices": [{"DEVICE": [2]}],
-		"condition-indices": [0, 1, 2]
+		"hidden-slot-indices": [{"DEVICE": [2]}]
 }
