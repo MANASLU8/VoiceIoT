@@ -1,7 +1,7 @@
 {
 		"utterance_id": 383,
+		"utterance-type": "Command",
 		"ontology-label": "WindowRelay",
 		"text": ["проветри там"],
-                "slots-indices": [{"COMMAND":[0], "LOC":[1]}],
-		"condition-indices": [0, 1]
+                "slots-indices": [{"COMMAND":[0], "LOC":[1]}]
 }
