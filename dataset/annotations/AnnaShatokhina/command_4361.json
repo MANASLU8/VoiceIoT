@@ -1,8 +1,8 @@
 {
 		"utterance_id": 4361,
+		"utterance-type": "Command",
 		"ontology-label": "SmartFeeder",
 		"text": ["кот давненько не ел покорми его"],
     		"slots-indices": [{"COMMAND":[4]}],
-		"hidden-slot-indices": [{"DEVICE": [0, 4]}],
-		"condition-indices": [0, 1, 2, 3, 4, 5]
+		"hidden-slot-indices": [{"DEVICE": [0, 4]}]
 }
