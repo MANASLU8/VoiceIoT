@@ -1,8 +1,8 @@
 {
 		"utterance_id": 1744,
+		"utterance-type": "Command",
 		"ontology-label": "CoffeeMachine",
 		"text": ["каждый день проверяй кофеварку в доме"],
                 "slots-indices": [{"COMMAND":[2], "LOC":[5], "DEVICE": [3]}],
-		"schedule": [{"time:DateTimeDescription": [0, 1]}],
-		"condition-indices": [0, 1, 2, 3, 4, 5]
+		"schedule": [{"time:DateTimeDescription": [0, 1]}]
 }
