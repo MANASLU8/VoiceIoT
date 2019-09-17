@@ -1,7 +1,6 @@
 {
 	"utterance_id": 2000,
-	"ontology-label": "AudioSystem",
+	"ontology-label": "SmartElectricityMeter",
 	"text": ["почем в этом году я заплатил за свет"],
-        "slots-indices": [{ " RequestQuestion":[0], "CommandFeature":[7], "Actor":[4], "Action":[5]}],
-        "schedule":[{"time:Interval": [2, 3]}]     
+        "slots-indices": [{ "RAnalytics":[0], "CommandFeature":[7],"Actor":[4],"Action":[5],"Duration":[2, 3]}]  
 }
