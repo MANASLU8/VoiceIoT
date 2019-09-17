@@ -1,7 +1,8 @@
 {
 		"utterance_id": 1776,
+		"utterance-type": "Command",
 		"ontology-label": "CurtainsRelay",
 		"text": ["если за окном солнце открой занавески"],
                 "slots-indices": [{"COMMAND":[4], "CommandFeature":[5], "LOC":[2]}],
-		"condition-indices": [0, 1, 2, 3, 4, 5]
+		"condition-indices": [0, 1, 2, 3]
 }
