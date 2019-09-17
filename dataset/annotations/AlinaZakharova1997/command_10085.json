@@ -1,7 +1,6 @@
 {
 	"utterance_id": 10085,
 	"ontology-label": "CurtainsRelay",
-	"text": "когда последний раз снимали занавески", 
-        "slots-indices": [{ "CommandQuestion":[0], "FeatureState":[3], "DeviceFeature": [4]}],
-        "schedule": [{"regularlyRepeating": [1, 2]}]
+	"text": "когда последний раз опускали занавески", 
+        "slots-indices": [{ "RequestQuestion":[0], "FeatureState":[3], "DeviceFeature": [4], "Analytics":[1, 2]}]
 }
