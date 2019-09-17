@@ -1,7 +1,7 @@
 {
 		"utterance_id": 377,
+		"utterance-type": "Request",
 		"ontology-label": "SmartFridge",
 		"text": ["нужно ли покупать продукты"],
-                "slots-indices": [{"ParameterValueQuestion":[0], "Action":[2], "CommandFeature":[3]}],
-		"condition-indices": [0, 1, 2, 3]
+                "slots-indices": [{"ParameterValueQuestion":[0], "Action":[2], "CommandFeature":[3]}]
 }
