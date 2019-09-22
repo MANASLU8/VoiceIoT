@@ -1,7 +1,7 @@
 {
 	"utterance_id": 10042,
-	"ontology-label": "CurtainsRelay",
+	"ontology-label": ["CurtainsRelay","LightSensor"],
 	"text": "если за окном солнце закрой занавески", 
-        "slots-indices": [{ "COMMAND":[4], "DeviceFeature": [5], "CommandState":[3]}],
+        "slots-indices": [{},{ "COMMAND":[4], "DeviceFeature": [5], "CommandState":[3]}],
         "condition-indices": [0, 1, 2, 3]
 }
