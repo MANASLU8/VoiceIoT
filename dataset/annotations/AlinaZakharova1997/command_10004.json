@@ -2,6 +2,5 @@
 	"utterance_id": 10004,
 	"ontology-label": "AudioSystem",
 	"text": "назови исполнителя самой частотной песни", 
-        "slots-indices": [{ "COMMAND":[0], "CommandFeature": [1],"DeviceFeature":[4],"IntensityQuantifier":[2], "FeatureState":[3]}]
-
+        "slots-indices": [{ "Request":[0], "DeviceFeature": [1, 4],"IntensityQuantifier":[2], "Analytics":[3]}]
 }
