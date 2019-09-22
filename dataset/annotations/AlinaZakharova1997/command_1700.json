@@ -2,6 +2,5 @@
 	"utterance_id": 1700,
 	"ontology-label": "WashingMachine",
 	"text": ["сколько раз за месяц была стирка"],
-        "slots-indices": [{ " RequestQuestion":[0], "CommandFeature":[5], "FeatureState":[4]}],
-        "schedule":[{"time:Interval": [3]}]    
+        "slots-indices": [{ " RequestQuestion":[0], "CommandFeature":[5], "Analytics":[1,3,4]}]   
 }
