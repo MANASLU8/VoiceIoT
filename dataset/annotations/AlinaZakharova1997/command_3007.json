@@ -2,5 +2,5 @@
 	"utterance_id": 3007,
 	"ontology-label": "SmartOven",
 	"text": ["сколько часов стоит суп в духовке"],
-        "slots-indices": [{ " RequestQuestion":[0], "CommandFeature":[3], "FeatureState":[2], "LOC":[5]}]   
+        "slots-indices": [{ " RequestQuestion":[0], "CommandFeature":[3], "Analytics":[1,2], "LOC":[5]}]   
 }
