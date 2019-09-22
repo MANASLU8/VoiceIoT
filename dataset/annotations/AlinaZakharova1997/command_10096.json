@@ -1,7 +1,7 @@
 {
 	"utterance_id": 10096,
-	"ontology-label": "TemperatureSensor",
-	"text": "Если на улице температура число градусов включи обогреватель", 
-        "slots-indices": [{ "COMMAND":[6], "DEVICE": [7], "LOC":[2], "DeviceFeature":[3], "DeviceParameter":[5], "DeviceParameterValue":[4]}],
+	"ontology-label": ["TemperatureSensor","HeaterController"],
+	"text": "Если на улице температура 0 градусов включи обогреватель", 
+        "slots-indices": [{ "COMMAND":[6], "DEVICE": [7]}, {"LOC":[2], "DeviceFeature":[3], "DeviceParameter":[5], "DeviceParameterValue":[4]}],
         "condition-indices": [0, 1, 2, 3, 4, 5]
 }
