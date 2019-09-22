@@ -1,7 +1,7 @@
 {
 	"utterance_id": 10031,
-	"ontology-label": "Lamp",
+	"ontology-label": ["Lamp","MotionSensor"],
 	"text": "Гаси свет в спальне если никого нет", 
-        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1], "LOC":[3]}],
+        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1]}, {"LOC":[3]}],
         "condition-indices": [4, 5, 6]
 }
