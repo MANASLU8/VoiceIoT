@@ -1,8 +1,8 @@
 {
 	"utterance_id": 10009,
-	"ontology-label": "WindowRelay",
+	"ontology-label": ["WindowRelay","TemperatureSensor"],
 	"text": "если станет холодно, то открой окно", 
-        "slots-indices": [{ "COMMAND":[4], "DeviceFeature": [5]}],
+        "slots-indices": [{ "COMMAND":[4], "DeviceFeature": [5]},{}],
         "condition-indices": [0, 1, 2],
-	"hidden-slot-indices":[{"CommandFeature": [2]}]
+	"hidden-slot-indices":[{},{"CommandFeature": [2]}]
 }
