@@ -3,5 +3,5 @@
 	"ontology-label": "SmartBreadMaker",
 	"text": "Приготовь хлеб к нашему ужину", 
         "slots-indices": [{ "COMMAND":[0], "CommandFeature": [1]}],
-        "schedule": [{"time:DateTimeDescription":[3, 4]}]
+        "hidden-slot-indices":[{"time:DateTimeDescription":[3, 4]}]
 }
