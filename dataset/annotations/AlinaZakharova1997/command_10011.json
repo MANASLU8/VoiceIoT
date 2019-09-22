@@ -1,8 +1,8 @@
 {
 	"utterance_id": 10011,
-	"ontology-label": "WindowRelay",
+	"ontology-label": ["WindowRelay" ,"TemperatureSensor"],
 	"text": "если на улице жарко, открой окно", 
-        "slots-indices": [{ "COMMAND":[4], "CommandFeature": [5],  "LOC":[2]}],
+        "slots-indices": [{ "COMMAND":[4], "CommandFeature": [5]}, {"LOC":[2]}],
         "condition-indices": [0, 1, 2, 3],
         "hidden-slot-indices":  [{"CommandFeature": [3]}]
 
