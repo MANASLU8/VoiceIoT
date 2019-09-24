@@ -1,7 +1,7 @@
 {
 		"utterance_id": 386,
 		"utterance-type": "Command",
-		"ontology-label": [{"Lamp"}, {"AudioSystem"}],
+		"ontology-label": ["Lamp", "AudioSystem"],
 		"text": ["приглуши свет или включи расслабляющую музыку"],
                 "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}, {"COMMAND":[3], "CommandFeature":[4,5]}]
 }

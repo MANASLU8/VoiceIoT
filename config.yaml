@@ -9,6 +9,8 @@ paths:
     slots-intents:
       name: model.h5
       path: models/slots-intents
+    w2v:
+      models/w2v
   datasets:
     root: dataset
     annotations: dataset/annotations
@@ -47,6 +49,8 @@ paths:
           labels: intent_vocab
           texts: in_vocab
           slots: slot_vocab
+    w2v:
+      root: dataset/w2v
   etc:
     pytext:
       model: models/pytext/model.caffe2.predictor
