@@ -50,15 +50,14 @@ df.text = list(map(lambda text: np.average([[value for value in model[word]] for
 df.to_csv(os.path.join(config['paths']['datasets']['w2v']['root'], "test.csv"))
 
 #
-# classify using linear regression classifier
+# classify using logistic regression classifier
 #
-
-#print(df[:5])
 
 def split(df, pieces=2):
 	number_of_lines = df.shape[0]
 	chunk_size = number_of_lines // pieces
-	return [{"test": df[i * chunk_size: (i + 1) * chunk_size], "train": pd.concat([df[: i * chunk_size], df[(i + 1) * chunk_size:]])} for i in range(pieces)]
+	for i in range(pieces):
+		yield {"test": df[i * chunk_size: (i + 1) * chunk_size], "train": pd.concat([df[: i * chunk_size], df[(i + 1) * chunk_size:]])}
 
 def classify(df, classifier, pieces=5):
 	results = []
@@ -77,17 +76,7 @@ def classify(df, classifier, pieces=5):
 
 		results.append({"accuracy": accuracy_score(y_test, y_pred), "f1-score": f1_score(y_test, y_pred, average='weighted')})
 
-	print(f"Average accuracy: {np.average([item['accuracy'] for item in results])}")
+	print(f"Average accuracy: {np.average([item['accuracy'] for item in results])} (constant classifier gives {np.max(df.groupby('type').size())/(np.sum(df.groupby('type').size()))})")
 	print(f"Average f1-score: {np.average([item['f1-score'] for item in results])}")
 
 classify(df, LogisticRegression(n_jobs=1, C=1e9))
-
-
-# y_train, X_train = vec_for_learning(model_dbow, train_tagged)
-# y_test, X_test = vec_for_learning(model_dbow, test_tagged)
-# logreg = LogisticRegression(n_jobs=1, C=1e5)
-# logreg.fit(X_train, y_train)
-# y_pred = logreg.predict(X_test)
-# from sklearn.metrics import accuracy_score, f1_score
-# print('Testing accuracy %s' % accuracy_score(y_test, y_pred))
-# print('Testing F1 score: {}'.format(f1_score(y_test, y_pred, average='weighted')))
