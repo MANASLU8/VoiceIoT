@@ -13,5 +13,8 @@ def load_config(config_file):
 
 def parse_args():
 	parser = argparse.ArgumentParser(description='Dataset handler')
+	add_config_arg(parser)
+
+def add_config_arg(parser):
 	parser.add_argument('-c', '--config', action="store", dest="config", default="config.yaml")
-	return parser.parse_args()
+	return parser
