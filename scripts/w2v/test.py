@@ -118,6 +118,6 @@ for classifier in results.keys():
 
 rdf = pd.DataFrame.from_dict({"classifier": classifiers, "accuracy": accuracy, "f1-score": f1_score})
 print(rdf)
-print(f"Best classifier according to accuracy: {max_accuracy_classifier}")
-print(f"Best classifier according to f1-score: {max_f1_score_classifier}")
-#print(results)
+print(f"Best classifier according to accuracy ({max_accuracy}): {max_accuracy_classifier}")
+print(f"Best classifier according to f1-score ({max_f1_score}): {max_f1_score_classifier}")
+print(f"Constant classifier gives {np.max(df.groupby('type').size())/(np.sum(df.groupby('type').size()))}: {' + '.join([str(item) for item in df.groupby('type').size().to_numpy()])} = {np.sum(df.groupby('type').size())}")
