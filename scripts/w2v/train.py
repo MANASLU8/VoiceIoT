@@ -12,6 +12,8 @@ from sklearn.linear_model import LogisticRegression
 from .. import utils
 from . import normalize
 
+config = utils.load_config(utils.parse_args().config)
+
 #
 # make word embeddings
 #
