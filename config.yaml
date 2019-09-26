@@ -14,6 +14,9 @@ paths:
   datasets:
     root: dataset
     annotations: dataset/annotations
+    iot-commands:
+      data: dataset/iot-commands/data.txt
+      annotations: dataset/annotations/iot-commands
     pytext:
       data: dataset/pytext/data.tsv
       data-extended: dataset/pytext/data-extended.tsv
