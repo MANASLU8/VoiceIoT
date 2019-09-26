@@ -54,7 +54,7 @@ def split(df, pieces=2):
 	for i in range(pieces):
 		yield {"test": df[i * chunk_size: (i + 1) * chunk_size], "train": pd.concat([df[: i * chunk_size], df[(i + 1) * chunk_size:]])}
 
-def classify(df, classifier, pieces=5):
+def classify(df, classifier, pieces=config['cv-folds']):
 	results = []
 	for item in split(df, pieces=pieces):
 		x_train =  np.array([[value for value in item] for item in item['train'].text.to_numpy()])

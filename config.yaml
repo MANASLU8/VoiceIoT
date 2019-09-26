@@ -1,4 +1,5 @@
 test-percentage: 20
+cv-folds: 10
 paths:
   slots-intents-module: vendor/slots_intents/intents_slots
   joint-nlu-module: 
