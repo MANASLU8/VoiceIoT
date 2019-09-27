@@ -1,5 +1,6 @@
 # VoiceIoT
 ![plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/w2v/cv.png)
+![test-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/w2v/cv-test.png)
 # Scripts
 All scripts are executed as parts of a python module, for example:  
 `python -m scripts.pytext.normalize [-c config.yaml]`  
