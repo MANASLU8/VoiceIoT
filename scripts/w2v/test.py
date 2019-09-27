@@ -162,7 +162,7 @@ if not args.tf:
 	def draw_bar_labels(x, y, axis, threshold=2, round_precision=2):
 		smallest = sorted(y)[threshold]
 		for c, v in zip(x, y):
-			axis.text(c, v * 0.97 if v > smallest else v + 0.5, str(round(v, 2)), color='white' if v > smallest else 'black', horizontalalignment='center')
+			axis.text(c, v * 0.96 if v > smallest else v + 0.5, str(round(v, 2)), color='white' if v > smallest else 'black', horizontalalignment='center')
 
 	# create two sublots
 	fig, axs = plt.subplots(2)
@@ -170,7 +170,7 @@ if not args.tf:
 
 	fig.set_figwidth(19)
 	fig.set_figheight(10)
-	fig.suptitle("Results of commands' labelling" if args.title is None else args.title, fontsize=16)
+	fig.suptitle("Results of commands labelling" if args.title is None else args.title, fontsize=16)
 
 	axs[0].bar(rdf.classifier, height=rdf.accuracy, color=[COMMON_COLOR if i < max_accuracy else BRIGHT_COLOR for i in accuracy], log = True)
 	axs[0].set_title('Accuracy')
