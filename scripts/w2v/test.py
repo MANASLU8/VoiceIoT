@@ -68,7 +68,6 @@ else:
 #
 # classify using logistic regression classifier
 #
-
 def split(df, pieces=2):
 	number_of_lines = df.shape[0]
 	chunk_size = number_of_lines // pieces
@@ -173,6 +172,9 @@ if not args.tf:
 	fig.set_figheight(10)
 	fig.suptitle("Results of commands labelling" if args.title is None else args.title, fontsize=16)
 
+	type_counts = dict(df.type.value_counts())
+	type_counts['Total'] = int(np.sum(list(type_counts.values())))
+	axs[0].text(0.05, 0.98, '\n'.join([f"{type:17s}: {type_counts[type]:4d}" for type in type_counts.keys()]) + '\n'*5, horizontalalignment='left', verticalalignment='top', transform=axs[0].transAxes, family='monospace')
 	axs[0].bar(rdf.classifier, height=rdf.accuracy, color=[COMMON_COLOR if i < max_accuracy else BRIGHT_COLOR for i in accuracy], log = True)
 	axs[0].set_title('Accuracy')
 	axs[0].set_xlabel('Classifier')
@@ -324,6 +326,7 @@ else:
 		#print(f"Average f1-score: {np.average([item['f1-score'] for item in results])}")
 
 	#dfs = labellize_using_dummy(df, "type")
+	
 	classify_svm(df)
 
 	#classify_svm(df,)
