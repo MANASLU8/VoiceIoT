@@ -59,6 +59,7 @@ else:
 	# map given results with input data
 	df.text = list(map(lambda text: np.average([[value for value in model[word]] for word in text.split(" ") if word in model], axis=0), df.text))
 	df = df[df.text.notnull()]
+	print(f"Read {df.shape[0]} entries")
 
 	# save transformed csv
 	df.to_csv(os.path.join(config['paths']['datasets']['w2v']['root'], (DEFAULT_MODEL_FILE_NAME if args.model is None else args.model).split("/")[-1].split('.')[0] + ".csv"))
