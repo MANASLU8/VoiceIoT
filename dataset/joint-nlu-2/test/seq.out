@@ -1,0 +1,25 @@
+B-WaterTapRelay.Actor B-WaterTapRelay.Action I-WaterTapRelay.Action B-WaterTapRelay.CommandFeature
+B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature B-WaterTapRelay.Quantifier
+O B-WaterTapRelay.Action B-WaterTapRelay.Actor O B-WaterTapRelay.LOC B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature I-WaterTapRelay.CommandFeature O O O O
+B-TemperatureSensor.Actor O B-TemperatureSensor.IntensityQuantifier B-TemperatureSensor.CommandFeature
+B-TemperatureSensor.ParameterValueQuestion B-TemperatureSensor.LOCCurrent B-TemperatureSensor.IntensityQuantifier B-TemperatureSensor.CommandFeature
+B-TemperatureSensor.COMMAND B-TemperatureSensor.CommandFeature O B-TemperatureSensor.LOC O O B-TemperatureSensor.CommandParameterValue
+B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O
+B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O B-WashingMachine.DeviceParameterValue
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O I-AudioSystem.CommandFeature
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action
+B-SmartElectricityMeter.ParameterValueQuestion O O O B-SmartElectricityMeter.Actor B-SmartElectricityMeter.Action O O
+B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature O B-SmartElectricityMeter.LOC
+B-SmartOven.COMMAND B-SmartOven.CommandFeature O O
+B-SmartOven.COMMAND B-SmartOven.Actor B-SmartOven.CommandFeature O O
+B-HeaterController.COMMAND B-HeaterController.DeviceParameter O B-HeaterController.DeviceParameterValue I-HeaterController.DeviceParameterValue
+O B-HeaterController.IntensityQuantifier B-HeaterController.CommandFeature
+B-MotionSensor.ParameterValueQuestion B-MotionSensor.Action O B-MotionSensor.CommandFeature
+B-MotionSensor.COMMAND B-MotionSensor.CommandFeature O B-MotionSensor.Actor B-MotionSensor.Action O
+B-SmartFridge.ParameterValueQuestion O O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature
+O O B-WindowRelay.CommandFeature B-WindowRelay.COMMAND B-WindowRelay.CommandFeature
+B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O O O
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O B-CurtainsRelay.IntensityQuantifier B-CurtainsRelay.CommandFeature
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action B-Lamp.LOC O
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC

@@ -28,6 +28,7 @@ def make_chunk(i, entities, entity_names, word, ontology_label):
 	return 'O'
 
 def write_dataset(folder, items, vocab_folder = None):
+	print(f"Writing {len(items)} items")
 	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['texts']), [item[0] for item in items])
 	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['slots']), [item[1] for item in items])
 	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['labels']), [item[2] for item in items])
@@ -36,7 +37,7 @@ def write_dataset(folder, items, vocab_folder = None):
 		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['texts']), set(itertools.chain(*[item[0].split(' ') for item in items])))
 		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['labels']), set([item[2] for item in items]))
 
-def handle_files(input_files):
+def handle_files(input_files, get_file_names=False):
 	result = []
 	entity_names = set({})
 	for j in range(len(input_files)):
@@ -44,6 +45,8 @@ def handle_files(input_files):
 		with open(input_file) as f:
 			annotation = json.loads(f.read())
 		ontology_label = fe.extract_ontology_label(annotation)
+		if not ontology_label or not fe.extract_utterance_type(annotation):
+			continue
 		text = fe.extract_text(annotation)
 		sent = re.sub(r'[^\w\s]','',text).lower()
 		labels = []
@@ -53,7 +56,10 @@ def handle_files(input_files):
 				labels.append(make_chunk(i, annotation['slots-indices'][0], entity_names, word, ontology_label))
 			elif 'slots-indices-bio' in annotation:
 				labels.append(make_chunk(i, converters.decode_bio(annotation['slots-indices-bio']), entity_names, word, ontology_label))
-		result.append([sent, ' '.join(join_labels(labels)), ontology_label])
+		if get_file_names:
+			result.append(input_file)
+		else:
+			result.append([sent, ' '.join(join_labels(labels)), ontology_label])
 	return result
 
 if __name__ == "__main__":

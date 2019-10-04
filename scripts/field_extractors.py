@@ -1,4 +1,6 @@
 def extract_prop(annotation, property):
+	if property not in annotation:
+		return None
 	if type(annotation[property]) == list:
 		return annotation[property][0]
 	else:
