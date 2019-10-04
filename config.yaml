@@ -13,8 +13,8 @@ paths:
     slots-intents:
       name: model.h5
       path: models/slots-intents
-    w2v:
-      models/w2v
+    w2v: models/w2v
+    ar100w2v: ~/models/ArModel100w2v.txt
   datasets:
     root: dataset
     annotations: dataset/annotations
@@ -26,6 +26,10 @@ paths:
       annotations: dataset/annotations/not-commands
     parlai:
       data: dataset/parlai/data.txt
+    vw:
+      data: dataset/vw/data.txt
+      train: dataset/vw/train.txt
+      test: dataset/vw/test.txt
     pytext:
       data: dataset/pytext/data.tsv
       data-extended: dataset/pytext/data-extended.tsv

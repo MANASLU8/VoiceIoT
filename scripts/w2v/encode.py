@@ -7,7 +7,7 @@ from gensim.models import KeyedVectors
 args = utils.parse_args()
 config = utils.load_config(args.config)
 
-DEFAULT_MODEL_PATH =  "~/models/ArModel100w2v.txt"#"/home/zeio/viot/models/w2v/test.txt"
+DEFAULT_MODEL_PATH = config['paths']['models']['ar100w2v']#"/home/zeio/viot/models/w2v/test.txt"
 DEFAULT_ARRAY_FILE_NAME = "embeddings"
 
 df = normalize.handle_files(jn.normalize.handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations']), get_file_names = True))

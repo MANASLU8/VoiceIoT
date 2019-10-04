@@ -33,3 +33,13 @@ Run script being in the root of the cloned folder
 ```shell
 python train.py --dataset=itmo-2 --priority_order=slot_first --embedding_path=../../models/w2v/embeddings.npy --use_crf=True
 ```
+## Vowpal Wabbit
+### Usage  
+Train:  
+```shell
+vw dataset/vw/train.txt --oaa 5 -f models/vw/oaa.model
+```  
+Test:  
+```shell
+vw -t -i models/vw/oaa.model dataset/vw/test.txt -p dataset/vw/predictions.txt
+```
