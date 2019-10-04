@@ -25,7 +25,7 @@ def handle_files(input_files):
 			continue
 		utterance_types.add(utterance_type)
 		text = re.sub(r'[^\w\s]','',fe.extract_text(annotation)).lower().split(' ')
-		samples.append(f"text:{' '.join(text)}\tlabels:{utterance_type}\tepisode_done:True")
+		samples.append(f"text:{' '.join(text)}\tlabels:{utterance_type}\tepisode_done:False")
 	return list(map(lambda sample: sample + "\tlabel_candidates:" + '|'.join(utterance_types), samples))
 
 fo.write_lines(config['paths']['datasets']['parlai']['data'], handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])))

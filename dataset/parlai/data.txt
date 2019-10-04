@@ -1,681 +1,681 @@
-text:карта температур	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:уровень заряда квадрокоптера	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пульт	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:мой любимый альбом	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:доля углекислого газа	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:расход воды	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:свежесть супа	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:затраты на коммунальные услуги	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:влажность	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:дата прошлой уборки	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:расход электричества	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:количество кофе	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включена ли духовка	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:планы на неделю	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:прошлый технический осмотр	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включен ли утюг	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:активность в доме	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:время	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:мои любимые песни	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:способы оплаты	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:текст песни	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:лучшее время для посадки роз	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:температура воды	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:энергопотребление за последнее время	labels:IndirectRequest	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:с коммунизмом православным фундаментализмом	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:г и кончая ю часами	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за бам камаз	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:починам всенародных нанотехнологий святаго духа	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:юрия гагарина ненавидящих врагов фальсификаторов русской истории неутомимо борющихся	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и за яйца за доллары	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и историей он	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:он только ел пил и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:одно	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:обморачиванием виртуальным колдовством вербальным	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:садился писать писал	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:долго и под утро разрывал	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:внутри нас за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пятый год снова послышалась	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:покажите их сведущим людям пусть прочтут	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:угодно количестве но только	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сноситься не иначе	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:темное окно за батьку махно во имя	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:собою книг он не читал	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:минуты до срока освобождала	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:от одиночества и скуки из	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:теорией больших и малых чисел за мир и процветание	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и воле	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и за крик за семо и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:он плакал во второй половине шестого года	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:будет лишен права переступать	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:говорят	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:хазах и упакованных хавирах в	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:посылались книги преимущественно	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:древо жизни	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в отроцех	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в связи с дальнейшим	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сам с	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:саду из ружья выстрел этот	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за перуна за гвоздь теллуровый за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:манихейством	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и вцспс сокрушивших лютых	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:через окно договор предусматривал все подробности	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в своих записках только классиков в	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:оглашенных и глухонемых тягловых	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за честное имя за коровье вымя	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:богословских объявах в	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:кортеж за зоологический антисоветизм за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:порог флигеля видеть живых	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:родины по умолчанию к буферу обмена знающего	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:нарушить	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:особых зонах народного доверия	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:по постановлению домкома по стахановским	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если они не найдут	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:носящих имена василия буслаева сергия	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:писал он возбуждает желания а	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:фантастические рассказы комедии	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и т п во второй год музыка уже	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:имеющего полное высокотехнологическое право сокрушать	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:музыкальный инструмент читать книги писать письма	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сексуальных постановлениях и в чёрных бюджетах	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в его комнате воздух в первый год юристу	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:скажет мне что мои усилия не	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:рпц	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ныне и присно и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:он мог	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:получать по	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:науки так что банкир	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за теплую печку за сальную	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:как молча через маленькое окно нарочно устроенное	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пропали даром гении всех веков и стран	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:велению мирового империализма по хотению просвещенного сатанизма по	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в генных инкубаторах на шконках	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:святых для счастья народа и токмо по	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:коллективах в домах терпимости и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в кичманах на	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сферы обслуживания стольничих и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и белому братству для неустанного духовного подвига	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и прочее он мог	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:лет с ти часов ноября	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:во веки	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отказался от вина и табаку вино	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:андроидов пенсионеров национал большевиков хлеборобов ткачей	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:великого	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:аще взыщет государев топ менеджер во	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:можно было	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:иногда по ночам он	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и воссоединять воззывать и направлять собраться	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:опричника за подвиг матерей героинь	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:полярников телохранителей гомосексуалистов политтехнологов врачей антропогенетиков боевиков	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:экспертизой по капиталистическим понятиям для истории государства российского	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:монарших передовицах в коммунистических малявах и в	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:о если бы вы знали какое	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:условия хотя бы за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и газеты	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:внешним миром по условию	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и то же пламя	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:их	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:прочим получил от своего узника	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:узник усердно занялся изучением языков философией	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:бесхребетностью аристократическим национал патриотизмом геополитикой	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:никого не видеть а табак портит	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:развертыванием демократических мероприятий	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и дворовых старых и молодых	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:серийных убийц работников культуры и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:музыка и узник попросил вина те	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:тоннеля за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:легкого содержания романы	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на различных языках но горит во всех	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за смартфоны седьмого поколения за вертикаль	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:нужно книги ноты вино	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за тех кто в	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:воле божьей по	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:свечку за полный стакан за синий туман за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ноября г малейшая попытка со стороны юриста	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:во всем мире за царство божие	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:горению православного патриотизма имея прочный консенсус и упокоение	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:юриста высидеть ровно пятнадцать	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:назло черному переделу	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:стрелецких слободах и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:его коротким запискам сильно страдал	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:жадно принялся за эти	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:зевал сердито разговаривал	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:книги в продолжение четырех лет	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:банкира	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:соль за шёпот	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:окольничих стриптизёров и стриптизёрш	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:желания первые враги узника к тому	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:две	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сохраняющего и приумножающего империалистические традиции	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:радонежского и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:победоносную славу русского воинства в свете	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:молодечество за творчество за иконоборчество	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за молодожёнов за свет в конце	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:веков аминь	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:едва успевал выписывать для него	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:детских учреждениях в съемных	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и мелочи делавшие заключение	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:для этого всё что	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пить вино и курить табак с	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:недружественное поглощение как эффективно наехать прогнуть	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:хранение общака наперекор земле	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в скитах и трудовых	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:строго одиночным и обязывал	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:день	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и гулаг	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:судить по	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:славу кпсс	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:умоляю вас прикажите выстрелить в	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:интервенции за хлеб и за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:как произвести некоммерческое использование и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:идеалов гуманизма неоглобализма национализма антиамериканизма клерикализма и волюнтаризма	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:около шестисот томов в период этого увлечения банкир между	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:строительных кооперативах в редакциях многотиражных газет в катакомбных	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:того парня за господа иисуса христа	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не раз как	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:рояля он	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:власти и за надлежащее	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отжать отметелить опустить и замочить в сортире	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:тюремщик пишу вам эти строки на шести языках	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:всем миром и замастырить шмась по святым местам	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на берегах великой русской	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:терроризмом компьютерной наркоманией либеральной	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:такое письмо дорогой мой	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:его флигеля постоянно днем и ночью слышались звуки	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ему два миллиона в первый год заключения юрист насколько	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:что весь этот год	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за тбц за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:советской лженауки	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:нарах и парашах в лагерях нашей необъятной	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:тайных инсталляций цк	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:церквах в ратных единоборствах в коридорах власти	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ему разрешалось иметь	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ни одной ошибки то	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ворогов и черных вранов всего прогрессивного	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:дым отечества за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:людей слышать человеческие голоса и получать письма	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:было выписано	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:море за академиков сахарова и лысенко за	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:и за евро	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:по его требованию	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:саду банкира условились что	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:душевное с финансовой	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:смолкла во	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:холдинга всенародного собора и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:всех честных людей гордо	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:реки в монашьих кельях и в	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в продолжение пятнадцати лет он	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:монофизитством и монофелитством евгеникой ботаникой прикладной математикой	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:от обязанности платить	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:овамо за президентский	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:лежал на постели часто	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:записке в каком	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на клочки всё написанное слышали	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:белую берёзу под моим окном за пролетарский интернационализм за хер	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:с сложной любовной интригой уголовные и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:которые наблюдали за ним в окошко говорили	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:невинноубиенных за валютные	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:богатырского хайтека в	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:фашизмом атеизмом глобализмом агностицизмом неофеодализмом бесовским	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:через правильных пацанов православного банка	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:человечества комсомольским бесогоном аффилированной компании	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:же нет ничего скучнее как пить хорошее вино и	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:всех	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:флигеле и юрист требовал	labels:Other	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:запиши передачу если я усну	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на сколько заполнен мусорный отсек	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:закрой шторы если слишком светло	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:добавь песню в мою коллекцию	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какая кофемашина стоит в комнате	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:запусти плейлист с танцевальной музыкой	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если уровень влажности в комнате меньше n то включи увлажнитель	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включить кофемашину через число минуты после будильника	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда следующее то	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:осмотри поле если увидишь мусор убери	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи подогрев дорожек	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:к время утра напечатай мне свежий выпуск новостей	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:где пульт от телевизора	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:прибавь яркости	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай панорамный снимок	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:летай над местностью если сработает датчик дыма сообщи	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:позвони мастеру	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:заблокируй двери на вход	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отправить уведомление если было зафиксировано движение в период с время до время в будни 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если будет больше число градусов включи кондиционер на кухне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:погаси основной свет 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:приготовь хлеб к моему приходу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если меня нет дома убирайте листву каждую неделю	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда я приду сделай чай	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько нужно будет заплатить за электричество если киловат стоит как в прошлом месяце	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:приготовь хлеб	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:помоему температура определяется неверно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:покорми рыбок 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включить увлажнитель воздуха если дома ктото есть а влажность ниже число	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в холодильнике много испорченного	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай льда	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:предупреди если автомобиль сзади меня будет очень близко	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда дверь последний раз открывалась	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветривай помещение каждые число минут в течение число минут избегая сквозняков	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключай свет когда я выхожу из комнаты	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ктонибудь брал мою машину сегодня	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подбирай песни под ритм бега	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:освети комнату	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:снимай местность и если увидишь дым сообщи 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ты сегодня кормила кота 	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:eсли на улице больше число градусов отключи отопление	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:найди клип к этой песне на youtube и воспроизведи его на телефоне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи электричество в ванной	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:вари кофе каждый день когда я просыпаюсь	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:увеличь громкость на два пункта	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда открывается входная дверь грей пол	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не убирайте снег и не стригите траву если во дворе ктото есть	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если за окном солнце закрой шторы	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи лампочки	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какие приборы включены	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:а на чем я могу доехать до поликлиники число	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи стирку а потом отжим	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если будет дождь то напомнить взять зонт перед выходом	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если было взято спиртное прислать уведомление на мой телефон	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:я могу купить билет у водителя	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:распечатай показания счетчиков	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда будет готова еда в пароварке	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не разрешай детям брать спиртное	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:начинай пылесосить	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ктонибудь был дома сегодня днём	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветрить здесь пока я буду на кухне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи резервное питание	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проверяй нет ли протечки каждые число минуты пока включена посудомоечная машина	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:каждый раз когда я буду приходить домой включить свет в прихожей и чайник	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи свет в время утра	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:полей помидоры	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:убирай за псом каждый раз когда он сходит в туалет	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:наполни горячую ванную к моему приходу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:поливай помидоры каждый день и следи за тем чтобы они получали достаточно света	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проверь исправность всех датчиков и устройств	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:переключи трек	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:слишком темно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи свет	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если утюг всё еще включен отключить его	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в холодильнике осталось мясо	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на чем я смогу доехать до ашана	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:напор слишком слабый	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:поливай секцию пять число минут	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проигрывай в случайном порядке	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не стригите траву и не убирайте листья когда выпадет снег	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в комнате душно проветри	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подготовить обстановку к обеду	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветривай каждые число часа	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:здесь слишком сухо	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:здесь слишком холодно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай музыку тише если зазвонит телефон или позвонят в дверь	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько в этом году я заплатил за свет	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько денег в этом месяце я потратил на коммунальные услуги	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи электричество	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:расчистить дорожку перед домом	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если завтра выходной разбуди меня через число часов после выключения света в комнате	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько кофе осталось	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:покорми попугая	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:мне кажется датчик температуры здесь вышел из строя	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:имитируй повседневное освещение пока я не дома	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько энергии потребляют лампы	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:по будням буди меня в время часов утра включай чайник	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:перекрыть водоснабжение в комнате если на полу обнаружена вода и не зафиксировано движения в течение число минут	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:осматривай поле и показывай видео оператору	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:корми пса три раза в день	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько лампочек перегорело	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи подсветку	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отопление включай за два часа до прихода отключай при выходе	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:кажду неделю в время снимай показания с счетчиков в квартире	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:распечатай документ название через число минут	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:убери шторы	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какого исполнителя я слушал чаще всего на этой неделе	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:имитируй присутствие людей с число июня до число июля	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи динамики на кухне и выключи в гостинной	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:воспроизведи её	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:закрыть окно если начался дождь	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветрить комнату если содержание углекислого газа будет выше число	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:я в отпуск	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда была последняя уборка	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не корми кота так часто	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ставлю суп в холодильник	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда я буду дома поставь духовку на число градусов	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда следующий технический осмотр	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:теплица первые две недели следи за тем чтобы помидоры получали много уф света и немного ик света	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветри зал и кухню	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда лучше посадить розы	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда кот запрыгнет на шкаф на кухне спугни его включив телевизор	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай стиральную машину в время каждое четное число месяца	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи в морозилке быструю заморозку на число минут	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:лети за мной	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не позволяй коту запрыгивать на рабочий стол	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подсвети путь на кухню 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какая сейчас температура	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай аудиосистему когда я прихожу домой	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько времени займет дорога от а до б с учетом пробок	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:полностью перекрой воду	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:слишком светло	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:активировать романтическую атмосферу 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на сколько времени хватит топлива	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько мяса осталось	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:перечисли устройства которые включены в доме в данный момент	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какие устройства потребляют наибольшее количество энергии в течение дня	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:добавь романтики	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:установи температуру на число и влажность на число	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда чтото подгорит на плите выключить ее и установить вытяжку на максимальный режим	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если меня нет дома не расчищай снег	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если закончится заряд лети на зарядную станцию после подзарядки продолжай	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай светлее	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проверь закрыты ли входная дверь и ворота гаража	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:полностью выключи электричество	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:увеличь громкость чтобы не мешал шум 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если станет жарко то открой окно	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько сейчас градусов на улице	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:установи необходимые условия для роз	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:зажги фонарики а свет под навесом выключи	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай темно	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:разогрей духовку до число градусов к число часам если меня не будет дома в время выключи	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:почему здесь так холодно	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:помой окна после дождя	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:контролируй климат в комнате	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какое количество электроэнергии в этом месяце было затрачено водонагревателем	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:найти место и припарковаться	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай потеплее обогреватель	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:как можно оплатить проезд	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:занавесь окно	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:покорми кота на число грамм корма	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай свет когда я захожу в комнату	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:начни уборку после того как я уйду	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какие из дверей в доме сейчас открыты	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:опусти жалюзи	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:начать уборку	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если ктото будет звонить в дверь а меня нет дома вышли уведомление с его фото на мой телефон	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подготовь комнату к танцам	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выведи статистику прослушиваний на телефон	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:покажи список продуктов	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какой средний расход бензина в зависимости от заправки был за последние полгода	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:установи на число кондиционер	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:потуши свет	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:осмотри поле если увидишь чтото необычное сообщи	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:делай больше льда	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подготовь комнату к танцам	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи подогрев пола	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:следуй командам с сервера пока я не скажу возвращаться если сервер будет недоступен возвращайся ко мне или на зарядную станцию	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:установи температуру в холодильнике на плюс число а в морозилке на минус число	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:доложи о состоянии урожая	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:eсли вода в чайнике остыла разогрей	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:каждый вечер в время включай музыку на плеере	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключить освещение в комнатах в вечернее время после время если в них никого нет больше число минут	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:каждый день проверяй кофемашину в доме	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:напомни когда в последний раз поливались цветы	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если я засну включи чтонибудь погромче	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:установить температуру число градуса в ночное время когда я буду спать	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подготовить обстановку к просмотру фильма	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:у нас есть какиенибудь фрукты	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай светло	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:мне холодно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:поддерживай влажность воздуха не меньше число процентов	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:слишком тихо	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:за час до будильника закрой окно и включи обогреватель	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подогрей полотенца к тому моменту как я закончу принимать душ 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи готовку в время вечера	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:мне кажется кот слишком много ест	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:осматривай поле и показывай видео на сервер дальнейшие команды получай от него	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выведи текст песни на экран телефона	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:у кого или как я могу купить билет	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включить свет в санузле при наличии внутри коголибо и выключить если никого нет более число минут	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:установить температуру воды в бассейне в число градуса и выполнить его очистку от мусора	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:следи чтобы растения получали достаточно влажности и света	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:потребляй энергию из аккумуляторов если она закончится потребляй из электросети	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в углу под столом в комнате осталась пыль	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в время отправь мне температуру в спальне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи свет	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько лампочек нужно заменить	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:заплати за отопление	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:по четвергам делай позитивную обстановку	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:мне нужно добраться до число поликлиники	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай чуть громче	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сообщи если температура в гараже опустится ниже нуля	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветри сейчас	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:поддерживай влажность в комнате на уровне число	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пусть музыка следует за мной	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пропылесось зал	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи духовку на число минут на число градусов затем на число минут на число	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи электричество	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на сколько хватит энергии в аккумуляторах	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько километров проедет машина	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:открой шторы если слишком темно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:разогрей мне еду в микроволновке к время	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:что из еды осталось	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:освети помещение	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:кто брал мою машину сегодня	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда стиральная машина закончит стирку сообщи мужу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:начни прогревать машину	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не убирайте листву и не стригите газон в дождь или снег	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отключи музыку когда я засну	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если я завтра приду домой до время сделай мне еды	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай чуть тише	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:полей все ягоды и немного огурцы	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:покорми собаку	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:расчищай снег в число утра и с время до время вечера	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:гаси свет если меня нет в комнате	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:хочу купить билеты на лебединое озеро в мариинке проверь их наличие	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:спокойной ночи	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какую песню я слушаю реже всего	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сильный ли ветер	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:входил ли ктото в мою комнату сегодня	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:снимай местность пока хватает заряда батареи потом вернись	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько дней стоит суп в холодильнике	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветривай во время моего сна	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:слишком громко	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не включай свет если в комнату зашло домашнее животное	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:стригите траву каждый месяц убирайте листву каждые три дня 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда собака залезет на кухонный стол издай неприятный звук	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:я хочу принять ванну	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:опять пульт от телевизора потерял 	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:расчистите газон и листву к время вечера	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в какой день недели я больше пью воды из чайника	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:поливай помидоры каждый день	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:погрей еду	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:требует ли данный холодильник разморозки если требует то как часто холодильник нужно размораживать	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:есть ли дома сливочное масло	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:разожги камин 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда все разойдутся выключи фонтан и подсветку 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда последний раз снимали занавески	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пропусти песню	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи музыку когда я выйду из квартиры	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:активировать блокировку входной двери если в нее звонит незнакомец а также выслать уведомление с фотографией на мой телефон	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ослабь свет и запусти плейлист с успокаивающей музыкой	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если было взято спиртное посчитай на сколько уменьшился вес каждой бутылки	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отключай кондиционер когда я ухожу из дома	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:перекрой подачу воды и включи слив если бассейн наполнится выше заданного уровня 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай ежедневную подборку музыки к моему приходу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какой альбом я слушал чаще всего в этом месяце	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько в этом месяце вышло за электричество	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:не убирайте листву при сильном ветре	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько воды потрачено	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в время включи обогреватель на кухне на число	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда я буду уходить на работу открыть гараж выгнать из него автомобиль и оставить двигатель работающим	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай тост	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какой средний расход бензина в зависимости от заправки был за последние полгода	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:построй маршрут из москвы в санктпетербург и подсказывай мне дорогу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько киловатт электроэнергии было потрачено за последний месяц	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько топлива в машине	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если за окном рассвет открой шторы	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:кто пришел	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:приготовь мне еды к время	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:автоматически проверяй исправность умного дома	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если выпадет много снега расчисти дорожку перед домом	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи обогреватель	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай свет когда в комнате начнет темнеть	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:колько раз кот сегодня ел	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подними жалюзи	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:здесь слишком жарко	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:воспроизведи альбом abbey road the beatles	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:покажи карту температур в доме	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи фонтанчик	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:набери ванну	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если кот давно не ел покорми его	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проверь заперта ли дверь	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:нужно ли покупать продукты	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ослабь свет и включи успокаивающую музыку	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда придет автобус номер число	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько по времени ехать до ст метро горьковская	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи подогрев дорожек	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если будет утечка газа перекрой его подачу и отправить мне уведомление	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи лампочки	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если кофе в кофемашине останется число то отправь уведомление на телефон	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отнеси это домой потом вернись ко мне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай слабее свет	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:здесь слишком влажно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда стемнеет включи подсветку фонтана	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи светомузыку 	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько я проехал километров	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:свари кофе завтра к число утра	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай напор сильнее	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ставь каждый день будильник на время	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если я усну разбуди меня	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай теплее	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи воду	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подготовить обстановку к работе	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько раз за месяц я стирал	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на сколько времени хватит топлива	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:на втором этаже ктонибудь есть	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если за дверью рассвет закрой шторы	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:я хочу принять ванну	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:держи температуру в комнате на уровне число	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай стиральную машину в 2305 каждое четное число месяца	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какие из окон в доме теперь открыты	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:назови самую частую песню	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай стиральную машину по четвергам	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи информационноразвлекательную программу если я прихожу домой	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:запусти стирку для цветного	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:приготовь чай	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:наполни горячую ванную к моему приходу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько в прошлом месяце было за электричество	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:при появлении кота на газоне включи распыление воды 3 раза за раз	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключай свет когда я ухожу из комнат	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:испеки мне еды к время	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи утюг я хочу погладить шелковую блузку	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай теплее во всех комнатах	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:закрыть окно если начался дождь	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай свет если я зашёл в комнату	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько в этом месяце уплачено за электричество	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:приготовь хлеб	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если на улице меньше 10 температура включи подогрев пола	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключай свет если я иду из ванной	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай музыку когда я просыпаюсь	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи электричество в спальне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветри зал и кухню	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:что из пищи осталось	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда я зайду завари чай	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько дней стоит суп в микроволновке	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если будет дождь то сообщить взять зонт с уходом	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:покорми меня	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветри там	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ставь эту песню чаще	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда я вернусь приготовь чай	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подготовить обстановку к просмотру фильма	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветрите здесь пока я буду в комнате	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какая сегодня погода	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:запиши передачи если я усну	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пропылесось здесь пока я буду в комнате	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай тост	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:как сейчас холодно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:откроешь занавески если слишком темно	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:набери воду в ванну к нашему приходу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько дней стоит суп в духовке	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:тут слишком прохладно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в 8 часов включи обогреватель в ванной на 23 градуса	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подогрей кофе завтра к полуночи	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько дней хранится салат в холодильнике	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай копию паспорта	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай свет когда я захожу в спальню	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:кто брал твою машину	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда следуюущий технологический осмотр	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:заполни документ	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если за окном солнце открой занавески	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если кот уже поел выпусти его	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ктонибудь был дома сегодня днем	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай свет когда я прихожу домой	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если меня нет дома не включай кондиционер	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай напор сильнее	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отключи водопровод в гостинной	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:предупреди когда грузовик сзади меня будет вплотную	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветри здесь пока я буду в ванной	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:приготовь хлеб к моему приходу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:увеличь громкость на 4 пункта	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если меня нет дома не мой пол	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:корми пса три раза в день	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:полностью перекрой воду	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда будет готова пицца	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если будет холодно то закрой окно	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если утюг всё еще включен то выключи его	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:в 5 часов включи обогреватель на кухне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:прочитай передачи тогда я засну	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:постирай на 90 градусах	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если будет холодно закрой окно	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сделай погорячее	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:нужно ли покупать продукты	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:помой ягоды и огурцы	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключай свет когда я иду из санузла	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подмети здесь пока я буду на кухне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:распечатай документ спустя 2 часа	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если на улице холодно включи батарею	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если за окном солнце открой шторы	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выведи статистику прослушиваний на мобильник	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:кот давненько не ел покорми его	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ослабь свет и включи успокаивающую музыку	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда последний раз открывали шторы	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:снимай парктроник когда я иду домой	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:пропылесосить здесь покуда я буду на кухне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:что здесь так душно	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:мне сейчас так жарко	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:распечатай документ через 5 минут	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:днем включи обогреватель в спальне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:поставь утюг на шерсть	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подсвети путь на кухню	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:у нас найдутся какиенибудь овощи	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи подсветку к 7 вечера	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если песик давно не ел покорми его	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:открой жалюзи если слишком темно	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи воду	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:закрой шторы в 9 вечера	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:приглуши свет или включи расслабляющую музыку	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:разумеется совсем холодно	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:какие у нас есть орехи	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключай свет если я выхожу из спальни	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько градусов на улице	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи телевизор	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай электричество в комнате	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:когда я зайду сделай кофе	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:прочитай передачи если я засну	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:отключи музыку если я лягу	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:установить температуру на 23 градуса	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:допустим за окном небо закрой шторы	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:мне кажется кот слишком много ест	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключай свет когда меня нет в комнате	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько раз за неделю я стирал	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключи электричество в ванной	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ктото остался дома сегодня днем	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если становится жарко закрой дверь	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько в этом месяце было за электричество	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:если на улице холодно включи отопление	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:добавляй песню в мою коллекцию	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:подай печенье на зватрак	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:каждый день проверяй кофеварку в доме	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:выключай свет когда я выйду из комнаты	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:ежели будет жарко закрой окно	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:установи влажность на 8 и температуру на 23	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:набери ванную	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:доложи о соcтоянии одежды	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:приготовь мне какиенибудь овощи	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:проветри спальню ко сну	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:увеличьте громкость чтобы не мешал стук	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включи электричество в спальне	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:сколько в этом году я заплатил за свет	labels:Request	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:я пытаюсь принять ванную	labels:IndirectCommand	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
-text:включай свет когда я захожу в гостиную	labels:Command	episode_done:True	label_candidates:IndirectCommand|IndirectRequest|Request|Other|Command
+text:карта температур	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:уровень заряда квадрокоптера	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пульт	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:мой любимый альбом	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:доля углекислого газа	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:расход воды	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:свежесть супа	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:затраты на коммунальные услуги	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:влажность	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:дата прошлой уборки	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:расход электричества	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:количество кофе	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включена ли духовка	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:планы на неделю	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:прошлый технический осмотр	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включен ли утюг	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:активность в доме	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:время	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:мои любимые песни	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:способы оплаты	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:текст песни	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:лучшее время для посадки роз	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:температура воды	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:энергопотребление за последнее время	labels:IndirectRequest	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:с коммунизмом православным фундаментализмом	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:г и кончая ю часами	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за бам камаз	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:починам всенародных нанотехнологий святаго духа	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:юрия гагарина ненавидящих врагов фальсификаторов русской истории неутомимо борющихся	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и за яйца за доллары	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и историей он	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:он только ел пил и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:одно	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:обморачиванием виртуальным колдовством вербальным	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:садился писать писал	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:долго и под утро разрывал	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:внутри нас за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пятый год снова послышалась	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:покажите их сведущим людям пусть прочтут	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:угодно количестве но только	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сноситься не иначе	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:темное окно за батьку махно во имя	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:собою книг он не читал	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:минуты до срока освобождала	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:от одиночества и скуки из	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:теорией больших и малых чисел за мир и процветание	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и воле	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и за крик за семо и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:он плакал во второй половине шестого года	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:будет лишен права переступать	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:говорят	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:хазах и упакованных хавирах в	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:посылались книги преимущественно	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:древо жизни	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в отроцех	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в связи с дальнейшим	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сам с	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:саду из ружья выстрел этот	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за перуна за гвоздь теллуровый за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:манихейством	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и вцспс сокрушивших лютых	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:через окно договор предусматривал все подробности	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в своих записках только классиков в	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:оглашенных и глухонемых тягловых	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за честное имя за коровье вымя	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:богословских объявах в	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:кортеж за зоологический антисоветизм за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:порог флигеля видеть живых	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:родины по умолчанию к буферу обмена знающего	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:нарушить	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:особых зонах народного доверия	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:по постановлению домкома по стахановским	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если они не найдут	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:носящих имена василия буслаева сергия	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:писал он возбуждает желания а	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:фантастические рассказы комедии	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и т п во второй год музыка уже	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:имеющего полное высокотехнологическое право сокрушать	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:музыкальный инструмент читать книги писать письма	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сексуальных постановлениях и в чёрных бюджетах	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в его комнате воздух в первый год юристу	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:скажет мне что мои усилия не	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:рпц	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ныне и присно и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:он мог	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:получать по	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:науки так что банкир	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за теплую печку за сальную	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:как молча через маленькое окно нарочно устроенное	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пропали даром гении всех веков и стран	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:велению мирового империализма по хотению просвещенного сатанизма по	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в генных инкубаторах на шконках	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:святых для счастья народа и токмо по	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:коллективах в домах терпимости и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в кичманах на	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сферы обслуживания стольничих и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и белому братству для неустанного духовного подвига	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и прочее он мог	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:лет с ти часов ноября	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:во веки	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отказался от вина и табаку вино	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:андроидов пенсионеров национал большевиков хлеборобов ткачей	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:великого	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:аще взыщет государев топ менеджер во	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:можно было	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:иногда по ночам он	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и воссоединять воззывать и направлять собраться	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:опричника за подвиг матерей героинь	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:полярников телохранителей гомосексуалистов политтехнологов врачей антропогенетиков боевиков	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:экспертизой по капиталистическим понятиям для истории государства российского	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:монарших передовицах в коммунистических малявах и в	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:о если бы вы знали какое	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:условия хотя бы за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и газеты	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:внешним миром по условию	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и то же пламя	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:их	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:прочим получил от своего узника	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:узник усердно занялся изучением языков философией	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:бесхребетностью аристократическим национал патриотизмом геополитикой	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:никого не видеть а табак портит	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:развертыванием демократических мероприятий	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и дворовых старых и молодых	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:серийных убийц работников культуры и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:музыка и узник попросил вина те	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:тоннеля за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:легкого содержания романы	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на различных языках но горит во всех	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за смартфоны седьмого поколения за вертикаль	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:нужно книги ноты вино	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за тех кто в	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:воле божьей по	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:свечку за полный стакан за синий туман за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ноября г малейшая попытка со стороны юриста	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:во всем мире за царство божие	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:горению православного патриотизма имея прочный консенсус и упокоение	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:юриста высидеть ровно пятнадцать	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:назло черному переделу	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:стрелецких слободах и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:его коротким запискам сильно страдал	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:жадно принялся за эти	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:зевал сердито разговаривал	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:книги в продолжение четырех лет	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:банкира	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:соль за шёпот	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:окольничих стриптизёров и стриптизёрш	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:желания первые враги узника к тому	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:две	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сохраняющего и приумножающего империалистические традиции	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:радонежского и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:победоносную славу русского воинства в свете	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:молодечество за творчество за иконоборчество	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за молодожёнов за свет в конце	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:веков аминь	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:едва успевал выписывать для него	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:детских учреждениях в съемных	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и мелочи делавшие заключение	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:для этого всё что	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пить вино и курить табак с	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:недружественное поглощение как эффективно наехать прогнуть	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:хранение общака наперекор земле	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в скитах и трудовых	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:строго одиночным и обязывал	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:день	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и гулаг	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:судить по	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:славу кпсс	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:умоляю вас прикажите выстрелить в	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:интервенции за хлеб и за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:как произвести некоммерческое использование и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:идеалов гуманизма неоглобализма национализма антиамериканизма клерикализма и волюнтаризма	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:около шестисот томов в период этого увлечения банкир между	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:строительных кооперативах в редакциях многотиражных газет в катакомбных	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:того парня за господа иисуса христа	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не раз как	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:рояля он	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:власти и за надлежащее	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отжать отметелить опустить и замочить в сортире	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:тюремщик пишу вам эти строки на шести языках	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:всем миром и замастырить шмась по святым местам	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на берегах великой русской	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:терроризмом компьютерной наркоманией либеральной	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:такое письмо дорогой мой	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:его флигеля постоянно днем и ночью слышались звуки	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ему два миллиона в первый год заключения юрист насколько	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:что весь этот год	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за тбц за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:советской лженауки	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:нарах и парашах в лагерях нашей необъятной	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:тайных инсталляций цк	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:церквах в ратных единоборствах в коридорах власти	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ему разрешалось иметь	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ни одной ошибки то	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ворогов и черных вранов всего прогрессивного	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:дым отечества за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:людей слышать человеческие голоса и получать письма	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:было выписано	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:море за академиков сахарова и лысенко за	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:и за евро	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:по его требованию	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:саду банкира условились что	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:душевное с финансовой	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:смолкла во	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:холдинга всенародного собора и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:всех честных людей гордо	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:реки в монашьих кельях и в	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в продолжение пятнадцати лет он	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:монофизитством и монофелитством евгеникой ботаникой прикладной математикой	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:от обязанности платить	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:овамо за президентский	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:лежал на постели часто	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:записке в каком	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на клочки всё написанное слышали	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:белую берёзу под моим окном за пролетарский интернационализм за хер	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:с сложной любовной интригой уголовные и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:которые наблюдали за ним в окошко говорили	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:невинноубиенных за валютные	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:богатырского хайтека в	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:фашизмом атеизмом глобализмом агностицизмом неофеодализмом бесовским	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:через правильных пацанов православного банка	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:человечества комсомольским бесогоном аффилированной компании	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:же нет ничего скучнее как пить хорошее вино и	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:всех	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:флигеле и юрист требовал	labels:Other	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:запиши передачу если я усну	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на сколько заполнен мусорный отсек	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:закрой шторы если слишком светло	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:добавь песню в мою коллекцию	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какая кофемашина стоит в комнате	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:запусти плейлист с танцевальной музыкой	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если уровень влажности в комнате меньше n то включи увлажнитель	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включить кофемашину через число минуты после будильника	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда следующее то	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:осмотри поле если увидишь мусор убери	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи подогрев дорожек	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:к время утра напечатай мне свежий выпуск новостей	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:где пульт от телевизора	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:прибавь яркости	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай панорамный снимок	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:летай над местностью если сработает датчик дыма сообщи	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:позвони мастеру	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:заблокируй двери на вход	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отправить уведомление если было зафиксировано движение в период с время до время в будни 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если будет больше число градусов включи кондиционер на кухне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:погаси основной свет 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:приготовь хлеб к моему приходу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если меня нет дома убирайте листву каждую неделю	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда я приду сделай чай	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько нужно будет заплатить за электричество если киловат стоит как в прошлом месяце	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:приготовь хлеб	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:помоему температура определяется неверно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:покорми рыбок 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включить увлажнитель воздуха если дома ктото есть а влажность ниже число	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в холодильнике много испорченного	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай льда	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:предупреди если автомобиль сзади меня будет очень близко	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда дверь последний раз открывалась	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветривай помещение каждые число минут в течение число минут избегая сквозняков	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключай свет когда я выхожу из комнаты	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ктонибудь брал мою машину сегодня	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подбирай песни под ритм бега	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:освети комнату	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:снимай местность и если увидишь дым сообщи 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ты сегодня кормила кота 	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:eсли на улице больше число градусов отключи отопление	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:найди клип к этой песне на youtube и воспроизведи его на телефоне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи электричество в ванной	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:вари кофе каждый день когда я просыпаюсь	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:увеличь громкость на два пункта	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда открывается входная дверь грей пол	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не убирайте снег и не стригите траву если во дворе ктото есть	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если за окном солнце закрой шторы	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи лампочки	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какие приборы включены	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:а на чем я могу доехать до поликлиники число	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи стирку а потом отжим	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если будет дождь то напомнить взять зонт перед выходом	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если было взято спиртное прислать уведомление на мой телефон	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:я могу купить билет у водителя	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:распечатай показания счетчиков	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда будет готова еда в пароварке	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не разрешай детям брать спиртное	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:начинай пылесосить	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ктонибудь был дома сегодня днём	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветрить здесь пока я буду на кухне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи резервное питание	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проверяй нет ли протечки каждые число минуты пока включена посудомоечная машина	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:каждый раз когда я буду приходить домой включить свет в прихожей и чайник	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи свет в время утра	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:полей помидоры	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:убирай за псом каждый раз когда он сходит в туалет	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:наполни горячую ванную к моему приходу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:поливай помидоры каждый день и следи за тем чтобы они получали достаточно света	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проверь исправность всех датчиков и устройств	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:переключи трек	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:слишком темно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи свет	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если утюг всё еще включен отключить его	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в холодильнике осталось мясо	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на чем я смогу доехать до ашана	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:напор слишком слабый	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:поливай секцию пять число минут	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проигрывай в случайном порядке	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не стригите траву и не убирайте листья когда выпадет снег	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в комнате душно проветри	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подготовить обстановку к обеду	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветривай каждые число часа	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:здесь слишком сухо	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:здесь слишком холодно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай музыку тише если зазвонит телефон или позвонят в дверь	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько в этом году я заплатил за свет	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько денег в этом месяце я потратил на коммунальные услуги	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи электричество	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:расчистить дорожку перед домом	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если завтра выходной разбуди меня через число часов после выключения света в комнате	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько кофе осталось	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:покорми попугая	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:мне кажется датчик температуры здесь вышел из строя	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:имитируй повседневное освещение пока я не дома	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько энергии потребляют лампы	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:по будням буди меня в время часов утра включай чайник	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:перекрыть водоснабжение в комнате если на полу обнаружена вода и не зафиксировано движения в течение число минут	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:осматривай поле и показывай видео оператору	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:корми пса три раза в день	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько лампочек перегорело	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи подсветку	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отопление включай за два часа до прихода отключай при выходе	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:кажду неделю в время снимай показания с счетчиков в квартире	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:распечатай документ название через число минут	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:убери шторы	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какого исполнителя я слушал чаще всего на этой неделе	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:имитируй присутствие людей с число июня до число июля	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи динамики на кухне и выключи в гостинной	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:воспроизведи её	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:закрыть окно если начался дождь	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветрить комнату если содержание углекислого газа будет выше число	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:я в отпуск	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда была последняя уборка	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не корми кота так часто	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ставлю суп в холодильник	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда я буду дома поставь духовку на число градусов	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда следующий технический осмотр	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:теплица первые две недели следи за тем чтобы помидоры получали много уф света и немного ик света	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветри зал и кухню	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда лучше посадить розы	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда кот запрыгнет на шкаф на кухне спугни его включив телевизор	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай стиральную машину в время каждое четное число месяца	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи в морозилке быструю заморозку на число минут	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:лети за мной	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не позволяй коту запрыгивать на рабочий стол	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подсвети путь на кухню 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какая сейчас температура	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай аудиосистему когда я прихожу домой	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько времени займет дорога от а до б с учетом пробок	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:полностью перекрой воду	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:слишком светло	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:активировать романтическую атмосферу 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на сколько времени хватит топлива	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько мяса осталось	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:перечисли устройства которые включены в доме в данный момент	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какие устройства потребляют наибольшее количество энергии в течение дня	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:добавь романтики	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:установи температуру на число и влажность на число	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда чтото подгорит на плите выключить ее и установить вытяжку на максимальный режим	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если меня нет дома не расчищай снег	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если закончится заряд лети на зарядную станцию после подзарядки продолжай	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай светлее	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проверь закрыты ли входная дверь и ворота гаража	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:полностью выключи электричество	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:увеличь громкость чтобы не мешал шум 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если станет жарко то открой окно	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько сейчас градусов на улице	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:установи необходимые условия для роз	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:зажги фонарики а свет под навесом выключи	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай темно	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:разогрей духовку до число градусов к число часам если меня не будет дома в время выключи	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:почему здесь так холодно	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:помой окна после дождя	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:контролируй климат в комнате	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какое количество электроэнергии в этом месяце было затрачено водонагревателем	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:найти место и припарковаться	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай потеплее обогреватель	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:как можно оплатить проезд	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:занавесь окно	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:покорми кота на число грамм корма	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай свет когда я захожу в комнату	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:начни уборку после того как я уйду	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какие из дверей в доме сейчас открыты	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:опусти жалюзи	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:начать уборку	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если ктото будет звонить в дверь а меня нет дома вышли уведомление с его фото на мой телефон	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подготовь комнату к танцам	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выведи статистику прослушиваний на телефон	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:покажи список продуктов	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какой средний расход бензина в зависимости от заправки был за последние полгода	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:установи на число кондиционер	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:потуши свет	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:осмотри поле если увидишь чтото необычное сообщи	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:делай больше льда	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подготовь комнату к танцам	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи подогрев пола	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:следуй командам с сервера пока я не скажу возвращаться если сервер будет недоступен возвращайся ко мне или на зарядную станцию	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:установи температуру в холодильнике на плюс число а в морозилке на минус число	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:доложи о состоянии урожая	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:eсли вода в чайнике остыла разогрей	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:каждый вечер в время включай музыку на плеере	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключить освещение в комнатах в вечернее время после время если в них никого нет больше число минут	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:каждый день проверяй кофемашину в доме	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:напомни когда в последний раз поливались цветы	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если я засну включи чтонибудь погромче	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:установить температуру число градуса в ночное время когда я буду спать	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подготовить обстановку к просмотру фильма	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:у нас есть какиенибудь фрукты	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай светло	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:мне холодно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:поддерживай влажность воздуха не меньше число процентов	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:слишком тихо	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:за час до будильника закрой окно и включи обогреватель	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подогрей полотенца к тому моменту как я закончу принимать душ 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи готовку в время вечера	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:мне кажется кот слишком много ест	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:осматривай поле и показывай видео на сервер дальнейшие команды получай от него	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выведи текст песни на экран телефона	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:у кого или как я могу купить билет	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включить свет в санузле при наличии внутри коголибо и выключить если никого нет более число минут	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:установить температуру воды в бассейне в число градуса и выполнить его очистку от мусора	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:следи чтобы растения получали достаточно влажности и света	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:потребляй энергию из аккумуляторов если она закончится потребляй из электросети	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в углу под столом в комнате осталась пыль	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в время отправь мне температуру в спальне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи свет	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько лампочек нужно заменить	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:заплати за отопление	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:по четвергам делай позитивную обстановку	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:мне нужно добраться до число поликлиники	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай чуть громче	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сообщи если температура в гараже опустится ниже нуля	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветри сейчас	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:поддерживай влажность в комнате на уровне число	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пусть музыка следует за мной	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пропылесось зал	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи духовку на число минут на число градусов затем на число минут на число	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи электричество	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на сколько хватит энергии в аккумуляторах	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько километров проедет машина	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:открой шторы если слишком темно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:разогрей мне еду в микроволновке к время	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:что из еды осталось	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:освети помещение	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:кто брал мою машину сегодня	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда стиральная машина закончит стирку сообщи мужу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:начни прогревать машину	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не убирайте листву и не стригите газон в дождь или снег	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отключи музыку когда я засну	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если я завтра приду домой до время сделай мне еды	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай чуть тише	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:полей все ягоды и немного огурцы	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:покорми собаку	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:расчищай снег в число утра и с время до время вечера	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:гаси свет если меня нет в комнате	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:хочу купить билеты на лебединое озеро в мариинке проверь их наличие	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:спокойной ночи	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какую песню я слушаю реже всего	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сильный ли ветер	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:входил ли ктото в мою комнату сегодня	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:снимай местность пока хватает заряда батареи потом вернись	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько дней стоит суп в холодильнике	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветривай во время моего сна	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:слишком громко	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не включай свет если в комнату зашло домашнее животное	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:стригите траву каждый месяц убирайте листву каждые три дня 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда собака залезет на кухонный стол издай неприятный звук	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:я хочу принять ванну	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:опять пульт от телевизора потерял 	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:расчистите газон и листву к время вечера	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в какой день недели я больше пью воды из чайника	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:поливай помидоры каждый день	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:погрей еду	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:требует ли данный холодильник разморозки если требует то как часто холодильник нужно размораживать	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:есть ли дома сливочное масло	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:разожги камин 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда все разойдутся выключи фонтан и подсветку 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда последний раз снимали занавески	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пропусти песню	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи музыку когда я выйду из квартиры	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:активировать блокировку входной двери если в нее звонит незнакомец а также выслать уведомление с фотографией на мой телефон	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ослабь свет и запусти плейлист с успокаивающей музыкой	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если было взято спиртное посчитай на сколько уменьшился вес каждой бутылки	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отключай кондиционер когда я ухожу из дома	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:перекрой подачу воды и включи слив если бассейн наполнится выше заданного уровня 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай ежедневную подборку музыки к моему приходу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какой альбом я слушал чаще всего в этом месяце	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько в этом месяце вышло за электричество	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:не убирайте листву при сильном ветре	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько воды потрачено	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в время включи обогреватель на кухне на число	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда я буду уходить на работу открыть гараж выгнать из него автомобиль и оставить двигатель работающим	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай тост	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какой средний расход бензина в зависимости от заправки был за последние полгода	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:построй маршрут из москвы в санктпетербург и подсказывай мне дорогу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько киловатт электроэнергии было потрачено за последний месяц	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько топлива в машине	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если за окном рассвет открой шторы	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:кто пришел	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:приготовь мне еды к время	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:автоматически проверяй исправность умного дома	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если выпадет много снега расчисти дорожку перед домом	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи обогреватель	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай свет когда в комнате начнет темнеть	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:колько раз кот сегодня ел	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подними жалюзи	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:здесь слишком жарко	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:воспроизведи альбом abbey road the beatles	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:покажи карту температур в доме	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи фонтанчик	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:набери ванну	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если кот давно не ел покорми его	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проверь заперта ли дверь	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:нужно ли покупать продукты	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ослабь свет и включи успокаивающую музыку	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда придет автобус номер число	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько по времени ехать до ст метро горьковская	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи подогрев дорожек	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если будет утечка газа перекрой его подачу и отправить мне уведомление	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи лампочки	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если кофе в кофемашине останется число то отправь уведомление на телефон	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отнеси это домой потом вернись ко мне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай слабее свет	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:здесь слишком влажно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда стемнеет включи подсветку фонтана	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи светомузыку 	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько я проехал километров	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:свари кофе завтра к число утра	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай напор сильнее	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ставь каждый день будильник на время	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если я усну разбуди меня	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай теплее	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи воду	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подготовить обстановку к работе	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько раз за месяц я стирал	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на сколько времени хватит топлива	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:на втором этаже ктонибудь есть	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если за дверью рассвет закрой шторы	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:я хочу принять ванну	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:держи температуру в комнате на уровне число	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай стиральную машину в 2305 каждое четное число месяца	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какие из окон в доме теперь открыты	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:назови самую частую песню	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай стиральную машину по четвергам	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи информационноразвлекательную программу если я прихожу домой	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:запусти стирку для цветного	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:приготовь чай	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:наполни горячую ванную к моему приходу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько в прошлом месяце было за электричество	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:при появлении кота на газоне включи распыление воды 3 раза за раз	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключай свет когда я ухожу из комнат	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:испеки мне еды к время	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи утюг я хочу погладить шелковую блузку	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай теплее во всех комнатах	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:закрыть окно если начался дождь	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай свет если я зашёл в комнату	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько в этом месяце уплачено за электричество	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:приготовь хлеб	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если на улице меньше 10 температура включи подогрев пола	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключай свет если я иду из ванной	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай музыку когда я просыпаюсь	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи электричество в спальне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветри зал и кухню	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:что из пищи осталось	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда я зайду завари чай	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько дней стоит суп в микроволновке	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если будет дождь то сообщить взять зонт с уходом	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:покорми меня	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветри там	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ставь эту песню чаще	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда я вернусь приготовь чай	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подготовить обстановку к просмотру фильма	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветрите здесь пока я буду в комнате	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какая сегодня погода	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:запиши передачи если я усну	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пропылесось здесь пока я буду в комнате	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай тост	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:как сейчас холодно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:откроешь занавески если слишком темно	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:набери воду в ванну к нашему приходу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько дней стоит суп в духовке	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:тут слишком прохладно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в 8 часов включи обогреватель в ванной на 23 градуса	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подогрей кофе завтра к полуночи	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько дней хранится салат в холодильнике	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай копию паспорта	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай свет когда я захожу в спальню	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:кто брал твою машину	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда следуюущий технологический осмотр	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:заполни документ	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если за окном солнце открой занавески	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если кот уже поел выпусти его	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ктонибудь был дома сегодня днем	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай свет когда я прихожу домой	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если меня нет дома не включай кондиционер	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай напор сильнее	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отключи водопровод в гостинной	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:предупреди когда грузовик сзади меня будет вплотную	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветри здесь пока я буду в ванной	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:приготовь хлеб к моему приходу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:увеличь громкость на 4 пункта	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если меня нет дома не мой пол	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:корми пса три раза в день	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:полностью перекрой воду	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда будет готова пицца	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если будет холодно то закрой окно	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если утюг всё еще включен то выключи его	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:в 5 часов включи обогреватель на кухне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:прочитай передачи тогда я засну	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:постирай на 90 градусах	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если будет холодно закрой окно	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сделай погорячее	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:нужно ли покупать продукты	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:помой ягоды и огурцы	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключай свет когда я иду из санузла	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подмети здесь пока я буду на кухне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:распечатай документ спустя 2 часа	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если на улице холодно включи батарею	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если за окном солнце открой шторы	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выведи статистику прослушиваний на мобильник	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:кот давненько не ел покорми его	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ослабь свет и включи успокаивающую музыку	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда последний раз открывали шторы	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:снимай парктроник когда я иду домой	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:пропылесосить здесь покуда я буду на кухне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:что здесь так душно	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:мне сейчас так жарко	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:распечатай документ через 5 минут	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:днем включи обогреватель в спальне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:поставь утюг на шерсть	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подсвети путь на кухню	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:у нас найдутся какиенибудь овощи	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи подсветку к 7 вечера	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если песик давно не ел покорми его	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:открой жалюзи если слишком темно	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи воду	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:закрой шторы в 9 вечера	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:приглуши свет или включи расслабляющую музыку	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:разумеется совсем холодно	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:какие у нас есть орехи	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключай свет если я выхожу из спальни	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько градусов на улице	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи телевизор	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай электричество в комнате	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:когда я зайду сделай кофе	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:прочитай передачи если я засну	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:отключи музыку если я лягу	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:установить температуру на 23 градуса	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:допустим за окном небо закрой шторы	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:мне кажется кот слишком много ест	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключай свет когда меня нет в комнате	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько раз за неделю я стирал	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключи электричество в ванной	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ктото остался дома сегодня днем	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если становится жарко закрой дверь	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько в этом месяце было за электричество	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:если на улице холодно включи отопление	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:добавляй песню в мою коллекцию	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:подай печенье на зватрак	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:каждый день проверяй кофеварку в доме	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:выключай свет когда я выйду из комнаты	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:ежели будет жарко закрой окно	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:установи влажность на 8 и температуру на 23	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:набери ванную	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:доложи о соcтоянии одежды	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:приготовь мне какиенибудь овощи	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:проветри спальню ко сну	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:увеличьте громкость чтобы не мешал стук	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включи электричество в спальне	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:сколько в этом году я заплатил за свет	labels:Request	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:я пытаюсь принять ванную	labels:IndirectCommand	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
+text:включай свет когда я захожу в гостиную	labels:Command	episode_done:False	label_candidates:IndirectCommand|Other|Request|Command|IndirectRequest
