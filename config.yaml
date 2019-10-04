@@ -24,6 +24,8 @@ paths:
     not-commands:
       data: dataset/not-commands/data-sorokin.txt
       annotations: dataset/annotations/not-commands
+    parlai:
+      data: dataset/parlai/data.txt
     pytext:
       data: dataset/pytext/data.tsv
       data-extended: dataset/pytext/data-extended.tsv
