@@ -1,0 +1,5 @@
+valid:{'exs': 681, 'accuracy': 0.5324, 'f1': 0.5324, 'bleu': 5.324e-10, 'lr': 1, 'num_updates': 86, 'gpu_mem_percent': 0.0105, 'loss': 57.52, 'token_acc': 0.7662, 'nll_loss': 0.6697, 'ppl': 1.954}
+valid:{'exs': 681, 'accuracy': 0.5603, 'f1': 0.5603, 'bleu': 5.603e-10, 'lr': 1, 'num_updates': 87, 'gpu_mem_percent': 0.0163, 'loss': 27.55, 'token_acc': 0.7801, 'nll_loss': 0.6409, 'ppl': 1.898}
+valid:{'exs': 681, 'accuracy': 0.5691, 'f1': 0.5691, 'bleu': 5.691e-10, 'lr': 1, 'num_updates': 88, 'gpu_mem_percent': 0.0271, 'loss': 14.14, 'token_acc': 0.7846, 'nll_loss': 0.6425, 'ppl': 1.901}
+valid:{'exs': 681, 'accuracy': 0.5912, 'f1': 0.5912, 'bleu': 5.912e-10, 'lr': 1, 'num_updates': 98, 'gpu_mem_percent': 0.0424, 'loss': 6.386, 'token_acc': 0.7956, 'nll_loss': 0.5831, 'ppl': 1.792}
+valid:{'exs': 681, 'accuracy': 0.5397, 'f1': 0.5397, 'bleu': 5.397e-10, 'lr': 1, 'num_updates': 99, 'gpu_mem_percent': 0.0424, 'loss': 6.76, 'token_acc': 0.7699, 'nll_loss': 0.6143, 'ppl': 1.848}

@@ -35,11 +35,23 @@ python train.py --dataset=itmo-2 --priority_order=slot_first --embedding_path=..
 ```
 ## Vowpal Wabbit
 ### Usage  
-Train:  
+#### Train:  
 ```shell
 vw dataset/vw/train.txt --oaa 5 -f models/vw/oaa.model
 ```  
-Test:  
+#### Test:  
 ```shell
 vw -t -i models/vw/oaa.model dataset/vw/test.txt -p dataset/vw/predictions.txt
+```
+## Parlai
+Commands bellow assume that parlai is located in your home folder.  
+There is a separate [repository](https://github.com/zeionara/viot) for the used task.
+### Usage
+#### Train  
+```ssh
+python ~/parlai/examples/train_model.py -m seq2seq -t viot -bs 64 -eps 2 -mf models/parlai/model
+```
+#### Eval  
+```ssh
+python ~/parlai/examples/eval_model.py -m ir_baseline -t viot -dt valid -mf models/parlai/model
 ```
