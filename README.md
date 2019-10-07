@@ -55,3 +55,7 @@ python ~/parlai/examples/train_model.py -m seq2seq -t viot -bs 64 -eps 2 -mf mod
 ```ssh
 python ~/parlai/examples/eval_model.py -m ir_baseline -t viot -dt valid -mf models/parlai/model
 ```
+#### Display model and prediction results for 100 episodes
+```ssh
+python ~/parlai/examples/display_model.py -t viot -mf models/parlai/model -n 100
+```
