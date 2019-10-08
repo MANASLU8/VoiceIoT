@@ -3,8 +3,8 @@ import json
 import itertools
 
 from .. import field_extractors as fe, converters, utils, file_operators as fo
-
-config = utils.load_config(utils.parse_args().config)
+if __name__ == "__main__":
+	config = utils.load_config(utils.parse_args().config)
 
 def join_labels(labels, out_label = 'O'):
 	res = []

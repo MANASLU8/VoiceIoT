@@ -19,4 +19,4 @@ def get_flawy(input_files, get_file_names=False):
 	return flawy
 
 if __name__ == "__main__":
-	fo.write_json(config['paths']['datasets']['flawy-denormalized'], handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])))
+	fo.write_json(config['paths']['datasets']['flawy-denormalized'], get_flawy(utils.list_dataset_files(config['paths']['datasets']['annotations'])))

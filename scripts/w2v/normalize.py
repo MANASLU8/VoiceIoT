@@ -5,7 +5,8 @@ import pandas as pd
 from .. import field_extractors as fe, converters, utils, file_operators as fo
 from .. import joint_nlu as jn
 
-config = utils.load_config(utils.parse_args().config)
+if __name__ == "__main__":
+	config = utils.load_config(utils.parse_args().config)
 
 def handle_files(input_files):
 	result = []

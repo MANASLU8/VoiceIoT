@@ -21,7 +21,7 @@ import tensorflow as tf
 #tf.disable_v2_behavior()
 tf.compat.v1.disable_eager_execution()
 
-print(dir(tf))
+print('OMG')
 
 from .. import utils
 from . import normalize
