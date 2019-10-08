@@ -3,5 +3,12 @@
   "ontology-label": "Humidifier",
   "text": [
     "влажность"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0
+      ]
+    }
   ]
 }

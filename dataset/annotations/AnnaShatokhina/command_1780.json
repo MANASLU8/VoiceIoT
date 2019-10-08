@@ -1,7 +1,19 @@
 {
-		"utterance_id": 1780,
-		"utterance-type": "Request",
-		"ontology-label": "CurtainsRelay",
-		"text": ["когда последний раз открывали шторы"],
-        	"slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[3, 4]}]
+  "utterance_id": 1780,
+  "utterance-type": "Request",
+  "ontology-label": "CurtainsRelay",
+  "text": [
+    "когда последний раз открывали шторы"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ]
 }

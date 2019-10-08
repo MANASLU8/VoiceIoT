@@ -1,7 +1,26 @@
 {
-		"utterance_id": 341,
-		"utterance-type": "Request",
-		"ontology-label": "Phone",
-		"text": ["выведи статистику прослушиваний на мобильник"],
-        "slots-indices": [{"COMMAND":[0], "CommandFeature":[1, 2], "DEVICE":[4], "Analytics":[1,2]}]
+  "utterance_id": 341,
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "выведи статистику прослушиваний на мобильник"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ],
+      "DEVICE": [
+        4
+      ],
+      "Analytics": [
+        1,
+        2
+      ]
+    }
+  ]
 }

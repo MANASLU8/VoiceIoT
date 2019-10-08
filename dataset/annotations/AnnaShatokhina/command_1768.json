@@ -1,8 +1,27 @@
 {
-		"utterance_id": 1768,
-		"utterance-type": "Command",
-		"ontology-label": "Printer",
-		"text": ["распечатай документ спустя 2 часа"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}],
-		"schedule": [{"time:DateTimeDescription": [2, 3, 4]}]
+  "utterance_id": 1768,
+  "utterance-type": "Command",
+  "ontology-label": "Printer",
+  "text": [
+    "распечатай документ спустя 2 часа"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4
+      ]
+    }
+  ]
 }

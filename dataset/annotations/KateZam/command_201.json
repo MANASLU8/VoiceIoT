@@ -1,9 +1,36 @@
 {
-		"utterance_id": 201,
-		"utterance-type": "Command",
-		"ontology-label": ["HeatingFloor","TemperatureSensor"],
-		"text": ["если на улице меньше 10 температура включи подогрев пола"],
-    		"slots-indices": [{"COMMAND":[6], "DeviceFeature":[7,8],"DeviceParameterValue":[4],"IntensityQuantifier":[3]}],
-			"condition-indices": [0, 1, 2, 3, 4, 5]
+  "utterance_id": 201,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "HeatingFloor",
+    "TemperatureSensor"
+  ],
+  "text": [
+    "если на улице меньше 10 температура включи подогрев пола"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        6
+      ],
+      "DeviceFeature": [
+        7,
+        8
+      ],
+      "DeviceParameterValue": [
+        4
+      ],
+      "IntensityQuantifier": [
+        3
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
 }
-

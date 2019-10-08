@@ -3,5 +3,13 @@
   "ontology-label": "SmartFridge",
   "text": [
     "свежесть супа"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1
+      ]
+    }
   ]
 }

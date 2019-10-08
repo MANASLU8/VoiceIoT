@@ -1,8 +1,29 @@
 {
-		"utterance_id": 1759,
-		"utterance-type": "Request",
-		"ontology-label": "SmartOven",
-		"text": ["когда будет готова пицца"],
-                "slots-indices": [{"ParameterValueQuestion":[0], "FeatureState":[1, 2], "CommandFeature":[3]}],
-		"hidden-slot-indices": [{"DEVICE": [3]}]
+  "utterance_id": 1759,
+  "utterance-type": "Request",
+  "ontology-label": "SmartOven",
+  "text": [
+    "когда будет готова пицца"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "FeatureState": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        3
+      ]
+    }
+  ]
 }

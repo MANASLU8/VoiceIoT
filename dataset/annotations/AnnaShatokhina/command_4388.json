@@ -1,8 +1,35 @@
 {
-		"utterance_id": 4388,
-		"utterance-type": "Command",
-		"ontology-label": "HeaterController",
-		"text": ["в 8 часов включи обогреватель в ванной на 23 градуса"],
-		"schedule":[{"time:DateTimeDescription": [1,2]}],
-    		"slots-indices":[{"COMMAND":[3], "DEVICE":[4], "LOC":[6], "DeviceParameterValue":[8], "DeviceParameter":[9]}]
+  "utterance_id": 4388,
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "в 8 часов включи обогреватель в ванной на 23 градуса"
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1,
+        2
+      ]
+    }
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "DEVICE": [
+        4
+      ],
+      "LOC": [
+        6
+      ],
+      "DeviceParameterValue": [
+        8
+      ],
+      "DeviceParameter": [
+        9
+      ]
+    }
+  ]
 }

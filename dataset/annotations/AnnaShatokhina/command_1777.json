@@ -1,7 +1,22 @@
 {
-		"utterance_id": 1777,
-		"utterance-type": "Command",
-		"ontology-label": "HeaterController",
-		"text": ["установить температуру на 23 градуса"],
-              	"slots-indices": [{"COMMAND":[0], "DeviceParameter":[1], "DeviceParameterValue":[3, 4]}]
+  "utterance_id": 1777,
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "установить температуру на 23 градуса"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceParameter": [
+        1
+      ],
+      "DeviceParameterValue": [
+        3,
+        4
+      ]
+    }
+  ]
 }

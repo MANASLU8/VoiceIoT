@@ -1,7 +1,19 @@
 {
-		"utterance_id": 395,
-		"utterance-type": "Command",
-		"ontology-label": "Printer",
-		"text": ["сделай копию паспорта"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1, 2]}]
+  "utterance_id": 395,
+  "utterance-type": "Command",
+  "ontology-label": "Printer",
+  "text": [
+    "сделай копию паспорта"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
+  ]
 }

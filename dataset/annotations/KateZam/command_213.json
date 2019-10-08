@@ -1,8 +1,33 @@
 {
-	"utterance_id": 213,
-	"utterance-type": "Command",
-	"ontology-label": ["AudioSystem", "Pulsometer", "MotionSensor"],
-	"text": ["включай музыку когда я просыпаюсь"], 
-    "slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "Actor": [3], "Action": [4]}],
-	"conditon-indices": [2, 3, 4]
+  "utterance_id": 213,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "AudioSystem",
+    "Pulsometer",
+    "MotionSensor"
+  ],
+  "text": [
+    "включай музыку когда я просыпаюсь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ],
+  "conditon-indices": [
+    2,
+    3,
+    4
+  ]
 }

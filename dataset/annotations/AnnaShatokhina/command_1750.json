@@ -1,7 +1,18 @@
 {
-		"utterance_id": 1750,
-		"utterance-type": "Command",
-		"ontology-label": "SmartOven",
-		"text": ["покорми меня"],
-                "slots-indices": [{"COMMAND":[0], "Actor":[1]}]
+  "utterance_id": 1750,
+  "utterance-type": "Command",
+  "ontology-label": "SmartOven",
+  "text": [
+    "покорми меня"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Actor": [
+        1
+      ]
+    }
+  ]
 }

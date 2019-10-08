@@ -1,7 +1,19 @@
 {
-		"utterance_id": 352,
-		"utterance-type": "Command",
-		"ontology-label": "WaterTapRelay",
-		"text": ["помой ягоды и огурцы"],
-        "slots-indices": [{"COMMAND":[0], "CommandFeature":[1, 3]}]
+  "utterance_id": 352,
+  "utterance-type": "Command",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "помой ягоды и огурцы"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3
+      ]
+    }
+  ]
 }

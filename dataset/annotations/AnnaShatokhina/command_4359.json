@@ -1,8 +1,28 @@
 {
-		"utterance_id": 4359,
-		"utterance-type": "Command",
-		"ontology-label": "TemperatureSensor",
-		"text": ["днем включи обогреватель в спальне"],
-    		"slots-indices": [{"COMMAND":[1], "DEVICE": [2], "LOC":[4]}],
-		"schedule": [{"time:DateTimeDescription": [0]}]
+  "utterance_id": 4359,
+  "utterance-type": "Command",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "днем включи обогреватель в спальне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        1
+      ],
+      "DEVICE": [
+        2
+      ],
+      "LOC": [
+        4
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        0
+      ]
+    }
+  ]
 }

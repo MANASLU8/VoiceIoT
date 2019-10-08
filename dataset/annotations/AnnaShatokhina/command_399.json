@@ -1,8 +1,28 @@
 {
-		"utterance_id": 399,
-		"utterance-type": "Request",
-		"ontology-label": "SmartFridge",
-		"text": ["что из пищи осталось"],
-                "slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[2], "FeatureState":[3]}],
-		"hidden-slot-indices": [{"DEVICE": [2]}]
+  "utterance_id": 399,
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "что из пищи осталось"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "FeatureState": [
+        3
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        2
+      ]
+    }
+  ]
 }

@@ -2,5 +2,19 @@
   "utterance-type": "Request",
   "text": [
     "на сколько заполнен мусорный отсек"
+  ],
+  "slots-indices": [
+    {
+      "CommandQuestion": [
+        1
+      ],
+      "DeviceState": [
+        2
+      ],
+      "DeviceFeature": [
+        3,
+        4
+      ]
+    }
   ]
 }

@@ -1,7 +1,18 @@
 {
-		"utterance_id": 502,
-		"utterance-type": "Command",
-		"ontology-label": "Printer",
-		"text": ["заполни документ"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}]
+  "utterance_id": 502,
+  "utterance-type": "Command",
+  "ontology-label": "Printer",
+  "text": [
+    "заполни документ"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
 }

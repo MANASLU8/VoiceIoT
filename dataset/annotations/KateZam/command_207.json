@@ -1,8 +1,34 @@
 {
-	"utterance_id": 207,
-	"utterance-type": "Command",
-	"ontology-label": ["HeaterController", "HeatingFloor"],
-	"text": ["сделай теплее во всех комнатах"],
-        "slots-indices": [{ " COMMAND":[0], "CommandFeature":[1],"Quantor":[3],"LOC":[4]}],
-		"hidden-slots": [{"IntensityQuantifier":[1]}]
+  "utterance_id": 207,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "HeaterController",
+    "HeatingFloor"
+  ],
+  "text": [
+    "сделай теплее во всех комнатах"
+  ],
+  "slots-indices": [
+    {
+      " COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Quantor": [
+        3
+      ],
+      "LOC": [
+        4
+      ]
+    }
+  ],
+  "hidden-slots": [
+    {
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ]
 }

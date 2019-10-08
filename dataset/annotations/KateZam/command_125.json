@@ -1,9 +1,26 @@
 {
-	"utterance_id": 125,
-	"utterance-type": "Command",
-	"ontology-label": ["TemperatureSensor", "HumiditySensor", "AirPollutionSensor", "WindowRelay", "Humidifier", "SmartAirConditioner"],
-	"text": ["Проветри зал и кухню."], 
-		"slots-indices": [{"COMMAND":[0], "LOC":[1, 3]}]
+  "utterance_id": 125,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "TemperatureSensor",
+    "HumiditySensor",
+    "AirPollutionSensor",
+    "WindowRelay",
+    "Humidifier",
+    "SmartAirConditioner"
+  ],
+  "text": [
+    "Проветри зал и кухню."
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        1,
+        3
+      ]
+    }
+  ]
 }
-	
-	

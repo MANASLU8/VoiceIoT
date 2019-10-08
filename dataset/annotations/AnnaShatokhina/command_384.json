@@ -1,7 +1,21 @@
 {
-		"utterance_id": 384,
-		"utterance-type": "Command",
-		"ontology-label": "WaterTapRelay",
-		"text": ["отключи водопровод в гостинной"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "LOC":[3]}]
+  "utterance_id": 384,
+  "utterance-type": "Command",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "отключи водопровод в гостинной"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ]
 }

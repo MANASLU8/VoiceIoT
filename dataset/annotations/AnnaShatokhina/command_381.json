@@ -1,8 +1,24 @@
 {
-		"utterance_id": 381,
-		"utterance-type": "Command",
-		"ontology-label": "DoorWindowStatusSensor",
-		"text": ["если становится жарко закрой дверь"],
-                "slots-indices": [{"COMMAND":[3], "CommandFeature":[2, 4]}],
-		"condition-indices": [0, 1, 2]
+  "utterance_id": 381,
+  "utterance-type": "Command",
+  "ontology-label": "DoorWindowStatusSensor",
+  "text": [
+    "если становится жарко закрой дверь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        2,
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ]
 }

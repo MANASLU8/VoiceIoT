@@ -3,5 +3,32 @@
   "ontology-label": "Humidifier",
   "text": [
     "если уровень влажности в комнате меньше n то включи увлажнитель"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        9
+      ],
+      "CommandFeature": [
+        10
+      ]
+    },
+    {
+      "DeviceParameter": [
+        2
+      ],
+      "DeviceParameterValue": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
   ]
 }

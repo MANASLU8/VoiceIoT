@@ -1,9 +1,42 @@
 {
-	"utterance_id": 122,
-	"utterance-type": "Command",
-	"ontology-label": "WaterTapRelay",
-	"text": ["Наполни горячую ванную к моему приходу"],
-		"slots-indices": [{"COMMAND":[0],"FeatureState":[1],"CommandFeature":[2],"Actor":[4],"Action":[5]}],
-		"hidden-slot-indices": [{"Device": [2]}],
-		"schedule": [{"time:DateTimeDescription": [4,5]}]
+  "utterance_id": 122,
+  "utterance-type": "Command",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "Наполни горячую ванную к моему приходу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Actor": [
+        4
+      ],
+      "Action": [
+        5
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "Device": [
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        4,
+        5
+      ]
+    }
+  ]
 }

@@ -3,5 +3,13 @@
   "ontology-label": "CoffeeMachine",
   "text": [
     "количество кофе"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1
+      ]
+    }
   ]
 }

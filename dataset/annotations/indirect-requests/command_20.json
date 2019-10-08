@@ -3,5 +3,12 @@
   "ontology-label": "AlarmClock",
   "text": [
     "время"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0
+      ]
+    }
   ]
 }

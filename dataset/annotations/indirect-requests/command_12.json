@@ -2,5 +2,13 @@
   "utterance-type": "IndirectRequest",
   "text": [
     "способы оплаты"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1
+      ]
+    }
   ]
 }

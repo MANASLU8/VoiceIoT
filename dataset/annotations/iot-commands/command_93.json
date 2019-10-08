@@ -3,5 +3,20 @@
   "ontology-label": "WindowRelay",
   "text": [
     "закрой шторы если слишком светло"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
   ]
 }

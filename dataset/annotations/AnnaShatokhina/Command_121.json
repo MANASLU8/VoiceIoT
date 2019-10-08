@@ -1,7 +1,18 @@
 {
-	"utterance_id": 121,
-	"utterance-type": "Command",
-	"ontology-label": "WaterTapRelay",
-	"text": ["набери ванную"],
-	"slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}]
+  "utterance_id": 121,
+  "utterance-type": "Command",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "набери ванную"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
 }

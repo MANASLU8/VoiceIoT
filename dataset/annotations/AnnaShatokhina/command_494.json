@@ -1,7 +1,18 @@
 {
-		"utterance_id": 494,
-		"utterance-type": "IndirectCommand",
-		"ontology-label": "HeaterController",
-		"text": ["разумеется совсем холодно"],
-                "slots-indices": [{"IntensityQuantifier":[1], "CommandFeature":[2]}]
+  "utterance_id": 494,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "HeaterController",
+  "text": [
+    "разумеется совсем холодно"
+  ],
+  "slots-indices": [
+    {
+      "IntensityQuantifier": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
 }

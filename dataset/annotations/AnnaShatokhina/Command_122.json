@@ -1,7 +1,21 @@
 {
-	"utterance_id": 122,
-	"utterance-type": "Command",
-	"ontology-label": "WaterTapRelay",
-	"text": ["Полностью перекрой воду"],
-	"slots-indices": [{"Quantifier":[0], "COMMAND":[1], "CommandFeature":[2]}]
+  "utterance_id": 122,
+  "utterance-type": "Command",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "Полностью перекрой воду"
+  ],
+  "slots-indices": [
+    {
+      "Quantifier": [
+        0
+      ],
+      "COMMAND": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
 }

@@ -1,7 +1,21 @@
 {
-		"utterance_id": 489,
-		"utterance-type": "Request",
-		"ontology-label": "MotionSensor",
-		"text": ["кто-то остался дома сегодня днем"],
-                "slots-indices": [{"Actor":[0], "Action":[1], "LOC":[2]}]
+  "utterance_id": 489,
+  "utterance-type": "Request",
+  "ontology-label": "MotionSensor",
+  "text": [
+    "кто-то остался дома сегодня днем"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1
+      ],
+      "LOC": [
+        2
+      ]
+    }
+  ]
 }

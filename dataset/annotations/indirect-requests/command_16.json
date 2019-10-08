@@ -2,5 +2,14 @@
   "utterance-type": "IndirectRequest",
   "text": [
     "доля углекислого газа"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1,
+        2
+      ]
+    }
   ]
 }

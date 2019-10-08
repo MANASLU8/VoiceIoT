@@ -3,5 +3,14 @@
   "ontology-label": "AudioSystem",
   "text": [
     "мои любимые песни"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1,
+        2
+      ]
+    }
   ]
 }

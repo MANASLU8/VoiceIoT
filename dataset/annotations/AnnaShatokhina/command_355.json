@@ -1,8 +1,29 @@
 {
-		"utterance_id": 355,
-		"utterance-type": "Command",
-		"ontology-label": "TVSet",
-		"text": ["запиши передачи если я усну"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action": [4]}],
-		"condition-indices": [2, 3, 4]
+  "utterance_id": 355,
+  "utterance-type": "Command",
+  "ontology-label": "TVSet",
+  "text": [
+    "запиши передачи если я усну"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
+  ]
 }

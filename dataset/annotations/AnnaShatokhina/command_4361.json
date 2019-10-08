@@ -1,8 +1,23 @@
 {
-		"utterance_id": 4361,
-		"utterance-type": "Command",
-		"ontology-label": "SmartFeeder",
-		"text": ["кот давненько не ел покорми его"],
-    		"slots-indices": [{"COMMAND":[4]}],
-		"hidden-slot-indices": [{"DEVICE": [0, 4]}]
+  "utterance_id": 4361,
+  "utterance-type": "Command",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "кот давненько не ел покорми его"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        0,
+        4
+      ]
+    }
+  ]
 }

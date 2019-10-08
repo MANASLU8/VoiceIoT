@@ -1,7 +1,22 @@
 {
-		"utterance_id": 4378,
-		"utterance-type": "Request",
-		"ontology-label": "SmartOven",
-		"text": ["сколько дней стоит суп в духовке"],
-    		"slots-indices": [{"ParameterValueQuestion":[0], "CommandFeature":[2,3], "DEVICE": [5]}]
+  "utterance_id": 4378,
+  "utterance-type": "Request",
+  "ontology-label": "SmartOven",
+  "text": [
+    "сколько дней стоит суп в духовке"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2,
+        3
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
+  ]
 }

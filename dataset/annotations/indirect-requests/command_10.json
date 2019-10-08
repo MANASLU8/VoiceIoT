@@ -3,5 +3,13 @@
   "ontology-label": "WaterSupplySensor",
   "text": [
     "расход воды"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1
+      ]
+    }
   ]
 }

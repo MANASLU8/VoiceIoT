@@ -1,8 +1,29 @@
 {
-		"utterance_id": 218,
-		"utterance-type": "Command",
-		"ontology-label": ["LightSensor", "DoorWindowStatusSensor", "CurtainsRelay"],
-		"text": ["если за дверью рассвет закрой шторы"],
-    	"slots-indices": [{"COMMAND": [4], "CommandFeature": [3, 5]}],
-		"condition-indices": [0, 1, 2, 3]
+  "utterance_id": 218,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "DoorWindowStatusSensor",
+    "CurtainsRelay"
+  ],
+  "text": [
+    "если за дверью рассвет закрой шторы"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        3,
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

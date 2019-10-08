@@ -1,8 +1,30 @@
 {
-		"utterance_id": 338,
-		"utterance-type": "Command",
-		"ontology-label": "HeaterController",
-		"text": ["если на улице холодно включи батарею"],
-        "slots-indices": [{"COMMAND":[4], "CommandFeature":[3], "DeviceFeature":[5],"LOC":[2]}],
-		"condition-indices": [0, 1, 2, 3]
+  "utterance_id": 338,
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "если на улице холодно включи батарею"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "DeviceFeature": [
+        5
+      ],
+      "LOC": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

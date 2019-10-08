@@ -3,5 +3,13 @@
   "ontology-label": "TemperatureSensor",
   "text": [
     "карта температур"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1
+      ]
+    }
   ]
 }

@@ -1,7 +1,21 @@
 {
-		"utterance_id": 1762,
-		"utterance-type": "IndirectCommand",
-		"ontology-label": "TemperatureSensor",
-		"text": ["тут слишком прохладно"],
-                "slots-indices": [{"LOC":[0], "IntensityQuantifier":[1], "CommandFeature":[2]}]
+  "utterance_id": 1762,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "тут слишком прохладно"
+  ],
+  "slots-indices": [
+    {
+      "LOC": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
 }

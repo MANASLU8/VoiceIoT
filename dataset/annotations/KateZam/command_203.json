@@ -1,8 +1,37 @@
 {
-		"utterance_id": 203,
-		"utterance-type": "Command",
-		"ontology-label": ["MotionSensor","Lamp"],
-		"text": ["выключай свет если я иду из ванной"],
-    		"slots-indices": [{"COMMAND":[0], "CommandFeature":[1], "Actor":[3], "Action":[4], "LOC":[6]}],
-			"condition-indices": [2, 3, 4, 5, 6]
+  "utterance_id": 203,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "MotionSensor",
+    "Lamp"
+  ],
+  "text": [
+    "выключай свет если я иду из ванной"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
 }

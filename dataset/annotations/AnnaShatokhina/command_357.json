@@ -1,8 +1,28 @@
 {
-		"utterance_id": 357,
-		"utterance-type": "Command",
-		"ontology-label": ["WindowStatusSensor", "WindowRelay"],
-		"text": ["проветри спальню ко сну"],
-        "slots-indices": [{"COMMAND":[0], "LOC":[1]}],
-		"schedule": [{"time:DateTimeDescription": [3]}]
+  "utterance_id": 357,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "WindowStatusSensor",
+    "WindowRelay"
+  ],
+  "text": [
+    "проветри спальню ко сну"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3
+      ]
+    }
+  ]
 }

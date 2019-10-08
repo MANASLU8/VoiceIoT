@@ -3,5 +3,13 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "расход электричества"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1
+      ]
+    }
   ]
 }

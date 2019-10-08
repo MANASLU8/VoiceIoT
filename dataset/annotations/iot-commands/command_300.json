@@ -3,5 +3,18 @@
   "ontology-label": "CoffeeMachine",
   "text": [
     "какая кофемашина стоит в комнате"
+  ],
+  "slots-indices": [
+    {
+      "CommandQuestion": [
+        0
+      ],
+      "DEVICE": [
+        1
+      ],
+      "LOC": [
+        4
+      ]
+    }
   ]
 }

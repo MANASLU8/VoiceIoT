@@ -3,5 +3,13 @@
   "ontology-label": "WaterTapRelay",
   "text": [
     "температура воды"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1
+      ]
+    }
   ]
 }

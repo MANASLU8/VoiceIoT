@@ -3,5 +3,15 @@
   "ontology-label": "SmartIron",
   "text": [
     "включен ли утюг"
+  ],
+  "slots-indices": [
+    {
+      "DeviceState": [
+        0
+      ],
+      "DEVICE": [
+        2
+      ]
+    }
   ]
 }

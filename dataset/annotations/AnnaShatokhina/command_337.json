@@ -1,7 +1,27 @@
 {
-		"utterance_id": 337,
-		"utterance-type": "Request",
-		"ontology-label": "SmartMicrowave",
-		"text": ["сколько дней стоит суп в микроволновке"],
-        "slots-indices": [{"ParameterValueQuestion":[0], "ParameterValue":[1], "FeatureState":[2], "CommandFeature":[3], "DEVICE": [5]}]
+  "utterance_id": 337,
+  "utterance-type": "Request",
+  "ontology-label": "SmartMicrowave",
+  "text": [
+    "сколько дней стоит суп в микроволновке"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "ParameterValue": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
+  ]
 }

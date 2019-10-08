@@ -1,8 +1,27 @@
 {
-		"utterance_id": 4384,
-		"utterance-type": "Command",
-		"ontology-label": "CurtainsRelay",
-		"text": ["если за окном солнце открой шторы"],
-    		"slots-indices": [{"COMMAND":[4], "CommandFeature":[5], "LOC":[2]}],
-		"condition-indices": [0, 1, 2, 3]
+  "utterance_id": 4384,
+  "utterance-type": "Command",
+  "ontology-label": "CurtainsRelay",
+  "text": [
+    "если за окном солнце открой шторы"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "LOC": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

@@ -1,8 +1,25 @@
 {
-		"utterance_id": 1752,
-		"utterance-type": "Command",
-		"ontology-label": "SmartOven",
-		"text": ["подай печенье на зватрак"],
-                "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}],
-		"schedule": [{"time:DateTimeDescription": [3]}]
+  "utterance_id": 1752,
+  "utterance-type": "Command",
+  "ontology-label": "SmartOven",
+  "text": [
+    "подай печенье на зватрак"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3
+      ]
+    }
+  ]
 }

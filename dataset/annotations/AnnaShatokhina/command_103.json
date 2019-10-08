@@ -1,7 +1,18 @@
 {
-	"utterance_id": 113,
-	"utterance-type": "Command",
-	"ontology-label": "SmartToaster",
-	"text": ["сделай тост"],
-	"slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}]
-}	
+  "utterance_id": 113,
+  "utterance-type": "Command",
+  "ontology-label": "SmartToaster",
+  "text": [
+    "сделай тост"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+}

@@ -1,8 +1,33 @@
 {
-		"utterance_id": 1770,
-		"utterance-type": "Command",
-		"ontology-label": "SmartVacuumCleaner",
-		"text": ["если меня нет дома не мой пол"],
-                "slots-indices": [{"COMMAND":[5], "CommandFeature":[6], "LOC":[3], "Actor":[1], "Action":[2]}],
-		"condition-indices": [0, 1, 2, 3]
+  "utterance_id": 1770,
+  "utterance-type": "Command",
+  "ontology-label": "SmartVacuumCleaner",
+  "text": [
+    "если меня нет дома не мой пол"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "CommandFeature": [
+        6
+      ],
+      "LOC": [
+        3
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

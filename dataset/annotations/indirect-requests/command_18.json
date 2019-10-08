@@ -3,5 +3,12 @@
   "ontology-label": "TVSet",
   "text": [
     "пульт"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0
+      ]
+    }
   ]
 }

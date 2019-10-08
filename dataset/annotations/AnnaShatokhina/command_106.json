@@ -1,9 +1,35 @@
 {
-	"utterance_id": 106,
-	"utterance-type": "Command",
-	"ontology-label": "SmartIron",
-	"text": ["если утюг всё еще включен то выключи его"],
-	"slots-indices": [{"COMMAND":[6], "DEVICE":[1], "DeviceState":[4]}],
-	"coreference": [{"7": [1]}],
-	"condition-indices": [0, 1, 2, 3, 4]
+  "utterance_id": 106,
+  "utterance-type": "Command",
+  "ontology-label": "SmartIron",
+  "text": [
+    "если утюг всё еще включен то выключи его"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        6
+      ],
+      "DEVICE": [
+        1
+      ],
+      "DeviceState": [
+        4
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "7": [
+        1
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
 }

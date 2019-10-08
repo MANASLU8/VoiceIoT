@@ -1,7 +1,21 @@
 {
-		"utterance_id": 217,
-		"utterance-type": "Command",
-		"ontology-label": "SmartElectricityMeter",
-		"text": ["выключи электричество в спальне"],
-		"slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "LOC": [3]}]
+  "utterance_id": 217,
+  "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "выключи электричество в спальне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ]
 }

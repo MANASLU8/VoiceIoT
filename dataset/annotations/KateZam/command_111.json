@@ -1,9 +1,26 @@
 {
-	"utterance_id": 111,
-	"utterance-type": "Command",
-	"ontology-label": "WashingMachine",
-	"text": ["Включай стиральную машину по четвергам"],
-		"slots-indices": [{"COMMAND":[0], "DEVICE":[1,2]}],
-		"schedule": [{"regularlyRepeating": [4]}]
+  "utterance_id": 111,
+  "utterance-type": "Command",
+  "ontology-label": "WashingMachine",
+  "text": [
+    "Включай стиральную машину по четвергам"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1,
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        4
+      ]
+    }
+  ]
 }
-	

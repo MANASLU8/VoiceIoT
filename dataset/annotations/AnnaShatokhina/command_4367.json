@@ -1,9 +1,32 @@
 {
-		"utterance_id": 4367,
-		"utterance-type": "Command",
-		"ontology-label": "SmartFeeder",
-		"text": ["корми пса три раза в день"],
-    		"slots-indices": [{"COMMAND":[0]}],
-		"hidden-slot-indices": [{"DEVICE": [0,1]}],
-		"schedule": [{"time:DateTimeDescription": [2,3,5]}]
+  "utterance_id": 4367,
+  "utterance-type": "Command",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "корми пса три раза в день"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        0,
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        5
+      ]
+    }
+  ]
 }

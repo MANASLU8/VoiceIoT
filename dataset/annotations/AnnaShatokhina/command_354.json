@@ -1,7 +1,32 @@
 {
-		"utterance_id": 354,
-		"utterance-type": "Command",
-		"ontology-label": ["Lamp", "AudioSystem"],
-		"text": ["ослабь свет и включи успокаивающую музыку"],
-        "slots-indices": [{"COMMAND":[0], "CommandFeature":[1]}, {"COMMAND":[3], "CommandFeature":[5], "CommandParameterValue":[4]}]
+  "utterance_id": 354,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "Lamp",
+    "AudioSystem"
+  ],
+  "text": [
+    "ослабь свет и включи успокаивающую музыку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "CommandParameterValue": [
+        4
+      ]
+    }
+  ]
 }

@@ -1,7 +1,21 @@
 {
-		"utterance_id": 379,
-		"utterance-type": "IndirectCommand",
-		"ontology-label": "TemperatureSensor",
-		"text": ["мне сейчас так жарко"],
-                "slots-indices": [{"IntensityQuantifier":[2], "CommandFeature":[3], "Actor":[0]}]
+  "utterance_id": 379,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "мне сейчас так жарко"
+  ],
+  "slots-indices": [
+    {
+      "IntensityQuantifier": [
+        2
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "Actor": [
+        0
+      ]
+    }
+  ]
 }

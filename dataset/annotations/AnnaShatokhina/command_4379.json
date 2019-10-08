@@ -1,8 +1,27 @@
 {
-		"utterance_id": 4379,
-		"utterance-type": "Command",
-		"ontology-label": "AudioSystem",
-		"text": ["Если будет дождь то сообщить взять зонт с уходом"],
-    		"slots-indices": [{"COMMAND":[4,5], "CommandFeature":[6], "Action":[8]}],
-		"condition-indices": [0, 1, 2]
+  "utterance_id": 4379,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "Если будет дождь то сообщить взять зонт с уходом"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4,
+        5
+      ],
+      "CommandFeature": [
+        6
+      ],
+      "Action": [
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ]
 }

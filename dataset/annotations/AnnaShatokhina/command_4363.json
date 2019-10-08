@@ -1,8 +1,25 @@
 {
-		"utterance_id": 4363,
-		"utterance-type": "Command",
-		"ontology-label": "TemperatureSensor",
-		"text": ["если на улице холодно включи отопление"],
-    		"slots-indices": [{"COMMAND":[4], "CommandFeature":[3, 5]}],
-		"condition-indices": [0, 1, 2, 3]
+  "utterance_id": 4363,
+  "utterance-type": "Command",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "если на улице холодно включи отопление"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        3,
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

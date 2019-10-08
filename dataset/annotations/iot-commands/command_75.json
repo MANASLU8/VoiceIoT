@@ -3,5 +3,6 @@
   "ontology-label": "TVSet",
   "text": [
     "запиши передачу если я усну"
-  ]
+  ],
+  "slots-indices": []
 }

@@ -3,5 +3,14 @@
   "ontology-label": "SmartVacuumCleaner",
   "text": [
     "дата прошлой уборки"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1,
+        2
+      ]
+    }
   ]
 }

@@ -2,5 +2,15 @@
   "utterance-type": "IndirectRequest",
   "text": [
     "лучшее время для посадки роз"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1,
+        3,
+        4
+      ]
+    }
   ]
 }

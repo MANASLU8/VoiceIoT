@@ -2,5 +2,14 @@
   "utterance-type": "IndirectRequest",
   "text": [
     "затраты на коммунальные услуги"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        2,
+        3
+      ]
+    }
   ]
 }

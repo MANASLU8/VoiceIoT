@@ -3,5 +3,14 @@
   "ontology-label": "SmartCar",
   "text": [
     "прошлый технический осмотр"
+  ],
+  "slots-indices": [
+    {
+      "DeviceFeature": [
+        0,
+        1,
+        2
+      ]
+    }
   ]
 }
