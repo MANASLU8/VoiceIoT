@@ -1,7 +1,22 @@
 {
-	"utterance_id": 50,
-	"ontology-label": ["TemperatureSensor", "HeaterController", "HeatingFloor"],
-	"text": ["Сделай потеплее"],
-        "slots-indices": [{ " COMMAND":[0], "IntensityQuantifier":[1]}]
-        
+  "utterance_id": 50,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": [
+    "TemperatureSensor",
+    "HeaterController",
+    "HeatingFloor"
+  ],
+  "text": [
+    "Сделай потеплее"
+  ],
+  "slots-indices": [
+    {
+      " COMMAND": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ]
 }

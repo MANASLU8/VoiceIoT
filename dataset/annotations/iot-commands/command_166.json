@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "HeatingFloor",
   "text": [
     "выключи подогрев дорожек"
   ]

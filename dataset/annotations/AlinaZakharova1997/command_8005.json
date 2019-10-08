@@ -1,7 +1,23 @@
 {
-	"utterance_id": 8005,
-	"ontology-label": "SmartOven",
-	"text": "когда будет готова еда в духовке", 
-        "slots-indices": [{ "CommandQuestion":[0], "FeatureState":[1, 2],"CommandFeature": [3],"DEVICE":[5]}]
-
+  "utterance_id": 8005,
+  "utterance-type": "Request",
+  "ontology-label": "SmartOven",
+  "text": "когда будет готова еда в духовке",
+  "slots-indices": [
+    {
+      "CommandQuestion": [
+        0
+      ],
+      "FeatureState": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
+  ]
 }

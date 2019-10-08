@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "HeatingFloor",
   "text": [
     "включи подогрев пола"
   ]

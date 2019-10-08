@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
   "text": [
     "проветривай помещение каждые число минут в течение число минут избегая сквозняков"
   ]

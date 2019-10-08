@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
   "text": [
     "если я засну включи что-нибудь погромче"
   ]

@@ -1,6 +1,23 @@
 {
-	"utterance_id": 1700,
-	"ontology-label": "WashingMachine",
-	"text": ["сколько раз за месяц была стирка"],
-        "slots-indices": [{ " RequestQuestion":[0], "CommandFeature":[5], "Analytics":[1,3,4]}]   
+  "utterance_id": 1700,
+  "utterance-type": "Request",
+  "ontology-label": "WashingMachine",
+  "text": [
+    "сколько раз за месяц была стирка"
+  ],
+  "slots-indices": [
+    {
+      " RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "Analytics": [
+        1,
+        3,
+        4
+      ]
+    }
+  ]
 }

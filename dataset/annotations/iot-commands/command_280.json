@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
+  "ontology-label": "LightSensor",
   "text": [
     "Имитируй повседневное освещение пока я не дома"
   ]

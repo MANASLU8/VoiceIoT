@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartBreadMaker",
   "text": [
     "Приготовь хлеб к моему приходу"
   ]

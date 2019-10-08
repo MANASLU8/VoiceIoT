@@ -1,8 +1,26 @@
 {
-	"utterance_id": 3001,
-	"ontology-label": ["TemperatureSensor","HeaterController","HeatingFloor"],
-	"text": ["очень жарко"], 
-        "slots-indices": [{ "IntensityQuantifier":[0]}],
-        "hidden-slot-indices": [{"CommandFeature": [1]}]   
-
+  "utterance_id": 3001,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": [
+    "TemperatureSensor",
+    "HeaterController",
+    "HeatingFloor"
+  ],
+  "text": [
+    "очень жарко"
+  ],
+  "slots-indices": [
+    {
+      "IntensityQuantifier": [
+        0
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
 }

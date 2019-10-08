@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
+  "ontology-label": "CoffeeMachine",
   "text": [
     "каждый день проверяй кофемашину в доме"
   ]

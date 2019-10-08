@@ -1,7 +1,33 @@
 {
-	"utterance_id": 332,
-	"ontology-label": ["SmartFridge", "MotionSensor"],
-	"text": ["когда я вернусь начни охлаждать сок"], 
-        "slots-indices": [{ "COMMAND": [3, 4], "CommandFeature": [5], "Actor": [1], "Action": [2]}],
-		"condition-indices": [0, 1, 2]
+  "utterance_id": 332,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "SmartFridge",
+    "MotionSensor"
+  ],
+  "text": [
+    "когда я вернусь начни охлаждать сок"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3,
+        4
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ]
 }

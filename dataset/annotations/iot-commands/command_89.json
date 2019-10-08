@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "LightSensor",
   "text": [
     "подсвети путь на кухню "
   ]

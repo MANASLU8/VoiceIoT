@@ -1,6 +1,24 @@
 {
-	"utterance_id": 257,
-	"ontology-label": "AudioSystem",
-	"text": ["добавь мелодию в мою коллекцию"],
-	   "slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "Actor": [3], "DeviceFeature": [4]}]   
+  "utterance_id": 257,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "добавь мелодию в мою коллекцию"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "DeviceFeature": [
+        4
+      ]
+    }
+  ]
 }

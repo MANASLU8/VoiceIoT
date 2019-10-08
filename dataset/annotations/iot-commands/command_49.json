@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
   "text": [
     "свари кофе завтра к число утра"
   ]

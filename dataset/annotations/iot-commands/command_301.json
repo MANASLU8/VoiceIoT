@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
   "text": [
     "если кофе в кофемашине останется число то отправь уведомление на телефон"
   ]

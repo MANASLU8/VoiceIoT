@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectRequest",
+  "ontology-label": "WaterTapRelay",
   "text": [
     "температура воды"
   ]

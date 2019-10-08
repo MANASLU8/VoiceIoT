@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartOven",
   "text": [
     "включи духовку на число минут на число градусов затем на число минут на число"
   ]

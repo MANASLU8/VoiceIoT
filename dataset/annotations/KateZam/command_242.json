@@ -1,7 +1,28 @@
 {
-		"utterance_id": 242,
-		"ontology-label": "Printer",
-		"text": ["распечатай паспорт название через число часа"],
-    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1, 2]}],
-			"schedule": [{"time:DateTimeDescription": [3, 4, 5]}]
+  "utterance_id": 242,
+  "utterance-type": "Command",
+  "ontology-label": "Printer",
+  "text": [
+    "распечатай паспорт название через число часа"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
 }

@@ -1,11 +1,31 @@
-
 {
-	"utterance_id": 105,
-	"ontology-label": "SmartKettle",
-	"text": ["Eсли вода в чайнике остыла разогрей"],
-	"slots-indices": [{"COMMAND":[5], "CommandFeature": [1], "DEVICE":[3], "FeatureState":[4]}],
-        "condition-indices": [0, 1, 2, 3, 4]
+  "utterance_id": 105,
+  "utterance-type": "Command",
+  "ontology-label": "SmartKettle",
+  "text": [
+    "Eсли вода в чайнике остыла разогрей"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "DEVICE": [
+        3
+      ],
+      "FeatureState": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
 }
-
-
-	

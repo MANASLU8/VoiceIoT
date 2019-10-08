@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
   "text": [
     "в комнате душно проветри"
   ]

@@ -1,7 +1,36 @@
 {
-	"utterance_id": 10028,
-	"ontology-label": ["TVSet","MotionSensor"],
-	"text": "включай информационно-развлекательную когда я приду домой", 
-        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1]}, {"Actor":[3],"Action":[4],"LOC":[5]}],
-        "condition-indices": [2, 3, 4, 5]
+  "utterance_id": 10028,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "TVSet",
+    "MotionSensor"
+  ],
+  "text": "включай информационно-развлекательную когда я приду домой",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    },
+    {
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
+  ]
 }

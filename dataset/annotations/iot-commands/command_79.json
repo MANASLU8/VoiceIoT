@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "DoorRelay",
   "text": [
     "проверь закрыты ли входная дверь и ворота гаража"
   ]

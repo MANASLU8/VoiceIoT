@@ -1,7 +1,35 @@
 {
-		"utterance_id": 265,
-		"ontology-label": "SmartOven",
-		"text": ["в время включи духовой шкаф на кухне на количество градусов"],
-        "slots-indices": [{ "COMMAND": [2], "DEVICE": [3, 4], "LOC": [6], "DeviceParameterValue": [8],"DeviceFeature": [9]}],
-			"schedule": [{"time:DateTimeDescription": [1]}]
+  "utterance_id": 265,
+  "utterance-type": "Command",
+  "ontology-label": "SmartOven",
+  "text": [
+    "в время включи духовой шкаф на кухне на количество градусов"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "DEVICE": [
+        3,
+        4
+      ],
+      "LOC": [
+        6
+      ],
+      "DeviceParameterValue": [
+        8
+      ],
+      "DeviceFeature": [
+        9
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1
+      ]
+    }
+  ]
 }

@@ -1,6 +1,21 @@
 {
-		"utterance_id": 266,
-		"ontology-label": "SmartCar",
-		"text": ["проедь 500 метров"],
-    		"slots-indices": [{"COMMAND": [0], "CommandParameterValue": [1], "CommandParameter": [2]}]
+  "utterance_id": 266,
+  "utterance-type": "Command",
+  "ontology-label": "SmartCar",
+  "text": [
+    "проедь 500 метров"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandParameterValue": [
+        1
+      ],
+      "CommandParameter": [
+        2
+      ]
+    }
+  ]
 }

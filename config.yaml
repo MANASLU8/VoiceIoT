@@ -18,6 +18,7 @@ paths:
   datasets:
     root: dataset
     annotations: dataset/annotations
+    flawy-denormalized: flawy.json
     iot-commands:
       data: dataset/iot-commands/data.txt
       annotations: dataset/annotations/iot-commands

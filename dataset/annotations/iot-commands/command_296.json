@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "Phone",
   "text": [
     "Построй маршрут из Москвы в Санкт-Петербург и подсказывай мне дорогу"
   ]

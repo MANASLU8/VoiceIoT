@@ -1,7 +1,45 @@
 {
-	"utterance_id": 126,
-	"ontology-label": ["HumiditySensor", "Humidifier"],
-	"text": ["Eсли уровень влажности в комнате меньше n то включи увлажнитель"],
-        "slots-indices": [{"COMMAND":[8], "DEVICE":[9], "DeviceFeature":[2], "LOC":[4], "LOCCurrent":[4], "DeviceParameterValue":[6], "IntensityQuantifier":[5]}],
-        "condition-indices": [0, 1, 2, 3, 4, 5, 6]
+  "utterance_id": 126,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "HumiditySensor",
+    "Humidifier"
+  ],
+  "text": [
+    "Eсли уровень влажности в комнате меньше n то включи увлажнитель"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        8
+      ],
+      "DEVICE": [
+        9
+      ],
+      "DeviceFeature": [
+        2
+      ],
+      "LOC": [
+        4
+      ],
+      "LOCCurrent": [
+        4
+      ],
+      "DeviceParameterValue": [
+        6
+      ],
+      "IntensityQuantifier": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
 }

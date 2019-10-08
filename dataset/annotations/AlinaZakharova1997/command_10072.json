@@ -1,7 +1,27 @@
 {
-	"utterance_id": 10072,
-	"ontology-label": "TVSet",
-	"text": "запомни передачу если я лягу", 
-        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1], "Actor":[3], "Action":[4]}],
-        "condition-indices": [2, 3, 4]
+  "utterance_id": 10072,
+  "utterance-type": "Command",
+  "ontology-label": "TVSet",
+  "text": "запомни передачу если я лягу",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectRequest",
+  "ontology-label": "TemperatureSensor",
   "text": [
     "карта температур"
   ]

@@ -1,6 +1,28 @@
 {
-		"utterance_id": 307,
-		"ontology-label": ["TemperatureSensor", "HumiditySensor", "Humidifier", "HeaterController"],
-		"text": ["установи температура на число а влажность на число"],
-    		"slots-indices": [{ "COMMAND": [0], "CommandParameter": [1, 5], "CommandParameterValue": [3,7]}]
+  "utterance_id": 307,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "TemperatureSensor",
+    "HumiditySensor",
+    "Humidifier",
+    "HeaterController"
+  ],
+  "text": [
+    "установи температура на число а влажность на число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandParameter": [
+        1,
+        5
+      ],
+      "CommandParameterValue": [
+        3,
+        7
+      ]
+    }
+  ]
 }

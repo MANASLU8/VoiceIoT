@@ -1,7 +1,19 @@
 {
-	"utterance_id": 9000,
-	"ontology-label": "CoffeeMachine",
-	"text": "сколько кофе осталось", 
-        "slots-indices": [{ "RequestQuestion":[0], "Analytics":[2],"DeviceFeature": [1]}]
-
+  "utterance_id": 9000,
+  "utterance-type": "Request",
+  "ontology-label": "CoffeeMachine",
+  "text": "сколько кофе осталось",
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Analytics": [
+        2
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
   "text": [
     "выключи музыку когда я выйду из квартиры"
   ]

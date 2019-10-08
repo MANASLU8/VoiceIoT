@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
   "text": [
     "воспроизведи альбом Abbey Road The Beatles"
   ]

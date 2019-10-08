@@ -1,6 +1,23 @@
 {
-	"utterance_id": 10004,
-	"ontology-label": "AudioSystem",
-	"text": "назови исполнителя самой частотной песни", 
-        "slots-indices": [{ "Request":[0], "DeviceFeature": [1, 4],"IntensityQuantifier":[2], "Analytics":[3]}]
+  "utterance_id": 10004,
+  "utterance-type": "Request",
+  "ontology-label": "AudioSystem",
+  "text": "назови исполнителя самой частотной песни",
+  "slots-indices": [
+    {
+      "Request": [
+        0
+      ],
+      "DeviceFeature": [
+        1,
+        4
+      ],
+      "IntensityQuantifier": [
+        2
+      ],
+      "Analytics": [
+        3
+      ]
+    }
+  ]
 }

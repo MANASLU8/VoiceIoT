@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "HeaterController",
   "text": [
     "Сообщи если температура в гараже опустится ниже нуля"
   ]

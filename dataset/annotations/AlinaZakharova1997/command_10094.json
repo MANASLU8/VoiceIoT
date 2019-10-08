@@ -1,7 +1,27 @@
 {
-	"utterance_id": 10094,
-	"ontology-label": "Lamp",
-	"text": "меняй каждый день фонарик на время", 
-        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [3], "CommandParameterValue":[5]}],
-        "schedule": [{"regularlyRepeating": [1, 2]}]
+  "utterance_id": 10094,
+  "utterance-type": "Command",
+  "ontology-label": "Lamp",
+  "text": "меняй каждый день фонарик на время",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        3
+      ],
+      "CommandParameterValue": [
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        1,
+        2
+      ]
+    }
+  ]
 }

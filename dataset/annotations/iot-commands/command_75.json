@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "TVSet",
   "text": [
     "запиши передачу если я усну"
   ]

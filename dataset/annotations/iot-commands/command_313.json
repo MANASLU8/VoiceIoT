@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
   "text": [
     "кажду неделю в время снимай показания с счетчиков в квартире"
   ]

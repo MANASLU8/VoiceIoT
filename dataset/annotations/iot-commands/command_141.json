@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartFridge",
   "text": [
     "включи в морозилке быструю заморозку на число минут"
   ]

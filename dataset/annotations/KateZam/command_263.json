@@ -1,7 +1,28 @@
 {
-		"utterance_id": 263,
-		"ontology-label": "SmartCar",
-		"text": ["отвези меня до поликлиники завтра"],
-    		"slots-indices": [{"COMMAND": [0], "Actor": [1], "LOC": [3]}],
-			"schedule": [{"time:DateTimeDescription": [4]}]
+  "utterance_id": 263,
+  "utterance-type": "Command",
+  "ontology-label": "SmartCar",
+  "text": [
+    "отвези меня до поликлиники завтра"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Actor": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        4
+      ]
+    }
+  ]
 }

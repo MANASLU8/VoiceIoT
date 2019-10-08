@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectRequest",
+  "ontology-label": "SmartElectricityMeter",
   "text": [
     "расход электричества"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
   "text": [
     "выведи текст песни на экран телефона"
   ]

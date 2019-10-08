@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartFeeder",
   "text": [
     "если кот давно не ел покорми его"
   ]

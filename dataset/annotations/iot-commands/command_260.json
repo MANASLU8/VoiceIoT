@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartOven",
   "text": [
     "Включи готовку в время вечера"
   ]

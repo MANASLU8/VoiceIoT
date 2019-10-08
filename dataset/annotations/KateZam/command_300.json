@@ -1,6 +1,21 @@
 {
-		"utterance_id": 300,
-		"ontology-label": "TemperatureSensor",
-		"text": ["какая сейчас температура на улице"],
-    		"slots-indices": [{"DeviceQuestion": [0], "DeviceFeature": [2], "LOC": [4]}]
+  "utterance_id": 300,
+  "utterance-type": "Request",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "какая сейчас температура на улице"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "DeviceFeature": [
+        2
+      ],
+      "LOC": [
+        4
+      ]
+    }
+  ]
 }

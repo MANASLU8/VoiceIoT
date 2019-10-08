@@ -1,8 +1,21 @@
 {
-	"utterance_id": 108,
-	"ontology-label": "SmartIron",
-	"text": ["Утюг разогрей буду гладить нейлон"],
-        "slots-indices": [{"COMMAND":[1], "DEVICE":[0], "DeviceParameterValue":[4]}]
+  "utterance_id": 108,
+  "utterance-type": "Command",
+  "ontology-label": "SmartIron",
+  "text": [
+    "Утюг разогрей буду гладить нейлон"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        1
+      ],
+      "DEVICE": [
+        0
+      ],
+      "DeviceParameterValue": [
+        4
+      ]
+    }
+  ]
 }
-
-

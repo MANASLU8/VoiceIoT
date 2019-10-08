@@ -1,5 +1,9 @@
 {
   "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "SmartKettle"
+  ],
   "text": [
     "Каждый раз когда я буду приходить домой включить свет в прихожей и чайник"
   ]

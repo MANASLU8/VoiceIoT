@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
   "text": [
     "сделай музыку тише если зазвонит телефон или позвонят в дверь"
   ]

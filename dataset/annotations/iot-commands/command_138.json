@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartFridge",
   "text": [
     "установи температуру в холодильнике на плюс число а в морозилке на минус число"
   ]

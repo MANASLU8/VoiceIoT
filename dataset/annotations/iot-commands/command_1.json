@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "WashingMachine",
   "text": [
     "когда стиральная машина закончит стирку сообщи мужу"
   ]

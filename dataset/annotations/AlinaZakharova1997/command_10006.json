@@ -1,7 +1,37 @@
 {
-	"utterance_id": 10006,
-	"ontology-label": ["SmartVacuumCleaner", "MotionSensor"],
-	"text": "пропылесось здесь пока я буду на кухне", 
-        "slots-indices": [{ "COMMAND":[0], "LOCCurrent": [1]}, {"Actor":[3], "Action":[4], "LOC":[6]}],
-        "condition-indices": [2, 3, 4, 5, 6]
+  "utterance_id": 10006,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "SmartVacuumCleaner",
+    "MotionSensor"
+  ],
+  "text": "пропылесось здесь пока я буду на кухне",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOCCurrent": [
+        1
+      ]
+    },
+    {
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
 }

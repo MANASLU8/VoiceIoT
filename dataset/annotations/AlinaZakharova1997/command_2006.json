@@ -1,7 +1,25 @@
 {
-	"utterance_id": 2006,
-	"ontology-label": ["AudioSystem","AlarmClock"],
-	"text": ["слишком громко"],
-        "slots-indices": [{ "IntensityQuantifier":[0]}],
-        "hidden-slot-indices": [{"CommandFeature": [1]}]   
+  "utterance_id": 2006,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": [
+    "AudioSystem",
+    "AlarmClock"
+  ],
+  "text": [
+    "слишком громко"
+  ],
+  "slots-indices": [
+    {
+      "IntensityQuantifier": [
+        0
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
 }

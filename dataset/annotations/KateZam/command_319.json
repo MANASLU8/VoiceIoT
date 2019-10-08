@@ -1,7 +1,33 @@
 {
-		"utterance_id": 319,
-		"ontology-label": ["LightSensor", "DoorWindowStatusSensor", "CurtainsRelay"],
-		"text": ["если за окном солнце открой шторы"],
-    		"slots-indices": [{ "COMMAND": [4], "CommandFeature": [3, 5], "LOC":[1, 2]}],
-			"condition-indices": [0, 1, 2, 3]
+  "utterance_id": 319,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "DoorWindowStatusSensor",
+    "CurtainsRelay"
+  ],
+  "text": [
+    "если за окном солнце открой шторы"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        3,
+        5
+      ],
+      "LOC": [
+        1,
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

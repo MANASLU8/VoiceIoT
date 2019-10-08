@@ -1,7 +1,25 @@
 {
-		"utterance_id": 228,
-		"ontology-label": "AudioSystem",
-		"text": ["увеличь частоту чтобы не мешал шум"],
-    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1, 5]}],
-			"condition-indices": [2, 3, 4, 5]
+  "utterance_id": 228,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "увеличь частоту чтобы не мешал шум"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
+  ]
 }

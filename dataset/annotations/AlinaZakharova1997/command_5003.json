@@ -1,7 +1,25 @@
 {
-	"utterance_id": 5003,
-	"ontology-label": ["HeaterController", "TemperatureSensor"],
-	"text": ["сделай похолоднее"], 
-        "slots-indices": [{ "COMMAND":[0]}],
-        "hidden-slot-indices":[{"CommandFeature":[1]}]
+  "utterance_id": 5003,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": [
+    "HeaterController",
+    "TemperatureSensor"
+  ],
+  "text": [
+    "сделай похолоднее"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
 }

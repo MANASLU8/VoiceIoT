@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "WaterSupplySensor",
   "text": [
     "сколько воды потрачено"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
   "text": [
     "летай над местностью если сработает датчик дыма сообщи"
   ]

@@ -1,7 +1,28 @@
 {
-		"utterance_id": 223,
-		"ontology-label": ["TemperatureSensor", "DoorWindowStatusSensor", " WindowRelay"],
-		"text": ["если  будет холодно то закрой окно"],
-    		"slots-indices": [{"COMMAND": [4], "CommandFeature": [5]}],
-			"condition-indices": [0, 1, 2, 3]
+  "utterance_id": 223,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "TemperatureSensor",
+    "DoorWindowStatusSensor",
+    " WindowRelay"
+  ],
+  "text": [
+    "если  будет холодно то закрой окно"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

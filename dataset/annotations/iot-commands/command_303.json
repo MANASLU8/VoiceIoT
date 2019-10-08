@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
+  "ontology-label": "SmartOven",
   "text": [
     "приготовь мне еды к время"
   ]

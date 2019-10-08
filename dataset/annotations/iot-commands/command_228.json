@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartCar",
   "text": [
     "На сколько времени хватит топлива"
   ]

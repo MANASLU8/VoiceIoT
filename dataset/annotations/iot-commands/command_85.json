@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "MotionSensor",
   "text": [
     "входил ли кто-то в мою комнату сегодня"
   ]

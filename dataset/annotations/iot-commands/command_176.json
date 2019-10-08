@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
   "text": [
     "если закончится заряд лети на зарядную станцию после подзарядки продолжай"
   ]

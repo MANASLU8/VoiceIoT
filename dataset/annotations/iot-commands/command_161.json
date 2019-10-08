@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "MotionSensor",
   "text": [
     "отправить уведомление если было зафиксировано движение в период с время до время в будни "
   ]

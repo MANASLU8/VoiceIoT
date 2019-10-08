@@ -1,7 +1,35 @@
 {
-		"utterance_id": 327,
-		"ontology-label": ["LightSensor", "DoorWindowStatusSensor", "CurtainsRelay"],
-		"text": ["откроешь шторы если слишком темно"],
-    		"slots-indices": [{"COMMAND": [0], "CommandFeature": [1, 4], "IntensityQuantifier": [3], "LOC": [1, 2]}],
-			"condition-indices": [2, 3, 4]
+  "utterance_id": 327,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "DoorWindowStatusSensor",
+    "CurtainsRelay"
+  ],
+  "text": [
+    "откроешь шторы если слишком темно"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        4
+      ],
+      "IntensityQuantifier": [
+        3
+      ],
+      "LOC": [
+        1,
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
+  ]
 }

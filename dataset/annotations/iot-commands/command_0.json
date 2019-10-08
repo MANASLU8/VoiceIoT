@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "WashingMachine",
   "text": [
     "включай стиральную машину в время каждое четное число месяца"
   ]

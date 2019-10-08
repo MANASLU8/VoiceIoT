@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
   "text": [
     "сколько дней стоит суп в холодильнике"
   ]

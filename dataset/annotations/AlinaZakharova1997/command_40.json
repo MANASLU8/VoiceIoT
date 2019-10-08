@@ -1,7 +1,21 @@
 {
-	"utterance_id": 40,
-	"ontology-label": "Phone",
-	"text": ["Как доехать до больницы"],
-        "slots-indices": [{ " RequestQuestion":[0], "Action":[1], "LOC":[3]}]
-        
+  "utterance_id": 40,
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "Как доехать до больницы"
+  ],
+  "slots-indices": [
+    {
+      " RequestQuestion": [
+        0
+      ],
+      "Action": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ]
 }

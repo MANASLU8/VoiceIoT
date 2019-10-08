@@ -1,6 +1,23 @@
 {
-	"utterance_id": 10085,
-	"ontology-label": "CurtainsRelay",
-	"text": "когда последний раз опускали занавески", 
-        "slots-indices": [{ "RequestQuestion":[0], "FeatureState":[3], "DeviceFeature": [4], "Analytics":[1, 2]}]
+  "utterance_id": 10085,
+  "utterance-type": "Request",
+  "ontology-label": "CurtainsRelay",
+  "text": "когда последний раз опускали занавески",
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "FeatureState": [
+        3
+      ],
+      "DeviceFeature": [
+        4
+      ],
+      "Analytics": [
+        1,
+        2
+      ]
+    }
+  ]
 }

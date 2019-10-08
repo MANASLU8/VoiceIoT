@@ -1,7 +1,25 @@
 {
-	"utterance_id": 6007,
-	"ontology-label": ["LightSensor","Lamp","FloorLite"],
-	"text": ["Гаси свет в комнате"], 
-        "slots-indices": [{ "COMMAND":[0],"CommandFeature": [1], "LOC":[3]}]
-
+  "utterance_id": 6007,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "Lamp",
+    "FloorLite"
+  ],
+  "text": [
+    "Гаси свет в комнате"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ]
 }

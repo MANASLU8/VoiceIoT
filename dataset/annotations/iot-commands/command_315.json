@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartMicrowave",
   "text": [
     "разогрей мне еду в микроволновке к время"
   ]

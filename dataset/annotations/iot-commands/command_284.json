@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
   "text": [
     "Сколько энергии потребляют лампы"
   ]

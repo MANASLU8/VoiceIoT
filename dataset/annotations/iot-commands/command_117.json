@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
   "text": [
     "какие устройства потребляют наибольшее количество энергии в течение дня"
   ]

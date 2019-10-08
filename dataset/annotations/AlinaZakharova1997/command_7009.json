@@ -1,9 +1,40 @@
 {
-	"utterance_id": 7009,
-	"ontology-label": ["CurtainsRelay", "LightSensor"],
-	"text": "откроешь жалюзи если слишком темно", 
-        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1]}, {"IntensityQuantifier":[3], "CommandState":[4]}],
-        "condition-indices": [2, 3, 4],
-	"hidden-slot-indices": [{"CommandFeature": [4]},{}]
-
+  "utterance_id": 7009,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "CurtainsRelay",
+    "LightSensor"
+  ],
+  "text": "откроешь жалюзи если слишком темно",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    },
+    {
+      "IntensityQuantifier": [
+        3
+      ],
+      "CommandState": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        4
+      ]
+    },
+    {}
+  ]
 }

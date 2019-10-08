@@ -1,8 +1,20 @@
 {
-	"utterance_id": 10040,
-	"ontology-label": "AudioSystem",
-	"text": "очень тихо", 
-        "slots-indices": [{"IntensityQuantifier":[0]}],
-        "hidden-slot-indices": [{"CommandFeature": [1]}]
-
+  "utterance_id": 10040,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "AudioSystem",
+  "text": "очень тихо",
+  "slots-indices": [
+    {
+      "IntensityQuantifier": [
+        0
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "LightSensor",
   "text": [
     "Не включай свет если в комнату зашло домашнее животное"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "HeaterController",
   "text": [
     "установить температуру число градуса в ночное время когда я буду спать"
   ]

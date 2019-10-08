@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
+  "ontology-label": "Phone",
   "text": [
     "Мне нужно добраться до число поликлиники"
   ]

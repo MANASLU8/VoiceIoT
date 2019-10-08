@@ -1,6 +1,21 @@
 {
-	"utterance_id": 10087,
-	"ontology-label": "AudioSystem",
-	"text": "выключи динамики на кухне и отключи в спальне", 
-        "slots-indices": [{ "COMMAND":[0, 5], "DeviceFeature": [1],"LOC":[3, 7]}]
+  "utterance_id": 10087,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": "выключи динамики на кухне и отключи в спальне",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        5
+      ],
+      "DeviceFeature": [
+        1
+      ],
+      "LOC": [
+        3,
+        7
+      ]
+    }
+  ]
 }

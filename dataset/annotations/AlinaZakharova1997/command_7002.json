@@ -1,7 +1,33 @@
 {
-	"utterance_id": 7002,
-	"ontology-label": ["LightSensor","Lamp",["AudioSystem"]],
-	"text": "ослабь свет и включи успокаивающую песню", 
-        "slots-indices": [{ "COMMAND":[0], "DeviceFeature": [1]},{"COMMAND":[3], "FeatureState":[4], "DeviceFeature":[5]}]
-
+  "utterance_id": 7002,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "Lamp",
+    [
+      "AudioSystem"
+    ]
+  ],
+  "text": "ослабь свет и включи успокаивающую песню",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "FeatureState": [
+        4
+      ],
+      "DeviceFeature": [
+        5
+      ]
+    }
+  ]
 }

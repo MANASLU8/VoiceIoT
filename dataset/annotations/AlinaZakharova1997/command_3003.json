@@ -1,7 +1,28 @@
 {
-	"utterance_id": 3003,
-	"ontology-label": ["CurtainsRelay","LightSensor"],
-	"text": ["если за окном рассвет открой занавески"],
-        "slots-indices": [{},{ "COMMAND":[4], "CommandFeature":[5]}],
-        "condition-indices": [0, 1, 2, 3]   
+  "utterance_id": 3003,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "CurtainsRelay",
+    "LightSensor"
+  ],
+  "text": [
+    "если за окном рассвет открой занавески"
+  ],
+  "slots-indices": [
+    {},
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "MotionSensor",
   "text": [
     "имитируй присутствие людей с число июня до число июля"
   ]

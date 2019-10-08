@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
   "text": [
     "найди клип к этой песне на YouTube и воспроизведи его на телефоне"
   ]

@@ -1,5 +1,9 @@
 {
   "utterance-type": "Command",
+  "ontology-label": [
+    "HeaterController",
+    "WindowRelay"
+  ],
   "text": [
     "за час до будильника закрой окно и включи обогреватель"
   ]

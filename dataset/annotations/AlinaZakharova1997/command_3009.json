@@ -1,7 +1,21 @@
 {
-	"utterance_id": 3009,
-	"ontology-label": "TVSet",
-	"text": ["где пульт от телевизора"], 
-        "slots-indices": [{ "DeviceQuestion":[0], "DeviceFeature":[1], "DEVICE":[3]}]  
-
+  "utterance_id": 3009,
+  "utterance-type": "Request",
+  "ontology-label": "TVSet",
+  "text": [
+    "где пульт от телевизора"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ],
+      "DEVICE": [
+        3
+      ]
+    }
+  ]
 }

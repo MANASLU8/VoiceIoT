@@ -1,7 +1,43 @@
 {
-	"utterance_id": 2003,
-	"ontology-label": ["LightSensor","Lamp","FloorLite",["MotionSensor"]],
-	"text": ["Выключай свет если я ухожу из прихожей"],
-        "slots-indices": [{ " COMMAND":[0], "CommandFeature":[1]}, {"Actor":[3], "Action":[4], "LOC":[6]}],
-        "condition-indices": [2, 3, 4, 5, 6]  
+  "utterance_id": 2003,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "Lamp",
+    "FloorLite",
+    [
+      "MotionSensor"
+    ]
+  ],
+  "text": [
+    "Выключай свет если я ухожу из прихожей"
+  ],
+  "slots-indices": [
+    {
+      " COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
 }

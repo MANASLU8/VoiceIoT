@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "Humidifier",
   "text": [
     "поддерживай влажность воздуха не меньше число процентов"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectRequest",
+  "ontology-label": "AudioSystem",
   "text": [
     "мои любимые песни"
   ]

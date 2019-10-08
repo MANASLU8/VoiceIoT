@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
   "text": [
     "Если было взято спиртное посчитай на сколько уменьшился вес каждой бутылки"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "AlarmClock",
   "text": [
     "если завтра выходной разбуди меня через число часов после выключения света в комнате"
   ]

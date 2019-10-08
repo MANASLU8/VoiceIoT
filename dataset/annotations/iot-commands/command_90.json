@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "HeaterController",
   "text": [
     "сделай потеплее обогреватель"
   ]

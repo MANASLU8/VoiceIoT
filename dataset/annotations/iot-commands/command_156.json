@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
+  "ontology-label": "Humidifier",
   "text": [
     "здесь слишком сухо"
   ]

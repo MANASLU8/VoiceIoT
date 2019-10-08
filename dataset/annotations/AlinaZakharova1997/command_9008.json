@@ -1,8 +1,45 @@
 {
-	"utterance_id": 9008,
-	"ontology-label": ["Lamp","MotionSensor"],
-	"text": "Выключай свет каждый раз когда я ухожу из гостиной", 
-        "slots-indices": [{ "COMMAND":[0], "Devicefeature": [1]}, {"Actor":[5], "Action":[6], "LOC":[8]}],
-        "condition-indices": [ 4, 5, 6, 7, 8],
-        "schedule":[{"regularlyRepeating":[2, 3]}]
+  "utterance_id": 9008,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "Lamp",
+    "MotionSensor"
+  ],
+  "text": "Выключай свет каждый раз когда я ухожу из гостиной",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Devicefeature": [
+        1
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        6
+      ],
+      "LOC": [
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        2,
+        3
+      ]
+    }
+  ]
 }

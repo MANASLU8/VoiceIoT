@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "Phone",
   "text": [
     "Сколько по времени ехать до ст метро Горьковская"
   ]

@@ -1,6 +1,27 @@
 {
-	"utterance_id": 318,
-	"ontology-label": ["MotionSensor", "AudioSystem"],
-	"text": ["сообщи был ли кто-то дома сегодня?"], 
-        "slots-indices": [{ "COMMAND": [0], "Action": [1], "Actor": [3], "LOC": [4]}]
+  "utterance_id": 318,
+  "utterance-type": "Request",
+  "ontology-label": [
+    "MotionSensor",
+    "AudioSystem"
+  ],
+  "text": [
+    "сообщи был ли кто-то дома сегодня?"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Action": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "LOC": [
+        4
+      ]
+    }
+  ]
 }

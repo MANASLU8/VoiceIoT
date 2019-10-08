@@ -1,7 +1,24 @@
 {
-	"utterance_id": 303,
-	"ontology-label": ["TVSet", "AudioSystem"],
-	"text": ["делай чуть тише"], 
-        "slots-indices": [{ "COMMAND": [0], "IntensityQuantifier": [1], "CommandFeature": [2]}]
-		
+  "utterance_id": 303,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "TVSet",
+    "AudioSystem"
+  ],
+  "text": [
+    "делай чуть тише"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
 }

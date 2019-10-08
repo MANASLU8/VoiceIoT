@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartCar",
   "text": [
     "Предупреди если автомобиль сзади меня будет очень близко"
   ]

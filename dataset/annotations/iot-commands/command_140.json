@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
   "text": [
     "есть ли дома сливочное масло"
   ]

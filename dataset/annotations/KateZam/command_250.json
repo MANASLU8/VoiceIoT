@@ -1,7 +1,35 @@
 {
-		"utterance_id": 250,
-		"ontology-label": ["SmartOven","SmartBreadMaker"],
-		"text": ["приготовь булку к моему приходу"],
-			"slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "Actor": [3], "Action": [4]}],
-			"schedule": [{"time:DateTimeDescription": [3, 4]}]
+  "utterance_id": 250,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "SmartOven",
+    "SmartBreadMaker"
+  ],
+  "text": [
+    "приготовь булку к моему приходу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4
+      ]
+    }
+  ]
 }

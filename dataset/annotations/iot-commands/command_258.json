@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "Phone",
   "text": [
     "сколько времени займет дорога от А до Б с учетом пробок"
   ]

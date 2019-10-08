@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
   "text": [
     "какое количество электроэнергии в этом месяце было затрачено водонагревателем"
   ]

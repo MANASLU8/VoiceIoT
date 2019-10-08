@@ -1,5 +1,6 @@
 {
-  "utterance-type": "Command",
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "LightSensor",
   "text": [
     "сделай светло"
   ]

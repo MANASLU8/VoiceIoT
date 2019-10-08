@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
+  "ontology-label": "SmartFeeder",
   "text": [
     "мне кажется кот слишком много ест"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
   "text": [
     "сколько в этом году я заплатил за свет"
   ]

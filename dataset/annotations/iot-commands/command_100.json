@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "WaterSupplySensor",
   "text": [
     "проверяй нет ли протечки каждые число минуты пока включена посудомоечная машина"
   ]

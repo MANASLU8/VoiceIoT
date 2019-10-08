@@ -39,6 +39,7 @@ def write_dataset(folder, items, vocab_folder = None):
 
 def handle_files(input_files, get_file_names=False):
 	result = []
+	flawy = {}
 	entity_names = set({})
 	for j in range(len(input_files)):
 		input_file = input_files[j]
@@ -46,6 +47,8 @@ def handle_files(input_files, get_file_names=False):
 			annotation = json.loads(f.read())
 		ontology_label = fe.extract_ontology_label(annotation)
 		if not ontology_label or not fe.extract_utterance_type(annotation):
+			print(f"File {input_file} is flawy")
+			flawy[input_file] = annotation
 			continue
 		text = fe.extract_text(annotation)
 		sent = re.sub(r'[^\w\s]','',text).lower()
@@ -60,8 +63,8 @@ def handle_files(input_files, get_file_names=False):
 			result.append(input_file)
 		else:
 			result.append([sent, ' '.join(join_labels(labels)), ontology_label])
-	return result
+	return flawy
 
 if __name__ == "__main__":
-	write_dataset(config['paths']['datasets']['joint-nlu']['data'],
-		handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])), config['paths']['datasets']['joint-nlu']['vocabulary'])
+	#write_dataset(config['paths']['datasets']['joint-nlu']['data'],
+	fo.write_json("my.json", handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])))#, config['paths']['datasets']['joint-nlu']['vocabulary'])

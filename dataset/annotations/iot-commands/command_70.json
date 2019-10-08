@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "TemperatureSensor",
   "text": [
     "если станет жарко то открой окно"
   ]

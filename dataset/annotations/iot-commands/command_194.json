@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "HeaterController",
   "text": [
     "Отопление включай за два часа до прихода отключай при выходе"
   ]

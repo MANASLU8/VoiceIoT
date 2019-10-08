@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
   "text": [
     "включить кофемашину через число минуты после будильника"
   ]

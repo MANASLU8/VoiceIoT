@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "Humidifier",
   "text": [
     "если уровень влажности в комнате меньше n то включи увлажнитель"
   ]

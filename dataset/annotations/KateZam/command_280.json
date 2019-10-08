@@ -1,7 +1,26 @@
 {
-	"utterance_id": 280,
-	"ontology-label": "AudioSystem",
-	"text": ["включи музыку в 5 вечера"], 
-        "slots-indices": [{ "COMMAND": [0], "CommandFeature": [1]}],
-		"schedule": [{"time:DateTimeDescription": [3, 4]}]
+  "utterance_id": 280,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "включи музыку в 5 вечера"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4
+      ]
+    }
+  ]
 }

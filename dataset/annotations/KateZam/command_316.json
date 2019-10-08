@@ -1,6 +1,28 @@
 {
-		"utterance_id": 316,
-		"ontology-label": ["TemperatureSensor", "HeaterController"],
-		"text": ["поддерживай температуру здесь на уровне число"],
-    		"slots-indices": [{"COMMAND": [0], "DeviceFeature": [1, 4], "LOCCurrent": [2], "DeviceParameterValue": [5]}]
+  "utterance_id": 316,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "TemperatureSensor",
+    "HeaterController"
+  ],
+  "text": [
+    "поддерживай температуру здесь на уровне число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1,
+        4
+      ],
+      "LOCCurrent": [
+        2
+      ],
+      "DeviceParameterValue": [
+        5
+      ]
+    }
+  ]
 }

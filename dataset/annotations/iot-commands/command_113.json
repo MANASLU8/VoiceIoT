@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
   "text": [
     "перечисли устройства которые включены в доме в данный момент"
   ]

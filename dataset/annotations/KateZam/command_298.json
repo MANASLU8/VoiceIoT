@@ -1,7 +1,39 @@
 {
-		"utterance_id": 298,
-		"ontology-label": ["LightSensor","Lamp","FloorLite","MotionSensor"],
-		"text": ["включай свет когда я захожу в гостинную"],
-			"slots-indices": [{ "COMMAND": [0], "CommandFeature": [1], "Actor": [3], "Action": [4], "LOC": [6]}],
-			"condition-indices": [2, 3, 4, 5, 6]
+  "utterance_id": 298,
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "Lamp",
+    "FloorLite",
+    "MotionSensor"
+  ],
+  "text": [
+    "включай свет когда я захожу в гостинную"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
 }

@@ -1,6 +1,28 @@
 {
-	"utterance_id": 2000,
-	"ontology-label": "SmartElectricityMeter",
-	"text": ["почем в этом году я заплатил за свет"],
-        "slots-indices": [{ "RAnalytics":[0], "CommandFeature":[7],"Actor":[4],"Action":[5],"Duration":[2, 3]}]  
+  "utterance_id": 2000,
+  "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "почем в этом году я заплатил за свет"
+  ],
+  "slots-indices": [
+    {
+      "RAnalytics": [
+        0
+      ],
+      "CommandFeature": [
+        7
+      ],
+      "Actor": [
+        4
+      ],
+      "Action": [
+        5
+      ],
+      "Duration": [
+        2,
+        3
+      ]
+    }
+  ]
 }

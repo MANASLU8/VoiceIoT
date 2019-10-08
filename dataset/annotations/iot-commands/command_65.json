@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "TemperatureSensor",
   "text": [
     "какая сейчас температура"
   ]

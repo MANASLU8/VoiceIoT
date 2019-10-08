@@ -1,6 +1,24 @@
 {
-	"utterance_id": 1600,
-	"ontology-label": "SmartFridge",
-	"text": ["сколько дней стоит салат в холодильнике"],
-        "slots-indices": [{ " RequestQuestion":[0], "CommandFeature":[3], "FeatureState":[2], "LOC":[5]}]   
+  "utterance_id": 1600,
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "сколько дней стоит салат в холодильнике"
+  ],
+  "slots-indices": [
+    {
+      " RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "FeatureState": [
+        2
+      ],
+      "LOC": [
+        5
+      ]
+    }
+  ]
 }

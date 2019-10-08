@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "TVSet",
   "text": [
     "где пульт от телевизора"
   ]

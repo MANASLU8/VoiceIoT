@@ -1,6 +1,22 @@
 {
-	"utterance_id": 2001,
-	"ontology-label": "MotionSensor",
-	"text": ["проверь датчик движения за сегодня"],
-        "slots-indices": [{ "Analytics":[0], "DEVICE":[1, 2],"Duration": [4]}]  
+  "utterance_id": 2001,
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "MotionSensor",
+  "text": [
+    "проверь датчик движения за сегодня"
+  ],
+  "slots-indices": [
+    {
+      "Analytics": [
+        0
+      ],
+      "DEVICE": [
+        1,
+        2
+      ],
+      "Duration": [
+        4
+      ]
+    }
+  ]
 }

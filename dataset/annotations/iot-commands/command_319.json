@@ -1,5 +1,9 @@
 {
   "utterance-type": "Command",
+  "ontology-label": [
+    "TemperatureSensor",
+    "Humidifier"
+  ],
   "text": [
     "установи температуру на число и влажность на число"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartIron",
   "text": [
     "Если утюг всё еще включен отключить его"
   ]

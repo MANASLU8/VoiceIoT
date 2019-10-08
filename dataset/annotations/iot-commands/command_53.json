@@ -1,5 +1,9 @@
 {
   "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "AudioSystem"
+  ],
   "text": [
     "ослабь свет и включи успокаивающую музыку"
   ]

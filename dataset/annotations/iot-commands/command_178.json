@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "MotionSensor",
   "text": [
     "Осмотри поле Если увидишь что-то необычное сообщи"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "WaterSupplySensor",
   "text": [
     "Перекрой подачу воды и включи слив если бассейн наполнится выше заданного уровня "
   ]

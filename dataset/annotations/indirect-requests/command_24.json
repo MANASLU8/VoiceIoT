@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectRequest",
+  "ontology-label": "SmartIron",
   "text": [
     "включен ли утюг"
   ]

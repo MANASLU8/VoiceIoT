@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "SmartKettle",
   "text": [
     "По будням буди меня в время часов утра включай чайник"
   ]

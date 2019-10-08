@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
+  "ontology-label": "TVSet",
   "text": [
     "опять пульт от телевизора потерял "
   ]

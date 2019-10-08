@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
+  "ontology-label": "HeaterController",
   "text": [
     "здесь слишком холодно"
   ]

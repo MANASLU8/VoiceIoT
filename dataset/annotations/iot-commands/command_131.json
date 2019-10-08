@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "SmartVacuumCleaner",
   "text": [
     "когда была последняя уборка"
   ]

@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "WashingMachine",
   "text": [
     "сколько раз за месяц я стирал"
   ]

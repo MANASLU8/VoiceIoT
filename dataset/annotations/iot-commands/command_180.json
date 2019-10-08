@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
   "text": [
     "Осматривай поле и показывай видео на сервер Дальнейшие команды получай от него"
   ]

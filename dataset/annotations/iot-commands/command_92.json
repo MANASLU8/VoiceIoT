@@ -1,5 +1,6 @@
 {
   "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
   "text": [
     "закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол"
   ]

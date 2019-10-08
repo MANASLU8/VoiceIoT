@@ -1,5 +1,6 @@
 {
   "utterance-type": "IndirectRequest",
+  "ontology-label": "SmartFridge",
   "text": [
     "свежесть супа"
   ]

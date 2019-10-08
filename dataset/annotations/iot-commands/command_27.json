@@ -1,5 +1,6 @@
 {
   "utterance-type": "Request",
+  "ontology-label": "AudioSystem",
   "text": [
     "какого исполнителя я слушал чаще всего на этой неделе"
   ]
