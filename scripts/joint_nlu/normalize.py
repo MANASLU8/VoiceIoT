@@ -27,9 +27,9 @@ def make_chunk(i, entities, entity_names, word, ontology_label):
 			return f"{ontology_label.strip()}.{entity_name.strip()}"
 	return 'O'
 
-def write_dataset(folder, items, vocab_folder = None):
+def write_dataset(folder, items, config, vocab_folder = None):
 	print(f"Writing {len(items)} items")
-	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['texts']), [item[0] for item in items])
+	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['texts']),[item[0] for item in items])
 	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['slots']), [item[1] for item in items])
 	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['labels']), [item[2] for item in items])
 	if vocab_folder:
@@ -46,9 +46,7 @@ def handle_files(input_files, get_file_names=False):
 		with open(input_file) as f:
 			annotation = json.loads(f.read())
 		ontology_label = fe.extract_ontology_label(annotation)
-		if not ontology_label or not fe.extract_utterance_type(annotation):
-			print(f"File {input_file} is flawy")
-			flawy[input_file] = annotation
+		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label:
 			continue
 		text = fe.extract_text(annotation)
 		sent = re.sub(r'[^\w\s]','',text).lower()
@@ -63,8 +61,7 @@ def handle_files(input_files, get_file_names=False):
 			result.append(input_file)
 		else:
 			result.append([sent, ' '.join(join_labels(labels)), ontology_label])
-	return flawy
+	return result
 
 if __name__ == "__main__":
-	#write_dataset(config['paths']['datasets']['joint-nlu']['data'],
-	fo.write_json("my.json", handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])))#, config['paths']['datasets']['joint-nlu']['vocabulary'])
+	write_dataset(config['paths']['datasets']['joint-nlu']['data'], handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])), config, config['paths']['datasets']['joint-nlu']['vocabulary'])

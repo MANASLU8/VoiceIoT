@@ -32,7 +32,7 @@ for label in samples.keys():
  		validate_samples.append(choice)
  		samples[label].remove(choice)
  		counter += 1
-
+print(f"{len([sample for label in samples.keys() for sample in samples[label]])} Train samples; {len(test_samples)} Test samples")
 fo.write_lines(config['paths']['datasets']['pytext']['train-extended'], [sample for label in samples.keys() for sample in samples[label]])
 fo.write_lines(config['paths']['datasets']['pytext']['validate-extended'], validate_samples)
 fo.write_json(config['paths']['datasets']['pytext']['test-extended'], test_samples)

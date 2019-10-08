@@ -41,7 +41,7 @@ paths:
       validate: dataset/pytext/validate.tsv
       validate-extended: dataset/pytext/validate-extended.tsv
     snips-nlu:
-      data: dataset/snips-nlu/data.tsv
+      data: dataset/snips-nlu/data.json
       train: dataset/snips-nlu/train.tsv
       test: dataset/snips-nlu/test.tsv
     slots-intents:
@@ -71,7 +71,7 @@ paths:
   etc:
     pytext:
       model: models/pytext/model.caffe2.predictor
-      model-extended: models/pytext/model-bilstm-without-pretrained-embeddings.caffe2.predictor
+      model-extended: /tmp/model.caffe2.predictor #models/pytext/model-bilstm-without-pretrained-embeddings.caffe2.predictor
       model-config: vendor/pytext/docnn.json
       model-config-extended: vendor/pytext/bilstm-without-pretrained-embeddings.json
     slots-intents:

@@ -9,10 +9,10 @@ def get_best_label(result):
     doc_label_scores_prefix = ('scores:' if any(r.startswith('scores:') for r in result) else 'doc_scores:')
     return max((label for label in result if label.startswith(doc_label_scores_prefix)), key=lambda label: result[label][0],)[len(doc_label_scores_prefix):]
 
-config = pytext.load_config(config['datasets']['etc']['pytext']['model-config-extended'])
-predictor = pytext.create_predictor(config, config['datasets']['etc']['pytext']['model-extended'])
+configp = pytext.load_config(config['paths']['etc']['pytext']['model-config-extended'])
+predictor = pytext.create_predictor(configp, config['paths']['etc']['pytext']['model-extended'])
 
-test_dataset = fo.read_json(config['datasets']['pytext']['test'])
+test_dataset = fo.read_json(config['paths']['datasets']['pytext']['test'])
 
 counter = 0
 positive_counter = 0

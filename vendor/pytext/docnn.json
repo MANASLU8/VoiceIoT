@@ -6,9 +6,9 @@
         "source": {
           "TSVDataSource": {
             "field_names": ["label", "slots", "text"],
-            "train_filename": "../../dataset/pytext/train.tsv",
-            "test_filename": "../../dataset/pytext/validate.tsv",
-            "eval_filename": "../../dataset/pytext/validate.tsv"
+            "train_filename": "dataset/pytext/train.tsv",
+            "test_filename": "dataset/pytext/validate.tsv",
+            "eval_filename": "dataset/pytext/validate.tsv"
           }
         }
       },
@@ -21,5 +21,5 @@
       }
     }
   },
-  "export_torchscript_path": "../../models/pytext/model.pt"
+  "export_torchscript_path": "models/pytext/model.pt"
 }

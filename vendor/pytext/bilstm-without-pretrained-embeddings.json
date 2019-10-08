@@ -13,9 +13,9 @@
                   "doc_weight",
                   "word_weight"
                 ],
-                "train_filename": "../../dataset/pytext/train-extended.tsv",
-                "test_filename": "../../dataset/pytext/validate-extended.tsv",
-                "eval_filename": "../../dataset/pytext/validate-extended.tsv"
+                "train_filename": "dataset/pytext/train-extended.tsv",
+                "test_filename": "dataset/pytext/validate-extended.tsv",
+                "eval_filename": "dataset/pytext/validate-extended.tsv"
               }
             },
             "batcher": {
@@ -63,5 +63,5 @@
       }
     }
   },
-  "export_torchscript_path": "../../models/pytext/model-bilstm.pt"
+  "export_torchscript_path": "models/pytext/model-bilstm.pt"
 }

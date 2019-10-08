@@ -38,6 +38,8 @@ def handle_files(input_files):
 		text = fe.extract_text(annotation)
 		sent = "BOS " + re.sub(r'[^\w\s]','',text).lower() + " EOS O"
 		labels = []
+		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label:
+			continue
 		for (i, word) in enumerate(re.sub(r'[^\w\s]','',text).lower().split(' ')):
 			appended = False
 			if 'slots-indices' in annotation:

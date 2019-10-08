@@ -39,6 +39,6 @@ for label in samples.keys():
 		i = item[0]
 		train_samples.append([texts[i], slots[i], item[1]])
 
-n.write_dataset(config['paths']['datasets']['joint-nlu']['test'], test_samples)
-n.write_dataset(config['paths']['datasets']['joint-nlu']['validate'], test_samples)
-n.write_dataset(config['paths']['datasets']['joint-nlu']['train'], train_samples)
+n.write_dataset(config['paths']['datasets']['joint-nlu']['test'], test_samples, config)
+n.write_dataset(config['paths']['datasets']['joint-nlu']['validate'], test_samples, config)
+n.write_dataset(config['paths']['datasets']['joint-nlu']['train'], train_samples, config)

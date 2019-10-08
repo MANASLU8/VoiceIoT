@@ -28,10 +28,11 @@ def join_empty(collection):
 	return res
 
 def make_chunk(i, entities, entity_names, word, ontology_label):
-	for entity_name in entities.keys():
-		if i in entities[entity_name]:
-			entity_names.add(entity_name.strip())
-			return {'text': word, 'entity': entity_name.strip(), 'slot_name': f"{ontology_label.strip()}.{entity_name.strip()}"}
+	if entities and ontology_label:
+		for entity_name in entities.keys():
+			if i in entities[entity_name]:
+				entity_names.add(entity_name.strip())
+				return {'text': word, 'entity': entity_name.strip(), 'slot_name': f"{ontology_label.strip()}.{entity_name.strip()}"}
 	return {'text': word}
 
 def handle_files(input_files):
@@ -45,10 +46,12 @@ def handle_files(input_files):
 		ontology_label = fe.extract_ontology_label(annotation)
 		text = fe.extract_text(annotation)
 		res = []
+		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1:
+			continue
 		for (i, word) in enumerate(re.sub(r'[^\w\s]','',text).lower().split(' ')):
 			appended = False
 			if 'slots-indices' in annotation:
-				res.append(make_chunk(i, annotation['slots-indices'][0], entity_names, word, ontology_label))
+				res.append(make_chunk(i, annotation['slots-indices'][0] if len(annotation['slots-indices']) >= 1 else None, entity_names, word, ontology_label))
 			elif 'slots-indices-bio' in annotation:
 				res.append(make_chunk(i, converters.decode_bio(annotation['slots-indices-bio']), entity_names, word, ontology_label))
 		res = join_empty(res)

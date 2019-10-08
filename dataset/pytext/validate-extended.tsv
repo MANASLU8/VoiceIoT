@@ -1,46 +1,74 @@
-HeaterController	22:27:COMMAND,29:40:DEVICE,8:12:LOC	eсли на улице холодно включи обогреватель	1	1
-HeaterController	0:6:COMMAND,8:12:CommandFeature	закрыть дверь если начался снег	1	1
-WaterTapRelay	0:5:COMMAND,7:10:CommandFeature,14:18:CommandFeature,22:27:Actor,29:35:Action	набери воду в ванну к нашему приходу	1	1
-WaterTapRelay	0:0:Actor,2:8:Action,10:16:Action,18:23:CommandFeature	я пытаюсь принять ванную	1	1
-WaterTapRelay	0:0:Actor,2:5:Action,7:13:Action,15:19:CommandFeature	я хочу принять ванну	1	1
-CurtainsRelay	23:28:COMMAND,30:34:CommandFeature,12:16:LOC	допустим за окном небо закрой шторы	1	1
-CurtainsRelay	21:26:COMMAND,28:32:CommandFeature,8:12:LOC	если за окном солнце открой шторы	1	1
-CurtainsRelay	0:5:COMMAND,27:31:CommandFeature,19:25:IntensityQuantifier	открой жалюзи если слишком темно	1	1
-WindowRelay	19:24:COMMAND,11:17:CommandFeature,26:29:CommandFeature	если будет холодно закрой окно	1	1
-WindowRelay	0:7:COMMAND,9:13:LOCCurrent,20:20:Actor,22:25:Action,29:34:LOC	проветри здесь пока я буду в ванной	1	1
-WindowRelay	0:5:COMMAND,7:10:DeviceFeature,15:19:LOC,24:25:CommandParameterValue,27:34:CommandParameter	открой окно на кухне на 30 градусов	1	1
-CoffeeMachine	14:19:COMMAND,6:6:Actor,8:12:Action,21:24:CommandFeature	когда я зайду сделай кофе	1	1
-CoffeeMachine	0:6:COMMAND,8:16:DeviceFeatureState,18:26:DEVICE	проверь состояние кофеварки	1	1
-Lamp	3:9:DeviceQuestion,11:17:FeatureState,19:24:DeviceFeature	на сколько хватает заряда	1	1
-Lamp	0:7:COMMAND,9:12:Devicefeature,31:31:Actor,33:37:Action,42:49:LOC	выключай свет каждый раз когда я ухожу из гостиной	1	1
-Lamp	0:7:COMMAND,9:12:CommandFeature,19:19:Actor,21:26:Action,31:37:LOC	выключай свет если я выхожу из спальни	1	1
-SmartElectricityMeter	0:6:COMMAND,8:20:CommandFeature,24:29:LOC	выключи электричество в ванной	1	1
-SmartElectricityMeter	0:7:COMMAND,9:12:CommandFeature,20:20:Actor,22:26:Action,31:37:LOC	выключай свет когда я выйду из комнаты	1	1
-SmartOven	0:6:RequestQuestion,20:22:CommandFeature,14:18:FeatureState,26:32:LOC	сколько часов стоит суп в духовке	1	1
-SmartOven	0:4:CommandQuestion,19:23:CommandFeature,6:10:FeatureState,12:17:FeatureState,27:33:DEVICE	когда будет готова пицца в духовке	1	1
-SmartBreadMaker	0:5:COMMAND,7:13:CommandFeature	включи готовку в 8 вечера	1	1
-AudioSystem	0:7:COMMAND,9:13:CommandFeature	добавляй песню в мою коллекцию	1	1
-AudioSystem	0:4:RequestQuestion,32:35:CommandFeature,18:18:Actor,20:27:Action	почем в этом году я заплатил за свет	1	1
-AudioSystem	0:4:COMMAND,10:14:CommandFeature,16:19:IntensityQuantifier	ставь эту песню чаще	1	1
-AudioSystem	0:5:COMMAND,7:12:IntensityQuantifier	сделай громче	1	1
-AudioSystem	0:7:COMMAND,9:13:CommandFeature	пропусти песню	1	1
-TemperatureSensor	0:6:ParameterValueQuestion,15:22:DeviceFeature,27:31:LOC	сколько сейчас градусов на улице	1	1
-TemperatureSensor	22:27:COMMAND,14:20:CommandFeature,29:37:CommandFeature	если на улице холодно включи отопление	1	1
-TemperatureSensor	36:42:COMMAND,44:56:DeviceFeature,27:34:DeviceParameter,8:12:LOC	eсли на улице больше число градусов отключи электричество	1	1
-TemperatureSensor	22:28:COMMAND,30:40:DEVICE,14:17:LOC,5:8:Actor,10:12:Action	если меня нет дома не включай кондиционер	1	1
-TVSet	0:10:COMMAND,35:40:CommandFeature,25:33:Action	подготовить обстановку к просмотру фильма	1	1
-TVSet	0:6:COMMAND,8:15:DeviceFeature,22:22:Actor,24:27:Action	запомни передачу если я лягу	1	1
-SmartVacuumCleaner	0:10:COMMAND,12:16:LOCCurrent,23:23:Actor,25:28:Action,32:38:LOC	пропылесось здесь пока я буду в комнате	1	1
-SmartVacuumCleaner	0:10:COMMAND,12:16:LOCCurrent,23:23:Actor,25:28:Action,33:37:LOC	пропылесось здесь пока я буду на кухне	1	1
-MotionSensor	0:9:COMMAND,17:24:CommandFeature,26:30:LOC,32:35:LOC,37:41:FeatureState,43:50:IntensityQuantifier	предупреди когда грузовик сзади меня будет вплотную	1	1
-MotionSensor	0:8:Actor,10:12:Action,14:17:LOC	ктонибудь был дома сегодня днем	1	1
-SmartFridge	0:6:RequestQuestion,8:11:CommandFeature,13:20:FeatureState	сколько мяса осталось	1	1
-SmartFridge	0:4:ParameterValueQuestion,9:16:Action,18:25:CommandFeature	нужно ли покупать продукты	1	1
-SmartFeeder	23:29:COMMAND,5:9:CommandFeature,11:15:FeatureState,17:18:FeatureState,20:21:FeatureState	если песик давно не ел покорми его	1	1
-SmartFeeder	20:26:COMMAND	кот давненько не ел покорми его	1	1
-WashingMachine	0:6:COMMAND,8:17:DEVICE,19:24:DEVICE	включай стиральную машину в 2305 каждое четное число месяца	1	1
-WashingMachine	0:6:COMMAND,21:26:CommandFeature	поставь в расписание стирку на 6 утра	1	1
-DoorWindowStatusSensor	0:4:DeviceQuestion,6:10:DeviceFeature,14:17:LOC,19:25:FeatureState	какие двери в доме открыты	1	1
-LightSensor	0:7:COMMAND,9:12:CommandFeature,19:19:Actor,21:25:Action,30:37:LOC	выключай свет если я ухожу из прихожей	1	1
-LightSensor	0:7:COMMAND,9:12:CommandFeature,20:20:Actor,22:26:Action,31:37:LOC	выключай свет вдруг я выйду из комнаты	1	1
-HumiditySensor	0:7:COMMAND,9:19:Devicefeature,32:40:Devicefeature,24:28:DeviceParameterValue,45:49:DeviceParameterValue	установи температуру на число а влажность на число	1	1
+TemperatureSensor	0:4:TemperatureSensor.ParameterValueQuestion,14:19:TemperatureSensor.CommandFeature	какая сегодня погода	1	1
+TemperatureSensor	37:42:TemperatureSensor.COMMAND,44:55:TemperatureSensor.DEVICE	если на улице температура 0 градусов включи обогреватель	1	1
+TemperatureSensor	0:7:TemperatureSensor.COMMAND,9:19:TemperatureSensor.DeviceFeature,32:42:TemperatureSensor.DeviceFeature,24:28:TemperatureSensor.DeviceParameterValue,47:51:TemperatureSensor.DeviceParameterValue	установи температуру на число и кислотность на число	1	1
+TemperatureSensor	22:27:TemperatureSensor.COMMAND,14:20:TemperatureSensor.CommandFeature,29:37:TemperatureSensor.CommandFeature	если на улице холодно включи отопление	1	1
+TemperatureSensor	0:5:TemperatureSensor.COMMAND,7:15:TemperatureSensor.CommandFeature,30:36:TemperatureSensor.CommandFeature,22:28:TemperatureSensor.IntensityQuantifier	закрой занавески если слишком холодно	1	1
+TemperatureSensor	24:29:TemperatureSensor.COMMAND,31:35:TemperatureSensor.CommandFeature	если станет жарко тогда открой дверь	1	1
+SmartOven	0:6:SmartOven.COMMAND,8:11:SmartOven.Actor	покорми меня	1	1
+SmartOven	0:4:SmartOven.CommandQuestion,19:23:SmartOven.CommandFeature,6:10:SmartOven.FeatureState,12:17:SmartOven.FeatureState,27:33:SmartOven.DEVICE	когда будет готова пицца в духовке	1	1
+SmartOven	0:7:SmartOven.DeviceSta`te,12:18:SmartOven.DEVICE	включена ли духовка	1	1
+AudioSystem	0:6:AudioSystem.COMMAND,8:15:AudioSystem.CommandFeature,20:24:AudioSystem.LOC,30:36:AudioSystem.LOC	выключи динамики на кухне и в спальне	1	1
+AudioSystem	0:6:AudioSystem.COMMAND,8:19:AudioSystem.DEVICE	выключи аудиосистему когда я возвращаюсь домой	1	1
+AudioSystem	0:6:AudioSystem.COMMAND,8:12:AudioSystem.CommandFeature,20:20:AudioSystem.Actor,22:25:AudioSystem.Action	отключи песню когда я лягу	1	1
+AudioSystem	0:6:AudioSystem.COMMAND,8:12:AudioSystem.CommandFeature,20:20:AudioSystem.Actor,22:25:AudioSystem.Action	выключи песню когда я усну	1	1
+AudioSystem	0:5:AudioSystem.COMMAND,7:12:AudioSystem.IntensityQuantifier	сделай громче	1	1
+AudioSystem	0:6:AudioSystem.COMMAND,8:13:AudioSystem.CommandFeature,21:21:AudioSystem.Actor,23:26:AudioSystem.Action	отключу музыку когда я усну	1	1
+AudioSystem	0:6:AudioSystem.COMMAND,8:11:AudioSystem.CommandFeature,16:18:AudioSystem.DeviceParameterValue,20:25:AudioSystem.DeviceFeature	увеличь звук на три пункта	1	1
+AudioSystem	0:7:AudioSystem.COMMAND,9:16:AudioSystem.CommandFeature,24:24:AudioSystem.Actor,26:30:AudioSystem.Action	прочитай передачи тогда я засну	1	1
+AudioSystem	0:4:AudioSystem.IntensityQuantifier	очень тихо	1	1
+SmartFeeder	0:4:SmartFeeder.COMMAND	корми пса три раза в день	1	1
+SmartFeeder	0:4:SmartFeeder.COMMAND,6:8:SmartFeeder.CommandFeature	корми пса четыре раза в день	1	1
+HeaterController	0:6:HeaterController.COMMAND,8:12:HeaterController.CommandFeature	закрыть дверь если холодно	1	1
+HeaterController	0:5:HeaterController.COMMAND,7:12:HeaterController.CommandFeature,17:20:HeaterController.Quantor,22:29:HeaterController.LOC	сделай теплее во всех комнатах	1	1
+HeaterController	10:15:HeaterController.COMMAND,17:28:HeaterController.DEVICE,32:37:HeaterController.LOC,42:43:HeaterController.DeviceParameterValue,45:51:HeaterController.DeviceParameter	в 8 часов включи обогреватель в ванной на 23 градуса	1	1
+HumiditySensor	0:6:HumiditySensor.COMMAND,8:11:HumiditySensor.DeviceFeature	закрыть окно если начался дождь	1	1
+WindowRelay	0:5:WindowRelay.COMMAND,7:11:WindowRelay.CommandFeature	закрой шторы если слишком светло	1	1
+WindowRelay	19:24:WindowRelay.COMMAND,11:17:WindowRelay.CommandFeature,26:29:WindowRelay.CommandFeature	если будет холодно закрой окно	1	1
+WindowRelay	23:28:WindowRelay.COMMAND,30:33:WindowRelay.CommandFeature	если станет холодно то закрой окно	1	1
+SmartBreadMaker	0:8:SmartBreadMaker.COMMAND,10:13:SmartBreadMaker.CommandFeature	приготовь хлеб к нашему возвращению	1	1
+CurtainsRelay	0:4:CurtainsRelay.ParameterValueQuestion,20:28:CurtainsRelay.CommandFeature,30:34:CurtainsRelay.CommandFeature	когда последний раз открывали шторы	1	1
+CurtainsRelay	0:7:CurtainsRelay.COMMAND,9:14:CurtainsRelay.DeviceFeature	откроешь жалюзи если слишком темно	1	1
+CurtainsRelay	0:7:CurtainsRelay.COMMAND,9:14:CurtainsRelay.DeviceFeature	откроешь жалюзи если слишком темно	1	1
+LightSensor	0:7:LightSensor.COMMAND,9:12:LightSensor.DeviceFeature	выключай свет вдруг я выйду из комнаты	1	1
+LightSensor	0:7:LightSensor.COMMAND,9:12:LightSensor.CommandFeature,19:19:LightSensor.Actor,21:26:LightSensor.Action,31:36:LightSensor.LOC	выключай свет если я выхожу из комнат	1	1
+LightSensor	0:7:LightSensor.COMMAND,9:12:LightSensor.CommandFeature,18:21:LightSensor.Actor,23:27:LightSensor.Action,32:38:LightSensor.LOC	выключай свет при моем уходе из комнаты	1	1
+LightSensor	0:7:LightSensor.COMMAND,9:12:LightSensor.CommandFeature,19:19:LightSensor.Actor,21:25:LightSensor.Action,30:36:LightSensor.LOC	выключай свет если я ухожу из комнаты	1	1
+LightSensor	0:6:LightSensor.COMMAND,8:11:LightSensor.CommandFeature,19:19:LightSensor.Actor,21:26:LightSensor.Action,30:38:LightSensor.LOC	включай свет когда я захожу в гостинную	1	1
+LightSensor	0:6:LightSensor.COMMAND,8:11:LightSensor.DeviceFeature	выключи свет	1	1
+LightSensor	0:5:LightSensor.COMMAND,7:10:LightSensor.DeviceFeature	ослабь свет и включи успокаивающую песню	1	1
+DoorWindowStatusSensor	0:4:DoorWindowStatusSensor.DeviceQuestion,9:12:DoorWindowStatusSensor.DeviceFeature,16:23:DoorWindowStatusSensor.LOC,32:38:DoorWindowStatusSensor.FeatureState	какие из окон в квартире сейчас открыты	1	1
+DoorWindowStatusSensor	18:24:DoorWindowStatusSensor.COMMAND,5:7:DoorWindowStatusSensor.CommandFeature,13:16:DoorWindowStatusSensor.FeatureState	если кот уже поел выпусти его	1	1
+DoorWindowStatusSensor	0:5:DoorWindowStatusSensor.COMMAND,7:10:DoorWindowStatusSensor.CommandFeature,25:29:DoorWindowStatusSensor.CommandFeature,17:23:DoorWindowStatusSensor.IntensityQuantifier,34:38:DoorWindowStatusSensor.LOC	закрой окно если сильный ветер на улице	1	1
+Lamp	0:7:Lamp.COMMAND,9:12:Lamp.CommandFeature	приглуши свет или включи расслабляющую музыку	1	1
+Lamp	0:6:Lamp.COMMAND,8:11:Lamp.CommandFeature,19:19:Lamp.Actor,21:26:Lamp.Action,30:37:Lamp.LOC	включай свет когда я захожу в гостиную	1	1
+Lamp	0:7:Lamp.COMMAND,9:12:Lamp.CommandFeature,19:19:Lamp.Actor,21:26:Lamp.Action,31:37:Lamp.LOC	выключай свет если я выхожу из спальни	1	1
+Lamp	0:4:Lamp.COMMAND,18:24:Lamp.DeviceFeature,29:33:Lamp.CommandParameterValue	меняй каждый день фонарик на время	1	1
+SmartKettle	0:8:SmartKettle.COMMAND,10:12:SmartKettle.CommandFeature	приготовь чай	1	1
+SmartKettle	27:34:SmartKettle.COMMAND,5:8:SmartKettle.CommandFeature,12:18:SmartKettle.DEVICE,20:25:SmartKettle.FeatureState	eсли вода в чайнике остыла разогрей	1	1
+WashingMachine	0:4:WashingMachine.ParameterValueQuestion,17:31:WashingMachine.CommandFeature,33:38:WashingMachine.CommandFeature	когда следуюущий технологический осмотр	1	1
+WashingMachine	0:7:WashingMachine.COMMAND,12:13:WashingMachine.DeviceParameterValue,15:22:WashingMachine.DeviceParameter	постирай на 90 градусах	1	1
+SmartVacuumCleaner	0:6:SmartVacuumCleaner.COMMAND,8:10:SmartVacuumCleaner.LOC,27:31:SmartVacuumCleaner.LOC,17:17:SmartVacuumCleaner.Actor,19:22:SmartVacuumCleaner.Action	подмети там пока я буду на кухне	1	1
+SmartVacuumCleaner	22:24:SmartVacuumCleaner.COMMAND,26:28:SmartVacuumCleaner.CommandFeature,14:17:SmartVacuumCleaner.LOC,5:8:SmartVacuumCleaner.Actor,10:12:SmartVacuumCleaner.Action	если меня нет дома не мой пол	1	1
+TVSet	0:6:TVSet.COMMAND,8:15:TVSet.DeviceFeature,22:22:TVSet.Actor,24:27:TVSet.Action	запомни передачу если я лягу	1	1
+TVSet	0:6:TVSet.COMMAND,8:35:TVSet.DeviceFeature	включай информационноразвлекательную когда я приду домой	1	1
+TVSet	0:2:TVSet.DeviceQuestion,4:8:TVSet.DeviceFeature,13:22:TVSet.DEVICE	где пульт от телевизора	1	1
+MotionSensor	0:5:MotionSensor.COMMAND,7:16:MotionSensor.CommandFeature,24:24:MotionSensor.Actor,26:28:MotionSensor.Action,30:34:MotionSensor.LOC	снимай парктроник когда я иду домой	1	1
+MotionSensor	0:9:MotionSensor.COMMAND	предупреди если автомобиль сзади меня придется очень вплотную	1	1
+MotionSensor	0:6:MotionSensor.COMMAND,8:13:MotionSensor.LOC,15:18:MotionSensor.LOC	проверь второй этаж	1	1
+SmartFridge	0:6:SmartFridge.Request,8:14:SmartFridge.FeatureState,16:18:SmartFridge.CommandFeature,22:33:SmartFridge.LOC	проверь наличие еды в холодильнике	1	1
+SmartFridge	0:4:SmartFridge.ParameterValueQuestion,9:16:SmartFridge.Action,18:25:SmartFridge.CommandFeature	нужно ли покупать продукты	1	1
+SmartFridge	0:5:SmartFridge.COMMAND,7:11:SmartFridge.CommandQuestion,13:18:SmartFridge.CommandFeature,22:33:SmartFridge.DEVICE	сообщи какие фрукты в холодильнике	1	1
+CoffeeMachine	14:19:CoffeeMachine.COMMAND,6:6:CoffeeMachine.Actor,8:12:CoffeeMachine.Action,21:24:CoffeeMachine.CommandFeature	когда я зайду сделай кофе	1	1
+CoffeeMachine	0:9:CoffeeMachine.DeviceFeature,11:14:CoffeeMachine.DeviceFeature	количество кофе	1	1
+SmartElectricityMeter	0:6:SmartElectricityMeter.ParameterValueQuestion,22:29:SmartElectricityMeter.Action,34:46:SmartElectricityMeter.ParameterFeature,10:13:SmartElectricityMeter.Duration,15:20:SmartElectricityMeter.Duration	сколько в этом месяце уплачено за электричество	1	1
+SmartElectricityMeter	0:6:SmartElectricityMeter.COMMAND,8:20:SmartElectricityMeter.CommandFeature,24:29:SmartElectricityMeter.LOC	выключи электричество в ванной	1	1
+SmartElectricityMeter	0:6:SmartElectricityMeter.ParameterValueQuestion,30:42:SmartElectricityMeter.CommandFeature	сколько в этом месяце было за электричество	1	1
+WaterTapRelay	0:6:WaterTapRelay.COMMAND,8:14:WaterTapRelay.FeatureState,16:21:WaterTapRelay.CommandFeature,25:29:WaterTapRelay.Actor,31:37:WaterTapRelay.Action	наполни горячую ванную к моему приходу	1	1
+WaterTapRelay	0:6:WaterTapRelay.COMMAND,8:17:WaterTapRelay.CommandFeature,21:27:WaterTapRelay.LOC	выключи водопровод в комнате	1	1
+WaterTapRelay	0:4:WaterTapRelay.COMMAND,6:10:WaterTapRelay.CommandFeature,14:19:WaterTapRelay.CommandFeature	помой ягоды и огурцы	1	1
+WaterTapRelay	0:6:WaterTapRelay.COMMAND,8:17:WaterTapRelay.CommandFeature,21:29:WaterTapRelay.LOC	отключи водопровод в гостинной	1	1
+SmartIron	0:6:SmartIron.DeviceState,11:14:SmartIron.DEVICE	включен ли утюг	1	1
+SmartCar	0:5:SmartCar.COMMAND,7:10:SmartCar.Actor,12:12:SmartCar.LOC,14:21:SmartCar.LOC	довези меня в больницу число	1	1
+SmartCar	0:6:SmartCar.DeviceFeature,8:18:SmartCar.DeviceFeature,20:25:SmartCar.DeviceFeature	прошлый технический осмотр	1	1
+Printer	0:6:Printer.COMMAND,8:15:Printer.CommandFeature	заполни документ	1	1
+Printer	0:9:Printer.COMMAND,11:17:Printer.CommandFeature,19:26:Printer.CommandFeature	распечатай паспорт название через число часа	1	1

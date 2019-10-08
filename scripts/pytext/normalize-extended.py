@@ -24,6 +24,8 @@ def handle_files(input_files):
 		text = fe.extract_text(annotation)
 		simplified_text = re.sub(r'[^\w\s]','',text).lower()
 		splitted_text = simplified_text.split(' ')
+		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label:
+			continue
 		if 'slots-indices' in annotation:
 			slots_char_indices = stringify_indices(make_indices(annotation['slots-indices'][0], splitted_text), ontology_label)
 		elif 'slots-indices-bio' in annotation:
