@@ -30,11 +30,13 @@ with open(config['paths']['datasets']['slots-intents']['info'],'rb') as f:
 print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
 for label in test_dataset.keys():
 	for sample in test_dataset[label]:
-		intent, entities = utils.intent_entities(sample, loaded_model, loaded_info)
+		intent, entities = utils.intent_entities(sample['text'], loaded_model, loaded_info)
+		print(f"True: {sample['slots']}")
+		print(f"Recognized: {intent}")
 		recognized_label = intent[0]
 		if not recognized_label:
 			recognized_label = '-'
-		print(f"{sample:80s}\t{recognized_label:20s}\t{label.lower():20s}\t{recognized_label==label.lower()}")
+		#print(f"{sample:80s}\t{recognized_label:20s}\t{label.lower():20s}\t{recognized_label==label.lower()}")
 		if recognized_label == label.lower():
 			positive_counter += 1
 		counter += 1

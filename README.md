@@ -113,6 +113,7 @@ For slots comparison:
 Average recall is 0.6042
 ```
 ## slots-intents
+**These scripts require python 3.6 and tensorflow 2.0 because of tensorflow-addons' preferences**
 ### Perform data normalization
 ```ssh
 python -m scripts.slots-intents.normalize
