@@ -43,7 +43,7 @@ paths:
     snips-nlu:
       data: dataset/snips-nlu/data.json
       train: dataset/snips-nlu/train.tsv
-      test: dataset/snips-nlu/test.tsv
+      test: dataset/snips-nlu/test.json
     slots-intents:
       data: dataset/slots-intents/data.csv
       train: dataset/slots-intents/train.csv

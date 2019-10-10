@@ -17,6 +17,7 @@ positive_counter = 0
 print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
 for label in test_dataset.keys():
 	for sample in test_dataset[label]:
+		print(engine.parse(sample))
 		recognized_label = engine.parse(sample)['intent']['intentName']
 		if not recognized_label:
 			recognized_label = '-'

@@ -8,14 +8,25 @@
 python -m scripts.snips-nlu.normalize
 ```
 ### Perform splitting data into test and train subsets
+If it is required to compare intents:  
 ```ssh
 python -m scripts.snips-nlu.split
 ```
+For preserving slots therewith:  
+```ssh
+python -m scripts.snips-nlu.split-slots
+```
 ### Perform training and subsequent testing
+If it is required to compare intents (on the stage of splitting appropriate script should be executed):  
 ```ssh
 python -m scripts.snips-nlu.test
 ```
+For calculating recall on recognized slots:  
+```ssh
+python -m scripts.snips-nlu.test-slots
+```
 ### Results
+For intents comparison:  
 ```
 Sample                                                                          	recognized-label    	true-label          	correctly-recognized          
 закрой занавески если слишком холодно                                           	LightSensor         	TemperatureSensor   	False
@@ -96,6 +107,10 @@ Sample                                                                          
 отправь бланк название через число секунд                                       	Printer             	Printer             	True
 Correctly recognized 27 of 76 (35.53 %)
 
+```
+For slots comparison:  
+```ssh
+Average recall is 0.6042
 ```
 ## slots-intents
 ### Perform data normalization
