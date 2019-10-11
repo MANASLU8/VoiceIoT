@@ -122,9 +122,21 @@ python -m scripts.slots-intents.normalize
 ```ssh
 python -m scripts.slots-intents.split
 ```
-### Perform training and subsequent testing
+For preserving slots therewith:  
+```ssh
+python -m scripts.slots-intents.split-slots
+```
+### Perform training
+```ssh
+python -m scripts.slots-intents.train
+```
+### Perform testing
 ```ssh
 python -m scripts.slots-intents.test
+```
+For calculating recall on recognized slots:  
+```ssh
+python -m scripts.snips-nlu.test-slots
 ```
 ## pytext
 ### Perform data normalization

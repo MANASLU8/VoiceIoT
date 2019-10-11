@@ -1,32 +1,60 @@
 {
-  "dataset/annotations/AlinaZakharova1997/command_10096.json": {
-    "utterance_id": 10096,
-    "ontology-label": [
-      "TemperatureSensor",
-      "HeaterController"
+  "dataset/annotations/iot-commands/command_244.json": {
+    "utterance-type": "Request",
+    "text": [
+      "Когда лучше посадить розы"
     ],
-    "text": "Если на улице температура 0 градусов включи обогреватель",
+    "slots-indices": [
+      {
+        "RequestQuestion": [
+          0
+        ],
+        "FeatureState": [
+          1
+        ],
+        "DeviceFeature": [
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "dataset/annotations/iot-commands/command_127.json": {
+    "utterance-type": "Command",
+    "ontology-label": "SmartVacuumCleaner",
+    "text": [
+      "начинай пылесосить"
+    ],
     "slots-indices": [
       {
         "COMMAND": [
-          6
-        ],
-        "DEVICE": [
-          7
+          0,
+          1
         ]
-      },
+      }
+    ]
+  },
+  "dataset/annotations/iot-commands/command_1.json": {
+    "utterance-type": "Command",
+    "ontology-label": "WashingMachine",
+    "text": [
+      "когда стиральная машина закончит стирку сообщи мужу"
+    ],
+    "slots-indices":[
       {
-        "LOC": [
-          2
-        ],
-        "DeviceFeature": [
-          3
-        ],
-        "DeviceParameter": [
+        "COMMAND": [
           5
         ],
-        "DeviceParameterValue": [
+        "DEVICE": [
+          1,
+          2
+        ],
+        "CommandFeature": [
+          3,
           4
+        ],
+        "Actor": [
+          6
         ]
       }
     ],
@@ -35,386 +63,6907 @@
       1,
       2,
       3,
+      4
+    ]
+  },
+  "dataset/annotations/iot-commands/command_207.json": {
+    "utterance-type": "Command",
+    "ontology-label": "LightSensor",
+    "text": [
+      "Включить свет в санузле при наличии внутри кого-либо и выключить если никого нет более число минут"
+    ],
+    "slots-indices":[
+      {
+        "COMMAND": [
+          0,
+          9
+        ],
+        "LOC": [
+          3
+        ],
+        "CommandFeature": [
+          1
+        ],
+        "Actor": [
+          6
+        ],
+        "CommandParameter": [
+          15
+        ],
+        "CommandParameterValue": [
+          14
+        ]
+      }
+    ],
+    "condition-indices": [
       4,
-      5
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+      13,
+      14,
+      15
     ]
   },
-  "dataset/annotations/indirect-requests/command_16.json": {
-    "utterance-type": "IndirectRequest",
-    "text": [
-      "доля углекислого газа"
-    ]
-  },
-  "dataset/annotations/indirect-requests/command_4.json": {
-    "utterance-type": "IndirectRequest",
-    "text": [
-      "затраты на коммунальные услуги"
-    ]
-  },
-  "dataset/annotations/indirect-requests/command_5.json": {
-    "utterance-type": "IndirectRequest",
-    "text": [
-      "планы на неделю"
-    ]
-  },
-  "dataset/annotations/indirect-requests/command_12.json": {
-    "utterance-type": "IndirectRequest",
-    "text": [
-      "способы оплаты"
-    ]
-  },
-  "dataset/annotations/indirect-requests/command_8.json": {
-    "utterance-type": "IndirectRequest",
-    "text": [
-      "лучшее время для посадки роз"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_132.json": {
-    "utterance-type": "Request",
-    "text": [
-      "на сколько заполнен мусорный отсек"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_177.json": {
+  "dataset/annotations/iot-commands/command_234.json": {
     "utterance-type": "Command",
+    "ontology-label": "SmartKettle",
     "text": [
-      "Осмотри поле Если увидишь мусор убери"
+      "По будням буди меня в время часов утра включай чайник"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          2,
+          8
+        ],
+        "CommandFeature": [
+          1
+        ],
+        "Actor": [
+          3
+        ],
+        "CommandParameterValue": [
+          5
+        ],
+        "DEVICE": [
+          9
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "regularlyRepeating": [
+          1
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "time:DateTimeDescription": [
+          4,
+          6
+        ]
+      }
     ]
   },
-  "dataset/annotations/iot-commands/command_310.json": {
-    "utterance-type": "Command",
-    "text": [
-      "если будет больше число градусов включи кондиционер на кухне"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_188.json": {
-    "utterance-type": "Command",
-    "text": [
-      "если меня нет дома убирайте листву каждую неделю"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_103.json": {
-    "utterance-type": "Command",
-    "text": [
-      "покорми рыбок "
-    ]
-  },
-  "dataset/annotations/iot-commands/command_192.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Не убирайте снег и не стригите траву если во дворе кто-то есть"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_95.json": {
-    "utterance-type": "Command",
-    "text": [
-      "если за окном солнце закрой шторы"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_232.json": {
-    "utterance-type": "Request",
-    "text": [
-      "Какие приборы включены"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_256.json": {
-    "utterance-type": "Request",
-    "text": [
-      "Я могу купить билет у водителя"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_304.json": {
-    "utterance-type": "Request",
-    "text": [
-      "когда будет готова еда в пароварке"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_237.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Полей помидоры"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_295.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Убирай за псом каждый раз когда он сходит в туалет"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_239.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Поливай помидоры каждый день и следи за тем чтобы они получали достаточно света"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_111.json": {
-    "utterance-type": "Request",
-    "text": [
-      "проверь исправность всех датчиков и устройств"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_236.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Поливай секцию пять число минут"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_189.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Не стригите траву и не убирайте листья когда выпадет снег"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_148.json": {
+  "dataset/annotations/iot-commands/command_128.json": {
     "utterance-type": "IndirectCommand",
+    "ontology-label": "SmartVacuumCleaner",
     "text": [
-      "подготовить обстановку к обеду"
+      "в углу под столом в комнате осталась пыль"
+    ],
+    "slots-indices": [
+      {
+        "LOC": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "hidden-slot-indices": [
+      {
+        "Device": [
+          7
+        ]
+      }
     ]
   },
-  "dataset/annotations/iot-commands/command_47.json": {
-    "utterance-type": "Request",
-    "text": [
-      "сколько денег в этом месяце я потратил на коммунальные услуги"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_193.json": {
+  "dataset/annotations/iot-commands/command_106.json": {
     "utterance-type": "Command",
+    "ontology-label": "SmartFeeder",
     "text": [
-      "Расчистить дорожку перед домом"
-    ]
+      "не корми кота так часто"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0,
+          1
+        ],
+        "CommandFeature": [
+          2
+        ],
+        "IntensityQuantifier": [
+          4
+        ]
+      }
+    ],
   },
-  "dataset/annotations/iot-commands/command_123.json": {
-    "utterance-type": "IndirectCommand",
-    "text": [
-      "я в отпуск"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_241.json": {
+  "dataset/annotations/iot-commands/command_90.json": {
     "utterance-type": "Command",
+    "ontology-label": "HeaterController",
     "text": [
-      "Теплица первые две недели следи за тем чтобы помидоры получали много УФ света и немного ИК света"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_244.json": {
-    "utterance-type": "Request",
-    "text": [
-      "Когда лучше посадить розы"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_13.json": {
-    "utterance-type": "Command",
-    "text": [
-      "когда кот запрыгнет на шкаф на кухне спугни его включив телевизор"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_11.json": {
-    "utterance-type": "Command",
-    "text": [
-      "не позволяй коту запрыгивать на рабочий стол"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_200.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Активировать романтическую атмосферу "
-    ]
-  },
-  "dataset/annotations/iot-commands/command_199.json": {
-    "utterance-type": "IndirectCommand",
-    "text": [
-      "Добавь романтики"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_185.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Если меня нет дома не расчищай снег"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_247.json": {
-    "utterance-type": "IndirectCommand",
-    "text": [
-      "Установи необходимые условия для роз"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_58.json": {
-    "utterance-type": "Command",
-    "text": [
-      "контролируй климат в комнате"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_255.json": {
-    "utterance-type": "Request",
-    "text": [
-      "Как можно оплатить проезд"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_62.json": {
-    "utterance-type": "Command",
-    "text": [
-      "подготовь комнату к танцам"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_318.json": {
-    "utterance-type": "Command",
-    "text": [
-      "установи на число кондиционер"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_286.json": {
-    "utterance-type": "IndirectCommand",
-    "text": [
-      "Подготовь комнату к танцам"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_243.json": {
-    "utterance-type": "Request",
-    "text": [
-      "Доложи о состоянии урожая"
+      "сделай потеплее обогреватель"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "IntensityQuantifier": [
+          1
+        ],
+        "DEVICE": [
+          2
+        ]
+      }
     ]
   },
   "dataset/annotations/iot-commands/command_248.json": {
     "utterance-type": "Request",
     "text": [
       "Напомни когда в последний раз поливались цветы"
-    ]
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "RequestQuestion": [
+          1
+        ],
+        "FeatureState": [
+          5
+        ]
+      }
+    ],
+    "hidden-slot-indices": {
+      "DEVICE": [
+        6
+      ]
+    }
   },
-  "dataset/annotations/iot-commands/command_149.json": {
-    "utterance-type": "IndirectCommand",
+  "dataset/annotations/iot-commands/command_28.json": {
+    "utterance-type": "Command",
+    "ontology-label": "AudioSystem",
     "text": [
-      "подготовить обстановку к просмотру фильма"
+      "воспроизведи её"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "CommandFeature": [
+          1
+        ]
+      }
     ]
   },
-  "dataset/annotations/iot-commands/command_86.json": {
+  "dataset/annotations/iot-commands/command_295.json": {
     "utterance-type": "Command",
     "text": [
-      "подогрей полотенца к тому моменту как я закончу принимать душ "
+      "Убирай за псом каждый раз когда он сходит в туалет"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "CommandFeature": [
+          2
+        ]
+      }
+    ],
+    "condition-indices": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "schedule": [
+      {
+        "regularlyRepeating": [
+          3,
+          4
+        ]
+      }
     ]
   },
-  "dataset/annotations/iot-commands/command_240.json": {
+  "dataset/annotations/iot-commands/command_285.json": {
+    "utterance-type": "Command",
+    "ontology-label": "LightSensor",
+    "text": [
+      "Включи свет в время утра"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "CommandFeature": [
+          1
+        ],
+        "DeviceParameterValue": [
+          3
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "time:DateTimeDescription": [
+          4
+        ]
+      }
+    ]
+  },
+  "dataset/annotations/iot-commands/command_89.json": {
+    "utterance-type": "Command",
+    "ontology-label": "LightSensor",
+    "text": [
+      "подсвети путь на кухню "
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "CommandFeature": [
+          1
+        ],
+        "LOC": [
+          3
+        ]
+      }
+    ]
+  },
+  "dataset/annotations/iot-commands/command_232.json": {
+    "utterance-type": "Request",
+    "text": [
+      "Какие приборы включены"
+    ],
+    "slots-indices": [
+      {
+        "DeviceQuestion": [
+          0
+        ],
+        "DeviceFeature": [
+          1
+        ],
+        "FeatureState": [
+          2
+        ]
+      }
+    ]
+  },
+  "dataset/annotations/iot-commands/command_237.json": {
     "utterance-type": "Command",
     "text": [
-      "Следи чтобы растения получали достаточно влажности и света"
+      "Полей помидоры"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ]
+      }
+    ],
+    "hidden-slot-indices": {
+      "DEVICE": [
+        1
+      ]
+    }
+  },
+  "dataset/annotations/iot-commands/command_35.json": {
+    "utterance-type": "Command",
+    "ontology-label": "AudioSystem",
+    "text": [
+      "включай ежедневную подборку музыки к моему приходу"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "СommandFeature": [
+          1,
+          2,
+          3
+        ],
+        "Actor": [
+          5
+        ],
+        "Aсtion": [
+          6
+        ]
+      }
     ]
   },
-  "dataset/annotations/iot-commands/command_307.json": {
-    "utterance-type": "IndirectCommand",
+  "dataset/annotations/iot-commands/command_85.json": {
+    "utterance-type": "Request",
+    "ontology-label": "MotionSensor",
     "text": [
-      "по четвергам делай позитивную обстановку"
+      "входил ли кто-то в мою комнату сегодня"
+    ],
+    "slots-indices": [
+      {
+        "Action": [
+          0
+        ],
+        "Actor": [
+          2,
+          4
+        ],
+        "LOC": [
+          5
+        ],
+        "Duration": [
+          6
+        ]
+      }
+    ]
+  },
+  "dataset/annotations/iot-commands/command_198.json": {
+    "utterance-type": "Command",
+    "ontology-label": "Printer",
+    "text": [
+      "К время утра напечатай мне свежий выпуск новостей"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          3
+        ],
+        "CommandFeature": [
+          5,
+          6,
+          7
+        ],
+        "Actor": [
+          4
+        ]
+      }
     ]
   },
   "dataset/annotations/iot-commands/command_229.json": {
     "utterance-type": "Request",
     "text": [
       "На сколько хватит энергии в аккумуляторах"
+    ],
+    "slots-indices": [
+      {
+        "DeviceQuestion": [
+          1
+        ],
+        "FeatureState": [
+          2
+        ],
+        "DeviceFeature": [
+          3,
+          4,
+          5
+        ]
+      }
     ]
   },
-  "dataset/annotations/iot-commands/command_191.json": {
+  "dataset/annotations/iot-commands/command_166.json": {
     "utterance-type": "Command",
+    "ontology-label": "HeatingFloor",
     "text": [
-      "Не убирайте листву и не стригите газон в дождь или снег"
+      "выключи подогрев дорожек"
+    ],
+    "slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "DeviceFeature": [
+          7,
+          8
+        ]
+      }
     ]
   },
-  "dataset/annotations/iot-commands/command_245.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Полей все ягоды и немного огурцы"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_184.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Расчищай снег в число утра и с время до время вечера"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_226.json": {
-    "utterance-type": "IndirectCommand",
-    "text": [
-      "Спокойной ночи"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_231.json": {
+  "dataset/annotations/iot-commands/command_233.json": {
     "utterance-type": "Request",
+    "ontology-label": "MotionSensor",
     "text": [
-      "Сильный ли ветер"
+      "Кто пришел"
+    ],
+    "slots-indices": [
+      {
+        "ParameterValueQuestion": [
+          0
+        ],
+        "Action": [
+          1
+        ]
+      }
     ]
   },
-  "dataset/annotations/iot-commands/command_187.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Стригите траву каждый месяц убирайте листву каждые три дня "
-    ]
-  },
-  "dataset/annotations/iot-commands/command_12.json": {
-    "utterance-type": "Command",
-    "text": [
-      "когда собака залезет на кухонный стол издай неприятный звук"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_186.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Расчистите газон и листву к время вечера"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_238.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Поливай помидоры каждый день"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_294.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Разожги камин "
-    ]
-  },
-  "dataset/annotations/iot-commands/command_316.json": {
-    "utterance-type": "Command",
-    "text": [
-      "отключай кондиционер когда я ухожу из дома"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_114.json": {
+  "dataset/annotations/iot-commands/command_154.json": {
     "utterance-type": "Request",
+    "ontology-label": "HeaterController",
     "text": [
-      "сколько в этом месяце вышло за электричество"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_190.json": {
-    "utterance-type": "IndirectCommand",
-    "text": [
-      "Не убирайте листву при сильном ветре"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_112.json": {
-    "utterance-type": "Request",
-    "text": [
-      "автоматически проверяй исправность умного дома"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_183.json": {
-    "utterance-type": "Command",
-    "text": [
-      "Если выпадет много снега расчисти дорожку перед домом"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_182.json": {
-    "utterance-type": "Command",
-    "text": [
-      ""
-    ]
-  },
-  "dataset/annotations/iot-commands/command_125.json": {
-    "utterance-type": "Command",
-    "text": [
-      "если будет утечка газа перекрой его подачу и отправить мне уведомление"
-    ]
-  },
-  "dataset/annotations/iot-commands/command_150.json": {
-    "utterance-type": "IndirectCommand",
-    "text": [
-      "подготовить обстановку к работе"
+      "почему здесь так холодно"
+    ],
+    "slots-indices": [
+      {
+        "RequestQuestion": [
+          0
+        ],
+        "LOC": [
+          1
+        ]
+      }
+    ],
+    "hidden-slot-indices": [
+      {
+        "CommandFeature": [
+          3
+        ]
+      }
     ]
   }
+},
+"dataset/annotations/iot-commands/command_58.json": {
+  "utterance-type": "Command",
+  "text": [
+    "контролируй климат в комнате"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_209.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartIron",
+  "text": [
+    "Если утюг всё еще включен отключить его"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "DEVICE": [
+        1
+      ],
+      "DeviceState": [
+        4
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "7": [
+        1
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+},
+"dataset/annotations/iot-commands/command_8.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "подними жалюзи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_14.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "воспроизведи альбом Abbey Road The Beatles"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_312.json": {
+  "utterance-type": "Request",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "сколько воды потрачено"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        2
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_147.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "ставлю суп в холодильник"
+  ],
+  "slots-indices": [
+    {
+      "Action": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "DEVICE": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_282.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "Выключай свет когда я выхожу из комнаты"
+  ],
+  "slots-indices":[
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+},
+"dataset/annotations/iot-commands/command_142.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "что из еды осталось"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "FeatureState": [
+        3
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_213.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Когда я буду уходить на работу открыть гараж выгнать из него автомобиль и оставить двигатель работающим"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        6,
+        8,
+        13
+      ],
+      "CommandFeature": [
+        7,
+        11,
+        14
+      ],
+      "FeatureState": [
+        15
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2,
+        3
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+},
+"dataset/annotations/iot-commands/command_264.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartBreadMaker",
+  "text": [
+    "Приготовь хлеб"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_48.json": {
+  "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
+  "text": [
+    "вари кофе каждый день когда я просыпаюсь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    4,
+    5,
+    6
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_108.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "сколько раз кот сегодня ел"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        4
+      ],
+      "Duration": [
+        3
+      ],
+      "Analytics": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_263.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartBreadMaker",
+  "text": [
+    "Сделай тост"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_197.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartOven",
+  "text": [
+    "Когда что-то подгорит на плите выключить ее и установить вытяжку на максимальный режим"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "DEVICE": [
+        4
+      ]
+    },
+    {
+      "COMMAND": [
+        8
+      ],
+      "DEVICE": [
+        9
+      ],
+      "CommandParameter": [
+        12
+      ],
+      "CommandParameterValue": [
+        11
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "6": 4
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+},
+"dataset/annotations/iot-commands/command_82.json": {
+  "utterance-type": "Request",
+  "ontology-label": "DoorRelay",
+  "text": [
+    "когда дверь последний раз открывалась"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Action": [
+        4
+      ],
+      "Analytics": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_298.json": {
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "Хочу купить билеты на Лебединое озеро в Мариинке Проверь их наличие"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        8
+      ],
+      "FeatureState": [
+        10
+      ],
+      "CommandFeature": [
+        2,
+        4,
+        5
+      ],
+      "LOC": [
+        7
+      ],
+      "Action": [
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_292.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "Не разрешай детям брать спиртное"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "CommandFeature": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_120.json": {
+  "utterance-type": "Request",
+  "ontology-label": "LightSensor",
+  "text": [
+    "сколько лампочек перегорело"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_19.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "увеличь громкость чтобы не мешал шум "
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_139.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "нужно ли покупать продукты"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_21.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "включи динамики на кухне и выключи в гостинной"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        3
+      ],
+      "DEVICE": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        5
+      ],
+      "LOC": [
+        7
+      ],
+      "DEVICE": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_259.json": {
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "Сколько по времени ехать до ст метро Горьковская"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "LOC": [
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_11.json": {
+  "utterance-type": "Command",
+  "text": [
+    "не позволяй коту запрыгивать на рабочий стол"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "CommandFeature": [
+        5,
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_193.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Расчистить дорожку перед домом"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_228.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "На сколько времени хватит топлива"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "FeatureState": [
+        3
+      ],
+      "DeviceFeature": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_235.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartMicrowave",
+  "text": [
+    "Погрей еду"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_52.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "подбирай песни под ритм бега"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceParameter": [
+        1
+      ],
+      "DeviceFeature": [
+        3,
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_114.json": {
+  "utterance-type": "Request",
+  "text": [
+    "сколько в этом месяце вышло за электричество"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        4
+      ],
+      "ParameterFeature": [
+        6
+      ],
+      "Duration": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_6.json": {
+  "utterance-type": "Command",
+  "ontology-label": "CurtainsRelay",
+  "text": [
+    "убери шторы"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_165.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeatingFloor",
+  "text": [
+    "включи подогрев дорожек"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_50.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "отключи музыку когда я засну"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
+  ]
+},
+"dataset/annotations/iot-commands/command_125.json": {
+  "utterance-type": "Command",
+  "text": [
+    "если будет утечка газа перекрой его подачу и отправить мне уведомление"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        2,
+        3
+      ],
+      "Action": [
+        0
+      ],
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5,
+        6
+      ]
+    },
+    {
+      "COMMAND": [
+        8
+      ],
+      "Actor": [
+        9
+      ],
+      "CommandFeature": [
+        10
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "5": 3
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
+},
+"dataset/annotations/iot-commands/command_174.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "снимай местность пока хватает заряда батареи потом вернись"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureState": [
+        3
+      ],
+      "DeviceFeature": [
+        4,
+        5
+      ]
+    },
+    {
+      "COMMAND": 7
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
+  ]
+},
+"dataset/annotations/iot-commands/command_283.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "Не включай свет если в комнату зашло домашнее животное"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Actor": [
+        7,
+        8
+      ],
+      "Action": [
+        6
+      ],
+      "LOC": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ]
+},
+"dataset/annotations/iot-commands/command_304.json": {
+  "utterance-type": "Request",
+  "text": [
+    "когда будет готова еда в пароварке"
+  ],
+  "slots-indices": [
+    {
+      "CommandQuestion": [
+        0
+      ],
+      "FeatureState": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_288.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "включи светомузыку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_110.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "ты сегодня кормила кота"
+  ],
+  "slots-indices": [
+    {
+      "Action": [
+        2
+      ],
+      "Actor": [
+        0
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "Duration": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_71.json": {
+  "utterance-type": "Request",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "покажи карту температур в доме"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ],
+      "LOC": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_205.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "Выключить освещение в комнатах в вечернее время после время если в них никого нет больше число минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "CommandParameterValue": [
+        8
+      ],
+      "CommandParameterValue": [
+        15
+      ],
+      "Actor": [
+        12
+      ],
+      "Action": [
+        13
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "11": 3
+    }
+  ],
+  "condition-indices": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        15,
+        16
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_196.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "Помой окна после дождя"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_41.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "сделай напор сильнее"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Quantifier": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_241.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Теплица первые две недели следи за тем чтобы помидоры получали много УФ света и немного ИК света"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        0
+      ],
+      "COMMAND": [
+        4
+      ],
+      "Actor": [
+        8
+      ],
+      "Action": [
+        9
+      ],
+      "Actable": [
+        11, 12, 15, 16
+      ],
+      "Quantifier": [
+        10, 14
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_151.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "полностью выключи электричество"
+  ],
+  "slots-indices": [
+    {
+      "Quantifier": [
+        0
+      ],
+      "COMMAND": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_32.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "сделай чуть громче"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_76.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AlarmClock",
+  "text": [
+    "если я усну разбуди меня"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ],
+  "coreference": [
+    {
+      "4": 1
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_135.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "сколько мяса осталось"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Analytics": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_310.json": {
+  "utterance-type": "Command",
+  "text": [
+    "если будет больше число градусов включи кондиционер на кухне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "DEVICE": [
+        6
+      ]
+    },
+    {
+      "LOC": [
+        8
+      ],
+      "DeviceParameter": [
+        4
+      ],
+      "DeviceParameterValue": [
+        3
+      ],
+      "Quantor": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+},
+"dataset/annotations/iot-commands/command_314.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Printer",
+  "text": [
+    "распечатай документ название через число минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_239.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Поливай помидоры каждый день и следи за тем чтобы они получали достаточно света"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        5
+      ],
+      "Actor": [
+        10
+      ],
+      "Actable": [
+        12
+      ],
+      "Quantor": [
+        11
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_148.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "подготовить обстановку к обеду"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_94.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "открой шторы если слишком темно"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        4
+      ],
+      "IntensityQuantifier": [
+        3
+      ],
+      "LOC": [
+        1,
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
+  ]
+},
+"dataset/annotations/iot-commands/command_279.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "LightSensor",
+  "text": [
+    "слишком светло"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        1
+      ],
+      "IntensityQuantifier": [
+        0
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_158.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "HeaterController",
+  "text": [
+    "здесь слишком жарко"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        2
+      ],
+      "IntensityQuantifier": [
+        1
+      ],
+      "LOCCurrent": [
+        0
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_236.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Поливай секцию пять число минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_215.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Кто брал мою машину сегодня"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2,
+        3
+      ],
+      "Action": [
+        1
+      ],
+      "Duration": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_15.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "пропусти песню"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_183.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Если выпадет много снега расчисти дорожку перед домом"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "LOC": [
+        6,
+        7
+      ]
+    },
+    {
+      "Quantor": [
+        2
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        1
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
+},
+"dataset/annotations/iot-commands/command_97.json": {
+  "utterance-type": "Command",
+  "ontology-label": [
+    "HeaterController",
+    "WindowRelay"
+  ],
+  "text": [
+    "за час до будильника закрой окно и включи обогреватель"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    },
+    {
+      "COMMAND": [
+        7
+      ],
+      "DEVICE": [
+        8
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_273.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "освети комнату"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_261.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartBreadMaker",
+  "text": [
+    "Приготовь хлеб к моему приходу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_201.json": {
+  "utterance-type": "Command",
+  "ontology-label": "DoorRelay",
+  "text": [
+    "Активировать блокировку входной двери если в нее звонит незнакомец а также выслать уведомление с фотографией на мой телефон"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "Actor": [
+        8
+      ],
+      "Action": [
+        7
+      ]
+    },
+    {
+      "COMMAND": [
+        11
+      ],
+      "CommandFeature": [
+        12,
+        14
+      ],
+      "DEVICE": [
+        16,
+        17
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "6": 3
+    }
+  ],
+  "condition-indices": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ]
+},
+"dataset/annotations/iot-commands/command_290.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "ослабь свет и запусти плейлист с успокаивающей музыкой"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4, 7
+      ],
+      "CommandParameterValue": [
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_246.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "Проветри сейчас"
+  ],
+  "slots-indices": [
+    {
+      "Command": [
+        0
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_252.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "Phone",
+  "text": [
+    "Мне нужно добраться до число поликлиники"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "COMMAND": [
+        1,
+        2
+      ],
+      "CommandParameterValue": [
+        4
+      ],
+      "LOC": [
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_291.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "делай больше льда"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Quantor": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_42.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "напор слишком слабый"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        0
+      ],
+      "Quantifier": [
+        2
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_45.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "полностью перекрой воду"
+  ],
+  "slots-indices": [
+    {
+      "Quantifier": [
+        0
+      ],
+      "COMMAND": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_163.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "когда стемнеет включи подсветку фонтана"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1
+  ]
+},
+"dataset/annotations/iot-commands/command_211.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Найти место и припарковаться"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        3
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_302.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "CoffeeMachine",
+  "text": [
+    "каждый день проверяй кофемашину в доме"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "LOC": [
+        5
+      ],
+      "DEVICE": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        0,
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_256.json": {
+  "utterance-type": "Request",
+  "text": [
+    "Я могу купить билет у водителя"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1,
+        2
+      ],
+      "Actable": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_200.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Активировать романтическую атмосферу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_162.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "зажги фонарики а свет под навесом выключи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        6
+      ],
+      "CommandFeature": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_238.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Поливай помидоры каждый день"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        2,
+        3
+      ]
+    }
+  ]
+}
+},
+"dataset/annotations/iot-commands/command_240.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Следи чтобы растения получали достаточно влажности и света"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "Actable": [
+        5,
+        7
+      ],
+      "Quantor": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_313.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "кажду неделю в время снимай показания с счетчиков в квартире"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5,
+        7
+      ],
+      "LOC": [
+        9
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        0,
+        1
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_253.json": {
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "А на чем я могу доехать до поликлиники число"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        1,
+        2
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4,
+        5
+      ],
+      "CommandParameterValue": [
+        8
+      ],
+      "LOC": [
+        7
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_216.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Кто-нибудь брал мою машину сегодня"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "Action": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_176.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "если закончится заряд лети на зарядную станцию после подзарядки продолжай"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        5,
+        6
+      ]
+    },
+    {
+      "FeatureState": [
+        1
+      ],
+      "DeviceFeature": [
+        2
+      ]
+    }
+    {
+      "COMMAND": [
+        9
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_73.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Humidifier",
+  "text": [
+    "поддерживай влажность воздуха не меньше число процентов"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ],
+      "IntensityQuantifier": [
+        3,
+        4
+      ],
+      "DeviceParameterValue": [
+        5
+      ],
+      "DeviceParameter": [
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_306.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "в время включи обогреватель на кухне на число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "DEVICE": [
+        3
+      ],
+      "LOC": [
+        5
+      ],
+      "DeviceParameterValue": [
+        7
+      ],
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_168.json": {
+  "utterance-type": "Command",
+  "ontology-label": "DoorRelay",
+  "text": [
+    "когда открывается входная дверь грей пол"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "DeviceFeature": [
+        5
+      ]
+    },
+    {
+      "Actor": [
+        2,
+        3
+      ],
+      "Action": [
+        1
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
+},
+"dataset/annotations/iot-commands/command_255.json": {
+  "utterance-type": "Request",
+  "text": [
+    "Как можно оплатить проезд"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Action": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_126.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "сколько нужно будет заплатить за электричество если киловат стоит как в прошлом месяце"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        1,
+        2,
+        3
+      ],
+      "ParameterFeature": [
+        5
+      ],
+    },
+    {
+      "Actor": [
+        7
+      ],
+      "Action": [
+        8
+      ],
+      "Comparator": [
+        9
+      ],
+      "Duration": [
+        11,
+        12
+      ]
+    }
+  ],
+  "condition-indices": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ]
+},
+"dataset/annotations/iot-commands/command_204.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Phone",
+  "text": [
+    "Если будет дождь то напомнить взять зонт перед выходом"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4,
+        5
+      ],
+      "CommandFeature": [
+        6
+      ],
+      "Action": [
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ]
+},
+"dataset/annotations/iot-commands/command_242.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "Проветривай каждые число часа"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    },
+    {
+      "CommandParameterValue": [
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_51.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "если я засну включи что-нибудь погромче"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        5
+      ]
+    },
+    {
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ]
+},
+"dataset/annotations/iot-commands/command_187.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Стригите траву каждый месяц убирайте листву каждые три дня"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        6,
+        7,
+        8
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_222.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Предупреди если автомобиль сзади меня будет очень близко"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    },
+    {
+      "CommandFeature": [
+        2
+      ],
+      "LOC": [
+        3
+      ],
+      "IntensityQuantifier": [
+        6
+      ],
+      "FeatureState": [
+        7
+      ]
+    }
+  ],
+  "condition-indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+},
+"dataset/annotations/iot-commands/command_59.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "проветривай во время моего сна"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_224.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "На сколько времени хватит топлива"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        1,
+        2
+      ],
+      "FeatureState": [
+        3
+      ],
+      "DeviceFeature": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_281.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "Включай свет когда я захожу в комнату"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+},
+"dataset/annotations/iot-commands/command_44.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "набери ванну"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_287.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "погаси основной свет"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_276.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "выключи лампочки"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_95.json": {
+  "utterance-type": "Command",
+  "text": [
+    "если за окном солнце закрой шторы"
+  ],
+  "slots-indices": [
+    {},
+    {
+      "COMMAND": [
+        4
+      ],
+      "DeviceFeature": [
+        5
+      ],
+      "CommandState": [
+        3
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
+}
+},
+"dataset/annotations/iot-commands/command_223.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Какой средний расход бензина в зависимости от заправки был за последние полгода"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "DeviceFeature": [
+        3
+      ],
+      "Analytics": [
+        1,
+        5,
+        7
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        10,
+        11
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_270.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "LightSensor",
+  "text": [
+    "слишком темно"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        1
+      ],
+      "IntensityQuantifier": [
+        0
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_221.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "сколько километров проедет машина"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "DEVICE": [
+        3
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_27.json": {
+  "utterance-type": "Request",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "какого исполнителя я слушал чаще всего на этой неделе"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "IntensityQuantifier": [
+        4,
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        6,
+        7,
+        8
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_251.json": {
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "Когда придет автобус номер число"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        1
+      ],
+      "CommandParameterValue": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_161.json": {
+  "utterance-type": "Command",
+  "ontology-label": "MotionSensor",
+  "text": [
+    "отправить уведомление если было зафиксировано движение в период с время до время в будни"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        3,
+        4
+      ],
+      "CommandParameterValue": [
+        9
+      ],
+      "CommandParameterValue": [
+        11
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_121.json": {
+  "utterance-type": "Request",
+  "ontology-label": "LightSensor",
+  "text": [
+    "сколько лампочек нужно заменить"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureState": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_293.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "Если было взято спиртное посчитай на сколько уменьшился вес каждой бутылки"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        6
+      ],
+      "COMMAND": [
+        4
+      ],
+      "FeatureState": [
+        7,
+        8
+      ],
+      "Quantor": [
+        9
+      ],
+      "CommandFeature": [
+        10
+      ]
+    },
+    {
+      "Actor": [
+        3
+      ],
+      "Action": [
+        1,
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
+},
+"dataset/annotations/iot-commands/command_23.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "найди клип к этой песне на YouTube и воспроизведи его на телефоне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "COMMAND": [
+        8
+      ],
+      "DEVICE":[
+        10
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "9": 1
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_54.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AlarmClock",
+  "text": [
+    "поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        3
+      ],
+      "DeviceParameterValue": [
+        5
+      ],
+      "CommandFeature": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        17,
+        18,
+        19
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_92.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "Actor": [
+        3,
+        4
+      ],
+      "Action": [
+        5
+      ],
+      "CommandFeature": [
+        7,
+        8,
+        10,
+        11
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ]
+},
+"dataset/annotations/iot-commands/command_203.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "Перекрой подачу воды и включи слив если бассейн наполнится выше заданного уровня"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    },
+    {
+      "Actor": [
+        7
+      ],
+      "Action": [
+        8
+      ],
+      "CommandFeature": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ]
+},
+"dataset/annotations/iot-commands/command_178.json": {
+  "utterance-type": "Command",
+  "ontology-label": "MotionSensor",
+  "text": [
+    "Осмотри поле Если увидишь что-то необычное сообщи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
+  ]
+},
+"dataset/annotations/iot-commands/command_26.json": {
+  "utterance-type": "Request",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "какой альбом я слушал чаще всего в этом месяце"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "Analytics": [
+        4,
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        7,
+        8
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_159.json": {
+  "utterance-type": "Request",
+  "ontology-label": "MotionSensor",
+  "text": [
+    "на втором этаже кто-нибудь есть"
+  ],
+  "slots-indices": [
+    {
+      "Action": [
+        4
+      ],
+      "Actor": [
+        3
+      ],
+      "LOC": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_153.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "выключи электричество в ванной"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_99.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AlarmClock",
+  "text": [
+    "если завтра выходной разбуди меня через число часов после выключения света в комнате"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "DeviceParameterValue": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_18.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "увеличь громкость на два пункта"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureStateValue": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_31.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "сделай чуть тише"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_47.json": {
+  "utterance-type": "Request",
+  "text": [
+    "сколько денег в этом месяце я потратил на коммунальные услуги"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Actor": [
+        5
+      ],
+      "Action": [
+        6
+      ],
+      "ParameterFeature": [
+        8,
+        9
+      ],
+      "Duration": [
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_267.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "включи лампочки"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_274.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "выключи свет"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_191.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Не убирайте листву и не стригите газон в дождь или снег"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    },
+    {
+      "COMMAND": [
+        4,
+        5
+      ],
+      "CommandFeature": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    7,
+    8,
+    9,
+    10
+  ]
+},
+"dataset/annotations/iot-commands/command_77.json": {
+  "utterance-type": "Request",
+  "ontology-label": "TVSet",
+  "text": [
+    "где пульт от телевизора"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ],
+      "DEVICE": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_141.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "включи в морозилке быструю заморозку на число минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ],
+      "DeviceParameterValue": [
+        6
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_129.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartVacuumCleaner",
+  "text": [
+    "пропылесось зал"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_115.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "сколько в этом году я заплатил за свет"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Actor": [
+        4
+      ],
+      "Action": [
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_69.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "проветрить здесь пока я буду на кухне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+},
+"dataset/annotations/iot-commands/command_301.json": {
+  "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
+  "text": [
+    "если кофе в кофемашине останется число то отправь уведомление на телефон"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        7
+      ],
+      "CommandFeature": [
+        8
+      ],
+      "DEVICE": [
+        10
+      ]
+    },
+    {
+      "FeatureState": [
+        4
+      ],
+      "DEVICE": [
+        3
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "CommandParameterValue": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+},
+"dataset/annotations/iot-commands/command_167.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeatingFloor",
+  "text": [
+    "включи подогрев пола"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_146.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "сколько дней стоит суп в холодильнике"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "ParameterValue": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_157.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "HeaterController",
+  "text": [
+    "здесь слишком холодно"
+  ],
+  "slots-indices": [
+    {
+      "LOC": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_43.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "я хочу принять ванну"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "Device": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_86.json": {
+  "utterance-type": "Command",
+  "text": [
+    "подогрей полотенца к тому моменту как я закончу принимать душ "
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_12.json": {
+  "utterance-type": "Command",
+  "text": [
+    "когда собака залезет на кухонный стол издай неприятный звук"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        6
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        4,
+        5,
+        7,
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+},
+"dataset/annotations/iot-commands/command_226.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "Спокойной ночи"
+  ],
+  "slots-indices": []
+},
+"dataset/annotations/iot-commands/command_265.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartKettle",
+  "text": [
+    "Eсли вода в чайнике остыла разогрей"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        1
+      ],
+      "DEVICE": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    },
+    {
+      "COMMAND": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+},
+"dataset/annotations/iot-commands/command_102.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "покорми кота на число грамм корма"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "CommandParameterValue": [
+        3
+      ],
+      "CommandParameter": [
+        4,
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_315.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartMicrowave",
+  "text": [
+    "разогрей мне еду в микроволновке к время"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Actor": [
+        1
+      ],
+      "DEVICE": [
+        4
+      ],
+      "DeviceParameterValue": [
+        6
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        5,
+        6
+      ]
+    }
+  ],
+},
+"dataset/annotations/iot-commands/command_22.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "выведи текст песни на экран телефона"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_83.json": {
+  "utterance-type": "Request",
+  "ontology-label": "DoorRelay",
+  "text": [
+    "какие из дверей в доме сейчас открыты"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "DeviceFeature": [
+        2
+      ],
+      "LOC": [
+        4
+      ],
+      "FeatureState": [
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_79.json": {
+  "utterance-type": "Request",
+  "ontology-label": "DoorRelay",
+  "text": [
+    "проверь закрыты ли входная дверь и ворота гаража"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "CommandFeature": [
+        3,
+        4,
+        6,
+        7
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_140.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "есть ли дома сливочное масло"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0,
+        1
+      ],
+      "LOC": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        3,
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_5.json": {
+  "utterance-type": "Command",
+  "ontology-label": "CurtainsRelay",
+  "text": [
+    "занавесь окно"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_130.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartVacuumCleaner",
+  "text": [
+    "начать уборку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_81.json": {
+  "utterance-type": "Request",
+  "ontology-label": "DoorRelay",
+  "text": [
+    "проверь заперта ли дверь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_214.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "Сообщи если температура в гараже опустится ниже нуля"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "FeatureState": [
+        6,
+        7
+      ]
+    }
+  ],
+  "condition-indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+},
+"dataset/annotations/iot-commands/command_0.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WashingMachine",
+  "text": [
+    "включай стиральную машину в время каждое четное число месяца"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1,
+        2
+      ],
+      "CommandParameterValue": [
+        4
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_67.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "закрыть окно если начался дождь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "Device": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
+  ]
+},
+"dataset/annotations/iot-commands/command_84.json": {
+  "utterance-type": "Command",
+  "ontology-label": "DoorRelay",
+  "text": [
+    "заблокируй двери на вход"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2,
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_117.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "какие устройства потребляют наибольшее количество энергии в течение дня"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4,
+        5
+      ],
+      "Analytics": [
+        1,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        7,
+        8
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_144.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "сделай льда"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_303.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "SmartOven",
+  "text": [
+    "приготовь мне еды к время"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Actor": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_308.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartKettle",
+  "text": [
+    "в какой день недели я больше пью воды из чайника"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        1
+      ],
+      "CommandFeature": [
+        2,
+        3,
+        4
+      ],
+      "Actor": [
+        4
+      ],
+      "Quantor": [
+        5
+      ],
+      "Action": [
+        6
+      ],
+      "DEVICE": [
+        9
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_10.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "сделай музыку тише если зазвонит телефон или позвонят в дверь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Quantor": [
+        2
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        4
+      ]
+    },
+    {
+      "Action": [
+        7
+      ],
+      "CommandFeature": [
+        9
+      ]
+    }
+  ],
+  "condition-indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+},
+"dataset/annotations/iot-commands/command_136.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "у нас есть какие-нибудь фрукты"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        2,
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_104.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "покорми собаку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_134.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "в холодильнике осталось мясо"
+  ],
+  "slots-indices": [
+    {
+      "DEVICE": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_150.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "подготовить обстановку к работе"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_66.json": {
+  "utterance-type": "Request",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "сколько сейчас градусов на улице"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "ParameterValueQuestion": [
+        2
+      ],
+      "LOC": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_100.json": {
+  "utterance-type": "Request",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "проверяй нет ли протечки каждые число минуты пока включена посудомоечная машина"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "DEVICE": [
+        9,
+        10
+      ],
+      "CommandParameterValue": [
+        5
+      ]
+    },
+    {
+      "DeviceState": [
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_20.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "пусть музыка следует за мной"
+  ],
+  "slots-indices": [
+    {
+      "Command": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_305.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "SmartOven",
+  "text": [
+    "если я завтра приду домой до время сделай мне еды"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        7
+      ],
+      "CommandFeature": [
+        9
+      ]
+    },
+    {
+      "Actor": [
+        1
+      ],
+      "Action": [
+        3
+      ],
+      "LOC": [
+        4
+      ],
+      "CommandParameterValue": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        5,
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_137.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "в холодильнике много испорченного"
+  ],
+  "slots-indices": [
+    {
+      "DEVICE": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ],
+      "CommandFeature": [
+        3
+      ],
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_180.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "Осматривай поле и показывай видео на сервер Дальнейшие команды получай от него"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        6
+      ]
+    },
+    {
+      "COMMAND": [
+        9
+      ],
+      "CommandFeature": [
+        7,
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "coreference": [
+    {
+      "11": 6
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_260.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartOven",
+  "text": [
+    "Включи готовку в время вечера"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "CommandParameterValue": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_294.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Разожги камин"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_145.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "требует ли данный холодильник разморозки если требует то как часто холодильник нужно размораживать"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "DEVICE": [
+        2,
+        3
+      ],
+      "CommandFeature": [
+        4
+      ]
+    },
+    {
+      "ParameterValueQuestion": [
+        8,
+        9
+      ],
+      "DEVICE": [
+        10
+      ],
+      "Action": [
+        12
+      ]
+    }
+  ],
+  "condition-indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ]
+},
+"dataset/annotations/iot-commands/command_61.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "проветривай помещение каждые число минут в течение число минут избегая сквозняков"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        9,
+        10
+      ],
+      "DeviceParameterValue": [
+        3,
+        7
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_34.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "слишком тихо"
+  ],
+  "slots-indices": [
+    {
+      "IntensityQuantifier": [
+        0
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_107.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "мне кажется кот слишком много ест"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "IntensityQuantifier": [
+        3
+      ],
+      "FeatureState": [
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_208.json": {
+  "utterance-type": "Command",
+  "ontology-label": "DoorRelay",
+  "text": [
+    "Если кто-то будет звонить в дверь а меня нет дома вышли уведомление с его фото на мой телефон"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        10
+      ],
+      "CommandFeature": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "DEVICE": [
+        16,
+        17
+      ]
+    },
+    {
+      "Actor": [
+        1,
+        7
+      ],
+      "Action": [
+        2,
+        3,
+        8,
+        9
+      ],
+      "CommandFeature": [
+        5
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "16": 7
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+},
+"dataset/annotations/iot-commands/command_4.json": {
+  "utterance-type": "Command",
+  "ontology-label": "MotionSensor",
+  "text": [
+    "имитируй присутствие людей с число июня до число июля"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ],
+      "CommandParameterValue": [
+        4,
+        7
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_309.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "каждый вечер в время включай музыку на плеере"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "DEVICE": [
+        7
+      ],
+      "DeviceParameterValue": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_169.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Humidifier",
+  "text": [
+    "включить увлажнитель воздуха если дома кто-то есть а влажность ниже число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1,
+        2
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        6
+      ],
+      "DeviceFeature": [
+        8
+      ],
+      "Quantor": [
+        9
+      ],
+      "DeviceParameterValue": [
+        10
+      ]
+    }
+  ],
+  "condition-indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ]
+},
+"dataset/annotations/iot-commands/command_202.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "Установить температуру воды в бассейне в число градуса и выполнить его очистку от мусора"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "DeviceParameterValue": [
+        6
+      ],
+      "DeviceFeature": [
+        7
+      ]
+    },
+    {
+      "COMMAND": [
+        9,
+        11
+      ],
+      "CommandFeature": [
+        12,
+        13
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "10": 4
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_220.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "сколько я проехал километров"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ],
+      "DeviceFeature": [
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_195.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "Eсли на улице больше число градусов отключи отопление"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        6
+      ],
+      "DEVICE": [
+        7
+      ],
+      "LOC": [
+        1,
+        2
+      ],
+      "Quantor": [
+        3
+      ],
+      "CommandParameterValue": [
+        4
+      ],
+      "CommandParameter": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+},
+"dataset/annotations/iot-commands/command_199.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "Добавь романтики"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_24.json": {
+  "utterance-type": "Request",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "выведи статистику прослушиваний на телефон"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ],
+      "DEVICE": [
+        4
+      ],
+      "Analytics": [
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_7.json": {
+  "utterance-type": "Command",
+  "ontology-label": "CurtainsRelay",
+  "text": [
+    "опусти жалюзи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_116.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Phone",
+  "text": [
+    "заплати за отопление"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_64.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "проветри зал и кухню"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_57.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "включай свет когда в комнате начнет темнеть"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3,
+        4
+      ],
+      "Action": [
+        5,
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+},
+"dataset/annotations/iot-commands/command_218.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Когда следующее ТО"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_156.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "Humidifier",
+  "text": [
+    "здесь слишком сухо"
+  ],
+  "slots-indices": [
+    {
+      "LOC": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_307.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "по четвергам делай позитивную обстановку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_212.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Какой средний расход бензина в зависимости от заправки был за последние полгода"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "DeviceFeature": [
+        3
+      ],
+      "Analytics": [
+        1,
+        5,
+        7
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        10,
+        11
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_16.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "проигрывай в случайном порядке"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_80.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "если было взято спиртное прислать уведомление на мой телефон"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "DEVICE": [
+        7,
+        8
+      ]
+    },
+    {
+      "Actor": [
+        3
+      ],
+      "Action": [
+        1,
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ]
+},
+"dataset/annotations/iot-commands/command_56.json": {
+  "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
+  "text": [
+    "включить кофемашину через число минуты после будильника"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1,
+        6
+      ],
+      "DeviceParameterValue": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_275.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "потуши свет"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_123.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "я в отпуск"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_98.json": {
+  "utterance-type": "Request",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "когда последний раз снимали занавески"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        4
+      ],
+      "Action": [
+        3
+      ],
+      "Analytics": [
+        1,
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_53.json": {
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "AudioSystem"
+  ],
+  "text": [
+    "ослабь свет и включи успокаивающую музыку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "CommandParameterValue": [
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_70.json": {
+  "utterance-type": "Command",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "если станет жарко то открой окно"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "DeviceFeature": [
+        5
+      ]
+    },
+    {}
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ],
+  "hidden-slot-indices": [
+    {},
+    {
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_269.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "сделай светлее"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": {
+    "DEVICE": [
+      1
+    ]
+  }
+},
+"dataset/annotations/iot-commands/command_316.json": {
+  "utterance-type": "Command",
+  "text": [
+    "отключай кондиционер когда я ухожу из дома"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+},
+"dataset/annotations/iot-commands/command_9.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "включай аудиосистему когда я прихожу домой"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
+  ]
+},
+"dataset/annotations/iot-commands/command_311.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "в время отправь мне температуру в спальне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "Actor": [
+        3
+      ],
+      "CommandFeature": [
+        4
+      ],
+      "LOC": [
+        6
+      ],
+      "DeviceParameterValue": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_55.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "LightSensor",
+  "text": [
+    "сделай слабее свет"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Quantor": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_184.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Расчищай снег в число утра и с время до время вечера"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "DeviceParameterValue": [
+        3,
+        7,
+        9
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_194.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "Отопление включай за два часа до прихода отключай при выходе"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        1
+      ],
+      "DEVICE": [
+        0
+      ]
+    },
+    {
+      "COMMAND": [
+        7
+      ],
+      "DEVICE": [
+        0
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    8,
+    9
+  ]
+},
+"dataset/annotations/iot-commands/command_25.json": {
+  "utterance-type": "Request",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "какую песню я слушаю реже всего"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "Analytics": [
+        4,
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_268.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "LightSensor",
+  "text": [
+    "сделай светло"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": {
+    "DEVICE": [
+      1
+    ]
+  }
+},
+"dataset/annotations/iot-commands/command_87.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartOven",
+  "text": [
+    "разогрей духовку до число градусов к число часам если меня не будет дома в время выключи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1
+      ],
+      "DeviceParameterValue": [
+        3,
+        6,
+        14
+      ],
+      "DeviceFeature": [
+        4
+      ]
+    },
+    {
+      "COMMAND": [
+        15
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        13,
+        14
+      ]
+    }
+  ],
+  "condition-indices": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ]
+},
+"dataset/annotations/iot-commands/command_247.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "Установи необходимые условия для роз"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_30.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "переключи трек"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_186.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Расчистите газон и листву к время вечера"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3
+      ],
+      "DeviceParameterValue": [
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_152.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "включи электричество"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_111.json": {
+  "utterance-type": "Request",
+  "text": [
+    "проверь исправность всех датчиков и устройств"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "Quantor": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_112.json": {
+  "utterance-type": "Request",
+  "text": [
+    "автоматически проверяй исправность умного дома"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ],
+      "CommandFeature": [
+        0,
+        3,
+        4
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_319.json": {
+  "utterance-type": "Command",
+  "ontology-label": [
+    "TemperatureSensor",
+    "Humidifier"
+  ],
+  "text": [
+    "установи температуру на число и влажность на число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandParameter": [
+        1,
+        5
+      ],
+      "CommandParameterValue": [
+        3,
+        7
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_179.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "Осматривай поле и показывай видео оператору"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_257.json": {
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "На чем я смогу доехать до Ашана"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0,
+        1
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3,
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_33.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "слишком громко"
+  ],
+  "slots-indices": [
+    {
+      "IntensityQuantifier": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_3.json": {
+  "utterance-type": "Request",
+  "ontology-label": "WashingMachine",
+  "text": [
+    "сколько раз за месяц я стирал"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Actor": [
+        4
+      ],
+      "Action": [
+        5
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_118.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "мне кажется датчик температуры здесь вышел из строя"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1
+      ],
+      "DEVICE": [
+        2,
+        3
+      ],
+      "LOCCurrent": [
+        4
+      ],
+      "DeviceState": [
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_91.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "выключи обогреватель"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_266.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "включи свет"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_258.json": {
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "сколько времени займет дорога от А до Б с учетом пробок"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        1,
+        8,
+        9,
+        10
+      ],
+      "LOC": [
+        5,
+        7
+      ]
+    }
+  ]
+},
+"dataset/annotations/iot-commands/command_133.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartVacuumCleaner",
+  "text": [
+    "начни уборку после того как я уйду"
+  ]
+},
+"dataset/annotations/iot-commands/command_2.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WashingMachine",
+  "text": [
+    "включи стирку а потом отжим"
+  ]
+},
+"dataset/annotations/iot-commands/command_155.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "Humidifier",
+  "text": [
+    "здесь слишком влажно"
+  ]
+},
+"dataset/annotations/iot-commands/command_63.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "проветрить комнату если содержание углекислого газа будет выше число"
+  ]
+},
+"dataset/annotations/iot-commands/command_131.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartVacuumCleaner",
+  "text": [
+    "когда была последняя уборка"
+  ]
+},
+"dataset/annotations/iot-commands/command_299.json": {
+  "utterance-type": "Request",
+  "ontology-label": "CoffeeMachine",
+  "text": [
+    "сколько кофе осталось"
+  ]
+},
+"dataset/annotations/iot-commands/command_185.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Если меня нет дома не расчищай снег"
+  ]
+},
+"dataset/annotations/iot-commands/command_37.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "сколько киловатт электроэнергии было потрачено за последний месяц"
+  ]
+},
+"dataset/annotations/iot-commands/command_49.json": {
+  "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
+  "text": [
+    "свари кофе завтра к число утра"
+  ]
+},
+"dataset/annotations/iot-commands/command_72.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "в комнате душно проветри"
+  ]
+},
+"dataset/annotations/iot-commands/command_296.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Phone",
+  "text": [
+    "Построй маршрут из Москвы в Санкт-Петербург и подсказывай мне дорогу"
+  ]
+},
+"dataset/annotations/iot-commands/command_173.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "отнеси это домой потом вернись ко мне"
+  ]
+},
+"dataset/annotations/iot-commands/command_280.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "LightSensor",
+  "text": [
+    "Имитируй повседневное освещение пока я не дома"
+  ]
+},
+"dataset/annotations/iot-commands/command_46.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterTapRelay",
+  "text": [
+    "наполни горячую ванную к моему приходу"
+  ]
+},
+"dataset/annotations/iot-commands/command_88.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartOven",
+  "text": [
+    "включи духовку на число минут на число градусов затем на число минут на число"
+  ]
+},
+"dataset/annotations/iot-commands/command_170.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "лети за мной"
+  ]
+},
+"dataset/annotations/iot-commands/command_177.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Осмотри поле Если увидишь мусор убери"
+  ]
+},
+"dataset/annotations/iot-commands/command_68.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "установить температуру число градуса в ночное время когда я буду спать"
+  ]
+},
+"dataset/annotations/iot-commands/command_284.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "Сколько энергии потребляют лампы"
+  ]
+},
+"dataset/annotations/iot-commands/command_249.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "Включи фонтанчик"
+  ]
+},
+"dataset/annotations/iot-commands/command_189.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Не стригите траву и не убирайте листья когда выпадет снег"
+  ]
+},
+"dataset/annotations/iot-commands/command_271.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "прибавь яркости"
+  ]
+},
+"dataset/annotations/iot-commands/command_225.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "Гаси свет если меня нет в комнате"
+  ]
+},
+"dataset/annotations/iot-commands/command_103.json": {
+  "utterance-type": "Command",
+  "text": [
+    "покорми рыбок "
+  ]
+},
+"dataset/annotations/iot-commands/command_122.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "какое количество электроэнергии в этом месяце было затрачено водонагревателем"
+  ]
+},
+"dataset/annotations/iot-commands/command_181.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "Следуй командам с сервера пока я не скажу возвращаться если сервер будет недоступен возвращайся ко мне или на зарядную станцию"
+  ]
+},
+"dataset/annotations/iot-commands/command_40.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "HeaterController",
+  "text": [
+    "мне холодно"
+  ]
+},
+"dataset/annotations/iot-commands/command_227.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "Включи резервное питание"
+  ]
+},
+"dataset/annotations/iot-commands/command_272.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "освети помещение"
+  ]
+},
+"dataset/annotations/iot-commands/command_101.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "корми пса три раза в день"
+  ]
+},
+"dataset/annotations/iot-commands/command_286.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "Подготовь комнату к танцам"
+  ]
+},
+"dataset/annotations/iot-commands/command_210.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Начни прогревать машину"
+  ]
+},
+"dataset/annotations/iot-commands/command_297.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Phone",
+  "text": [
+    "Позвони мастеру"
+  ]
+},
+"dataset/annotations/iot-commands/command_149.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "подготовить обстановку к просмотру фильма"
+  ]
+},
+"dataset/annotations/iot-commands/command_254.json": {
+  "utterance-type": "Request",
+  "ontology-label": "Phone",
+  "text": [
+    "У кого или как я могу купить билет"
+  ]
+},
+"dataset/annotations/iot-commands/command_109.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "если кот давно не ел покорми его"
+  ]
+},
+"dataset/annotations/iot-commands/command_219.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Когда следующий Технический Осмотр"
+  ]
+},
+"dataset/annotations/iot-commands/command_119.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "по-моему температура определяется неверно"
+  ]
+},
+"dataset/annotations/iot-commands/command_175.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "снимай местность и если увидишь дым сообщи "
+  ]
+},
+"dataset/annotations/iot-commands/command_39.json": {
+  "utterance-type": "Command",
+  "ontology-label": "HeaterController",
+  "text": [
+    "сделай теплее"
+  ]
+},
+"dataset/annotations/iot-commands/command_172.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Quadrocopter",
+  "text": [
+    "летай над местностью если сработает датчик дыма сообщи"
+  ]
+},
+"dataset/annotations/iot-commands/command_243.json": {
+  "utterance-type": "Request",
+  "text": [
+    "Доложи о состоянии урожая"
+  ]
+},
+"dataset/annotations/iot-commands/command_190.json": {
+  "utterance-type": "IndirectCommand",
+  "text": [
+    "Не убирайте листву при сильном ветре"
+  ]
+},
+"dataset/annotations/iot-commands/command_78.json": {
+  "utterance-type": "IndirectCommand",
+  "ontology-label": "TVSet",
+  "text": [
+    "опять пульт от телевизора потерял "
+  ]
+},
+"dataset/annotations/iot-commands/command_317.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AlarmClock",
+  "text": [
+    "ставь каждый день будильник на время"
+  ]
+},
+"dataset/annotations/iot-commands/command_36.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "распечатай показания счетчиков"
+  ]
+},
+"dataset/annotations/iot-commands/command_171.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Phone",
+  "text": [
+    "сделай панорамный снимок"
+  ]
+},
+"dataset/annotations/iot-commands/command_96.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "если за окном рассвет открой шторы"
+  ]
+},
+"dataset/annotations/iot-commands/command_277.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "сделай темно"
+  ]
+},
+"dataset/annotations/iot-commands/command_65.json": {
+  "utterance-type": "Request",
+  "ontology-label": "TemperatureSensor",
+  "text": [
+    "какая сейчас температура"
+  ]
+},
+"dataset/annotations/iot-commands/command_206.json": {
+  "utterance-type": "Command",
+  "ontology-label": [
+    "LightSensor",
+    "SmartKettle"
+  ],
+  "text": [
+    "Каждый раз когда я буду приходить домой включить свет в прихожей и чайник"
+  ]
+},
+"dataset/annotations/iot-commands/command_160.json": {
+  "utterance-type": "Request",
+  "ontology-label": "MotionSensor",
+  "text": [
+    "кто-нибудь был дома сегодня днём"
+  ]
+},
+"dataset/annotations/iot-commands/command_143.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "покажи список продуктов"
+  ]
+},
+"dataset/annotations/iot-commands/command_250.json": {
+  "utterance-type": "Command",
+  "ontology-label": "LightSensor",
+  "text": [
+    "выключи подсветку"
+  ]
+},
+"dataset/annotations/iot-commands/command_105.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFeeder",
+  "text": [
+    "покорми попугая"
+  ]
+},
+"dataset/annotations/iot-commands/command_230.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Phone",
+  "text": [
+    "Потребляй энергию из аккумуляторов Если она закончится потребляй из электросети"
+  ]
+},
+"dataset/annotations/iot-commands/command_124.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "перекрыть водоснабжение в комнате если на полу обнаружена вода и не зафиксировано движения в течение число минут"
+  ]
+},
+"dataset/annotations/iot-commands/command_29.json": {
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "выключи музыку когда я выйду из квартиры"
+  ]
+},
+"dataset/annotations/iot-commands/command_188.json": {
+  "utterance-type": "Command",
+  "text": [
+    "если меня нет дома убирайте листву каждую неделю"
+  ]
+},
+"dataset/annotations/iot-commands/command_318.json": {
+  "utterance-type": "Command",
+  "text": [
+    "установи на число кондиционер"
+  ]
+},
+"dataset/annotations/iot-commands/command_278.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "выключи электричество"
+  ]
+},
+"dataset/annotations/iot-commands/command_164.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "когда все разойдутся выключи фонтан и подсветку "
+  ]
+},
+"dataset/annotations/iot-commands/command_113.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartElectricityMeter",
+  "text": [
+    "перечисли устройства которые включены в доме в данный момент"
+  ]
+},
+"dataset/annotations/iot-commands/command_192.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Не убирайте снег и не стригите траву если во дворе кто-то есть"
+  ]
+},
+"dataset/annotations/iot-commands/command_62.json": {
+  "utterance-type": "Command",
+  "text": [
+    "подготовь комнату к танцам"
+  ]
+},
+"dataset/annotations/iot-commands/command_217.json": {
+  "utterance-type": "Request",
+  "ontology-label": "SmartCar",
+  "text": [
+    "Сколько топлива в машине"
+  ]
+},
+"dataset/annotations/iot-commands/command_138.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartFridge",
+  "text": [
+    "установи температуру в холодильнике на плюс число а в морозилке на минус число"
+  ]
+},
+"dataset/annotations/iot-commands/command_320.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartOven",
+  "text": [
+    "когда я буду дома поставь духовку на число градусов"
+  ]
+},
+"dataset/annotations/iot-commands/command_231.json": {
+  "utterance-type": "Request",
+  "text": [
+    "Сильный ли ветер"
+  ]
+},
+"dataset/annotations/iot-commands/command_13.json": {
+  "utterance-type": "Command",
+  "text": [
+    "когда кот запрыгнет на шкаф на кухне спугни его включив телевизор"
+  ]
+},
+"dataset/annotations/iot-commands/command_245.json": {
+  "utterance-type": "Command",
+  "text": [
+    "Полей все ягоды и немного огурцы"
+  ]
+},
+"dataset/annotations/iot-commands/command_38.json": {
+  "utterance-type": "Command",
+  "ontology-label": "WaterSupplySensor",
+  "text": [
+    "включи воду"
+  ]
+},
+"dataset/annotations/iot-commands/command_262.json": {
+  "utterance-type": "Command",
+  "ontology-label": "SmartKettle",
+  "text": [
+    "Когда я приду сделай чай"
+  ]
+},
+"dataset/annotations/iot-commands/command_60.json": {
+  "utterance-type": "Command",
+  "ontology-label": "Humidifier",
+  "text": [
+    "поддерживай влажность в комнате на уровне число"
+  ]
+}
 }

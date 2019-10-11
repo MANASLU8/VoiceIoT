@@ -9,60 +9,52 @@
       ]
     },
     {
-      "text": "карта температур",
-      "slots": [
-        "TemperatureSensor.DeviceFeature",
-        "TemperatureSensor.DeviceFeature"
-      ]
-    },
-    {
-      "text": "что здесь так душно",
-      "slots": [
-        "TemperatureSensor.ParameterValueQuestion",
-        "TemperatureSensor.LOCCurrent",
-        "TemperatureSensor.IntensityQuantifier",
-        "TemperatureSensor.CommandFeature"
-      ]
-    },
-    {
-      "text": "днем включи обогреватель в спальне",
-      "slots": [
-        "TemperatureSensor.COMMAND",
-        "TemperatureSensor.DEVICE",
-        "TemperatureSensor.LOC"
-      ]
-    },
-    {
-      "text": "установи температура на число а влажность на число",
-      "slots": [
-        "TemperatureSensor.COMMAND",
-        "TemperatureSensor.CommandParameter",
-        "TemperatureSensor.CommandParameterValue",
-        "TemperatureSensor.CommandParameter",
-        "TemperatureSensor.CommandParameterValue"
-      ]
-    },
-    {
       "text": "если  будет холодно то закрой окно",
       "slots": [
         "TemperatureSensor.COMMAND",
         "TemperatureSensor.CommandFeature"
       ]
+    },
+    {
+      "text": "если на улице больше число температура включи электроотопление",
+      "slots": [
+        "TemperatureSensor.LOC",
+        "TemperatureSensor.LOC",
+        "TemperatureSensor.CommandParameterValue",
+        "TemperatureSensor.CommandParameter",
+        "TemperatureSensor.COMMAND",
+        "TemperatureSensor.DEVICE"
+      ]
+    },
+    {
+      "text": "если на улице температура 0 градусов включи обогреватель",
+      "slots": [
+        "TemperatureSensor.COMMAND",
+        "TemperatureSensor.DEVICE"
+      ]
+    },
+    {
+      "text": "если станет жарко тогда открой дверь",
+      "slots": [
+        "TemperatureSensor.COMMAND",
+        "TemperatureSensor.CommandFeature"
+      ]
+    },
+    {
+      "text": "карта температур",
+      "slots": [
+        "TemperatureSensor.DeviceFeature",
+        "TemperatureSensor.DeviceFeature"
+      ]
     }
   ],
   "SmartOven": [
     {
-      "text": "подай печенье на зватрак",
+      "text": "испеки мне еды к время",
       "slots": [
         "SmartOven.COMMAND",
+        "SmartOven.Actor",
         "SmartOven.CommandFeature"
-      ]
-    },
-    {
-      "text": "покорми меня",
-      "slots": [
-        "SmartOven.COMMAND",
-        "SmartOven.Actor"
       ]
     },
     {
@@ -73,33 +65,50 @@
         "SmartOven.Actor",
         "SmartOven.Action"
       ]
+    },
+    {
+      "text": "когда будет готова пицца",
+      "slots": [
+        "SmartOven.ParameterValueQuestion",
+        "SmartOven.FeatureState",
+        "SmartOven.FeatureState",
+        "SmartOven.CommandFeature"
+      ]
     }
   ],
   "AudioSystem": [
     {
-      "text": "мои любимые песни",
+      "text": "включи аудиосистему когда я приду домой",
       "slots": [
-        "AudioSystem.DeviceFeature",
-        "AudioSystem.DeviceFeature",
-        "AudioSystem.DeviceFeature"
+        "AudioSystem.COMMAND",
+        "AudioSystem.DEVICE"
       ]
     },
     {
-      "text": "назови самую частую песню",
+      "text": "если будет дождь то сообщить взять зонт с уходом",
       "slots": [
-        "AudioSystem.Request",
-        "AudioSystem.IntensityQuantifier",
-        "AudioSystem.Analytics",
-        "AudioSystem.CommandFeature"
+        "AudioSystem.COMMAND",
+        "AudioSystem.COMMAND",
+        "AudioSystem.CommandFeature",
+        "AudioSystem.Action"
       ]
     },
     {
-      "text": "отключи музыку если я лягу",
+      "text": "выключи динамики на кухне и в спальне",
       "slots": [
         "AudioSystem.COMMAND",
         "AudioSystem.CommandFeature",
-        "AudioSystem.Actor",
-        "AudioSystem.Action"
+        "AudioSystem.LOC",
+        "AudioSystem.LOC"
+      ]
+    },
+    {
+      "text": "увеличь звук на три пункта",
+      "slots": [
+        "AudioSystem.COMMAND",
+        "AudioSystem.CommandFeature",
+        "AudioSystem.DeviceParameterValue",
+        "AudioSystem.DeviceFeature"
       ]
     },
     {
@@ -112,7 +121,7 @@
       ]
     },
     {
-      "text": "прочитай передачи если я засну",
+      "text": "отключи песню когда я лягу",
       "slots": [
         "AudioSystem.COMMAND",
         "AudioSystem.CommandFeature",
@@ -121,55 +130,59 @@
       ]
     },
     {
-      "text": "текст песни",
-      "slots": [
-        "AudioSystem.DeviceFeature",
-        "AudioSystem.DeviceFeature"
-      ]
-    },
-    {
-      "text": "слишком громко",
-      "slots": [
-        "AudioSystem.IntensityQuantifier"
-      ]
-    },
-    {
-      "text": "сделай громче",
-      "slots": [
-        "AudioSystem.COMMAND",
-        "AudioSystem.IntensityQuantifier"
-      ]
-    },
-    {
-      "text": "увеличь звук на три пункта",
+      "text": "отключи музыку если я лягу",
       "slots": [
         "AudioSystem.COMMAND",
         "AudioSystem.CommandFeature",
-        "AudioSystem.DeviceParameterValue",
-        "AudioSystem.DeviceFeature"
+        "AudioSystem.Actor",
+        "AudioSystem.Action"
+      ]
+    },
+    {
+      "text": "выключи аудиосистему когда я возвращаюсь домой",
+      "slots": [
+        "AudioSystem.COMMAND",
+        "AudioSystem.DEVICE"
+      ]
+    },
+    {
+      "text": "ставь эту песню чаще",
+      "slots": [
+        "AudioSystem.COMMAND",
+        "AudioSystem.CommandFeature",
+        "AudioSystem.IntensityQuantifier"
       ]
     }
   ],
   "SmartFeeder": [
     {
-      "text": "если песик давно не ел покорми его",
+      "text": "насыпай коту меньше корма",
       "slots": [
+        "SmartFeeder.COMMAND",
         "SmartFeeder.CommandFeature",
-        "SmartFeeder.FeatureState",
-        "SmartFeeder.FeatureState",
-        "SmartFeeder.FeatureState",
-        "SmartFeeder.COMMAND"
+        "SmartFeeder.IntensityQuantifier",
+        "SmartFeeder.DeviceFeature"
       ]
     },
     {
-      "text": "корми кота шесть раз в день",
+      "text": "мне кажется кот слишком много ест",
       "slots": [
-        "SmartFeeder.COMMAND",
-        "SmartFeeder.CommandFeature"
+        "SmartFeeder.Actor",
+        "SmartFeeder.Action",
+        "SmartFeeder.CommandFeature",
+        "SmartFeeder.IntensityQuantifier",
+        "SmartFeeder.FeatureState"
       ]
     }
   ],
   "HeaterController": [
+    {
+      "text": "закрыть дверь если холодно",
+      "slots": [
+        "HeaterController.COMMAND",
+        "HeaterController.CommandFeature"
+      ]
+    },
     {
       "text": "здесь слишком холодно сделай потеплее",
       "slots": [
@@ -179,20 +192,12 @@
       ]
     },
     {
-      "text": "включай отопление в спальне",
+      "text": "если на улице холодно включи батарею",
       "slots": [
-        "HeaterController.COMMAND",
-        "HeaterController.DeviceFeature",
-        "HeaterController.LOC"
-      ]
-    },
-    {
-      "text": "сделай теплее во всех комнатах",
-      "slots": [
-        "HeaterController.COMMAND",
+        "HeaterController.LOC",
         "HeaterController.CommandFeature",
-        "HeaterController.Quantor",
-        "HeaterController.LOC"
+        "HeaterController.COMMAND",
+        "HeaterController.DeviceFeature"
       ]
     }
   ],
@@ -210,13 +215,6 @@
   ],
   "WindowRelay": [
     {
-      "text": "в комнате душно проветри",
-      "slots": [
-        "WindowRelay.LOCCurrent",
-        "WindowRelay.COMMAND"
-      ]
-    },
-    {
       "text": "если станет холодно то открой окно",
       "slots": [
         "WindowRelay.COMMAND",
@@ -224,16 +222,21 @@
       ]
     },
     {
-      "text": "если на улице жарко открой окно",
+      "text": "если будет холодно то закрой окно",
       "slots": [
+        "WindowRelay.CommandFeature",
         "WindowRelay.COMMAND",
         "WindowRelay.CommandFeature"
       ]
+    },
+    {
+      "text": "если будет жарко то закрой окно",
+      "slots": []
     }
   ],
   "SmartBreadMaker": [
     {
-      "text": "включи готовку в 8 вечера",
+      "text": "приготовь хлеб к нашему возвращению",
       "slots": [
         "SmartBreadMaker.COMMAND",
         "SmartBreadMaker.CommandFeature"
@@ -242,34 +245,34 @@
   ],
   "CurtainsRelay": [
     {
-      "text": "если за окном солнце открой шторы",
+      "text": "откроешь жалюзи если слишком темно",
       "slots": [
-        "CurtainsRelay.LOC",
         "CurtainsRelay.COMMAND",
-        "CurtainsRelay.CommandFeature"
-      ]
-    },
-    {
-      "text": "допустим за окном небо закрой шторы",
-      "slots": [
-        "CurtainsRelay.LOC",
-        "CurtainsRelay.COMMAND",
-        "CurtainsRelay.CommandFeature"
+        "CurtainsRelay.DeviceFeature"
       ]
     },
     {
       "text": "если за окном рассвет открой занавески",
       "slots": []
+    },
+    {
+      "text": "когда последний раз открывали шторы",
+      "slots": [
+        "CurtainsRelay.ParameterValueQuestion",
+        "CurtainsRelay.CommandFeature",
+        "CurtainsRelay.CommandFeature"
+      ]
     }
   ],
   "LightSensor": [
     {
-      "text": "откроешь занавески если совсем темно",
+      "text": "включай свет если я зашёл в комнату",
       "slots": [
         "LightSensor.COMMAND",
         "LightSensor.CommandFeature",
-        "LightSensor.IntensityQuantifier",
-        "LightSensor.CommandFeature"
+        "LightSensor.Actor",
+        "LightSensor.Action",
+        "LightSensor.LOC"
       ]
     },
     {
@@ -283,17 +286,32 @@
       ]
     },
     {
-      "text": "откроешь шторы если слишком темно",
+      "text": "выключай свет когда я ухожу из спальни",
       "slots": [
         "LightSensor.COMMAND",
         "LightSensor.CommandFeature",
-        "LightSensor.LOC",
-        "LightSensor.IntensityQuantifier",
+        "LightSensor.Actor",
+        "LightSensor.Action",
+        "LightSensor.LOC"
+      ]
+    },
+    {
+      "text": "выключи свет",
+      "slots": [
+        "LightSensor.COMMAND",
+        "LightSensor.DeviceFeature"
+      ]
+    },
+    {
+      "text": "если за дверью рассвет закрой шторы",
+      "slots": [
+        "LightSensor.CommandFeature",
+        "LightSensor.COMMAND",
         "LightSensor.CommandFeature"
       ]
     },
     {
-      "text": "гаси свет если меня нет в спальне",
+      "text": "выключай свет если я выхожу из комнат",
       "slots": [
         "LightSensor.COMMAND",
         "LightSensor.CommandFeature",
@@ -303,41 +321,18 @@
       ]
     },
     {
-      "text": "выключай свет когда я выйду из спальной",
+      "text": "включай свет когда я захожу в ванную",
       "slots": [
         "LightSensor.COMMAND",
-        "LightSensor.CommandFeature",
-        "LightSensor.Actor",
-        "LightSensor.Action",
-        "LightSensor.LOC"
-      ]
-    },
-    {
-      "text": "включай свет когда я захожу в гостинную",
-      "slots": [
-        "LightSensor.COMMAND",
-        "LightSensor.CommandFeature",
-        "LightSensor.Actor",
-        "LightSensor.Action",
-        "LightSensor.LOC"
-      ]
-    },
-    {
-      "text": "включай свет когда я захожу в гостиную",
-      "slots": [
-        "LightSensor.COMMAND",
-        "LightSensor.CommandFeature",
-        "LightSensor.Actor",
-        "LightSensor.Action",
-        "LightSensor.LOC"
+        "LightSensor.DeviceFeature"
       ]
     }
   ],
   "DoorWindowStatusSensor": [
     {
-      "text": "какие двери в доме открыты",
+      "text": "какие из окон в доме теперь открыты",
       "slots": [
-        "DoorWindowStatusSensor.RequestQuestion",
+        "DoorWindowStatusSensor.DeviceQuestion",
         "DoorWindowStatusSensor.DeviceFeature",
         "DoorWindowStatusSensor.LOC",
         "DoorWindowStatusSensor.FeatureState"
@@ -352,18 +347,32 @@
       ]
     },
     {
-      "text": "открой все двери в доме",
+      "text": "какие из окон в квартире сейчас открыты",
       "slots": [
-        "DoorWindowStatusSensor.COMMAND",
-        "DoorWindowStatusSensor.Quantor",
-        "DoorWindowStatusSensor.CommandFeature",
-        "DoorWindowStatusSensor.LOC"
+        "DoorWindowStatusSensor.DeviceQuestion",
+        "DoorWindowStatusSensor.DeviceFeature",
+        "DoorWindowStatusSensor.LOC",
+        "DoorWindowStatusSensor.FeatureState"
       ]
     }
   ],
   "Lamp": [
     {
-      "text": "включай свет когда я захожу в спальню",
+      "text": "включай солнце когда я захожу в комнату",
+      "slots": [
+        "Lamp.COMMAND",
+        "Lamp.DeviceFeature"
+      ]
+    },
+    {
+      "text": "выключай свет каждый раз когда я ухожу из гостиной",
+      "slots": [
+        "Lamp.COMMAND",
+        "Lamp.Devicefeature"
+      ]
+    },
+    {
+      "text": "выключай свет если я выхожу из спальни",
       "slots": [
         "Lamp.COMMAND",
         "Lamp.CommandFeature",
@@ -373,37 +382,20 @@
       ]
     },
     {
-      "text": "меняй каждый день фонарик на время",
+      "text": "на сколько хватает заряда",
       "slots": [
-        "Lamp.COMMAND",
-        "Lamp.DeviceFeature",
-        "Lamp.CommandParameterValue"
-      ]
-    },
-    {
-      "text": "включи электричество в спальне",
-      "slots": [
-        "Lamp.COMMAND",
-        "Lamp.CommandFeature",
-        "Lamp.LOC"
-      ]
-    },
-    {
-      "text": "включай свет когда я захожу в гостиную",
-      "slots": [
-        "Lamp.COMMAND",
-        "Lamp.CommandFeature",
-        "Lamp.Actor",
-        "Lamp.Action",
-        "Lamp.LOC"
+        "Lamp.DeviceQuestion",
+        "Lamp.FeatureState",
+        "Lamp.DeviceFeature"
       ]
     }
   ],
   "SmartKettle": [
     {
-      "text": "приготовь чай",
+      "text": "сделай кофе и чай",
       "slots": [
         "SmartKettle.COMMAND",
+        "SmartKettle.CommandFeature",
         "SmartKettle.CommandFeature"
       ]
     },
@@ -419,94 +411,93 @@
   ],
   "WashingMachine": [
     {
-      "text": "когда следуюущий технологический осмотр",
+      "text": "включай стиральную машину по четвергам",
       "slots": [
-        "WashingMachine.ParameterValueQuestion",
-        "WashingMachine.CommandFeature",
-        "WashingMachine.CommandFeature"
+        "WashingMachine.COMMAND",
+        "WashingMachine.DEVICE",
+        "WashingMachine.DEVICE"
       ]
     },
     {
-      "text": "доложи о соcтоянии одежды",
+      "text": "сколько раз за месяц была стирка",
       "slots": [
-        "WashingMachine.CommandState",
+        "WashingMachine.RequestQuestion",
+        "WashingMachine.Analytics",
+        "WashingMachine.Analytics",
+        "WashingMachine.Analytics",
         "WashingMachine.CommandFeature"
       ]
     }
   ],
   "SmartVacuumCleaner": [
     {
-      "text": "если меня нет дома не мой пол",
+      "text": "пропылесось сейчас пока я буду в гостинной",
       "slots": [
         "SmartVacuumCleaner.Actor",
-        "SmartVacuumCleaner.Action",
-        "SmartVacuumCleaner.LOC",
         "SmartVacuumCleaner.COMMAND",
-        "SmartVacuumCleaner.CommandFeature"
+        "SmartVacuumCleaner.LOC"
       ]
     },
     {
-      "text": "дата прошлой уборки",
+      "text": "пропылесосить здесь покуда я буду на кухне",
       "slots": [
-        "SmartVacuumCleaner.DeviceFeature",
-        "SmartVacuumCleaner.DeviceFeature",
-        "SmartVacuumCleaner.DeviceFeature"
+        "SmartVacuumCleaner.COMMAND",
+        "SmartVacuumCleaner.LOCCurrent",
+        "SmartVacuumCleaner.Actor",
+        "SmartVacuumCleaner.Action",
+        "SmartVacuumCleaner.LOC"
       ]
     }
   ],
   "TVSet": [
     {
-      "text": "делай чуть тише",
+      "text": "включи телевизор",
       "slots": [
         "TVSet.COMMAND",
-        "TVSet.IntensityQuantifier",
-        "TVSet.CommandFeature"
-      ]
-    },
-    {
-      "text": "выключи информационноразвлекательную программу если я прихожу домой",
-      "slots": [
-        "TVSet.COMMAND",
-        "TVSet.DeviceFeature",
-        "TVSet.DeviceFeature",
-        "TVSet.Actor",
-        "TVSet.Action",
-        "TVSet.LOC"
-      ]
-    },
-    {
-      "text": "где пульт от телевизора",
-      "slots": [
-        "TVSet.DeviceQuestion",
-        "TVSet.DeviceFeature",
         "TVSet.DEVICE"
+      ]
+    },
+    {
+      "text": "запиши программу если я усну",
+      "slots": [
+        "TVSet.COMMAND",
+        "TVSet.CommandFeature",
+        "TVSet.Actor",
+        "TVSet.Action"
+      ]
+    },
+    {
+      "text": "подготовить обстановку к просмотру фильма",
+      "slots": [
+        "TVSet.COMMAND",
+        "TVSet.Action",
+        "TVSet.CommandFeature"
       ]
     }
   ],
   "MotionSensor": [
     {
-      "text": "предупреди когда грузовик сзади меня будет вплотную",
+      "text": "активность в доме",
+      "slots": [
+        "MotionSensor.DeviceFeature",
+        "MotionSensor.LOC"
+      ]
+    },
+    {
+      "text": "проверь второй этаж",
+      "slots": [
+        "MotionSensor.COMMAND",
+        "MotionSensor.LOC",
+        "MotionSensor.LOC"
+      ]
+    },
+    {
+      "text": "выключай свет если я иду из ванной",
       "slots": [
         "MotionSensor.COMMAND",
         "MotionSensor.CommandFeature",
-        "MotionSensor.LOC",
-        "MotionSensor.LOC",
-        "MotionSensor.FeatureState",
-        "MotionSensor.IntensityQuantifier"
-      ]
-    },
-    {
-      "text": "предупреди если автомобиль сзади меня придется очень вплотную",
-      "slots": [
-        "MotionSensor.COMMAND"
-      ]
-    },
-    {
-      "text": "сообщи был ли ктото дома сегодня",
-      "slots": [
-        "MotionSensor.COMMAND",
-        "MotionSensor.Action",
         "MotionSensor.Actor",
+        "MotionSensor.Action",
         "MotionSensor.LOC"
       ]
     }
@@ -522,18 +513,17 @@
       ]
     },
     {
-      "text": "какие у нас есть орехи",
+      "text": "свежесть супа",
       "slots": [
-        "SmartFridge.ParameterValueQuestion",
-        "SmartFridge.CommandFeature",
-        "SmartFridge.CommandFeature"
+        "SmartFridge.DeviceFeature",
+        "SmartFridge.DeviceFeature"
       ]
     },
     {
-      "text": "сообщи какие фрукты в холодильнике",
+      "text": "сколько дней хранится салат в холодильнике",
       "slots": [
-        "SmartFridge.COMMAND",
-        "SmartFridge.CommandQuestion",
+        "SmartFridge.ParameterValueQuestion",
+        "SmartFridge.CommandFeature",
         "SmartFridge.CommandFeature",
         "SmartFridge.DEVICE"
       ]
@@ -548,56 +538,41 @@
       ]
     },
     {
-      "text": "каждый день проверяй кофеварку в доме",
+      "text": "сделай кофе к моему приходу",
       "slots": [
         "CoffeeMachine.COMMAND",
-        "CoffeeMachine.DEVICE",
-        "CoffeeMachine.LOC"
+        "CoffeeMachine.СommandFeature",
+        "CoffeeMachine.Actor",
+        "CoffeeMachine.Ation"
       ]
     }
   ],
   "SmartElectricityMeter": [
     {
-      "text": "выключай свет когда я выйду из комнаты",
-      "slots": [
-        "SmartElectricityMeter.COMMAND",
-        "SmartElectricityMeter.CommandFeature",
-        "SmartElectricityMeter.Actor",
-        "SmartElectricityMeter.Action",
-        "SmartElectricityMeter.LOC"
-      ]
-    },
-    {
-      "text": "выключай электричество в комнате",
-      "slots": [
-        "SmartElectricityMeter.COMMAND",
-        "SmartElectricityMeter.CommandFeature",
-        "SmartElectricityMeter.LOC"
-      ]
-    },
-    {
-      "text": "сколько в этом месяце было за электричество",
+      "text": "сколько в этом году я заплатил за свет",
       "slots": [
         "SmartElectricityMeter.ParameterValueQuestion",
-        "SmartElectricityMeter.CommandFeature"
+        "SmartElectricityMeter.Actor",
+        "SmartElectricityMeter.Action"
+      ]
+    },
+    {
+      "text": "расход электричества",
+      "slots": [
+        "SmartElectricityMeter.DeviceFeature",
+        "SmartElectricityMeter.DeviceFeature"
+      ]
+    },
+    {
+      "text": "энергопотребление за последнее время",
+      "slots": [
+        "SmartElectricityMeter.DeviceFeature",
+        "SmartElectricityMeter.DeviceFeature",
+        "SmartElectricityMeter.DeviceFeature"
       ]
     }
   ],
   "WaterTapRelay": [
-    {
-      "text": "я собираюсь принять ванну",
-      "slots": [
-        "WaterTapRelay.Actor",
-        "WaterTapRelay.Action",
-        "WaterTapRelay.Action"
-      ]
-    },
-    {
-      "text": "сделай погорячее",
-      "slots": [
-        "WaterTapRelay.COMMAND"
-      ]
-    },
     {
       "text": "включи воду",
       "slots": [
@@ -606,30 +581,51 @@
       ]
     },
     {
-      "text": "температура воды",
+      "text": "набери ванную",
       "slots": [
+        "WaterTapRelay.COMMAND",
+        "WaterTapRelay.CommandFeature"
+      ]
+    },
+    {
+      "text": "наполни горячую ванную к моему приходу",
+      "slots": [
+        "WaterTapRelay.COMMAND",
+        "WaterTapRelay.FeatureState",
+        "WaterTapRelay.CommandFeature",
+        "WaterTapRelay.Actor",
+        "WaterTapRelay.Action"
+      ]
+    },
+    {
+      "text": "если на улице гораздо количество градусов включи водоснабжение",
+      "slots": [
+        "WaterTapRelay.IntensityQuantifier",
+        "WaterTapRelay.DeviceParameterValue",
         "WaterTapRelay.DeviceFeature",
-        "WaterTapRelay.DeviceFeature"
+        "WaterTapRelay.COMMAND",
+        "WaterTapRelay.CommandFeature"
       ]
     }
   ],
   "SmartIron": [
     {
-      "text": "утюг разогрей буду гладить нейлон",
+      "text": "поставь утюг на шерсть",
       "slots": [
-        "SmartIron.DEVICE",
         "SmartIron.COMMAND",
+        "SmartIron.DEVICE",
         "SmartIron.DeviceParameterValue"
       ]
     }
   ],
   "SmartCar": [
     {
-      "text": "довези меня в больницу число",
+      "text": "мне надо проехать до число больницы",
       "slots": [
-        "SmartCar.COMMAND",
         "SmartCar.Actor",
-        "SmartCar.LOC",
+        "SmartCar.COMMAND",
+        "SmartCar.COMMAND",
+        "SmartCar.CommandParameterValue",
         "SmartCar.LOC"
       ]
     },
@@ -646,14 +642,15 @@
   ],
   "Printer": [
     {
-      "text": "заполни документ",
+      "text": "распечатай документ название спустя число часов",
       "slots": [
         "Printer.COMMAND",
+        "Printer.CommandFeature",
         "Printer.CommandFeature"
       ]
     },
     {
-      "text": "распечатай документ название через число секунд",
+      "text": "отправь бланк название через число секунд",
       "slots": [
         "Printer.COMMAND",
         "Printer.CommandFeature",

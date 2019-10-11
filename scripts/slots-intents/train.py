@@ -8,6 +8,13 @@ from slize import model, utils
 
 from .. import utils as u
 
+from tensorflow.compat.v1 import ConfigProto
+from tensorflow.compat.v1 import InteractiveSession
+
+configp = ConfigProto()
+configp.gpu_options.allow_growth = True
+session = InteractiveSession(config=configp)
+
 config = u.load_config(u.parse_args().config)
 
 #Load in and format the training & test data
