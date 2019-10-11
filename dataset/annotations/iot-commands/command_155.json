@@ -3,5 +3,22 @@
   "ontology-label": "Humidifier",
   "text": [
     "здесь слишком влажно"
+  ],
+  "slots-indices": [
+    {
+      "LOCCurrent": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        2
+      ]
+    }
   ]
 }

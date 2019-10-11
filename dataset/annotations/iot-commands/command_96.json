@@ -3,5 +3,22 @@
   "ontology-label": "WindowRelay",
   "text": [
     "если за окном рассвет открой шторы"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        3,
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
   ]
 }

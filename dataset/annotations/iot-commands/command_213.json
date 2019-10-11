@@ -3,5 +3,37 @@
   "ontology-label": "SmartCar",
   "text": [
     "Когда я буду уходить на работу открыть гараж выгнать из него автомобиль и оставить двигатель работающим"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        6,
+        8,
+        13
+      ],
+      "CommandFeature": [
+        7,
+        11,
+        14
+      ],
+      "FeatureState": [
+        15
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2,
+        3
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
   ]
 }

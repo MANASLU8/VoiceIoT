@@ -2,5 +2,49 @@
   "utterance-type": "Command",
   "text": [
     "когда кот запрыгнет на шкаф на кухне спугни его включив телевизор"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        7,
+        9
+      ],
+      "DEVICE": [
+        10
+      ],
+      "CommandFeature": [
+        8
+      ]
+    },
+    {
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ],
+      "LOC": [
+        5,
+        6
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "8": 1
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
   ]
 }

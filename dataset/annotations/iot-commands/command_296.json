@@ -3,5 +3,30 @@
   "ontology-label": "Phone",
   "text": [
     "Построй маршрут из Москвы в Санкт-Петербург и подсказывай мне дорогу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3,
+        5
+      ]
+    },
+    {
+      "COMMAND": [
+        7
+      ],
+      "Actor": [
+        8
+      ],
+      "CommandFeature": [
+        9
+      ]
+    }
   ]
 }

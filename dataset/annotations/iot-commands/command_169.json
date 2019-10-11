@@ -3,5 +3,43 @@
   "ontology-label": "Humidifier",
   "text": [
     "включить увлажнитель воздуха если дома кто-то есть а влажность ниже число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1,
+        2
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        6
+      ],
+      "DeviceFeature": [
+        8
+      ],
+      "Quantor": [
+        9
+      ],
+      "DeviceParameterValue": [
+        10
+      ]
+    }
+  ],
+  "condition-indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
   ]
 }

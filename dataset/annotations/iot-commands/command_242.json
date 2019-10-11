@@ -3,5 +3,32 @@
   "ontology-label": "WindowRelay",
   "text": [
     "Проветривай каждые число часа"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    },
+    {
+      "CommandParameterValue": [
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    }
   ]
 }

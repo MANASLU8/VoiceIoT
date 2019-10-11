@@ -2,5 +2,15 @@
   "utterance-type": "IndirectCommand",
   "text": [
     "Добавь романтики"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

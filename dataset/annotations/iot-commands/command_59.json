@@ -3,5 +3,22 @@
   "ontology-label": "WindowRelay",
   "text": [
     "проветривай во время моего сна"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
   ]
 }

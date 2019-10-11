@@ -3,5 +3,43 @@
   "ontology-label": "Phone",
   "text": [
     "Потребляй энергию из аккумуляторов Если она закончится потребляй из электросети"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3
+      ]
+    },
+    {
+      "CommandFeature": [
+        5
+      ],
+      "FeatureState": [
+        6
+      ]
+    },
+    {
+      "COMMAND": [
+        7
+      ],
+      "CommandFeature": [
+        1,
+        9
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "5": 1
+    }
+  ],
+  "condition-indices": [
+    4,
+    5,
+    6
   ]
 }

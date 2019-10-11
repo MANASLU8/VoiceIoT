@@ -3,5 +3,30 @@
   "ontology-label": "WashingMachine",
   "text": [
     "когда стиральная машина закончит стирку сообщи мужу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "DEVICE": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ],
+      "Actor": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
   ]
 }

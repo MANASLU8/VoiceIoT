@@ -2,5 +2,17 @@
   "utterance-type": "Command",
   "text": [
     "Полей помидоры"
-  ]
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    }
+  ],
+  "hidden-slot-indices": {
+    "DEVICE": [
+      1
+    ]
+  }
 }

@@ -3,5 +3,18 @@
   "ontology-label": "WaterSupplySensor",
   "text": [
     "полностью перекрой воду"
+  ],
+  "slots-indices": [
+    {
+      "Quantifier": [
+        0
+      ],
+      "COMMAND": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
   ]
 }

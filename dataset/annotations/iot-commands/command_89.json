@@ -3,5 +3,18 @@
   "ontology-label": "LightSensor",
   "text": [
     "подсвети путь на кухню "
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
   ]
 }

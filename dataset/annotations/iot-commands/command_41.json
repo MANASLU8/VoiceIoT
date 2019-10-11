@@ -3,5 +3,18 @@
   "ontology-label": "WaterSupplySensor",
   "text": [
     "сделай напор сильнее"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Quantifier": [
+        2
+      ]
+    }
   ]
 }

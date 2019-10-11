@@ -1,6 +1,16 @@
 {
   "utterance-type": "Command",
   "text": [
-    "покорми рыбок "
+    "покорми рыбок"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

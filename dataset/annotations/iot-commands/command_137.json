@@ -3,5 +3,18 @@
   "ontology-label": "SmartFridge",
   "text": [
     "в холодильнике много испорченного"
+  ],
+  "slots-indices": [
+    {
+      "DEVICE": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
   ]
 }

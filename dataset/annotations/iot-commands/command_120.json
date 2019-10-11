@@ -3,5 +3,18 @@
   "ontology-label": "LightSensor",
   "text": [
     "сколько лампочек перегорело"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ]
+    }
   ]
 }

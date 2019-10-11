@@ -3,5 +3,34 @@
   "ontology-label": "SmartFridge",
   "text": [
     "если было взято спиртное прислать уведомление на мой телефон"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "DEVICE": [
+        7,
+        8
+      ]
+    },
+    {
+      "Actor": [
+        3
+      ],
+      "Action": [
+        1,
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
   ]
 }

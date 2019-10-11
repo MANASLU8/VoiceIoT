@@ -3,5 +3,23 @@
   "ontology-label": "Phone",
   "text": [
     "На чем я смогу доехать до Ашана"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0,
+        1
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3,
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
   ]
 }

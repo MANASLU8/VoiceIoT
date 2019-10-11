@@ -2,5 +2,40 @@
   "utterance-type": "Command",
   "text": [
     "Теплица первые две недели следи за тем чтобы помидоры получали много УФ света и немного ИК света"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        0
+      ],
+      "COMMAND": [
+        4
+      ],
+      "Actor": [
+        8
+      ],
+      "Action": [
+        9
+      ],
+      "Actable": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "Quantifier": [
+        10,
+        14
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1,
+        2,
+        3
+      ]
+    }
   ]
 }

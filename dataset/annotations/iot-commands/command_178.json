@@ -3,5 +3,26 @@
   "ontology-label": "MotionSensor",
   "text": [
     "Осмотри поле Если увидишь что-то необычное сообщи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
   ]
 }

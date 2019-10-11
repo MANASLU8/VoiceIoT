@@ -3,5 +3,31 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "перечисли устройства которые включены в доме в данный момент"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureState": [
+        3
+      ],
+      "LOC": [
+        4,
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        6,
+        7,
+        8
+      ]
+    }
   ]
 }

@@ -3,5 +3,27 @@
   "ontology-label": "Phone",
   "text": [
     "Хочу купить билеты на Лебединое озеро в Мариинке Проверь их наличие"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        8
+      ],
+      "FeatureState": [
+        10
+      ],
+      "CommandFeature": [
+        2,
+        4,
+        5
+      ],
+      "LOC": [
+        7
+      ],
+      "Action": [
+        1,
+        2
+      ]
+    }
   ]
 }

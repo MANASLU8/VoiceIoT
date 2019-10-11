@@ -3,5 +3,16 @@
   "ontology-label": "Quadrocopter",
   "text": [
     "лети за мной"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
   ]
 }

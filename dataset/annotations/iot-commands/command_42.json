@@ -3,5 +3,18 @@
   "ontology-label": "WaterTapRelay",
   "text": [
     "напор слишком слабый"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        0
+      ],
+      "Quantifier": [
+        2
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
   ]
 }

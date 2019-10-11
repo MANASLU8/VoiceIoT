@@ -3,5 +3,31 @@
   "ontology-label": "AudioSystem",
   "text": [
     "найди клип к этой песне на YouTube и воспроизведи его на телефоне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "COMMAND": [
+        8
+      ],
+      "DEVICE": [
+        10
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "9": 1
+    }
   ]
 }

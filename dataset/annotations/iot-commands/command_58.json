@@ -2,5 +2,18 @@
   "utterance-type": "Command",
   "text": [
     "контролируй климат в комнате"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
   ]
 }

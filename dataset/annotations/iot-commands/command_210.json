@@ -3,5 +3,16 @@
   "ontology-label": "SmartCar",
   "text": [
     "Начни прогревать машину"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "DEVICE": [
+        2
+      ]
+    }
   ]
 }

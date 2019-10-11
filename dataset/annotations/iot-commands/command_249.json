@@ -3,5 +3,22 @@
   "ontology-label": "WaterSupplySensor",
   "text": [
     "Включи фонтанчик"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
   ]
 }

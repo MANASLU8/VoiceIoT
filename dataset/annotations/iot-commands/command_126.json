@@ -3,5 +3,43 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "сколько нужно будет заплатить за электричество если киловат стоит как в прошлом месяце"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        1,
+        2,
+        3
+      ],
+      "ParameterFeature": [
+        5
+      ]
+    },
+    {
+      "Actor": [
+        7
+      ],
+      "Action": [
+        8
+      ],
+      "Comparator": [
+        9
+      ],
+      "Duration": [
+        11,
+        12
+      ]
+    }
+  ],
+  "condition-indices": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
   ]
 }

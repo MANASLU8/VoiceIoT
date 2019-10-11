@@ -2,6 +2,25 @@
   "utterance-type": "Request",
   "ontology-label": "SmartFeeder",
   "text": [
-    "колько раз кот сегодня ел"
+    "сколько раз кот сегодня ел"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        4
+      ],
+      "Duration": [
+        3
+      ],
+      "Analytics": [
+        1
+      ]
+    }
   ]
 }

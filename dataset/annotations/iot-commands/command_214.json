@@ -3,5 +3,28 @@
   "ontology-label": "HeaterController",
   "text": [
     "Сообщи если температура в гараже опустится ниже нуля"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "FeatureState": [
+        6,
+        7
+      ]
+    }
+  ],
+  "condition-indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
   ]
 }

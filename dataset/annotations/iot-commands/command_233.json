@@ -3,5 +3,15 @@
   "ontology-label": "MotionSensor",
   "text": [
     "Кто пришел"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        1
+      ]
+    }
   ]
 }

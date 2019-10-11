@@ -4,7 +4,7 @@
   "ontology-label": [
     "TemperatureSensor",
     "DoorWindowStatusSensor",
-    " DoorRelay"
+    "DoorRelay"
   ],
   "text": [
     "если станет жарко тогда открой дверь"

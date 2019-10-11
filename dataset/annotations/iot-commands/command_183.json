@@ -2,5 +2,36 @@
   "utterance-type": "Command",
   "text": [
     "Если выпадет много снега расчисти дорожку перед домом"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "LOC": [
+        6,
+        7
+      ]
+    },
+    {
+      "Quantor": [
+        2
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        1
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
   ]
 }

@@ -3,5 +3,29 @@
   "ontology-label": "SmartKettle",
   "text": [
     "в какой день недели я больше пью воды из чайника"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        1
+      ],
+      "CommandFeature": [
+        2,
+        3,
+        4
+      ],
+      "Actor": [
+        4
+      ],
+      "Quantor": [
+        5
+      ],
+      "Action": [
+        6
+      ],
+      "DEVICE": [
+        9
+      ]
+    }
   ]
 }

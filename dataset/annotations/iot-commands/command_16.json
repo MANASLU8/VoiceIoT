@@ -3,5 +3,16 @@
   "ontology-label": "AudioSystem",
   "text": [
     "проигрывай в случайном порядке"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2,
+        3
+      ]
+    }
   ]
 }

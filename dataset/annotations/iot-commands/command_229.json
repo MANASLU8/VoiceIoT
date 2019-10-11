@@ -2,5 +2,20 @@
   "utterance-type": "Request",
   "text": [
     "На сколько хватит энергии в аккумуляторах"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ],
+      "DeviceFeature": [
+        3,
+        4,
+        5
+      ]
+    }
   ]
 }

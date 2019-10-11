@@ -3,5 +3,15 @@
   "ontology-label": "LightSensor",
   "text": [
     "слишком светло"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        1
+      ],
+      "IntensityQuantifier": [
+        0
+      ]
+    }
   ]
 }

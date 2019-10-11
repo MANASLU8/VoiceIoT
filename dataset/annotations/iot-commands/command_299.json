@@ -3,5 +3,18 @@
   "ontology-label": "CoffeeMachine",
   "text": [
     "сколько кофе осталось"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Analytics": [
+        2
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
   ]
 }

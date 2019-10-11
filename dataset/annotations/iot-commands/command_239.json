@@ -2,5 +2,37 @@
   "utterance-type": "Command",
   "text": [
     "Поливай помидоры каждый день и следи за тем чтобы они получали достаточно света"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        5
+      ],
+      "Actor": [
+        10
+      ],
+      "Actable": [
+        12
+      ],
+      "Quantor": [
+        11
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        2,
+        3
+      ]
+    }
   ]
 }

@@ -3,5 +3,27 @@
   "ontology-label": "TemperatureSensor",
   "text": [
     "мне кажется датчик температуры здесь вышел из строя"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1
+      ],
+      "DEVICE": [
+        2,
+        3
+      ],
+      "LOCCurrent": [
+        4
+      ],
+      "DeviceState": [
+        5,
+        6,
+        7
+      ]
+    }
   ]
 }

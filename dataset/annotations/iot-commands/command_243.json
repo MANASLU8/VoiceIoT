@@ -2,5 +2,15 @@
   "utterance-type": "Request",
   "text": [
     "Доложи о состоянии урожая"
+  ],
+  "slots-indices": [
+    {
+      "CommandState": [
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
   ]
 }

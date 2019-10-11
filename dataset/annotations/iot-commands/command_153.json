@@ -3,5 +3,18 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "выключи электричество в ванной"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
   ]
 }

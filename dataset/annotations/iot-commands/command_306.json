@@ -3,5 +3,28 @@
   "ontology-label": "HeaterController",
   "text": [
     "в время включи обогреватель на кухне на число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "DEVICE": [
+        3
+      ],
+      "LOC": [
+        5
+      ],
+      "DeviceParameterValue": [
+        7
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1
+      ]
+    }
   ]
 }

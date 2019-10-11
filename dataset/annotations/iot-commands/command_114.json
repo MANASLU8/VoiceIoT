@@ -2,5 +2,22 @@
   "utterance-type": "Request",
   "text": [
     "сколько в этом месяце вышло за электричество"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        4
+      ],
+      "ParameterFeature": [
+        6
+      ],
+      "Duration": [
+        2,
+        3
+      ]
+    }
   ]
 }

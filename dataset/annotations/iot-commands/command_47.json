@@ -2,5 +2,27 @@
   "utterance-type": "Request",
   "text": [
     "сколько денег в этом месяце я потратил на коммунальные услуги"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Actor": [
+        5
+      ],
+      "Action": [
+        6
+      ],
+      "ParameterFeature": [
+        8,
+        9
+      ],
+      "Duration": [
+        2,
+        3,
+        4
+      ]
+    }
   ]
 }

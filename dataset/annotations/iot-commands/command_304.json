@@ -2,5 +2,22 @@
   "utterance-type": "Request",
   "text": [
     "когда будет готова еда в пароварке"
+  ],
+  "slots-indices": [
+    {
+      "CommandQuestion": [
+        0
+      ],
+      "FeatureState": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
   ]
 }

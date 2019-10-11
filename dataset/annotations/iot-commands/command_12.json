@@ -2,5 +2,32 @@
   "utterance-type": "Command",
   "text": [
     "когда собака залезет на кухонный стол издай неприятный звук"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        6
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        4,
+        5,
+        7,
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
   ]
 }

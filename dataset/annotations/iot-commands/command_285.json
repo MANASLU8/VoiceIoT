@@ -3,5 +3,25 @@
   "ontology-label": "LightSensor",
   "text": [
     "Включи свет в время утра"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "DeviceParameterValue": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        4
+      ]
+    }
   ]
 }

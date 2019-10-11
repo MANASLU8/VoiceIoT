@@ -3,5 +3,16 @@
   "ontology-label": "SmartCar",
   "text": [
     "Найти место и припарковаться"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        3
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

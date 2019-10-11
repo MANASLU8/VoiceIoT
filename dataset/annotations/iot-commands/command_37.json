@@ -3,5 +3,25 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "сколько киловатт электроэнергии было потрачено за последний месяц"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        3,
+        4
+      ],
+      "ParameterFeature": [
+        1,
+        2
+      ],
+      "Duration": [
+        5,
+        6,
+        7
+      ]
+    }
   ]
 }

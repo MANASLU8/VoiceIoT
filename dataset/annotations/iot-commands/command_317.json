@@ -3,5 +3,26 @@
   "ontology-label": "AlarmClock",
   "text": [
     "ставь каждый день будильник на время"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        3
+      ],
+      "DeviceParameter": [
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        1,
+        2
+      ]
+    }
   ]
 }

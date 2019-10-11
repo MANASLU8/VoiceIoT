@@ -3,5 +3,24 @@
   "ontology-label": "Quadrocopter",
   "text": [
     "Осматривай поле и показывай видео оператору"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        6
+      ]
+    }
   ]
 }

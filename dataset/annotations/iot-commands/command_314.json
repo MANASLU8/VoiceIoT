@@ -3,5 +3,25 @@
   "ontology-label": "Printer",
   "text": [
     "распечатай документ название через число минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4,
+        5
+      ]
+    }
   ]
 }

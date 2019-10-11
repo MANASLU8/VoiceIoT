@@ -3,5 +3,15 @@
   "ontology-label": "LightSensor",
   "text": [
     "освети комнату"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        1
+      ]
+    }
   ]
 }

@@ -2,5 +2,25 @@
   "utterance-type": "Command",
   "text": [
     "Следи чтобы растения получали достаточно влажности и света"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "Actable": [
+        5,
+        7
+      ],
+      "Quantor": [
+        4
+      ]
+    }
   ]
 }

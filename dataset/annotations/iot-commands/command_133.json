@@ -3,5 +3,32 @@
   "ontology-label": "SmartVacuumCleaner",
   "text": [
     "начни уборку после того как я уйду"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        5
+      ],
+      "Action": [
+        6
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
   ]
 }

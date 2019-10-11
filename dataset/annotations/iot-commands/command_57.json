@@ -3,5 +3,30 @@
   "ontology-label": "LightSensor",
   "text": [
     "включай свет когда в комнате начнет темнеть"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3,
+        4
+      ],
+      "Action": [
+        5,
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
   ]
 }

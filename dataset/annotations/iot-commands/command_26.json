@@ -3,5 +3,33 @@
   "ontology-label": "AudioSystem",
   "text": [
     "какой альбом я слушал чаще всего в этом месяце"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "Analytics": [
+        4,
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        7,
+        8
+      ]
+    }
   ]
 }

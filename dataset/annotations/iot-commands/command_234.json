@@ -3,5 +3,33 @@
   "ontology-label": "SmartKettle",
   "text": [
     "По будням буди меня в время часов утра включай чайник"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2,
+        8
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "CommandParameterValue": [
+        5
+      ],
+      "DEVICE": [
+        9
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        4,
+        6
+      ]
+    }
   ]
 }

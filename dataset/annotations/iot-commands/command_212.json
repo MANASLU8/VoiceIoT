@@ -3,5 +3,31 @@
   "ontology-label": "SmartCar",
   "text": [
     "Какой средний расход бензина в зависимости от заправки был за последние полгода"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "DeviceFeature": [
+        3
+      ],
+      "Analytics": [
+        1,
+        5,
+        7
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        10,
+        11
+      ]
+    }
   ]
 }

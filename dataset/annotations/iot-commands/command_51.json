@@ -3,5 +3,29 @@
   "ontology-label": "AudioSystem",
   "text": [
     "если я засну включи что-нибудь погромче"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        5
+      ]
+    },
+    {
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
   ]
 }

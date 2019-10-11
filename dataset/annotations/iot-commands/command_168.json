@@ -3,5 +3,30 @@
   "ontology-label": "DoorRelay",
   "text": [
     "когда открывается входная дверь грей пол"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "DeviceFeature": [
+        5
+      ]
+    },
+    {
+      "Actor": [
+        2,
+        3
+      ],
+      "Action": [
+        1
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
   ]
 }

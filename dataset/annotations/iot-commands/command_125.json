@@ -2,5 +2,45 @@
   "utterance-type": "Command",
   "text": [
     "если будет утечка газа перекрой его подачу и отправить мне уведомление"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        2,
+        3
+      ],
+      "Action": [
+        0
+      ],
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5,
+        6
+      ]
+    },
+    {
+      "COMMAND": [
+        8
+      ],
+      "Actor": [
+        9
+      ],
+      "CommandFeature": [
+        10
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "5": 3
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
   ]
 }

@@ -3,5 +3,25 @@
   "ontology-label": "SmartFridge",
   "text": [
     "делай больше льда"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Quantor": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        2
+      ]
+    }
   ]
 }

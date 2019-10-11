@@ -3,5 +3,15 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "выключи электричество"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
   ]
 }

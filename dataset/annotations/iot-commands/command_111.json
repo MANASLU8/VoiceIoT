@@ -2,5 +2,22 @@
   "utterance-type": "Request",
   "text": [
     "проверь исправность всех датчиков и устройств"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "Quantor": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        5
+      ]
+    }
   ]
 }

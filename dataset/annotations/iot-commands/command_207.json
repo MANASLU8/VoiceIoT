@@ -3,5 +3,41 @@
   "ontology-label": "LightSensor",
   "text": [
     "Включить свет в санузле при наличии внутри кого-либо и выключить если никого нет более число минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        9
+      ],
+      "LOC": [
+        3
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        6
+      ],
+      "CommandParameter": [
+        15
+      ],
+      "CommandParameterValue": [
+        14
+      ]
+    }
+  ],
+  "condition-indices": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }

@@ -3,5 +3,31 @@
   "ontology-label": "AlarmClock",
   "text": [
     "если я усну разбуди меня"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ],
+  "coreference": [
+    {
+      "4": 1
+    }
   ]
 }

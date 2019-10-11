@@ -2,6 +2,17 @@
   "utterance-type": "Command",
   "ontology-label": "LightSensor",
   "text": [
-    "погаси основной свет "
+    "погаси основной свет"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
   ]
 }

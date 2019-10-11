@@ -3,5 +3,22 @@
   "ontology-label": "Humidifier",
   "text": [
     "поддерживай влажность в комнате на уровне число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1,
+        5
+      ],
+      "DeviceParameterValue": [
+        6
+      ],
+      "LOC": [
+        3
+      ]
+    }
   ]
 }

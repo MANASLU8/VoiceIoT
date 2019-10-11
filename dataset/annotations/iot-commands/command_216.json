@@ -3,5 +3,18 @@
   "ontology-label": "SmartCar",
   "text": [
     "Кто-нибудь брал мою машину сегодня"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "Action": [
+        1
+      ]
+    }
   ]
 }

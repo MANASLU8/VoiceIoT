@@ -2,5 +2,23 @@
   "utterance-type": "Request",
   "text": [
     "Напомни когда в последний раз поливались цветы"
-  ]
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "RequestQuestion": [
+        1
+      ],
+      "FeatureState": [
+        5
+      ]
+    }
+  ],
+  "hidden-slot-indices": {
+    "DEVICE": [
+      6
+    ]
+  }
 }

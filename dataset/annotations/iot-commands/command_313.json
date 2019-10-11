@@ -3,5 +3,33 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "кажду неделю в время снимай показания с счетчиков в квартире"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5,
+        7
+      ],
+      "LOC": [
+        9
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        0,
+        1
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    }
   ]
 }

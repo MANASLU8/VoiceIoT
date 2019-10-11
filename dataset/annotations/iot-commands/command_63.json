@@ -3,5 +3,35 @@
   "ontology-label": "WindowRelay",
   "text": [
     "проветрить комнату если содержание углекислого газа будет выше число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        1
+      ]
+    },
+    {
+      "CommandFeature": [
+        3,
+        4,
+        5
+      ],
+      "FeatureState": [
+        7,
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
   ]
 }

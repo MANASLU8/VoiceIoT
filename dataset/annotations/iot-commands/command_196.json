@@ -3,5 +3,23 @@
   "ontology-label": "WindowRelay",
   "text": [
     "Помой окна после дождя"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    }
   ]
 }

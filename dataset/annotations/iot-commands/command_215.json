@@ -3,5 +3,22 @@
   "ontology-label": "SmartCar",
   "text": [
     "Кто брал мою машину сегодня"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2,
+        3
+      ],
+      "Action": [
+        1
+      ],
+      "Duration": [
+        4
+      ]
+    }
   ]
 }

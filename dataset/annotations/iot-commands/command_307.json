@@ -2,5 +2,23 @@
   "utterance-type": "IndirectCommand",
   "text": [
     "по четвергам делай позитивную обстановку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        1
+      ]
+    }
   ]
 }

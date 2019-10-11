@@ -2,5 +2,18 @@
   "utterance-type": "IndirectCommand",
   "text": [
     "подготовить обстановку к просмотру фильма"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        4
+      ],
+      "Action": [
+        3
+      ]
+    }
   ]
 }

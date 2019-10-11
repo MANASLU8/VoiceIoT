@@ -3,5 +3,31 @@
   "ontology-label": "HeaterController",
   "text": [
     "в время отправь мне температуру в спальне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "Actor": [
+        3
+      ],
+      "CommandFeature": [
+        4
+      ],
+      "LOC": [
+        6
+      ],
+      "DeviceParameterValue": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1
+      ]
+    }
   ]
 }

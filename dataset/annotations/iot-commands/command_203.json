@@ -2,6 +2,46 @@
   "utterance-type": "Command",
   "ontology-label": "WaterSupplySensor",
   "text": [
-    "Перекрой подачу воды и включи слив если бассейн наполнится выше заданного уровня "
+    "Перекрой подачу воды и включи слив если бассейн наполнится выше заданного уровня"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    },
+    {
+      "Actor": [
+        7
+      ],
+      "Action": [
+        8
+      ],
+      "CommandFeature": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
   ]
 }

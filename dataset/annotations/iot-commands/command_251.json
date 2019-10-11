@@ -3,5 +3,21 @@
   "ontology-label": "Phone",
   "text": [
     "Когда придет автобус номер число"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Actor": [
+        2
+      ],
+      "Action": [
+        1
+      ],
+      "CommandParameterValue": [
+        4
+      ]
+    }
   ]
 }

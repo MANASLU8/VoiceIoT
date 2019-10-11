@@ -3,5 +3,23 @@
   "ontology-label": "SmartFridge",
   "text": [
     "установи температуру в холодильнике на плюс число а в морозилке на минус число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Devicefeature": [
+        1
+      ],
+      "DEVICE": [
+        3,
+        9
+      ],
+      "DeviceParameterValue": [
+        6,
+        12
+      ]
+    }
   ]
 }

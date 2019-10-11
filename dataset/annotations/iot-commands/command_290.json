@@ -3,5 +3,27 @@
   "ontology-label": "LightSensor",
   "text": [
     "ослабь свет и запусти плейлист с успокаивающей музыкой"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        7
+      ],
+      "CommandParameterValue": [
+        6
+      ]
+    }
   ]
 }

@@ -3,5 +3,18 @@
   "ontology-label": "HeaterController",
   "text": [
     "здесь слишком жарко"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        2
+      ],
+      "IntensityQuantifier": [
+        1
+      ],
+      "LOCCurrent": [
+        0
+      ]
+    }
   ]
 }

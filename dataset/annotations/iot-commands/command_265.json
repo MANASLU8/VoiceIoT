@@ -3,5 +3,30 @@
   "ontology-label": "SmartKettle",
   "text": [
     "Eсли вода в чайнике остыла разогрей"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        1
+      ],
+      "DEVICE": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    },
+    {
+      "COMMAND": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
   ]
 }

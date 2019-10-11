@@ -2,5 +2,19 @@
   "utterance-type": "Request",
   "text": [
     "Как можно оплатить проезд"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Action": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
   ]
 }

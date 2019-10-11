@@ -3,5 +3,29 @@
   "ontology-label": "AudioSystem",
   "text": [
     "включи динамики на кухне и выключи в гостинной"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        3
+      ],
+      "DEVICE": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        5
+      ],
+      "LOC": [
+        7
+      ],
+      "DEVICE": [
+        1
+      ]
+    }
   ]
 }

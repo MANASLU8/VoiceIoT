@@ -3,5 +3,25 @@
   "ontology-label": "LightSensor",
   "text": [
     "зажги фонарики а свет под навесом выключи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        6
+      ],
+      "CommandFeature": [
+        3,
+        4,
+        5
+      ]
+    }
   ]
 }

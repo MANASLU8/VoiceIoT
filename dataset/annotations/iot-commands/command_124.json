@@ -3,5 +3,59 @@
   "ontology-label": "WaterSupplySensor",
   "text": [
     "перекрыть водоснабжение в комнате если на полу обнаружена вода и не зафиксировано движения в течение число минут"
-  ]
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        2,
+        3
+      ]
+    },
+    {
+      "LOC": [
+        5,
+        6
+      ],
+      "CommandFeature": [
+        8,
+        12
+      ],
+      "FeatureState": [
+        7,
+        11
+      ],
+      "DeviceParameterValue": [
+        15
+      ]
+    }
+  ],
+  "condition-indices": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "schedule": {
+    "time:DateTimeDescription": [
+      13,
+      14,
+      15,
+      16
+    ]
+  }
 }

@@ -3,5 +3,34 @@
   "ontology-label": "LightSensor",
   "text": [
     "Не включай свет если в комнату зашло домашнее животное"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Actor": [
+        7,
+        8
+      ],
+      "Action": [
+        6
+      ],
+      "LOC": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
   ]
 }

@@ -3,5 +3,18 @@
   "ontology-label": "TVSet",
   "text": [
     "где пульт от телевизора"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ],
+      "DEVICE": [
+        3
+      ]
+    }
   ]
 }

@@ -3,5 +3,18 @@
   "ontology-label": "HeaterController",
   "text": [
     "сделай потеплее обогреватель"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ],
+      "DEVICE": [
+        2
+      ]
+    }
   ]
 }

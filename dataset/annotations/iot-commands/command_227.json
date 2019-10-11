@@ -3,5 +3,16 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "Включи резервное питание"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
   ]
 }

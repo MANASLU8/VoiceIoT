@@ -3,5 +3,19 @@
   "ontology-label": "SmartFeeder",
   "text": [
     "не корми кота так часто"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "IntensityQuantifier": [
+        4
+      ]
+    }
   ]
 }

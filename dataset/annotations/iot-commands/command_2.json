@@ -3,5 +3,23 @@
   "ontology-label": "WashingMachine",
   "text": [
     "включи стирку а потом отжим"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
   ]
 }

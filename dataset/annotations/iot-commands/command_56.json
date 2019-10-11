@@ -3,5 +3,30 @@
   "ontology-label": "CoffeeMachine",
   "text": [
     "включить кофемашину через число минуты после будильника"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1,
+        6
+      ],
+      "DeviceParameterValue": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
   ]
 }

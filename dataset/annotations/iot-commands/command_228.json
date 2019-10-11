@@ -3,5 +3,21 @@
   "ontology-label": "SmartCar",
   "text": [
     "На сколько времени хватит топлива"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "FeatureState": [
+        3
+      ],
+      "DeviceFeature": [
+        4
+      ]
+    }
   ]
 }

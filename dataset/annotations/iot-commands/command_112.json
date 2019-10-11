@@ -2,5 +2,20 @@
   "utterance-type": "Request",
   "text": [
     "автоматически проверяй исправность умного дома"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ],
+      "CommandFeature": [
+        0,
+        3,
+        4
+      ]
+    }
   ]
 }

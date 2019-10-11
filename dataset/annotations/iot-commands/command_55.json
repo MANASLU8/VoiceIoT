@@ -3,5 +3,18 @@
   "ontology-label": "LightSensor",
   "text": [
     "сделай слабее свет"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Quantor": [
+        1
+      ]
+    }
   ]
 }

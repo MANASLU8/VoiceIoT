@@ -3,5 +3,23 @@
   "ontology-label": "AudioSystem",
   "text": [
     "включай ежедневную подборку музыки к моему приходу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "СommandFeature": [
+        1,
+        2,
+        3
+      ],
+      "Actor": [
+        5
+      ],
+      "Aсtion": [
+        6
+      ]
+    }
   ]
 }

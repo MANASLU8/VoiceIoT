@@ -2,5 +2,26 @@
   "utterance-type": "Command",
   "text": [
     "Осмотри поле Если увидишь мусор убери"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        5
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
   ]
 }

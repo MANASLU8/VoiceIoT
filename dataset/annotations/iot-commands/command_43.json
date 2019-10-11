@@ -3,5 +3,26 @@
   "ontology-label": "WaterSupplySensor",
   "text": [
     "я хочу принять ванну"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1,
+        2
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "Device": [
+        3
+      ]
+    }
   ]
 }

@@ -2,5 +2,16 @@
   "utterance-type": "IndirectCommand",
   "text": [
     "я в отпуск"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1,
+        2
+      ]
+    }
   ]
 }

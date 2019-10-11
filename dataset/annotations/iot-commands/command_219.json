@@ -3,5 +3,16 @@
   "ontology-label": "SmartCar",
   "text": [
     "Когда следующий Технический Осмотр"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2,
+        3
+      ]
+    }
   ]
 }

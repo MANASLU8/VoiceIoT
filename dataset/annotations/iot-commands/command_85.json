@@ -3,5 +3,22 @@
   "ontology-label": "MotionSensor",
   "text": [
     "входил ли кто-то в мою комнату сегодня"
+  ],
+  "slots-indices": [
+    {
+      "Action": [
+        0
+      ],
+      "Actor": [
+        2,
+        4
+      ],
+      "LOC": [
+        5
+      ],
+      "Duration": [
+        6
+      ]
+    }
   ]
 }

@@ -3,5 +3,34 @@
   "ontology-label": "HeaterController",
   "text": [
     "установить температуру число градуса в ночное время когда я буду спать"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceParameter": [
+        1,
+        3
+      ],
+      "DeviceParameterValue": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        4,
+        5,
+        6
+      ]
+    }
   ]
 }

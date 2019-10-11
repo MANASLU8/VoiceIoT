@@ -3,5 +3,50 @@
   "ontology-label": "DoorRelay",
   "text": [
     "Активировать блокировку входной двери если в нее звонит незнакомец а также выслать уведомление с фотографией на мой телефон"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "Actor": [
+        8
+      ],
+      "Action": [
+        7
+      ]
+    },
+    {
+      "COMMAND": [
+        11
+      ],
+      "CommandFeature": [
+        12,
+        14
+      ],
+      "DEVICE": [
+        16,
+        17
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "6": 3
+    }
+  ],
+  "condition-indices": [
+    4,
+    5,
+    6,
+    7,
+    8
   ]
 }

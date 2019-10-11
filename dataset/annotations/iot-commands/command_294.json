@@ -1,6 +1,16 @@
 {
   "utterance-type": "Command",
   "text": [
-    "Разожги камин "
+    "Разожги камин"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
   ]
 }

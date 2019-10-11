@@ -2,6 +2,19 @@
   "utterance-type": "IndirectCommand",
   "ontology-label": "TVSet",
   "text": [
-    "опять пульт от телевизора потерял "
+    "опять пульт от телевизора потерял"
+  ],
+  "slots-indices": [
+    {
+      "Action": [
+        4
+      ],
+      "DEVICE": [
+        3
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

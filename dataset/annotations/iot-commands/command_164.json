@@ -3,5 +3,22 @@
   "ontology-label": "WaterSupplySensor",
   "text": [
     "когда все разойдутся выключи фонтан и подсветку "
+  ],
+  "slots-indices": [
+    {
+      "Quantor": [
+        1
+      ],
+      "Action": [
+        2
+      ],
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        6
+      ]
+    }
   ]
 }

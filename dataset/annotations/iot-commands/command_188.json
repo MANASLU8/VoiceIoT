@@ -2,5 +2,40 @@
   "utterance-type": "Command",
   "text": [
     "если меня нет дома убирайте листву каждую неделю"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    },
+    {
+      "LOC": [
+        3
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        6,
+        7
+      ]
+    }
   ]
 }

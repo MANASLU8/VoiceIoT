@@ -3,5 +3,26 @@
   "ontology-label": "Quadrocopter",
   "text": [
     "отнеси это домой потом вернись ко мне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        2
+      ]
+    },
+    {
+      "COMMAND": [
+        4
+      ],
+      "Actor": [
+        6
+      ]
+    }
   ]
 }

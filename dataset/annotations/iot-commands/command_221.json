@@ -3,5 +3,24 @@
   "ontology-label": "SmartCar",
   "text": [
     "сколько километров проедет машина"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "DEVICE": [
+        3
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

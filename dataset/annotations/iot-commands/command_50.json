@@ -3,5 +3,26 @@
   "ontology-label": "AudioSystem",
   "text": [
     "отключи музыку когда я засну"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
   ]
 }

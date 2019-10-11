@@ -3,5 +3,22 @@
   "ontology-label": "HeaterController",
   "text": [
     "мне холодно"
+  ],
+  "slots-indices": [
+    {
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        0
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
   ]
 }

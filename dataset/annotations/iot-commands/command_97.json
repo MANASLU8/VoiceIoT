@@ -6,5 +6,33 @@
   ],
   "text": [
     "за час до будильника закрой окно и включи обогреватель"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    },
+    {
+      "COMMAND": [
+        7
+      ],
+      "DEVICE": [
+        8
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
   ]
 }

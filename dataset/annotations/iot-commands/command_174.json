@@ -3,5 +3,31 @@
   "ontology-label": "Quadrocopter",
   "text": [
     "снимай местность пока хватает заряда батареи потом вернись"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureState": [
+        3
+      ],
+      "DeviceFeature": [
+        4,
+        5
+      ]
+    },
+    {
+      "COMMAND": 7
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
   ]
 }

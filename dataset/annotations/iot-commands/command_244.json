@@ -2,5 +2,19 @@
   "utterance-type": "Request",
   "text": [
     "Когда лучше посадить розы"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "DeviceFeature": [
+        2,
+        3
+      ]
+    }
   ]
 }

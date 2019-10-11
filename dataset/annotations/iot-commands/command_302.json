@@ -3,5 +3,26 @@
   "ontology-label": "CoffeeMachine",
   "text": [
     "каждый день проверяй кофемашину в доме"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "LOC": [
+        5
+      ],
+      "DEVICE": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        0,
+        1
+      ]
+    }
   ]
 }

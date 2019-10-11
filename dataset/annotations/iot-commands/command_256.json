@@ -2,5 +2,23 @@
   "utterance-type": "Request",
   "text": [
     "Я могу купить билет у водителя"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "Action": [
+        1,
+        2
+      ],
+      "Actable": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        5
+      ]
+    }
   ]
 }

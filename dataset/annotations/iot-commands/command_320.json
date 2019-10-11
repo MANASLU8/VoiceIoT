@@ -3,5 +3,36 @@
   "ontology-label": "SmartOven",
   "text": [
     "когда я буду дома поставь духовку на число градусов"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "DEVICE": [
+        5
+      ],
+      "DeviceParameterValue": [
+        7
+      ],
+      "DeviceParameter": [
+        8
+      ]
+    },
+    {
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2,
+        3
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
   ]
 }

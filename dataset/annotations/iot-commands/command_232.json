@@ -2,5 +2,18 @@
   "utterance-type": "Request",
   "text": [
     "Какие приборы включены"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ],
+      "FeatureState": [
+        2
+      ]
+    }
   ]
 }

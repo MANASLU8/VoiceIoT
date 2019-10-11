@@ -3,5 +3,16 @@
   "ontology-label": "SmartVacuumCleaner",
   "text": [
     "когда была последняя уборка"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2,
+        3
+      ]
+    }
   ]
 }

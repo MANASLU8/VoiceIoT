@@ -3,5 +3,22 @@
   "ontology-label": "DoorRelay",
   "text": [
     "когда дверь последний раз открывалась"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Action": [
+        4
+      ],
+      "Analytics": [
+        2,
+        3
+      ]
+    }
   ]
 }

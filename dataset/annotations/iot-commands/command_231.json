@@ -2,5 +2,15 @@
   "utterance-type": "Request",
   "text": [
     "Сильный ли ветер"
+  ],
+  "slots-indices": [
+    {
+      "FeatureState": [
+        0
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
   ]
 }

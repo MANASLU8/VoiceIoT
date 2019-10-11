@@ -3,5 +3,25 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "Сколько энергии потребляют лампы"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Analytics": [
+        1,
+        2
+      ]
+    }
   ]
 }

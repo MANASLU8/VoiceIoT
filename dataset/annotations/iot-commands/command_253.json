@@ -3,5 +3,26 @@
   "ontology-label": "Phone",
   "text": [
     "А на чем я могу доехать до поликлиники число"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        1,
+        2
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4,
+        5
+      ],
+      "CommandParameterValue": [
+        8
+      ],
+      "LOC": [
+        7
+      ]
+    }
   ]
 }

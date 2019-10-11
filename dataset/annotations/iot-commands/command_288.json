@@ -2,6 +2,16 @@
   "utterance-type": "Command",
   "ontology-label": "LightSensor",
   "text": [
-    "включи светомузыку "
+    "включи светомузыку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

@@ -3,5 +3,45 @@
   "ontology-label": "WaterSupplySensor",
   "text": [
     "проверяй нет ли протечки каждые число минуты пока включена посудомоечная машина"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "DEVICE": [
+        9,
+        10
+      ],
+      "CommandParameterValue": [
+        5
+      ]
+    },
+    {
+      "DeviceState": [
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        4,
+        5,
+        6
+      ]
+    }
   ]
 }

@@ -3,5 +3,20 @@
   "ontology-label": "LightSensor",
   "text": [
     "когда стемнеет включи подсветку фонтана"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1
   ]
 }

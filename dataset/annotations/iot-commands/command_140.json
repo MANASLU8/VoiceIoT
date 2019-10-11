@@ -3,5 +3,28 @@
   "ontology-label": "SmartFridge",
   "text": [
     "есть ли дома сливочное масло"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0,
+        1
+      ],
+      "LOC": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        3,
+        4
+      ]
+    }
   ]
 }

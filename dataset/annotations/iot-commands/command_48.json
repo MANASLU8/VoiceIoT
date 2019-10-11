@@ -3,5 +3,36 @@
   "ontology-label": "CoffeeMachine",
   "text": [
     "вари кофе каждый день когда я просыпаюсь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    4,
+    5,
+    6
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        2,
+        3
+      ]
+    }
   ]
 }

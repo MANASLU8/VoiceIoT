@@ -4,10 +4,10 @@
   "ontology-label": [
     "TemperatureSensor",
     "DoorWindowStatusSensor",
-    " WindowRelay"
+    "WindowRelay"
   ],
   "text": [
-    "если  будет холодно то закрой окно"
+    "если будет холодно то закрой окно"
   ],
   "slots-indices": [
     {

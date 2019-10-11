@@ -3,5 +3,43 @@
   "ontology-label": "Quadrocopter",
   "text": [
     "если закончится заряд лети на зарядную станцию после подзарядки продолжай"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        5,
+        6
+      ]
+    },
+    {
+      "FeatureState": [
+        1
+      ],
+      "DeviceFeature": [
+        2
+      ]
+    },
+    {
+      "COMMAND": [
+        9
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        7,
+        8,
+        9
+      ]
+    }
   ]
 }

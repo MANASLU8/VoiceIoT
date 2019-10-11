@@ -3,5 +3,40 @@
   "ontology-label": "SmartFridge",
   "text": [
     "Если было взято спиртное посчитай на сколько уменьшился вес каждой бутылки"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        6
+      ],
+      "COMMAND": [
+        4
+      ],
+      "FeatureState": [
+        7,
+        8
+      ],
+      "Quantor": [
+        9
+      ],
+      "CommandFeature": [
+        10
+      ]
+    },
+    {
+      "Actor": [
+        3
+      ],
+      "Action": [
+        1,
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3
   ]
 }

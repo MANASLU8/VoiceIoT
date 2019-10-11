@@ -3,5 +3,23 @@
   "ontology-label": "Phone",
   "text": [
     "Сколько по времени ехать до ст метро Горьковская"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Action": [
+        3
+      ],
+      "LOC": [
+        5,
+        6,
+        7
+      ]
+    }
   ]
 }

@@ -2,5 +2,18 @@
   "utterance-type": "Command",
   "text": [
     "подготовь комнату к танцам"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        1
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
   ]
 }

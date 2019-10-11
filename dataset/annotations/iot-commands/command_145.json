@@ -3,5 +3,41 @@
   "ontology-label": "SmartFridge",
   "text": [
     "требует ли данный холодильник разморозки если требует то как часто холодильник нужно размораживать"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "DEVICE": [
+        2,
+        3
+      ],
+      "CommandFeature": [
+        4
+      ]
+    },
+    {
+      "ParameterValueQuestion": [
+        8,
+        9
+      ],
+      "DEVICE": [
+        10
+      ],
+      "Action": [
+        12
+      ]
+    }
+  ],
+  "condition-indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
   ]
 }

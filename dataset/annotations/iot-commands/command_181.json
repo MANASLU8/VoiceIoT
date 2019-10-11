@@ -3,5 +3,68 @@
   "ontology-label": "Quadrocopter",
   "text": [
     "Следуй командам с сервера пока я не скажу возвращаться если сервер будет недоступен возвращайся ко мне или на зарядную станцию"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "FeatureState": [
+        12
+      ],
+      "CommandFeature": [
+        10
+      ],
+      "COMMAND": [
+        13
+      ],
+      "LOC": [
+        14,
+        15,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        7,
+        8
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
   ]
 }

@@ -2,5 +2,44 @@
   "utterance-type": "Command",
   "text": [
     "Не убирайте снег и не стригите траву если во дворе кто-то есть"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    },
+    {
+      "Actor": [
+        10
+      ],
+      "Action": [
+        11
+      ],
+      "LOC": [
+        8,
+        9
+      ]
+    },
+    {
+      "COMMAND": [
+        4,
+        5
+      ],
+      "CommandFeature": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    7,
+    8,
+    9,
+    10,
+    11
   ]
 }

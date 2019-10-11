@@ -3,5 +3,18 @@
   "ontology-label": "SmartCar",
   "text": [
     "Сколько топлива в машине"
+  ],
+  "slots-indices": [
+    {
+      "DeviceQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "DEVICE": [
+        3
+      ]
+    }
   ]
 }

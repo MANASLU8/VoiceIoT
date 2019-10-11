@@ -3,5 +3,26 @@
   "ontology-label": "SmartKettle",
   "text": [
     "Когда я приду сделай чай"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ],
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2
   ]
 }

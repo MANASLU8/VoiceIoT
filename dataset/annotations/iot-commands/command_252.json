@@ -3,5 +3,22 @@
   "ontology-label": "Phone",
   "text": [
     "Мне нужно добраться до число поликлиники"
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        0
+      ],
+      "COMMAND": [
+        1,
+        2
+      ],
+      "CommandParameterValue": [
+        4
+      ],
+      "LOC": [
+        5
+      ]
+    }
   ]
 }

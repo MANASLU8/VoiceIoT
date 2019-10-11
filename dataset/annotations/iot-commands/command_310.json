@@ -2,5 +2,37 @@
   "utterance-type": "Command",
   "text": [
     "если будет больше число градусов включи кондиционер на кухне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "DEVICE": [
+        6
+      ]
+    },
+    {
+      "LOC": [
+        8
+      ],
+      "DeviceParameter": [
+        4
+      ],
+      "DeviceParameterValue": [
+        3
+      ],
+      "Quantor": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
   ]
 }

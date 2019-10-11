@@ -3,5 +3,15 @@
   "ontology-label": "Phone",
   "text": [
     "заплати за отопление"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
   ]
 }

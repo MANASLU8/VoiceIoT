@@ -3,5 +3,26 @@
   "ontology-label": "SmartOven",
   "text": [
     "Включи готовку в время вечера"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "CommandParameterValue": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4
+      ]
+    }
   ]
 }

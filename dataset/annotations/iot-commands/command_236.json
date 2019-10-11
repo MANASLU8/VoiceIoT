@@ -2,5 +2,24 @@
   "utterance-type": "Command",
   "text": [
     "Поливай секцию пять число минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4
+      ]
+    }
   ]
 }

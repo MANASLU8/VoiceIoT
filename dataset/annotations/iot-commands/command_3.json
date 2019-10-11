@@ -3,5 +3,18 @@
   "ontology-label": "WashingMachine",
   "text": [
     "сколько раз за месяц я стирал"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Actor": [
+        4
+      ],
+      "Action": [
+        5
+      ]
+    }
   ]
 }

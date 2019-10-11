@@ -2,5 +2,21 @@
   "utterance-type": "IndirectCommand",
   "text": [
     "Не убирайте листву при сильном ветре"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    3,
+    4,
+    5
   ]
 }

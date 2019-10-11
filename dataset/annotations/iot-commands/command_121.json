@@ -3,5 +3,19 @@
   "ontology-label": "LightSensor",
   "text": [
     "сколько лампочек нужно заменить"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureState": [
+        2,
+        3
+      ]
+    }
   ]
 }

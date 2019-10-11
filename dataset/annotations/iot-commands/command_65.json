@@ -3,5 +3,15 @@
   "ontology-label": "TemperatureSensor",
   "text": [
     "какая сейчас температура"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "DeviceParameter": [
+        2
+      ]
+    }
   ]
 }

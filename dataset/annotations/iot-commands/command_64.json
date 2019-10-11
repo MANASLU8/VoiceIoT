@@ -3,5 +3,16 @@
   "ontology-label": "WindowRelay",
   "text": [
     "проветри зал и кухню"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3
+      ]
+    }
   ]
 }

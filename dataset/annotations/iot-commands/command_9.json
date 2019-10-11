@@ -3,5 +3,30 @@
   "ontology-label": "AudioSystem",
   "text": [
     "включай аудиосистему когда я прихожу домой"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
   ]
 }

@@ -3,5 +3,15 @@
   "ontology-label": "SmartBreadMaker",
   "text": [
     "Приготовь хлеб"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

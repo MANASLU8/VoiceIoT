@@ -3,5 +3,15 @@
   "ontology-label": "AudioSystem",
   "text": [
     "слишком громко"
+  ],
+  "slots-indices": [
+    {
+      "IntensityQuantifier": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

@@ -3,5 +3,32 @@
   "ontology-label": "SmartIron",
   "text": [
     "Если утюг всё еще включен отключить его"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "DEVICE": [
+        1
+      ],
+      "DeviceState": [
+        4
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "7": [
+        1
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
   ]
 }

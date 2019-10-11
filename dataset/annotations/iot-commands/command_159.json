@@ -3,5 +3,20 @@
   "ontology-label": "MotionSensor",
   "text": [
     "на втором этаже кто-нибудь есть"
+  ],
+  "slots-indices": [
+    {
+      "Action": [
+        4
+      ],
+      "Actor": [
+        3
+      ],
+      "LOC": [
+        0,
+        1,
+        2
+      ]
+    }
   ]
 }

@@ -3,5 +3,38 @@
   "ontology-label": "HeaterController",
   "text": [
     "Отопление включай за два часа до прихода отключай при выходе"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        1
+      ],
+      "DEVICE": [
+        0
+      ]
+    },
+    {
+      "COMMAND": [
+        7
+      ],
+      "DEVICE": [
+        0
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    8,
+    9
   ]
 }

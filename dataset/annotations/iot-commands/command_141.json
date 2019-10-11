@@ -3,5 +3,35 @@
   "ontology-label": "SmartFridge",
   "text": [
     "включи в морозилке быструю заморозку на число минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ],
+      "DeviceParameterValue": [
+        6
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        2
+      ]
+    }
   ]
 }

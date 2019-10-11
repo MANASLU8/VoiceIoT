@@ -3,5 +3,19 @@
   "ontology-label": "AudioSystem",
   "text": [
     "выведи текст песни на экран телефона"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
   ]
 }

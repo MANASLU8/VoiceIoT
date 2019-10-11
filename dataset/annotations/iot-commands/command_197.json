@@ -3,5 +3,41 @@
   "ontology-label": "SmartOven",
   "text": [
     "Когда что-то подгорит на плите выключить ее и установить вытяжку на максимальный режим"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        5
+      ],
+      "DEVICE": [
+        4
+      ]
+    },
+    {
+      "COMMAND": [
+        8
+      ],
+      "DEVICE": [
+        9
+      ],
+      "CommandParameter": [
+        12
+      ],
+      "CommandParameterValue": [
+        11
+      ]
+    }
+  ],
+  "coreference": [
+    {
+      "6": 4
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4
   ]
 }

@@ -3,5 +3,21 @@
   "ontology-label": "SmartCar",
   "text": [
     "сколько я проехал километров"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Actor": [
+        1
+      ],
+      "Action": [
+        2
+      ],
+      "DeviceFeature": [
+        3
+      ]
+    }
   ]
 }

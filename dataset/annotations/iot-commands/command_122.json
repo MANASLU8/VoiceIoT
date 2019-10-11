@@ -3,5 +3,28 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "какое количество электроэнергии в этом месяце было затрачено водонагревателем"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "Action": [
+        6,
+        7
+      ],
+      "DEVICE": [
+        8
+      ],
+      "ParameterFeature": [
+        1,
+        2
+      ],
+      "Duration": [
+        3,
+        4,
+        5
+      ]
+    }
   ]
 }

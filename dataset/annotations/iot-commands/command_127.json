@@ -3,5 +3,13 @@
   "ontology-label": "SmartVacuumCleaner",
   "text": [
     "начинай пылесосить"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        1
+      ]
+    }
   ]
 }

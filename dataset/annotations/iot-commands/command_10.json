@@ -3,5 +3,43 @@
   "ontology-label": "AudioSystem",
   "text": [
     "сделай музыку тише если зазвонит телефон или позвонят в дверь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Quantor": [
+        2
+      ]
+    },
+    {
+      "Actor": [
+        5
+      ],
+      "Action": [
+        4
+      ]
+    },
+    {
+      "Action": [
+        7
+      ],
+      "CommandFeature": [
+        9
+      ]
+    }
+  ],
+  "condition-indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
   ]
 }

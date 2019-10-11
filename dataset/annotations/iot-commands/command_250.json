@@ -3,5 +3,22 @@
   "ontology-label": "LightSensor",
   "text": [
     "выключи подсветку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
   ]
 }

@@ -3,5 +3,47 @@
   "ontology-label": "AlarmClock",
   "text": [
     "поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        3
+      ],
+      "DeviceParameterValue": [
+        5
+      ],
+      "CommandFeature": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        17,
+        18,
+        19
+      ]
+    }
   ]
 }

@@ -3,5 +3,28 @@
   "ontology-label": "WindowRelay",
   "text": [
     "открой шторы если слишком темно"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        4
+      ],
+      "IntensityQuantifier": [
+        3
+      ],
+      "LOC": [
+        1,
+        2
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4
   ]
 }

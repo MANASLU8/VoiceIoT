@@ -3,5 +3,15 @@
   "ontology-label": "AudioSystem",
   "text": [
     "переключи трек"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
   ]
 }

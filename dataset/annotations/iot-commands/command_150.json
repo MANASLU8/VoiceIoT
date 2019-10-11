@@ -2,5 +2,16 @@
   "utterance-type": "IndirectCommand",
   "text": [
     "подготовить обстановку к работе"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        3
+      ]
+    }
   ]
 }

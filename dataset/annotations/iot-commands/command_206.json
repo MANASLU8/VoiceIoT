@@ -6,5 +6,47 @@
   ],
   "text": [
     "Каждый раз когда я буду приходить домой включить свет в прихожей и чайник"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        7
+      ],
+      "Devicefeature": [
+        8
+      ],
+      "LOC": [
+        10
+      ],
+      "DEVICE": [
+        12
+      ]
+    },
+    {
+      "Actor": [
+        3
+      ],
+      "Action": [
+        5
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        0,
+        1
+      ]
+    }
   ]
 }

@@ -3,5 +3,12 @@
   "ontology-label": "WindowRelay",
   "text": [
     "Проветри сейчас"
+  ],
+  "slots-indices": [
+    {
+      "Command": [
+        0
+      ]
+    }
   ]
 }

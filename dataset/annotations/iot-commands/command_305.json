@@ -3,5 +3,47 @@
   "ontology-label": "SmartOven",
   "text": [
     "если я завтра приду домой до время сделай мне еды"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        7
+      ],
+      "CommandFeature": [
+        9
+      ]
+    },
+    {
+      "Actor": [
+        1
+      ],
+      "Action": [
+        3
+      ],
+      "LOC": [
+        4
+      ],
+      "CommandParameterValue": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        5,
+        6
+      ]
+    }
   ]
 }

@@ -3,5 +3,40 @@
   "ontology-label": "SmartOven",
   "text": [
     "включи духовку на число минут на число градусов затем на число минут на число"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        1
+      ],
+      "DeviceParameterValue": [
+        3,
+        6,
+        10,
+        13
+      ],
+      "DeviceFeature": [
+        7
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        9,
+        10,
+        11
+      ]
+    }
   ]
 }

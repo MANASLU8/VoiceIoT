@@ -3,5 +3,25 @@
   "ontology-label": "SmartFridge",
   "text": [
     "что из еды осталось"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "FeatureState": [
+        3
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        2
+      ]
+    }
   ]
 }

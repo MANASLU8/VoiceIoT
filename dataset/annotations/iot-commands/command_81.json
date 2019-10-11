@@ -3,5 +3,18 @@
   "ontology-label": "DoorRelay",
   "text": [
     "проверь заперта ли дверь"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
   ]
 }

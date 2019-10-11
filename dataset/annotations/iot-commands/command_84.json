@@ -3,5 +3,17 @@
   "ontology-label": "DoorRelay",
   "text": [
     "заблокируй двери на вход"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2,
+        4
+      ]
+    }
   ]
 }

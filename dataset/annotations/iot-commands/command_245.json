@@ -2,5 +2,20 @@
   "utterance-type": "Command",
   "text": [
     "Полей все ягоды и немного огурцы"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0,
+        4
+      ],
+      "CommandFeature": [
+        2,
+        5
+      ],
+      "Quantor": [
+        1
+      ]
+    }
   ]
 }

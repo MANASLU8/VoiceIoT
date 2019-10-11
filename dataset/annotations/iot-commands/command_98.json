@@ -3,5 +3,22 @@
   "ontology-label": "WindowRelay",
   "text": [
     "когда последний раз снимали занавески"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        4
+      ],
+      "Action": [
+        3
+      ],
+      "Analytics": [
+        1,
+        2
+      ]
+    }
   ]
 }

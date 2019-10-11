@@ -3,5 +3,44 @@
   "ontology-label": "Quadrocopter",
   "text": [
     "Осматривай поле и показывай видео на сервер Дальнейшие команды получай от него"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        3
+      ],
+      "CommandFeature": [
+        4,
+        6
+      ]
+    },
+    {
+      "COMMAND": [
+        9
+      ],
+      "CommandFeature": [
+        7,
+        8
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "coreference": [
+    {
+      "11": 6
+    }
   ]
 }

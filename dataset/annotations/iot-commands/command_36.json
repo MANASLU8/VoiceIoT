@@ -3,5 +3,16 @@
   "ontology-label": "SmartElectricityMeter",
   "text": [
     "распечатай показания счетчиков"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1,
+        2
+      ]
+    }
   ]
 }

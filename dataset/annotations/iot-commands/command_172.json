@@ -3,5 +3,34 @@
   "ontology-label": "Quadrocopter",
   "text": [
     "летай над местностью если сработает датчик дыма сообщи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ]
+    },
+    {
+      "COMMAND": [
+        7
+      ],
+      "Actor": [
+        5,
+        6
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ],
+  "condition-indices": [
+    3,
+    4,
+    5,
+    6,
+    7
   ]
 }

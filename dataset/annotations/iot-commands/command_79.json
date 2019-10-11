@@ -3,5 +3,21 @@
   "ontology-label": "DoorRelay",
   "text": [
     "проверь закрыты ли входная дверь и ворота гаража"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "FeatureState": [
+        1
+      ],
+      "CommandFeature": [
+        3,
+        4,
+        6,
+        7
+      ]
+    }
   ]
 }

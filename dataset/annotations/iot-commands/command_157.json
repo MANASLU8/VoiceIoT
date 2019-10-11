@@ -3,5 +3,22 @@
   "ontology-label": "HeaterController",
   "text": [
     "здесь слишком холодно"
+  ],
+  "slots-indices": [
+    {
+      "LOC": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        2
+      ]
+    }
   ]
 }

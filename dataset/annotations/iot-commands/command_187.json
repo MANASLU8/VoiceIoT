@@ -1,6 +1,39 @@
 {
   "utterance-type": "Command",
   "text": [
-    "Стригите траву каждый месяц убирайте листву каждые три дня "
+    "Стригите траву каждый месяц убирайте листву каждые три дня"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    },
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    },
+    {
+      "time:DateTimeDescription": [
+        6,
+        7,
+        8
+      ]
+    }
   ]
 }

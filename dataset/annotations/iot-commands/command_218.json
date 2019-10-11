@@ -3,5 +3,15 @@
   "ontology-label": "SmartCar",
   "text": [
     "Когда следующее ТО"
+  ],
+  "slots-indices": [
+    {
+      "ParameterValueQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
   ]
 }

@@ -3,5 +3,28 @@
   "ontology-label": "Phone",
   "text": [
     "сколько времени займет дорога от А до Б с учетом пробок"
+  ],
+  "slots-indices": [
+    {
+      "RequestQuestion": [
+        0
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        2
+      ],
+      "CommandFeature": [
+        1,
+        8,
+        9,
+        10
+      ],
+      "LOC": [
+        5,
+        7
+      ]
+    }
   ]
 }

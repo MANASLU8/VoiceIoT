@@ -2,6 +2,22 @@
   "utterance-type": "Request",
   "ontology-label": "SmartFeeder",
   "text": [
-    "ты сегодня кормила кота "
+    "ты сегодня кормила кота"
+  ],
+  "slots-indices": [
+    {
+      "Action": [
+        2
+      ],
+      "Actor": [
+        0
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "Duration": [
+        1
+      ]
+    }
   ]
 }

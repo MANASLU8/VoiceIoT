@@ -3,5 +3,25 @@
   "ontology-label": "WindowRelay",
   "text": [
     "в комнате душно проветри"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        3
+      ],
+      "LOCCurrent": [
+        1
+      ],
+      "LOC": [
+        1
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "CommandFeature": [
+        2
+      ]
+    }
   ]
 }
