@@ -18,8 +18,8 @@ paths:
   datasets:
     root: dataset
     annotations: dataset/annotations
-    flawy-denormalized: flawy.json
-    nice-denormalized: nice.json
+    flawy-denormalized: dataset/denormalized-annotations/flawy.json
+    nice-denormalized: dataset/denormalized-annotations/nice.json
     iot-commands:
       data: dataset/iot-commands/data.txt
       annotations: dataset/annotations/iot-commands
