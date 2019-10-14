@@ -1,6 +1,6 @@
 import collections
 import json
-lemmas = collections.defaultdict(lambda: collections.defaultdict(list))
+lemmas = collections.defaultdict(lambda: collections.defaultdict(lambda: ['']))
 
 def write_json(filename, content):
 	with open(filename, "w") as f:
@@ -21,11 +21,14 @@ for key in lemmas:
 requests = {}
 for key in lemmas:
 	for system in lemmas[key]['system']:
-		requests[system] = dict()
+		if not system in requests:
+			requests[system] = dict()
 		for feature in lemmas[key]['feature']:
-			requests[system][feature] = dict()
+			if feature not in requests[system]:
+				requests[system][feature] = dict()
 			for command in lemmas[key]['command']:
-				requests[system][feature][command] = dict()
+				if command not in requests[system][feature]:
+					requests[system][feature][command] = dict()
 				for param in lemmas[key]['param']:
 					requests[system][feature][command][param] = '<REQUEST_TYPE>'
 
