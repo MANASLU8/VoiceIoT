@@ -1,125 +1,163 @@
 {
   "TemperatureSensor": [
     {
-      "text": "какая сегодня температура",
-      "slots": [
-        "CommandQuestion",
-        "DeviceParameterValue"
-      ]
-    },
-    {
-      "text": "закрой занавески если слишком холодно",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "IntensityQuantifier"
-      ]
-    },
-    {
-      "text": "покажи карту температур в доме",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "LOC"
-      ]
-    },
-    {
-      "text": "сколько сейчас градусов на улице",
+      "text": "какая сейчас температура",
       "slots": [
         "ParameterValueQuestion",
-        "DeviceFeature",
-        "LOC"
+        "NoLabel",
+        "DeviceParameter"
       ]
     },
     {
-      "text": "проветри зал и кухню",
+      "text": "поддерживай температуру в комнате на уровне число",
       "slots": [
         "COMMAND",
+        "DeviceFeature",
+        "NoLabel",
         "LOC",
-        "LOC"
-      ]
-    },
-    {
-      "text": "установи температуру на число и кислотность на число",
-      "slots": [
-        "COMMAND",
+        "NoLabel",
         "DeviceFeature",
-        "DeviceFeature",
-        "DeviceParameterValue",
         "DeviceParameterValue"
       ]
     },
     {
-      "text": "днем включи обогреватель в спальне",
+      "text": "если на улице больше число температура включи электроотопление",
       "slots": [
+        "NoLabel",
+        "LOC",
+        "LOC",
+        "NoLabel",
+        "CommandParameterValue",
+        "CommandParameter",
         "COMMAND",
-        "DEVICE",
-        "LOC"
+        "DEVICE"
       ]
     },
     {
-      "text": "очень жарко",
+      "text": "держи температуру в комнате на уровне число",
       "slots": [
-        "IntensityQuantifier"
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "NoLabel",
+        "CommandParameterValue"
+      ]
+    },
+    {
+      "text": "помоему температура определяется неверно",
+      "slots": [
+        "Action",
+        "CommandFeature",
+        "FeatureState",
+        "FeatureState"
+      ]
+    },
+    {
+      "text": "если станет жарко тогда открой дверь",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "COMMAND",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "если меня нет дома не включай кондиционер",
+      "slots": [
+        "NoLabel",
+        "Actor",
+        "Action",
+        "LOC",
+        "NoLabel",
+        "COMMAND",
+        "DEVICE"
+      ]
+    },
+    {
+      "text": "какая сейчас температура",
+      "slots": [
+        "ParameterValueQuestion",
+        "NoLabel",
+        "DeviceParameter"
       ]
     }
   ],
   "WindowRelay": [
     {
-      "text": "проветривай помещение каждые число минут в течение число минут избегая сквозняков",
+      "text": "открой окно на кухне на 30 градусов",
       "slots": [
         "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature",
-        "DeviceParameterValue",
-        "DeviceParameterValue"
+        "DeviceFeature",
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "CommandParameterValue",
+        "CommandParameter"
       ]
     },
     {
       "text": "в комнате душно проветри",
       "slots": [
-        "COMMAND",
-        "LOCCurrent",
-        "LOC"
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "COMMAND"
       ]
     },
     {
-      "text": "если будет холодно закрой окно",
+      "text": "проветривай во время моего сна",
       "slots": [
         "COMMAND",
-        "CommandFeature",
-        "CommandFeature"
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     },
     {
-      "text": "подними жалюзи",
+      "text": "в комнате душно проветри",
       "slots": [
-        "COMMAND",
-        "DeviceFeature"
-      ]
-    },
-    {
-      "text": "если будет холодно закрой окно",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature"
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "COMMAND"
       ]
     },
     {
       "text": "когда последний раз снимали занавески",
       "slots": [
         "ParameterValueQuestion",
-        "CommandFeature",
-        "Action",
         "Analytics",
-        "Analytics"
+        "Analytics",
+        "Action",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "проветрить здесь пока я буду на кухне",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
+        "LOC"
       ]
     }
   ],
   "CurtainsRelay": [
+    {
+      "text": "убери шторы",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ]
+    },
     {
       "text": "опусти жалюзи",
       "slots": [
@@ -128,34 +166,41 @@
       ]
     },
     {
-      "text": "если за окном рассвет открой занавески",
+      "text": "если за окном солнце открой шторы",
       "slots": [
-        ""
-      ]
-    },
-    {
-      "text": "допустим за окном небо закрой шторы",
-      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "LOC",
+        "NoLabel",
         "COMMAND",
-        "CommandFeature",
-        "LOC"
+        "CommandFeature"
       ]
     }
   ],
   "HeaterController": [
     {
-      "text": "закрыть дверь если холодно",
+      "text": "включай отопление в спальне",
       "slots": [
         "COMMAND",
-        "CommandFeature"
+        "DeviceFeature",
+        "NoLabel",
+        "LOC"
       ]
     },
     {
-      "text": "здесь слишком жарко",
+      "text": "закрыть дверь если холодно",
       "slots": [
+        "COMMAND",
         "CommandFeature",
-        "IntensityQuantifier",
-        "LOCCurrent"
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "сделай похолоднее",
+      "slots": [
+        "COMMAND",
+        "NoLabel"
       ]
     },
     {
@@ -163,25 +208,8 @@
       "slots": [
         "COMMAND",
         "DeviceFeature",
+        "NoLabel",
         "LOC"
-      ]
-    },
-    {
-      "text": "установить температуру число градуса в ночное время когда я буду спать",
-      "slots": [
-        "COMMAND",
-        "DeviceParameter",
-        "DeviceParameter",
-        "DeviceParameterValue"
-      ]
-    },
-    {
-      "text": "в время включи обогреватель на кухне на число",
-      "slots": [
-        "COMMAND",
-        "DEVICE",
-        "LOC",
-        "DeviceParameterValue"
       ]
     },
     {
@@ -189,124 +217,29 @@
       "slots": [
         "COMMAND",
         "CommandFeature",
+        "NoLabel",
         "Quantor",
         "LOC"
+      ]
+    },
+    {
+      "text": "мне холодно",
+      "slots": [
+        "Actor",
+        "CommandFeature"
       ]
     }
   ],
   "AudioSystem": [
     {
-      "text": "прочитай передачи тогда я засну",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor",
-        "Action"
-      ]
-    },
-    {
-      "text": "выключи музыку когда я выйду из квартиры",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ]
-    },
-    {
-      "text": "добавь песню в мою коллекцию",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature"
-      ]
-    },
-    {
-      "text": "отключи песню когда я засну",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor",
-        "Action"
-      ]
-    },
-    {
-      "text": "мои любимые песни",
-      "slots": [
-        "DeviceFeature",
-        "DeviceFeature",
-        "DeviceFeature"
-      ]
-    },
-    {
-      "text": "включи аудиосистему если я приду домой",
+      "text": "включи стереосистему если я приду домой",
       "slots": [
         "COMMAND",
         "DEVICE",
-        "Actor",
-        "Action",
-        "LOC"
-      ]
-    },
-    {
-      "text": "если я засну включи чтонибудь погромче",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature"
-      ]
-    },
-    {
-      "text": "увеличь громкость чтобы не мешал шум ",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ]
-    },
-    {
-      "text": "выключи динамики на кухне и включи их в спальне",
-      "slots": [
-        "COMMAND",
-        "COMMAND",
-        "CommandFeature",
-        "LOC",
-        "LOC",
-        "LOC",
-        "LOC"
-      ]
-    },
-    {
-      "text": "выключи аудиосистему когда я возвращаюсь домой",
-      "slots": [
-        "COMMAND",
-        "DEVICE"
-      ]
-    },
-    {
-      "text": "найди клип к этой песне на youtube и воспроизведи его на телефоне",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature"
-      ]
-    },
-    {
-      "text": "выключи динамики на кухне и в спальне",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "LOC",
-        "LOC"
-      ]
-    },
-    {
-      "text": "включай аудиосистему когда я прихожу домой",
-      "slots": [
-        "COMMAND",
-        "DEVICE",
-        "Actor",
-        "Action",
-        "LOC"
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     },
     {
@@ -315,56 +248,202 @@
         "IntensityQuantifier",
         "CommandFeature"
       ]
+    },
+    {
+      "text": "найди клип к этой песне на youtube и воспроизведи его на телефоне",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "отключи музыку когда я засну",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "Action"
+      ]
+    },
+    {
+      "text": "включай аудиосистему если я возвращаюсь домой",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "включи аудиосистему когда я приду домой",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "включай аудиосистему когда я прихожу домой",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "LOC"
+      ]
+    },
+    {
+      "text": "переключи трек",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "очень тихо",
+      "slots": [
+        "IntensityQuantifier",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "подбирай песни под ритм бега",
+      "slots": [
+        "COMMAND",
+        "DeviceParameter",
+        "NoLabel",
+        "DeviceFeature",
+        "DeviceFeature"
+      ]
+    },
+    {
+      "text": "включай музыку когда я просыпаюсь",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "Action"
+      ]
+    },
+    {
+      "text": "слишком тихо",
+      "slots": [
+        "IntensityQuantifier",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "выключи динамики на кухне и в спальне",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "NoLabel",
+        "LOC"
+      ]
+    },
+    {
+      "text": "текст песни",
+      "slots": [
+        "DeviceFeature",
+        "DeviceFeature"
+      ]
     }
   ],
   "LightSensor": [
     {
-      "text": "выключить освещение в комнатах в вечернее время после время если в них никого нет больше число минут",
+      "text": "выключай свет если я ухожу из прихожей",
       "slots": [
         "COMMAND",
         "CommandFeature",
-        "CommandParameterValue",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "выключай свет если я ухожу из спальни",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
         "Actor",
         "Action",
+        "NoLabel",
         "LOC"
       ]
     },
     {
-      "text": "выключай свет если я выхожу из комнат",
+      "text": "подсвети путь на кухню ",
       "slots": [
         "COMMAND",
         "CommandFeature",
-        "Actor",
-        "Action",
-        "LOC"
-      ]
-    },
-    {
-      "text": "выключай свет когда я выхожу из комнаты",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor",
-        "Action",
-        "LOC"
-      ]
-    },
-    {
-      "text": "если за дверью рассвет открой шторы",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
+        "NoLabel",
         "LOC",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "включи лампочки",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature"
+      ]
+    },
+    {
+      "text": "включай свет когда я захожу в комнату",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
         "LOC"
       ]
     },
     {
-      "text": "сколько лампочек перегорело",
+      "text": "когда стемнеет включи подсветку фонтана",
       "slots": [
-        "RequestQuestion",
+        "NoLabel",
+        "NoLabel",
+        "COMMAND",
         "CommandFeature",
-        "FeatureState"
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "включай свет опять я зашёл в спальню",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
+        "LOC"
       ]
     },
     {
@@ -375,7 +454,23 @@
       ]
     },
     {
-      "text": "когда стемнеет включи подсветку фонтана",
+      "text": "гаси свет в комнате",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "LOC"
+      ]
+    },
+    {
+      "text": "включи светомузыку",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "погаси основной свет",
       "slots": [
         "COMMAND",
         "CommandFeature",
@@ -383,133 +478,127 @@
       ]
     },
     {
-      "text": "имитируй повседневное освещение пока я не дома",
+      "text": "освети комнату",
       "slots": [
         "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "Actor",
-        "Action",
-        "Action"
-      ]
-    },
-    {
-      "text": "выключай свет если я выхожу из комнат",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor",
-        "Action",
         "LOC"
       ]
     },
     {
-      "text": "выключи подсветку",
+      "text": "сделай светло",
       "slots": [
         "COMMAND",
         "CommandFeature"
-      ]
-    },
-    {
-      "text": "включить свет в санузле при наличии внутри коголибо и выключить если никого нет более число минут",
-      "slots": [
-        "COMMAND",
-        "COMMAND",
-        "LOC",
-        "CommandFeature",
-        "Actor",
-        "CommandParameter",
-        "CommandParameterValue"
-      ]
-    },
-    {
-      "text": "выключай свет при моем уходе из комнаты",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor",
-        "Action",
-        "LOC"
-      ]
-    },
-    {
-      "text": "выключай свет если я ухожу из спальни",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor",
-        "Action",
-        "LOC"
       ]
     },
     {
       "text": "ослабь свет и включи успокаивающую музыку",
       "slots": [
         "COMMAND",
-        "CommandFeature"
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     }
   ],
   "Lamp": [
     {
-      "text": "выключай свет когда меня нет в комнате",
+      "text": "включай свет когда я прихожу домой",
       "slots": [
         "COMMAND",
         "CommandFeature",
+        "NoLabel",
         "Actor",
         "Action",
         "LOC"
       ]
     },
     {
-      "text": "меняй каждый день фонарик на время",
+      "text": "выключи свет",
       "slots": [
         "COMMAND",
-        "DeviceFeature",
-        "CommandParameterValue"
+        "DeviceFeature"
       ]
     },
     {
-      "text": "выключи свет в ванной",
+      "text": "выключай свет когда меня нет в комнате",
       "slots": [
         "COMMAND",
-        "DeviceFeature",
+        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "LOC",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "выключай свет если я выхожу из спальни",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
         "LOC"
-      ]
-    },
-    {
-      "text": "выключай свет каждый раз когда я ухожу из гостиной",
-      "slots": [
-        "COMMAND",
-        "Devicefeature"
       ]
     }
   ],
   "SmartIron": [
     {
+      "text": "включи утюг я хочу погладить шелковую блузку",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "Actor",
+        "Action",
+        "CommandFeature",
+        "DeviceParameterValue",
+        "NoLabel"
+      ]
+    },
+    {
       "text": "поставь утюг на шерсть",
       "slots": [
         "COMMAND",
         "DEVICE",
-        "DeviceParameterValue"
-      ]
-    },
-    {
-      "text": "утюг разогрей буду гладить нейлон",
-      "slots": [
-        "COMMAND",
-        "DEVICE",
+        "NoLabel",
         "DeviceParameterValue"
       ]
     }
   ],
   "SmartElectricityMeter": [
     {
+      "text": "сколько в этом году я заплатил за свет",
+      "slots": [
+        "ParameterValueQuestion",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
       "text": "выключи электричество в ванной",
       "slots": [
         "COMMAND",
         "CommandFeature",
+        "NoLabel",
         "LOC"
+      ]
+    },
+    {
+      "text": "включи резервное питание",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature"
       ]
     },
     {
@@ -521,193 +610,180 @@
       ]
     },
     {
-      "text": "сколько энергии потребляют лампы",
+      "text": "какое количество электроэнергии в этом месяце было затрачено водонагревателем",
       "slots": [
-        "RequestQuestion",
-        "Actor",
+        "ParameterValueQuestion",
+        "ParameterFeature",
+        "ParameterFeature",
+        "Duration",
+        "Duration",
+        "Duration",
         "Action",
-        "CommandFeature",
-        "Analytics",
-        "Analytics"
-      ]
-    },
-    {
-      "text": "выключай свет когда я выйду из комнаты",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor",
         "Action",
-        "LOC"
+        "DEVICE"
       ]
     },
     {
-      "text": "включай электричество в комнате",
+      "text": "расход электричества",
       "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "LOC"
-      ]
-    },
-    {
-      "text": "выключи электричество",
-      "slots": [
-        "COMMAND",
+        "DeviceFeature",
         "DeviceFeature"
       ]
     }
   ],
   "TVSet": [
     {
-      "text": "включи телевизор",
+      "text": "делай чуть тише",
       "slots": [
         "COMMAND",
-        "DEVICE"
+        "IntensityQuantifier",
+        "CommandFeature"
       ]
     },
     {
-      "text": "где пульт от телевизора",
+      "text": "опять пульт от телевизора потерял",
       "slots": [
-        "DeviceQuestion",
-        "DeviceFeature",
-        "DEVICE"
+        "NoLabel",
+        "CommandFeature",
+        "NoLabel",
+        "DEVICE",
+        "Action"
       ]
     },
     {
-      "text": "выключи информационноразвлекательную программу если я прихожу домой",
+      "text": "запиши передачу если я засну",
       "slots": [
         "COMMAND",
-        "DeviceFeature",
-        "DeviceFeature",
+        "Devicefeature",
+        "NoLabel",
         "Actor",
-        "Action",
-        "LOC"
+        "Action"
       ]
     }
   ],
   "WashingMachine": [
     {
-      "text": "сколько раз за месяц была стирка",
+      "text": "поставь в расписание стирку на 6 утра",
       "slots": [
-        "RequestQuestion",
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
         "CommandFeature",
-        "Analytics",
-        "Analytics",
-        "Analytics"
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     },
     {
-      "text": "в машинке шелковое белье подбери режим и запусти стирку",
+      "text": "запусти стирку для цветного",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "DeviceParameterValue"
+      ]
+    },
+    {
+      "text": "включай стиральную машину по четвергам",
       "slots": [
         "COMMAND",
         "DEVICE",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandParameter",
-        "CommandParameterValue"
-      ]
-    },
-    {
-      "text": "постирай на 90 градусах",
-      "slots": [
-        "COMMAND",
-        "DeviceParameterValue",
-        "DeviceParameter"
+        "DEVICE",
+        "NoLabel",
+        "NoLabel"
       ]
     }
   ],
   "SmartOven": [
     {
-      "text": "когда чтото подгорит на плите выключить ее и установить вытяжку на максимальный режим",
-      "slots": [
-        "COMMAND",
-        "DEVICE"
-      ]
-    },
-    {
-      "text": "приготовь мне еды к время",
-      "slots": [
-        "COMMAND",
-        "Actor",
-        "CommandFeature"
-      ]
-    },
-    {
-      "text": "приготовь мясо к нашему ужину",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor"
-      ]
-    },
-    {
-      "text": "приготовь мне какиенибудь овощи",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor"
-      ]
-    }
-  ],
-  "AlarmClock": [
-    {
-      "text": "ставь каждый раз будильник на время",
-      "slots": [
-        "COMMAND",
-        "DEVICE",
-        "DeviceParameter"
-      ]
-    },
-    {
-      "text": "если завтра выходной разбуди меня через число часов после выключения света в комнате",
-      "slots": [
-        "COMMAND",
-        "DeviceParameterValue"
-      ]
-    }
-  ],
-  "HumiditySensor": [
-    {
-      "text": "закрыть окно если начался дождь",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature"
-      ]
-    }
-  ],
-  "SmartFridge": [
-    {
-      "text": "сколько мяса осталось",
+      "text": "сколько часов стоит суп в духовке",
       "slots": [
         "RequestQuestion",
+        "Analytics",
+        "Analytics",
         "CommandFeature",
-        "Analytics"
+        "NoLabel",
+        "LOC"
       ]
     },
     {
-      "text": "в холодильнике осталось мясо",
+      "text": "подай печенье на зватрак",
       "slots": [
-        "DEVICE",
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "когда будет готова пицца",
+      "slots": [
+        "ParameterValueQuestion",
+        "FeatureState",
         "FeatureState",
         "CommandFeature"
       ]
     },
     {
-      "text": "нужно ли покупать продукты",
+      "text": "испеки мне еды к время",
       "slots": [
-        "ParameterValueQuestion",
-        "Action",
-        "CommandFeature"
+        "COMMAND",
+        "Actor",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel"
+      ]
+    }
+  ],
+  "AlarmClock": [
+    {
+      "text": "поменяй каждый вечер будильник на время",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "DEVICE",
+        "NoLabel",
+        "DeviceParameterValue"
       ]
     },
     {
-      "text": "какие у нас есть орехи",
+      "text": "если завтра выходной разбуди меня через число часов после выключения света в комнате",
       "slots": [
-        "ParameterValueQuestion",
-        "CommandFeature",
-        "CommandFeature"
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "DeviceParameterValue",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
-    },
+    }
+  ],
+  "HumiditySensor": [
+    {
+      "text": "eсли уровень влажности в комнате меньше n то включи увлажнитель",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "DeviceFeature",
+        "NoLabel",
+        "LOCCurrent",
+        "IntensityQuantifier",
+        "DeviceParameterValue",
+        "NoLabel",
+        "COMMAND",
+        "DEVICE"
+      ]
+    }
+  ],
+  "SmartFridge": [
     {
       "text": "не разрешай детям брать спиртное",
       "slots": [
@@ -719,23 +795,69 @@
       ]
     },
     {
-      "text": "есть ли дома сливочное масло",
+      "text": "сколько мяса осталось",
       "slots": [
-        "ParameterValueQuestion",
-        "ParameterValueQuestion",
-        "LOC",
+        "RequestQuestion",
+        "CommandFeature",
+        "Analytics"
+      ]
+    },
+    {
+      "text": "в холодильнике много испорченного",
+      "slots": [
+        "NoLabel",
+        "DEVICE",
+        "FeatureState",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "если было взято спиртное посчитай на сколько уменьшился вес каждой бутылки",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "COMMAND",
+        "NoLabel",
+        "RequestQuestion",
+        "FeatureState",
+        "FeatureState",
+        "Quantor",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "покажи список продуктов",
+      "slots": [
+        "COMMAND",
         "CommandFeature",
         "CommandFeature"
+      ]
+    },
+    {
+      "text": "сколько дней хранится салат в холодильнике",
+      "slots": [
+        "ParameterValueQuestion",
+        "NoLabel",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "DEVICE"
       ]
     }
   ],
   "DoorWindowStatusSensor": [
     {
-      "text": "если будет жарко значит открой окно",
+      "text": "какие из окон в квартире сейчас открыты",
       "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature"
+        "DeviceQuestion",
+        "NoLabel",
+        "DeviceFeature",
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "FeatureState"
       ]
     },
     {
@@ -744,99 +866,129 @@
         "COMMAND",
         "Quantor",
         "CommandFeature",
+        "NoLabel",
         "LOC"
       ]
     },
     {
-      "text": "проветри там",
+      "text": "если становится жарко закрой дверь",
       "slots": [
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature",
         "COMMAND",
-        "LOCCurrent"
+        "CommandFeature"
       ]
     }
   ],
   "CoffeeMachine": [
     {
-      "text": "когда я зайду сделай кофе",
+      "text": "каждый день проверяй кофемашину в доме",
       "slots": [
+        "NoLabel",
+        "NoLabel",
         "COMMAND",
-        "Actor",
-        "Action",
-        "CommandFeature"
-      ]
-    },
-    {
-      "text": "сделай кофе к моему приходу",
-      "slots": [
-        "COMMAND",
-        "СommandFeature",
-        "Actor",
-        "Aсtion"
-      ]
-    },
-    {
-      "text": "какая кофемашина стоит в комнате",
-      "slots": [
-        "CommandQuestion",
         "DEVICE",
+        "NoLabel",
+        "LOC"
+      ]
+    },
+    {
+      "text": "сколько кофе осталось",
+      "slots": [
+        "RequestQuestion",
+        "DeviceFeature",
+        "Analytics"
+      ]
+    },
+    {
+      "text": "каждый день проверяй кофеварку в доме",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "COMMAND",
+        "DEVICE",
+        "NoLabel",
         "LOC"
       ]
     }
   ],
   "SmartFeeder": [
     {
-      "text": "если песик давно не ел покорми его",
+      "text": "покорми кота на число грамм корма",
       "slots": [
         "COMMAND",
         "CommandFeature",
-        "FeatureState",
-        "FeatureState",
-        "FeatureState"
-      ]
-    },
-    {
-      "text": "насыпай коту меньше корма",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "IntensityQuantifier",
-        "DeviceFeature"
+        "NoLabel",
+        "CommandParameterValue",
+        "CommandParameter",
+        "CommandParameter"
       ]
     },
     {
       "text": "если кот давно не ел покорми его",
       "slots": [
-        "COMMAND",
+        "NoLabel",
         "CommandFeature",
         "FeatureState",
         "FeatureState",
-        "FeatureState"
+        "FeatureState",
+        "COMMAND",
+        "NoLabel"
       ]
     },
     {
       "text": "корми кота шесть раз в день",
       "slots": [
         "COMMAND",
-        "CommandFeature"
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "корми пса три раза в день",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     }
   ],
   "MotionSensor": [
     {
-      "text": "выключай свет если я иду из ванной",
+      "text": "активность в доме",
       "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Actor",
-        "Action",
+        "DeviceFeature",
+        "NoLabel",
         "LOC"
       ]
     },
     {
-      "text": "активность в доме",
+      "text": "кто брал твою машину",
       "slots": [
-        "DeviceFeature",
-        "LOC"
+        "ParameterValueQuestion",
+        "Action",
+        "NoLabel",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "предупреди если автомобиль сзади меня придется очень вплотную",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     },
     {
@@ -846,43 +998,49 @@
         "LOC",
         "LOC"
       ]
-    },
-    {
-      "text": "входил ли ктото в мою комнату сегодня",
-      "slots": [
-        "Action",
-        "Actor",
-        "Actor",
-        "LOC",
-        "Duration"
-      ]
     }
   ],
   "WaterSupplySensor": [
+    {
+      "text": "перекрой подачу воды и включи слив если бассейн наполнится выше заданного уровня",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "я хочу принять ванну",
+      "slots": [
+        "Actor",
+        "Action",
+        "Action",
+        "CommandFeature"
+      ]
+    },
     {
       "text": "проверяй нет ли протечки каждые число минуты пока включена посудомоечная машина",
       "slots": [
         "COMMAND",
         "FeatureState",
+        "NoLabel",
         "CommandFeature",
+        "NoLabel",
+        "CommandParameterValue",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
         "DEVICE",
-        "DEVICE",
-        "CommandParameterValue"
-      ]
-    },
-    {
-      "text": "сделай напор сильнее",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "Quantifier"
-      ]
-    },
-    {
-      "text": "включи воду",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature"
+        "DEVICE"
       ]
     }
   ],
@@ -892,12 +1050,13 @@
       "slots": [
         "COMMAND",
         "CommandFeature",
+        "NoLabel",
         "Actor",
         "Action"
       ]
     },
     {
-      "text": "приготовь хлеб к нашему ужину",
+      "text": "приготовь хлеб",
       "slots": [
         "COMMAND",
         "CommandFeature"
@@ -906,71 +1065,74 @@
   ],
   "SmartVacuumCleaner": [
     {
-      "text": "если меня нет дома не мой пол",
+      "text": "начни уборку после того как я уйду",
       "slots": [
         "COMMAND",
         "CommandFeature",
-        "LOC",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
         "Actor",
         "Action"
       ]
     },
     {
-      "text": "дата прошлой уборки",
+      "text": "пропылесось зал",
       "slots": [
-        "DeviceFeature",
-        "DeviceFeature",
-        "DeviceFeature"
+        "COMMAND",
+        "LOC"
       ]
     },
     {
-      "text": "подмети здесь пока я буду на кухне",
+      "text": "начинай пылесосить",
       "slots": [
         "COMMAND",
-        "LOCCurrent",
-        "Actor",
-        "Action",
-        "LOC"
+        "COMMAND"
       ]
     }
   ],
   "Phone": [
     {
-      "text": "выведи статистику прослушиваний на мобильник",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "DEVICE",
-        "Analytics",
-        "Analytics"
-      ]
-    },
-    {
-      "text": "сколько времени займет дорога от а до б с учетом пробок",
-      "slots": [
-        "RequestQuestion",
-        "Actor",
-        "Action",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature",
-        "LOC",
-        "LOC"
-      ]
-    },
-    {
       "text": "если будет дождь то напомнить взять зонт перед выходом",
       "slots": [
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
         "COMMAND",
         "COMMAND",
         "CommandFeature",
+        "NoLabel",
         "Action"
       ]
     },
     {
-      "text": "заплати за отопление",
+      "text": "у кого или как я могу купить билет",
+      "slots": [
+        "NoLabel",
+        "RequestQuestion",
+        "NoLabel",
+        "RequestQuestion",
+        "Actor",
+        "Action",
+        "Action",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "на чем я смогу доехать до ашана",
+      "slots": [
+        "RequestQuestion",
+        "RequestQuestion",
+        "Actor",
+        "Action",
+        "Action",
+        "NoLabel",
+        "LOC"
+      ]
+    },
+    {
+      "text": "позвони мастеру",
       "slots": [
         "COMMAND",
         "CommandFeature"
@@ -979,10 +1141,20 @@
   ],
   "WaterTapRelay": [
     {
-      "text": "полностью перекрой воду",
+      "text": "я собираюсь принять ванну",
       "slots": [
-        "Quantifier",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "CommandFeature"
+      ]
+    },
+    {
+      "text": "помой ягоды и огурцы",
+      "slots": [
         "COMMAND",
+        "CommandFeature",
+        "NoLabel",
         "CommandFeature"
       ]
     },
@@ -991,27 +1163,28 @@
       "slots": [
         "COMMAND",
         "CommandFeature",
+        "NoLabel",
         "CommandFeature",
+        "NoLabel",
         "Actor",
         "Action"
       ]
     },
     {
-      "text": "напор слишком слабый",
+      "text": "при появлении кота на газоне включи распыление воды 3 раза за раз",
       "slots": [
-        "CommandFeature",
-        "Quantifier",
-        "IntensityQuantifier"
-      ]
-    },
-    {
-      "text": "наполни горячую ванную к моему приходу",
-      "slots": [
+        "NoLabel",
+        "Action",
+        "Actor",
+        "NoLabel",
+        "LOC",
         "COMMAND",
-        "FeatureState",
         "CommandFeature",
-        "Actor",
-        "Action"
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     }
   ],
@@ -1019,23 +1192,31 @@
     {
       "text": "eсли вода в чайнике остыла разогрей",
       "slots": [
-        "Actor",
+        "NoLabel",
+        "CommandFeature",
+        "NoLabel",
         "DEVICE",
-        "Action"
+        "FeatureState",
+        "COMMAND"
       ]
     },
     {
       "text": "eсли вода в чайнике остыла разогрей",
       "slots": [
-        "COMMAND",
-        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "NoLabel",
         "DEVICE",
-        "FeatureState"
+        "Action",
+        "NoLabel"
       ]
     },
     {
-      "text": "приготовь чай",
+      "text": "когда я зайду завари чай",
       "slots": [
+        "NoLabel",
+        "Actor",
+        "Action",
         "COMMAND",
         "CommandFeature"
       ]
@@ -1043,52 +1224,76 @@
   ],
   "Humidifier": [
     {
-      "text": "влажность",
+      "text": "если уровень влажности в комнате меньше n то включи увлажнитель",
       "slots": [
-        "DeviceFeature"
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature"
       ]
     },
     {
       "text": "здесь слишком сухо",
       "slots": [
         "LOC",
-        "IntensityQuantifier"
+        "IntensityQuantifier",
+        "NoLabel"
       ]
     }
   ],
   "Quadrocopter": [
     {
-      "text": "летай над местностью если сработает датчик дыма сообщи",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ]
-    },
-    {
       "text": "снимай местность и если увидишь дым сообщи",
       "slots": [
         "COMMAND",
-        "CommandFeature"
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ]
+    },
+    {
+      "text": "снимай местность пока хватает заряда батареи потом вернись",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "FeatureState",
+        "DeviceFeature",
+        "DeviceFeature",
+        "NoLabel",
+        "NoLabel"
       ]
     }
   ],
   "SmartCar": [
     {
-      "text": "кто брал мою машину сегодня",
+      "text": "когда я буду уходить на работу открыть гараж выгнать из него автомобиль и оставить двигатель работающим",
       "slots": [
-        "ParameterValueQuestion",
-        "CommandFeature",
-        "CommandFeature",
+        "NoLabel",
+        "Actor",
         "Action",
-        "Duration"
-      ]
-    },
-    {
-      "text": "сколько топлива в машине",
-      "slots": [
-        "DeviceQuestion",
+        "Action",
+        "NoLabel",
+        "NoLabel",
+        "COMMAND",
         "CommandFeature",
-        "DEVICE"
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature",
+        "NoLabel",
+        "COMMAND",
+        "CommandFeature",
+        "FeatureState"
       ]
     },
     {
@@ -1097,67 +1302,90 @@
         "Actor",
         "COMMAND",
         "COMMAND",
+        "NoLabel",
         "CommandParameterValue",
         "LOC"
       ]
     },
     {
-      "text": "проедь 500 метров",
+      "text": "кто брал мою машину сегодня",
       "slots": [
-        "COMMAND",
-        "CommandParameterValue",
-        "CommandParameter"
+        "ParameterValueQuestion",
+        "Action",
+        "CommandFeature",
+        "CommandFeature",
+        "Duration"
       ]
     },
     {
-      "text": "отвези меня до поликлиники завтра",
+      "text": "прошлый технический осмотр",
       "slots": [
-        "COMMAND",
-        "Actor",
-        "LOC"
+        "DeviceFeature",
+        "DeviceFeature",
+        "DeviceFeature"
+      ]
+    },
+    {
+      "text": "когда следующее то",
+      "slots": [
+        "ParameterValueQuestion",
+        "NoLabel",
+        "CommandFeature"
       ]
     }
   ],
   "Printer": [
     {
-      "text": "распечатай паспорт название через число часа",
+      "text": "распечатай документ название через число секунд",
       "slots": [
         "COMMAND",
         "CommandFeature",
-        "CommandFeature"
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     },
     {
-      "text": "распечатай документ название спустя число часов",
+      "text": "отправь бланк название через число секунд",
       "slots": [
         "COMMAND",
         "CommandFeature",
-        "CommandFeature"
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ]
     },
     {
-      "text": "распечатай документ спустя 2 часа",
+      "text": "сделай копию паспорта",
       "slots": [
         "COMMAND",
+        "CommandFeature",
         "CommandFeature"
       ]
     }
   ],
   "DoorRelay": [
     {
-      "text": "когда открывается входная дверь грей пол",
+      "text": "проверь заперта ли дверь",
       "slots": [
         "COMMAND",
-        "DeviceFeature"
+        "FeatureState",
+        "NoLabel",
+        "CommandFeature"
       ]
     },
     {
-      "text": "заблокируй двери на вход",
+      "text": "какие из дверей в доме сейчас открыты",
       "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature"
+        "DeviceQuestion",
+        "NoLabel",
+        "DeviceFeature",
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "FeatureState"
       ]
     }
   ]

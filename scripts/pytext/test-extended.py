@@ -3,6 +3,7 @@ import pytext
 import numpy as np
 from .. import file_operators as fo, utils
 from .. import metrics
+from .. import use_lemmas as ul
 
 config = utils.load_config(utils.parse_args().config)
 
@@ -34,18 +35,24 @@ test_dataset = fo.read_json(config['paths']['datasets']['pytext']['test-extended
 counter = 0
 positive_counter = 0
 total_recall = []
-print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
+#print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
 for label in test_dataset.keys():
     for sample in test_dataset[label]:
-        recognized = [slot for slot in get_best_slots(predictor({"text": sample["text"].lower(), "doc_weight": 1, "word_weight": 1})) if slot != '__UNKNOWN__']
-        print(f'Recognized: {recognized}')
-        print(f"True: {sample['slots']}")
+        recognized = [slot for slot in get_best_slots(predictor({"text": sample["text"].lower(), "doc_weight": 1, "word_weight": 1}))]# if slot != '__UNKNOWN__']
+        parsed_command = list(zip(sample['text'].lower().split(' '), recognized))
+        parsed_right_command = list(zip(sample['text'].lower().split(' '), sample['slots']))
+        print(f"-- Recognized slots")
+        ul.get_request_type(parsed_command, filename = "scripts/requests.json")
+        print(f"-- Right slots")
+        ul.get_request_type(parsed_right_command, filename = "scripts/requests.json")
+        #print(f'Recognized: {recognized}')
+        #print(f"True: {sample['slots']}")
         total_recall.append(metrics.get_recall(recognized, sample['slots']))
 
         recognized_label = get_best_label(predictor({"text": sample['text'].lower(), "doc_weight": 1, "word_weight": 1}))
         if not recognized_label:
             recognized_label = '-'
-        print(f"{sample['text']:80s}\t{recognized_label:20s}\t{label:20s}\t{recognized_label==label}")
+        #print(f"{sample['text']:80s}\t{recognized_label:20s}\t{label:20s}\t{recognized_label==label}")
         if recognized_label == label:
             positive_counter += 1
         counter += 1

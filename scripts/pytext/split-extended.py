@@ -9,6 +9,8 @@ data = fo.read_lines(config['paths']['datasets']['pytext']['data-extended'])
 test_samples = {}
 validate_samples = []
 
+NO_SLOT_MARK = "NoLabel"
+
 # group samples by labels
 samples = {}
 for sample in data:
@@ -28,7 +30,29 @@ for label in samples.keys():
  	counter = 0
  	while counter < quantity_for_test:
  		choice = random.choice(samples[label])
- 		test_samples[label].append({'text': choice.split('\t')[-3], 'slots': [slot.split(':')[-1] for slot in choice.split('\t')[1].split(',')]})
+
+ 		text = choice.split('\t')[-3]
+ 		slots = [slot.split(':') for slot in choice.split('\t')[1].split(',')]
+ 		all_slots = {tuple(map(int, slot[0:2])): slot[2] for slot in slots}
+ 		space_indices = [i for i in range(len(text)) if text.startswith(' ', i)]
+ 		words_indices = []
+ 		for i in range(len(space_indices)):
+ 			if len(words_indices) == 0:
+ 				words_indices.append((0, space_indices[i] - 1))
+ 			else:
+ 				words_indices.append((space_indices[i - 1] + 1, space_indices[i] - 1))
+ 		words_indices.append((space_indices[-1] + 1, len(text) - 1))
+ 		enriched_slots = [all_slots.get(pair, NO_SLOT_MARK) for pair in words_indices]
+
+ 		print(f"Text: {text}")
+ 		print(f"Slots: {slots}")
+ 		print(f"Space indices: {space_indices}")
+ 		print(f"Word indices: {words_indices}")
+ 		print(f"All slots: {all_slots}")
+ 		print(f"Enriched slots: {enriched_slots}")
+
+
+ 		test_samples[label].append({'text': choice.split('\t')[-3], 'slots': enriched_slots })#[slot.split(':')[-1] for slot in choice.split('\t')[1].split(',')]})
  		validate_samples.append(choice)
  		samples[label].remove(choice)
  		counter += 1

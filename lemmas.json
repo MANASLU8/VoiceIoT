@@ -75,7 +75,8 @@
   "<http://voice.iot/CoffeeMachine>": {
     "system": [
       "кофемашина",
-      "кофеварка"
+      "кофеварка",
+      "машина"
     ],
     "feature": [
       ""
