@@ -1,129 +1,129 @@
-BOS какая сейчас температура EOS O	B-TemperatureSensor.ParameterValueQuestion O B-TemperatureSensor.DeviceParameter TemperatureSensor
-BOS закрой занавески если слишком холодно EOS O	B-TemperatureSensor.COMMAND B-TemperatureSensor.CommandFeature O B-TemperatureSensor.IntensityQuantifier B-TemperatureSensor.CommandFeature TemperatureSensor
-BOS если на улице больше количество градуса включи отопление EOS O	O B-TemperatureSensor.LOC I-TemperatureSensor.LOC B-TemperatureSensor.Quantor B-TemperatureSensor.CommandParameterValue B-TemperatureSensor.CommandParameter B-TemperatureSensor.COMMAND B-TemperatureSensor.DEVICE TemperatureSensor
-BOS если станет жарко то открой окно EOS O	O O O O B-TemperatureSensor.COMMAND B-TemperatureSensor.DeviceFeature TemperatureSensor
-BOS установи температура на число а влажность на число EOS O	B-TemperatureSensor.COMMAND B-TemperatureSensor.CommandParameter O B-TemperatureSensor.CommandParameterValue O B-TemperatureSensor.CommandParameter O B-TemperatureSensor.CommandParameterValue TemperatureSensor
-BOS сколько сейчас градусов на улице EOS O	B-TemperatureSensor.ParameterValueQuestion O B-TemperatureSensor.DeviceFeature O B-TemperatureSensor.LOC TemperatureSensor
+BOS если станет жарко тогда открой дверь EOS O	O O O O B-TemperatureSensor.COMMAND B-TemperatureSensor.CommandFeature TemperatureSensor
+BOS какая сегодня температура EOS O	B-TemperatureSensor.CommandQuestion O B-TemperatureSensor.DeviceParameterValue TemperatureSensor
+BOS как сейчас холодно EOS O	O O B-TemperatureSensor.CommandFeature TemperatureSensor
+BOS мне кажется датчик температуры здесь вышел из строя EOS O	B-TemperatureSensor.Actor B-TemperatureSensor.Action B-TemperatureSensor.DEVICE I-TemperatureSensor.DEVICE B-TemperatureSensor.LOCCurrent B-TemperatureSensor.DeviceState I-TemperatureSensor.DeviceState I-TemperatureSensor.DeviceState TemperatureSensor
+BOS покажи карту температур в доме EOS O	B-TemperatureSensor.COMMAND B-TemperatureSensor.CommandFeature I-TemperatureSensor.CommandFeature O B-TemperatureSensor.LOC TemperatureSensor
+BOS сколько градусов на улице EOS O	O B-TemperatureSensor.ParameterValueQuestion O B-TemperatureSensor.LOC TemperatureSensor
 BOS установи температуру на число и влажность на число EOS O	B-TemperatureSensor.COMMAND B-TemperatureSensor.CommandParameter O B-TemperatureSensor.CommandParameterValue O B-TemperatureSensor.CommandParameter O B-TemperatureSensor.CommandParameterValue TemperatureSensor
-BOS держи температуру в комнате на уровне число EOS O	B-TemperatureSensor.COMMAND B-TemperatureSensor.CommandFeature O B-TemperatureSensor.LOC O O B-TemperatureSensor.CommandParameterValue TemperatureSensor
-BOS закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол EOS O	B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O O O O O O O O O O WindowRelay
+BOS какая сейчас температура на улице EOS O	B-TemperatureSensor.DeviceQuestion O B-TemperatureSensor.DeviceFeature O B-TemperatureSensor.LOC TemperatureSensor
+BOS проветрите здесь пока я буду в комнате EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
+BOS проветри там EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOC WindowRelay
+BOS если станет холодно то открой окно EOS O	O O O O B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature WindowRelay
+BOS подними жалюзи EOS O	B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature WindowRelay
 BOS закрыть окно если начался дождь EOS O	B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature O O O WindowRelay
-BOS в комнате душно проветри EOS O	O B-WindowRelay.LOCCurrent O B-WindowRelay.COMMAND WindowRelay
-BOS проветри сейчас EOS O	B-WindowRelay.Command O WindowRelay
-BOS проветрите сейчас пока я буду на кухне EOS O	B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
-BOS если на улице жарко открой окно EOS O	O O O O B-WindowRelay.COMMAND B-WindowRelay.CommandFeature WindowRelay
-BOS когда последний раз открывали шторы EOS O	B-CurtainsRelay.ParameterValueQuestion O O B-CurtainsRelay.CommandFeature I-CurtainsRelay.CommandFeature CurtainsRelay
+BOS проветривай помещение каждые число минут в течение число минут избегая сквозняков EOS O	B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O B-WindowRelay.DeviceParameterValue O O O I-WindowRelay.DeviceParameterValue O B-WindowRelay.CommandFeature I-WindowRelay.CommandFeature WindowRelay
 BOS откроешь жалюзи если слишком темно EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.DeviceFeature O O O CurtainsRelay
-BOS если за окном рассвет открой занавески EOS O	O O O O O O CurtainsRelay
-BOS почему здесь так холодно EOS O	B-HeaterController.RequestQuestion B-HeaterController.LOC O O HeaterController
-BOS в 5 часов включи обогреватель на кухне EOS O	O O O B-HeaterController.COMMAND B-HeaterController.DEVICE O B-HeaterController.LOC HeaterController
-BOS сделай теплее во всех комнатах EOS O	B-HeaterController.COMMAND B-HeaterController.CommandFeature O B-HeaterController.Quantor B-HeaterController.LOC HeaterController
-BOS если на улице холодно включи батарею EOS O	O O B-HeaterController.LOC B-HeaterController.CommandFeature B-HeaterController.COMMAND B-HeaterController.DeviceFeature HeaterController
+BOS допустим за окном небо закрой шторы EOS O	O O B-CurtainsRelay.LOC O B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay
+BOS если за окном солнце закрой занавески EOS O	O O O O O O CurtainsRelay
+BOS здесь слишком холодно сделай потеплее EOS O	B-HeaterController.LOC B-HeaterController.IntensityQuantifier O B-HeaterController.COMMAND O HeaterController
+BOS разумеется совсем холодно EOS O	O B-HeaterController.IntensityQuantifier B-HeaterController.CommandFeature HeaterController
+BOS сообщи если температура в гараже опустится ниже нуля EOS O	B-HeaterController.COMMAND O B-HeaterController.CommandFeature O O O B-HeaterController.FeatureState I-HeaterController.FeatureState HeaterController
 BOS сделай похолоднее EOS O	B-HeaterController.COMMAND O HeaterController
-BOS мне холодно EOS O	B-HeaterController.Actor B-HeaterController.CommandFeature HeaterController
-BOS включи аудиосистему если я приду домой EOS O	B-AudioSystem.COMMAND B-AudioSystem.DEVICE O B-AudioSystem.Actor B-AudioSystem.Action B-AudioSystem.LOC AudioSystem
-BOS увеличь громкость на два пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue AudioSystem
-BOS слишком тихо EOS O	B-AudioSystem.IntensityQuantifier O AudioSystem
-BOS найди клип к этой песне на youtube и воспроизведи его на телефоне EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature O I-AudioSystem.CommandFeature O O O O O AudioSystem
-BOS если я засну разбуди меня в число EOS O	O B-AudioSystem.Actor B-AudioSystem.Action B-AudioSystem.COMMAND O O B-AudioSystem.DeviceParameterValue AudioSystem
-BOS очень тихо EOS O	B-AudioSystem.IntensityQuantifier O AudioSystem
-BOS включай аудиосистему если я возвращаюсь домой EOS O	B-AudioSystem.COMMAND B-AudioSystem.DEVICE O O O O AudioSystem
-BOS включай аудиосистему когда я прихожу домой EOS O	B-AudioSystem.COMMAND B-AudioSystem.DEVICE O B-AudioSystem.Actor B-AudioSystem.Action O AudioSystem
-BOS выключи динамики на кухне и в спальне EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.LOC O O I-AudioSystem.LOC AudioSystem
-BOS включи динамики на кухне и выключи в гостинной EOS O	B-AudioSystem.COMMAND B-AudioSystem.DEVICE O B-AudioSystem.LOC O O O O AudioSystem
-BOS увеличь громкость чтобы не мешал шум  EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O O AudioSystem
+BOS сделай потеплее обогреватель EOS O	B-HeaterController.COMMAND B-HeaterController.IntensityQuantifier B-HeaterController.DEVICE HeaterController
+BOS почему здесь так холодно EOS O	B-HeaterController.RequestQuestion B-HeaterController.LOC O O HeaterController
+BOS увеличь громкость на 4 пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue AudioSystem
+BOS добавить песню в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature AudioSystem
+BOS отключи песню когда я засну EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action AudioSystem
+BOS пропусти песню EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
+BOS отключи песню когда я лягу EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action AudioSystem
+BOS увеличь громкость чтобы не мешал стук EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameterValue O O O O AudioSystem
 BOS добавляй песню в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O I-AudioSystem.CommandFeature AudioSystem
-BOS отключи музыку когда я засну EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action AudioSystem
-BOS выведи текст песни на экран телефона EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature O O B-AudioSystem.DEVICE AudioSystem
-BOS освети помещение EOS O	B-LightSensor.COMMAND B-LightSensor.LOC LightSensor
+BOS если будет дождь то сообщить взять зонт с уходом EOS O	O O O O B-AudioSystem.COMMAND I-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Action AudioSystem
+BOS проигрывай в случайном порядке EOS O	B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
+BOS увеличь звук на три пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DeviceParameterValue B-AudioSystem.DeviceFeature AudioSystem
+BOS увеличь частоту чтобы не мешал шум EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O I-AudioSystem.CommandFeature AudioSystem
+BOS ставь эту песню чаще EOS O	B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature B-AudioSystem.IntensityQuantifier AudioSystem
+BOS включи динамики на кухне и выключи в гостинной EOS O	B-AudioSystem.COMMAND B-AudioSystem.DEVICE O B-AudioSystem.LOC O O O O AudioSystem
+BOS включай музыку когда я просыпаюсь EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.Action AudioSystem
+BOS выключи свет EOS O	B-LightSensor.COMMAND B-LightSensor.DeviceFeature LightSensor
+BOS освети комнату EOS O	B-LightSensor.COMMAND B-LightSensor.LOC LightSensor
 BOS включай свет когда я захожу в комнату EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC LightSensor
-BOS выключай свет когда я иду из спальни EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC LightSensor
-BOS если за дверью рассвет закрой шторы EOS O	O O O B-LightSensor.CommandFeature B-LightSensor.COMMAND B-LightSensor.CommandFeature LightSensor
-BOS выключай свет когда я выхожу из комнаты EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC LightSensor
-BOS зажги фонарики а свет под навесом выключи EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O O O O O LightSensor
-BOS сделай темно EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature LightSensor
-BOS выключай свет если я ухожу из прихожей EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O O O O O LightSensor
+BOS выключи подсветку EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature LightSensor
+BOS выключай свет когда я ухожу из спальни EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC LightSensor
 BOS когда стемнеет включи подсветку фонтана EOS O	O O B-LightSensor.COMMAND B-LightSensor.CommandFeature I-LightSensor.CommandFeature LightSensor
-BOS выключай свет если я выхожу из комнат EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC LightSensor
-BOS включить свет в санузле при наличии внутри коголибо и выключить если никого нет более число минут EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.LOC O O B-LightSensor.Actor O O B-LightSensor.COMMAND O O O O B-LightSensor.CommandParameterValue B-LightSensor.CommandParameter LightSensor
-BOS включи светомузыку EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature LightSensor
+BOS слишком темно EOS O	B-LightSensor.IntensityQuantifier B-LightSensor.CommandFeature LightSensor
+BOS погаси основной свет EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature I-LightSensor.CommandFeature LightSensor
+BOS eсли на улице светло выключи лампу EOS O	O O O O B-LightSensor.COMMAND B-LightSensor.DEVICE LightSensor
+BOS включи свет в время утра EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.DeviceParameterValue O LightSensor
+BOS слишком светло EOS O	B-LightSensor.IntensityQuantifier B-LightSensor.CommandFeature LightSensor
+BOS выключай свет когда я выхожу из спальной EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature O B-LightSensor.Actor B-LightSensor.Action O B-LightSensor.LOC LightSensor
 BOS сколько лампочек перегорело EOS O	B-LightSensor.RequestQuestion B-LightSensor.CommandFeature B-LightSensor.FeatureState LightSensor
-BOS откроешь шторы если слишком темно EOS O	B-LightSensor.COMMAND B-LightSensor.CommandFeature B-LightSensor.LOC B-LightSensor.IntensityQuantifier B-LightSensor.CommandFeature LightSensor
+BOS каждый раз когда я буду приходить домой включить свет в прихожей и чайник EOS O	O O O O O O O B-LightSensor.COMMAND B-LightSensor.Devicefeature O B-LightSensor.LOC O B-LightSensor.DEVICE LightSensor
+BOS включай свет когда я прихожу домой EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O Lamp
+BOS включай свет когда я захожу в спальню EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC Lamp
+BOS включай свет когда я захожу в гостиную EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC Lamp
 BOS выключай свет когда я иду из санузла EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC Lamp
-BOS выключай свет если я выхожу из спальни EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action O B-Lamp.LOC Lamp
-BOS выключай свет когда меня нет в комнате EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.Actor B-Lamp.Action B-Lamp.LOC O Lamp
-BOS ослабь свет и включи успокаивающую музыку EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O O O O Lamp
-BOS включен ли утюг EOS O	B-SmartIron.DeviceState O B-SmartIron.DEVICE SmartIron
-BOS если утюг всё еще включен то выключи его EOS O	O B-SmartIron.DEVICE O O B-SmartIron.DeviceState O B-SmartIron.COMMAND O SmartIron
-BOS сколько киловатт электроэнергии было потрачено за последний месяц EOS O	B-SmartElectricityMeter.ParameterValueQuestion B-SmartElectricityMeter.ParameterFeature I-SmartElectricityMeter.ParameterFeature B-SmartElectricityMeter.Action I-SmartElectricityMeter.Action B-SmartElectricityMeter.Duration I-SmartElectricityMeter.Duration I-SmartElectricityMeter.Duration SmartElectricityMeter
-BOS сколько в этом месяце уплачено за электричество EOS O	B-SmartElectricityMeter.ParameterValueQuestion O B-SmartElectricityMeter.Duration I-SmartElectricityMeter.Duration B-SmartElectricityMeter.Action O B-SmartElectricityMeter.ParameterFeature SmartElectricityMeter
-BOS расход электричества EOS O	B-SmartElectricityMeter.DeviceFeature I-SmartElectricityMeter.DeviceFeature SmartElectricityMeter
-BOS распечатай показания счетчиков EOS O	B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature I-SmartElectricityMeter.CommandFeature SmartElectricityMeter
-BOS выключи электричество в спальне EOS O	B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature O B-SmartElectricityMeter.LOC SmartElectricityMeter
+BOS утюг разогрей буду гладить нейлон EOS O	B-SmartIron.DEVICE B-SmartIron.COMMAND O O B-SmartIron.DeviceParameterValue SmartIron
+BOS включи утюг я хочу погладить шелковую блузку EOS O	B-SmartIron.COMMAND B-SmartIron.DEVICE B-SmartIron.Actor B-SmartIron.Action I-SmartIron.Action B-SmartIron.DeviceParameterValue O SmartIron
+BOS сколько в этом году я заплатил за свет EOS O	B-SmartElectricityMeter.ParameterValueQuestion O O O B-SmartElectricityMeter.Actor B-SmartElectricityMeter.Action O O SmartElectricityMeter
+BOS сколько энергии потребляют лампы EOS O	B-SmartElectricityMeter.RequestQuestion B-SmartElectricityMeter.CommandFeature B-SmartElectricityMeter.Action B-SmartElectricityMeter.Actor SmartElectricityMeter
+BOS сколько в этом месяце было за электричество EOS O	B-SmartElectricityMeter.ParameterValueQuestion O O O O O B-SmartElectricityMeter.CommandFeature SmartElectricityMeter
+BOS выключай свет когда я выйду из комнаты EOS O	B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature O B-SmartElectricityMeter.Actor B-SmartElectricityMeter.Action O B-SmartElectricityMeter.LOC SmartElectricityMeter
 BOS выключи электричество в ванной EOS O	B-SmartElectricityMeter.COMMAND B-SmartElectricityMeter.CommandFeature O B-SmartElectricityMeter.LOC SmartElectricityMeter
+BOS энергопотребление за последнее время EOS O	B-SmartElectricityMeter.DeviceFeature O I-SmartElectricityMeter.DeviceFeature I-SmartElectricityMeter.DeviceFeature SmartElectricityMeter
+BOS запиши программу если я усну EOS O	B-TVSet.COMMAND B-TVSet.CommandFeature O B-TVSet.Actor B-TVSet.Action TVSet
+BOS опять пульт от телевизора потерял EOS O	O B-TVSet.CommandFeature O B-TVSet.DEVICE B-TVSet.Action TVSet
 BOS пульт EOS O	B-TVSet.DeviceFeature TVSet
-BOS запиши передачи если я усну EOS O	B-TVSet.COMMAND B-TVSet.CommandFeature O B-TVSet.Actor B-TVSet.Action TVSet
-BOS где пульт от телевизора EOS O	B-TVSet.DeviceQuestion B-TVSet.DeviceFeature O B-TVSet.DEVICE TVSet
+BOS когда следуюущий технологический осмотр EOS O	B-WashingMachine.ParameterValueQuestion O B-WashingMachine.CommandFeature I-WashingMachine.CommandFeature WashingMachine
 BOS поставь в расписание стирку на 6 утра EOS O	B-WashingMachine.COMMAND O O B-WashingMachine.CommandFeature O O O WashingMachine
-BOS в машинке шелковое белье подбери режим и запусти стирку EOS O	O B-WashingMachine.DEVICE B-WashingMachine.CommandParameterValue B-WashingMachine.CommandFeature O B-WashingMachine.CommandParameter O B-WashingMachine.COMMAND B-WashingMachine.CommandFeature WashingMachine
-BOS доложи о соcтоянии одежды EOS O	O O B-WashingMachine.CommandState B-WashingMachine.CommandFeature WashingMachine
-BOS когда чтото подгорит на плите выключить ее и установить вытяжку на максимальный режим EOS O	O O O O B-SmartOven.DEVICE B-SmartOven.COMMAND O O O O O O O SmartOven
-BOS включи духовку на число минут на число градусов затем на число минут на число EOS O	B-SmartOven.COMMAND B-SmartOven.DEVICE O B-SmartOven.DeviceParameterValue O O I-SmartOven.DeviceParameterValue B-SmartOven.DeviceFeature O O B-SmartOven.DeviceParameterValue O O I-SmartOven.DeviceParameterValue SmartOven
-BOS когда будет готова еда в духовке EOS O	B-SmartOven.CommandQuestion B-SmartOven.FeatureState I-SmartOven.FeatureState B-SmartOven.CommandFeature O B-SmartOven.DEVICE SmartOven
-BOS когда будет готова пицца в духовке EOS O	B-SmartOven.CommandQuestion B-SmartOven.FeatureState I-SmartOven.FeatureState B-SmartOven.CommandFeature O B-SmartOven.DEVICE SmartOven
+BOS сколько раз за неделю я стирал EOS O	B-WashingMachine.ParameterValueQuestion O O O B-WashingMachine.Actor B-WashingMachine.Action WashingMachine
+BOS приготовь мясо к нашему ужину EOS O	B-SmartOven.COMMAND B-SmartOven.CommandFeature O B-SmartOven.Actor O SmartOven
+BOS сколько дней стоит суп в духовке EOS O	B-SmartOven.ParameterValueQuestion O B-SmartOven.CommandFeature I-SmartOven.CommandFeature O B-SmartOven.DEVICE SmartOven
+BOS в время включи духовой шкаф на кухне на количество градусов EOS O	O O B-SmartOven.COMMAND B-SmartOven.DEVICE I-SmartOven.DEVICE O B-SmartOven.LOC O B-SmartOven.DeviceParameterValue B-SmartOven.DeviceFeature SmartOven
+BOS включена ли духовка EOS O	B-SmartOven.DeviceState O B-SmartOven.DEVICE SmartOven
 BOS если я усну разбуди меня EOS O	O B-AlarmClock.Actor B-AlarmClock.Action B-AlarmClock.COMMAND B-AlarmClock.CommandFeature AlarmClock
-BOS поменяй каждый вечер будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue AlarmClock
-BOS поддерживай влажность в комнате на уровне 60 EOS O	B-HumiditySensor.COMMAND B-HumiditySensor.CommandFeature O B-HumiditySensor.LOC O O B-HumiditySensor.DeviceParameterValue HumiditySensor
-BOS сколько дней хранится салат в холодильнике EOS O	B-SmartFridge.ParameterValueQuestion O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature O B-SmartFridge.DEVICE SmartFridge
-BOS у нас есть какиенибудь фрукты EOS O	O O B-SmartFridge.CommandFeature O I-SmartFridge.CommandFeature SmartFridge
-BOS делай больше льда EOS O	B-SmartFridge.COMMAND B-SmartFridge.Quantor B-SmartFridge.CommandFeature SmartFridge
-BOS у нас найдутся какиенибудь овощи EOS O	O O B-SmartFridge.CommandFeature O I-SmartFridge.CommandFeature SmartFridge
+BOS поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue O O O O O B-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature O O O AlarmClock
+BOS eсли уровень влажности в комнате меньше n то включи увлажнитель EOS O	O O B-HumiditySensor.DeviceFeature O B-HumiditySensor.LOC B-HumiditySensor.IntensityQuantifier B-HumiditySensor.DeviceParameterValue O B-HumiditySensor.COMMAND B-HumiditySensor.DEVICE HumiditySensor
+BOS сколько мяса осталось EOS O	B-SmartFridge.RequestQuestion B-SmartFridge.CommandFeature B-SmartFridge.Analytics SmartFridge
+BOS установи температуру в холодильнике на плюс число а в морозилке на минус число EOS O	B-SmartFridge.COMMAND B-SmartFridge.Devicefeature O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue O O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue SmartFridge
+BOS какие у нас есть орехи EOS O	B-SmartFridge.ParameterValueQuestion O O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature SmartFridge
 BOS что из еды осталось EOS O	B-SmartFridge.ParameterValueQuestion O B-SmartFridge.CommandFeature B-SmartFridge.FeatureState SmartFridge
-BOS свежесть супа EOS O	B-SmartFridge.DeviceFeature I-SmartFridge.DeviceFeature SmartFridge
-BOS если кот уже поел выпусти его EOS O	O B-DoorWindowStatusSensor.CommandFeature O B-DoorWindowStatusSensor.FeatureState B-DoorWindowStatusSensor.COMMAND O DoorWindowStatusSensor
-BOS если становится жарко закрой дверь EOS O	O O B-DoorWindowStatusSensor.CommandFeature B-DoorWindowStatusSensor.COMMAND B-DoorWindowStatusSensor.CommandFeature DoorWindowStatusSensor
+BOS сколько мяса осталось EOS O	B-SmartFridge.RequestQuestion B-SmartFridge.CommandFeature B-SmartFridge.Analytics SmartFridge
+BOS сколько дней стоит суп в холодильнике EOS O	B-SmartFridge.ParameterValueQuestion B-SmartFridge.ParameterValue B-SmartFridge.FeatureState B-SmartFridge.CommandFeature O B-SmartFridge.DEVICE SmartFridge
+BOS если будет жарко то открой дверь EOS O	O O B-DoorWindowStatusSensor.CommandFeature O B-DoorWindowStatusSensor.COMMAND B-DoorWindowStatusSensor.CommandFeature DoorWindowStatusSensor
 BOS какие из дверей в домике сейчас открыты EOS O	B-DoorWindowStatusSensor.DeviceQuestion O B-DoorWindowStatusSensor.DeviceFeature O B-DoorWindowStatusSensor.LOC O B-DoorWindowStatusSensor.FeatureState DoorWindowStatusSensor
-BOS какая кофемашина стоит в комнате EOS O	B-CoffeeMachine.CommandQuestion B-CoffeeMachine.DEVICE O O B-CoffeeMachine.LOC CoffeeMachine
+BOS проверь двери в доме EOS O	B-DoorWindowStatusSensor.COMMAND B-DoorWindowStatusSensor.DeviceFeature O B-DoorWindowStatusSensor.LOC DoorWindowStatusSensor
+BOS сделай кофе к моему приходу EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion CoffeeMachine
+BOS когда я зайду сделай кофе EOS O	O B-CoffeeMachine.Actor B-CoffeeMachine.Action B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature CoffeeMachine
 BOS сколько кофе осталось EOS O	B-CoffeeMachine.RequestQuestion B-CoffeeMachine.DeviceFeature B-CoffeeMachine.Analytics CoffeeMachine
-BOS если кофе в кофемашине останется число то отправь уведомление на телефон EOS O	O O O O O O O B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O B-CoffeeMachine.DEVICE CoffeeMachine
-BOS если кот давно не ел покорми его EOS O	O B-SmartFeeder.CommandFeature B-SmartFeeder.FeatureState I-SmartFeeder.FeatureState I-SmartFeeder.FeatureState B-SmartFeeder.COMMAND O SmartFeeder
-BOS кот давненько не ел покорми его EOS O	O O O O B-SmartFeeder.COMMAND O SmartFeeder
+BOS покорми кота на число грамм корма EOS O	B-SmartFeeder.COMMAND B-SmartFeeder.CommandFeature O B-SmartFeeder.CommandParameterValue B-SmartFeeder.CommandParameter I-SmartFeeder.CommandParameter SmartFeeder
 BOS ты сегодня кормила кота EOS O	B-SmartFeeder.Actor B-SmartFeeder.Duration B-SmartFeeder.Action B-SmartFeeder.CommandFeature SmartFeeder
-BOS покорми собаку EOS O	B-SmartFeeder.COMMAND B-SmartFeeder.CommandFeature SmartFeeder
-BOS имитируй присутствие людей с число июня до число июля EOS O	B-MotionSensor.COMMAND B-MotionSensor.CommandFeature I-MotionSensor.CommandFeature O B-MotionSensor.CommandParameterValue O O I-MotionSensor.CommandParameterValue O MotionSensor
+BOS покорми попугая EOS O	B-SmartFeeder.COMMAND B-SmartFeeder.CommandFeature SmartFeeder
+BOS мне кажется кот слишком много ест EOS O	B-SmartFeeder.Actor B-SmartFeeder.Action B-SmartFeeder.CommandFeature B-SmartFeeder.IntensityQuantifier O B-SmartFeeder.FeatureState SmartFeeder
+BOS предупреди когда грузовик сзади меня будет вплотную EOS O	B-MotionSensor.COMMAND O B-MotionSensor.CommandFeature B-MotionSensor.LOC I-MotionSensor.LOC B-MotionSensor.FeatureState B-MotionSensor.IntensityQuantifier MotionSensor
 BOS ктото остался дома сегодня днем EOS O	B-MotionSensor.Actor B-MotionSensor.Action B-MotionSensor.LOC O O MotionSensor
-BOS сообщи был ли ктото дома сегодня EOS O	B-MotionSensor.COMMAND B-MotionSensor.Action O B-MotionSensor.Actor B-MotionSensor.LOC O MotionSensor
-BOS кто пришел EOS O	B-MotionSensor.ParameterValueQuestion B-MotionSensor.Action MotionSensor
-BOS когда все разойдутся выключи фонтан и подсветку  EOS O	O B-WaterSupplySensor.Quantor B-WaterSupplySensor.Action B-WaterSupplySensor.COMMAND B-WaterSupplySensor.CommandFeature O I-WaterSupplySensor.CommandFeature O WaterSupplySensor
-BOS включи воду EOS O	B-WaterSupplySensor.COMMAND B-WaterSupplySensor.DeviceFeature WaterSupplySensor
-BOS включи воду EOS O	B-WaterSupplySensor.COMMAND B-WaterSupplySensor.DeviceFeature WaterSupplySensor
+BOS на втором этаже ктонибудь есть EOS O	B-MotionSensor.LOC I-MotionSensor.LOC I-MotionSensor.LOC B-MotionSensor.Actor B-MotionSensor.Action MotionSensor
+BOS кто брал твою машину EOS O	B-MotionSensor.ParameterValueQuestion B-MotionSensor.Action O B-MotionSensor.CommandFeature MotionSensor
+BOS расход воды EOS O	B-WaterSupplySensor.DeviceFeature I-WaterSupplySensor.DeviceFeature WaterSupplySensor
+BOS полностью перекрой воду EOS O	B-WaterSupplySensor.Quantifier B-WaterSupplySensor.COMMAND B-WaterSupplySensor.CommandFeature WaterSupplySensor
+BOS сделай напор сильнее EOS O	B-WaterSupplySensor.COMMAND B-WaterSupplySensor.CommandFeature B-WaterSupplySensor.Quantifier WaterSupplySensor
+BOS приготовь хлеб к нашему возвращению EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O SmartBreadMaker
 BOS сделай тост EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature SmartBreadMaker
-BOS приготовь хлеб EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature SmartBreadMaker
+BOS если меня нет дома не мой пол EOS O	O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.Action B-SmartVacuumCleaner.LOC O B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.CommandFeature SmartVacuumCleaner
 BOS пропылесось здесь пока я буду в ванной EOS O	B-SmartVacuumCleaner.COMMAND B-SmartVacuumCleaner.LOCCurrent O O O O O SmartVacuumCleaner
-BOS дата прошлой уборки EOS O	B-SmartVacuumCleaner.DeviceFeature I-SmartVacuumCleaner.DeviceFeature I-SmartVacuumCleaner.DeviceFeature SmartVacuumCleaner
-BOS пропылесось сейчас пока я буду в гостинной EOS O	O O O B-SmartVacuumCleaner.Actor B-SmartVacuumCleaner.COMMAND O B-SmartVacuumCleaner.LOC SmartVacuumCleaner
-BOS а на чем я могу доехать до поликлиники число EOS O	O B-Phone.RequestQuestion I-Phone.RequestQuestion B-Phone.Actor B-Phone.Action I-Phone.Action O B-Phone.LOC B-Phone.CommandParameterValue Phone
-BOS позвони мастеру EOS O	B-Phone.COMMAND B-Phone.CommandFeature Phone
-BOS если будет дождь то напомнить взять зонт перед выходом EOS O	O O O O B-Phone.COMMAND I-Phone.COMMAND B-Phone.CommandFeature O B-Phone.Action Phone
-BOS потребляй энергию из аккумуляторов если она закончится потребляй из электросети EOS O	B-Phone.COMMAND B-Phone.CommandFeature O I-Phone.CommandFeature O O O O O O Phone
+BOS когда была последняя уборка EOS O	B-SmartVacuumCleaner.ParameterValueQuestion O B-SmartVacuumCleaner.CommandFeature I-SmartVacuumCleaner.CommandFeature SmartVacuumCleaner
+BOS построй маршрут из москвы в санктпетербург и подсказывай мне дорогу EOS O	B-Phone.COMMAND B-Phone.CommandFeature O B-Phone.LOC O I-Phone.LOC O O O O Phone
+BOS у кого или как я могу купить билет EOS O	O B-Phone.RequestQuestion O I-Phone.RequestQuestion B-Phone.Actor B-Phone.Action I-Phone.Action B-Phone.CommandFeature Phone
+BOS как доехать до больницы EOS O	B-Phone.RequestQuestion B-Phone.Action O B-Phone.LOC Phone
+BOS когда придет автобус номер число EOS O	B-Phone.RequestQuestion B-Phone.Action B-Phone.Actor O B-Phone.CommandParameterValue Phone
 BOS отключи водопровод в гостинной EOS O	B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature O B-WaterTapRelay.LOC WaterTapRelay
 BOS я пытаюсь принять ванную EOS O	B-WaterTapRelay.Actor B-WaterTapRelay.Action I-WaterTapRelay.Action B-WaterTapRelay.CommandFeature WaterTapRelay
-BOS я собираюсь принять ванну EOS O	O B-WaterTapRelay.Actor B-WaterTapRelay.Action I-WaterTapRelay.Action WaterTapRelay
-BOS набери ванну EOS O	B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature WaterTapRelay
-BOS в какой день недели я больше пью воды из чайника EOS O	O B-SmartKettle.RequestQuestion B-SmartKettle.CommandFeature I-SmartKettle.CommandFeature I-SmartKettle.CommandFeature B-SmartKettle.Quantor B-SmartKettle.Action O O B-SmartKettle.DEVICE SmartKettle
+BOS напор слишком слабый EOS O	B-WaterTapRelay.CommandFeature B-WaterTapRelay.IntensityQuantifier B-WaterTapRelay.Quantifier WaterTapRelay
+BOS при появлении кота на газоне включи распыление воды 3 раза за раз EOS O	O B-WaterTapRelay.Action B-WaterTapRelay.Actor O B-WaterTapRelay.LOC B-WaterTapRelay.COMMAND B-WaterTapRelay.CommandFeature I-WaterTapRelay.CommandFeature O O O O WaterTapRelay
+BOS сделай кофе и чай EOS O	B-SmartKettle.COMMAND B-SmartKettle.CommandFeature O I-SmartKettle.CommandFeature SmartKettle
+BOS когда я зайду сделай чай EOS O	O B-SmartKettle.Actor B-SmartKettle.Action B-SmartKettle.COMMAND B-SmartKettle.CommandFeature SmartKettle
 BOS по будням буди меня в время часов утра включай чайник EOS O	O B-SmartKettle.CommandFeature B-SmartKettle.COMMAND B-SmartKettle.Actor O B-SmartKettle.CommandParameterValue O O B-SmartKettle.COMMAND B-SmartKettle.DEVICE SmartKettle
-BOS когда я приду сделай чай EOS O	O B-SmartKettle.Actor B-SmartKettle.Action B-SmartKettle.COMMAND B-SmartKettle.CommandFeature SmartKettle
+BOS здесь слишком влажно EOS O	B-Humidifier.LOCCurrent B-Humidifier.IntensityQuantifier O Humidifier
 BOS установи влажность на 8 и температуру на 23 EOS O	B-Humidifier.COMMAND B-Humidifier.DeviceParameter O B-Humidifier.DeviceParameterValue O O O O Humidifier
-BOS здесь слишком сухо EOS O	B-Humidifier.LOC B-Humidifier.IntensityQuantifier O Humidifier
+BOS снимай местность и если увидишь дым сообщи EOS O	B-Quadrocopter.COMMAND B-Quadrocopter.CommandFeature O O O O O Quadrocopter
 BOS если закончится заряд лети на зарядную станцию после подзарядки продолжай EOS O	O O O B-Quadrocopter.COMMAND O B-Quadrocopter.CommandFeature I-Quadrocopter.CommandFeature O O O Quadrocopter
-BOS уровень заряда квадрокоптера EOS O	O B-Quadrocopter.DeviceFeature B-Quadrocopter.DEVICE Quadrocopter
-BOS прошлый технический осмотр EOS O	B-SmartCar.DeviceFeature I-SmartCar.DeviceFeature I-SmartCar.DeviceFeature SmartCar
-BOS начни прогревать машину EOS O	B-SmartCar.COMMAND I-SmartCar.COMMAND B-SmartCar.DEVICE SmartCar
-BOS когда я буду уходить на работу открыть гараж выгнать из него автомобиль и оставить двигатель работающим EOS O	O B-SmartCar.Actor B-SmartCar.Action I-SmartCar.Action O O B-SmartCar.COMMAND B-SmartCar.CommandFeature B-SmartCar.COMMAND O O B-SmartCar.CommandFeature O B-SmartCar.COMMAND B-SmartCar.CommandFeature B-SmartCar.FeatureState SmartCar
-BOS сколько я проехал километров EOS O	B-SmartCar.RequestQuestion B-SmartCar.Actor B-SmartCar.Action B-SmartCar.DeviceFeature SmartCar
+BOS мне придется доехать до число больницы EOS O	B-SmartCar.Actor B-SmartCar.COMMAND I-SmartCar.COMMAND O B-SmartCar.CommandParameterValue B-SmartCar.LOC SmartCar
 BOS мне надо проехать до число больницы EOS O	B-SmartCar.Actor B-SmartCar.COMMAND I-SmartCar.COMMAND O B-SmartCar.CommandParameterValue B-SmartCar.LOC SmartCar
+BOS сколько я проехал километров EOS O	B-SmartCar.RequestQuestion B-SmartCar.Actor B-SmartCar.Action B-SmartCar.DeviceFeature SmartCar
+BOS когда следующий технический осмотр EOS O	B-SmartCar.ParameterValueQuestion O B-SmartCar.CommandFeature I-SmartCar.CommandFeature SmartCar
+BOS какой средний расход бензина в зависимости от заправки был за последние полгода EOS O	B-SmartCar.RequestQuestion B-SmartCar.CommandFeature O B-SmartCar.DeviceFeature O B-SmartCar.Analytics O I-SmartCar.Analytics O O O O SmartCar
+BOS распечатай документ название спустя число часов EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
+BOS сделай копию паспорта EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature Printer
 BOS распечатай документ через 5 минут EOS O	B-Printer.COMMAND B-Printer.CommandFeature O O O Printer
-BOS распечатай документ спустя 2 часа EOS O	B-Printer.COMMAND B-Printer.CommandFeature O O O Printer
-BOS распечатай документ название через число секунд EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
-BOS какие из дверей в доме сейчас открыты EOS O	B-DoorRelay.DeviceQuestion O B-DoorRelay.DeviceFeature O B-DoorRelay.LOC O B-DoorRelay.FeatureState DoorRelay
-BOS проверь закрыты ли входная дверь и ворота гаража EOS O	B-DoorRelay.COMMAND B-DoorRelay.FeatureState O B-DoorRelay.CommandFeature I-DoorRelay.CommandFeature O I-DoorRelay.CommandFeature I-DoorRelay.CommandFeature DoorRelay
+BOS заблокируй двери на вход EOS O	B-DoorRelay.COMMAND B-DoorRelay.CommandFeature I-DoorRelay.CommandFeature O DoorRelay
+BOS проверь заперта ли дверь EOS O	B-DoorRelay.COMMAND B-DoorRelay.FeatureState O B-DoorRelay.CommandFeature DoorRelay

@@ -1,0 +1,1715 @@
+{
+  "сплит": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "система": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "сплитуха": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "кондиционер": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "будильник": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "разбудить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "аудиосистема": {
+    "": {
+      "врубить": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "песня": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "кофемашина": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "сварить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "кофеварка": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "сварить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "регулятор": {
+    "душно": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    },
+    "дождь": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "штора": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "разбудить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "открытие": {
+    "душно": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    },
+    "дождь": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "дверной": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "звонок": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "лампочка": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "пол": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "подсветить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "напольный": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "подсветить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "подсветка": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "подсветить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "подогрев": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "принтер": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "файл": "<REQUEST_TYPE>",
+        "фото": "<REQUEST_TYPE>",
+        "фотография": "<REQUEST_TYPE>",
+        "документ": "<REQUEST_TYPE>",
+        "картинка": "<REQUEST_TYPE>"
+      },
+      "распечатать": {
+        "": "<REQUEST_TYPE>",
+        "файл": "<REQUEST_TYPE>",
+        "фото": "<REQUEST_TYPE>",
+        "фотография": "<REQUEST_TYPE>",
+        "документ": "<REQUEST_TYPE>",
+        "картинка": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "файл": "<REQUEST_TYPE>",
+        "фото": "<REQUEST_TYPE>",
+        "фотография": "<REQUEST_TYPE>",
+        "документ": "<REQUEST_TYPE>",
+        "картинка": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "файл": "<REQUEST_TYPE>",
+        "фото": "<REQUEST_TYPE>",
+        "фотография": "<REQUEST_TYPE>",
+        "документ": "<REQUEST_TYPE>",
+        "картинка": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "файл": "<REQUEST_TYPE>",
+        "фото": "<REQUEST_TYPE>",
+        "фотография": "<REQUEST_TYPE>",
+        "документ": "<REQUEST_TYPE>",
+        "картинка": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "файл": "<REQUEST_TYPE>",
+        "фото": "<REQUEST_TYPE>",
+        "фотография": "<REQUEST_TYPE>",
+        "документ": "<REQUEST_TYPE>",
+        "картинка": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "файл": "<REQUEST_TYPE>",
+        "фото": "<REQUEST_TYPE>",
+        "фотография": "<REQUEST_TYPE>",
+        "документ": "<REQUEST_TYPE>",
+        "картинка": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "файл": "<REQUEST_TYPE>",
+        "фото": "<REQUEST_TYPE>",
+        "фотография": "<REQUEST_TYPE>",
+        "документ": "<REQUEST_TYPE>",
+        "картинка": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "морозильный": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "подсветить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "морозилка": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "подсветить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "камера": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "подсветить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "холодильник": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "подсветить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "микроволновый": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "разогреть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "погреть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "приготовить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "микроволновка": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "разогреть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "погреть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "приготовить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "печь": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "разогреть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "погреть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "приготовить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "СВЧ": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "разогреть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "погреть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "приготовить": {
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "окно": {
+    "душно": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    },
+    "дождь": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "реле": {
+    "душно": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    },
+    "дождь": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "закрытие": {
+    "душно": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    },
+    "дождь": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "закрыть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "проветрить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "устанавливать": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      },
+      "поставить": {
+        "": "<REQUEST_TYPE>",
+        "процент": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "свет": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "люстра": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "лампа": {
+    "": {
+      "врубить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "": "<REQUEST_TYPE>",
+        "люмен": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "хлебопечка": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "испечь": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "приготовить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "выпекалка": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "испечь": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "приготовить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "хлебопечь": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "испечь": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      },
+      "приготовить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>",
+        "час": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "стиралка": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "постирать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  },
+  "стирка": {
+    "": {
+      "врубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "выключать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "постирать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "остановить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "прекратить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "включать": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "вырубить": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      },
+      "оффнуть": {
+        "градус": "<REQUEST_TYPE>",
+        "": "<REQUEST_TYPE>"
+      }
+    }
+  }
+}

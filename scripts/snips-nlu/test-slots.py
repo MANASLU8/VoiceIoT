@@ -15,13 +15,26 @@ engine.fit(train_dataset)
 
 total_recall = []
 
-print("Calculating recall...")
+counter = 0
+positive_counter = 0
+
+print("Calculating metrics...")
+print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
 for label in test_dataset.keys():
 	for sample in test_dataset[label]:
 		true_slots = list(filter(lambda entity: entity, [item.get('entity', None) for item in sample['data']]))
 		command = ' '.join([item.get('text', '') for item in sample['data']])
-		recognized_slots = [slot['entity'] for slot in engine.parse(command)['slots']]
+		parser_response = engine.parse(command)
+		recognized_slots = [slot['entity'] for slot in parser_response['slots']]
+		recognized_label = parser_response['intent']['intentName']
+		if not recognized_label:
+			recognized_label = '-'
 		recall = metrics.get_recall(true_slots, recognized_slots)
 		total_recall.append(recall)
+		print(f"{command:80s}\t{recognized_label:20s}\t{label:20s}\t{recognized_label==label}")
+		if recognized_label == label:
+			positive_counter += 1
+		counter += 1
 
-print(f"Average recall is {round(np.mean(total_recall), 4)}")
+print(f"Correctly recognized {positive_counter} of {counter} ({round(positive_counter / float(counter) * 100, 2)} %)")
+print(f"Average slot recall is {round(np.mean(total_recall), 4)}")

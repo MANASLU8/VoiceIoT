@@ -28,7 +28,7 @@ for label in samples.keys():
  	counter = 0
  	while counter < quantity_for_test:
  		choice = random.choice(samples[label])
- 		test_samples[label].append(choice.split('\t')[-3])
+ 		test_samples[label].append({'text': choice.split('\t')[-3], 'slots': [slot.split(':')[-1] for slot in choice.split('\t')[1].split(',')]})
  		validate_samples.append(choice)
  		samples[label].remove(choice)
  		counter += 1

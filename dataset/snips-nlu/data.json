@@ -15288,55 +15288,7 @@
     }
   },
   "entities": {
-    "COMMAND": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "CommandFeature": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Actor": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Action": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "DeviceState": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Aсtion": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "DeviceParameterValue": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "ParameterFeature": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "DeviceFeature": {
+    "DEVICE": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15360,55 +15312,7 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "Command": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "LOC": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Devicefeature": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "RAnalytics": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "LOCCurrent": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Quantor": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Quantifier": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "DeviceQuestion": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Analytics": {
+    "CommandFeature": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15420,13 +15324,31 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
+    "RAnalytics": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Quantor": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
     "Request": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "CommandParameterValue": {
+    "LOCCurrent": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Actor": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15438,25 +15360,49 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "СommandFeature": {
+    "FeatureState": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "ParameterValue": {
+    "COMMAND": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "DEVICE": {
+    "Analytics": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "Duration": {
+    "DeviceQuestion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceParameterValue": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceState": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "ParameterFeature": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Action": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15468,7 +15414,61 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
+    "Aсtion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Devicefeature": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "ParameterValue": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Command": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceFeature": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "CommandParameterValue": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Duration": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
     "RequestQuestion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "LOC": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "СommandFeature": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15480,7 +15480,7 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "FeatureState": {
+    "Quantifier": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,

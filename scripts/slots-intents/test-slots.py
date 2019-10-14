@@ -40,5 +40,13 @@ for label in test_dataset.keys():
 		recognized_slots = entities
 		recall = metrics.get_recall(true_slots, recognized_slots)
 		total_recall.append(recall)
+		recognized_label = intent[0]
+		if not recognized_label:
+			recognized_label = '-'
+		print(f"{sample['text']:80s}\t{recognized_label:20s}\t{label.lower():20s}\t{recognized_label==label.lower()}")
+		if recognized_label == label.lower():
+			positive_counter += 1
+		counter += 1
 
-print(f"Average recall is {round(np.mean(total_recall), 4)}")
+print(f"Correctly recognized {positive_counter} of {counter} ({round(positive_counter / float(counter) * 100, 2)} %)")
+print(f"Average slot recall is {round(np.mean(total_recall), 4)}")

@@ -1,0 +1,9 @@
+Recall (# of correctly recognized slots / number of recognized slots)
+snips-nlu:
+0.5298
+slots-intents:
+0
+pytext:
+0.2702
+joint_nlu:
+slot f1: 0.5509641873278237

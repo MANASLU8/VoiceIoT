@@ -50,7 +50,7 @@
           },
           "word_embedding": {
             "embed_dim": 100,
-            "pretrained_embeddings_path": "~/embeddings/multilingual_embeddings.ru"
+            "pretrained_embeddings_path": "~/models/ArModel100w2v.txt"
           }
         },
         "trainer": {
