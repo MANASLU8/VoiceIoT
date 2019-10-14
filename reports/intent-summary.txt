@@ -1,0 +1,9 @@
+Percentage of correctly recognized ontology-labels:
+snips-nlu:
+11.97 %
+slots-intents:
+10.85 %
+pytext:
+39.64 %
+joint_nlu:
+0%

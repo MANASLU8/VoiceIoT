@@ -3,17 +3,17 @@
     {
       "data": [
         {
-          "text": "какая",
-          "entity": "CommandQuestion",
-          "slot_name": "TemperatureSensor.CommandQuestion"
+          "text": "если будет холодно то"
         },
         {
-          "text": "сегодня"
+          "text": "закрой",
+          "entity": "COMMAND",
+          "slot_name": "TemperatureSensor.COMMAND"
         },
         {
-          "text": "температура",
-          "entity": "DeviceParameterValue",
-          "slot_name": "TemperatureSensor.DeviceParameterValue"
+          "text": "окно",
+          "entity": "CommandFeature",
+          "slot_name": "TemperatureSensor.CommandFeature"
         }
       ]
     },
@@ -58,14 +58,47 @@
     {
       "data": [
         {
-          "text": "поддерживай",
+          "text": "тут",
+          "entity": "LOCCurrent",
+          "slot_name": "TemperatureSensor.LOCCurrent"
+        },
+        {
+          "text": "слишком",
+          "entity": "IntensityQuantifier",
+          "slot_name": "TemperatureSensor.IntensityQuantifier"
+        },
+        {
+          "text": "прохладно",
+          "entity": "CommandFeature",
+          "slot_name": "TemperatureSensor.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "сделай",
+          "entity": "COMMAND",
+          "slot_name": "TemperatureSensor.COMMAND"
+        },
+        {
+          "text": "потеплее",
+          "entity": "IntensityQuantifier",
+          "slot_name": "TemperatureSensor.IntensityQuantifier"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "держи",
           "entity": "COMMAND",
           "slot_name": "TemperatureSensor.COMMAND"
         },
         {
           "text": "температуру",
-          "entity": "DeviceFeature",
-          "slot_name": "TemperatureSensor.DeviceFeature"
+          "entity": "CommandFeature",
+          "slot_name": "TemperatureSensor.CommandFeature"
         },
         {
           "text": "в"
@@ -74,534 +107,78 @@
           "text": "комнате",
           "entity": "LOC",
           "slot_name": "TemperatureSensor.LOC"
-        },
-        {
-          "text": "на"
-        },
-        {
-          "text": "уровне",
-          "entity": "DeviceFeature",
-          "slot_name": "TemperatureSensor.DeviceFeature"
-        },
-        {
-          "text": "число",
-          "entity": "DeviceParameterValue",
-          "slot_name": "TemperatureSensor.DeviceParameterValue"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "установи",
-          "entity": "COMMAND",
-          "slot_name": "TemperatureSensor.COMMAND"
-        },
-        {
-          "text": "температура",
-          "entity": "CommandParameter",
-          "slot_name": "TemperatureSensor.CommandParameter"
-        },
-        {
-          "text": "на"
-        },
-        {
-          "text": "число",
-          "entity": "CommandParameterValue",
-          "slot_name": "TemperatureSensor.CommandParameterValue"
-        },
-        {
-          "text": "а"
-        },
-        {
-          "text": "влажность",
-          "entity": "CommandParameter",
-          "slot_name": "TemperatureSensor.CommandParameter"
-        },
-        {
-          "text": "на"
-        },
-        {
-          "text": "число",
-          "entity": "CommandParameterValue",
-          "slot_name": "TemperatureSensor.CommandParameterValue"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "проветри",
-          "entity": "COMMAND",
-          "slot_name": "TemperatureSensor.COMMAND"
-        },
-        {
-          "text": "зал",
-          "entity": "LOC",
-          "slot_name": "TemperatureSensor.LOC"
-        },
-        {
-          "text": "и"
-        },
-        {
-          "text": "кухню",
-          "entity": "LOC",
-          "slot_name": "TemperatureSensor.LOC"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "днем"
-        },
-        {
-          "text": "включи",
-          "entity": "COMMAND",
-          "slot_name": "TemperatureSensor.COMMAND"
-        },
-        {
-          "text": "обогреватель",
-          "entity": "DEVICE",
-          "slot_name": "TemperatureSensor.DEVICE"
-        },
-        {
-          "text": "в"
-        },
-        {
-          "text": "спальне",
-          "entity": "LOC",
-          "slot_name": "TemperatureSensor.LOC"
-        }
-      ]
-    }
-  ],
-  "SmartOven": [
-    {
-      "data": [
-        {
-          "text": "сколько",
-          "entity": "ParameterValueQuestion",
-          "slot_name": "SmartOven.ParameterValueQuestion"
-        },
-        {
-          "text": "дней"
-        },
-        {
-          "text": "стоит",
-          "entity": "CommandFeature",
-          "slot_name": "SmartOven.CommandFeature"
-        },
-        {
-          "text": "суп",
-          "entity": "CommandFeature",
-          "slot_name": "SmartOven.CommandFeature"
-        },
-        {
-          "text": "в"
-        },
-        {
-          "text": "духовке",
-          "entity": "DEVICE",
-          "slot_name": "SmartOven.DEVICE"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "включена",
-          "entity": "DeviceSta`te",
-          "slot_name": "SmartOven.DeviceSta`te"
-        },
-        {
-          "text": "ли"
-        },
-        {
-          "text": "духовка",
-          "entity": "DEVICE",
-          "slot_name": "SmartOven.DEVICE"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "приготовь",
-          "entity": "COMMAND",
-          "slot_name": "SmartOven.COMMAND"
-        },
-        {
-          "text": "булку",
-          "entity": "CommandFeature",
-          "slot_name": "SmartOven.CommandFeature"
-        },
-        {
-          "text": "к"
-        },
-        {
-          "text": "моему",
-          "entity": "Actor",
-          "slot_name": "SmartOven.Actor"
-        },
-        {
-          "text": "приходу",
-          "entity": "Action",
-          "slot_name": "SmartOven.Action"
-        }
-      ]
-    }
-  ],
-  "AudioSystem": [
-    {
-      "data": [
-        {
-          "text": "увеличьте",
-          "entity": "COMMAND",
-          "slot_name": "AudioSystem.COMMAND"
-        },
-        {
-          "text": "громкость",
-          "entity": "CommandFeature",
-          "slot_name": "AudioSystem.CommandFeature"
-        },
-        {
-          "text": "чтобы не мешал стук"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "отключи",
-          "entity": "COMMAND",
-          "slot_name": "AudioSystem.COMMAND"
-        },
-        {
-          "text": "песню",
-          "entity": "CommandFeature",
-          "slot_name": "AudioSystem.CommandFeature"
-        },
-        {
-          "text": "если"
-        },
-        {
-          "text": "я",
-          "entity": "Actor",
-          "slot_name": "AudioSystem.Actor"
-        },
-        {
-          "text": "лягу",
-          "entity": "Action",
-          "slot_name": "AudioSystem.Action"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "пропусти",
-          "entity": "COMMAND",
-          "slot_name": "AudioSystem.COMMAND"
-        },
-        {
-          "text": "песню",
-          "entity": "CommandFeature",
-          "slot_name": "AudioSystem.CommandFeature"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "мои",
-          "entity": "DeviceFeature",
-          "slot_name": "AudioSystem.DeviceFeature"
-        },
-        {
-          "text": "любимые",
-          "entity": "DeviceFeature",
-          "slot_name": "AudioSystem.DeviceFeature"
-        },
-        {
-          "text": "песни",
-          "entity": "DeviceFeature",
-          "slot_name": "AudioSystem.DeviceFeature"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "выключи",
-          "entity": "COMMAND",
-          "slot_name": "AudioSystem.COMMAND"
-        },
-        {
-          "text": "динамики",
-          "entity": "DeviceFeature",
-          "slot_name": "AudioSystem.DeviceFeature"
-        },
-        {
-          "text": "на"
-        },
-        {
-          "text": "кухне",
-          "entity": "LOC",
-          "slot_name": "AudioSystem.LOC"
-        },
-        {
-          "text": "и"
-        },
-        {
-          "text": "отключи",
-          "entity": "COMMAND",
-          "slot_name": "AudioSystem.COMMAND"
-        },
-        {
-          "text": "в"
-        },
-        {
-          "text": "спальне",
-          "entity": "LOC",
-          "slot_name": "AudioSystem.LOC"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "добавляй",
-          "entity": "COMMAND",
-          "slot_name": "AudioSystem.COMMAND"
-        },
-        {
-          "text": "песню",
-          "entity": "CommandFeature",
-          "slot_name": "AudioSystem.CommandFeature"
-        },
-        {
-          "text": "в мою"
-        },
-        {
-          "text": "коллекцию",
-          "entity": "CommandFeature",
-          "slot_name": "AudioSystem.CommandFeature"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "увеличь",
-          "entity": "COMMAND",
-          "slot_name": "AudioSystem.COMMAND"
-        },
-        {
-          "text": "звук",
-          "entity": "CommandFeature",
-          "slot_name": "AudioSystem.CommandFeature"
-        },
-        {
-          "text": "на"
-        },
-        {
-          "text": "три",
-          "entity": "DeviceParameterValue",
-          "slot_name": "AudioSystem.DeviceParameterValue"
-        },
-        {
-          "text": "пункта",
-          "entity": "DeviceFeature",
-          "slot_name": "AudioSystem.DeviceFeature"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "мой",
-          "entity": "DeviceFeature",
-          "slot_name": "AudioSystem.DeviceFeature"
-        },
-        {
-          "text": "любимый",
-          "entity": "DeviceFeature",
-          "slot_name": "AudioSystem.DeviceFeature"
-        },
-        {
-          "text": "альбом",
-          "entity": "DeviceFeature",
-          "slot_name": "AudioSystem.DeviceFeature"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "отключи",
-          "entity": "COMMAND",
-          "slot_name": "AudioSystem.COMMAND"
-        },
-        {
-          "text": "песню",
-          "entity": "CommandFeature",
-          "slot_name": "AudioSystem.CommandFeature"
-        },
-        {
-          "text": "когда"
-        },
-        {
-          "text": "я",
-          "entity": "Actor",
-          "slot_name": "AudioSystem.Actor"
-        },
-        {
-          "text": "засну",
-          "entity": "Action",
-          "slot_name": "AudioSystem.Action"
-        }
-      ]
-    }
-  ],
-  "SmartFeeder": [
-    {
-      "data": [
-        {
-          "text": "корми",
-          "entity": "COMMAND",
-          "slot_name": "SmartFeeder.COMMAND"
-        },
-        {
-          "text": "пса три раза в день"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "если"
-        },
-        {
-          "text": "песик",
-          "entity": "CommandFeature",
-          "slot_name": "SmartFeeder.CommandFeature"
-        },
-        {
-          "text": "давно",
-          "entity": "FeatureState",
-          "slot_name": "SmartFeeder.FeatureState"
-        },
-        {
-          "text": "не",
-          "entity": "FeatureState",
-          "slot_name": "SmartFeeder.FeatureState"
-        },
-        {
-          "text": "ел",
-          "entity": "FeatureState",
-          "slot_name": "SmartFeeder.FeatureState"
-        },
-        {
-          "text": "покорми",
-          "entity": "COMMAND",
-          "slot_name": "SmartFeeder.COMMAND"
-        },
-        {
-          "text": "его"
-        }
-      ]
-    }
-  ],
-  "HeaterController": [
-    {
-      "data": [
-        {
-          "text": "в 5 часов"
-        },
-        {
-          "text": "включи",
-          "entity": "COMMAND",
-          "slot_name": "HeaterController.COMMAND"
-        },
-        {
-          "text": "обогреватель",
-          "entity": "DEVICE",
-          "slot_name": "HeaterController.DEVICE"
-        },
-        {
-          "text": "на"
-        },
-        {
-          "text": "кухне",
-          "entity": "LOC",
-          "slot_name": "HeaterController.LOC"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "закрыть",
-          "entity": "COMMAND",
-          "slot_name": "HeaterController.COMMAND"
-        },
-        {
-          "text": "дверь",
-          "entity": "CommandFeature",
-          "slot_name": "HeaterController.CommandFeature"
-        },
-        {
-          "text": "если холодно"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "eсли на улице холодно"
-        },
-        {
-          "text": "включи",
-          "entity": "COMMAND",
-          "slot_name": "HeaterController.COMMAND"
-        },
-        {
-          "text": "обогреватель",
-          "entity": "DEVICE",
-          "slot_name": "HeaterController.DEVICE"
-        }
-      ]
-    }
-  ],
-  "HumiditySensor": [
-    {
-      "data": [
-        {
-          "text": "поддерживай",
-          "entity": "COMMAND",
-          "slot_name": "HumiditySensor.COMMAND"
-        },
-        {
-          "text": "влажность",
-          "entity": "CommandFeature",
-          "slot_name": "HumiditySensor.CommandFeature"
-        },
-        {
-          "text": "в"
-        },
-        {
-          "text": "комнате",
-          "entity": "LOC",
-          "slot_name": "HumiditySensor.LOC"
         },
         {
           "text": "на уровне"
         },
         {
-          "text": "60",
-          "entity": "DeviceParameterValue",
-          "slot_name": "HumiditySensor.DeviceParameterValue"
+          "text": "число",
+          "entity": "CommandParameterValue",
+          "slot_name": "TemperatureSensor.CommandParameterValue"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "закрой",
+          "entity": "COMMAND",
+          "slot_name": "TemperatureSensor.COMMAND"
+        },
+        {
+          "text": "занавески",
+          "entity": "CommandFeature",
+          "slot_name": "TemperatureSensor.CommandFeature"
+        },
+        {
+          "text": "если"
+        },
+        {
+          "text": "слишком",
+          "entity": "IntensityQuantifier",
+          "slot_name": "TemperatureSensor.IntensityQuantifier"
+        },
+        {
+          "text": "холодно",
+          "entity": "CommandFeature",
+          "slot_name": "TemperatureSensor.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "как сейчас"
+        },
+        {
+          "text": "холодно",
+          "entity": "CommandFeature",
+          "slot_name": "TemperatureSensor.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "сколько",
+          "entity": "ParameterValueQuestion",
+          "slot_name": "TemperatureSensor.ParameterValueQuestion"
+        },
+        {
+          "text": "сейчас"
+        },
+        {
+          "text": "градусов",
+          "entity": "DeviceFeature",
+          "slot_name": "TemperatureSensor.DeviceFeature"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "улице",
+          "entity": "LOC",
+          "slot_name": "TemperatureSensor.LOC"
         }
       ]
     }
@@ -610,24 +187,17 @@
     {
       "data": [
         {
-          "text": "если будет холодно"
-        },
-        {
           "text": "закрой",
           "entity": "COMMAND",
           "slot_name": "WindowRelay.COMMAND"
         },
         {
-          "text": "окно",
-          "entity": "DeviceFeature",
-          "slot_name": "WindowRelay.DeviceFeature"
-        }
-      ]
-    },
-    {
-      "data": [
+          "text": "шторы",
+          "entity": "CommandFeature",
+          "slot_name": "WindowRelay.CommandFeature"
+        },
         {
-          "text": "если будет жарко то закрой окно"
+          "text": "если солнечный свет попадает на экран компьютера и рабочий стол"
         }
       ]
     },
@@ -639,9 +209,114 @@
           "slot_name": "WindowRelay.COMMAND"
         },
         {
+          "text": "шторы",
+          "entity": "CommandFeature",
+          "slot_name": "WindowRelay.CommandFeature"
+        },
+        {
+          "text": "если",
+          "entity": "LOC",
+          "slot_name": "WindowRelay.LOC"
+        },
+        {
+          "text": "слишком",
+          "entity": "IntensityQuantifier",
+          "slot_name": "WindowRelay.IntensityQuantifier"
+        },
+        {
+          "text": "темно",
+          "entity": "CommandFeature",
+          "slot_name": "WindowRelay.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "если за окном"
+        },
+        {
+          "text": "рассвет",
+          "entity": "CommandFeature",
+          "slot_name": "WindowRelay.CommandFeature"
+        },
+        {
+          "text": "открой",
+          "entity": "COMMAND",
+          "slot_name": "WindowRelay.COMMAND"
+        },
+        {
+          "text": "шторы",
+          "entity": "CommandFeature",
+          "slot_name": "WindowRelay.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "если на улице жарко"
+        },
+        {
+          "text": "открой",
+          "entity": "COMMAND",
+          "slot_name": "WindowRelay.COMMAND"
+        },
+        {
           "text": "окно",
-          "entity": "DeviceFeature",
-          "slot_name": "WindowRelay.DeviceFeature"
+          "entity": "CommandFeature",
+          "slot_name": "WindowRelay.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "когда",
+          "entity": "ParameterValueQuestion",
+          "slot_name": "WindowRelay.ParameterValueQuestion"
+        },
+        {
+          "text": "последний",
+          "entity": "Analytics",
+          "slot_name": "WindowRelay.Analytics"
+        },
+        {
+          "text": "раз",
+          "entity": "Analytics",
+          "slot_name": "WindowRelay.Analytics"
+        },
+        {
+          "text": "снимали",
+          "entity": "Action",
+          "slot_name": "WindowRelay.Action"
+        },
+        {
+          "text": "занавески",
+          "entity": "CommandFeature",
+          "slot_name": "WindowRelay.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "проветрить",
+          "entity": "COMMAND",
+          "slot_name": "WindowRelay.COMMAND"
+        },
+        {
+          "text": "здесь пока"
+        },
+        {
+          "text": "я",
+          "entity": "Actor",
+          "slot_name": "WindowRelay.Actor"
+        },
+        {
+          "text": "буду",
+          "entity": "Action",
+          "slot_name": "WindowRelay.Action"
         },
         {
           "text": "на"
@@ -650,38 +325,6 @@
           "text": "кухне",
           "entity": "LOC",
           "slot_name": "WindowRelay.LOC"
-        },
-        {
-          "text": "на"
-        },
-        {
-          "text": "30",
-          "entity": "CommandParameterValue",
-          "slot_name": "WindowRelay.CommandParameterValue"
-        },
-        {
-          "text": "градусов",
-          "entity": "CommandParameter",
-          "slot_name": "WindowRelay.CommandParameter"
-        }
-      ]
-    }
-  ],
-  "SmartBreadMaker": [
-    {
-      "data": [
-        {
-          "text": "включи",
-          "entity": "COMMAND",
-          "slot_name": "SmartBreadMaker.COMMAND"
-        },
-        {
-          "text": "готовку",
-          "entity": "CommandFeature",
-          "slot_name": "SmartBreadMaker.CommandFeature"
-        },
-        {
-          "text": "в 8 вечера"
         }
       ]
     }
@@ -749,24 +392,519 @@
       ]
     }
   ],
+  "HeaterController": [
+    {
+      "data": [
+        {
+          "text": "если на"
+        },
+        {
+          "text": "улице",
+          "entity": "LOC",
+          "slot_name": "HeaterController.LOC"
+        },
+        {
+          "text": "холодно",
+          "entity": "CommandFeature",
+          "slot_name": "HeaterController.CommandFeature"
+        },
+        {
+          "text": "включи",
+          "entity": "COMMAND",
+          "slot_name": "HeaterController.COMMAND"
+        },
+        {
+          "text": "батарею",
+          "entity": "DeviceFeature",
+          "slot_name": "HeaterController.DeviceFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "здесь",
+          "entity": "LOC",
+          "slot_name": "HeaterController.LOC"
+        },
+        {
+          "text": "слишком",
+          "entity": "IntensityQuantifier",
+          "slot_name": "HeaterController.IntensityQuantifier"
+        },
+        {
+          "text": "холодно"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "сделай",
+          "entity": "COMMAND",
+          "slot_name": "HeaterController.COMMAND"
+        },
+        {
+          "text": "потеплее",
+          "entity": "IntensityQuantifier",
+          "slot_name": "HeaterController.IntensityQuantifier"
+        },
+        {
+          "text": "обогреватель",
+          "entity": "DEVICE",
+          "slot_name": "HeaterController.DEVICE"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "в время"
+        },
+        {
+          "text": "включи",
+          "entity": "COMMAND",
+          "slot_name": "HeaterController.COMMAND"
+        },
+        {
+          "text": "обогреватель",
+          "entity": "DEVICE",
+          "slot_name": "HeaterController.DEVICE"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "кухне",
+          "entity": "LOC",
+          "slot_name": "HeaterController.LOC"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "число",
+          "entity": "DeviceParameterValue",
+          "slot_name": "HeaterController.DeviceParameterValue"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "здесь",
+          "entity": "LOC",
+          "slot_name": "HeaterController.LOC"
+        },
+        {
+          "text": "слишком",
+          "entity": "IntensityQuantifier",
+          "slot_name": "HeaterController.IntensityQuantifier"
+        },
+        {
+          "text": "холодно"
+        },
+        {
+          "text": "сделай",
+          "entity": "COMMAND",
+          "slot_name": "HeaterController.COMMAND"
+        },
+        {
+          "text": "потеплее"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "здесь",
+          "entity": "LOCCurrent",
+          "slot_name": "HeaterController.LOCCurrent"
+        },
+        {
+          "text": "слишком",
+          "entity": "IntensityQuantifier",
+          "slot_name": "HeaterController.IntensityQuantifier"
+        },
+        {
+          "text": "жарко",
+          "entity": "CommandFeature",
+          "slot_name": "HeaterController.CommandFeature"
+        }
+      ]
+    }
+  ],
+  "AudioSystem": [
+    {
+      "data": [
+        {
+          "text": "отключи",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "музыку",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        },
+        {
+          "text": "когда"
+        },
+        {
+          "text": "я",
+          "entity": "Actor",
+          "slot_name": "AudioSystem.Actor"
+        },
+        {
+          "text": "засну",
+          "entity": "Action",
+          "slot_name": "AudioSystem.Action"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "включи",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "динамики",
+          "entity": "DEVICE",
+          "slot_name": "AudioSystem.DEVICE"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "кухне",
+          "entity": "LOC",
+          "slot_name": "AudioSystem.LOC"
+        },
+        {
+          "text": "и выключи в гостинной"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "включи",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "аудиосистему",
+          "entity": "DEVICE",
+          "slot_name": "AudioSystem.DEVICE"
+        },
+        {
+          "text": "когда я приду домой"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "выведи",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "текст",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        },
+        {
+          "text": "песни",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        },
+        {
+          "text": "на экран"
+        },
+        {
+          "text": "телефона",
+          "entity": "DEVICE",
+          "slot_name": "AudioSystem.DEVICE"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "воспроизведи",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "её",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "увеличь",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "звук",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "три",
+          "entity": "DeviceParameterValue",
+          "slot_name": "AudioSystem.DeviceParameterValue"
+        },
+        {
+          "text": "пункта",
+          "entity": "DeviceFeature",
+          "slot_name": "AudioSystem.DeviceFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "увеличь",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "частоту",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        },
+        {
+          "text": "чтобы не мешал"
+        },
+        {
+          "text": "шум",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "добавить",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "песню",
+          "entity": "DeviceParameter",
+          "slot_name": "AudioSystem.DeviceParameter"
+        },
+        {
+          "text": "в"
+        },
+        {
+          "text": "мою",
+          "entity": "DeviceFeature",
+          "slot_name": "AudioSystem.DeviceFeature"
+        },
+        {
+          "text": "коллекцию",
+          "entity": "DeviceFeature",
+          "slot_name": "AudioSystem.DeviceFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "добавь",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "мелодию",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        },
+        {
+          "text": "в"
+        },
+        {
+          "text": "мою",
+          "entity": "Actor",
+          "slot_name": "AudioSystem.Actor"
+        },
+        {
+          "text": "коллекцию",
+          "entity": "DeviceFeature",
+          "slot_name": "AudioSystem.DeviceFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "выключи",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "динамики",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        },
+        {
+          "text": "на",
+          "entity": "LOC",
+          "slot_name": "AudioSystem.LOC"
+        },
+        {
+          "text": "кухне",
+          "entity": "LOC",
+          "slot_name": "AudioSystem.LOC"
+        },
+        {
+          "text": "и"
+        },
+        {
+          "text": "включи",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "их"
+        },
+        {
+          "text": "в",
+          "entity": "LOC",
+          "slot_name": "AudioSystem.LOC"
+        },
+        {
+          "text": "спальне",
+          "entity": "LOC",
+          "slot_name": "AudioSystem.LOC"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "если"
+        },
+        {
+          "text": "я",
+          "entity": "Actor",
+          "slot_name": "AudioSystem.Actor"
+        },
+        {
+          "text": "засну",
+          "entity": "Action",
+          "slot_name": "AudioSystem.Action"
+        },
+        {
+          "text": "разбуди",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "меня в"
+        },
+        {
+          "text": "число",
+          "entity": "DeviceParameterValue",
+          "slot_name": "AudioSystem.DeviceParameterValue"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "увеличь",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "громкость",
+          "entity": "DeviceParameterValue",
+          "slot_name": "AudioSystem.DeviceParameterValue"
+        },
+        {
+          "text": "чтобы не мешал стук"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "включай",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "ежедневную",
+          "entity": "СommandFeature",
+          "slot_name": "AudioSystem.СommandFeature"
+        },
+        {
+          "text": "подборку",
+          "entity": "СommandFeature",
+          "slot_name": "AudioSystem.СommandFeature"
+        },
+        {
+          "text": "музыки",
+          "entity": "СommandFeature",
+          "slot_name": "AudioSystem.СommandFeature"
+        },
+        {
+          "text": "к"
+        },
+        {
+          "text": "моему",
+          "entity": "Actor",
+          "slot_name": "AudioSystem.Actor"
+        },
+        {
+          "text": "приходу",
+          "entity": "Aсtion",
+          "slot_name": "AudioSystem.Aсtion"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "увеличь",
+          "entity": "COMMAND",
+          "slot_name": "AudioSystem.COMMAND"
+        },
+        {
+          "text": "громкость",
+          "entity": "CommandFeature",
+          "slot_name": "AudioSystem.CommandFeature"
+        },
+        {
+          "text": "чтобы не мешал шум "
+        }
+      ]
+    }
+  ],
   "LightSensor": [
     {
       "data": [
         {
-          "text": "если за дверью"
-        },
-        {
-          "text": "рассвет",
-          "entity": "CommandFeature",
-          "slot_name": "LightSensor.CommandFeature"
-        },
-        {
-          "text": "закрой",
+          "text": "сделай",
           "entity": "COMMAND",
           "slot_name": "LightSensor.COMMAND"
         },
         {
-          "text": "шторы",
+          "text": "светло",
           "entity": "CommandFeature",
           "slot_name": "LightSensor.CommandFeature"
         }
@@ -775,37 +913,59 @@
     {
       "data": [
         {
-          "text": "выключай",
+          "text": "имитируй",
           "entity": "COMMAND",
           "slot_name": "LightSensor.COMMAND"
         },
         {
-          "text": "свет",
+          "text": "повседневное",
           "entity": "CommandFeature",
           "slot_name": "LightSensor.CommandFeature"
         },
         {
-          "text": "после"
+          "text": "освещение",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
         },
         {
-          "text": "моего",
+          "text": "пока"
+        },
+        {
+          "text": "я",
           "entity": "Actor",
           "slot_name": "LightSensor.Actor"
         },
         {
-          "text": "ухода",
+          "text": "не",
           "entity": "Action",
           "slot_name": "LightSensor.Action"
         },
         {
-          "text": "из",
-          "entity": "LOC",
-          "slot_name": "LightSensor.LOC"
+          "text": "дома",
+          "entity": "Action",
+          "slot_name": "LightSensor.Action"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "когда стемнеет"
         },
         {
-          "text": "спальни",
-          "entity": "LOC",
-          "slot_name": "LightSensor.LOC"
+          "text": "включи",
+          "entity": "COMMAND",
+          "slot_name": "LightSensor.COMMAND"
+        },
+        {
+          "text": "подсветку",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
+        },
+        {
+          "text": "фонтана",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
         }
       ]
     },
@@ -838,9 +998,48 @@
           "text": "из"
         },
         {
-          "text": "спальни",
+          "text": "комнат",
           "entity": "LOC",
           "slot_name": "LightSensor.LOC"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "зажги",
+          "entity": "COMMAND",
+          "slot_name": "LightSensor.COMMAND"
+        },
+        {
+          "text": "фонарики",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
+        },
+        {
+          "text": "а свет под навесом выключи"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "если за дверью"
+        },
+        {
+          "text": "рассвет",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
+        },
+        {
+          "text": "закрой",
+          "entity": "COMMAND",
+          "slot_name": "LightSensor.COMMAND"
+        },
+        {
+          "text": "шторы",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
         }
       ]
     },
@@ -882,6 +1081,20 @@
     {
       "data": [
         {
+          "text": "выключи",
+          "entity": "COMMAND",
+          "slot_name": "LightSensor.COMMAND"
+        },
+        {
+          "text": "подсветку",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
           "text": "выключай",
           "entity": "COMMAND",
           "slot_name": "LightSensor.COMMAND"
@@ -892,60 +1105,21 @@
           "slot_name": "LightSensor.CommandFeature"
         },
         {
-          "text": "если"
-        },
-        {
-          "text": "я",
-          "entity": "Actor",
-          "slot_name": "LightSensor.Actor"
-        },
-        {
-          "text": "ухожу",
-          "entity": "Action",
-          "slot_name": "LightSensor.Action"
-        },
-        {
-          "text": "из"
-        },
-        {
-          "text": "комнаты",
-          "entity": "LOC",
-          "slot_name": "LightSensor.LOC"
+          "text": "если я ухожу из прихожей"
         }
       ]
     },
     {
       "data": [
         {
-          "text": "включай",
+          "text": "сделай",
           "entity": "COMMAND",
           "slot_name": "LightSensor.COMMAND"
         },
         {
-          "text": "свет",
+          "text": "темно",
           "entity": "CommandFeature",
           "slot_name": "LightSensor.CommandFeature"
-        },
-        {
-          "text": "если"
-        },
-        {
-          "text": "я",
-          "entity": "Actor",
-          "slot_name": "LightSensor.Actor"
-        },
-        {
-          "text": "зашёл",
-          "entity": "Action",
-          "slot_name": "LightSensor.Action"
-        },
-        {
-          "text": "в"
-        },
-        {
-          "text": "комнату",
-          "entity": "LOC",
-          "slot_name": "LightSensor.LOC"
         }
       ]
     },
@@ -970,7 +1144,7 @@
           "slot_name": "LightSensor.Actor"
         },
         {
-          "text": "заглядываю",
+          "text": "захожу",
           "entity": "Action",
           "slot_name": "LightSensor.Action"
         },
@@ -978,136 +1152,105 @@
           "text": "в"
         },
         {
-          "text": "комнату",
+          "text": "гостиную",
           "entity": "LOC",
           "slot_name": "LightSensor.LOC"
         }
       ]
-    }
-  ],
-  "DoorWindowStatusSensor": [
+    },
     {
       "data": [
         {
-          "text": "проверь",
-          "entity": "COMMAND",
-          "slot_name": "DoorWindowStatusSensor.COMMAND"
+          "text": "если"
         },
         {
-          "text": "двери",
-          "entity": "DeviceFeature",
-          "slot_name": "DoorWindowStatusSensor.DeviceFeature"
+          "text": "за",
+          "entity": "LOC",
+          "slot_name": "LightSensor.LOC"
+        },
+        {
+          "text": "дверью",
+          "entity": "LOC",
+          "slot_name": "LightSensor.LOC"
+        },
+        {
+          "text": "рассвет",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
+        },
+        {
+          "text": "открой",
+          "entity": "COMMAND",
+          "slot_name": "LightSensor.COMMAND"
+        },
+        {
+          "text": "шторы",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "гаси",
+          "entity": "COMMAND",
+          "slot_name": "LightSensor.COMMAND"
+        },
+        {
+          "text": "свет",
+          "entity": "CommandFeature",
+          "slot_name": "LightSensor.CommandFeature"
+        },
+        {
+          "text": "если"
+        },
+        {
+          "text": "меня",
+          "entity": "Actor",
+          "slot_name": "LightSensor.Actor"
+        },
+        {
+          "text": "нет",
+          "entity": "Action",
+          "slot_name": "LightSensor.Action"
         },
         {
           "text": "в"
         },
         {
-          "text": "доме",
+          "text": "спальне",
           "entity": "LOC",
-          "slot_name": "DoorWindowStatusSensor.LOC"
+          "slot_name": "LightSensor.LOC"
         }
       ]
     },
     {
       "data": [
         {
-          "text": "если"
+          "text": "сколько",
+          "entity": "RequestQuestion",
+          "slot_name": "LightSensor.RequestQuestion"
         },
         {
-          "text": "кот",
+          "text": "лампочек",
           "entity": "CommandFeature",
-          "slot_name": "DoorWindowStatusSensor.CommandFeature"
+          "slot_name": "LightSensor.CommandFeature"
         },
         {
-          "text": "уже"
-        },
-        {
-          "text": "поел",
+          "text": "нужно",
           "entity": "FeatureState",
-          "slot_name": "DoorWindowStatusSensor.FeatureState"
+          "slot_name": "LightSensor.FeatureState"
         },
         {
-          "text": "выпусти",
-          "entity": "COMMAND",
-          "slot_name": "DoorWindowStatusSensor.COMMAND"
-        },
-        {
-          "text": "его"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "закрой",
-          "entity": "COMMAND",
-          "slot_name": "DoorWindowStatusSensor.COMMAND"
-        },
-        {
-          "text": "окно",
-          "entity": "CommandFeature",
-          "slot_name": "DoorWindowStatusSensor.CommandFeature"
-        },
-        {
-          "text": "если"
-        },
-        {
-          "text": "сильный",
-          "entity": "IntensityQuantifier",
-          "slot_name": "DoorWindowStatusSensor.IntensityQuantifier"
-        },
-        {
-          "text": "ветер",
-          "entity": "CommandFeature",
-          "slot_name": "DoorWindowStatusSensor.CommandFeature"
-        },
-        {
-          "text": "на"
-        },
-        {
-          "text": "улице",
-          "entity": "LOC",
-          "slot_name": "DoorWindowStatusSensor.LOC"
+          "text": "заменить",
+          "entity": "FeatureState",
+          "slot_name": "LightSensor.FeatureState"
         }
       ]
     }
   ],
   "Lamp": [
-    {
-      "data": [
-        {
-          "text": "включай",
-          "entity": "COMMAND",
-          "slot_name": "Lamp.COMMAND"
-        },
-        {
-          "text": "свет",
-          "entity": "CommandFeature",
-          "slot_name": "Lamp.CommandFeature"
-        },
-        {
-          "text": "когда"
-        },
-        {
-          "text": "я",
-          "entity": "Actor",
-          "slot_name": "Lamp.Actor"
-        },
-        {
-          "text": "захожу",
-          "entity": "Action",
-          "slot_name": "Lamp.Action"
-        },
-        {
-          "text": "в"
-        },
-        {
-          "text": "спальню",
-          "entity": "LOC",
-          "slot_name": "Lamp.LOC"
-        }
-      ]
-    },
     {
       "data": [
         {
@@ -1133,132 +1276,338 @@
     {
       "data": [
         {
-          "text": "выключи",
+          "text": "выключай",
           "entity": "COMMAND",
           "slot_name": "Lamp.COMMAND"
         },
         {
           "text": "свет",
-          "entity": "DeviceFeature",
-          "slot_name": "Lamp.DeviceFeature"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "выключи",
-          "entity": "COMMAND",
-          "slot_name": "Lamp.COMMAND"
-        },
-        {
-          "text": "свет",
-          "entity": "DeviceFeature",
-          "slot_name": "Lamp.DeviceFeature"
-        },
-        {
-          "text": "в"
-        },
-        {
-          "text": "ванной",
-          "entity": "LOC",
-          "slot_name": "Lamp.LOC"
-        }
-      ]
-    }
-  ],
-  "SmartKettle": [
-    {
-      "data": [
-        {
-          "text": "eсли"
-        },
-        {
-          "text": "вода",
           "entity": "CommandFeature",
-          "slot_name": "SmartKettle.CommandFeature"
+          "slot_name": "Lamp.CommandFeature"
         },
-        {
-          "text": "в"
-        },
-        {
-          "text": "чайнике",
-          "entity": "DEVICE",
-          "slot_name": "SmartKettle.DEVICE"
-        },
-        {
-          "text": "остыла",
-          "entity": "FeatureState",
-          "slot_name": "SmartKettle.FeatureState"
-        },
-        {
-          "text": "разогрей",
-          "entity": "COMMAND",
-          "slot_name": "SmartKettle.COMMAND"
-        }
-      ]
-    },
-    {
-      "data": [
         {
           "text": "когда"
         },
         {
-          "text": "я",
+          "text": "меня",
           "entity": "Actor",
-          "slot_name": "SmartKettle.Actor"
+          "slot_name": "Lamp.Actor"
         },
         {
-          "text": "зайду",
+          "text": "нет",
           "entity": "Action",
-          "slot_name": "SmartKettle.Action"
+          "slot_name": "Lamp.Action"
         },
         {
-          "text": "завари",
+          "text": "в",
+          "entity": "LOC",
+          "slot_name": "Lamp.LOC"
+        },
+        {
+          "text": "комнате"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "меняй",
           "entity": "COMMAND",
-          "slot_name": "SmartKettle.COMMAND"
+          "slot_name": "Lamp.COMMAND"
         },
         {
-          "text": "чай",
-          "entity": "CommandFeature",
-          "slot_name": "SmartKettle.CommandFeature"
+          "text": "каждый день"
+        },
+        {
+          "text": "фонарик",
+          "entity": "DeviceFeature",
+          "slot_name": "Lamp.DeviceFeature"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "время",
+          "entity": "CommandParameterValue",
+          "slot_name": "Lamp.CommandParameterValue"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "выключай",
+          "entity": "COMMAND",
+          "slot_name": "Lamp.COMMAND"
+        },
+        {
+          "text": "свет",
+          "entity": "Devicefeature",
+          "slot_name": "Lamp.Devicefeature"
+        },
+        {
+          "text": "каждый раз когда я ухожу из гостиной"
         }
       ]
     }
   ],
-  "WashingMachine": [
+  "SmartIron": [
+    {
+      "data": [
+        {
+          "text": "поставь",
+          "entity": "COMMAND",
+          "slot_name": "SmartIron.COMMAND"
+        },
+        {
+          "text": "утюг",
+          "entity": "DEVICE",
+          "slot_name": "SmartIron.DEVICE"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "шерсть",
+          "entity": "DeviceParameterValue",
+          "slot_name": "SmartIron.DeviceParameterValue"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "включен",
+          "entity": "DeviceState",
+          "slot_name": "SmartIron.DeviceState"
+        },
+        {
+          "text": "ли"
+        },
+        {
+          "text": "утюг",
+          "entity": "DEVICE",
+          "slot_name": "SmartIron.DEVICE"
+        }
+      ]
+    }
+  ],
+  "SmartElectricityMeter": [
+    {
+      "data": [
+        {
+          "text": "полностью",
+          "entity": "Quantifier",
+          "slot_name": "SmartElectricityMeter.Quantifier"
+        },
+        {
+          "text": "выключи",
+          "entity": "COMMAND",
+          "slot_name": "SmartElectricityMeter.COMMAND"
+        },
+        {
+          "text": "электричество",
+          "entity": "CommandFeature",
+          "slot_name": "SmartElectricityMeter.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "какие",
+          "entity": "RequestQuestion",
+          "slot_name": "SmartElectricityMeter.RequestQuestion"
+        },
+        {
+          "text": "устройства",
+          "entity": "Actor",
+          "slot_name": "SmartElectricityMeter.Actor"
+        },
+        {
+          "text": "потребляют",
+          "entity": "Action",
+          "slot_name": "SmartElectricityMeter.Action"
+        },
+        {
+          "text": "наибольшее",
+          "entity": "CommandFeature",
+          "slot_name": "SmartElectricityMeter.CommandFeature"
+        },
+        {
+          "text": "количество",
+          "entity": "CommandFeature",
+          "slot_name": "SmartElectricityMeter.CommandFeature"
+        },
+        {
+          "text": "энергии",
+          "entity": "CommandFeature",
+          "slot_name": "SmartElectricityMeter.CommandFeature"
+        },
+        {
+          "text": "в течение дня"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "включай",
+          "entity": "COMMAND",
+          "slot_name": "SmartElectricityMeter.COMMAND"
+        },
+        {
+          "text": "электричество",
+          "entity": "CommandFeature",
+          "slot_name": "SmartElectricityMeter.CommandFeature"
+        },
+        {
+          "text": "в"
+        },
+        {
+          "text": "комнате",
+          "entity": "LOC",
+          "slot_name": "SmartElectricityMeter.LOC"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "кажду неделю в время"
+        },
+        {
+          "text": "снимай",
+          "entity": "COMMAND",
+          "slot_name": "SmartElectricityMeter.COMMAND"
+        },
+        {
+          "text": "показания",
+          "entity": "CommandFeature",
+          "slot_name": "SmartElectricityMeter.CommandFeature"
+        },
+        {
+          "text": "с"
+        },
+        {
+          "text": "счетчиков",
+          "entity": "CommandFeature",
+          "slot_name": "SmartElectricityMeter.CommandFeature"
+        },
+        {
+          "text": "в"
+        },
+        {
+          "text": "квартире",
+          "entity": "LOC",
+          "slot_name": "SmartElectricityMeter.LOC"
+        }
+      ]
+    },
     {
       "data": [
         {
           "text": "сколько",
-          "entity": "RequestQuestion",
-          "slot_name": "WashingMachine.RequestQuestion"
+          "entity": "ParameterValueQuestion",
+          "slot_name": "SmartElectricityMeter.ParameterValueQuestion"
         },
         {
-          "text": "раз",
-          "entity": "Analytics",
-          "slot_name": "WashingMachine.Analytics"
+          "text": "в этом году"
+        },
+        {
+          "text": "я",
+          "entity": "Actor",
+          "slot_name": "SmartElectricityMeter.Actor"
+        },
+        {
+          "text": "заплатил",
+          "entity": "Action",
+          "slot_name": "SmartElectricityMeter.Action"
+        },
+        {
+          "text": "за свет"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "сколько",
+          "entity": "ParameterValueQuestion",
+          "slot_name": "SmartElectricityMeter.ParameterValueQuestion"
+        },
+        {
+          "text": "нужно",
+          "entity": "Action",
+          "slot_name": "SmartElectricityMeter.Action"
+        },
+        {
+          "text": "будет",
+          "entity": "Action",
+          "slot_name": "SmartElectricityMeter.Action"
+        },
+        {
+          "text": "заплатить",
+          "entity": "Action",
+          "slot_name": "SmartElectricityMeter.Action"
         },
         {
           "text": "за"
         },
         {
-          "text": "месяц",
-          "entity": "Analytics",
-          "slot_name": "WashingMachine.Analytics"
+          "text": "электричество",
+          "entity": "ParameterFeature",
+          "slot_name": "SmartElectricityMeter.ParameterFeature"
         },
         {
-          "text": "была",
-          "entity": "Analytics",
-          "slot_name": "WashingMachine.Analytics"
+          "text": "если киловат стоит как в прошлом месяце"
+        }
+      ]
+    }
+  ],
+  "TVSet": [
+    {
+      "data": [
+        {
+          "text": "включай",
+          "entity": "COMMAND",
+          "slot_name": "TVSet.COMMAND"
         },
         {
-          "text": "стирка",
-          "entity": "CommandFeature",
-          "slot_name": "WashingMachine.CommandFeature"
+          "text": "информационноразвлекательную",
+          "entity": "DeviceFeature",
+          "slot_name": "TVSet.DeviceFeature"
+        },
+        {
+          "text": "когда я приду домой"
         }
       ]
     },
+    {
+      "data": [
+        {
+          "text": "пульт",
+          "entity": "DeviceFeature",
+          "slot_name": "TVSet.DeviceFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "включи",
+          "entity": "COMMAND",
+          "slot_name": "TVSet.COMMAND"
+        },
+        {
+          "text": "телевизор",
+          "entity": "DEVICE",
+          "slot_name": "TVSet.DEVICE"
+        }
+      ]
+    }
+  ],
+  "WashingMachine": [
     {
       "data": [
         {
@@ -1275,196 +1624,275 @@
           "slot_name": "WashingMachine.CommandFeature"
         }
       ]
-    }
-  ],
-  "SmartVacuumCleaner": [
+    },
     {
       "data": [
         {
-          "text": "подмети",
+          "text": "поставь",
           "entity": "COMMAND",
-          "slot_name": "SmartVacuumCleaner.COMMAND"
+          "slot_name": "WashingMachine.COMMAND"
         },
         {
-          "text": "там",
-          "entity": "LOC",
-          "slot_name": "SmartVacuumCleaner.LOC"
+          "text": "в расписание"
         },
         {
-          "text": "пока"
+          "text": "стирку",
+          "entity": "CommandFeature",
+          "slot_name": "WashingMachine.CommandFeature"
         },
         {
-          "text": "я",
+          "text": "на 6 утра"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "когда"
+        },
+        {
+          "text": "стиральная",
+          "entity": "DEVICE",
+          "slot_name": "WashingMachine.DEVICE"
+        },
+        {
+          "text": "машина",
+          "entity": "DEVICE",
+          "slot_name": "WashingMachine.DEVICE"
+        },
+        {
+          "text": "закончит",
+          "entity": "CommandFeature",
+          "slot_name": "WashingMachine.CommandFeature"
+        },
+        {
+          "text": "стирку",
+          "entity": "CommandFeature",
+          "slot_name": "WashingMachine.CommandFeature"
+        },
+        {
+          "text": "сообщи",
+          "entity": "COMMAND",
+          "slot_name": "WashingMachine.COMMAND"
+        },
+        {
+          "text": "мужу",
           "entity": "Actor",
-          "slot_name": "SmartVacuumCleaner.Actor"
+          "slot_name": "WashingMachine.Actor"
+        }
+      ]
+    }
+  ],
+  "SmartOven": [
+    {
+      "data": [
+        {
+          "text": "разогрей",
+          "entity": "COMMAND",
+          "slot_name": "SmartOven.COMMAND"
         },
         {
-          "text": "буду",
-          "entity": "Action",
-          "slot_name": "SmartVacuumCleaner.Action"
+          "text": "духовку",
+          "entity": "DEVICE",
+          "slot_name": "SmartOven.DEVICE"
+        },
+        {
+          "text": "до"
+        },
+        {
+          "text": "число",
+          "entity": "DeviceParameterValue",
+          "slot_name": "SmartOven.DeviceParameterValue"
+        },
+        {
+          "text": "градусов",
+          "entity": "DeviceFeature",
+          "slot_name": "SmartOven.DeviceFeature"
+        },
+        {
+          "text": "к"
+        },
+        {
+          "text": "число",
+          "entity": "DeviceParameterValue",
+          "slot_name": "SmartOven.DeviceParameterValue"
+        },
+        {
+          "text": "часам если меня не будет дома в"
+        },
+        {
+          "text": "время",
+          "entity": "DeviceParameterValue",
+          "slot_name": "SmartOven.DeviceParameterValue"
+        },
+        {
+          "text": "выключи"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "включена",
+          "entity": "DeviceState",
+          "slot_name": "SmartOven.DeviceState"
+        },
+        {
+          "text": "ли"
+        },
+        {
+          "text": "духовка",
+          "entity": "DEVICE",
+          "slot_name": "SmartOven.DEVICE"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "если я завтра приду домой до время"
+        },
+        {
+          "text": "сделай",
+          "entity": "COMMAND",
+          "slot_name": "SmartOven.COMMAND"
+        },
+        {
+          "text": "мне"
+        },
+        {
+          "text": "еды",
+          "entity": "CommandFeature",
+          "slot_name": "SmartOven.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "когда",
+          "entity": "ParameterValueQuestion",
+          "slot_name": "SmartOven.ParameterValueQuestion"
+        },
+        {
+          "text": "будет",
+          "entity": "FeatureState",
+          "slot_name": "SmartOven.FeatureState"
+        },
+        {
+          "text": "готова",
+          "entity": "FeatureState",
+          "slot_name": "SmartOven.FeatureState"
+        },
+        {
+          "text": "пицца",
+          "entity": "CommandFeature",
+          "slot_name": "SmartOven.CommandFeature"
+        }
+      ]
+    }
+  ],
+  "AlarmClock": [
+    {
+      "data": [
+        {
+          "text": "поставь",
+          "entity": "COMMAND",
+          "slot_name": "AlarmClock.COMMAND"
+        },
+        {
+          "text": "на завтра"
+        },
+        {
+          "text": "будильник",
+          "entity": "DEVICE",
+          "slot_name": "AlarmClock.DEVICE"
         },
         {
           "text": "на"
         },
         {
-          "text": "кухне",
-          "entity": "LOC",
-          "slot_name": "SmartVacuumCleaner.LOC"
+          "text": "время",
+          "entity": "DeviceParameterValue",
+          "slot_name": "AlarmClock.DeviceParameterValue"
+        },
+        {
+          "text": "часов в качестве мелодии используй"
+        },
+        {
+          "text": "шум",
+          "entity": "CommandFeature",
+          "slot_name": "AlarmClock.CommandFeature"
+        },
+        {
+          "text": "дождя",
+          "entity": "CommandFeature",
+          "slot_name": "AlarmClock.CommandFeature"
+        },
+        {
+          "text": "с",
+          "entity": "CommandFeature",
+          "slot_name": "AlarmClock.CommandFeature"
+        },
+        {
+          "text": "постепенным",
+          "entity": "CommandFeature",
+          "slot_name": "AlarmClock.CommandFeature"
+        },
+        {
+          "text": "увеличением",
+          "entity": "CommandFeature",
+          "slot_name": "AlarmClock.CommandFeature"
+        },
+        {
+          "text": "громкости",
+          "entity": "CommandFeature",
+          "slot_name": "AlarmClock.CommandFeature"
+        },
+        {
+          "text": "в течении получаса"
         }
       ]
     },
     {
       "data": [
         {
-          "text": "если"
+          "text": "если завтра выходной"
         },
         {
-          "text": "меня",
-          "entity": "Actor",
-          "slot_name": "SmartVacuumCleaner.Actor"
-        },
-        {
-          "text": "нет",
-          "entity": "Action",
-          "slot_name": "SmartVacuumCleaner.Action"
-        },
-        {
-          "text": "дома",
-          "entity": "LOC",
-          "slot_name": "SmartVacuumCleaner.LOC"
-        },
-        {
-          "text": "не"
-        },
-        {
-          "text": "мой",
+          "text": "разбуди",
           "entity": "COMMAND",
-          "slot_name": "SmartVacuumCleaner.COMMAND"
+          "slot_name": "AlarmClock.COMMAND"
         },
         {
-          "text": "пол",
-          "entity": "CommandFeature",
-          "slot_name": "SmartVacuumCleaner.CommandFeature"
+          "text": "меня через"
+        },
+        {
+          "text": "число",
+          "entity": "DeviceParameterValue",
+          "slot_name": "AlarmClock.DeviceParameterValue"
+        },
+        {
+          "text": "часов после выключения света в комнате"
         }
       ]
     }
   ],
-  "TVSet": [
+  "HumiditySensor": [
     {
       "data": [
         {
-          "text": "где",
-          "entity": "DeviceQuestion",
-          "slot_name": "TVSet.DeviceQuestion"
-        },
-        {
-          "text": "пульт",
-          "entity": "DeviceFeature",
-          "slot_name": "TVSet.DeviceFeature"
-        },
-        {
-          "text": "от"
-        },
-        {
-          "text": "телевизора",
-          "entity": "DEVICE",
-          "slot_name": "TVSet.DEVICE"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "пульт",
-          "entity": "DeviceFeature",
-          "slot_name": "TVSet.DeviceFeature"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "делай",
+          "text": "закрыть",
           "entity": "COMMAND",
-          "slot_name": "TVSet.COMMAND"
+          "slot_name": "HumiditySensor.COMMAND"
         },
         {
-          "text": "чуть",
-          "entity": "IntensityQuantifier",
-          "slot_name": "TVSet.IntensityQuantifier"
+          "text": "окно",
+          "entity": "DeviceFeature",
+          "slot_name": "HumiditySensor.DeviceFeature"
         },
         {
-          "text": "тише",
-          "entity": "CommandFeature",
-          "slot_name": "TVSet.CommandFeature"
-        }
-      ]
-    }
-  ],
-  "MotionSensor": [
-    {
-      "data": [
-        {
-          "text": "ктото",
-          "entity": "Actor",
-          "slot_name": "MotionSensor.Actor"
-        },
-        {
-          "text": "остался",
-          "entity": "Action",
-          "slot_name": "MotionSensor.Action"
-        },
-        {
-          "text": "дома",
-          "entity": "LOC",
-          "slot_name": "MotionSensor.LOC"
-        },
-        {
-          "text": "сегодня днем"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "ктонибудь",
-          "entity": "Actor",
-          "slot_name": "MotionSensor.Actor"
-        },
-        {
-          "text": "был",
-          "entity": "Action",
-          "slot_name": "MotionSensor.Action"
-        },
-        {
-          "text": "дома",
-          "entity": "LOC",
-          "slot_name": "MotionSensor.LOC"
-        },
-        {
-          "text": "сегодня днем"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "кто",
-          "entity": "ParameterValueQuestion",
-          "slot_name": "MotionSensor.ParameterValueQuestion"
-        },
-        {
-          "text": "брал",
-          "entity": "Action",
-          "slot_name": "MotionSensor.Action"
-        },
-        {
-          "text": "твою"
-        },
-        {
-          "text": "машину",
-          "entity": "CommandFeature",
-          "slot_name": "MotionSensor.CommandFeature"
+          "text": "если начался дождь"
         }
       ]
     }
@@ -1473,17 +1901,77 @@
     {
       "data": [
         {
-          "text": "сколько",
+          "text": "если было взято спиртное"
+        },
+        {
+          "text": "прислать",
+          "entity": "COMMAND",
+          "slot_name": "SmartFridge.COMMAND"
+        },
+        {
+          "text": "уведомление",
+          "entity": "CommandFeature",
+          "slot_name": "SmartFridge.CommandFeature"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "мой",
+          "entity": "DEVICE",
+          "slot_name": "SmartFridge.DEVICE"
+        },
+        {
+          "text": "телефон",
+          "entity": "DEVICE",
+          "slot_name": "SmartFridge.DEVICE"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "требует",
           "entity": "ParameterValueQuestion",
           "slot_name": "SmartFridge.ParameterValueQuestion"
+        },
+        {
+          "text": "ли"
+        },
+        {
+          "text": "данный",
+          "entity": "DEVICE",
+          "slot_name": "SmartFridge.DEVICE"
+        },
+        {
+          "text": "холодильник",
+          "entity": "DEVICE",
+          "slot_name": "SmartFridge.DEVICE"
+        },
+        {
+          "text": "разморозки",
+          "entity": "CommandFeature",
+          "slot_name": "SmartFridge.CommandFeature"
+        },
+        {
+          "text": "если требует то как часто холодильник нужно размораживать"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "сколько",
+          "entity": "RequestQuestion",
+          "slot_name": "SmartFridge.RequestQuestion"
         },
         {
           "text": "дней"
         },
         {
-          "text": "хранится",
-          "entity": "CommandFeature",
-          "slot_name": "SmartFridge.CommandFeature"
+          "text": "стоит",
+          "entity": "FeatureState",
+          "slot_name": "SmartFridge.FeatureState"
         },
         {
           "text": "салат",
@@ -1495,28 +1983,54 @@
         },
         {
           "text": "холодильнике",
-          "entity": "DEVICE",
-          "slot_name": "SmartFridge.DEVICE"
+          "entity": "LOC",
+          "slot_name": "SmartFridge.LOC"
         }
       ]
     },
     {
       "data": [
         {
-          "text": "сообщи",
-          "entity": "COMMAND",
-          "slot_name": "SmartFridge.COMMAND"
+          "text": "сколько",
+          "entity": "RequestQuestion",
+          "slot_name": "SmartFridge.RequestQuestion"
         },
         {
-          "text": "какие",
-          "entity": "CommandQuestion",
-          "slot_name": "SmartFridge.CommandQuestion"
-        },
-        {
-          "text": "фрукты",
+          "text": "мяса",
           "entity": "CommandFeature",
           "slot_name": "SmartFridge.CommandFeature"
         },
+        {
+          "text": "осталось",
+          "entity": "Analytics",
+          "slot_name": "SmartFridge.Analytics"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "что",
+          "entity": "ParameterValueQuestion",
+          "slot_name": "SmartFridge.ParameterValueQuestion"
+        },
+        {
+          "text": "из"
+        },
+        {
+          "text": "еды",
+          "entity": "CommandFeature",
+          "slot_name": "SmartFridge.CommandFeature"
+        },
+        {
+          "text": "осталось",
+          "entity": "FeatureState",
+          "slot_name": "SmartFridge.FeatureState"
+        }
+      ]
+    },
+    {
+      "data": [
         {
           "text": "в"
         },
@@ -1524,38 +2038,95 @@
           "text": "холодильнике",
           "entity": "DEVICE",
           "slot_name": "SmartFridge.DEVICE"
+        },
+        {
+          "text": "осталось",
+          "entity": "FeatureState",
+          "slot_name": "SmartFridge.FeatureState"
+        },
+        {
+          "text": "мясо",
+          "entity": "CommandFeature",
+          "slot_name": "SmartFridge.CommandFeature"
+        }
+      ]
+    }
+  ],
+  "DoorWindowStatusSensor": [
+    {
+      "data": [
+        {
+          "text": "если будет"
+        },
+        {
+          "text": "жарко",
+          "entity": "CommandFeature",
+          "slot_name": "DoorWindowStatusSensor.CommandFeature"
+        },
+        {
+          "text": "то"
+        },
+        {
+          "text": "открой",
+          "entity": "COMMAND",
+          "slot_name": "DoorWindowStatusSensor.COMMAND"
+        },
+        {
+          "text": "дверь",
+          "entity": "CommandFeature",
+          "slot_name": "DoorWindowStatusSensor.CommandFeature"
         }
       ]
     },
     {
       "data": [
         {
-          "text": "когда"
-        },
-        {
-          "text": "я",
-          "entity": "Actor",
-          "slot_name": "SmartFridge.Actor"
-        },
-        {
-          "text": "вернусь",
-          "entity": "Action",
-          "slot_name": "SmartFridge.Action"
-        },
-        {
-          "text": "начни",
+          "text": "проветри",
           "entity": "COMMAND",
-          "slot_name": "SmartFridge.COMMAND"
+          "slot_name": "DoorWindowStatusSensor.COMMAND"
         },
         {
-          "text": "охлаждать",
-          "entity": "COMMAND",
-          "slot_name": "SmartFridge.COMMAND"
+          "text": "все",
+          "entity": "Quantor",
+          "slot_name": "DoorWindowStatusSensor.Quantor"
         },
         {
-          "text": "сок",
-          "entity": "CommandFeature",
-          "slot_name": "SmartFridge.CommandFeature"
+          "text": "комнаты",
+          "entity": "LOC",
+          "slot_name": "DoorWindowStatusSensor.LOC"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "какие",
+          "entity": "DeviceQuestion",
+          "slot_name": "DoorWindowStatusSensor.DeviceQuestion"
+        },
+        {
+          "text": "из"
+        },
+        {
+          "text": "дверей",
+          "entity": "DeviceFeature",
+          "slot_name": "DoorWindowStatusSensor.DeviceFeature"
+        },
+        {
+          "text": "в"
+        },
+        {
+          "text": "домике",
+          "entity": "LOC",
+          "slot_name": "DoorWindowStatusSensor.LOC"
+        },
+        {
+          "text": "сейчас"
+        },
+        {
+          "text": "открыты",
+          "entity": "FeatureState",
+          "slot_name": "DoorWindowStatusSensor.FeatureState"
         }
       ]
     }
@@ -1564,14 +2135,41 @@
     {
       "data": [
         {
-          "text": "количество",
-          "entity": "DeviceFeature",
-          "slot_name": "CoffeeMachine.DeviceFeature"
+          "text": "сколько",
+          "entity": "RequestQuestion",
+          "slot_name": "CoffeeMachine.RequestQuestion"
         },
         {
           "text": "кофе",
           "entity": "DeviceFeature",
           "slot_name": "CoffeeMachine.DeviceFeature"
+        },
+        {
+          "text": "осталось",
+          "entity": "Analytics",
+          "slot_name": "CoffeeMachine.Analytics"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "какая",
+          "entity": "CommandQuestion",
+          "slot_name": "CoffeeMachine.CommandQuestion"
+        },
+        {
+          "text": "кофемашина",
+          "entity": "DEVICE",
+          "slot_name": "CoffeeMachine.DEVICE"
+        },
+        {
+          "text": "стоит в"
+        },
+        {
+          "text": "комнате",
+          "entity": "LOC",
+          "slot_name": "CoffeeMachine.LOC"
         }
       ]
     },
@@ -1603,18 +2201,448 @@
       ]
     }
   ],
-  "SmartElectricityMeter": [
+  "SmartFeeder": [
     {
       "data": [
         {
-          "text": "расход",
-          "entity": "DeviceFeature",
-          "slot_name": "SmartElectricityMeter.DeviceFeature"
+          "text": "корми",
+          "entity": "COMMAND",
+          "slot_name": "SmartFeeder.COMMAND"
         },
         {
-          "text": "электричества",
-          "entity": "DeviceFeature",
-          "slot_name": "SmartElectricityMeter.DeviceFeature"
+          "text": "кота",
+          "entity": "CommandFeature",
+          "slot_name": "SmartFeeder.CommandFeature"
+        },
+        {
+          "text": "шесть раз в день"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "кот давненько не ел"
+        },
+        {
+          "text": "покорми",
+          "entity": "COMMAND",
+          "slot_name": "SmartFeeder.COMMAND"
+        },
+        {
+          "text": "его"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "покорми",
+          "entity": "COMMAND",
+          "slot_name": "SmartFeeder.COMMAND"
+        },
+        {
+          "text": "кота",
+          "entity": "CommandFeature",
+          "slot_name": "SmartFeeder.CommandFeature"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "число",
+          "entity": "CommandParameterValue",
+          "slot_name": "SmartFeeder.CommandParameterValue"
+        },
+        {
+          "text": "грамм",
+          "entity": "CommandParameter",
+          "slot_name": "SmartFeeder.CommandParameter"
+        },
+        {
+          "text": "корма",
+          "entity": "CommandParameter",
+          "slot_name": "SmartFeeder.CommandParameter"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "корми",
+          "entity": "COMMAND",
+          "slot_name": "SmartFeeder.COMMAND"
+        },
+        {
+          "text": "пса",
+          "entity": "CommandFeature",
+          "slot_name": "SmartFeeder.CommandFeature"
+        },
+        {
+          "text": "три раза в день"
+        }
+      ]
+    }
+  ],
+  "MotionSensor": [
+    {
+      "data": [
+        {
+          "text": "ктонибудь",
+          "entity": "Actor",
+          "slot_name": "MotionSensor.Actor"
+        },
+        {
+          "text": "был",
+          "entity": "Action",
+          "slot_name": "MotionSensor.Action"
+        },
+        {
+          "text": "дома",
+          "entity": "LOC",
+          "slot_name": "MotionSensor.LOC"
+        },
+        {
+          "text": "сегодня днём"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "кто",
+          "entity": "ParameterValueQuestion",
+          "slot_name": "MotionSensor.ParameterValueQuestion"
+        },
+        {
+          "text": "брал",
+          "entity": "Action",
+          "slot_name": "MotionSensor.Action"
+        },
+        {
+          "text": "твою"
+        },
+        {
+          "text": "машину",
+          "entity": "CommandFeature",
+          "slot_name": "MotionSensor.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "ктонибудь",
+          "entity": "Actor",
+          "slot_name": "MotionSensor.Actor"
+        },
+        {
+          "text": "был",
+          "entity": "Action",
+          "slot_name": "MotionSensor.Action"
+        },
+        {
+          "text": "дома",
+          "entity": "LOC",
+          "slot_name": "MotionSensor.LOC"
+        },
+        {
+          "text": "сегодня днем"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "на",
+          "entity": "LOC",
+          "slot_name": "MotionSensor.LOC"
+        },
+        {
+          "text": "втором",
+          "entity": "LOC",
+          "slot_name": "MotionSensor.LOC"
+        },
+        {
+          "text": "этаже",
+          "entity": "LOC",
+          "slot_name": "MotionSensor.LOC"
+        },
+        {
+          "text": "ктонибудь",
+          "entity": "Actor",
+          "slot_name": "MotionSensor.Actor"
+        },
+        {
+          "text": "есть",
+          "entity": "Action",
+          "slot_name": "MotionSensor.Action"
+        }
+      ]
+    }
+  ],
+  "WaterSupplySensor": [
+    {
+      "data": [
+        {
+          "text": "перекрой",
+          "entity": "COMMAND",
+          "slot_name": "WaterSupplySensor.COMMAND"
+        },
+        {
+          "text": "подачу",
+          "entity": "CommandFeature",
+          "slot_name": "WaterSupplySensor.CommandFeature"
+        },
+        {
+          "text": "воды",
+          "entity": "CommandFeature",
+          "slot_name": "WaterSupplySensor.CommandFeature"
+        },
+        {
+          "text": "и включи слив если бассейн наполнится выше заданного уровня"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "проверяй",
+          "entity": "COMMAND",
+          "slot_name": "WaterSupplySensor.COMMAND"
+        },
+        {
+          "text": "нет",
+          "entity": "FeatureState",
+          "slot_name": "WaterSupplySensor.FeatureState"
+        },
+        {
+          "text": "ли"
+        },
+        {
+          "text": "протечки",
+          "entity": "CommandFeature",
+          "slot_name": "WaterSupplySensor.CommandFeature"
+        },
+        {
+          "text": "каждые"
+        },
+        {
+          "text": "число",
+          "entity": "CommandParameterValue",
+          "slot_name": "WaterSupplySensor.CommandParameterValue"
+        },
+        {
+          "text": "минуты пока включена"
+        },
+        {
+          "text": "посудомоечная",
+          "entity": "DEVICE",
+          "slot_name": "WaterSupplySensor.DEVICE"
+        },
+        {
+          "text": "машина",
+          "entity": "DEVICE",
+          "slot_name": "WaterSupplySensor.DEVICE"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "сделай",
+          "entity": "COMMAND",
+          "slot_name": "WaterSupplySensor.COMMAND"
+        },
+        {
+          "text": "напор",
+          "entity": "CommandFeature",
+          "slot_name": "WaterSupplySensor.CommandFeature"
+        },
+        {
+          "text": "сильнее",
+          "entity": "Quantifier",
+          "slot_name": "WaterSupplySensor.Quantifier"
+        }
+      ]
+    }
+  ],
+  "SmartBreadMaker": [
+    {
+      "data": [
+        {
+          "text": "сделай",
+          "entity": "COMMAND",
+          "slot_name": "SmartBreadMaker.COMMAND"
+        },
+        {
+          "text": "тост",
+          "entity": "CommandFeature",
+          "slot_name": "SmartBreadMaker.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "приготовь",
+          "entity": "COMMAND",
+          "slot_name": "SmartBreadMaker.COMMAND"
+        },
+        {
+          "text": "хлеб",
+          "entity": "CommandFeature",
+          "slot_name": "SmartBreadMaker.CommandFeature"
+        },
+        {
+          "text": "к нашему ужину"
+        }
+      ]
+    }
+  ],
+  "SmartVacuumCleaner": [
+    {
+      "data": [
+        {
+          "text": "пропылесось",
+          "entity": "COMMAND",
+          "slot_name": "SmartVacuumCleaner.COMMAND"
+        },
+        {
+          "text": "здесь",
+          "entity": "LOCCurrent",
+          "slot_name": "SmartVacuumCleaner.LOCCurrent"
+        },
+        {
+          "text": "пока я буду в ванной"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "начни",
+          "entity": "COMMAND",
+          "slot_name": "SmartVacuumCleaner.COMMAND"
+        },
+        {
+          "text": "уборку",
+          "entity": "CommandFeature",
+          "slot_name": "SmartVacuumCleaner.CommandFeature"
+        },
+        {
+          "text": "после того как"
+        },
+        {
+          "text": "я",
+          "entity": "Actor",
+          "slot_name": "SmartVacuumCleaner.Actor"
+        },
+        {
+          "text": "уйду",
+          "entity": "Action",
+          "slot_name": "SmartVacuumCleaner.Action"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "пропылесосить",
+          "entity": "COMMAND",
+          "slot_name": "SmartVacuumCleaner.COMMAND"
+        },
+        {
+          "text": "здесь",
+          "entity": "LOCCurrent",
+          "slot_name": "SmartVacuumCleaner.LOCCurrent"
+        },
+        {
+          "text": "покуда"
+        },
+        {
+          "text": "я",
+          "entity": "Actor",
+          "slot_name": "SmartVacuumCleaner.Actor"
+        },
+        {
+          "text": "буду",
+          "entity": "Action",
+          "slot_name": "SmartVacuumCleaner.Action"
+        },
+        {
+          "text": "на"
+        },
+        {
+          "text": "кухне",
+          "entity": "LOC",
+          "slot_name": "SmartVacuumCleaner.LOC"
+        }
+      ]
+    }
+  ],
+  "Phone": [
+    {
+      "data": [
+        {
+          "text": "на",
+          "entity": "RequestQuestion",
+          "slot_name": "Phone.RequestQuestion"
+        },
+        {
+          "text": "чем",
+          "entity": "RequestQuestion",
+          "slot_name": "Phone.RequestQuestion"
+        },
+        {
+          "text": "я",
+          "entity": "Actor",
+          "slot_name": "Phone.Actor"
+        },
+        {
+          "text": "смогу",
+          "entity": "Action",
+          "slot_name": "Phone.Action"
+        },
+        {
+          "text": "доехать",
+          "entity": "Action",
+          "slot_name": "Phone.Action"
+        },
+        {
+          "text": "до"
+        },
+        {
+          "text": "ашана",
+          "entity": "LOC",
+          "slot_name": "Phone.LOC"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "когда",
+          "entity": "RequestQuestion",
+          "slot_name": "Phone.RequestQuestion"
+        },
+        {
+          "text": "придет",
+          "entity": "Action",
+          "slot_name": "Phone.Action"
+        },
+        {
+          "text": "автобус",
+          "entity": "Actor",
+          "slot_name": "Phone.Actor"
+        },
+        {
+          "text": "номер"
+        },
+        {
+          "text": "число",
+          "entity": "CommandParameterValue",
+          "slot_name": "Phone.CommandParameterValue"
         }
       ]
     },
@@ -1622,56 +2650,76 @@
       "data": [
         {
           "text": "сколько",
-          "entity": "ParameterValueQuestion",
-          "slot_name": "SmartElectricityMeter.ParameterValueQuestion"
+          "entity": "RequestQuestion",
+          "slot_name": "Phone.RequestQuestion"
         },
         {
-          "text": "в"
+          "text": "времени",
+          "entity": "CommandFeature",
+          "slot_name": "Phone.CommandFeature"
         },
         {
-          "text": "этом",
-          "entity": "Duration",
-          "slot_name": "SmartElectricityMeter.Duration"
-        },
-        {
-          "text": "месяце",
-          "entity": "Duration",
-          "slot_name": "SmartElectricityMeter.Duration"
-        },
-        {
-          "text": "уплачено",
+          "text": "займет",
           "entity": "Action",
-          "slot_name": "SmartElectricityMeter.Action"
+          "slot_name": "Phone.Action"
         },
         {
-          "text": "за"
+          "text": "дорога",
+          "entity": "Actor",
+          "slot_name": "Phone.Actor"
         },
         {
-          "text": "электричество",
-          "entity": "ParameterFeature",
-          "slot_name": "SmartElectricityMeter.ParameterFeature"
+          "text": "от"
+        },
+        {
+          "text": "а",
+          "entity": "LOC",
+          "slot_name": "Phone.LOC"
+        },
+        {
+          "text": "до"
+        },
+        {
+          "text": "б",
+          "entity": "LOC",
+          "slot_name": "Phone.LOC"
+        },
+        {
+          "text": "с",
+          "entity": "CommandFeature",
+          "slot_name": "Phone.CommandFeature"
+        },
+        {
+          "text": "учетом",
+          "entity": "CommandFeature",
+          "slot_name": "Phone.CommandFeature"
+        },
+        {
+          "text": "пробок",
+          "entity": "CommandFeature",
+          "slot_name": "Phone.CommandFeature"
         }
       ]
     },
     {
       "data": [
         {
-          "text": "выключи",
-          "entity": "COMMAND",
-          "slot_name": "SmartElectricityMeter.COMMAND"
+          "text": "как",
+          "entity": "RequestQuestion",
+          "slot_name": "Phone.RequestQuestion"
         },
         {
-          "text": "электричество",
-          "entity": "CommandFeature",
-          "slot_name": "SmartElectricityMeter.CommandFeature"
+          "text": "доехать",
+          "entity": "Action",
+          "slot_name": "Phone.Action"
         },
         {
-          "text": "в"
+          "text": "до"
         },
         {
-          "text": "ванной",
+          "text": "больницы",
           "entity": "LOC",
-          "slot_name": "SmartElectricityMeter.LOC"
+          "slot_name": "Phone.LOC"
         }
       ]
     }
@@ -1680,33 +2728,7 @@
     {
       "data": [
         {
-          "text": "сделай",
-          "entity": "COMMAND",
-          "slot_name": "WaterTapRelay.COMMAND"
-        },
-        {
-          "text": "погорячее"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "набери",
-          "entity": "COMMAND",
-          "slot_name": "WaterTapRelay.COMMAND"
-        },
-        {
-          "text": "ванную",
-          "entity": "CommandFeature",
-          "slot_name": "WaterTapRelay.CommandFeature"
-        }
-      ]
-    },
-    {
-      "data": [
-        {
-          "text": "выключи",
+          "text": "отключи",
           "entity": "COMMAND",
           "slot_name": "WaterTapRelay.COMMAND"
         },
@@ -1719,7 +2741,7 @@
           "text": "в"
         },
         {
-          "text": "комнате",
+          "text": "гостинной",
           "entity": "LOC",
           "slot_name": "WaterTapRelay.LOC"
         }
@@ -1728,46 +2750,174 @@
     {
       "data": [
         {
-          "text": "помой",
+          "text": "установить",
           "entity": "COMMAND",
           "slot_name": "WaterTapRelay.COMMAND"
         },
         {
-          "text": "ягоды",
+          "text": "температуру"
+        },
+        {
+          "text": "воды",
           "entity": "CommandFeature",
           "slot_name": "WaterTapRelay.CommandFeature"
         },
         {
-          "text": "и"
+          "text": "в бассейне в"
         },
         {
-          "text": "огурцы",
+          "text": "число",
+          "entity": "DeviceParameterValue",
+          "slot_name": "WaterTapRelay.DeviceParameterValue"
+        },
+        {
+          "text": "градуса",
+          "entity": "DeviceFeature",
+          "slot_name": "WaterTapRelay.DeviceFeature"
+        },
+        {
+          "text": "и выполнить его очистку от мусора"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "если на улице"
+        },
+        {
+          "text": "гораздо",
+          "entity": "IntensityQuantifier",
+          "slot_name": "WaterTapRelay.IntensityQuantifier"
+        },
+        {
+          "text": "количество",
+          "entity": "DeviceParameterValue",
+          "slot_name": "WaterTapRelay.DeviceParameterValue"
+        },
+        {
+          "text": "градусов",
+          "entity": "DeviceFeature",
+          "slot_name": "WaterTapRelay.DeviceFeature"
+        },
+        {
+          "text": "включи",
+          "entity": "COMMAND",
+          "slot_name": "WaterTapRelay.COMMAND"
+        },
+        {
+          "text": "водоснабжение",
+          "entity": "CommandFeature",
+          "slot_name": "WaterTapRelay.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "сделай",
+          "entity": "COMMAND",
+          "slot_name": "WaterTapRelay.COMMAND"
+        },
+        {
+          "text": "погорячее",
           "entity": "CommandFeature",
           "slot_name": "WaterTapRelay.CommandFeature"
         }
       ]
     }
   ],
-  "SmartIron": [
+  "SmartKettle": [
     {
       "data": [
         {
-          "text": "поставь",
+          "text": "сделай",
           "entity": "COMMAND",
-          "slot_name": "SmartIron.COMMAND"
+          "slot_name": "SmartKettle.COMMAND"
         },
         {
-          "text": "утюг",
+          "text": "кофе",
+          "entity": "CommandFeature",
+          "slot_name": "SmartKettle.CommandFeature"
+        },
+        {
+          "text": "и"
+        },
+        {
+          "text": "чай",
+          "entity": "CommandFeature",
+          "slot_name": "SmartKettle.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "по"
+        },
+        {
+          "text": "будням",
+          "entity": "CommandFeature",
+          "slot_name": "SmartKettle.CommandFeature"
+        },
+        {
+          "text": "буди",
+          "entity": "COMMAND",
+          "slot_name": "SmartKettle.COMMAND"
+        },
+        {
+          "text": "меня",
+          "entity": "Actor",
+          "slot_name": "SmartKettle.Actor"
+        },
+        {
+          "text": "в"
+        },
+        {
+          "text": "время",
+          "entity": "CommandParameterValue",
+          "slot_name": "SmartKettle.CommandParameterValue"
+        },
+        {
+          "text": "часов утра"
+        },
+        {
+          "text": "включай",
+          "entity": "COMMAND",
+          "slot_name": "SmartKettle.COMMAND"
+        },
+        {
+          "text": "чайник",
           "entity": "DEVICE",
-          "slot_name": "SmartIron.DEVICE"
+          "slot_name": "SmartKettle.DEVICE"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "eсли"
         },
         {
-          "text": "на"
+          "text": "вода",
+          "entity": "Actor",
+          "slot_name": "SmartKettle.Actor"
         },
         {
-          "text": "шерсть",
-          "entity": "DeviceParameterValue",
-          "slot_name": "SmartIron.DeviceParameterValue"
+          "text": "в"
+        },
+        {
+          "text": "чайнике",
+          "entity": "DEVICE",
+          "slot_name": "SmartKettle.DEVICE"
+        },
+        {
+          "text": "остыла",
+          "entity": "Action",
+          "slot_name": "SmartKettle.Action"
+        },
+        {
+          "text": "разогрей"
         }
       ]
     }
@@ -1783,7 +2933,156 @@
     {
       "data": [
         {
-          "text": "затраты на коммунальные услуги"
+          "text": "добавь романтики"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "полей помидоры"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "следи чтобы растения получали достаточно влажности и света"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "когда собака залезет на кухонный стол издай неприятный звук"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "я в отпуск"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "установи на число кондиционер"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "если будет больше число градусов включи кондиционер на кухне"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "как можно оплатить проезд"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "на сколько заполнен мусорный отсек"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "не убирайте листву при сильном ветре"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "способы оплаты"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "подготовить обстановку к работе"
+        }
+      ]
+    }
+  ],
+  "Humidifier": [
+    {
+      "data": [
+        {
+          "text": "если уровень влажности в комнате меньше n то включи"
+        },
+        {
+          "text": "увлажнитель",
+          "entity": "COMMAND",
+          "slot_name": "Humidifier.COMMAND"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "здесь",
+          "entity": "LOC",
+          "slot_name": "Humidifier.LOC"
+        },
+        {
+          "text": "слишком",
+          "entity": "IntensityQuantifier",
+          "slot_name": "Humidifier.IntensityQuantifier"
+        },
+        {
+          "text": "сухо"
+        }
+      ]
+    }
+  ],
+  "Quadrocopter": [
+    {
+      "data": [
+        {
+          "text": "лети",
+          "entity": "COMMAND",
+          "slot_name": "Quadrocopter.COMMAND"
+        },
+        {
+          "text": "за",
+          "entity": "CommandFeature",
+          "slot_name": "Quadrocopter.CommandFeature"
+        },
+        {
+          "text": "мной",
+          "entity": "CommandFeature",
+          "slot_name": "Quadrocopter.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "летай",
+          "entity": "COMMAND",
+          "slot_name": "Quadrocopter.COMMAND"
+        },
+        {
+          "text": "над"
+        },
+        {
+          "text": "местностью",
+          "entity": "CommandFeature",
+          "slot_name": "Quadrocopter.CommandFeature"
+        },
+        {
+          "text": "если сработает датчик дыма сообщи"
         }
       ]
     }
@@ -1792,17 +3091,49 @@
     {
       "data": [
         {
-          "text": "прошлый",
-          "entity": "DeviceFeature",
-          "slot_name": "SmartCar.DeviceFeature"
+          "text": "сколько",
+          "entity": "DeviceQuestion",
+          "slot_name": "SmartCar.DeviceQuestion"
         },
         {
-          "text": "технический",
-          "entity": "DeviceFeature",
-          "slot_name": "SmartCar.DeviceFeature"
+          "text": "километров",
+          "entity": "CommandFeature",
+          "slot_name": "SmartCar.CommandFeature"
         },
         {
-          "text": "осмотр",
+          "text": "проедет",
+          "entity": "Action",
+          "slot_name": "SmartCar.Action"
+        },
+        {
+          "text": "машина",
+          "entity": "DEVICE",
+          "slot_name": "SmartCar.DEVICE"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "на"
+        },
+        {
+          "text": "сколько",
+          "entity": "DeviceQuestion",
+          "slot_name": "SmartCar.DeviceQuestion"
+        },
+        {
+          "text": "времени",
+          "entity": "CommandFeature",
+          "slot_name": "SmartCar.CommandFeature"
+        },
+        {
+          "text": "хватит",
+          "entity": "FeatureState",
+          "slot_name": "SmartCar.FeatureState"
+        },
+        {
+          "text": "топлива",
           "entity": "DeviceFeature",
           "slot_name": "SmartCar.DeviceFeature"
         }
@@ -1811,7 +3142,7 @@
     {
       "data": [
         {
-          "text": "отвези",
+          "text": "довези",
           "entity": "COMMAND",
           "slot_name": "SmartCar.COMMAND"
         },
@@ -1821,15 +3152,63 @@
           "slot_name": "SmartCar.Actor"
         },
         {
-          "text": "до"
-        },
-        {
-          "text": "поликлиники",
+          "text": "в",
           "entity": "LOC",
           "slot_name": "SmartCar.LOC"
         },
         {
-          "text": "завтра"
+          "text": "больницу",
+          "entity": "LOC",
+          "slot_name": "SmartCar.LOC"
+        },
+        {
+          "text": "число"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "кто",
+          "entity": "ParameterValueQuestion",
+          "slot_name": "SmartCar.ParameterValueQuestion"
+        },
+        {
+          "text": "брал",
+          "entity": "Action",
+          "slot_name": "SmartCar.Action"
+        },
+        {
+          "text": "мою",
+          "entity": "CommandFeature",
+          "slot_name": "SmartCar.CommandFeature"
+        },
+        {
+          "text": "машину",
+          "entity": "CommandFeature",
+          "slot_name": "SmartCar.CommandFeature"
+        },
+        {
+          "text": "сегодня",
+          "entity": "Duration",
+          "slot_name": "SmartCar.Duration"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "когда",
+          "entity": "ParameterValueQuestion",
+          "slot_name": "SmartCar.ParameterValueQuestion"
+        },
+        {
+          "text": "следующее"
+        },
+        {
+          "text": "то",
+          "entity": "CommandFeature",
+          "slot_name": "SmartCar.CommandFeature"
         }
       ]
     }
@@ -1838,22 +3217,46 @@
     {
       "data": [
         {
-          "text": "отправь",
+          "text": "к время утра"
+        },
+        {
+          "text": "напечатай",
           "entity": "COMMAND",
           "slot_name": "Printer.COMMAND"
         },
         {
-          "text": "бланк",
+          "text": "мне",
+          "entity": "Actor",
+          "slot_name": "Printer.Actor"
+        },
+        {
+          "text": "свежий",
           "entity": "CommandFeature",
           "slot_name": "Printer.CommandFeature"
         },
         {
-          "text": "название",
+          "text": "выпуск",
           "entity": "CommandFeature",
           "slot_name": "Printer.CommandFeature"
         },
         {
-          "text": "через число секунд"
+          "text": "новостей",
+          "entity": "CommandFeature",
+          "slot_name": "Printer.CommandFeature"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "заполни",
+          "entity": "COMMAND",
+          "slot_name": "Printer.COMMAND"
+        },
+        {
+          "text": "документ",
+          "entity": "CommandFeature",
+          "slot_name": "Printer.CommandFeature"
         }
       ]
     },
@@ -1875,7 +3278,64 @@
           "slot_name": "Printer.CommandFeature"
         },
         {
-          "text": "через число секунд"
+          "text": "через число минут"
+        }
+      ]
+    }
+  ],
+  "DoorRelay": [
+    {
+      "data": [
+        {
+          "text": "какие",
+          "entity": "DeviceQuestion",
+          "slot_name": "DoorRelay.DeviceQuestion"
+        },
+        {
+          "text": "из"
+        },
+        {
+          "text": "дверей",
+          "entity": "DeviceFeature",
+          "slot_name": "DoorRelay.DeviceFeature"
+        },
+        {
+          "text": "в"
+        },
+        {
+          "text": "доме",
+          "entity": "LOC",
+          "slot_name": "DoorRelay.LOC"
+        },
+        {
+          "text": "сейчас"
+        },
+        {
+          "text": "открыты",
+          "entity": "FeatureState",
+          "slot_name": "DoorRelay.FeatureState"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "text": "проверь",
+          "entity": "COMMAND",
+          "slot_name": "DoorRelay.COMMAND"
+        },
+        {
+          "text": "заперта",
+          "entity": "FeatureState",
+          "slot_name": "DoorRelay.FeatureState"
+        },
+        {
+          "text": "ли"
+        },
+        {
+          "text": "дверь",
+          "entity": "CommandFeature",
+          "slot_name": "DoorRelay.CommandFeature"
         }
       ]
     }

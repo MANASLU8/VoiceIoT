@@ -73,7 +73,7 @@ paths:
     pytext:
       model: models/pytext/model.caffe2.predictor
       model-extended: /tmp/model.caffe2.predictor #models/pytext/model-bilstm-without-pretrained-embeddings.caffe2.predictor
-      model-config: vendor/pytext/docnn.json
+      model-config: vendor/pytext/bilstm.json
       model-config-extended: vendor/pytext/bilstm-without-pretrained-embeddings.json
     slots-intents:
       w2v: vendor/word-vectors/poincare.txt

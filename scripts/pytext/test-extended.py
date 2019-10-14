@@ -20,6 +20,7 @@ positive_counter = 0
 print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
 for label in test_dataset.keys():
     for sample in test_dataset[label]:
+        print(predictor({"text": sample.lower(), "doc_weight": 1, "word_weight": 1}))
         recognized_label = get_best_label(predictor({"text": sample.lower(), "doc_weight": 1, "word_weight": 1}))
         if not recognized_label:
             recognized_label = '-'

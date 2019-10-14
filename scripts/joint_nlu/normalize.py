@@ -33,9 +33,9 @@ def write_dataset(folder, items, config, vocab_folder = None):
 	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['slots']), [item[1] for item in items])
 	fo.write_lines(os.path.join(folder, config['paths']['datasets']['joint-nlu']['filenames']['data']['labels']), [item[2] for item in items])
 	if vocab_folder:
-		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['slots']), set(itertools.chain(*[item[1].split(' ') for item in items])))
-		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['texts']), set(itertools.chain(*[item[0].split(' ') for item in items])))
-		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['labels']), set([item[2] for item in items]))
+		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['slots']), set(itertools.chain(["_UNK", "_PAD"], *[item[1].split(' ') for item in items])))
+		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['texts']), set(itertools.chain(["_UNK", "_PAD"], *[item[0].split(' ') for item in items])))
+		fo.write_lines(os.path.join(vocab_folder, config['paths']['datasets']['joint-nlu']['filenames']['vocabulary']['labels']), set(itertools.chain(["_UNK", "_PAD"], *[item[2] for item in items])))
 
 def handle_files(input_files, get_file_names=False):
 	result = []
@@ -49,9 +49,9 @@ def handle_files(input_files, get_file_names=False):
 		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label:
 			continue
 		text = fe.extract_text(annotation)
-		sent = re.sub(r'[^\w\s]','',text).lower()
+		sent = re.sub(r'[^\w\s]','',text).lower().strip()
 		labels = []
-		for (i, word) in enumerate(re.sub(r'[^\w\s]','',text).lower().split(' ')):
+		for (i, word) in enumerate(sent.split(' ')):
 			appended = False
 			if 'slots-indices' in annotation:
 				labels.append(make_chunk(i, annotation['slots-indices'][0], entity_names, word, ontology_label))

@@ -12,7 +12,7 @@ def make_indices(annotations, text):
 	return {label: [char_indices[i if i < len(text) else len(text) - 1] for i in annotations[label]] for label in annotations}
 
 def stringify_indices(indices, ontology_label):
-	return ",".join([f"{pair[0]}:{pair[1]}:{ontology_label.strip()}.{label.strip()}" for label in indices for pair in indices[label]])
+	return ",".join([f"{pair[0]}:{pair[1]}:{label.strip()}" for label in indices for pair in indices[label]]) #{ontology_label.strip()}
 
 def handle_files(input_files):
 	samples = []

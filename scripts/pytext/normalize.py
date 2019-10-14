@@ -12,7 +12,7 @@ def make_indices(annotations, text):
 	return {label: [char_indices[i if i < len(text) else len(text) - 1] for i in annotations[label]] for label in annotations}
 
 def stringify_indices(indices, ontology_label):
-	return ",".join([f"{pair[0]}:{pair[1]}:{ontology_label.strip()}.{label.strip()}" for label in indices for pair in indices[label]])
+	return ",".join([f"{pair[0]}:{pair[1]}:{label.strip()}" for label in indices for pair in indices[label]]) #{ontology_label.strip()}
 
 def handle_files(input_files):
 	samples = []
@@ -24,10 +24,12 @@ def handle_files(input_files):
 		text = fe.extract_text(annotation)
 		simplified_text = re.sub(r'[^\w\s]','',text).lower()
 		splitted_text = simplified_text.split(' ')
+		if not ontology_label or not ('slots-indices' in annotation or 'slots-indices-bio' in annotation) or not fe.extract_utterance_type(annotation):
+			continue
 		if 'slots-indices' in annotation:
-			slots_char_indices = stringify_indices(make_indices(annotation['slots-indices'][0], splitted_text), ontology_label)
+			slots_char_indices = stringify_indices(make_indices(annotation['slots-indices'][0], splitted_text), ontology_label) if len(annotation['slots-indices']) >= 1 else ""
 		elif 'slots-indices-bio' in annotation:
-			slots_char_indices = stringify_indices(make_indices(converters.decode_bio(annotation['slots-indices-bio']), splitted_text), ontology_label)
+			slots_char_indices = stringify_indices(make_indices(converters.decode_bio(annotation['slots-indices-bio'][0]), splitted_text), ontology_label) if len(annotation['slots-indices']) >= 1 else ""
 		samples.append(f"{ontology_label}\t{slots_char_indices}\t{simplified_text}")
 	return samples
 
