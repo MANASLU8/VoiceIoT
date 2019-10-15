@@ -3,14 +3,16 @@ import json
 
 from .. import field_extractors as fe, converters, utils, file_operators as fo
 
+def write_json(filename, content):
+	with open(filename, "w") as f:
+		f.write(json.dumps(content, indent=2).encode().decode('unicode-escape'))
+
 if __name__ == "__main__":
 	config = utils.load_config(utils.parse_args().config)
 
 	lemmas = collections.defaultdict(lambda: collections.defaultdict(lambda: ['']))
 
-	def write_json(filename, content):
-		with open(filename, "w") as f:
-			f.write(json.dumps(content, indent=2).encode().decode('unicode-escape'))
+
 
 	with open(config['paths']['datasets']['request-mapping']['sparql-response']) as file:
 		for line in file.readlines():

@@ -33,6 +33,7 @@ predictor = pytext.create_predictor(configp, config['paths']['etc']['pytext']['m
 test_dataset = fo.read_json(config['paths']['datasets']['pytext']['test-extended'])
 
 counter = 0
+ontology_counter = 0
 positive_counter = 0
 total_recall = []
 #print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
@@ -42,9 +43,14 @@ for label in test_dataset.keys():
         parsed_command = list(zip(sample['text'].lower().split(' '), recognized))
         parsed_right_command = list(zip(sample['text'].lower().split(' '), sample['slots']))
         print(f"-- Recognized slots")
-        ul.get_request_type(parsed_command, filename = config['paths']['datasets']['request-mapping']['requests'])
+        ul.get_labels(parsed_command, filename = config['paths']['datasets']['request-mapping']['lemmas-fine-splitted'])
         print(f"-- Right slots")
-        ul.get_request_type(parsed_right_command, filename = config['paths']['datasets']['request-mapping']['requests'])
+        labels = ul.get_labels(parsed_right_command, filename = config['paths']['datasets']['request-mapping']['lemmas-fine-splitted'])
+        print(f"Label: {sample['intent']}")
+        print(f"Ontology label: {labels[0].split('/')[-1][:-1]}")
+        if labels[0].split('/')[-1][:-1] == sample['intent']:
+            ontology_counter += 1
+        #print(f"Label: {sample['intent']}")
         #print(f'Recognized: {recognized}')
         #print(f"True: {sample['slots']}")
         total_recall.append(metrics.get_recall(recognized, sample['slots']))
@@ -58,4 +64,5 @@ for label in test_dataset.keys():
         counter += 1
 
 print(f"Correctly recognized {positive_counter} of {counter} ({round(positive_counter / float(counter) * 100, 2)} %)")
+print(f"(Ontology) Correctly recognized {ontology_counter} of {counter} ({round(ontology_counter / float(counter) * 100, 2)} %)")
 print(f"Average slot recall is {round(np.mean(total_recall), 4)}")

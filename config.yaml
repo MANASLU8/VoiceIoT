@@ -22,6 +22,7 @@ paths:
     nice-denormalized: dataset/denormalized-annotations/nice.json
     request-mapping:
       lemmas: dataset/request-mapping/lemmas.json
+      lemmas-fine-splitted: dataset/request-mapping/lemmas-fine-splitted.json
       requests: dataset/request-mapping/requests.json
       sparql-response: dataset/request-mapping/sparql-response.txt
     iot-commands:

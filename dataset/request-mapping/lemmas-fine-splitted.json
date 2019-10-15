@@ -1,0 +1,939 @@
+{
+  "<http://voice.iot/AirConditioning>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "кондиционер",
+        "сплитуха",
+        "система",
+        "сплит"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "градус"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "включать",
+        "устанавливать",
+        "поставить"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "прекратить",
+        "выключать",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/AlarmClock>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "будильник"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "час"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "разбудить",
+        "включать",
+        "устанавливать",
+        "поставить"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/AudioSystem>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "аудиосистема"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "песня"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "включать",
+        "устанавливать",
+        "поставить"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/CoffeeMachine>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "кофемашина",
+        "кофеварка"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "процент"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "сварить",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "остановить",
+        "оффнуть",
+        "прекратить"
+      ]
+    }
+  ],
+  "<http://voice.iot/CurtainsRelay>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "открытие",
+        "регулятор",
+        "штора"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "процент"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "разбудить",
+        "включать",
+        "устанавливать",
+        "поставить"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/DoorBell>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "дверной",
+        "звонок"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "процент"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/FloorLite>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "лампочка",
+        "напольный",
+        "пол",
+        "подсветка"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "подсветить",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "прекратить",
+        "оффнуть",
+        "остановить"
+      ]
+    }
+  ],
+  "<http://voice.iot/HeatingFloor>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "подогрев",
+        "пол"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "градус"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/Printer>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "принтер"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "документ",
+        "файл",
+        "фото",
+        "фотография",
+        "картинка"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "распечатать",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "остановить",
+        "оффнуть",
+        "прекратить"
+      ]
+    }
+  ],
+  "<http://voice.iot/SmartFridge>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "холодильник",
+        "морозилка",
+        "морозильный",
+        "камера",
+        "пол"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "подсветить",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "остановить",
+        "оффнуть",
+        "прекратить"
+      ]
+    }
+  ],
+  "<http://voice.iot/SmartMicrowave>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "СВЧ",
+        "микроволновый",
+        "печь",
+        "микроволновка"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "час"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "погреть",
+        "врубить",
+        "приготовить",
+        "разогреть",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/WindowRelay>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "реле",
+        "закрытие",
+        "открытие",
+        "регулятор",
+        "окно"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "дождь",
+        "душно"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "процент"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "проветрить",
+        "включать",
+        "устанавливать",
+        "поставить"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "закрыть",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/chandelier1>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "свет",
+        "люстра"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "люмен"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "прекратить",
+        "выключать",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/lamp1>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "лампа",
+        "свет",
+        "лампочка"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "люмен"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "прекратить",
+        "выключать",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/smartBreadMaker>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "хлебопечка",
+        "выпекалка",
+        "хлебопечь"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "час",
+        "градус"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "испечь",
+        "врубить",
+        "приготовить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "выключать",
+        "вырубить",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ],
+  "<http://voice.iot/washing_machine1>": [
+    {
+      "slot-names": "DEVICE",
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "стиралка",
+        "стирка"
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandFeature",
+        "DeviceFeature",
+        "ParameterFeature",
+        "Devicefeature"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        ""
+      ]
+    },
+    {
+      "slot-names": [
+        "CommandParameter",
+        "DeviceParameter",
+        "DeviceParameterValue",
+        "CommandParameterValue"
+      ],
+      "slot-label": null,
+      "slot-values": [
+        "",
+        "градус"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "on",
+      "slot-values": [
+        "",
+        "постирать",
+        "врубить",
+        "включать"
+      ]
+    },
+    {
+      "slot-names": "COMMAND",
+      "slot-label": "off",
+      "slot-values": [
+        "вырубить",
+        "выключать",
+        "прекратить",
+        "остановить",
+        "оффнуть"
+      ]
+    }
+  ]
+}
