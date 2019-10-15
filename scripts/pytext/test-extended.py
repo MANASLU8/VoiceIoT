@@ -3,7 +3,7 @@ import pytext
 import numpy as np
 from .. import file_operators as fo, utils
 from .. import metrics
-from .. import use_lemmas as ul
+from .. import request_mapping as ul
 
 config = utils.load_config(utils.parse_args().config)
 
@@ -17,9 +17,9 @@ def get_best_slots(result):
     word_labels = []
     for i in range(len(word_scores[list(word_scores.keys())[0]])):
         best_label = '--'
-        best_score = -100
+        best_score = 100
         for label in word_scores.keys():
-            if word_scores[label][i] > best_score:
+            if word_scores[label][i] < best_score:
                 best_score = word_scores[label][i]
                 best_label = label
         word_labels.append(best_label)
@@ -42,9 +42,9 @@ for label in test_dataset.keys():
         parsed_command = list(zip(sample['text'].lower().split(' '), recognized))
         parsed_right_command = list(zip(sample['text'].lower().split(' '), sample['slots']))
         print(f"-- Recognized slots")
-        ul.get_request_type(parsed_command, filename = "scripts/requests.json")
+        ul.get_request_type(parsed_command, filename = config['paths']['datasets']['request-mapping']['requests'])
         print(f"-- Right slots")
-        ul.get_request_type(parsed_right_command, filename = "scripts/requests.json")
+        ul.get_request_type(parsed_right_command, filename = config['paths']['datasets']['request-mapping']['requests'])
         #print(f'Recognized: {recognized}')
         #print(f"True: {sample['slots']}")
         total_recall.append(metrics.get_recall(recognized, sample['slots']))

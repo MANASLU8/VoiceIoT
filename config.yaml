@@ -20,6 +20,10 @@ paths:
     annotations: dataset/annotations
     flawy-denormalized: dataset/denormalized-annotations/flawy.json
     nice-denormalized: dataset/denormalized-annotations/nice.json
+    request-mapping:
+      lemmas: dataset/request-mapping/lemmas.json
+      requests: dataset/request-mapping/requests.json
+      sparql-response: dataset/request-mapping/sparql-response.txt
     iot-commands:
       data: dataset/iot-commands/data.txt
       annotations: dataset/annotations/iot-commands
@@ -69,6 +73,7 @@ paths:
           slots: slot_vocab
     w2v:
       root: dataset/w2v
+      train_utterances: dataset/w2v/train.txt
   etc:
     pytext:
       model: models/pytext/model.caffe2.predictor

@@ -1,0 +1,12 @@
+Ar100:
+Correctly recognized 3 of 129 (2.33 %)
+Average slot recall is 0.2361
+huge:
+Correctly recognized 5 of 129 (3.88 %)
+Average slot recall is 0.2687
+tiny:
+Correctly recognized 3 of 129 (2.33 %)
+Average slot recall is 0.292
+tiny-with-stop-words:
+Correctly recognized 7 of 129 (5.43 %)
+Average slot recall is 0.0606

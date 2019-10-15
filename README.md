@@ -1,28 +1,56 @@
 # VoiceIoT
 ![plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/w2v/cv.png)
 ![test-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/w2v/cv-test.png)
+# Request mapping
+## Perform sparql query for collecting lemmas and save response
+Response should be written to the file `dataset/request-mapping/sparql-response.txt`. It must include **five** columns - `system id`, `system lemma`, `feature lemma`, `command lemma`, `param lemma`, which are separated by tabs.  
+Example:  
+```sh
+<http://voice.iot/AirConditioning>	кондиционер		устанавливать	градус
+<http://voice.iot/AirConditioning>	система		устанавливать	градус
+<http://voice.iot/AirConditioning>	сплит		устанавливать	градус
+<http://voice.iot/AirConditioning>	сплитуха		устанавливать	градус
+<http://voice.iot/AirConditioning>	кондиционер		поставить	градус
+<http://voice.iot/AirConditioning>	кондиционер		включать	градус
+<http://voice.iot/AirConditioning>	кондиционер		врубить	градус
+<http://voice.iot/AirConditioning>	система		врубить	градус
+<http://voice.iot/AirConditioning>	сплит		врубить	градус
+<http://voice.iot/AirConditioning>	сплитуха		врубить	градус
+```
+## Collect lemmas
+Then script `collect_lemmas` should be written for structuring results of sparql query and converting it to the format, sutable for futher lookup.  
+```sh
+python -m scripts.request_mapping.collect_lemmas
+```  
+This script generates two files - `dataset/request-mapping/lemmas.json` and `dataset/request-mapping/requests.json`. The former contains intermediate result, pecisely, lemmas grouped by system in format, convenient for reading by human as well as manual fixing. The latter represents results of sparqle query in form, suitable for automatic lookup for a request type.
+# Word embeddings
+## Fasttext
+### Train
+```sh
+./fasttext skipgram -input ../viot/dataset/w2v/train.txt -output ../viot/models/fasttext/huge.model -pretrainedVectors ~/models/ArModel100w2v.txt
+```
 # Slots extraction
 ## snips_nlu
 ### Perform data normalization
-```ssh
+```sh
 python -m scripts.snips-nlu.normalize
 ```
 ### Perform splitting data into test and train subsets
 If it is required to compare intents:  
-```ssh
+```sh
 python -m scripts.snips-nlu.split
 ```
 For preserving slots therewith:  
-```ssh
+```sh
 python -m scripts.snips-nlu.split-slots
 ```
 ### Perform training and subsequent testing
 If it is required to compare intents (on the stage of splitting appropriate script should be executed):  
-```ssh
+```sh
 python -m scripts.snips-nlu.test
 ```
 For calculating recall on recognized slots:  
-```ssh
+```sh
 python -m scripts.snips-nlu.test-slots
 ```
 ### Results
@@ -109,46 +137,46 @@ Correctly recognized 27 of 76 (35.53 %)
 
 ```
 For slots comparison:  
-```ssh
+```sh
 Average recall is 0.6042
 ```
 ## slots-intents
 **These scripts require python 3.6 and tensorflow 2.0 because of tensorflow-addons' preferences**
 ### Perform data normalization
-```ssh
+```sh
 python -m scripts.slots-intents.normalize
 ```
 ### Perform splitting data into test and train subsets
-```ssh
+```sh
 python -m scripts.slots-intents.split
 ```
 For preserving slots therewith:  
-```ssh
+```sh
 python -m scripts.slots-intents.split-slots
 ```
 ### Perform training
-```ssh
+```sh
 python -m scripts.slots-intents.train
 ```
 ### Perform testing
-```ssh
+```sh
 python -m scripts.slots-intents.test
 ```
 For calculating recall on recognized slots:  
-```ssh
+```sh
 python -m scripts.snips-nlu.test-slots
 ```
 ## pytext
 ### Perform data normalization
-```ssh
+```sh
 python -m scripts.pytext.normalize-extended
 ```
 ### Perform splitting data into test and train subsets
-```ssh
+```sh
 python -m scripts.pytext.split-extended
 ```
 ### Perform testing
-```ssh
+```sh
 python -m scripts.pytext.test-extended
 ```
 ### Results
@@ -251,14 +279,14 @@ Commands bellow assume that parlai is located in your home folder.
 There is a separate [repository](https://github.com/zeionara/viot) for the used task.
 ### Usage
 #### Train  
-```ssh
+```sh
 python ~/parlai/examples/train_model.py -m seq2seq -t viot -bs 64 -eps 2 -mf models/parlai/model
 ```
 #### Eval  
-```ssh
+```sh
 python ~/parlai/examples/eval_model.py -m ir_baseline -t viot -dt valid -mf models/parlai/model
 ```
 #### Display model and prediction results for 100 episodes
-```ssh
+```sh
 python ~/parlai/examples/display_model.py -t viot -mf models/parlai/model -n 100
 ```
