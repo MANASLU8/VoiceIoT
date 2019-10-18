@@ -762,7 +762,7 @@
       ]
     }
   ],
-  "<http://voice.iot/LightSensor>": [
+  "<http://voice.iot/Lamp>": [
     {
       "slot-names": "DEVICE",
       "slot-label": null,
@@ -879,7 +879,7 @@
       ]
     }
   ],
-  "<http://voice.iot/WashingMachin>e": [
+  "<http://voice.iot/WashingMachine>": [
     {
       "slot-names": "DEVICE",
       "slot-label": null,

@@ -6,6 +6,8 @@ import collections
 if __name__ == "__main__":
 	config = utils.load_config(utils.parse_args().config)
 
+MOST_FREQUENT_LABEL = "AudioSystem>"
+
 system_slot_name = "DEVICE"
 command_slot_name = "COMMAND"
 feature_slot_name = ["CommandFeature", "DeviceFeature", "ParameterFeature", "Devicefeature"]
@@ -178,7 +180,7 @@ def get_raw_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer(
 	lookup_result = lookup_raw_lemmas(lemmas, cmd_deannotated)
 	#print(f"Raw lookup result: {lookup_result}")
 	lookup_primary_result = list(map(lambda item: item['device'], lookup_result))
-	return lookup_primary_result if len(lookup_primary_result) else ['']
+	return lookup_primary_result if len(lookup_primary_result) else [MOST_FREQUENT_LABEL]
 	# system = get_slot_value_many(cmd, system_slot_name, morph)
 	# feature = get_slot_value_many(cmd, feature_slot_name, morph)
 	# command = get_slot_value_many(cmd, command_slot_name, morph)
