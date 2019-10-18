@@ -61,7 +61,7 @@ def lookup(requests, path):
 
 def get_request_type(cmd, filename = requests_path, morph = pymorphy2.MorphAnalyzer()): #filename = "requests.json"):
 	requests = read_json(filename)
-	print(f"Input command: {cmd}")
+	#print(f"Input command: {cmd}")
 	system = get_slot_value_many(cmd, system_slot_name, morph)
 	feature = get_slot_value_many(cmd, feature_slot_name, morph)
 	command = get_slot_value_many(cmd, command_slot_name, morph)
@@ -71,8 +71,8 @@ def get_request_type(cmd, filename = requests_path, morph = pymorphy2.MorphAnaly
 
 	#print(slot_sets)
 
-	print("Looking up for:")
-	print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
+	#print("Looking up for:")
+	#print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
 
 	
 	lookup_results = list(map(lambda slot_set: lookup(requests, slot_set), slot_sets))
@@ -81,9 +81,9 @@ def get_request_type(cmd, filename = requests_path, morph = pymorphy2.MorphAnaly
 		if lookup_result and (not lookup_primary_result or lookup_primary_result == empty_result_mark):
 			lookup_primary_result = lookup_result
 
-	print(f"Lookup results = {lookup_results}")
-	print(f"Lookup primary result = {lookup_primary_result}")
-	print("="*50)
+	# print(f"Lookup results = {lookup_results}")
+	# print(f"Lookup primary result = {lookup_primary_result}")
+	# print("="*50)
 
 def lookup_lemmas(lemmas, slot_set):
 	#print(f"Input slot set: {slot_set}")
@@ -118,6 +118,22 @@ def lookup_lemmas(lemmas, slot_set):
 	#print(f"Counter: {found_counter}; Labels: {found}")
 	return found
 
+def lookup_raw_lemmas(lemmas, hyp_lemmas):
+	#print(f"Input slot set: {slot_set}")
+	found = []
+	for device in lemmas:
+		found_counter = 0
+		found_not_null_counter = 0
+		found_labels = []
+		for slot in lemmas[device]:
+			for hyp_lemma in hyp_lemmas:
+				if hyp_lemma in slot['slot-values']:
+					found_counter += 1
+		if (found_counter > 0):
+			found.append({'device': device, 'score': found_counter})
+	found = sorted(found, key = lambda item: item['score'], reverse = True)
+	return found
+
 def lookup_lemmas_post_handle(lemmas, slot_set):
 	lookup_result = lookup_lemmas(lemmas, slot_set)
 	if len(lookup_result) > 0:
@@ -127,7 +143,7 @@ def lookup_lemmas_post_handle(lemmas, slot_set):
 
 def get_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()): #filename = "requests.json"):
 	lemmas = read_json(filename)
-	print(f"Input command: {cmd}")
+	#print(f"Input command: {cmd}")
 	system = get_slot_value_many(cmd, system_slot_name, morph)
 	feature = get_slot_value_many(cmd, feature_slot_name, morph)
 	command = get_slot_value_many(cmd, command_slot_name, morph)
@@ -137,14 +153,14 @@ def get_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()): 
 
 	#print(slot_sets)
 
-	print("Looking up for:")
-	print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
+	#print("Looking up for:")
+	#print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
 	
 	lookup_results = list(map(lambda slot_set: lookup_lemmas_post_handle(lemmas, slot_set), slot_sets))
-	print(lookup_results)
+	#print(lookup_results)
 	lookup_results = sorted(lookup_results, key = lambda i: i['score'], reverse = True)
-	print(f"Lookup primary result: {lookup_results[0]['labels']}")
-	print("="*50)
+	#print(f"Lookup primary result: {lookup_results[0]['labels']}")
+	#print("="*50)
 	return lookup_results[0]['labels']
 	# lookup_primary_result = None
 	# for lookup_result in lookup_results:
@@ -154,6 +170,33 @@ def get_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()): 
 	# print(f"Lookup results = {lookup_results}")
 	# print(f"Lookup primary result = {lookup_primary_result}")
 	# print("="*50)
+
+def get_raw_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()):
+	lemmas = read_json(filename)
+	cmd_deannotated = list(map(lambda pair: morph.parse(pair[0])[0].normal_form, cmd))
+	#print(f"Input command: {cmd_deannotated}")
+	lookup_result = lookup_raw_lemmas(lemmas, cmd_deannotated)
+	#print(f"Raw lookup result: {lookup_result}")
+	lookup_primary_result = list(map(lambda item: item['device'], lookup_result))
+	return lookup_primary_result if len(lookup_primary_result) else ['']
+	# system = get_slot_value_many(cmd, system_slot_name, morph)
+	# feature = get_slot_value_many(cmd, feature_slot_name, morph)
+	# command = get_slot_value_many(cmd, command_slot_name, morph)
+	# param = get_slot_value_many(cmd, param_slot_name, morph)
+
+	# slot_sets = np.array(np.meshgrid(system, feature, command, param)).T.reshape(-1,4)
+
+	# #print(slot_sets)
+
+	# print("Looking up for:")
+	# print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
+	
+	# lookup_results = list(map(lambda slot_set: lookup_lemmas_post_handle(lemmas, slot_set), slot_sets))
+	# print(lookup_results)
+	# lookup_results = sorted(lookup_results, key = lambda i: i['score'], reverse = True)
+	# print(f"Lookup primary result: {lookup_results[0]['labels']}")
+	# print("="*50)
+	# return lookup_results[0]['labels']
 
 
 if __name__ == '__main__':

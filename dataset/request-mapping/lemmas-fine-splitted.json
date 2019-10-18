@@ -706,7 +706,7 @@
       ]
     }
   ],
-  "<http://voice.iot/chandelier1>": [
+  "<http://voice.iot/LightSensor>": [
     {
       "slot-names": "DEVICE",
       "slot-label": null,
@@ -762,7 +762,7 @@
       ]
     }
   ],
-  "<http://voice.iot/lamp1>": [
+  "<http://voice.iot/LightSensor>": [
     {
       "slot-names": "DEVICE",
       "slot-label": null,
@@ -819,7 +819,7 @@
       ]
     }
   ],
-  "<http://voice.iot/smartBreadMaker>": [
+  "<http://voice.iot/SmartBreadMaker>": [
     {
       "slot-names": "DEVICE",
       "slot-label": null,
@@ -879,7 +879,7 @@
       ]
     }
   ],
-  "<http://voice.iot/washing_machine1>": [
+  "<http://voice.iot/WashingMachin>e": [
     {
       "slot-names": "DEVICE",
       "slot-label": null,

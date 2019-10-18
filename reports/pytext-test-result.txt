@@ -1,0 +1,602 @@
+command	true label	ontology label	ontology raw label	recognized label
+какая сейчас температура	TemperatureSensor	AirConditioning		SmartCar
+поддерживай температуру в комнате на уровне число	TemperatureSensor	AirConditioning		CurtainsRelay
+сделай потеплее	TemperatureSensor	AirConditioning		SmartFridge
+сколько сейчас градусов на улице	TemperatureSensor	AirConditioning	AirConditioning	Printer
+очень жарко	TemperatureSensor	AirConditioning		SmartFridge
+если на улице температура 0 градусов включи обогреватель	TemperatureSensor	AirConditioning	AirConditioning	Printer
+какая сегодня температура	TemperatureSensor	AirConditioning		SmartCar
+карта температур	TemperatureSensor	AirConditioning		CurtainsRelay
+закрой занавески если слишком холодно	TemperatureSensor	WindowRelay	WindowRelay	SmartFridge
+проветри зал и кухню	TemperatureSensor	WindowRelay	WindowRelay	SmartFridge
+если на улице больше количество градуса включи отопление	TemperatureSensor	AirConditioning	AirConditioning	SmartCar
+держи температуру в комнате на уровне число	TemperatureSensor	AirConditioning		CurtainsRelay
+если станет жарко тогда открой дверь	TemperatureSensor	AirConditioning		SmartFridge
+если будет холодно то закрой окно	TemperatureSensor	WindowRelay	WindowRelay	SmartCar
+какая сейчас температура на улице	TemperatureSensor	AirConditioning		SmartCar
+если на улице больше число температура включи электроотопление	TemperatureSensor	AirConditioning		SmartCar
+установи температура на число а влажность на число	TemperatureSensor	AirConditioning		HeaterController
+поддерживай температуру здесь на уровне число	TemperatureSensor	AirConditioning		CurtainsRelay
+сколько градусов на улице	TemperatureSensor	AirConditioning	AirConditioning	Printer
+установи температуру на число и кислотность на число	TemperatureSensor	AirConditioning		HeaterController
+если меня нет дома не включай кондиционер	TemperatureSensor	AirConditioning	AirConditioning	SmartFridge
+днем включи обогреватель в спальне	TemperatureSensor	AirConditioning		CurtainsRelay
+мне сейчас так жарко	TemperatureSensor	AirConditioning		SmartFridge
+тут слишком прохладно	TemperatureSensor	AirConditioning		__UNKNOWN__
+сколько градусов на улице	TemperatureSensor	AirConditioning	AirConditioning	Printer
+как сейчас холодно	TemperatureSensor	AirConditioning		SmartFridge
+если на улице холодно включи отопление	TemperatureSensor	AirConditioning		SmartCar
+что здесь так душно	TemperatureSensor	AirConditioning		SmartFridge
+какая сегодня погода	TemperatureSensor	AirConditioning		SmartCar
+покажи карту температур в доме	TemperatureSensor	AirConditioning		CurtainsRelay
+сколько сейчас градусов на улице	TemperatureSensor	AirConditioning	AirConditioning	Printer
+если станет жарко то открой окно	TemperatureSensor	AirConditioning	WindowRelay	SmartFridge
+установи температуру на число и влажность на число	TemperatureSensor	AirConditioning		HeaterController
+мне кажется датчик температуры здесь вышел из строя	TemperatureSensor	AirConditioning		SmartCar
+помоему температура определяется неверно	TemperatureSensor	AirConditioning		SmartFridge
+какая сейчас температура	TemperatureSensor	AirConditioning		SmartCar
+если станет холодно то открой окно	WindowRelay	AirConditioning	WindowRelay*	SmartFridge
+если на улице жарко открой окно	WindowRelay	AirConditioning	WindowRelay*	SmartFridge
+если будет холодно закрой окно	WindowRelay	WindowRelay*	WindowRelay*	SmartFridge
+открой окно на кухне на 30 градусов	WindowRelay	AirConditioning	AirConditioning	CurtainsRelay
+если будет жарко то закрой окно	WindowRelay	AirConditioning	WindowRelay*	SmartFridge
+в комнате душно проветри	WindowRelay	WindowRelay*	WindowRelay*	SmartFridge
+если станет холодно то закрой окно	WindowRelay	WindowRelay*	WindowRelay*	SmartFridge
+проветрите сейчас пока я буду на кухне	WindowRelay	WindowRelay*	WindowRelay*	CurtainsRelay
+ежели будет жарко закрой окно	WindowRelay	WindowRelay*	WindowRelay*	SmartFridge
+если будет холодно закрой окно	WindowRelay	WindowRelay*	WindowRelay*	SmartFridge
+проветри здесь пока я буду в ванной	WindowRelay	WindowRelay*	WindowRelay*	CurtainsRelay
+проветрите здесь пока я буду в комнате	WindowRelay	WindowRelay*	WindowRelay*	CurtainsRelay
+если будет холодно то закрой окно	WindowRelay	WindowRelay*	WindowRelay*	SmartCar
+проветри там	WindowRelay	WindowRelay*	WindowRelay*	CurtainsRelay
+подними жалюзи	WindowRelay	AirConditioning		__UNKNOWN__
+помой окна после дождя	WindowRelay	AirConditioning	WindowRelay*	Printer
+открой шторы если слишком темно	WindowRelay	AirConditioning	CurtainsRelay	SmartCar
+закрой шторы если слишком светло	WindowRelay	WindowRelay*	CurtainsRelay	SmartCar
+проветри сейчас	WindowRelay	AirConditioning	WindowRelay*	SmartFridge
+проветривай каждые число часа	WindowRelay	AirConditioning	AlarmClock	Printer
+проветривай во время моего сна	WindowRelay	AirConditioning		SmartCar
+закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол	WindowRelay	WindowRelay*	CurtainsRelay	SmartFridge
+проветрить здесь пока я буду на кухне	WindowRelay	WindowRelay*	WindowRelay*	CurtainsRelay
+закрыть окно если начался дождь	WindowRelay	WindowRelay*	WindowRelay*	Printer
+проветривай помещение каждые число минут в течение число минут избегая сквозняков	WindowRelay	AirConditioning		SmartFridge
+проветри зал и кухню	WindowRelay	WindowRelay*	WindowRelay*	SmartFridge
+когда последний раз снимали занавески	WindowRelay	AirConditioning		Printer
+проветрить комнату если содержание углекислого газа будет выше число	WindowRelay	WindowRelay*	WindowRelay*	SmartFridge
+в комнате душно проветри	WindowRelay	WindowRelay*	WindowRelay*	SmartFridge
+если за окном рассвет открой шторы	WindowRelay	AirConditioning	CurtainsRelay	SmartCar
+когда последний раз опускали занавески	CurtainsRelay	AirConditioning		Printer
+если за окном рассвет открой занавески	CurtainsRelay	AirConditioning	WindowRelay	CurtainsRelay*
+откроешь жалюзи если слишком темно	CurtainsRelay	AirConditioning		CurtainsRelay*
+если за окном солнце закрой занавески	CurtainsRelay	AirConditioning	WindowRelay	CurtainsRelay*
+откроешь жалюзи если слишком темно	CurtainsRelay	AirConditioning		CurtainsRelay*
+если за окном солнце открой занавески	CurtainsRelay	AirConditioning	WindowRelay	CurtainsRelay*
+допустим за окном небо закрой шторы	CurtainsRelay	WindowRelay	WindowRelay	Printer
+откроешь занавески если слишком темно	CurtainsRelay	AirConditioning		SmartFridge
+открой жалюзи если слишком темно	CurtainsRelay	AirConditioning		SmartFridge
+если за окном солнце открой шторы	CurtainsRelay	AirConditioning	CurtainsRelay*	SmartCar
+когда последний раз открывали шторы	CurtainsRelay	AirConditioning	CurtainsRelay*	Printer
+закрой шторы в 9 вечера	CurtainsRelay	WindowRelay	CurtainsRelay*	CurtainsRelay*
+убери шторы	CurtainsRelay	AirConditioning	CurtainsRelay*	SmartCar
+занавесь окно	CurtainsRelay	AirConditioning	WindowRelay	SmartCar
+опусти жалюзи	CurtainsRelay	AirConditioning		SmartCar
+включай отопление в комнате	HeaterController	AirConditioning	AirConditioning	Printer
+включай отопление в спальне	HeaterController	AirConditioning	AirConditioning	CurtainsRelay
+сделай похолоднее	HeaterController	AirConditioning		SmartFridge
+закрыть дверь если холодно	HeaterController	WindowRelay	WindowRelay	SmartFridge
+eсли на улице холодно включи обогреватель	HeaterController	AirConditioning		Printer
+здесь слишком холодно сделай потеплее	HeaterController	AirConditioning		SmartFridge
+сделай теплее во всех комнатах	HeaterController	AirConditioning		__UNKNOWN__
+в 8 часов включи обогреватель в ванной на 23 градуса	HeaterController	AirConditioning	AirConditioning	Printer
+установить температуру на 23 градуса	HeaterController	AirConditioning	AirConditioning	CurtainsRelay
+в 5 часов включи обогреватель на кухне	HeaterController	AirConditioning		Printer
+если на улице холодно включи батарею	HeaterController	AirConditioning		SmartCar
+разумеется совсем холодно	HeaterController	AirConditioning		SmartCar
+сделай потеплее обогреватель	HeaterController	AirConditioning		SmartFridge
+почему здесь так холодно	HeaterController	AirConditioning		SmartFridge
+здесь слишком жарко	HeaterController	AirConditioning		SmartFridge
+за час до будильника закрой окно и включи обогреватель	HeaterController	WindowRelay	AlarmClock	Printer
+в время включи обогреватель на кухне на число	HeaterController	AirConditioning		Printer
+здесь слишком холодно	HeaterController	AirConditioning		SmartFridge
+сообщи если температура в гараже опустится ниже нуля	HeaterController	AirConditioning		SmartFridge
+eсли на улице больше число градусов отключи отопление	HeaterController	AirConditioning	AirConditioning	Printer
+в время отправь мне температуру в спальне	HeaterController	AirConditioning		CurtainsRelay
+отопление включай за два часа до прихода отключай при выходе	HeaterController	AirConditioning	AlarmClock	Printer
+выключи обогреватель	HeaterController	AirConditioning		SmartFridge
+установить температуру число градуса в ночное время когда я буду спать	HeaterController	AirConditioning	AirConditioning	CurtainsRelay
+мне холодно	HeaterController	AirConditioning		SmartFridge
+сделай теплее	HeaterController	AirConditioning		__UNKNOWN__
+слишком громко	AudioSystem	AirConditioning		CurtainsRelay
+включай аудиосистему если я возвращаюсь домой	AudioSystem	AudioSystem*	AudioSystem*	CurtainsRelay
+отключи песню если я лягу	AudioSystem	AirConditioning	AudioSystem*	SmartFridge
+выключи динамики на кухне и отключи в спальне	AudioSystem	AirConditioning		SmartFridge
+сделай громче	AudioSystem	AirConditioning		SmartFridge
+выключи динамики на кухне и в спальне	AudioSystem	AirConditioning		SmartFridge
+очень тихо	AudioSystem	AirConditioning		SmartCar
+увеличь звук на три пункта	AudioSystem	AirConditioning		SmartFridge
+назови исполнителя самой частотной песни	AudioSystem	AirConditioning		SmartCar
+увеличь громкость чтобы не мешал стук	AudioSystem	AirConditioning		SmartFridge
+пропусти песню	AudioSystem	AirConditioning	AudioSystem*	Printer
+включи аудиосистему когда я приду домой	AudioSystem	AudioSystem*	AudioSystem*	Printer
+добавить песню в мою коллекцию	AudioSystem	AudioSystem*	AudioSystem*	__UNKNOWN__
+включи стереосистему если я приду домой	AudioSystem	AirConditioning		SmartCar
+выключи аудиосистему когда я возвращаюсь домой	AudioSystem	AudioSystem*	AudioSystem*	SmartFridge
+мои любимые песни	AudioSystem	AirConditioning		SmartFridge
+текст песни	AudioSystem	AirConditioning		CurtainsRelay
+мой любимый альбом	AudioSystem	AirConditioning		SmartCar
+включай музыку когда я просыпаюсь	AudioSystem	AirConditioning	AirConditioning	CurtainsRelay
+включи аудиосистему если я приду домой	AudioSystem	AudioSystem*	AudioSystem*	Printer
+увеличь частоту чтобы не мешал шум	AudioSystem	AirConditioning		SmartFridge
+выключи песню когда я усну	AudioSystem	AirConditioning	AudioSystem*	SmartFridge
+отключи песню когда я лягу	AudioSystem	AirConditioning	AudioSystem*	Printer
+если я засну разбуди меня в число	AudioSystem	AlarmClock	AlarmClock	SmartCar
+выключи динамики на кухне и включи их в спальне	AudioSystem	AirConditioning		CurtainsRelay
+отключу музыку когда я усну	AudioSystem	AirConditioning		CurtainsRelay
+добавь мелодию в мою коллекцию	AudioSystem	AirConditioning		CurtainsRelay
+увеличь частоту чтобы не мешал шум	AudioSystem	AirConditioning		SmartFridge
+включи музыку в 5 вечера	AudioSystem	AirConditioning		CurtainsRelay
+увеличь звук на три пункта	AudioSystem	AirConditioning		SmartFridge
+ставь стереосистему если я приду домой	AudioSystem	AirConditioning		CurtainsRelay
+назови самую частую песню	AudioSystem	AirConditioning	AudioSystem*	Printer
+отключи песню когда я засну	AudioSystem	AirConditioning	AudioSystem*	Printer
+если будет дождь то сообщить взять зонт с уходом	AudioSystem	AirConditioning	WindowRelay	SmartFridge
+прочитай передачи тогда я засну	AudioSystem	AirConditioning		SmartFridge
+прочитай передачи если я засну	AudioSystem	AirConditioning		SmartCar
+добавляй песню в мою коллекцию	AudioSystem	AirConditioning	AudioSystem*	__UNKNOWN__
+отключи музыку если я лягу	AudioSystem	AirConditioning		CurtainsRelay
+увеличьте громкость чтобы не мешал стук	AudioSystem	AirConditioning		SmartFridge
+увеличь громкость на 4 пункта	AudioSystem	AirConditioning		SmartFridge
+ставь эту песню чаще	AudioSystem	AirConditioning	AudioSystem*	CurtainsRelay
+воспроизведи её	AudioSystem	AirConditioning		Printer
+включай ежедневную подборку музыки к моему приходу	AudioSystem	AirConditioning	AirConditioning	SmartFridge
+воспроизведи альбом abbey road the beatles	AudioSystem	AirConditioning		SmartFridge
+увеличь громкость чтобы не мешал шум 	AudioSystem	AirConditioning	AirConditioning	SmartFridge
+включи динамики на кухне и выключи в гостинной	AudioSystem	AirConditioning		Printer
+подбирай песни под ритм бега	AudioSystem	AirConditioning		SmartFridge
+отключи музыку когда я засну	AudioSystem	AirConditioning		CurtainsRelay
+сделай чуть громче	AudioSystem	AirConditioning		SmartFridge
+пропусти песню	AudioSystem	AirConditioning	AudioSystem*	Printer
+если я засну включи чтонибудь погромче	AudioSystem	AirConditioning		CurtainsRelay
+какого исполнителя я слушал чаще всего на этой неделе	AudioSystem	AirConditioning		SmartCar
+найди клип к этой песне на youtube и воспроизведи его на телефоне	AudioSystem	AirConditioning	AudioSystem*	SmartFridge
+какой альбом я слушал чаще всего в этом месяце	AudioSystem	AirConditioning		SmartFridge
+увеличь громкость на два пункта	AudioSystem	AirConditioning		Printer
+сделай чуть тише	AudioSystem	AirConditioning		__UNKNOWN__
+выведи текст песни на экран телефона	AudioSystem	AirConditioning		CurtainsRelay
+сделай музыку тише если зазвонит телефон или позвонят в дверь	AudioSystem	AirConditioning		SmartFridge
+пусть музыка следует за мной	AudioSystem	AirConditioning		CurtainsRelay
+слишком тихо	AudioSystem	AirConditioning		SmartCar
+каждый вечер в время включай музыку на плеере	AudioSystem	AirConditioning	AirConditioning	CurtainsRelay
+выведи статистику прослушиваний на телефон	AudioSystem	AirConditioning		SmartFridge
+проигрывай в случайном порядке	AudioSystem	AirConditioning		SmartFridge
+включай аудиосистему когда я прихожу домой	AudioSystem	AudioSystem*	AudioSystem*	Printer
+какую песню я слушаю реже всего	AudioSystem	AirConditioning	AudioSystem*	Printer
+переключи трек	AudioSystem	AirConditioning		Printer
+запусти плейлист с танцевальной музыкой	AudioSystem	AirConditioning		SmartFridge
+слишком громко	AudioSystem	AirConditioning		CurtainsRelay
+выключи музыку когда я выйду из квартиры	AudioSystem	AirConditioning		SmartFridge
+добавь песню в мою коллекцию	AudioSystem	AirConditioning	AudioSystem*	CurtainsRelay
+ослабь свет и включи успокаивающую песню	LightSensor	AirConditioning	AudioSystem	HumiditySensor
+выключай свет если я ухожу из прихожей	LightSensor	AirConditioning	LightSensor*	SmartFridge
+включай свет когда я захожу в ванную	LightSensor	AirConditioning	LightSensor*	SmartFridge
+выключай свет вдруг я выйду из комнаты	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+выключи свет	LightSensor	AirConditioning	LightSensor*	SmartFridge
+гаси свет в комнате	LightSensor	AirConditioning	LightSensor*	SmartFridge
+eсли на улице светло выключи лампу	LightSensor	LightSensor*	LightSensor*	SmartCar
+выключай свет если я выхожу из комнат	LightSensor	AirConditioning	LightSensor*	SmartCar
+выключай свет когда я выйду из спальной	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+ежели за окном солнце открой шторы	LightSensor	AirConditioning	CurtainsRelay	CurtainsRelay
+выключай свет когда я иду из спальни	LightSensor	AirConditioning	LightSensor*	SmartFridge
+освети комнату	LightSensor	AirConditioning		Printer
+включай свет когда я захожу в гостинную	LightSensor	AirConditioning	LightSensor*	Printer
+выключай свет если я ухожу из спальни	LightSensor	AirConditioning	LightSensor*	SmartFridge
+выключай свет когда я выхожу из спальной	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+откроешь шторы если слишком темно	LightSensor	AirConditioning	CurtainsRelay	SmartCar
+выключай свет если я выхожу из комнат	LightSensor	AirConditioning	LightSensor*	SmartCar
+выключай свет при моем уходе из комнаты	LightSensor	AirConditioning	LightSensor*	__UNKNOWN__
+откроешь занавески если совсем темно	LightSensor	AirConditioning		SmartFridge
+включай свет когда я захожу в гостиную	LightSensor	AirConditioning	LightSensor*	Printer
+выключай свет после моего ухода из спальни	LightSensor	AirConditioning	LightSensor*	SmartFridge
+гаси свет если меня нет в спальне	LightSensor	AirConditioning	LightSensor*	SmartFridge
+выключай свет если я ухожу из комнаты	LightSensor	AirConditioning	LightSensor*	SmartCar
+включай свет если я зашёл в комнату	LightSensor	AirConditioning	LightSensor*	Printer
+включай свет опять я зашёл в спальню	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+если за дверью рассвет закрой шторы	LightSensor	WindowRelay	CurtainsRelay	SmartCar
+выключай свет когда я ухожу из комнат	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+включай свет когда я заглядываю в комнату	LightSensor	AirConditioning	LightSensor*	Printer
+если за окном солнце открой шторы	LightSensor	AirConditioning	CurtainsRelay	SmartCar
+если за дверью рассвет открой шторы	LightSensor	AirConditioning	CurtainsRelay	SmartCar
+выключай свет когда я ухожу из спальни	LightSensor	AirConditioning	LightSensor*	SmartFridge
+прикрой шторы если слишком светло	LightSensor	AirConditioning	CurtainsRelay	SmartCar
+включить свет в санузле при наличии внутри коголибо и выключить если никого нет более число минут	LightSensor	AirConditioning	LightSensor*	SmartFridge
+включи свет в время утра	LightSensor	AirConditioning	LightSensor*	SmartFridge
+подсвети путь на кухню 	LightSensor	FloorLite	FloorLite	CurtainsRelay
+выключай свет когда я выхожу из комнаты	LightSensor	AirConditioning	LightSensor*	SmartCar
+сколько лампочек перегорело	LightSensor	AirConditioning	FloorLite	Printer
+не включай свет если в комнату зашло домашнее животное	LightSensor	AirConditioning	LightSensor*	SmartFridge
+включи светомузыку	LightSensor	AirConditioning		SmartCar
+выключить освещение в комнатах в вечернее время после время если в них никого нет больше число минут	LightSensor	AirConditioning		SmartFridge
+слишком светло	LightSensor	AirConditioning		CurtainsRelay
+освети комнату	LightSensor	AirConditioning		Printer
+ослабь свет и запусти плейлист с успокаивающей музыкой	LightSensor	AirConditioning	LightSensor*	SmartFridge
+когда стемнеет включи подсветку фонтана	LightSensor	AirConditioning	FloorLite	CurtainsRelay
+зажги фонарики а свет под навесом выключи	LightSensor	AirConditioning	LightSensor*	SmartFridge
+включай свет когда я захожу в комнату	LightSensor	AirConditioning	LightSensor*	Printer
+погаси основной свет	LightSensor	AirConditioning	LightSensor*	SmartFridge
+выключи лампочки	LightSensor	AirConditioning	FloorLite	SmartFridge
+слишком темно	LightSensor	AirConditioning		SmartFridge
+сколько лампочек нужно заменить	LightSensor	AirConditioning	FloorLite	__UNKNOWN__
+включи лампочки	LightSensor	AirConditioning	FloorLite	CurtainsRelay
+выключи свет	LightSensor	AirConditioning	LightSensor*	SmartFridge
+включай свет когда в комнате начнет темнеть	LightSensor	AirConditioning	LightSensor*	Printer
+потуши свет	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+ослабь свет и включи успокаивающую музыку	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+сделай светлее	LightSensor	AirConditioning		SmartFridge
+сделай слабее свет	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+сделай светло	LightSensor	AirConditioning		SmartFridge
+включи свет	LightSensor	AirConditioning	LightSensor*	CurtainsRelay
+имитируй повседневное освещение пока я не дома	LightSensor	AirConditioning		SmartFridge
+прибавь яркости	LightSensor	AirConditioning		SmartFridge
+гаси свет если меня нет в комнате	LightSensor	AirConditioning	LightSensor*	SmartFridge
+освети помещение	LightSensor	AirConditioning		CurtainsRelay
+сделай темно	LightSensor	AirConditioning		SmartFridge
+каждый раз когда я буду приходить домой включить свет в прихожей и чайник	LightSensor	AirConditioning	LightSensor*	SmartFridge
+выключи подсветку	LightSensor	AirConditioning	FloorLite	SmartFridge
+меняй каждый день фонарик на время	Lamp	AirConditioning		SmartFridge
+включай солнце когда я захожу в комнату	Lamp	AirConditioning	AirConditioning	SmartFridge
+на сколько хватает заряда	Lamp	AirConditioning		Printer
+выключай свет каждый раз когда я ухожу из гостиной	Lamp	AirConditioning	LightSensor	SmartFridge
+выключи свет	Lamp	AirConditioning	LightSensor	SmartFridge
+гаси свет в спальне если никого нет	Lamp	AirConditioning	LightSensor	SmartFridge
+выключи свет в ванной	Lamp	AirConditioning	LightSensor	SmartFridge
+включай свет когда я захожу в гостиную	Lamp	AirConditioning	LightSensor	Printer
+приглуши свет или включи расслабляющую музыку	Lamp	AirConditioning	LightSensor	CurtainsRelay
+ослабь свет и включи успокаивающую музыку	Lamp	AirConditioning	LightSensor	CurtainsRelay
+выключай свет когда меня нет в комнате	Lamp	AirConditioning	LightSensor	Printer
+включай свет когда я захожу в спальню	Lamp	AirConditioning	LightSensor	Printer
+включи электричество в спальне	Lamp	AirConditioning		CurtainsRelay
+выключай свет когда я иду из санузла	Lamp	AirConditioning	LightSensor	CurtainsRelay
+выключай свет если я выхожу из спальни	Lamp	AirConditioning	LightSensor	CurtainsRelay
+включай свет когда я прихожу домой	Lamp	AirConditioning	LightSensor	Printer
+утюг разогрей буду гладить нейлон	SmartIron	SmartMicrowave	SmartMicrowave	CurtainsRelay
+включен ли утюг	SmartIron	AirConditioning		CurtainsRelay
+включи утюг я хочу погладить шелковую блузку	SmartIron	AirConditioning		CurtainsRelay
+если утюг всё еще включен то выключи его	SmartIron	AirConditioning		SmartCar
+поставь утюг на шерсть	SmartIron	AirConditioning	AirConditioning	CurtainsRelay
+если утюг всё еще включен отключить его	SmartIron	AirConditioning		SmartCar
+почем в этом году я заплатил за свет	SmartElectricityMeter	AirConditioning	LightSensor	CurtainsRelay
+расход электричества	SmartElectricityMeter	AirConditioning		SmartFridge
+энергопотребление за последнее время	SmartElectricityMeter	AirConditioning		SmartCar
+сколько в прошлом месяце было за электричество	SmartElectricityMeter	AirConditioning		Printer
+выключай электричество в комнате	SmartElectricityMeter	AirConditioning	AirConditioning	SmartFridge
+сколько в этом месяце уплачено за электричество	SmartElectricityMeter	AirConditioning		SmartFridge
+выключи электричество в спальне	SmartElectricityMeter	AirConditioning		SmartFridge
+выключи электричество в ванной	SmartElectricityMeter	AirConditioning		SmartFridge
+включай электричество в комнате	SmartElectricityMeter	AirConditioning	AirConditioning	Printer
+сколько в этом году я заплатил за свет	SmartElectricityMeter	AirConditioning	LightSensor	Printer
+сколько в этом месяце было за электричество	SmartElectricityMeter	AirConditioning		SmartFridge
+выключай свет когда я выйду из комнаты	SmartElectricityMeter	AirConditioning	LightSensor	CurtainsRelay
+полностью выключи электричество	SmartElectricityMeter	AirConditioning		SmartCar
+кажду неделю в время снимай показания с счетчиков в квартире	SmartElectricityMeter	AirConditioning		SmartFridge
+сколько нужно будет заплатить за электричество если киловат стоит как в прошлом месяце	SmartElectricityMeter	AirConditioning		SmartFridge
+выключи электричество в ванной	SmartElectricityMeter	AirConditioning		SmartFridge
+сколько в этом году я заплатил за свет	SmartElectricityMeter	AirConditioning	LightSensor	Printer
+какие устройства потребляют наибольшее количество энергии в течение дня	SmartElectricityMeter	AirConditioning		SmartFridge
+включи электричество	SmartElectricityMeter	AirConditioning		Printer
+сколько киловатт электроэнергии было потрачено за последний месяц	SmartElectricityMeter	AirConditioning		Printer
+сколько энергии потребляют лампы	SmartElectricityMeter	AirConditioning	LightSensor	__UNKNOWN__
+какое количество электроэнергии в этом месяце было затрачено водонагревателем	SmartElectricityMeter	AirConditioning		SmartFridge
+включи резервное питание	SmartElectricityMeter	AirConditioning		SmartCar
+распечатай показания счетчиков	SmartElectricityMeter	Printer	Printer	SmartCar
+выключи электричество	SmartElectricityMeter	AirConditioning		SmartFridge
+перечисли устройства которые включены в доме в данный момент	SmartElectricityMeter	AirConditioning		SmartFridge
+запомни передачу если я лягу	TVSet	AirConditioning		CurtainsRelay
+где пульт от телевизора	TVSet	AirConditioning		Printer
+запиши передачу если я засну	TVSet	AirConditioning		CurtainsRelay
+включай информационноразвлекательную когда я приду домой	TVSet	AirConditioning	AirConditioning	Printer
+пульт	TVSet	AirConditioning		SmartFridge
+выключи информационноразвлекательную программу если я прихожу домой	TVSet	AirConditioning		SmartFridge
+включи программу по телевизору	TVSet	AirConditioning		SmartCar
+запиши программу если я усну	TVSet	AirConditioning		SmartFridge
+делай чуть тише	TVSet	AirConditioning		CurtainsRelay
+подготовить обстановку к просмотру фильма	TVSet	AirConditioning		SmartFridge
+включи телевизор	TVSet	AirConditioning		SmartCar
+запиши передачи если я усну	TVSet	AirConditioning		SmartFridge
+где пульт от телевизора	TVSet	AirConditioning		Printer
+опять пульт от телевизора потерял	TVSet	AirConditioning		SmartFridge
+в машинке шелковое белье подбери режим и запусти стирку	WashingMachine	AirConditioning	WashingMachine*	SmartFridge
+сколько раз за месяц была стирка	WashingMachine	AirConditioning	WashingMachine*	Printer
+поставь в расписание стирку на 6 утра	WashingMachine	AirConditioning	AirConditioning	SmartFridge
+включай стиральную машину в 2305 каждое четное число месяца	WashingMachine	AirConditioning	AirConditioning	SmartFridge
+запусти стирку для цветного	WashingMachine	AirConditioning	WashingMachine*	SmartFridge
+включай стиральную машину по четвергам	WashingMachine	AirConditioning	AirConditioning	SmartFridge
+когда следуюущий технологический осмотр	WashingMachine	AirConditioning		SmartFridge
+доложи о соcтоянии одежды	WashingMachine	AirConditioning		SmartFridge
+сколько раз за неделю я стирал	WashingMachine	AirConditioning		Printer
+постирай на 90 градусах	WashingMachine	WashingMachine*	WashingMachine*	Printer
+когда стиральная машина закончит стирку сообщи мужу	WashingMachine	AirConditioning	WashingMachine*	SmartFridge
+включай стиральную машину в время каждое четное число месяца	WashingMachine	AirConditioning	AirConditioning	SmartFridge
+сколько раз за месяц я стирал	WashingMachine	AirConditioning		Printer
+включи стирку а потом отжим	WashingMachine	AirConditioning	WashingMachine*	SmartFridge
+сколько часов стоит суп в духовке	SmartOven	AirConditioning		SmartCar
+когда будет готова еда в духовке	SmartOven	AirConditioning		SmartFridge
+когда будет готова пицца в духовке	SmartOven	AirConditioning		SmartFridge
+включена ли духовка	SmartOven	AirConditioning		CurtainsRelay
+испеки мне еды к время	SmartOven	SmartBreadMaker	SmartBreadMaker	CurtainsRelay
+в время включи духовой шкаф на кухне на количество градусов	SmartOven	AirConditioning	AirConditioning	SmartFridge
+приготовь мясо к нашему ужину	SmartOven	SmartMicrowave	SmartMicrowave	SmartFridge
+приготовь булку к моему приходу	SmartOven	SmartMicrowave	SmartMicrowave	SmartFridge
+покорми меня	SmartOven	AirConditioning		SmartFridge
+приготовь мне какиенибудь овощи	SmartOven	SmartMicrowave	SmartMicrowave	SmartFridge
+подай печенье на зватрак	SmartOven	AirConditioning		SmartCar
+когда будет готова пицца	SmartOven	AirConditioning		SmartFridge
+сколько дней стоит суп в духовке	SmartOven	AirConditioning		CurtainsRelay
+когда чтото подгорит на плите выключить ее и установить вытяжку на максимальный режим	SmartOven	AirConditioning		SmartFridge
+приготовь мне еды к время	SmartOven	SmartMicrowave	SmartMicrowave	SmartFridge
+если я завтра приду домой до время сделай мне еды	SmartOven	AirConditioning		SmartFridge
+включи готовку в время вечера	SmartOven	AirConditioning		SmartCar
+разогрей духовку до число градусов к число часам если меня не будет дома в время выключи	SmartOven	SmartMicrowave	AirConditioning	SmartCar
+включи духовку на число минут на число градусов затем на число минут на число	SmartOven	AirConditioning	AirConditioning	HeaterController
+когда я буду дома поставь духовку на число градусов	SmartOven	AirConditioning	AirConditioning	CurtainsRelay
+ставь каждый раз будильник на время	AlarmClock	AlarmClock*	AlarmClock*	SmartFridge
+поменяй каждый вечер будильник на время	AlarmClock	AlarmClock*	AlarmClock*	SmartFridge
+ставь каждый день будильник на время	AlarmClock	AlarmClock*	AlarmClock*	SmartFridge
+время	AlarmClock	AirConditioning		SmartCar
+если я усну разбуди меня	AlarmClock	AlarmClock*	AlarmClock*	SmartFridge
+поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса	AlarmClock	WindowRelay	AlarmClock*	SmartFridge
+если завтра выходной разбуди меня через число часов после выключения света в комнате	AlarmClock	AlarmClock*	AlarmClock*	SmartFridge
+ставь каждый день будильник на время	AlarmClock	AlarmClock*	AlarmClock*	SmartFridge
+включи датчик влажности когда я приду домой	HumiditySensor	AirConditioning		Printer
+eсли уровень влажности в комнате меньше n то включи увлажнитель	HumiditySensor	AirConditioning		CurtainsRelay
+установи температуру на число а влажность на число	HumiditySensor	AirConditioning		HeaterController
+поддерживай влажность в комнате на уровне 60	HumiditySensor	AirConditioning		SmartFridge
+закрыть окно если начался дождь	HumiditySensor	WindowRelay	WindowRelay	Printer
+проверь наличие еды в холодильнике	SmartFridge	AirConditioning	SmartFridge*	CurtainsRelay
+сколько дней стоит салат в холодильнике	SmartFridge	AirConditioning	SmartFridge*	SmartCar
+сколько мяса осталось	SmartFridge	AirConditioning		SmartFridge*
+свежесть супа	SmartFridge	AirConditioning		SmartFridge*
+сообщи какие фрукты в холодильнике	SmartFridge	SmartFridge*	SmartFridge*	CurtainsRelay
+когда я вернусь начни охлаждать сок	SmartFridge	AirConditioning		Printer
+какие у нас есть орехи	SmartFridge	AirConditioning		SmartFridge*
+у нас найдутся какиенибудь овощи	SmartFridge	AirConditioning		SmartFridge*
+что из пищи осталось	SmartFridge	AirConditioning		SmartFridge*
+нужно ли покупать продукты	SmartFridge	AirConditioning		SmartFridge*
+сколько дней хранится салат в холодильнике	SmartFridge	SmartFridge*	SmartFridge*	SmartFridge*
+ставлю суп в холодильник	SmartFridge	SmartFridge*	SmartFridge*	SmartFridge*
+что из еды осталось	SmartFridge	AirConditioning		SmartFridge*
+не разрешай детям брать спиртное	SmartFridge	AirConditioning		SmartFridge*
+нужно ли покупать продукты	SmartFridge	AirConditioning		SmartFridge*
+сколько мяса осталось	SmartFridge	AirConditioning		SmartFridge*
+делай больше льда	SmartFridge	AirConditioning		SmartCar
+если было взято спиртное посчитай на сколько уменьшился вес каждой бутылки	SmartFridge	AirConditioning		Printer
+включи в морозилке быструю заморозку на число минут	SmartFridge	AirConditioning	SmartFridge*	CurtainsRelay
+сколько дней стоит суп в холодильнике	SmartFridge	SmartFridge*	SmartFridge*	CurtainsRelay
+есть ли дома сливочное масло	SmartFridge	AirConditioning		SmartFridge*
+сделай льда	SmartFridge	AirConditioning		__UNKNOWN__
+у нас есть какиенибудь фрукты	SmartFridge	AirConditioning		SmartFridge*
+в холодильнике осталось мясо	SmartFridge	SmartFridge*	SmartFridge*	SmartFridge*
+в холодильнике много испорченного	SmartFridge	SmartFridge*	SmartFridge*	CurtainsRelay
+требует ли данный холодильник разморозки если требует то как часто холодильник нужно размораживать	SmartFridge	SmartFridge*	SmartFridge*	SmartCar
+если было взято спиртное прислать уведомление на мой телефон	SmartFridge	AirConditioning		Printer
+покажи список продуктов	SmartFridge	AirConditioning		SmartFridge*
+установи температуру в холодильнике на плюс число а в морозилке на минус число	SmartFridge	SmartFridge*	SmartFridge*	SmartFridge*
+проверь двери в доме	DoorWindowStatusSensor	AirConditioning		SmartFridge
+какие из окон в квартире сейчас открыты	DoorWindowStatusSensor	AirConditioning	WindowRelay	SmartFridge
+какие двери в доме открыты	DoorWindowStatusSensor	AirConditioning		SmartFridge
+открой все двери в доме	DoorWindowStatusSensor	AirConditioning		CurtainsRelay
+закрой окно если сильный ветер на улице	DoorWindowStatusSensor	WindowRelay	WindowRelay	CurtainsRelay
+проветри там	DoorWindowStatusSensor	WindowRelay	WindowRelay	CurtainsRelay
+какие из окон в доме теперь открыты	DoorWindowStatusSensor	AirConditioning	WindowRelay	SmartFridge
+какие из дверей в домике сейчас открыты	DoorWindowStatusSensor	AirConditioning		SmartFridge
+проветри все комнаты	DoorWindowStatusSensor	WindowRelay	WindowRelay	SmartCar
+если будет жарко то открой дверь	DoorWindowStatusSensor	AirConditioning		SmartFridge
+если будет жарко значит открой окно	DoorWindowStatusSensor	AirConditioning	WindowRelay	SmartFridge
+если кот уже поел выпусти его	DoorWindowStatusSensor	AirConditioning		SmartFridge
+если становится жарко закрой дверь	DoorWindowStatusSensor	WindowRelay	WindowRelay	__UNKNOWN__
+сколько кофе осталось	CoffeeMachine	AirConditioning		SmartFridge
+когда я поеду сделай кофе	CoffeeMachine	AirConditioning		SmartFridge
+проверь состояние кофеварки	CoffeeMachine	CoffeeMachine*	CoffeeMachine*	SmartFridge
+количество кофе	CoffeeMachine	AirConditioning		__UNKNOWN__
+сделай кофе к моему приходу	CoffeeMachine	AirConditioning		SmartFridge
+каждый день проверяй кофеварку в доме	CoffeeMachine	CoffeeMachine*	CoffeeMachine*	SmartFridge
+когда я зайду сделай кофе	CoffeeMachine	AirConditioning		SmartFridge
+подогрей кофе завтра к полуночи	CoffeeMachine	AirConditioning		SmartFridge
+вари кофе каждый день когда я просыпаюсь	CoffeeMachine	AirConditioning		SmartFridge
+каждый день проверяй кофемашину в доме	CoffeeMachine	AirConditioning		SmartFridge
+какая кофемашина стоит в комнате	CoffeeMachine	AirConditioning		Printer
+если кофе в кофемашине останется число то отправь уведомление на телефон	CoffeeMachine	AirConditioning		CurtainsRelay
+включить кофемашину через число минуты после будильника	CoffeeMachine	AlarmClock	AlarmClock	HeaterController
+сколько кофе осталось	CoffeeMachine	AirConditioning		SmartFridge
+свари кофе завтра к число утра	CoffeeMachine	CoffeeMachine*	CoffeeMachine*	SmartFridge
+насыпай коту меньше корма	SmartFeeder	AirConditioning		SmartCar
+корми пса четыре раза в день	SmartFeeder	AirConditioning		SmartFridge
+корми кота шесть раз в день	SmartFeeder	AirConditioning		SmartFridge
+корми пса три раза в день	SmartFeeder	AirConditioning		SmartFridge
+если песик давно не ел покорми его	SmartFeeder	AirConditioning		SmartFridge
+кот давненько не ел покорми его	SmartFeeder	AirConditioning		SmartFridge
+мне кажется кот слишком много ест	SmartFeeder	AirConditioning		CurtainsRelay
+не корми кота так часто	SmartFeeder	AirConditioning		SmartFridge
+сколько раз кот сегодня ел	SmartFeeder	AirConditioning		SmartFridge
+ты сегодня кормила кота	SmartFeeder	AirConditioning		SmartCar
+покорми кота на число грамм корма	SmartFeeder	AirConditioning		SmartToaster
+покорми собаку	SmartFeeder	AirConditioning		SmartFridge
+мне кажется кот слишком много ест	SmartFeeder	AirConditioning		CurtainsRelay
+корми пса три раза в день	SmartFeeder	AirConditioning		SmartFridge
+если кот давно не ел покорми его	SmartFeeder	AirConditioning		SmartFridge
+покорми попугая	SmartFeeder	AirConditioning		CurtainsRelay
+предупреди если автомобиль сзади меня придется очень вплотную	MotionSensor	AirConditioning		CurtainsRelay
+проверь датчик движения за сегодня	MotionSensor	AirConditioning		CurtainsRelay
+проверь второй этаж	MotionSensor	AirConditioning		SmartFridge
+активность в доме	MotionSensor	AirConditioning		CurtainsRelay
+выключай свет если я иду из ванной	MotionSensor	AirConditioning	LightSensor	SmartFridge
+сообщи был ли ктото дома сегодня	MotionSensor	AirConditioning		SmartCar
+снимай парктроник когда я иду домой	MotionSensor	AirConditioning		SmartFridge
+предупреди когда грузовик сзади меня будет вплотную	MotionSensor	AirConditioning		Printer
+кто брал твою машину	MotionSensor	AirConditioning		SmartFridge
+ктонибудь был дома сегодня днем	MotionSensor	AirConditioning		CurtainsRelay
+ктото остался дома сегодня днем	MotionSensor	AirConditioning		SmartFridge
+входил ли ктото в мою комнату сегодня	MotionSensor	AirConditioning		SmartFridge
+кто пришел	MotionSensor	AirConditioning		SmartCar
+отправить уведомление если было зафиксировано движение в период с время до время в будни	MotionSensor	AirConditioning		SmartFridge
+осмотри поле если увидишь чтото необычное сообщи	MotionSensor	AirConditioning	FloorLite	Printer
+на втором этаже ктонибудь есть	MotionSensor	AirConditioning		CurtainsRelay
+имитируй присутствие людей с число июня до число июля	MotionSensor	AirConditioning		SmartCar
+ктонибудь был дома сегодня днём	MotionSensor	AirConditioning		SmartCar
+включи воду	WaterSupplySensor	AirConditioning		Printer
+расход воды	WaterSupplySensor	AirConditioning		SmartMicrowave
+сколько воды потрачено	WaterSupplySensor	AirConditioning		Printer
+сделай напор сильнее	WaterSupplySensor	AirConditioning		SmartFridge
+полностью перекрой воду	WaterSupplySensor	AirConditioning		SmartFridge
+перекрой подачу воды и включи слив если бассейн наполнится выше заданного уровня	WaterSupplySensor	AirConditioning		SmartFridge
+я хочу принять ванну	WaterSupplySensor	AirConditioning		SmartFridge
+проверяй нет ли протечки каждые число минуты пока включена посудомоечная машина	WaterSupplySensor	AirConditioning		SmartFridge
+включи фонтанчик	WaterSupplySensor	AirConditioning		CurtainsRelay
+перекрыть водоснабжение в комнате если на полу обнаружена вода и не зафиксировано движения в течение число минут	WaterSupplySensor	AirConditioning	FloorLite	SmartFridge
+когда все разойдутся выключи фонтан и подсветку 	WaterSupplySensor	AirConditioning	FloorLite	SmartCar
+включи воду	WaterSupplySensor	AirConditioning		Printer
+включи готовку в 8 вечера	SmartBreadMaker	AirConditioning		CurtainsRelay
+приготовь хлеб к нашему возвращению	SmartBreadMaker	SmartMicrowave	SmartMicrowave	SmartFridge
+приготовь хлеб к нашему ужину	SmartBreadMaker	SmartMicrowave	SmartMicrowave	Printer
+приготовь хлеб	SmartBreadMaker	SmartMicrowave	SmartMicrowave	SmartFridge
+приготовь хлеб к моему приходу	SmartBreadMaker	SmartMicrowave	SmartMicrowave	SmartFridge
+приготовь хлеб	SmartBreadMaker	SmartMicrowave	SmartMicrowave	SmartFridge
+сделай тост	SmartBreadMaker	AirConditioning		SmartFridge
+приготовь хлеб к моему приходу	SmartBreadMaker	SmartMicrowave	SmartMicrowave	SmartFridge
+пропылесось здесь пока я буду на кухне	SmartVacuumCleaner	AirConditioning		CurtainsRelay
+пропылесось здесь пока я буду в ванной	SmartVacuumCleaner	AirConditioning		SmartFridge
+дата прошлой уборки	SmartVacuumCleaner	AirConditioning		__UNKNOWN__
+подмети там пока я буду на кухне	SmartVacuumCleaner	AirConditioning		CurtainsRelay
+пропылесось сейчас пока я буду в гостинной	SmartVacuumCleaner	AirConditioning		SmartFridge
+подмети здесь пока я буду на кухне	SmartVacuumCleaner	AirConditioning		CurtainsRelay
+пропылесось здесь пока я буду в комнате	SmartVacuumCleaner	AirConditioning		CurtainsRelay
+если меня нет дома не мой пол	SmartVacuumCleaner	AirConditioning		SmartFridge
+пропылесосить здесь покуда я буду на кухне	SmartVacuumCleaner	AirConditioning		Printer
+начинай пылесосить	SmartVacuumCleaner	AirConditioning		SmartFridge
+в углу под столом в комнате осталась пыль	SmartVacuumCleaner	AirConditioning		SmartFridge
+пропылесось зал	SmartVacuumCleaner	AirConditioning		HeaterController
+начать уборку	SmartVacuumCleaner	AirConditioning		SmartCar
+начни уборку после того как я уйду	SmartVacuumCleaner	AirConditioning		Printer
+когда была последняя уборка	SmartVacuumCleaner	AirConditioning		SmartCar
+как доехать до больницы	Phone	AirConditioning		__UNKNOWN__
+выведи статистику прослушиваний на мобильник	Phone	AirConditioning		SmartFridge
+хочу купить билеты на лебединое озеро в мариинке проверь их наличие	Phone	AirConditioning		SmartFridge
+сколько по времени ехать до ст метро горьковская	Phone	AirConditioning		Printer
+мне нужно добраться до число поликлиники	Phone	AirConditioning		Printer
+а на чем я могу доехать до поликлиники число	Phone	AirConditioning		Printer
+если будет дождь то напомнить взять зонт перед выходом	Phone	AirConditioning	WindowRelay	SmartCar
+когда придет автобус номер число	Phone	AirConditioning		SmartFridge
+заплати за отопление	Phone	AirConditioning		__UNKNOWN__
+на чем я смогу доехать до ашана	Phone	AirConditioning		SmartFridge
+сколько времени займет дорога от а до б с учетом пробок	Phone	AirConditioning		Printer
+построй маршрут из москвы в санктпетербург и подсказывай мне дорогу	Phone	AirConditioning		SmartFridge
+позвони мастеру	Phone	AirConditioning		SmartFridge
+у кого или как я могу купить билет	Phone	AirConditioning		SmartFridge
+сделай панорамный снимок	Phone	AirConditioning		SmartFridge
+потребляй энергию из аккумуляторов если она закончится потребляй из электросети	Phone	AirConditioning		SmartFridge
+выключи водопровод в комнате	WaterTapRelay	AirConditioning		SmartFridge
+температура воды	WaterTapRelay	AirConditioning		SmartFridge
+если на улице гораздо количество градусов включи водоснабжение	WaterTapRelay	AirConditioning	AirConditioning	Printer
+при появлении кота на газоне включи распыление воды 3 раза за раз	WaterTapRelay	AirConditioning		CurtainsRelay
+наполни горячую ванную к моему приходу	WaterTapRelay	AirConditioning		Printer
+я хочу принять ванну	WaterTapRelay	AirConditioning		SmartFridge
+я собираюсь принять ванну	WaterTapRelay	AirConditioning		Printer
+набери воду в ванну к нашему приходу	WaterTapRelay	AirConditioning		Printer
+полностью перекрой воду	WaterTapRelay	AirConditioning		SmartFridge
+включи воду	WaterTapRelay	AirConditioning		Printer
+я пытаюсь принять ванную	WaterTapRelay	AirConditioning		SmartFridge
+сделай погорячее	WaterTapRelay	AirConditioning		SmartFridge
+набери ванную	WaterTapRelay	AirConditioning		CurtainsRelay
+сделай напор сильнее	WaterTapRelay	AirConditioning		SmartFridge
+помой ягоды и огурцы	WaterTapRelay	AirConditioning		Printer
+отключи водопровод в гостинной	WaterTapRelay	AirConditioning		SmartFridge
+напор слишком слабый	WaterTapRelay	AirConditioning		CurtainsRelay
+набери ванну	WaterTapRelay	AirConditioning		SmartCar
+установить температуру воды в бассейне в число градуса и выполнить его очистку от мусора	WaterTapRelay	AirConditioning	AirConditioning	SmartFridge
+наполни горячую ванную к моему приходу	WaterTapRelay	AirConditioning		Printer
+eсли вода в чайнике остыла разогрей	SmartKettle	SmartMicrowave	SmartMicrowave	SmartFridge
+когда я зайду сделай чай	SmartKettle	AirConditioning		SmartFridge
+сделай кофе и чай	SmartKettle	AirConditioning		SmartFridge
+когда я приду сделай чай	SmartKettle	AirConditioning		SmartFridge
+приготовь чай	SmartKettle	SmartMicrowave	SmartMicrowave	SmartFridge
+когда я зайду завари чай	SmartKettle	AirConditioning		CurtainsRelay
+когда я вернусь приготовь чай	SmartKettle	SmartMicrowave	SmartMicrowave	SmartFridge
+по будням буди меня в время часов утра включай чайник	SmartKettle	AirConditioning	AirConditioning	SmartCar
+eсли вода в чайнике остыла разогрей	SmartKettle	AirConditioning	SmartMicrowave	SmartFridge
+в какой день недели я больше пью воды из чайника	SmartKettle	AirConditioning		SmartFridge
+когда я приду сделай чай	SmartKettle	AirConditioning		SmartFridge
+влажность	Humidifier	AirConditioning		SmartFridge
+установи влажность на 8 и температуру на 23	Humidifier	AirConditioning		CurtainsRelay
+если уровень влажности в комнате меньше n то включи увлажнитель	Humidifier	AirConditioning		CurtainsRelay
+поддерживай влажность воздуха не меньше число процентов	Humidifier	CoffeeMachine	CoffeeMachine	SmartFridge
+включить увлажнитель воздуха если дома ктото есть а влажность ниже число	Humidifier	AirConditioning		SmartCar
+здесь слишком сухо	Humidifier	AirConditioning		CurtainsRelay
+здесь слишком влажно	Humidifier	AirConditioning		SmartCar
+поддерживай влажность в комнате на уровне число	Humidifier	AirConditioning		HeaterController
+уровень заряда квадрокоптера	Quadrocopter	AirConditioning		SmartCar
+снимай местность пока хватает заряда батареи потом вернись	Quadrocopter	AirConditioning		SmartFridge
+если закончится заряд лети на зарядную станцию после подзарядки продолжай	Quadrocopter	AirConditioning		SmartFridge
+осматривай поле и показывай видео на сервер дальнейшие команды получай от него	Quadrocopter	AirConditioning	FloorLite	SmartFridge
+осматривай поле и показывай видео оператору	Quadrocopter	AirConditioning	FloorLite	SmartFridge
+отнеси это домой потом вернись ко мне	Quadrocopter	AirConditioning		SmartFridge
+лети за мной	Quadrocopter	AirConditioning		CurtainsRelay
+следуй командам с сервера пока я не скажу возвращаться если сервер будет недоступен возвращайся ко мне или на зарядную станцию	Quadrocopter	AirConditioning		SmartFridge
+снимай местность и если увидишь дым сообщи	Quadrocopter	AirConditioning		SmartFridge
+летай над местностью если сработает датчик дыма сообщи	Quadrocopter	AirConditioning		SmartFridge
+прошлый технический осмотр	SmartCar	AirConditioning		SmartFridge
+отвези меня до поликлиники завтра	SmartCar	AirConditioning		SmartCar*
+мне надо добраться до число поликлиники	SmartCar	AirConditioning		Printer
+мне надо проехать до число больницы	SmartCar	AirConditioning		__UNKNOWN__
+мне придется доехать до число поликлиники	SmartCar	AirConditioning		SmartCar*
+проедь 500 метров	SmartCar	AirConditioning		SmartFridge
+довези меня в больницу число	SmartCar	AirConditioning		HeaterController
+мне придется доехать до число больницы	SmartCar	AirConditioning		__UNKNOWN__
+когда я буду уходить на работу открыть гараж выгнать из него автомобиль и оставить двигатель работающим	SmartCar	AirConditioning		CurtainsRelay
+на сколько времени хватит топлива	SmartCar	AirConditioning		Printer
+кто брал мою машину сегодня	SmartCar	AirConditioning		SmartCar*
+найти место и припарковаться	SmartCar	AirConditioning		Printer
+ктонибудь брал мою машину сегодня	SmartCar	AirConditioning		SmartCar*
+предупреди если автомобиль сзади меня будет очень близко	SmartCar	AirConditioning		SmartCar*
+на сколько времени хватит топлива	SmartCar	AirConditioning		Printer
+какой средний расход бензина в зависимости от заправки был за последние полгода	SmartCar	AirConditioning		CurtainsRelay
+сколько километров проедет машина	SmartCar	AirConditioning		SmartFridge
+сколько я проехал километров	SmartCar	AirConditioning		Printer
+когда следующее то	SmartCar	AirConditioning		Printer
+какой средний расход бензина в зависимости от заправки был за последние полгода	SmartCar	AirConditioning		CurtainsRelay
+начни прогревать машину	SmartCar	AirConditioning		SmartFridge
+когда следующий технический осмотр	SmartCar	AirConditioning		CurtainsRelay
+сколько топлива в машине	SmartCar	AirConditioning		SmartFridge
+распечатай документ название спустя число часов	Printer	Printer*	Printer*	SmartFridge
+распечатай документ название через число секунд	Printer	Printer*	Printer*	SmartFridge
+отправь бланк название через число секунд	Printer	AirConditioning		SmartFridge
+распечатай паспорт название через число часа	Printer	Printer*	AlarmClock	SmartFridge
+распечатай паспорт название через число часа	Printer	Printer*	AlarmClock	SmartFridge
+сделай копию паспорта	Printer	AirConditioning		SmartFridge
+распечатай документ через 5 минут	Printer	Printer*	Printer*	SmartFridge
+заполни документ	Printer	AirConditioning	Printer*	SmartFridge
+распечатай документ спустя 2 часа	Printer	Printer*	Printer*	Printer*
+к время утра напечатай мне свежий выпуск новостей	Printer	AirConditioning		SmartFridge
+распечатай документ название через число минут	Printer	Printer*	Printer*	SmartFridge
+разогрей мне завтрак	SmartMicrowave	SmartMicrowave*	SmartMicrowave*	SmartCar
+сколько дней стоит суп в микроволновке	SmartMicrowave	SmartMicrowave*	SmartMicrowave*	__UNKNOWN__
+погрей еду	SmartMicrowave	SmartMicrowave*	SmartMicrowave*	SmartFridge
+разогрей мне еду в микроволновке к время	SmartMicrowave	SmartMicrowave*	SmartMicrowave*	CurtainsRelay
+если на улице меньше 10 температура включи подогрев пола	HeatingFloor	AirConditioning	HeatingFloor*	Printer
+выключи подогрев дорожек	HeatingFloor	AirConditioning	HeatingFloor*	SmartFridge
+включи подогрев дорожек	HeatingFloor	AirConditioning	HeatingFloor*	SmartFridge
+включи подогрев пола	HeatingFloor	AirConditioning	HeatingFloor*	Printer
+включи подсветку к 7 вечера	FloorLite	AirConditioning	FloorLite*	CurtainsRelay
+подсвети путь на кухню	FloorLite	FloorLite*	FloorLite*	CurtainsRelay
+проветри спальню ко сну	WindowStatusSensor	WindowRelay	WindowRelay	CurtainsRelay
+сделай тост	SmartToaster	AirConditioning		SmartFridge
+когда дверь последний раз открывалась	DoorRelay	AirConditioning		Printer
+активировать блокировку входной двери если в нее звонит незнакомец а также выслать уведомление с фотографией на мой телефон	DoorRelay	AirConditioning	Printer	SmartFridge
+когда открывается входная дверь грей пол	DoorRelay	AirConditioning		SmartFridge
+какие из дверей в доме сейчас открыты	DoorRelay	AirConditioning		SmartFridge
+проверь закрыты ли входная дверь и ворота гаража	DoorRelay	AirConditioning		SmartFridge
+проверь заперта ли дверь	DoorRelay	AirConditioning		SmartFridge
+заблокируй двери на вход	DoorRelay	AirConditioning		Printer
+если ктото будет звонить в дверь а меня нет дома вышли уведомление с его фото на мой телефон	DoorRelay	AirConditioning	Printer	SmartFridge
+Correctly recognized 29 of 597 (4.86 %)
+(Ontology) Correctly recognized 54 of 597 (9.05 %)
+(Ontology raw) Correctly recognized 124 of 597 (20.77 %)
+Average slot recall is 0.0758

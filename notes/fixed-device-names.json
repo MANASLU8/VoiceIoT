@@ -1,0 +1,16 @@
+<http://voice.iot/AirConditioning>
+<http://voice.iot/AlarmClock>
+<http://voice.iot/AudioSystem>
+<http://voice.iot/CoffeeMachine>
+<http://voice.iot/CurtainsRelay>
+<http://voice.iot/DoorBell>
+<http://voice.iot/FloorLite>
+<http://voice.iot/HeatingFloor>
+<http://voice.iot/Printer>
+<http://voice.iot/SmartFridge>
+<http://voice.iot/SmartMicrowave>
+<http://voice.iot/WindowRelay>
+<http://voice.iot/chandelier1> -> LightSensor
+<http://voice.iot/lamp1> -> LightSensor
+<http://voice.iot/smartBreadMaker> -> SmartBreadMaker
+<http://voice.iot/washing_machine1> -> WashingMachine

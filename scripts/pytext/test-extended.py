@@ -11,6 +11,9 @@ def get_best_label(result):
     doc_label_scores_prefix = ('scores:' if any(r.startswith('scores:') for r in result) else 'doc_scores:')
     return max((label for label in result if label.startswith(doc_label_scores_prefix)), key=lambda label: result[label][0],)[len(doc_label_scores_prefix):]
 
+def url_to_device_name(url):
+	return url.split('/')[-1][:-1]
+
 def get_best_slots(result):
     slot_prefix = "word_scores"
     word_scores = {label.split(':')[1]: result[label] for label in result if label.startswith(slot_prefix)}
@@ -34,25 +37,42 @@ test_dataset = fo.read_json(config['paths']['datasets']['pytext']['test-extended
 
 counter = 0
 ontology_counter = 0
+ontology_raw_counter = 0
 positive_counter = 0
 total_recall = []
 #print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
+print(f"{'command'}\t{'true label'}\t{'ontology label'}\t{'ontology raw label'}\t{'recognized label'}")
 for label in test_dataset.keys():
     for sample in test_dataset[label]:
+        true_label = sample['intent']
         recognized = [slot for slot in get_best_slots(predictor({"text": sample["text"].lower(), "doc_weight": 1, "word_weight": 1}))]# if slot != '__UNKNOWN__']
         parsed_command = list(zip(sample['text'].lower().split(' '), recognized))
         parsed_right_command = list(zip(sample['text'].lower().split(' '), sample['slots']))
-        print(f"-- Recognized slots")
+        
+        #print(f"-- Recognized slots")
         ul.get_labels(parsed_command, filename = config['paths']['datasets']['request-mapping']['lemmas-fine-splitted'])
-        print(f"-- Right slots")
+        
+        #print(f"-- Right slots")
         labels = ul.get_labels(parsed_right_command, filename = config['paths']['datasets']['request-mapping']['lemmas-fine-splitted'])
-        print(f"Label: {sample['intent']}")
-        print(f"Ontology label: {labels[0].split('/')[-1][:-1]}")
-        if labels[0].split('/')[-1][:-1] == sample['intent']:
+        
+        #print(f"Label: {true_label}")
+        #print(f"Ontology label: {labels[0].split('/')[-1][:-1]}")
+
+        ontology_label = url_to_device_name(labels[0])
+
+        if ontology_label == true_label:
             ontology_counter += 1
-        #print(f"Label: {sample['intent']}")
-        #print(f'Recognized: {recognized}')
-        #print(f"True: {sample['slots']}")
+            ontology_label += "*"
+        
+        raw_labels = ul.get_raw_labels(parsed_right_command, filename = config['paths']['datasets']['request-mapping']['lemmas-fine-splitted'])
+        #print(f"Raw labels for right command: {raw_labels}")
+
+        raw_ontology_label = url_to_device_name(raw_labels[0])
+
+        if raw_ontology_label == true_label:
+            ontology_raw_counter += 1
+            raw_ontology_label += "*"
+
         total_recall.append(metrics.get_recall(recognized, sample['slots']))
 
         recognized_label = get_best_label(predictor({"text": sample['text'].lower(), "doc_weight": 1, "word_weight": 1}))
@@ -61,8 +81,12 @@ for label in test_dataset.keys():
         #print(f"{sample['text']:80s}\t{recognized_label:20s}\t{label:20s}\t{recognized_label==label}")
         if recognized_label == label:
             positive_counter += 1
+            recognized_label += "*"
         counter += 1
+
+        print(f"{sample['text']}\t{label}\t{ontology_label}\t{raw_ontology_label}\t{recognized_label}")
 
 print(f"Correctly recognized {positive_counter} of {counter} ({round(positive_counter / float(counter) * 100, 2)} %)")
 print(f"(Ontology) Correctly recognized {ontology_counter} of {counter} ({round(ontology_counter / float(counter) * 100, 2)} %)")
+print(f"(Ontology raw) Correctly recognized {ontology_raw_counter} of {counter} ({round(ontology_raw_counter / float(counter) * 100, 2)} %)")
 print(f"Average slot recall is {round(np.mean(total_recall), 4)}")
