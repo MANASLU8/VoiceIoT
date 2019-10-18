@@ -2,7 +2,7 @@
   "utterance_id": 80,
   "utterance-type": "Command",
   "ontology-label": [
-    "LightSensor",
+    "Lighting",
     "FloorLite",
     "Lamp"
   ],

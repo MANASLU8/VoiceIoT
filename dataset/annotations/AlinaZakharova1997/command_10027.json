@@ -3,7 +3,7 @@
   "utterance-type": "Command",
   "ontology-label": [
     "CurtainsRelay",
-    "LightSensor"
+    "Lighting"
   ],
   "text": "откроешь жалюзи если слишком темно",
   "slots-indices": [

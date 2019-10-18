@@ -2,7 +2,7 @@
   "utterance_id": 255,
   "utterance-type": "Command",
   "ontology-label": [
-    "LightSensor",
+    "Lighting",
     "DoorWindowStatusSensor",
     "CurtainsRelay"
   ],

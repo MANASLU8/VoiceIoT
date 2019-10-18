@@ -1,6 +1,6 @@
 {
   "utterance-type": "Request",
-  "ontology-label": "LightSensor",
+  "ontology-label": "Lighting",
   "text": [
     "сколько лампочек нужно заменить"
   ],

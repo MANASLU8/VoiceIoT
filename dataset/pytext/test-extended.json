@@ -567,40 +567,10 @@
       "intent": "WindowRelay"
     },
     {
-      "text": "подними жалюзи",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
       "text": "помой окна после дождя",
       "slots": [
         "COMMAND",
         "CommandFeature",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "открой шторы если слишком темно",
-      "slots": [
-        "COMMAND",
-        "LOC",
-        "LOC",
-        "IntensityQuantifier",
-        "CommandFeature"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "закрой шторы если слишком светло",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
         "NoLabel",
         "NoLabel"
       ],
@@ -628,24 +598,6 @@
       "text": "проветривай во время моего сна",
       "slots": [
         "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
         "NoLabel",
         "NoLabel",
         "NoLabel",
@@ -739,18 +691,6 @@
         "COMMAND"
       ],
       "intent": "WindowRelay"
-    },
-    {
-      "text": "если за окном рассвет открой шторы",
-      "slots": [
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "CommandFeature",
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "WindowRelay"
     }
   ],
   "CurtainsRelay": [
@@ -808,6 +748,76 @@
         "NoLabel",
         "NoLabel",
         "NoLabel"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "ежели за окном солнце открой шторы",
+      "slots": [
+        "NoLabel",
+        "LOC",
+        "LOC",
+        "CommandFeature",
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "откроешь шторы если слишком темно",
+      "slots": [
+        "COMMAND",
+        "LOC",
+        "LOC",
+        "IntensityQuantifier",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "если за дверью рассвет закрой шторы",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature",
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "если за окном солнце открой шторы",
+      "slots": [
+        "NoLabel",
+        "LOC",
+        "LOC",
+        "CommandFeature",
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "если за дверью рассвет открой шторы",
+      "slots": [
+        "NoLabel",
+        "LOC",
+        "LOC",
+        "CommandFeature",
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "прикрой шторы если слишком светло",
+      "slots": [
+        "COMMAND",
+        "LOC",
+        "LOC",
+        "IntensityQuantifier",
+        "CommandFeature"
       ],
       "intent": "CurtainsRelay"
     },
@@ -900,6 +910,58 @@
       "intent": "CurtainsRelay"
     },
     {
+      "text": "открой шторы если слишком темно",
+      "slots": [
+        "COMMAND",
+        "LOC",
+        "LOC",
+        "IntensityQuantifier",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "закрой шторы если слишком светло",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "если за окном солнце закрой шторы",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
       "text": "занавесь окно",
       "slots": [
         "COMMAND",
@@ -910,6 +972,18 @@
     {
       "text": "опусти жалюзи",
       "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "если за окном рассвет открой шторы",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature",
         "COMMAND",
         "CommandFeature"
       ],
@@ -2008,7 +2082,7 @@
       "intent": "AudioSystem"
     }
   ],
-  "LightSensor": [
+  "Lighting": [
     {
       "text": "ослабь свет и включи успокаивающую песню",
       "slots": [
@@ -2019,7 +2093,7 @@
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет если я ухожу из прихожей",
@@ -2032,7 +2106,7 @@
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включай свет когда я захожу в ванную",
@@ -2045,7 +2119,7 @@
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет вдруг я выйду из комнаты",
@@ -2058,7 +2132,7 @@
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключи свет",
@@ -2066,7 +2140,7 @@
         "COMMAND",
         "DeviceFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "гаси свет в комнате",
@@ -2076,7 +2150,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "eсли на улице светло выключи лампу",
@@ -2088,7 +2162,7 @@
         "COMMAND",
         "DEVICE"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет если я выхожу из комнат",
@@ -2101,7 +2175,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет когда я выйду из спальной",
@@ -2114,19 +2188,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
-    },
-    {
-      "text": "ежели за окном солнце открой шторы",
-      "slots": [
-        "NoLabel",
-        "LOC",
-        "LOC",
-        "CommandFeature",
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет когда я иду из спальни",
@@ -2139,7 +2201,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "освети комнату",
@@ -2147,7 +2209,7 @@
         "COMMAND",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включай свет когда я захожу в гостинную",
@@ -2160,7 +2222,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет если я ухожу из спальни",
@@ -2173,7 +2235,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет когда я выхожу из спальной",
@@ -2186,18 +2248,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
-    },
-    {
-      "text": "откроешь шторы если слишком темно",
-      "slots": [
-        "COMMAND",
-        "LOC",
-        "LOC",
-        "IntensityQuantifier",
-        "CommandFeature"
-      ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет если я выхожу из комнат",
@@ -2210,7 +2261,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет при моем уходе из комнаты",
@@ -2223,7 +2274,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "откроешь занавески если совсем темно",
@@ -2234,7 +2285,7 @@
         "IntensityQuantifier",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включай свет когда я захожу в гостиную",
@@ -2247,7 +2298,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет после моего ухода из спальни",
@@ -2260,7 +2311,7 @@
         "LOC",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "гаси свет если меня нет в спальне",
@@ -2273,7 +2324,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет если я ухожу из комнаты",
@@ -2286,7 +2337,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включай свет если я зашёл в комнату",
@@ -2299,7 +2350,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включай свет опять я зашёл в спальню",
@@ -2312,19 +2363,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
-    },
-    {
-      "text": "если за дверью рассвет закрой шторы",
-      "slots": [
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "CommandFeature",
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет когда я ухожу из комнат",
@@ -2337,7 +2376,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включай свет когда я заглядываю в комнату",
@@ -2350,31 +2389,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
-    },
-    {
-      "text": "если за окном солнце открой шторы",
-      "slots": [
-        "NoLabel",
-        "LOC",
-        "LOC",
-        "CommandFeature",
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "LightSensor"
-    },
-    {
-      "text": "если за дверью рассвет открой шторы",
-      "slots": [
-        "NoLabel",
-        "LOC",
-        "LOC",
-        "CommandFeature",
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет когда я ухожу из спальни",
@@ -2387,18 +2402,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
-    },
-    {
-      "text": "прикрой шторы если слишком светло",
-      "slots": [
-        "COMMAND",
-        "LOC",
-        "LOC",
-        "IntensityQuantifier",
-        "CommandFeature"
-      ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включить свет в санузле при наличии внутри коголибо и выключить если никого нет более число минут",
@@ -2420,7 +2424,7 @@
         "CommandParameterValue",
         "CommandParameter"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включи свет в время утра",
@@ -2431,7 +2435,7 @@
         "DeviceParameterValue",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "подсвети путь на кухню ",
@@ -2442,7 +2446,7 @@
         "LOC",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключай свет когда я выхожу из комнаты",
@@ -2455,7 +2459,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "сколько лампочек перегорело",
@@ -2464,7 +2468,7 @@
         "CommandFeature",
         "FeatureState"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "не включай свет если в комнату зашло домашнее животное",
@@ -2479,7 +2483,7 @@
         "Actor",
         "Actor"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включи светомузыку",
@@ -2487,7 +2491,7 @@
         "COMMAND",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключить освещение в комнатах в вечернее время после время если в них никого нет больше число минут",
@@ -2510,7 +2514,7 @@
         "CommandParameterValue",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "слишком светло",
@@ -2518,7 +2522,7 @@
         "IntensityQuantifier",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "освети комнату",
@@ -2526,7 +2530,7 @@
         "COMMAND",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "ослабь свет и запусти плейлист с успокаивающей музыкой",
@@ -2540,7 +2544,7 @@
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "когда стемнеет включи подсветку фонтана",
@@ -2551,7 +2555,7 @@
         "CommandFeature",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "зажги фонарики а свет под навесом выключи",
@@ -2564,7 +2568,7 @@
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включай свет когда я захожу в комнату",
@@ -2577,7 +2581,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "погаси основной свет",
@@ -2586,7 +2590,7 @@
         "CommandFeature",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключи лампочки",
@@ -2594,7 +2598,7 @@
         "COMMAND",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "слишком темно",
@@ -2602,7 +2606,7 @@
         "IntensityQuantifier",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "сколько лампочек нужно заменить",
@@ -2612,7 +2616,7 @@
         "FeatureState",
         "FeatureState"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включи лампочки",
@@ -2620,7 +2624,7 @@
         "COMMAND",
         "DeviceFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключи свет",
@@ -2628,7 +2632,7 @@
         "COMMAND",
         "DeviceFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включай свет когда в комнате начнет темнеть",
@@ -2641,7 +2645,7 @@
         "Action",
         "Action"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "потуши свет",
@@ -2649,7 +2653,7 @@
         "COMMAND",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "ослабь свет и включи успокаивающую музыку",
@@ -2661,7 +2665,7 @@
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "сделай светлее",
@@ -2669,7 +2673,7 @@
         "COMMAND",
         "IntensityQuantifier"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "сделай слабее свет",
@@ -2678,7 +2682,7 @@
         "Quantor",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "сделай светло",
@@ -2686,7 +2690,7 @@
         "COMMAND",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "включи свет",
@@ -2694,7 +2698,7 @@
         "COMMAND",
         "DeviceFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "имитируй повседневное освещение пока я не дома",
@@ -2707,7 +2711,7 @@
         "Action",
         "Action"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "прибавь яркости",
@@ -2715,7 +2719,7 @@
         "COMMAND",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "гаси свет если меня нет в комнате",
@@ -2728,7 +2732,7 @@
         "NoLabel",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "освети помещение",
@@ -2736,7 +2740,7 @@
         "COMMAND",
         "LOC"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "сделай темно",
@@ -2744,7 +2748,7 @@
         "COMMAND",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "каждый раз когда я буду приходить домой включить свет в прихожей и чайник",
@@ -2763,7 +2767,7 @@
         "NoLabel",
         "DEVICE"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     },
     {
       "text": "выключи подсветку",
@@ -2771,7 +2775,7 @@
         "COMMAND",
         "CommandFeature"
       ],
-      "intent": "LightSensor"
+      "intent": "Lighting"
     }
   ],
   "Lamp": [
@@ -3570,16 +3574,6 @@
         "DEVICE",
         "NoLabel",
         "NoLabel"
-      ],
-      "intent": "WashingMachine"
-    },
-    {
-      "text": "когда следуюущий технологический осмотр",
-      "slots": [
-        "ParameterValueQuestion",
-        "NoLabel",
-        "CommandFeature",
-        "CommandFeature"
       ],
       "intent": "WashingMachine"
     },
@@ -6453,6 +6447,16 @@
       "intent": "SmartCar"
     },
     {
+      "text": "когда следуюущий технологический осмотр",
+      "slots": [
+        "ParameterValueQuestion",
+        "NoLabel",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "SmartCar"
+    },
+    {
       "text": "когда я буду уходить на работу открыть гараж выгнать из него автомобиль и оставить двигатель работающим",
       "slots": [
         "NoLabel",
@@ -6895,6 +6899,16 @@
         "CommandFeature"
       ],
       "intent": "SmartToaster"
+    }
+  ],
+  "CurtainRelay": [
+    {
+      "text": "подними жалюзи",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature"
+      ],
+      "intent": "CurtainRelay"
     }
   ],
   "DoorRelay": [

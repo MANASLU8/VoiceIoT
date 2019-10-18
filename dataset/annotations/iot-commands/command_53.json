@@ -1,7 +1,7 @@
 {
   "utterance-type": "Command",
   "ontology-label": [
-    "LightSensor",
+    "Lighting",
     "AudioSystem"
   ],
   "text": [

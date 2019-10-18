@@ -1,6 +1,6 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "WindowRelay",
+  "ontology-label": "CurtainsRelay",
   "text": [
     "если за окном рассвет открой шторы"
   ],

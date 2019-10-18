@@ -1,6 +1,6 @@
 {
   "utterance-type": "IndirectCommand",
-  "ontology-label": "WindowRelay",
+  "ontology-label": "CurtainsRelay",
   "text": [
     "закрой шторы если слишком светло"
   ],

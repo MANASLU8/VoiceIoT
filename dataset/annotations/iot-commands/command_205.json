@@ -1,6 +1,6 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "LightSensor",
+  "ontology-label": "Lighting",
   "text": [
     "Выключить освещение в комнатах в вечернее время после время если в них никого нет больше число минут"
   ],

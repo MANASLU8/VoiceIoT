@@ -1,0 +1,44 @@
+prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+prefix voice: <http://voice.iot/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select DISTINCT  ?system ?systemLemma ?featureLemma ?commandLemma ?paramLemma 
+{
+  ?system a ssn:System.
+  {?system  a ssn:System. ?sys  a ssn:System. filter(?sys = ?system)} 
+  UNION {?system voice:hasPrototype ?sys. }
+
+  {?system <http://voice.iot/label> ?sysLabel.} UNION {?sys  <http://voice.iot/label> ?sysLabel.}
+  ?sys     ssn:hasSubSystem ?subSystem.
+  ?sysLabel rdfs:label ?systemLabel;
+  <http://voice.iot/lemma> ?systemLemma. 
+  ?subSystem voice:hasFunction ?function. 
+  #{?function voice:hasCommand ?command. ?command <http://voice.iot/label> ?cmndLabel.}
+
+  ?function voice:hasCommand ?command.
+  {?function voice:hasCommand ?command. ?function voice:hasCommand ?cd. filter(?cd = ?command)} 
+  UNION {?command voice:hasPrototype ?cd}
+
+  {?command <http://voice.iot/label> ?cmndLabel.} 
+  UNION {?cd <http://voice.iot/label> ?cmndLabel.}
+  
+  ?cmndLabel rdfs:label ?commandLabel;
+  <http://voice.iot/lemma> ?commandLemma. 
+  OPTIONAL {
+   {?command <http://voice.iot/hasParameter> ?param.} 
+   UNION {?cd <http://voice.iot/hasParameter> ?param.}
+   #?command <http://voice.iot/hasParameter> ?param. 
+   ?param <http://voice.iot/valueType> ?paramType; 
+   <http://voice.iot/label> ?parameterLabel; 
+   <http://voice.iot/optional> ?paramOpt.
+   ?parameterLabel <http://voice.iot/lemma> ?paramLemma; 
+   rdfs:label ?paramLabel.
+ }
+ OPTIONAL {
+   ?system voice:hasCommandFeature ?feature.
+   ?feature voice:hasLabel  ?featureL.
+   ?featureL <http://voice.iot/lemma> ?featureLemma;
+   rdfs:label ?featureLabel.
+ }
+ } ORDER BY ?sys

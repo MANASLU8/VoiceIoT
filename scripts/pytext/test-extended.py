@@ -7,7 +7,14 @@ from .. import request_mapping as ul
 
 config = utils.load_config(utils.parse_args().config)
 
-ontology_devices = ["AirConditioning", "AlarmClock", "AudioSystem", "CoffeeMachine", "CurtainsRelay", "DoorBell", "FloorLite", "HeatingFloor", "Printer", "SmartFridge", "SmartMicrowave", "WindowRelay", "LightSensor", "Lamp", "SmartBreadMaker", "WashingMachine"]
+ontology_devices = ["AirConditioning", "AlarmClock", "AudioSystem", "CoffeeMachine", "CurtainsRelay", "DoorBell", "FloorLite", "HeatingFloor", "Printer", "SmartFridge", "SmartMicrowave", "WindowRelay", "Lamp", "SmartBreadMaker", "WashingMachine"]
+
+ontology_devices_mapping = {
+    "lamp1": "Lamp",
+    "chandelier1": "Lamp",
+    "washing_machine1": "WashingMachine",
+    "smartBreadMaker": "SmartBreadMaker"
+}
 
 def get_best_label(result):
     doc_label_scores_prefix = ('scores:' if any(r.startswith('scores:') for r in result) else 'doc_scores:')
@@ -67,6 +74,7 @@ for label in test_dataset.keys():
         # print(f"Ontology label: {labels[0].split('/')[-1][:-1]}")
 
         ontology_label = url_to_device_name(labels[0])
+        ontology_label = ontology_devices_mapping.get(ontology_label, ontology_label)
 
         if ontology_label == true_label:
             ontology_counter += 1
@@ -77,6 +85,7 @@ for label in test_dataset.keys():
         # print(f"Raw labels for right command: {raw_labels}")
 
         raw_ontology_label = url_to_device_name(raw_labels[0])
+        raw_ontology_label = ontology_devices_mapping.get(raw_ontology_label, raw_ontology_label)
 
         if raw_ontology_label == true_label:
             ontology_raw_counter += 1
