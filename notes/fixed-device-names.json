@@ -11,6 +11,6 @@
 <http://voice.iot/SmartMicrowave>
 <http://voice.iot/WindowRelay>
 <http://voice.iot/chandelier1> -> LightSensor
-<http://voice.iot/lamp1> -> LightSensor
+<http://voice.iot/lamp1> -> Lamp
 <http://voice.iot/smartBreadMaker> -> SmartBreadMaker
 <http://voice.iot/washing_machine1> -> WashingMachine

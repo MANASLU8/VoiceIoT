@@ -1,0 +1,16 @@
+AirConditioning
+AlarmClock
+AudioSystem
+CoffeeMachine
+CurtainsRelay
+DoorBell
+FloorLite
+HeatingFloor
+Printer
+SmartFridge
+SmartMicrowave
+WindowRelay
+LightSensor
+Lamp
+SmartBreadMaker
+WashingMachine
