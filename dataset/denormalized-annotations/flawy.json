@@ -1,6 +1,9 @@
 {
   "dataset/annotations/iot-commands/command_295.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartVacuumCleaner"
+    ],
     "text": [
       "Убирай за псом каждый раз когда он сходит в туалет"
     ],
@@ -31,6 +34,9 @@
   },
   "dataset/annotations/iot-commands/command_190.json": {
     "utterance-type": "IndirectCommand",
+    "ontology-label": [
+    	"SmartVacuumCleaner"
+    ],
     "text": [
       "Не убирайте листву при сильном ветре"
     ],
@@ -53,6 +59,9 @@
   },
   "dataset/annotations/iot-commands/command_226.json": {
     "utterance-type": "IndirectCommand",
+    "ontology-label": [
+    	"SmartHome"
+    ],
     "text": [
       "Спокойной ночи"
     ],
@@ -60,6 +69,9 @@
   },
   "dataset/annotations/iot-commands/command_199.json": {
     "utterance-type": "IndirectCommand",
+    "ontology-label": [
+    	"TVSet"
+    ],
     "text": [
       "Добавь романтики"
     ],
@@ -76,6 +88,9 @@
   },
   "dataset/annotations/iot-commands/command_236.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "text": [
       "Поливай секцию пять число минут"
     ],
@@ -104,6 +119,9 @@
     "text": [
       "Я могу купить билет у водителя"
     ],
+    "ontology-label": [
+    	"Phone"
+    ],
     "slots-indices": [
       {
         "Actor": [
@@ -125,6 +143,9 @@
   },
   "dataset/annotations/iot-commands/command_112.json": {
     "utterance-type": "Request",
+    "ontology-label": [
+    	"SmartHome"
+    ],
     "text": [
       "автоматически проверяй исправность умного дома"
     ],
@@ -146,6 +167,9 @@
   },
   "dataset/annotations/iot-commands/command_11.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartHome"
+    ],
     "text": [
       "не позволяй коту запрыгивать на рабочий стол"
     ],
@@ -173,6 +197,9 @@
     "text": [
       "Когда лучше посадить розы"
     ],
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "slots-indices": [
       {
         "RequestQuestion": [
@@ -190,6 +217,9 @@
   },
   "dataset/annotations/iot-commands/command_239.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "text": [
       "Поливай помидоры каждый день и следи за тем чтобы они получали достаточно света"
     ],
@@ -228,6 +258,9 @@
   },
   "dataset/annotations/iot-commands/command_231.json": {
     "utterance-type": "Request",
+    "ontology-label": [
+    	"Phone"
+    ],
     "text": [
       "Сильный ли ветер"
     ],
@@ -274,6 +307,9 @@
   },
   "dataset/annotations/iot-commands/command_255.json": {
     "utterance-type": "Request",
+    "ontology-label": [
+    	"Phone"
+    ],
     "text": [
       "Как можно оплатить проезд"
     ],
@@ -294,6 +330,9 @@
   },
   "dataset/annotations/iot-commands/command_184.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartOutsideCleaner"
+    ],
     "text": [
       "Расчищай снег в число утра и с время до время вечера"
     ],
@@ -333,6 +372,9 @@
   },
   "dataset/annotations/iot-commands/command_248.json": {
     "utterance-type": "Request",
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "text": [
       "Напомни когда в последний раз поливались цветы"
     ],
@@ -359,6 +401,9 @@
     "utterance-type": "Command",
     "text": [
       "отключай кондиционер когда я ухожу из дома"
+    ],
+    "ontology-label": [
+    	"SmartAirConditioner"
     ],
     "slots-indices": [
       {
@@ -392,6 +437,9 @@
     "text": [
       "Установи необходимые условия для роз"
     ],
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "slots-indices": [
       {
         "COMMAND": [
@@ -407,6 +455,9 @@
   },
   "dataset/annotations/iot-commands/command_238.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "text": [
       "Поливай помидоры каждый день"
     ],
@@ -477,6 +528,9 @@
   },
   "dataset/annotations/iot-commands/command_62.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"AudioSystem"
+    ],
     "text": [
       "подготовь комнату к танцам"
     ],
@@ -496,6 +550,9 @@
   },
   "dataset/annotations/iot-commands/command_318.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartAirConditioner"
+    ],
     "text": [
       "установи на число кондиционер"
     ],
@@ -515,6 +572,10 @@
   },
   "dataset/annotations/iot-commands/command_58.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"HeaterController",
+    	"Humidifier"
+    ],
     "text": [
       "контролируй климат в комнате"
     ],
@@ -534,6 +595,9 @@
   },
   "dataset/annotations/iot-commands/command_237.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "text": [
       "Полей помидоры"
     ],
@@ -552,6 +616,10 @@
   },
   "dataset/annotations/iot-commands/command_13.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"MotionSensor",
+    	"TVSet"
+    ],
     "text": [
       "когда кот запрыгнет на шкаф на кухне спугни его включив телевизор"
     ],
@@ -602,6 +670,9 @@
   },
   "dataset/annotations/iot-commands/command_240.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "text": [
       "Следи чтобы растения получали достаточно влажности и света"
     ],
@@ -628,6 +699,10 @@
   },
   "dataset/annotations/iot-commands/command_12.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"MotionSensor",
+    	"AudioSystem"
+    ],
     "text": [
       "когда собака залезет на кухонный стол издай неприятный звук"
     ],
@@ -661,6 +736,9 @@
   },
   "dataset/annotations/iot-commands/command_241.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "text": [
       "Теплица первые две недели следи за тем чтобы помидоры получали много УФ света и немного ИК света"
     ],
@@ -702,6 +780,9 @@
   },
   "dataset/annotations/iot-commands/command_189.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartOutsideCleaner"
+    ],
     "text": [
       "Не стригите траву и не убирайте листья когда выпадет снег"
     ],
@@ -733,6 +814,9 @@
   },
   "dataset/annotations/iot-commands/command_193.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartOutsideCleaner"
+    ],
     "text": [
       "Расчистить дорожку перед домом"
     ],
@@ -753,6 +837,9 @@
   },
   "dataset/annotations/iot-commands/command_95.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"CurtainsRelay"
+    ],
     "text": [
       "если за окном солнце закрой шторы"
     ],
@@ -779,6 +866,9 @@
   },
   "dataset/annotations/iot-commands/command_294.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartFireplace"
+    ],
     "text": [
       "Разожги камин"
     ],
@@ -795,6 +885,9 @@
   },
   "dataset/annotations/iot-commands/command_187.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartOutsideCleaner"
+    ],
     "text": [
       "Стригите траву каждый месяц убирайте листву каждые три дня"
     ],
@@ -834,6 +927,9 @@
   },
   "dataset/annotations/iot-commands/command_47.json": {
     "utterance-type": "Request",
+    "ontology-label": [
+    	"Phone"
+    ],
     "text": [
       "сколько денег в этом месяце я потратил на коммунальные услуги"
     ],
@@ -865,6 +961,9 @@
     "text": [
       "На сколько хватит энергии в аккумуляторах"
     ],
+    "ontology-label": [
+    	"SmartElectricityMeter"
+    ],
     "slots-indices": [
       {
         "DeviceQuestion": [
@@ -883,6 +982,9 @@
   },
   "dataset/annotations/iot-commands/command_304.json": {
     "utterance-type": "Request",
+    "ontology-label": [
+    	"SmartOven"
+    ],
     "text": [
       "когда будет готова еда в пароварке"
     ],
@@ -906,6 +1008,9 @@
   },
   "dataset/annotations/iot-commands/command_111.json": {
     "utterance-type": "Request",
+    "ontology-label": [
+    	"SmartHome"
+    ],
     "text": [
       "проверь исправность всех датчиков и устройств"
     ],
@@ -929,6 +1034,9 @@
   },
   "dataset/annotations/iot-commands/command_243.json": {
     "utterance-type": "Request",
+    "ontology-label": [
+    	"SmartSprinkler"
+    ],
     "text": [
       "Доложи о состоянии урожая"
     ],
@@ -945,6 +1053,10 @@
   },
   "dataset/annotations/iot-commands/command_307.json": {
     "utterance-type": "IndirectCommand",
+    "ontology-label": [
+    	"TVSet",
+    	"AudioSystem"
+    ],
     "text": [
       "по четвергам делай позитивную обстановку"
     ],
@@ -969,6 +1081,9 @@
   },
   "dataset/annotations/iot-commands/command_183.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartOutsideCleaner"
+    ],
     "text": [
       "Если выпадет много снега расчисти дорожку перед домом"
     ],
@@ -1006,6 +1121,9 @@
   },
   "dataset/annotations/iot-commands/command_191.json": {
     "utterance-type": "Command",
+    "ontology-label": [
+    	"SmartOutsideCleaner"
+    ],
     "text": [
       "Не убирайте листву и не стригите газон в дождь или снег"
     ],
@@ -1058,6 +1176,9 @@
   },
   "dataset/annotations/iot-commands/command_149.json": {
     "utterance-type": "IndirectCommand",
+    "ontology-label": [
+    	"TVSet"
+    ],
     "text": [
       "подготовить обстановку к просмотру фильма"
     ],
@@ -1077,6 +1198,9 @@
   },
   "dataset/annotations/iot-commands/command_148.json": {
     "utterance-type": "IndirectCommand",
+    "ontology-label": [
+    	"SmartOven"
+    ],
     "text": [
       "подготовить обстановку к обеду"
     ],
@@ -1094,6 +1218,9 @@
   },
   "dataset/annotations/iot-commands/command_245.json": {
     "utterance-type": "Command",
+    "ontology-label":[
+    	"SmartSprinkler"
+    ],
     "text": [
       "Полей все ягоды и немного огурцы"
     ],
