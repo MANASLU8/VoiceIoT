@@ -3,7 +3,7 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 prefix dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
 prefix voice: <http://voice.iot/> 
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-select DISTINCT  ?system ?systemLemma ?featureLemma ?commandLemma ?paramLemma 
+select DISTINCT  ?system ?systemLabel ?featureLabel ?commandLabel ?paramLabel 
 {
   ?system a ssn:System.
   {?system  a ssn:System. ?sys  a ssn:System. filter(?sys = ?system)} 

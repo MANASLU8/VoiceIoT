@@ -52,7 +52,7 @@ ontology_raw_counter = 0
 positive_counter = 0
 total_recall = []
 # print(f"{'Sample':80s}\t{'recognized-label':20s}\t{'true-label':20s}\t{'correctly-recognized':30s}")
-print(f"{'command'}\t{'true label'}\t{'ontology label'}\t{'ontology raw label'}\t{'recognized label'}\t{'additional labels'}")
+print(f"{'command'}\t{'true label'}\t{'ontology label'}\t{'ontology label score'}\t{'ontology unmapped label'}\t{'ontology raw label'}\t{'ontology raw label score'}\t{'ontology raw unmapped label'}\t{'recognized label'}\t{'additional labels'}\t{'ontology raw command'}\t{'ontology command'}")
 for label in test_dataset.keys():
     if label not in ontology_devices:
         continue
@@ -72,8 +72,10 @@ for label in test_dataset.keys():
 
         # print(f"Label: {true_label}")
         # print(f"Ontology label: {labels[0].split('/')[-1][:-1]}")
-
-        ontology_label = url_to_device_name(labels[0])
+        ontology_label_score = labels['score']
+        ontology_label = url_to_device_name(labels['labels'][0])
+        ontology_unmapped_label = ontology_label
+        ontology_label_text = ' '.join(labels['text'])
         ontology_label = ontology_devices_mapping.get(ontology_label, ontology_label)
 
         if ontology_label == true_label:
@@ -82,9 +84,12 @@ for label in test_dataset.keys():
 
         raw_labels = ul.get_raw_labels(parsed_right_command,
                                        filename=config['paths']['datasets']['request-mapping']['lemmas-fine-splitted'])
-        # print(f"Raw labels for right command: {raw_labels}")
-
-        raw_ontology_label = url_to_device_name(raw_labels[0])
+        
+        #print(f"Raw labels for right command: {raw_labels}")
+        raw_ontology_label = url_to_device_name(raw_labels[0]['device'])
+        raw_ontology_label_score = raw_labels[0]['score']
+        raw_ontology_unmapped_label = raw_ontology_label
+        raw_ontology_label_text = raw_labels[0]['text']
         raw_ontology_label = ontology_devices_mapping.get(raw_ontology_label, raw_ontology_label)
 
         if raw_ontology_label == true_label:
@@ -103,7 +108,8 @@ for label in test_dataset.keys():
             recognized_label += "*"
         counter += 1
 
-        print(f"{sample['text']}\t{label}\t{ontology_label}\t{raw_ontology_label}\t{recognized_label}\t{labels[1] if len(labels) > 1 else ''}")
+        #if (' '.join(raw_ontology_label_text) != '') and (ontology_label_text != ''):
+        print(f"{sample['text']}\t{label}\t{ontology_label}\t{ontology_label_score}\t{ontology_unmapped_label}\t{raw_ontology_label}\t{raw_ontology_label_score}\t{raw_ontology_unmapped_label}\t{recognized_label}\t{labels['labels'][1] if len(labels['labels']) > 1 else ''}\t{' '.join(raw_ontology_label_text)}\t{ontology_label_text}")
 
 print(f"Correctly recognized {positive_counter} of {counter} ({round(positive_counter / float(counter) * 100, 2)} %)")
 print(

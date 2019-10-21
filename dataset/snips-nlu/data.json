@@ -1209,20 +1209,6 @@
         {
           "data": [
             {
-              "text": "подними",
-              "entity": "COMMAND",
-              "slot_name": "WindowRelay.COMMAND"
-            },
-            {
-              "text": "жалюзи",
-              "entity": "DeviceFeature",
-              "slot_name": "WindowRelay.DeviceFeature"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
               "text": "помой",
               "entity": "COMMAND",
               "slot_name": "WindowRelay.COMMAND"
@@ -1234,52 +1220,6 @@
             },
             {
               "text": "после дождя"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "открой",
-              "entity": "COMMAND",
-              "slot_name": "WindowRelay.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "WindowRelay.CommandFeature"
-            },
-            {
-              "text": "если",
-              "entity": "LOC",
-              "slot_name": "WindowRelay.LOC"
-            },
-            {
-              "text": "слишком",
-              "entity": "IntensityQuantifier",
-              "slot_name": "WindowRelay.IntensityQuantifier"
-            },
-            {
-              "text": "темно",
-              "entity": "CommandFeature",
-              "slot_name": "WindowRelay.CommandFeature"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "закрой",
-              "entity": "COMMAND",
-              "slot_name": "WindowRelay.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "WindowRelay.CommandFeature"
-            },
-            {
-              "text": "если слишком светло"
             }
           ]
         },
@@ -1316,23 +1256,6 @@
             },
             {
               "text": "во время моего сна"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "закрой",
-              "entity": "COMMAND",
-              "slot_name": "WindowRelay.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "WindowRelay.CommandFeature"
-            },
-            {
-              "text": "если солнечный свет попадает на экран компьютера и рабочий стол"
             }
           ]
         },
@@ -1513,28 +1436,6 @@
               "slot_name": "WindowRelay.COMMAND"
             }
           ]
-        },
-        {
-          "data": [
-            {
-              "text": "если за окном"
-            },
-            {
-              "text": "рассвет",
-              "entity": "CommandFeature",
-              "slot_name": "WindowRelay.CommandFeature"
-            },
-            {
-              "text": "открой",
-              "entity": "COMMAND",
-              "slot_name": "WindowRelay.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "WindowRelay.CommandFeature"
-            }
-          ]
         }
       ]
     },
@@ -1614,6 +1515,182 @@
             },
             {
               "text": "если слишком темно"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "ежели"
+            },
+            {
+              "text": "за",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "окном",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "солнце",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "открой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "откроешь",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "если",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "слишком",
+              "entity": "IntensityQuantifier",
+              "slot_name": "CurtainsRelay.IntensityQuantifier"
+            },
+            {
+              "text": "темно",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "если за дверью"
+            },
+            {
+              "text": "рассвет",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "закрой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "если"
+            },
+            {
+              "text": "за",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "окном",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "солнце",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "открой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "если"
+            },
+            {
+              "text": "за",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "дверью",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "рассвет",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "открой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "прикрой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "если",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "слишком",
+              "entity": "IntensityQuantifier",
+              "slot_name": "CurtainsRelay.IntensityQuantifier"
+            },
+            {
+              "text": "светло",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
             }
           ]
         },
@@ -1797,6 +1874,76 @@
         {
           "data": [
             {
+              "text": "открой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "если",
+              "entity": "LOC",
+              "slot_name": "CurtainsRelay.LOC"
+            },
+            {
+              "text": "слишком",
+              "entity": "IntensityQuantifier",
+              "slot_name": "CurtainsRelay.IntensityQuantifier"
+            },
+            {
+              "text": "темно",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "закрой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "если слишком светло"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "если за окном солнце закрой шторы"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "закрой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "если солнечный свет попадает на экран компьютера и рабочий стол"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
               "text": "занавесь",
               "entity": "COMMAND",
               "slot_name": "CurtainsRelay.COMMAND"
@@ -1817,6 +1964,28 @@
             },
             {
               "text": "жалюзи",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "если за окном"
+            },
+            {
+              "text": "рассвет",
+              "entity": "CommandFeature",
+              "slot_name": "CurtainsRelay.CommandFeature"
+            },
+            {
+              "text": "открой",
+              "entity": "COMMAND",
+              "slot_name": "CurtainsRelay.COMMAND"
+            },
+            {
+              "text": "шторы",
               "entity": "CommandFeature",
               "slot_name": "CurtainsRelay.CommandFeature"
             }
@@ -4118,19 +4287,19 @@
         }
       ]
     },
-    "LightSensor": {
+    "Lighting": {
       "utterances": [
         {
           "data": [
             {
               "text": "ослабь",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "DeviceFeature",
-              "slot_name": "LightSensor.DeviceFeature"
+              "slot_name": "Lighting.DeviceFeature"
             },
             {
               "text": "и включи успокаивающую песню"
@@ -4142,12 +4311,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если я ухожу из прихожей"
@@ -4159,12 +4328,12 @@
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "DeviceFeature",
-              "slot_name": "LightSensor.DeviceFeature"
+              "slot_name": "Lighting.DeviceFeature"
             },
             {
               "text": "когда я захожу в ванную"
@@ -4176,12 +4345,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "DeviceFeature",
-              "slot_name": "LightSensor.DeviceFeature"
+              "slot_name": "Lighting.DeviceFeature"
             },
             {
               "text": "вдруг я выйду из комнаты"
@@ -4193,12 +4362,12 @@
             {
               "text": "выключи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "DeviceFeature",
-              "slot_name": "LightSensor.DeviceFeature"
+              "slot_name": "Lighting.DeviceFeature"
             }
           ]
         },
@@ -4207,12 +4376,12 @@
             {
               "text": "гаси",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "в"
@@ -4220,7 +4389,7 @@
             {
               "text": "комнате",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4232,12 +4401,12 @@
             {
               "text": "выключи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "лампу",
               "entity": "DEVICE",
-              "slot_name": "LightSensor.DEVICE"
+              "slot_name": "Lighting.DEVICE"
             }
           ]
         },
@@ -4246,12 +4415,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если"
@@ -4259,12 +4428,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "выхожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4272,7 +4441,7 @@
             {
               "text": "комнат",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4281,12 +4450,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -4294,12 +4463,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "выйду",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4307,39 +4476,7 @@
             {
               "text": "спальной",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "ежели"
-            },
-            {
-              "text": "за",
-              "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            },
-            {
-              "text": "окном",
-              "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            },
-            {
-              "text": "солнце",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
-            },
-            {
-              "text": "открой",
-              "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4348,12 +4485,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -4361,12 +4498,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "иду",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4374,7 +4511,7 @@
             {
               "text": "спальни",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4383,12 +4520,12 @@
             {
               "text": "освети",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "комнату",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4397,12 +4534,12 @@
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -4410,12 +4547,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "захожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "в"
@@ -4423,7 +4560,7 @@
             {
               "text": "гостинную",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4432,12 +4569,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если"
@@ -4445,12 +4582,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "ухожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4458,7 +4595,7 @@
             {
               "text": "спальни",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4467,12 +4604,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -4480,12 +4617,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "выхожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4493,36 +4630,7 @@
             {
               "text": "спальной",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "откроешь",
-              "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
-            },
-            {
-              "text": "если",
-              "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            },
-            {
-              "text": "слишком",
-              "entity": "IntensityQuantifier",
-              "slot_name": "LightSensor.IntensityQuantifier"
-            },
-            {
-              "text": "темно",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4531,12 +4639,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если"
@@ -4544,12 +4652,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "выхожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4557,7 +4665,7 @@
             {
               "text": "комнат",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4566,12 +4674,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "при"
@@ -4579,12 +4687,12 @@
             {
               "text": "моем",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "уходе",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4592,7 +4700,7 @@
             {
               "text": "комнаты",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4601,12 +4709,12 @@
             {
               "text": "откроешь",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "занавески",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если"
@@ -4614,12 +4722,12 @@
             {
               "text": "совсем",
               "entity": "IntensityQuantifier",
-              "slot_name": "LightSensor.IntensityQuantifier"
+              "slot_name": "Lighting.IntensityQuantifier"
             },
             {
               "text": "темно",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -4628,12 +4736,12 @@
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -4641,12 +4749,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "захожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "в"
@@ -4654,7 +4762,7 @@
             {
               "text": "гостиную",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4663,12 +4771,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "после"
@@ -4676,22 +4784,22 @@
             {
               "text": "моего",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "ухода",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             },
             {
               "text": "спальни",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4700,12 +4808,12 @@
             {
               "text": "гаси",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если"
@@ -4713,12 +4821,12 @@
             {
               "text": "меня",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "нет",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "в"
@@ -4726,7 +4834,7 @@
             {
               "text": "спальне",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4735,12 +4843,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если"
@@ -4748,12 +4856,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "ухожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4761,7 +4869,7 @@
             {
               "text": "комнаты",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4770,12 +4878,12 @@
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если"
@@ -4783,12 +4891,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "зашёл",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "в"
@@ -4796,7 +4904,7 @@
             {
               "text": "комнату",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4805,12 +4913,12 @@
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "опять"
@@ -4818,12 +4926,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "зашёл",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "в"
@@ -4831,29 +4939,7 @@
             {
               "text": "спальню",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если за дверью"
-            },
-            {
-              "text": "рассвет",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
-            },
-            {
-              "text": "закрой",
-              "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4862,12 +4948,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -4875,12 +4961,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "ухожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -4888,7 +4974,7 @@
             {
               "text": "комнат",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4897,12 +4983,12 @@
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -4910,12 +4996,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "заглядываю",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "в"
@@ -4923,71 +5009,7 @@
             {
               "text": "комнату",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если"
-            },
-            {
-              "text": "за",
-              "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            },
-            {
-              "text": "окном",
-              "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            },
-            {
-              "text": "солнце",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
-            },
-            {
-              "text": "открой",
-              "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если"
-            },
-            {
-              "text": "за",
-              "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            },
-            {
-              "text": "дверью",
-              "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            },
-            {
-              "text": "рассвет",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
-            },
-            {
-              "text": "открой",
-              "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -4996,12 +5018,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -5009,12 +5031,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "ухожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -5022,36 +5044,7 @@
             {
               "text": "спальни",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "прикрой",
-              "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
-            },
-            {
-              "text": "шторы",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
-            },
-            {
-              "text": "если",
-              "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
-            },
-            {
-              "text": "слишком",
-              "entity": "IntensityQuantifier",
-              "slot_name": "LightSensor.IntensityQuantifier"
-            },
-            {
-              "text": "светло",
-              "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -5060,12 +5053,12 @@
             {
               "text": "включить",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "в"
@@ -5073,7 +5066,7 @@
             {
               "text": "санузле",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             },
             {
               "text": "при наличии"
@@ -5081,7 +5074,7 @@
             {
               "text": "внутри",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "коголибо и"
@@ -5089,7 +5082,7 @@
             {
               "text": "выключить",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "если никого нет более"
@@ -5097,12 +5090,12 @@
             {
               "text": "число",
               "entity": "CommandParameterValue",
-              "slot_name": "LightSensor.CommandParameterValue"
+              "slot_name": "Lighting.CommandParameterValue"
             },
             {
               "text": "минут",
               "entity": "CommandParameter",
-              "slot_name": "LightSensor.CommandParameter"
+              "slot_name": "Lighting.CommandParameter"
             }
           ]
         },
@@ -5111,12 +5104,12 @@
             {
               "text": "включи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "в"
@@ -5124,7 +5117,7 @@
             {
               "text": "время",
               "entity": "DeviceParameterValue",
-              "slot_name": "LightSensor.DeviceParameterValue"
+              "slot_name": "Lighting.DeviceParameterValue"
             },
             {
               "text": "утра"
@@ -5136,12 +5129,12 @@
             {
               "text": "подсвети",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "путь",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "на"
@@ -5149,7 +5142,7 @@
             {
               "text": "кухню",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             },
             {
               "text": ""
@@ -5161,12 +5154,12 @@
             {
               "text": "выключай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -5174,12 +5167,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "выхожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "из"
@@ -5187,7 +5180,7 @@
             {
               "text": "комнаты",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -5196,17 +5189,17 @@
             {
               "text": "сколько",
               "entity": "RequestQuestion",
-              "slot_name": "LightSensor.RequestQuestion"
+              "slot_name": "Lighting.RequestQuestion"
             },
             {
               "text": "лампочек",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "перегорело",
               "entity": "FeatureState",
-              "slot_name": "LightSensor.FeatureState"
+              "slot_name": "Lighting.FeatureState"
             }
           ]
         },
@@ -5215,17 +5208,17 @@
             {
               "text": "не",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если в"
@@ -5233,22 +5226,22 @@
             {
               "text": "комнату",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             },
             {
               "text": "зашло",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "домашнее",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "животное",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             }
           ]
         },
@@ -5257,12 +5250,12 @@
             {
               "text": "включи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "светомузыку",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5271,12 +5264,12 @@
             {
               "text": "выключить",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "освещение",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "в"
@@ -5284,7 +5277,7 @@
             {
               "text": "комнатах",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             },
             {
               "text": "в вечернее время после время если в них"
@@ -5292,12 +5285,12 @@
             {
               "text": "никого",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "нет",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "больше"
@@ -5305,7 +5298,7 @@
             {
               "text": "число",
               "entity": "CommandParameterValue",
-              "slot_name": "LightSensor.CommandParameterValue"
+              "slot_name": "Lighting.CommandParameterValue"
             },
             {
               "text": "минут"
@@ -5317,12 +5310,12 @@
             {
               "text": "слишком",
               "entity": "IntensityQuantifier",
-              "slot_name": "LightSensor.IntensityQuantifier"
+              "slot_name": "Lighting.IntensityQuantifier"
             },
             {
               "text": "светло",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5331,12 +5324,12 @@
             {
               "text": "освети",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "комнату",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -5345,12 +5338,12 @@
             {
               "text": "ослабь",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "и запусти плейлист с успокаивающей музыкой"
@@ -5365,17 +5358,17 @@
             {
               "text": "включи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "подсветку",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "фонтана",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5384,12 +5377,12 @@
             {
               "text": "зажги",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "фонарики",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "а свет под навесом выключи"
@@ -5401,12 +5394,12 @@
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -5414,12 +5407,12 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "захожу",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "в"
@@ -5427,7 +5420,7 @@
             {
               "text": "комнату",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -5436,17 +5429,17 @@
             {
               "text": "погаси",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "основной",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5455,12 +5448,12 @@
             {
               "text": "выключи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "лампочки",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5469,12 +5462,12 @@
             {
               "text": "слишком",
               "entity": "IntensityQuantifier",
-              "slot_name": "LightSensor.IntensityQuantifier"
+              "slot_name": "Lighting.IntensityQuantifier"
             },
             {
               "text": "темно",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5483,22 +5476,22 @@
             {
               "text": "сколько",
               "entity": "RequestQuestion",
-              "slot_name": "LightSensor.RequestQuestion"
+              "slot_name": "Lighting.RequestQuestion"
             },
             {
               "text": "лампочек",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "нужно",
               "entity": "FeatureState",
-              "slot_name": "LightSensor.FeatureState"
+              "slot_name": "Lighting.FeatureState"
             },
             {
               "text": "заменить",
               "entity": "FeatureState",
-              "slot_name": "LightSensor.FeatureState"
+              "slot_name": "Lighting.FeatureState"
             }
           ]
         },
@@ -5507,12 +5500,12 @@
             {
               "text": "включи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "лампочки",
               "entity": "DeviceFeature",
-              "slot_name": "LightSensor.DeviceFeature"
+              "slot_name": "Lighting.DeviceFeature"
             }
           ]
         },
@@ -5521,12 +5514,12 @@
             {
               "text": "выключи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "DeviceFeature",
-              "slot_name": "LightSensor.DeviceFeature"
+              "slot_name": "Lighting.DeviceFeature"
             }
           ]
         },
@@ -5535,12 +5528,12 @@
             {
               "text": "включай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "когда"
@@ -5548,22 +5541,22 @@
             {
               "text": "в",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             },
             {
               "text": "комнате",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             },
             {
               "text": "начнет",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "темнеть",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             }
           ]
         },
@@ -5572,12 +5565,12 @@
             {
               "text": "потуши",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5586,12 +5579,12 @@
             {
               "text": "ослабь",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "и включи успокаивающую музыку"
@@ -5603,12 +5596,12 @@
             {
               "text": "сделай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "светлее",
               "entity": "IntensityQuantifier",
-              "slot_name": "LightSensor.IntensityQuantifier"
+              "slot_name": "Lighting.IntensityQuantifier"
             }
           ]
         },
@@ -5617,17 +5610,17 @@
             {
               "text": "сделай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "слабее",
               "entity": "Quantor",
-              "slot_name": "LightSensor.Quantor"
+              "slot_name": "Lighting.Quantor"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5636,12 +5629,12 @@
             {
               "text": "сделай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "светло",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5650,12 +5643,12 @@
             {
               "text": "включи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "DeviceFeature",
-              "slot_name": "LightSensor.DeviceFeature"
+              "slot_name": "Lighting.DeviceFeature"
             }
           ]
         },
@@ -5664,17 +5657,17 @@
             {
               "text": "имитируй",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "повседневное",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "освещение",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "пока"
@@ -5682,17 +5675,17 @@
             {
               "text": "я",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "не",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "дома",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             }
           ]
         },
@@ -5701,12 +5694,12 @@
             {
               "text": "прибавь",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "яркости",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5715,12 +5708,12 @@
             {
               "text": "гаси",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             },
             {
               "text": "если"
@@ -5728,12 +5721,12 @@
             {
               "text": "меня",
               "entity": "Actor",
-              "slot_name": "LightSensor.Actor"
+              "slot_name": "Lighting.Actor"
             },
             {
               "text": "нет",
               "entity": "Action",
-              "slot_name": "LightSensor.Action"
+              "slot_name": "Lighting.Action"
             },
             {
               "text": "в"
@@ -5741,7 +5734,7 @@
             {
               "text": "комнате",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -5750,12 +5743,12 @@
             {
               "text": "освети",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "помещение",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             }
           ]
         },
@@ -5764,12 +5757,12 @@
             {
               "text": "сделай",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "темно",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         },
@@ -5781,12 +5774,12 @@
             {
               "text": "включить",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "свет",
               "entity": "Devicefeature",
-              "slot_name": "LightSensor.Devicefeature"
+              "slot_name": "Lighting.Devicefeature"
             },
             {
               "text": "в"
@@ -5794,7 +5787,7 @@
             {
               "text": "прихожей",
               "entity": "LOC",
-              "slot_name": "LightSensor.LOC"
+              "slot_name": "Lighting.LOC"
             },
             {
               "text": "и"
@@ -5802,7 +5795,7 @@
             {
               "text": "чайник",
               "entity": "DEVICE",
-              "slot_name": "LightSensor.DEVICE"
+              "slot_name": "Lighting.DEVICE"
             }
           ]
         },
@@ -5811,12 +5804,12 @@
             {
               "text": "выключи",
               "entity": "COMMAND",
-              "slot_name": "LightSensor.COMMAND"
+              "slot_name": "Lighting.COMMAND"
             },
             {
               "text": "подсветку",
               "entity": "CommandFeature",
-              "slot_name": "LightSensor.CommandFeature"
+              "slot_name": "Lighting.CommandFeature"
             }
           ]
         }
@@ -7567,28 +7560,6 @@
             },
             {
               "text": "по четвергам"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "когда",
-              "entity": "ParameterValueQuestion",
-              "slot_name": "WashingMachine.ParameterValueQuestion"
-            },
-            {
-              "text": "следуюущий"
-            },
-            {
-              "text": "технологический",
-              "entity": "CommandFeature",
-              "slot_name": "WashingMachine.CommandFeature"
-            },
-            {
-              "text": "осмотр",
-              "entity": "CommandFeature",
-              "slot_name": "WashingMachine.CommandFeature"
             }
           ]
         },
@@ -13063,437 +13034,6 @@
         }
       ]
     },
-    "null": {
-      "utterances": [
-        {
-          "data": [
-            {
-              "text": "лучшее время для посадки роз"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "способы оплаты"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "планы на неделю"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "затраты на коммунальные услуги"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "доля углекислого газа"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "когда лучше посадить розы"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "напомни когда в последний раз поливались цветы"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "убирай за псом каждый раз когда он сходит в туалет"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "какие приборы включены"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "полей помидоры"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "на сколько хватит энергии в аккумуляторах"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "контролируй климат в комнате"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "не позволяй коту запрыгивать на рабочий стол"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "расчистить дорожку перед домом"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "сколько в этом месяце вышло за электричество"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если будет утечка газа перекрой его подачу и отправить мне уведомление"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "когда будет готова еда в пароварке"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "теплица первые две недели следи за тем чтобы помидоры получали много уф света и немного ик света"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если будет больше число градусов включи кондиционер на кухне"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "поливай помидоры каждый день и следи за тем чтобы они получали достаточно света"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "подготовить обстановку к обеду"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "поливай секцию пять число минут"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если выпадет много снега расчисти дорожку перед домом"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "я могу купить билет у водителя"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "активировать романтическую атмосферу"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "поливай помидоры каждый день"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "следи чтобы растения получали достаточно влажности и света"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "как можно оплатить проезд"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "стригите траву каждый месяц убирайте листву каждые три дня"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если за окном солнце закрой шторы"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "сколько денег в этом месяце я потратил на коммунальные услуги"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "не убирайте листву и не стригите газон в дождь или снег"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "подогрей полотенца к тому моменту как я закончу принимать душ "
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "когда собака залезет на кухонный стол издай неприятный звук"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "подготовить обстановку к работе"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "разожги камин"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "добавь романтики"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "по четвергам делай позитивную обстановку"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "я в отпуск"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "отключай кондиционер когда я ухожу из дома"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "расчищай снег в число утра и с время до время вечера"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "установи необходимые условия для роз"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "расчистите газон и листву к время вечера"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "проверь исправность всех датчиков и устройств"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "автоматически проверяй исправность умного дома"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "на сколько заполнен мусорный отсек"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если меня нет дома не расчищай снег"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "осмотри поле если увидишь мусор убери"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "не стригите траву и не убирайте листья когда выпадет снег"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "покорми рыбок"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "подготовь комнату к танцам"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "подготовить обстановку к просмотру фильма"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "доложи о состоянии урожая"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "не убирайте листву при сильном ветре"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "если меня нет дома убирайте листву каждую неделю"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "установи на число кондиционер"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "не убирайте снег и не стригите траву если во дворе ктото есть"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "подготовь комнату к танцам"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "сильный ли ветер"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "когда кот запрыгнет на шкаф на кухне спугни его включив телевизор"
-            }
-          ]
-        },
-        {
-          "data": [
-            {
-              "text": "полей все ягоды и немного огурцы"
-            }
-          ]
-        }
-      ]
-    },
     "Humidifier": {
       "utterances": [
         {
@@ -14114,6 +13654,28 @@
               "text": "больницы",
               "entity": "LOC",
               "slot_name": "SmartCar.LOC"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "когда",
+              "entity": "ParameterValueQuestion",
+              "slot_name": "SmartCar.ParameterValueQuestion"
+            },
+            {
+              "text": "следуюущий"
+            },
+            {
+              "text": "технологический",
+              "entity": "CommandFeature",
+              "slot_name": "SmartCar.CommandFeature"
+            },
+            {
+              "text": "осмотр",
+              "entity": "CommandFeature",
+              "slot_name": "SmartCar.CommandFeature"
             }
           ]
         },
@@ -15047,6 +14609,24 @@
         }
       ]
     },
+    "CurtainRelay": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "подними",
+              "entity": "COMMAND",
+              "slot_name": "CurtainRelay.COMMAND"
+            },
+            {
+              "text": "жалюзи",
+              "entity": "DeviceFeature",
+              "slot_name": "CurtainRelay.DeviceFeature"
+            }
+          ]
+        }
+      ]
+    },
     "DoorRelay": {
       "utterances": [
         {
@@ -15288,7 +14868,25 @@
     }
   },
   "entities": {
-    "DEVICE": {
+    "CommandParameter": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceState": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Action": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceFeature": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15300,7 +14898,31 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
+    "LOCCurrent": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "CommandState": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
     "CommandQuestion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "ParameterValue": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Quantifier": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15312,19 +14934,25 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
+    "IntensityQuantifier": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "ParameterFeature": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
     "CommandFeature": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "CommandParameter": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "RAnalytics": {
+    "CommandParameterValue": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15336,31 +14964,7 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "Request": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "LOCCurrent": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Actor": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "IntensityQuantifier": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "FeatureState": {
+    "DEVICE": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15378,43 +14982,13 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "DeviceQuestion": {
+    "Actor": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "DeviceParameterValue": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "DeviceState": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "ParameterFeature": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Action": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "ParameterValueQuestion": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "Aсtion": {
+    "Request": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15426,7 +15000,25 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "ParameterValue": {
+    "RequestQuestion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "Aсtion": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "FeatureState": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "DeviceParameterValue": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15438,31 +15030,13 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "DeviceFeature": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "CommandParameterValue": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
     "Duration": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "RequestQuestion": {
-      "data": [],
-      "use_synonyms": true,
-      "automatically_extensible": true,
-      "matching_strictness": 1.0
-    },
-    "LOC": {
+    "RAnalytics": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
@@ -15474,13 +15048,19 @@
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "CommandState": {
+    "DeviceQuestion": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,
       "matching_strictness": 1.0
     },
-    "Quantifier": {
+    "LOC": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true,
+      "matching_strictness": 1.0
+    },
+    "ParameterValueQuestion": {
       "data": [],
       "use_synonyms": true,
       "automatically_extensible": true,

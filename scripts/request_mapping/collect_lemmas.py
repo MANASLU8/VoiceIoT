@@ -17,6 +17,9 @@ if __name__ == "__main__":
 	with open(config['paths']['datasets']['request-mapping']['sparql-response']) as file:
 		for line in file.readlines():
 			splitted = line.replace('\n', '').split('\t')
+			if len(splitted) < 5:
+				for i in range(5 - len(splitted)):
+					splitted.append('')
 			lemmas[splitted[0]]['system'].append(splitted[1])
 			lemmas[splitted[0]]['feature'].append(splitted[2])
 			lemmas[splitted[0]]['command'].append(splitted[3])

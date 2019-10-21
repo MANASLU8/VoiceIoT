@@ -79,7 +79,6 @@ AudioSystem	0:7:COMMAND,9:13:DeviceParameter,17:19:DeviceFeature,21:29:DeviceFea
 SmartOven	0:4:CommandQuestion,19:23:CommandFeature,6:10:FeatureState,12:17:FeatureState,27:33:DEVICE	когда будет готова пицца в духовке	1	1
 Phone	0:2:RequestQuestion,4:10:Action,15:22:LOC	как доехать до больницы	1	1
 AudioSystem	0:5:COMMAND,7:19:DEVICE	включи стереосистему если я приду домой	1	1
-TemperatureSensor	37:42:COMMAND,44:55:DEVICE	если на улице температура 0 градусов включи обогреватель	1	1
 AudioSystem	0:6:COMMAND,8:19:DEVICE	выключи аудиосистему когда я возвращаюсь домой	1	1
 AlarmClock	0:4:COMMAND,18:26:DEVICE,31:35:DeviceParameterValue	ставь каждый день будильник на время	1	1
 HeaterController	22:27:COMMAND,29:40:DEVICE	eсли на улице холодно включи обогреватель	1	1

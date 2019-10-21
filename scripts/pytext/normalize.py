@@ -16,6 +16,7 @@ def stringify_indices(indices, ontology_label):
 
 def handle_files(input_files):
 	samples = []
+	counter = 0
 	entity_names = set({})
 	for input_file in input_files:
 		with open(input_file) as f:
@@ -26,11 +27,14 @@ def handle_files(input_files):
 		splitted_text = simplified_text.split(' ')
 		if not ontology_label or not ('slots-indices' in annotation or 'slots-indices-bio' in annotation) or not fe.extract_utterance_type(annotation):
 			continue
+		counter += 1
 		if 'slots-indices' in annotation:
 			slots_char_indices = stringify_indices(make_indices(annotation['slots-indices'][0], splitted_text), ontology_label) if len(annotation['slots-indices']) >= 1 else ""
 		elif 'slots-indices-bio' in annotation:
 			slots_char_indices = stringify_indices(make_indices(converters.decode_bio(annotation['slots-indices-bio'][0]), splitted_text), ontology_label) if len(annotation['slots-indices']) >= 1 else ""
 		samples.append(f"{ontology_label}\t{slots_char_indices}\t{simplified_text}")
+
+	print(f'Extracted {counter} samples')
 	return samples
 
 fo.write_lines(config['paths']['datasets']['pytext']['data'], handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations'])))

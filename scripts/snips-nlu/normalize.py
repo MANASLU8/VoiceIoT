@@ -46,7 +46,7 @@ def handle_files(input_files):
 		ontology_label = fe.extract_ontology_label(annotation)
 		text = fe.extract_text(annotation)
 		res = []
-		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1:
+		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label:
 			continue
 		for (i, word) in enumerate(re.sub(r'[^\w\s]','',text).lower().split(' ')):
 			appended = False
