@@ -7,12 +7,20 @@ if __name__ == "__main__":
 	config = utils.load_config(utils.parse_args().config)
 
 USE_LEMMAS = True
-MOST_FREQUENT_LABEL = "AudioSystem>"
+VERBOSE = False
+MOST_FREQUENT_LABEL = "--"#"AudioSystem>"
 
-system_slot_name = "DEVICE"
+system_slot_name = ["DEVICE", "CommandFeature", "DeviceFeature", "ParameterFeature", "Devicefeature"]
 command_slot_name = "COMMAND"
 feature_slot_name = ["CommandFeature", "DeviceFeature", "ParameterFeature", "Devicefeature"]
 param_slot_name = ["CommandParameter", "DeviceParameter", "DeviceParameterValue", "CommandParameterValue"]
+
+weights = {
+	tuple(system_slot_name): 1.0,
+	tuple(command_slot_name): 0.9,
+	tuple(feature_slot_name): 0.7,
+	tuple(param_slot_name): 0.2
+}
 
 requests_path = config['paths']['datasets']['request-mapping']['requests'] if __name__ == "__main__" else "requests.json"
 lemmas_path = config['paths']['datasets']['request-mapping']['lemmas-fine-splitted'] if __name__ == "__main__" else "lemmas-fine-splitted.json"
@@ -75,8 +83,9 @@ def get_request_type(cmd, filename = requests_path, morph = pymorphy2.MorphAnaly
 
 	#print(slot_sets)
 
-	#print("Looking up for:")
-	#print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
+	if VERBOSE:
+		print("Looking up for:")
+		print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
 
 	
 	lookup_results = list(map(lambda slot_set: lookup(requests, slot_set), slot_sets))
@@ -85,12 +94,14 @@ def get_request_type(cmd, filename = requests_path, morph = pymorphy2.MorphAnaly
 		if lookup_result and (not lookup_primary_result or lookup_primary_result == empty_result_mark):
 			lookup_primary_result = lookup_result
 
-	# print(f"Lookup results = {lookup_results}")
-	# print(f"Lookup primary result = {lookup_primary_result}")
-	# print("="*50)
+	if VERBOSE:
+		print(f"Lookup results = {lookup_results}")
+		print(f"Lookup primary result = {lookup_primary_result}")
+		print("="*50)
 
 def lookup_lemmas(lemmas, slot_set):
-	#print(f"Input slot set: {slot_set}")
+	if VERBOSE:
+		print(f"Input slot set: {slot_set}")
 	found = []
 	for device in lemmas:
 		found_counter = 0
@@ -112,17 +123,22 @@ def lookup_lemmas(lemmas, slot_set):
 			# 	((slot['slot-names'] == feature_slot_name) and slot_set[1] in slot['slot-values']) or\
 			# 	((slot['slot-names'] == command_slot_name) and slot_set[2] in slot['slot-values']) or\
 			# 	((slot['slot-names'] == param_slot_name) and slot_set[3] in slot['slot-values']):
+
 			if cur_slot_value in slot['slot-values']:
-				found_counter += 1
+				found_counter += weights.get(tuple(slot['slot-names']), 1.0)
 				if cur_slot_value != '':
-					found_not_null_counter += 1
+					found_not_null_counter += weights.get(tuple(slot['slot-names']), 1.0)#1
 					found_text.append(cur_slot_value)
 				found_labels.append(slot['slot-label'])
 				
 		if (found_counter > 0):
-			found.append({'device': device, 'found': [i for i in found_labels if i], 'score': found_counter, 'not-null-score': found_not_null_counter, 'text': found_text})
+			slot_set_record = {'device': device, 'found': [i for i in found_labels if i], 'score': found_counter, 'not-null-score': found_not_null_counter, 'text': found_text}
+			if 'on' not in slot_set_record['found'] and 'off' not in slot_set_record['found']:
+				slot_set_record['found'].append('on')
+			found.append(slot_set_record)
 	found = sorted(found, key = lambda item: item['not-null-score'], reverse = True)
-	#print(f"Counter: {found_counter}; Labels: {found}")
+	if VERBOSE:
+		print(f"Counter: {found_counter}; Labels: {found}")
 	return found
 
 def lookup_raw_lemmas(lemmas, hyp_lemmas):
@@ -161,9 +177,9 @@ def get_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()): 
 	slot_sets = np.array(np.meshgrid(system, feature, command, param)).T.reshape(-1,4)
 
 	#print(slot_sets)
-
-	#print("Looking up for:")
-	#print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
+	if VERBOSE:
+		print("Looking up for:")
+		print(f"system = {system}\nfeature = {feature}\ncommand = {command}\nparam = {param}")
 	
 	lookup_results = list(map(lambda slot_set: lookup_lemmas_post_handle(lemmas, slot_set), slot_sets))
 	#print(lookup_results)
@@ -171,15 +187,18 @@ def get_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()): 
 	#print(f"Lookup primary result: {lookup_results[0]['labels']}")
 	#print("="*50)
 	#print(lookup_results[0])
+
+	if VERBOSE:
+		print(f"Lookup results = {lookup_results}")
+		print("="*50)
+
 	return lookup_results[0]#['labels']
 	# lookup_primary_result = None
 	# for lookup_result in lookup_results:
 	# 	if lookup_result and (not lookup_primary_result or lookup_primary_result == empty_result_mark):
 	# 		lookup_primary_result = lookup_result
 
-	# print(f"Lookup results = {lookup_results}")
-	# print(f"Lookup primary result = {lookup_primary_result}")
-	# print("="*50)
+
 
 def get_raw_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()):
 	lemmas = read_json(filename)

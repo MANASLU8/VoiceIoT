@@ -14,6 +14,11 @@ def make_indices(annotations, text):
 def stringify_indices(indices, ontology_label):
 	return ",".join([f"{pair[0]}:{pair[1]}:{label.strip()}" for label in indices for pair in indices[label]]) #{ontology_label.strip()}
 
+def intersection(lst1, lst2): 
+    return list(set(lst1) & set(lst2)) 
+
+forbidden_words = ['если', 'ежели', 'когда', 'и', 'вдруг', 'или']
+
 def handle_files(input_files):
 	samples = []
 	counter = 0
@@ -25,7 +30,8 @@ def handle_files(input_files):
 		text = fe.extract_text(annotation)
 		simplified_text = re.sub(r'[^\w\s]','',text).lower()
 		splitted_text = simplified_text.split(' ')
-		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label or not fe.extract_utterance_type(annotation):
+		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label or not fe.extract_utterance_type(annotation) or fe.extract_utterance_type(annotation) != 'Command' or\
+			len(intersection(forbidden_words, splitted_text)) > 0:
 			continue
 		counter += 1
 		if 'slots-indices' in annotation:

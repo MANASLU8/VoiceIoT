@@ -1,0 +1,183 @@
+command	true label	ontology label	ontology label score	ontology unmapped label	ontology raw label	ontology raw label score	ontology raw unmapped label	recognized label	additional labels	ontology raw command	ontology command
+в комнате душно проветри	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+если станет холодно то закрой окно	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+в комнате душно проветри	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+если будет холодно закрой окно	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+если станет холодно то открой окно	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+если будет холодно закрой окно	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+проветривай помещение каждые число минут в течение число минут избегая сквозняков	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+если будет холодно то закрой окно	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+проветривай во время моего сна	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+проветри зал и кухню	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+если будет жарко то закрой окно	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+проветрить здесь пока я буду на кухне	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+помой окна после дождя	WindowRelay	AirConditioning	0	AirConditioning	WindowRelay*	1	WindowRelay	SmartElectricityMeter	on	дождь	
+проветри там	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+проветри сейчас	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+проветрите сейчас пока я буду на кухне	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+закрыть окно если начался дождь	WindowRelay	AirConditioning	0	AirConditioning	WindowRelay*	1	WindowRelay	AudioSystem	on	дождь	
+проветри здесь пока я буду в ванной	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+если на улице жарко открой окно	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+ежели будет жарко закрой окно	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	SmartElectricityMeter	on		
+проветрите здесь пока я буду в комнате	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+проветрить комнату если содержание углекислого газа будет выше число	WindowRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+проветривай каждые число часа	WindowRelay	AirConditioning	0	AirConditioning	AlarmClock	1	AlarmClock	SmartElectricityMeter	on	час	
+открой окно на кухне на 30 градусов	WindowRelay	AirConditioning	1	AirConditioning	AirConditioning	1	AirConditioning	HumiditySensor	on	градус	градус
+выключи свет в ванной	Lamp	AirConditioning	0	AirConditioning	Lamp*	1	chandelier1	HumiditySensor	on	свет	
+включай свет когда я захожу в спальню	Lamp	AirConditioning	1	AirConditioning	Lamp*	2	chandelier1	HumiditySensor	on	свет включать	включать
+выключай свет если я выхожу из спальни	Lamp	AirConditioning	1	AirConditioning	Lamp*	2	chandelier1	HumiditySensor	off	свет выключать	выключать
+выключи свет	Lamp	AirConditioning	0	AirConditioning	Lamp*	1	chandelier1	HumiditySensor	on	свет	
+приглуши свет или включи расслабляющую музыку	Lamp	AirConditioning	0	AirConditioning	Lamp*	1	chandelier1	AudioSystem	on	свет	
+включи электричество в спальне	Lamp	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+гаси свет в спальне если никого нет	Lamp	AirConditioning	0	AirConditioning	Lamp*	1	chandelier1	AudioSystem	on	свет	
+включай свет когда я захожу в гостиную	Lamp	AirConditioning	1	AirConditioning	Lamp*	2	chandelier1	HumiditySensor	on	свет включать	включать
+меняй каждый день фонарик на время	Lamp	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+ослабь свет и включи успокаивающую музыку	Lamp	AirConditioning	0	AirConditioning	Lamp*	1	chandelier1	AudioSystem	on	свет	
+выключай свет каждый раз когда я ухожу из гостиной	Lamp	AirConditioning	1	AirConditioning	Lamp*	2	chandelier1	HumiditySensor	off	свет выключать	выключать
+выключай свет когда меня нет в комнате	Lamp	AirConditioning	1	AirConditioning	Lamp*	2	chandelier1	HumiditySensor	off	свет выключать	выключать
+выключай свет когда я иду из санузла	Lamp	AirConditioning	1	AirConditioning	Lamp*	2	chandelier1	HumiditySensor	off	свет выключать	выключать
+включай солнце когда я захожу в комнату	Lamp	AirConditioning	1	AirConditioning	AirConditioning	1	AirConditioning	HumiditySensor	on	включать	включать
+включай свет когда я прихожу домой	Lamp	AirConditioning	1	AirConditioning	Lamp*	2	chandelier1	HumiditySensor	on	свет включать	включать
+каждый вечер в время включай музыку на плеере	AudioSystem	AirConditioning	1	AirConditioning	AirConditioning	1	AirConditioning	AudioSystem*	on	включать	включать
+найди клип к этой песне на youtube и воспроизведи его на телефоне	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+подбирай песни под ритм бега	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	SmartElectricityMeter	on		
+выключи динамики на кухне и в спальне	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	CurtainRelay	on		
+добавь песню в мою коллекцию	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+включи аудиосистему если я приду домой	AudioSystem	AudioSystem*	1	AudioSystem	AudioSystem*	1	AudioSystem	HumiditySensor	on	аудиосистема	аудиосистема
+включи аудиосистему когда я приду домой	AudioSystem	AudioSystem*	1	AudioSystem	AudioSystem*	1	AudioSystem	HumiditySensor	on	аудиосистема	аудиосистема
+прочитай передачи тогда я засну	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+пропусти песню	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	SmartVacuumCleaner	on		
+сделай громче	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+увеличь громкость на 4 пункта	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	CurtainRelay	on		
+отключу музыку когда я усну	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+проигрывай в случайном порядке	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	CurtainRelay	on		
+добавить песню в мою коллекцию	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+увеличь звук на три пункта	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+отключи песню если я лягу	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+включай аудиосистему если я возвращаюсь домой	AudioSystem	AudioSystem*	2	AudioSystem	AudioSystem*	2	AudioSystem	HumiditySensor	on	аудиосистема включать	аудиосистема включать
+включай музыку когда я просыпаюсь	AudioSystem	AirConditioning	1	AirConditioning	AirConditioning	1	AirConditioning	SmartCar	on	включать	включать
+включай аудиосистему когда я прихожу домой	AudioSystem	AudioSystem*	2	AudioSystem	AudioSystem*	2	AudioSystem	HumiditySensor	on	аудиосистема включать	аудиосистема включать
+пусть музыка следует за мной	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	CurtainRelay	on		
+воспроизведи альбом abbey road the beatles	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	CurtainRelay	on		
+воспроизведи её	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	CurtainRelay	on		
+отключи музыку если я лягу	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+выведи текст песни на экран телефона	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+запусти плейлист с танцевальной музыкой	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	CurtainRelay	on		
+увеличь частоту чтобы не мешал шум	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+добавляй песню в мою коллекцию	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+увеличь громкость чтобы не мешал шум 	AudioSystem	AirConditioning	0	AirConditioning	AirConditioning	4	AirConditioning	HumiditySensor	on	   	
+включи музыку в 5 вечера	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+переключи трек	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+сделай чуть тише	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	SmartCar	on		
+добавь мелодию в мою коллекцию	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+если я засну разбуди меня в число	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+сделай чуть громче	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+включи стереосистему если я приду домой	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+увеличь частоту чтобы не мешал шум	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+увеличь громкость на два пункта	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+выключи песню когда я усну	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+отключи песню когда я засну	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+выключи динамики на кухне и включи их в спальне	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+ставь стереосистему если я приду домой	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+увеличьте громкость чтобы не мешал стук	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+отключи песню когда я лягу	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+выключи динамики на кухне и отключи в спальне	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	CurtainRelay	on		
+увеличь громкость чтобы не мешал стук	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+ставь эту песню чаще	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	SmartVacuumCleaner	on		
+выключи музыку когда я выйду из квартиры	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+выключи аудиосистему когда я возвращаюсь домой	AudioSystem	AudioSystem*	1	AudioSystem	AudioSystem*	1	AudioSystem	HumiditySensor	on	аудиосистема	аудиосистема
+прочитай передачи если я засну	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+увеличь звук на три пункта	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+сделай музыку тише если зазвонит телефон или позвонят в дверь	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	AudioSystem*	on		
+включай ежедневную подборку музыки к моему приходу	AudioSystem	AirConditioning	1	AirConditioning	AirConditioning	1	AirConditioning	HumiditySensor	on	включать	включать
+пропусти песню	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	SmartVacuumCleaner	on		
+если я засну включи чтонибудь погромче	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+отключи музыку когда я засну	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	SmartCar	on		
+включи динамики на кухне и выключи в гостинной	AudioSystem	AirConditioning	0	AirConditioning	AudioSystem*	0	AudioSystem	HumiditySensor	on		
+если будет дождь то сообщить взять зонт с уходом	AudioSystem	AirConditioning	0	AirConditioning	WindowRelay	1	WindowRelay	AudioSystem*	on	дождь	
+в машинке шелковое белье подбери режим и запусти стирку	WashingMachine	WashingMachine*	1	washing_machine1	WashingMachine*	2	washing_machine1	CurtainRelay	on	стирка стирка	стирка
+включай стиральную машину по четвергам	WashingMachine	AirConditioning	1	AirConditioning	AirConditioning	1	AirConditioning	HumiditySensor	on	включать	включать
+включай стиральную машину в время каждое четное число месяца	WashingMachine	AirConditioning	1	AirConditioning	AirConditioning	1	AirConditioning	CurtainRelay	on	включать	включать
+запусти стирку для цветного	WashingMachine	WashingMachine*	1	washing_machine1	WashingMachine*	2	washing_machine1	CurtainRelay	on	стирка стирка	стирка
+когда стиральная машина закончит стирку сообщи мужу	WashingMachine	WashingMachine*	1	washing_machine1	WashingMachine*	2	washing_machine1	HumiditySensor	on	стирка стирка	стирка
+поставь в расписание стирку на 6 утра	WashingMachine	WashingMachine*	1	washing_machine1	WashingMachine*	2	washing_machine1	SmartElectricityMeter	on	стирка стирка	стирка
+включай стиральную машину в 2305 каждое четное число месяца	WashingMachine	AirConditioning	1	AirConditioning	AirConditioning	1	AirConditioning	CurtainRelay	on	включать	включать
+постирай на 90 градусах	WashingMachine	WashingMachine*	2	washing_machine1	WashingMachine*	2	washing_machine1	HumiditySensor	on	градус постирать	градус постирать
+включи стирку а потом отжим	WashingMachine	WashingMachine*	1	washing_machine1	WashingMachine*	2	washing_machine1	AudioSystem	on	стирка стирка	стирка
+опусти жалюзи	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+закрой шторы если солнечный свет попадает на экран компьютера и рабочий стол	CurtainsRelay	AirConditioning	0	AirConditioning	Lamp	1	chandelier1	HumiditySensor	on	свет	
+убери шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+откроешь шторы если слишком темно	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+откроешь жалюзи если слишком темно	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+закрой шторы в 9 вечера	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+откроешь жалюзи если слишком темно	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+если за окном солнце открой шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+если за окном солнце открой занавески	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+откроешь занавески если слишком темно	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+прикрой шторы если слишком светло	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+ежели за окном солнце открой шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+если за дверью рассвет открой шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+если за дверью рассвет закрой шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+если за окном рассвет открой занавески	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+открой жалюзи если слишком темно	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+допустим за окном небо закрой шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+если за окном солнце закрой шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+если за окном солнце закрой занавески	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+если за окном солнце открой шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+если за окном рассвет открой шторы	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	CurtainRelay	on		
+занавесь окно	CurtainsRelay	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+ставь каждый день будильник на время	AlarmClock	AlarmClock*	1	AlarmClock	AlarmClock*	1	AlarmClock	CurtainRelay	on	будильник	будильник
+если завтра выходной разбуди меня через число часов после выключения света в комнате	AlarmClock	AirConditioning	0	AirConditioning	Lamp	1	chandelier1	AudioSystem	on	свет	
+поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса	AlarmClock	WindowRelay	1	WindowRelay	AlarmClock*	1	AlarmClock	AudioSystem	on	будильник	дождь
+ставь каждый раз будильник на время	AlarmClock	AlarmClock*	1	AlarmClock	AlarmClock*	1	AlarmClock	CurtainRelay	on	будильник	будильник
+ставь каждый день будильник на время	AlarmClock	AlarmClock*	1	AlarmClock	AlarmClock*	1	AlarmClock	CurtainRelay	on	будильник	будильник
+поменяй каждый вечер будильник на время	AlarmClock	AlarmClock*	1	AlarmClock	AlarmClock*	1	AlarmClock	SmartCar	on	будильник	будильник
+если я усну разбуди меня	AlarmClock	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+когда я вернусь начни охлаждать сок	SmartFridge	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+проверь наличие еды в холодильнике	SmartFridge	AirConditioning	0	AirConditioning	SmartFridge*	1	SmartFridge	SmartElectricityMeter	on	холодильник	
+если было взято спиртное прислать уведомление на мой телефон	SmartFridge	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+установи температуру в холодильнике на плюс число а в морозилке на минус число	SmartFridge	SmartFridge*	1	SmartFridge	SmartFridge*	2	SmartFridge	HumiditySensor	on	холодильник морозилка	холодильник
+сделай льда	SmartFridge	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+делай больше льда	SmartFridge	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+включи в морозилке быструю заморозку на число минут	SmartFridge	AirConditioning	0	AirConditioning	SmartFridge*	1	SmartFridge	HumiditySensor	on	морозилка	
+проверь состояние кофеварки	CoffeeMachine	CoffeeMachine*	1	CoffeeMachine	CoffeeMachine*	1	CoffeeMachine	AudioSystem	on	кофеварка	кофеварка
+вари кофе каждый день когда я просыпаюсь	CoffeeMachine	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem			
+когда я зайду сделай кофе	CoffeeMachine	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	SmartCar	on		
+сделай кофе к моему приходу	CoffeeMachine	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	SmartFridge	on		
+включить кофемашину через число минуты после будильника	CoffeeMachine	AlarmClock	1	AlarmClock	AlarmClock	1	AlarmClock	AudioSystem	on	будильник	будильник
+подогрей кофе завтра к полуночи	CoffeeMachine	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+если кофе в кофемашине останется число то отправь уведомление на телефон	CoffeeMachine	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+каждый день проверяй кофеварку в доме	CoffeeMachine	CoffeeMachine*	1	CoffeeMachine	CoffeeMachine*	1	CoffeeMachine	AudioSystem	on	кофеварка	кофеварка
+свари кофе завтра к число утра	CoffeeMachine	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+когда я поеду сделай кофе	CoffeeMachine	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+приготовь хлеб	SmartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	AudioSystem	on	хлеб приготовить	хлеб приготовить
+приготовь хлеб к нашему ужину	SmartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	AudioSystem	on	хлеб приготовить	хлеб приготовить
+сделай тост	SmartBreadMaker	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+приготовь хлеб к моему приходу	SmartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	AudioSystem	on	хлеб приготовить	хлеб приготовить
+включи готовку в 8 вечера	SmartBreadMaker	SmartBreadMaker*	1	smartBreadMaker	SmartBreadMaker*	1	smartBreadMaker	HumiditySensor	on	готовка	готовка
+приготовь хлеб к моему приходу	SmartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	AudioSystem	on	хлеб приготовить	хлеб приготовить
+приготовь хлеб	SmartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	SmartBreadMaker*	2	smartBreadMaker	AudioSystem	on	хлеб приготовить	хлеб приготовить
+распечатай документ через 5 минут	Printer	AirConditioning	0	AirConditioning	Printer*	1	Printer	HumiditySensor	on	документ	
+распечатай паспорт название через число часа	Printer	AirConditioning	0	AirConditioning	AlarmClock	1	AlarmClock	HumiditySensor	on	час	
+распечатай документ название через число минут	Printer	AirConditioning	0	AirConditioning	Printer*	1	Printer	HumiditySensor	on	документ	
+распечатай паспорт название через число часа	Printer	AirConditioning	0	AirConditioning	AlarmClock	1	AlarmClock	HumiditySensor	on	час	
+к время утра напечатай мне свежий выпуск новостей	Printer	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	Printer*			
+заполни документ	Printer	AirConditioning	0	AirConditioning	Printer*	1	Printer	SmartElectricityMeter	on	документ	
+распечатай документ спустя 2 часа	Printer	AirConditioning	0	AirConditioning	AlarmClock	1	AlarmClock	SmartVacuumCleaner	on	час	
+отправь бланк название через число секунд	Printer	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	AudioSystem	on		
+сделай копию паспорта	Printer	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+распечатай документ название спустя число часов	Printer	AirConditioning	0	AirConditioning	Printer*	1	Printer	HumiditySensor	on	документ	
+распечатай документ название через число секунд	Printer	AirConditioning	0	AirConditioning	Printer*	1	Printer	HumiditySensor	on	документ	
+разогрей мне завтрак	SmartMicrowave	SmartMicrowave*	1	SmartMicrowave	SmartMicrowave*	1	SmartMicrowave	HumiditySensor	on	разогреть	разогреть
+разогрей мне еду в микроволновке к время	SmartMicrowave	SmartMicrowave*	2	SmartMicrowave	SmartMicrowave*	2	SmartMicrowave	HumiditySensor	on	микроволновка разогреть	микроволновка разогреть
+погрей еду	SmartMicrowave	SmartMicrowave*	1	SmartMicrowave	SmartMicrowave*	1	SmartMicrowave	AudioSystem	on	погреть	погреть
+включи подогрев пола	HeatingFloor	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+если на улице меньше 10 температура включи подогрев пола	HeatingFloor	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+выключи подогрев дорожек	HeatingFloor	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+включи подогрев дорожек	HeatingFloor	AirConditioning	0	AirConditioning	AudioSystem	0	AudioSystem	HumiditySensor	on		
+включи подсветку к 7 вечера	FloorLite	AirConditioning	0	AirConditioning	FloorLite*	1	FloorLite	AudioSystem	on	подсветка	
+подсвети путь на кухню	FloorLite	FloorLite*	1	FloorLite	FloorLite*	1	FloorLite	HumiditySensor	on	подсветить	подсветить
+Correctly recognized 13 of 178 (7.3 %)
+(Ontology) Correctly recognized 28 of 178 (15.73 %)
+(Ontology raw) Correctly recognized 98 of 178 (55.06 %)
+Average slot recall is 0.0506
