@@ -8,7 +8,7 @@ from . import collect_lemmas as cl, use_lemmas as ul
 if __name__ == "__main__":
 	config = utils.load_config(utils.parse_args().config)
 
-system_slot_name = "DEVICE"
+system_slot_name = ["DEVICE", "CommandFeature", "DeviceFeature", "ParameterFeature", "Devicefeature"]
 command_slot_name = "COMMAND"
 feature_slot_name = ["CommandFeature", "DeviceFeature", "ParameterFeature", "Devicefeature"]
 param_slot_name = ["CommandParameter", "DeviceParameter", "DeviceParameterValue", "CommandParameterValue"]
@@ -22,9 +22,13 @@ empty_result_mark = '<REQUEST_TYPE>'
 
 lemmas = ul.read_json(config['paths']['datasets']['request-mapping']['lemmas'])
 
-on_commands = ['', 'врубить', 'устанавливать', 'погреть', 'подсветить', 'проветрить', 'постирать', 'испечь',  'поставить', 'разбудить', 'распечатать', 'приготовить', 'разогреть', 'сварить',  'включать']
-off_commands = ['выключать', 'закрыть', 'оффнуть', 'остановить', 'прекратить', 'вырубить']
 
+
+on_commands = ['', 'врубить', 'устанавливать', 'погреть', 'подсветить', 'проветрить', 'постирать', 'испечь', 'поставить', 'свари', 'разбудить',
+				'распечатать', 'приготовить', 'разогреть', 'сварить',  'включать', 'установи', 'вруби', 'разбуди', 'поставь', 'проветри', 'распечатай']
+off_commands = ['выключать', 'закрыть', 'оффнуть', 'остановить', 'прекратить', 'вырубить', 'прекрати', 'оффни', 'выруби', 'закрой', 'останови']
+
+commands = []
 for device in lemmas:
 	lemmas[device]['commands-on'] = [command for command in lemmas[device]['command'] if command in on_commands]
 	lemmas[device]['commands-off'] = [command for command in lemmas[device]['command'] if command in off_commands]

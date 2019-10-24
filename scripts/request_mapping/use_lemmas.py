@@ -6,7 +6,7 @@ import collections
 if __name__ == "__main__":
 	config = utils.load_config(utils.parse_args().config)
 
-USE_LEMMAS = True
+USE_LEMMAS = False
 VERBOSE = False
 MOST_FREQUENT_LABEL = "--"#"AudioSystem>"
 
@@ -203,9 +203,11 @@ def get_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()): 
 def get_raw_labels(cmd, filename = lemmas_path, morph = pymorphy2.MorphAnalyzer()):
 	lemmas = read_json(filename)
 	cmd_deannotated = list(map(lambda pair: morph.parse(pair[0])[0].normal_form if USE_LEMMAS else pair[0], cmd))
-	#print(f"Input command: {cmd_deannotated}")
+	if VERBOSE:
+		print(f"Deannotated command for raw lookup: {cmd_deannotated}")
 	lookup_result = lookup_raw_lemmas(lemmas, cmd_deannotated)
-	#print(f"Raw lookup result: {lookup_result}")
+	if VERBOSE:
+		print(f"Raw lookup result: {lookup_result}")
 	lookup_primary_result = list(map(lambda item: {'device': item['device'], 'text': item['found'], 'score': item['score']}, lookup_result))
 	return lookup_primary_result if len(lookup_primary_result) else [{'device': MOST_FREQUENT_LABEL, 'text': '', 'score': 0}]
 	# system = get_slot_value_many(cmd, system_slot_name, morph)

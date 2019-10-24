@@ -37,6 +37,8 @@ paths:
       data: dataset/vw/data.txt
       train: dataset/vw/train.txt
       test: dataset/vw/test.txt
+    rnnda:
+      data: dataset/rnnda/all_text.txt
     pytext:
       data: dataset/pytext/data.tsv
       data-extended: dataset/pytext/data-extended.tsv
