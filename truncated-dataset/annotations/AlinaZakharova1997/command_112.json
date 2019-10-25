@@ -1,0 +1,26 @@
+{
+  "utterance_id": 112,
+  "utterance-type": "Command",
+  "ontology-label": "WashingMachine",
+  "text": [
+    "Поставь в расписание стирку на 6 утра"
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        5,
+        6
+      ]
+    }
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        3
+      ]
+    }
+  ]
+}

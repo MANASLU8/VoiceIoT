@@ -22,16 +22,17 @@ empty_result_mark = '<REQUEST_TYPE>'
 
 lemmas = ul.read_json(config['paths']['datasets']['request-mapping']['lemmas'])
 
-
-
 on_commands = ['', 'врубить', 'устанавливать', 'погреть', 'подсветить', 'проветрить', 'постирать', 'испечь', 'поставить', 'свари', 'разбудить',
-				'распечатать', 'приготовить', 'разогреть', 'сварить',  'включать', 'установи', 'вруби', 'разбуди', 'поставь', 'проветри', 'распечатай']
+				'распечатать', 'приготовить', 'разогреть', 'сварить',  'включать', 'установи', 'вруби', 'разбуди', 'поставь', 'проветри', 'распечатай', 'напечатай', 'сваривать', 'напечатать', 'проветривать']
 off_commands = ['выключать', 'закрыть', 'оффнуть', 'остановить', 'прекратить', 'вырубить', 'прекрати', 'оффни', 'выруби', 'закрой', 'останови']
 
 commands = []
 for device in lemmas:
 	lemmas[device]['commands-on'] = [command for command in lemmas[device]['command'] if command in on_commands]
 	lemmas[device]['commands-off'] = [command for command in lemmas[device]['command'] if command in off_commands]
+	for command in lemmas[device]['command']:
+		if command not in on_commands and command not in off_commands:
+			print(f"Command {command} is not on nor off")
 	del lemmas[device]['command']
 
 new_lemmas = {}

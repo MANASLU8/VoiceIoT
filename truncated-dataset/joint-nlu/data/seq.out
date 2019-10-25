@@ -1,0 +1,103 @@
+B-Lamp.COMMAND O O B-Lamp.DeviceFeature O B-Lamp.CommandParameterValue
+B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameter
+B-SmartFridge.Request B-SmartFridge.FeatureState B-SmartFridge.CommandFeature O B-SmartFridge.LOC
+B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier
+B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature O B-WindowRelay.LOC O B-WindowRelay.CommandParameterValue B-WindowRelay.CommandParameter
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DeviceParameterValue B-AudioSystem.DeviceFeature
+O B-WindowRelay.LOCCurrent O B-WindowRelay.COMMAND
+B-WashingMachine.COMMAND O O B-WashingMachine.CommandFeature O O O
+B-Lamp.COMMAND B-Lamp.DeviceFeature
+B-AudioSystem.COMMAND B-AudioSystem.DeviceParameterValue O O O O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature
+B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue
+B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature
+B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue
+B-Lamp.COMMAND B-Lamp.DeviceFeature O B-Lamp.LOC
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O
+B-CoffeeMachine.Request I-CoffeeMachine.Request B-CoffeeMachine.DEVICE
+B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O
+B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O I-AudioSystem.CommandFeature
+B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O
+B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O O O O O
+B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature
+B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O
+B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC
+B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O B-WashingMachine.DeviceParameterValue
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature
+B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.DeviceFeature
+B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O
+O O B-CoffeeMachine.COMMAND B-CoffeeMachine.DEVICE O B-CoffeeMachine.LOC
+B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature
+B-FloorLite.COMMAND B-FloorLite.CommandFeature O O O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O I-AudioSystem.CommandFeature
+B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O
+B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC
+B-Printer.COMMAND B-Printer.CommandFeature O O O
+B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.LOC
+B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O O
+B-Printer.COMMAND B-Printer.CommandFeature
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue
+B-Printer.COMMAND B-Printer.CommandFeature O O O
+B-FloorLite.COMMAND B-FloorLite.CommandFeature O B-FloorLite.LOC
+B-WashingMachine.COMMAND O B-WashingMachine.DeviceParameterValue B-WashingMachine.DeviceParameter
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O B-SmartBreadMaker.Actor B-SmartBreadMaker.Action
+B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature B-AudioSystem.IntensityQuantifier
+B-WindowRelay.COMMAND B-WindowRelay.LOC
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O O O
+B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.DeviceFeature
+B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature
+B-WashingMachine.COMMAND O O
+B-CoffeeMachine.Request I-CoffeeMachine.Request B-CoffeeMachine.DEVICE O O
+B-CoffeeMachine.COMMAND O B-CoffeeMachine.CommandFeature O O
+B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature
+B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor
+B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O
+B-Lamp.COMMAND B-Lamp.DeviceFeature
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature
+B-AudioSystem.COMMAND B-AudioSystem.СommandFeature I-AudioSystem.СommandFeature I-AudioSystem.СommandFeature O B-AudioSystem.Actor B-AudioSystem.Aсtion
+O O O B-Printer.COMMAND B-Printer.Actor B-Printer.CommandFeature I-Printer.CommandFeature I-Printer.CommandFeature
+B-HeatingFloor.COMMAND O O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature
+B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O
+B-SmartMicrowave.COMMAND B-SmartMicrowave.CommandFeature
+B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature
+B-HeatingFloor.COMMAND B-HeatingFloor.DeviceFeature I-HeatingFloor.DeviceFeature
+B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O O
+B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier B-AudioSystem.CommandFeature
+B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O
+B-WindowRelay.Command O
+B-SmartFridge.COMMAND B-SmartFridge.Quantor B-SmartFridge.CommandFeature
+B-WindowRelay.COMMAND O O O
+B-WindowRelay.COMMAND O O O O
+B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue O O O O O B-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature O O O
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue
+B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier B-AudioSystem.CommandFeature
+B-SmartFridge.COMMAND O O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature O B-SmartFridge.DeviceParameterValue O
+B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC
+B-HeatingFloor.COMMAND B-HeatingFloor.DeviceFeature I-HeatingFloor.DeviceFeature
+B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature O B-SmartMicrowave.DEVICE O B-SmartMicrowave.DeviceParameterValue
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature O O B-AudioSystem.DEVICE
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature
+B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O B-WashingMachine.CommandParameterValue O O O O
+B-SmartFridge.COMMAND B-SmartFridge.CommandFeature
+O O B-AudioSystem.Command B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature
+B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O B-WindowRelay.DeviceParameterValue O O O I-WindowRelay.DeviceParameterValue O B-WindowRelay.CommandFeature I-WindowRelay.CommandFeature
+O O O B-AudioSystem.DeviceParameterValue B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DEVICE
+B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature
+B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature
+B-CoffeeMachine.COMMAND B-CoffeeMachine.DEVICE O B-CoffeeMachine.DeviceParameterValue O O B-CoffeeMachine.DEVICE
+B-AudioSystem.COMMAND B-AudioSystem.CommandFeature
+B-AudioSystem.COMMAND O O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature
+B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O O I-WashingMachine.CommandFeature
+B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O B-CoffeeMachine.DeviceParameterValue O
+B-SmartFridge.COMMAND B-SmartFridge.Devicefeature O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue O O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue
+B-AudioSystem.COMMAND O O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature

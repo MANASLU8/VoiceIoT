@@ -1,0 +1,27 @@
+{
+  "utterance_id": 1745,
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "проветри здесь пока я буду в ванной"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOCCurrent": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ]
+}

@@ -26,7 +26,7 @@ def handle_many(input_files, get_file_names=False):
 if __name__ == "__main__":
 	handle_file(args.file if args.file else config['paths']['datasets']['flawy-denormalized'])
 
-	if args.nice:
-		handle_many([args.file if args.file else config['paths']['datasets']['flawy-denormalized'], config['paths']['datasets']['nice-denormalized']])
-	else:
-		handle_file(args.file if args.file else config['paths']['datasets']['flawy-denormalized'])
+	# if args.nice:
+	# 	handle_many([args.file if args.file else config['paths']['datasets']['flawy-denormalized'], config['paths']['datasets']['nice-denormalized']])
+	# else:
+	# 	handle_file(args.file if args.file else config['paths']['datasets']['flawy-denormalized'])

@@ -1,0 +1,34 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "SmartMicrowave",
+  "text": [
+    "разогрей мне еду в микроволновке к время"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Actor": [
+        1
+      ],
+      "DEVICE": [
+        4
+      ],
+      "DeviceParameterValue": [
+        6
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        5,
+        6
+      ]
+    }
+  ]
+}

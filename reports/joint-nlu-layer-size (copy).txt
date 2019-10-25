@@ -1,0 +1,1796 @@
+Writing 598 items
+Samples per label:
+TemperatureSensor             : 36
+WindowRelay                   : 25
+CurtainsRelay                 : 26
+HeaterController              : 26
+AudioSystem                   : 70
+Lighting                      : 60
+Lamp                          : 16
+SmartIron                     : 6
+SmartElectricityMeter         : 26
+TVSet                         : 14
+WashingMachine                : 13
+SmartOven                     : 20
+AlarmClock                    : 8
+HumiditySensor                : 5
+SmartFridge                   : 29
+DoorWindowStatusSensor        : 13
+CoffeeMachine                 : 15
+SmartFeeder                   : 16
+MotionSensor                  : 18
+WaterSupplySensor             : 12
+SmartBreadMaker               : 8
+SmartVacuumCleaner            : 15
+Phone                         : 16
+WaterTapRelay                 : 20
+SmartKettle                   : 11
+Humidifier                    : 8
+Quadrocopter                  : 10
+SmartCar                      : 24
+Printer                       : 11
+SmartMicrowave                : 4
+HeatingFloor                  : 4
+FloorLite                     : 2
+WindowStatusSensor            : 1
+SmartToaster                  : 1
+CurtainRelay                  : 1
+DoorRelay                     : 8
+Writing 129 items
+Writing 129 items
+Writing 469 items
+layer_size: 1
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding (Embedding)        multiple                  930       
+_________________________________________________________________
+bidirectional (Bidirectional multiple                  32        
+_________________________________________________________________
+custom_dropout (CustomDropou multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention (C multiple                  31        
+_________________________________________________________________
+bahdanau_attention (Bahdanau multiple                  15        
+_________________________________________________________________
+slot_gate (SlotGate)         multiple                  19        
+_________________________________________________________________
+dense_8 (Dense)              multiple                  210       
+_________________________________________________________________
+time_distributed (TimeDistri multiple                  2290      
+=================================================================
+Total params: 3,527
+Trainable params: 3,527
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.530694420001964
+slot f1: 1.1869436201780414	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 2
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  1860      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  96        
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  109       
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  45        
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  61        
+_________________________________________________________________
+dense_18 (Dense)             multiple                  378       
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  4122      
+=================================================================
+Total params: 6,671
+Trainable params: 6,671
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.604221120000147
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 3
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.42643923240938164
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  2790      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  192       
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  235       
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  91        
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  127       
+_________________________________________________________________
+dense_18 (Dense)             multiple                  546       
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  5954      
+=================================================================
+Total params: 9,935
+Trainable params: 9,935
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.149527189994842
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 4
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  3720      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  320       
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  409       
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  153       
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  217       
+_________________________________________________________________
+dense_18 (Dense)             multiple                  714       
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  7786      
+=================================================================
+Total params: 13,319
+Trainable params: 13,319
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.55633721999402
+slot f1: 0.5405405405405406	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 5
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  4650      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  480       
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  631       
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  231       
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  331       
+_________________________________________________________________
+dense_18 (Dense)             multiple                  882       
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  9618      
+=================================================================
+Total params: 16,823
+Trainable params: 16,823
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.954831970000669
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 6
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  5580      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  672       
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  901       
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  325       
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  469       
+_________________________________________________________________
+dense_18 (Dense)             multiple                  1050      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  11450     
+=================================================================
+Total params: 20,447
+Trainable params: 20,447
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 13.51374862000739
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 7
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  6510      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  896       
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  1219      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  435       
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  631       
+_________________________________________________________________
+dense_18 (Dense)             multiple                  1218      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  13282     
+=================================================================
+Total params: 24,191
+Trainable params: 24,191
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.111056390003796
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 8
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  7440      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  1152      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  1585      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  561       
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  817       
+_________________________________________________________________
+dense_18 (Dense)             multiple                  1386      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  15114     
+=================================================================
+Total params: 28,055
+Trainable params: 28,055
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 13.557751379994443
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 9
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  8370      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  1440      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  1999      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  703       
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  1027      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  1554      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  16946     
+=================================================================
+Total params: 32,039
+Trainable params: 32,039
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.880141779987753
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 10
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  9300      
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  1760      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  2461      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  861       
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  1261      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  1722      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  18778     
+=================================================================
+Total params: 36,143
+Trainable params: 36,143
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.717242640010227
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 11
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0.24313153415998054	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0.1801801801801802	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0.1801801801801802	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0.3954522985664854	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  10230     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  2112      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  2971      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  1035      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  1519      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  1890      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  20610     
+=================================================================
+Total params: 40,367
+Trainable params: 40,367
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 13.98342860999037
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 12
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  11160     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  2496      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  3529      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  1225      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  1801      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  2058      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  22442     
+=================================================================
+Total params: 44,711
+Trainable params: 44,711
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 14.723186360006366
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 13
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0.6552006552006553	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0.20618556701030927	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0.20618556701030927	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  12090     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  2912      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  4135      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  1431      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  2107      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  2226      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  24274     
+=================================================================
+Total params: 49,175
+Trainable params: 49,175
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 15.32483749999301
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 14
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  13020     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  3360      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  4789      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  1653      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  2437      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  2394      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  26106     
+=================================================================
+Total params: 53,759
+Trainable params: 53,759
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 13.875376430005417
+slot f1: 0.5586592178770949	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 15
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  13950     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  3840      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  5491      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  1891      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  2791      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  2562      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  27938     
+=================================================================
+Total params: 58,463
+Trainable params: 58,463
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 11.765103769994312
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 16
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0.04949269982677556	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  14880     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  4352      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  6241      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  2145      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  3169      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  2730      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  29770     
+=================================================================
+Total params: 63,287
+Trainable params: 63,287
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 11.390639999990526
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 17
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  15810     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  4896      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  7039      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  2415      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  3571      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  2898      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  31602     
+=================================================================
+Total params: 68,231
+Trainable params: 68,231
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 11.422392969998327
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 18
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  16740     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  5472      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  7885      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  2701      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  3997      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  3066      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  33434     
+=================================================================
+Total params: 73,295
+Trainable params: 73,295
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 11.650111039998592
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 19
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.42643923240938164
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  17670     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  6080      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  8779      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  3003      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  4447      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  3234      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  35266     
+=================================================================
+Total params: 78,479
+Trainable params: 78,479
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.004444199992577
+slot f1: 1.0781671159029649	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 20
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  18600     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  6720      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  9721      
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  3321      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  4921      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  3402      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  37098     
+=================================================================
+Total params: 83,783
+Trainable params: 83,783
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 15.237361470008182
+slot f1: 0.56657223796034	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 21
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  19530     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  7392      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  10711     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  3655      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  5419      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  3570      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  38930     
+=================================================================
+Total params: 89,207
+Trainable params: 89,207
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.560462010005722
+slot f1: 1.1019283746556474	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 22
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0.5394470667565746	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  20460     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  8096      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  11749     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  4005      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  5941      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  3738      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  40762     
+=================================================================
+Total params: 94,751
+Trainable params: 94,751
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.627638600006321
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 23
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  21390     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  8832      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  12835     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  4371      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  6487      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  3906      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  42594     
+=================================================================
+Total params: 100,415
+Trainable params: 100,415
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.303563289988233
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 24
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0.097799511002445	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  22320     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  9600      
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  13969     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  4753      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  7057      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  4074      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  44426     
+=================================================================
+Total params: 106,199
+Trainable params: 106,199
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 11.560628170009295
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 25
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  23250     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  10400     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  15151     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  5151      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  7651      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  4242      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  46258     
+=================================================================
+Total params: 112,103
+Trainable params: 112,103
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 13.426283910011989
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 26
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  24180     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  11232     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  16381     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  5565      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  8269      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  4410      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  48090     
+=================================================================
+Total params: 118,127
+Trainable params: 118,127
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 11.296827160003886
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 27
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  25110     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  12096     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  17659     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  5995      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  8911      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  4578      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  49922     
+=================================================================
+Total params: 124,271
+Trainable params: 124,271
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 11.3812469199911
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 28
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  26040     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  12992     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  18985     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  6441      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  9577      
+_________________________________________________________________
+dense_18 (Dense)             multiple                  4746      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  51754     
+=================================================================
+Total params: 130,535
+Trainable params: 130,535
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 20.333359479991486
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 29
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  26970     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  13920     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  20359     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  6903      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  10267     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  4914      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  53586     
+=================================================================
+Total params: 136,919
+Trainable params: 136,919
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.77242981001109
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 30
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  27900     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  14880     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  21781     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  7381      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  10981     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  5082      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  55418     
+=================================================================
+Total params: 143,423
+Trainable params: 143,423
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 13.180944369996723
+slot f1: 0.5494505494505494	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 31
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0.09708737864077671	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0.33557046979865773	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0.20855057351407716	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0.20855057351407716	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  28830     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  15872     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  23251     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  7875      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  11719     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  5250      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  57250     
+=================================================================
+Total params: 150,047
+Trainable params: 150,047
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 11.848134259998915
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 32
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  29760     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  16896     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  24769     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  8385      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  12481     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  5418      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  59082     
+=================================================================
+Total params: 156,791
+Trainable params: 156,791
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.121918969987746
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 33
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  30690     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  17952     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  26335     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  8911      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  13267     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  5586      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  60914     
+=================================================================
+Total params: 163,655
+Trainable params: 163,655
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 19.21177367999917
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 34
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.42643923240938164
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  31620     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  19040     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  27949     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  9453      
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  14077     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  5754      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  62746     
+=================================================================
+Total params: 170,639
+Trainable params: 170,639
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.184584919996269
+slot f1: 0	intent accuracy: 28.26086956521739	semantic_accuracy: 0.0
+layer_size: 35
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  32550     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  20160     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  29611     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  10011     
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  14911     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  5922      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  64578     
+=================================================================
+Total params: 177,743
+Trainable params: 177,743
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.213679300002696
+slot f1: 0	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 36
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  33480     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  21312     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  31321     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  10585     
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  15769     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  6090      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  66410     
+=================================================================
+Total params: 184,967
+Trainable params: 184,967
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 17.66900942000575
+slot f1: 0.5376344086021505	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 37
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  4  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Model: "slot_gated_model_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      multiple                  34410     
+_________________________________________________________________
+bidirectional_1 (Bidirection multiple                  22496     
+_________________________________________________________________
+custom_dropout_1 (CustomDrop multiple                  0         
+_________________________________________________________________
+custom_bahdanau_attention_1  multiple                  33079     
+_________________________________________________________________
+bahdanau_attention_1 (Bahdan multiple                  11175     
+_________________________________________________________________
+slot_gate_1 (SlotGate)       multiple                  16651     
+_________________________________________________________________
+dense_18 (Dense)             multiple                  6258      
+_________________________________________________________________
+time_distributed_1 (TimeDist multiple                  68242     
+=================================================================
+Total params: 192,311
+Trainable params: 192,311
+Non-trainable params: 0
+_________________________________________________________________
+Milli seconds per query: 12.46251320999363
+slot f1: 1.0810810810810811	intent accuracy: 0.0	semantic_accuracy: 0.0
+layer_size: 38
+EPOCH:  0  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.21321961620469082
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  1  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  2  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.8528784648187633
+Valid:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Test:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+EPOCH:  3  *******************************************************************
+Train:	slot f1: 0	intent accuracy: 100.0	semantic_error: 0.0
+Valid:	

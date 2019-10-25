@@ -1,0 +1,23 @@
+{
+  "utterance_id": 113,
+  "utterance-type": "Command",
+  "ontology-label": "WashingMachine",
+  "text": [
+    "полощи 30 минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        1,
+        2
+      ]
+    }
+  ]
+}

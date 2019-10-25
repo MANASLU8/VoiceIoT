@@ -1,0 +1,16 @@
+{
+  "utterance_id": 10095,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": "сделай громче",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ]
+    }
+  ]
+}

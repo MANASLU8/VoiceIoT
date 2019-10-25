@@ -1,0 +1,32 @@
+{
+  "utterance_id": 258,
+  "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
+  "text": [
+    "сделай кофе к моему приходу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "СommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Aсtion": [
+        4
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        3,
+        4
+      ]
+    }
+  ]
+}

@@ -22,15 +22,17 @@ print("Samples per label:")
 for label in samples.keys():
  	print(f"{label:80s}: {len(samples[label])}")
  	quantity_for_test = len(samples[label]) * config['test-percentage'] / float(100)
- 	if quantity_for_test < 1:
- 		continue
+ 	#if quantity_for_test < 1:
+ 	#	continue
  	test_samples[label] = []
  	counter = 0
- 	while counter < quantity_for_test:
- 		choice = random.choice(samples[label])
+ 	
+ 	#while counter < quantity_for_test:
+ 	for choice in samples[label]:
+ 		#choice = random.choice(samples[label])
  		test_samples[label].append(choice.split('\t')[-1])
  		validate_samples.append(choice)
- 		samples[label].remove(choice)
+ 		#samples[label].remove(choice)
  		counter += 1
 
 fo.write_lines(config['paths']['datasets']['pytext']['train'], [sample for label in samples.keys() for sample in samples[label]])

@@ -1,0 +1,17 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "CurtainsRelay",
+  "text": [
+    "опусти жалюзи"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+}

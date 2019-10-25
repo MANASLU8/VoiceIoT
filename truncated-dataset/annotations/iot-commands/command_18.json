@@ -1,0 +1,29 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "увеличь громкость на два пункта"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "FeatureStateValue": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
+  ]
+}

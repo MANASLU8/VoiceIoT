@@ -1,0 +1,21 @@
+{
+  "utterance_id": 335,
+  "utterance-type": "Command",
+  "ontology-label": "Lamp",
+  "text": [
+    "включи электричество в спальне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ]
+}

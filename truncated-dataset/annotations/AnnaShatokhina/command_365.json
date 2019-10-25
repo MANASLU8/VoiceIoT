@@ -1,0 +1,27 @@
+{
+  "utterance_id": 365,
+  "utterance-type": "Command",
+  "ontology-label": "Printer",
+  "text": [
+    "распечатай документ через 5 минут"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

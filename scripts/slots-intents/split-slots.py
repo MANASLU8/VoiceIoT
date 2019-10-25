@@ -22,16 +22,17 @@ print("Samples per label:")
 for label in samples.keys():
  	print(f"{label:30s}: {len(samples[label])}")
  	quantity_for_test = len(samples[label]) * config['test-percentage'] / float(100)
- 	if quantity_for_test < 1:
- 		continue
+ 	#if quantity_for_test < 1:
+ 	#	continue
  	test_samples[label] = []
  	counter = 0
- 	while counter < quantity_for_test:
- 		choice = random.choice(samples[label])
+ 	#while counter < quantity_for_test:
+ 	#	choice = random.choice(samples[label])
+ 	for choice in samples[label]:
  		slots = [item.split('-')[1] for item in list(filter(lambda entity: entity != 'O', choice.split('\t')[-1].split(' ')[:-1]))]
  		test_samples[label].append({'text': ' '.join(choice.split('\t')[0].split(' ')[1:-2]), 'slots': slots})
  		validate_samples.append(choice)
- 		samples[label].remove(choice)
+ 		#samples[label].remove(choice)
  		counter += 1
 
 fo.write_lines(config['paths']['datasets']['slots-intents']['train'], [sample for label in samples.keys() for sample in samples[label]])

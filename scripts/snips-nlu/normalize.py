@@ -38,6 +38,8 @@ def make_chunk(i, entities, entity_names, word, ontology_label):
 def handle_files(input_files):
 	dicti = {}
 	entity_names = set({})
+	all_counter = 0
+	counter = 0
 	for j in range(len(input_files)):
 		input_file = input_files[j]
 		print(f'handling file {input_file}')
@@ -46,8 +48,10 @@ def handle_files(input_files):
 		ontology_label = fe.extract_ontology_label(annotation)
 		text = fe.extract_text(annotation)
 		res = []
+		all_counter += 1
 		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label:
 			continue
+		counter += 1
 		for (i, word) in enumerate(re.sub(r'[^\w\s]','',text).lower().split(' ')):
 			appended = False
 			if 'slots-indices' in annotation:
@@ -59,6 +63,7 @@ def handle_files(input_files):
 			dicti[ontology_label]["utterances"].append({"data": res})
 		else:
 			dicti[ontology_label] = {"utterances": [{"data": res}]}
+	print(f"Taken {counter}/{all_counter} samples")
 	return dicti, entity_names
 
 intents, entities = handle_files(utils.list_dataset_files(config['paths']['datasets']['annotations']))

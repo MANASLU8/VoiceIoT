@@ -1,0 +1,27 @@
+{
+  "utterance_id": 10057,
+  "utterance-type": "Command",
+  "ontology-label": "AlarmClock",
+  "text": "поменяй каждый вечер будильник на время",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DEVICE": [
+        3
+      ],
+      "DeviceParameterValue": [
+        5
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        1,
+        2
+      ]
+    }
+  ]
+}

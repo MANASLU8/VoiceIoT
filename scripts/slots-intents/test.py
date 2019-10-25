@@ -34,6 +34,7 @@ for label in test_dataset.keys():
 		recognized_label = intent[0]
 		if not recognized_label:
 			recognized_label = '-'
+		#print(sample, recognized_label, label)
 		print(f"{sample:80s}\t{recognized_label:20s}\t{label.lower():20s}\t{recognized_label==label.lower()}")
 		if recognized_label == label.lower():
 			positive_counter += 1

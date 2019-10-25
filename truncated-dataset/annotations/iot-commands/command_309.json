@@ -1,0 +1,33 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "каждый вечер в время включай музыку на плеере"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        4
+      ],
+      "CommandFeature": [
+        5
+      ],
+      "DEVICE": [
+        7
+      ],
+      "DeviceParameterValue": [
+        3
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

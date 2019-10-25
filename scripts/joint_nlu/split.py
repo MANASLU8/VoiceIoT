@@ -22,17 +22,18 @@ for label in labels:
 
 print("Samples per label:")
 for label in samples.keys():
-  	print(f"{label:30s}: {len(samples[label])}")
-  	quantity_for_test = len(samples[label]) * config['test-percentage'] / float(100)
-  	if quantity_for_test < 1:
-  		continue
-  	counter = 0
-  	while counter < quantity_for_test:
-  		choice = random.choice(samples[label])
-  		i = choice[0]
-  		test_samples.append([texts[i], slots[i], choice[1]])
-  		samples[label].remove(choice)
-  		counter += 1
+    print(f"{label:30s}: {len(samples[label])}")
+    quantity_for_test = len(samples[label]) * config['test-percentage'] / float(100)
+    if quantity_for_test < 1:
+      continue
+    counter = 0
+    while counter < quantity_for_test:
+      choice = random.choice(samples[label])
+    #for choice in samples[label]:
+      i = choice[0]
+      test_samples.append([texts[i], slots[i], choice[1]])
+      samples[label].remove(choice)
+      counter += 1
 
 for label in samples.keys():
 	for item in samples[label]:

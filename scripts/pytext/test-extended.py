@@ -96,6 +96,7 @@ for label in test_dataset.keys():
             ontology_raw_counter += 1
             raw_ontology_label += "*"
 
+       	#print(recognized, sample['slots'])
         total_recall.append(metrics.get_recall(recognized, sample['slots']))
 
         recognized_label = get_best_label(

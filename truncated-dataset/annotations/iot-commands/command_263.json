@@ -1,0 +1,17 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "SmartBreadMaker",
+  "text": [
+    "Сделай тост"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+}

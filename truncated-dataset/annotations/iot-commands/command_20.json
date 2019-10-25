@@ -1,0 +1,25 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "пусть музыка следует за мной"
+  ],
+  "slots-indices": [
+    {
+      "Command": [
+        2
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "DEVICE": [
+        1
+      ]
+    }
+  ]
+}
