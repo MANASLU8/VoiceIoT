@@ -1,0 +1,17 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "CurtainsRelay",
+  "text": [
+    "занавесь окно"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+}

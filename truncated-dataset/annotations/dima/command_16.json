@@ -1,0 +1,17 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "закрыть окно"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
+}

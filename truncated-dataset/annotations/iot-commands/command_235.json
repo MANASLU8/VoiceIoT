@@ -1,0 +1,17 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "SmartMicrowave",
+  "text": [
+    "Погрей еду"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+}

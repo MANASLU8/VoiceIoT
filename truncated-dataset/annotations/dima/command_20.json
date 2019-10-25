@@ -1,0 +1,25 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
+  "text": [
+    "вари кофе каждый день"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        2,
+        3
+      ]
+    }
+  ]
+}

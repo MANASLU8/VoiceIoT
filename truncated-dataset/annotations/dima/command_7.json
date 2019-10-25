@@ -1,0 +1,21 @@
+{
+  "utterance_id": 239,
+  "utterance-type": "Command",
+  "ontology-label": "SmartMicrowave",
+  "text": [
+    "приготовь ужин"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        2
+      ],
+      "Actor": [
+        1
+      ]
+    }
+  ]
+}

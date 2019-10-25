@@ -1,6 +1,9 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "LightSensor",
+  "ontology-label": [
+    "Lamp",
+    "AudioSystem"
+  ],
   "text": [
     "включи светомузыку"
   ],

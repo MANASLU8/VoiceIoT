@@ -1,0 +1,18 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "HeatingFloor",
+  "text": [
+    "выключи подогрев дорожек"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        7,
+        8
+      ]
+    }
+  ]
+}

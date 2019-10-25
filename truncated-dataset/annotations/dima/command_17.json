@@ -1,0 +1,17 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "CurtainsRelay",
+  "text": [
+    "закрывай шторы"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+}

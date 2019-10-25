@@ -1,6 +1,6 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "LightSensor",
+  "ontology-label": "Lamp",
   "text": [
     "потуши свет"
   ],

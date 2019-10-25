@@ -2,11 +2,8 @@
   "utterance_id": 8004,
   "utterance-type": "Command",
   "ontology-label": [
-    "LightSensor",
     "Lamp",
-    [
-      "MotionSensor"
-    ]
+    "MotionSensor"
   ],
   "text": "Включай свет когда я захожу в ванную",
   "slots-indices": [

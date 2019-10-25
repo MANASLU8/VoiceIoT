@@ -1,6 +1,6 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "WindowRelay",
+  "ontology-label": "CurtainRelay",
   "text": [
     "подними жалюзи"
   ],

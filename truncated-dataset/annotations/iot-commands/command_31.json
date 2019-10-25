@@ -1,0 +1,20 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "сделай чуть тише"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "IntensityQuantifier": [
+        1
+      ],
+      "CommandFeature": [
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "проветрить комнату"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "LOC": [
+        1
+      ]
+    }
+  ]
+}

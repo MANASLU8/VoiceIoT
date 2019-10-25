@@ -1,6 +1,9 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "LightSensor",
+  "ontology-label": [
+    "Lamp",
+    "MotionSensor"
+  ],
   "text": [
     "Включай свет когда я захожу в комнату"
   ],

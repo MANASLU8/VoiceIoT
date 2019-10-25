@@ -1,0 +1,30 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "WindowRelay",
+  "text": [
+    "проветрить здесь пока я буду на кухне"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ],
+      "LOC": [
+        6
+      ]
+    }
+  ],
+  "condition-indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}

@@ -2,9 +2,9 @@
   "utterance_id": 229,
   "utterance-type": "Command",
   "ontology-label": [
-    "LightSensor",
     "Lamp",
-    "FloorLite"
+    "FloorLite",
+    "MotionSensor"
   ],
   "text": [
     "выключай свет когда я выйду из спальной"

@@ -1,0 +1,18 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "запусти плейлист с танцевальной музыкой"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        3,
+        4
+      ]
+    }
+  ]
+}

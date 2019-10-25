@@ -1,5 +1,8 @@
 {
   "utterance-type": "Command",
+  "ontology-label": [
+    "CurtainsRelay"
+  ],
   "text": [
     "если за окном солнце закрой шторы"
   ],

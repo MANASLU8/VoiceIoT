@@ -1,0 +1,19 @@
+{
+  "utterance_id": 9004,
+  "utterance-type": "Command",
+  "ontology-label": "Lamp",
+  "text": "выключи свет в ванной",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ],
+      "LOC": [
+        3
+      ]
+    }
+  ]
+}

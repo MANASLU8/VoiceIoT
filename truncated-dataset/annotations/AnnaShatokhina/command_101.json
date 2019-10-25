@@ -1,0 +1,24 @@
+{
+  "utterance_id": 101,
+  "utterance-type": "Command",
+  "ontology-label": "SmartBreadMaker",
+  "text": [
+    "приготовь хлеб к моему приходу"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ],
+      "Actor": [
+        3
+      ],
+      "Action": [
+        4
+      ]
+    }
+  ]
+}

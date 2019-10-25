@@ -3,7 +3,7 @@
   "utterance-type": "Command",
   "ontology-label": [
     "CurtainsRelay",
-    "LightSensor"
+    "Lighting"
   ],
   "text": "если за окном солнце закрой занавески",
   "slots-indices": [

@@ -2,9 +2,9 @@
   "utterance_id": 278,
   "utterance-type": "Command",
   "ontology-label": [
-    "LightSensor",
-    "DoorWindowStatusSensor",
-    "CurtainsRelay"
+    "CurtainsRelay",
+    "Lighting",
+    "DoorWindowStatusSensor"
   ],
   "text": [
     "прикрой шторы если слишком светло"

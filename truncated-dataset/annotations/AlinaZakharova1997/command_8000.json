@@ -1,0 +1,16 @@
+{
+  "utterance_id": 8000,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": "увеличь громкость чтобы не мешал стук",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceParameterValue": [
+        1
+      ]
+    }
+  ]
+}

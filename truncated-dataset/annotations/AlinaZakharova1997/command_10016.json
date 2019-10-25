@@ -1,0 +1,16 @@
+{
+  "utterance_id": 10016,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": "пропусти песню",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+}

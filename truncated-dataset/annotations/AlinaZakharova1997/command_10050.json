@@ -1,0 +1,16 @@
+{
+  "utterance_id": 10050,
+  "utterance-type": "Command",
+  "ontology-label": "Lamp",
+  "text": "выключи свет",
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceFeature": [
+        1
+      ]
+    }
+  ]
+}

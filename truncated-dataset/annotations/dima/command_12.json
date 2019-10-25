@@ -1,0 +1,17 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "выключи музыку"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ]
+}

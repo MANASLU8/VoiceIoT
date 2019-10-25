@@ -1,0 +1,22 @@
+{
+  "utterance_id": 1500,
+  "utterance-type": "Command",
+  "ontology-label": "AudioSystem",
+  "text": [
+    "доаваь трек в избранное"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "DeviceParameter": [
+        1
+      ],
+      "DeviceFeature": [
+        3,
+        4
+      ]
+    }
+  ]
+}

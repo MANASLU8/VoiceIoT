@@ -1,0 +1,17 @@
+{
+  "utterance_id": 60,
+  "utterance-type": "Command",
+  "ontology-label": "CoffeeMachine",
+  "text": "проверь состояние кофеварки",
+  "slots-indices": [
+    {
+      "Request": [
+        0,
+        1
+      ],
+      "DEVICE": [
+        2
+      ]
+    }
+  ]
+}

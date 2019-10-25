@@ -2,12 +2,9 @@
   "utterance_id": 2003,
   "utterance-type": "Command",
   "ontology-label": [
-    "LightSensor",
     "Lamp",
     "FloorLite",
-    [
-      "MotionSensor"
-    ]
+    "MotionSensor"
   ],
   "text": [
     "Выключай свет если я ухожу из прихожей"

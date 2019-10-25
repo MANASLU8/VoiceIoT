@@ -1,0 +1,25 @@
+{
+  "utterance-type": "Command",
+  "ontology-label": "AlarmClock",
+  "text": [
+    "разбуди меня завтра утром"
+  ],
+  "slots-indices": [
+    {
+      "COMMAND": [
+        0
+      ],
+      "CommandFeature": [
+        1
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
+        3
+      ]
+    }
+  ]
+}

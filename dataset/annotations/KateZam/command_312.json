@@ -2,9 +2,9 @@
   "utterance_id": 312,
   "utterance-type": "Command",
   "ontology-label": [
-    "LightSensor",
-    "DoorWindowStatusSensor",
-    "CurtainsRelay"
+    "CurtainsRelay",
+    "Lighting",
+    "DoorWindowStatusSensor"
   ],
   "text": [
     "ежели за окном солнце открой шторы"
