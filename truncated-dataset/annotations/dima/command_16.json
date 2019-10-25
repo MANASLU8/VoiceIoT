@@ -1,8 +1,8 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "Lamp",
+  "ontology-label": "WindowRelay",
   "text": [
-    "включи лампочки"
+    "закрыть окно"
   ],
   "slots-indices": [
     {

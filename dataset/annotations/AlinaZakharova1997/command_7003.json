@@ -2,11 +2,8 @@
   "utterance_id": 7001,
   "utterance-type": "Command",
   "ontology-label": [
-    "Lighting",
     "Lamp",
-    [
-      "MotionSensor"
-    ]
+    "MotionSensor"
   ],
   "text": "Выключай свет вдруг я выйду из комнаты",
   "slots-indices": [

@@ -1,15 +1,15 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "Lamp",
+  "ontology-label": "AudioSystem",
   "text": [
-    "включи лампочки"
+    "выключи музыку"
   ],
   "slots-indices": [
     {
       "COMMAND": [
         0
       ],
-      "DeviceFeature": [
+      "CommandFeature": [
         1
       ]
     }

@@ -1,12 +1,8 @@
 {
-  "utterance_id": 6007,
   "utterance-type": "Command",
-  "ontology-label": [
-    "Lamp",
-    "FloorLite"
-  ],
+  "ontology-label": "AlarmClock",
   "text": [
-    "Гаси свет в комнате"
+    "разбуди меня завтра утром"
   ],
   "slots-indices": [
     {
@@ -15,8 +11,13 @@
       ],
       "CommandFeature": [
         1
-      ],
-      "LOC": [
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "time:DateTimeDescription": [
+        2,
         3
       ]
     }

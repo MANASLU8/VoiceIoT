@@ -2353,7 +2353,7 @@
     "utterance-type": "Command",
     "ontology-label": "AudioSystem",
     "text": [
-      "выключи музыку когда я выйду из квартиры"
+      "выключи музыку"
     ],
     "slots-indices": [
       {
@@ -2363,26 +2363,7 @@
         "CommandFeature": [
           1
         ]
-      },
-      {
-        "Actor": [
-          3
-        ],
-        "Action": [
-          4
-        ],
-        "LOC": [
-          5,
-          6
-        ]
       }
     ],
-    "condition-indices": [
-      2,
-      3,
-      4,
-      5,
-      6
-    ]
   }
 }

@@ -1,6 +1,9 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "Lighting",
+  "ontology-label": [
+    "Lamp",
+    "MotionSensor"
+  ],
   "text": [
     "Включить свет в санузле при наличии внутри кого-либо и выключить если никого нет более число минут"
   ],

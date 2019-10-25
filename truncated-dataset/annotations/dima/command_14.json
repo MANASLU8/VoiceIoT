@@ -1,15 +1,15 @@
 {
   "utterance-type": "Command",
-  "ontology-label": "Lamp",
+  "ontology-label": "WindowRelay",
   "text": [
-    "включи лампочки"
+    "проветрить комнату"
   ],
   "slots-indices": [
     {
       "COMMAND": [
         0
       ],
-      "DeviceFeature": [
+      "LOC": [
         1
       ]
     }

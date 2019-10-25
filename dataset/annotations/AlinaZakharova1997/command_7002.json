@@ -2,11 +2,8 @@
   "utterance_id": 7002,
   "utterance-type": "Command",
   "ontology-label": [
-    "Lighting",
     "Lamp",
-    [
-      "AudioSystem"
-    ]
+    "AudioSystem"
   ],
   "text": "ослабь свет и включи успокаивающую песню",
   "slots-indices": [
