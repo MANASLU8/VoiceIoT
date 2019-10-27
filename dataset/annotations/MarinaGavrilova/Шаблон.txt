@@ -1,0 +1,60 @@
+{
+  "utterance_id": ,
+  "utterance-type": "Command/IndirectCommand",
+  "ontology-label": "",
+  "text": [
+    ""
+  ],
+  "slots-indices": [
+    {
+      "Actor": [
+        
+      ],
+      "Action": [
+        
+      ],
+      "COMMAND": [
+        
+      ],
+      "FeatureState": [
+        
+      ],
+	"DEVICE": [
+        
+      ],
+	"DeviceParameterValue": [
+        
+      ],
+      "CommandFeature": [
+        
+      ],
+      "CommandParameter": [
+        
+      ],
+      "CommandParameterValue": [
+        
+      ]
+    }
+  ],
+  "condition-indices": [
+    
+  ],
+  "schedule": [
+    {
+      "regularlyRepeating": [
+        
+      ],
+	"time:DateTimeDescription": [
+        
+      ]
+    }
+  ],
+  "hidden-slot-indices": [
+    {
+      "Device": [
+        
+      ]
+    }
+  ]
+
+}
