@@ -1,0 +1,493 @@
+<http://voice.iot/AirConditioning>	сплит система		останови	
+<http://voice.iot/AirConditioning>	сплитуха		останови	
+<http://voice.iot/AirConditioning>	сплит система		прекрати	
+<http://voice.iot/AirConditioning>	сплитуха		прекрати	
+<http://voice.iot/AirConditioning>	сплит система		выключать	
+<http://voice.iot/AirConditioning>	сплитуха		выключать	
+<http://voice.iot/AirConditioning>	сплит система		выруби	
+<http://voice.iot/AirConditioning>	сплитуха		выруби	
+<http://voice.iot/AirConditioning>	сплит система		оффни	
+<http://voice.iot/AirConditioning>	сплитуха		оффни	
+<http://voice.iot/AirConditioning>	кондиционер		включать	градус
+<http://voice.iot/AirConditioning>	кондиционер		вруби	градус
+<http://voice.iot/AirConditioning>	кондиционер		установи	градус
+<http://voice.iot/AirConditioning>	кондиционер		поставь	градус
+<http://voice.iot/AirConditioning>	сплит система		установи	градус
+<http://voice.iot/AirConditioning>	сплитуха		установи	градус
+<http://voice.iot/AirConditioning>	сплит система		включать	градус
+<http://voice.iot/AirConditioning>	сплитуха		включать	градус
+<http://voice.iot/AirConditioning>	сплит система		вруби	градус
+<http://voice.iot/AirConditioning>	сплитуха		вруби	градус
+<http://voice.iot/AirConditioning>	сплитуха		поставь	градус
+<http://voice.iot/AirConditioning>	сплит система		поставь	градус
+<http://voice.iot/AirConditioning>	кондиционер		выключать	
+<http://voice.iot/AirConditioning>	кондиционер		выруби	
+<http://voice.iot/AirConditioning>	кондиционер		прекрати	
+<http://voice.iot/AirConditioning>	кондиционер		оффни	
+<http://voice.iot/AirConditioning>	кондиционер		останови	
+<http://voice.iot/AlarmClock>	будильник		включать	час
+<http://voice.iot/AlarmClock>	будильник		вруби	час
+<http://voice.iot/AlarmClock>	будильник		разбуди	час
+<http://voice.iot/AlarmClock>	будильник		поставь	час
+<http://voice.iot/AlarmClock>	будильник		установи	час
+<http://voice.iot/AlarmClock>	будильник		выключать	
+<http://voice.iot/AlarmClock>	будильник		выруби	
+<http://voice.iot/AlarmClock>	будильник		останови	
+<http://voice.iot/AlarmClock>	будильник		прекрати	
+<http://voice.iot/AlarmClock>	будильник		оффни	
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	выключать	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	выруби	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	оффни	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	останови	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	прекрати	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	воспроизводить	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	включать	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	вруби	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	поставь	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	проигрывать	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	установи	песню
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	выключать	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	выруби	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	оффни	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	останови	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	прекрати	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	воспроизводить	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	увеличивать	громкость
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	включать	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	вруби	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	поставь	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	проигрывать	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	установи	трек
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	тише	громкость
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	сделай тише	громкость
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	уменьшать	громкость
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	сделай громче	громкость
+<http://voice.iot/AudioSystem>	аудиосистема	музыка	громче	громкость
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	включать	процентов
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	включать	процентов
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	вруби	процентов
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	вруби	процентов
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	выключать	
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	выруби	
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	вари	
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	свари	
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	сделай	
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	сделай кофе	
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	прекрати	
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	оффни	
+<http://voice.iot/CoffeeMachine>	кофеварка	кофе	останови	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	оффни	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	останови	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	прекрати	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	вари	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	выключать	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	выруби	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	сделай кофе	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	свари	
+<http://voice.iot/CoffeeMachine>	кофемашина	кофе	сделай	
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	поставь	процентов
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	установи	процентов
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	включать	процентов
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	вруби	процентов
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	разбуди	процентов
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	выруби	
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	оффни	
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	останови	
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	выключать	
+<http://voice.iot/CurtainsRelay>	регулятор открытия штор	жалюзи	прекрати	
+<http://voice.iot/DoorBell>	дверной звонок		включать	процентов
+<http://voice.iot/DoorBell>	дверной звонок		вруби	процентов
+<http://voice.iot/DoorBell>	звонок		прекрати	
+<http://voice.iot/DoorBell>	звонок		выключать	
+<http://voice.iot/DoorBell>	дверной звонок		выключать	
+<http://voice.iot/DoorBell>	звонок		выруби	
+<http://voice.iot/DoorBell>	дверной звонок		выруби	
+<http://voice.iot/DoorBell>	дверной звонок		оффни	
+<http://voice.iot/DoorBell>	дверной звонок		останови	
+<http://voice.iot/DoorBell>	дверной звонок		прекрати	
+<http://voice.iot/DoorBell>	звонок		оффни	
+<http://voice.iot/DoorBell>	звонок		останови	
+<http://voice.iot/DoorBell>	звонок		включать	процентов
+<http://voice.iot/DoorBell>	звонок		вруби	процентов
+<http://voice.iot/FloorLite>	напольные лампочки		подсветить	
+<http://voice.iot/FloorLite>	подсветка пола		подсветить	
+<http://voice.iot/FloorLite>	подсветка		выключать	
+<http://voice.iot/FloorLite>	подсветка пола		выключать	
+<http://voice.iot/FloorLite>	подсветка		выруби	
+<http://voice.iot/FloorLite>	подсветка пола		выруби	
+<http://voice.iot/FloorLite>	подсветка		включать	
+<http://voice.iot/FloorLite>	подсветка пола		включать	
+<http://voice.iot/FloorLite>	подсветка		вруби	
+<http://voice.iot/FloorLite>	подсветка пола		вруби	
+<http://voice.iot/FloorLite>	подсветка		прекрати	
+<http://voice.iot/FloorLite>	подсветка пола		прекрати	
+<http://voice.iot/FloorLite>	подсветка		подсветить	
+<http://voice.iot/FloorLite>	подсветка		оффни	
+<http://voice.iot/FloorLite>	подсветка пола		оффни	
+<http://voice.iot/FloorLite>	подсветка		останови	
+<http://voice.iot/FloorLite>	подсветка пола		останови	
+<http://voice.iot/FloorLite>	напольные лампочки		выключать	
+<http://voice.iot/FloorLite>	напольные лампочки		выруби	
+<http://voice.iot/FloorLite>	напольные лампочки		включать	
+<http://voice.iot/FloorLite>	напольные лампочки		вруби	
+<http://voice.iot/FloorLite>	напольные лампочки		прекрати	
+<http://voice.iot/FloorLite>	напольные лампочки		оффни	
+<http://voice.iot/FloorLite>	напольные лампочки		останови	
+<http://voice.iot/HeatingFloor>	пол с подогревом		включать	градус
+<http://voice.iot/HeatingFloor>	пол		включать	градус
+<http://voice.iot/HeatingFloor>	пол с подогревом		вруби	градус
+<http://voice.iot/HeatingFloor>	пол		вруби	градус
+<http://voice.iot/HeatingFloor>	пол с подогревом		выключать	
+<http://voice.iot/HeatingFloor>	пол		выключать	
+<http://voice.iot/HeatingFloor>	пол с подогревом		выруби	
+<http://voice.iot/HeatingFloor>	пол		выруби	
+<http://voice.iot/HeatingFloor>	пол с подогревом		оффни	
+<http://voice.iot/HeatingFloor>	пол		оффни	
+<http://voice.iot/HeatingFloor>	пол с подогревом		прекрати	
+<http://voice.iot/HeatingFloor>	пол		прекрати	
+<http://voice.iot/HeatingFloor>	пол с подогревом		останови	
+<http://voice.iot/HeatingFloor>	пол		останови	
+<http://voice.iot/Printer>	принтер		напечатай	файл
+<http://voice.iot/Printer>	принтер		распечатай	файл
+<http://voice.iot/Printer>	принтер		напечатай	документ
+<http://voice.iot/Printer>	принтер		распечатай	документ
+<http://voice.iot/Printer>	принтер		напечатай	картинку
+<http://voice.iot/Printer>	принтер		распечатай	картинку
+<http://voice.iot/Printer>	принтер		напечатай	фотографию
+<http://voice.iot/Printer>	принтер		распечатай	фотографию
+<http://voice.iot/Printer>	принтер		напечатай	фото
+<http://voice.iot/Printer>	принтер		распечатай	фото
+<http://voice.iot/Printer>	принтер		выключать	
+<http://voice.iot/Printer>	принтер		прекрати	
+<http://voice.iot/Printer>	принтер		включать	
+<http://voice.iot/Printer>	принтер		выруби	
+<http://voice.iot/Printer>	принтер		вруби	
+<http://voice.iot/Printer>	принтер		оффни	
+<http://voice.iot/Printer>	принтер		останови	
+<http://voice.iot/SmartFridge>	морозилка		подсветить	
+<http://voice.iot/SmartFridge>	морозильная камера		подсветить	
+<http://voice.iot/SmartFridge>	морозилка		выключать	
+<http://voice.iot/SmartFridge>	морозилка		прекрати	
+<http://voice.iot/SmartFridge>	морозилка		выруби	
+<http://voice.iot/SmartFridge>	морозилка		вруби	
+<http://voice.iot/SmartFridge>	морозилка		включать	
+<http://voice.iot/SmartFridge>	морозилка		оффни	
+<http://voice.iot/SmartFridge>	морозилка		останови	
+<http://voice.iot/SmartFridge>	морозильная камера		прекрати	
+<http://voice.iot/SmartFridge>	морозильная камера		оффни	
+<http://voice.iot/SmartFridge>	морозильная камера		вруби	
+<http://voice.iot/SmartFridge>	морозильная камера		выключать	
+<http://voice.iot/SmartFridge>	морозильная камера		выруби	
+<http://voice.iot/SmartFridge>	морозильная камера		включать	
+<http://voice.iot/SmartFridge>	морозильная камера		останови	
+<http://voice.iot/SmartFridge>	холодильник		выключать	
+<http://voice.iot/SmartFridge>	холодильник		выруби	
+<http://voice.iot/SmartFridge>	холодильник		включать	
+<http://voice.iot/SmartFridge>	холодильник		вруби	
+<http://voice.iot/SmartFridge>	холодильник		прекрати	
+<http://voice.iot/SmartFridge>	холодильник		подсветить	
+<http://voice.iot/SmartFridge>	холодильник		оффни	
+<http://voice.iot/SmartFridge>	холодильник		останови	
+<http://voice.iot/SmartMicrowave>	микроволновая печь		разогреть	час
+<http://voice.iot/SmartMicrowave>	микроволновая печь		приготовить	час
+<http://voice.iot/SmartMicrowave>	микроволновая печь		погреть	час
+<http://voice.iot/SmartMicrowave>	микроволновка		приготовить	час
+<http://voice.iot/SmartMicrowave>	микроволновка		вруби	час
+<http://voice.iot/SmartMicrowave>	микроволновая печь		вруби	час
+<http://voice.iot/SmartMicrowave>	микроволновка		включать	час
+<http://voice.iot/SmartMicrowave>	микроволновая печь		включать	час
+<http://voice.iot/SmartMicrowave>	микроволновка		погреть	час
+<http://voice.iot/SmartMicrowave>	микроволновка		разогреть	час
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		погреть	час
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		разогреть	час
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		приготовить	час
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		включать	час
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		вруби	час
+<http://voice.iot/SmartMicrowave>	микроволновка		выключать	
+<http://voice.iot/SmartMicrowave>	микроволновая печь		выключать	
+<http://voice.iot/SmartMicrowave>	микроволновка		выруби	
+<http://voice.iot/SmartMicrowave>	микроволновая печь		выруби	
+<http://voice.iot/SmartMicrowave>	микроволновка		прекрати	
+<http://voice.iot/SmartMicrowave>	микроволновая печь		прекрати	
+<http://voice.iot/SmartMicrowave>	микроволновка		оффни	
+<http://voice.iot/SmartMicrowave>	микроволновая печь		оффни	
+<http://voice.iot/SmartMicrowave>	микроволновка		останови	
+<http://voice.iot/SmartMicrowave>	микроволновая печь		останови	
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		выключать	
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		выруби	
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		прекрати	
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		останови	
+<http://voice.iot/SmartMicrowave>	СВЧ-печь		оффни	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	проветри	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	проветри	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	проветри	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	проветри	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	проветри	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	проветри	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	проветри	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	проветри	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	оффни	
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	останови	
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	выключать	
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	выруби	
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	закрой	
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	прекрати	
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	выключать	
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	выруби	
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	оффни	
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	вруби	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	вруби	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	установи	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	установи	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	поставь	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	поставь	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	включать	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	вруби	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	включать	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	вруби	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	поставь	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	установи	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	поставь	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	включать	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	включать	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	установи	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	поставь	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	вруби	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	поставь	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	включать	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	включать	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	включать	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	вруби	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	вруби	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	вруби	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	установи	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	поставь	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	поставь	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	дождь	установи	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	установи	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	включать	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	установи	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	останови	
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	закрой	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	закрой	
+<http://voice.iot/WindowRelay>	реле закрытия окна	дождь	прекрати	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	выключать	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	закрой	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	останови	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	выключать	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	оффни	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	выруби	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	выруби	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	прекрати	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	останови	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	дождь	прекрати	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	дождь	оффни	
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	установи	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	установи	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	поставь	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	поставь	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	проветри	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	проветри	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	проветри	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	включать	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	вруби	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	включать	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	вруби	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	поставь	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	проветри	процентов
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	установи	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	поставь	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	включать	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	включать	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	вруби	процентов
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	вруби	процентов
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	установи	процентов
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	проветри	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	проветри	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	проветри	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	проветри	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	оффни	
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	останови	
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	выключать	
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	выруби	
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	закрой	
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	прекрати	
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	выключать	
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	выруби	
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	оффни	
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	останови	
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	закрой	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	закрой	
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	прекрати	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	выключать	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	закрой	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	останови	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	выключать	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	оффни	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	выруби	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	выруби	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	прекрати	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	останови	
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	прекрати	
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	оффни	
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	включать	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	вруби	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	поставь	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	включать	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	вруби	градус
+<http://voice.iot/WindowRelay>	реле открытия окна	душно	установи	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	установи	градус
+<http://voice.iot/WindowRelay>	реле закрытия окна	душно	поставь	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	включать	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	вруби	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	включать	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	вруби	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	поставь	градус
+<http://voice.iot/WindowRelay>	регулятор открытия окна	душно	установи	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	поставь	градус
+<http://voice.iot/WindowRelay>	регулятор закрытия окна	душно	установи	градус
+<http://voice.iot/chandelier1>	люстра		включать	люмен
+<http://voice.iot/chandelier1>	люстра		вруби	люмен
+<http://voice.iot/chandelier1>	свет		включать	люмен
+<http://voice.iot/chandelier1>	свет		вруби	люмен
+<http://voice.iot/chandelier1>	люстра		выключать	
+<http://voice.iot/chandelier1>	люстра		выруби	
+<http://voice.iot/chandelier1>	свет		оффни	
+<http://voice.iot/chandelier1>	свет		останови	
+<http://voice.iot/chandelier1>	свет		прекрати	
+<http://voice.iot/chandelier1>	свет		выключать	
+<http://voice.iot/chandelier1>	свет		выруби	
+<http://voice.iot/chandelier1>	люстра		прекрати	
+<http://voice.iot/chandelier1>	люстра		оффни	
+<http://voice.iot/chandelier1>	люстра		останови	
+<http://voice.iot/lamp1>	лампочка		включать	люмен
+<http://voice.iot/lamp1>	лампа		включать	люмен
+<http://voice.iot/lamp1>	лампочка		вруби	люмен
+<http://voice.iot/lamp1>	лампа		вруби	люмен
+<http://voice.iot/lamp1>	свет		включать	люмен
+<http://voice.iot/lamp1>	свет		вруби	люмен
+<http://voice.iot/lamp1>	лампочка		выключать	
+<http://voice.iot/lamp1>	лампа		выключать	
+<http://voice.iot/lamp1>	лампочка		выруби	
+<http://voice.iot/lamp1>	лампа		выруби	
+<http://voice.iot/lamp1>	свет		оффни	
+<http://voice.iot/lamp1>	свет		останови	
+<http://voice.iot/lamp1>	свет		прекрати	
+<http://voice.iot/lamp1>	свет		выключать	
+<http://voice.iot/lamp1>	свет		выруби	
+<http://voice.iot/lamp1>	лампочка		прекрати	
+<http://voice.iot/lamp1>	лампа		прекрати	
+<http://voice.iot/lamp1>	лампочка		оффни	
+<http://voice.iot/lamp1>	лампа		оффни	
+<http://voice.iot/lamp1>	лампочка		останови	
+<http://voice.iot/lamp1>	лампа		останови	
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	испечь	градус
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	приготовить	градус
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	включать	градус
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	вруби	градус
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	включать	градус
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	включать	градус
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	вруби	градус
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	вруби	градус
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	испечь	градус
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	испечь	градус
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	приготовить	градус
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	приготовить	градус
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	испечь	час
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	приготовить	час
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	включать	час
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	вруби	час
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	включать	час
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	включать	час
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	вруби	час
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	вруби	час
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	испечь	час
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	испечь	час
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	приготовить	час
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	приготовить	час
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	оффни	
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	прекрати	
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	останови	
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	выключать	
+<http://voice.iot/smartBreadMaker>	выпекалка	хлеб	выруби	
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	выключать	
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	выключать	
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	выруби	
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	выруби	
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	прекрати	
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	прекрати	
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	оффни	
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	оффни	
+<http://voice.iot/smartBreadMaker>	хлебопечка	хлеб	останови	
+<http://voice.iot/smartBreadMaker>	хлебопечь	хлеб	останови	
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	испечь	градус
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	приготовить	градус
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	включать	градус
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	вруби	градус
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	включать	градус
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	включать	градус
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	вруби	градус
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	вруби	градус
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	испечь	градус
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	испечь	градус
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	приготовить	градус
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	приготовить	градус
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	испечь	час
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	приготовить	час
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	включать	час
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	вруби	час
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	включать	час
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	включать	час
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	вруби	час
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	вруби	час
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	испечь	час
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	испечь	час
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	приготовить	час
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	приготовить	час
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	оффни	
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	прекрати	
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	останови	
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	выключать	
+<http://voice.iot/smartBreadMaker>	выпекалка	готовка	выруби	
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	выключать	
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	выключать	
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	выруби	
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	выруби	
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	прекрати	
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	прекрати	
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	оффни	
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	оффни	
+<http://voice.iot/smartBreadMaker>	хлебопечка	готовка	останови	
+<http://voice.iot/smartBreadMaker>	хлебопечь	готовка	останови	
+<http://voice.iot/washing_machine1>	стиралка	белье	включать	градус
+<http://voice.iot/washing_machine1>	стиралка	белье	вруби	градус
+<http://voice.iot/washing_machine1>	стиралка	белье	постирать	градус
+<http://voice.iot/washing_machine1>	стирка	белье	включать	градус
+<http://voice.iot/washing_machine1>	стирка	белье	вруби	градус
+<http://voice.iot/washing_machine1>	стирка	белье	постирать	градус
+<http://voice.iot/washing_machine1>	стиралка	белье	выключать	
+<http://voice.iot/washing_machine1>	стиралка	белье	выруби	
+<http://voice.iot/washing_machine1>	стиралка	белье	оффни	
+<http://voice.iot/washing_machine1>	стиралка	белье	останови	
+<http://voice.iot/washing_machine1>	стиралка	белье	прекрати	
+<http://voice.iot/washing_machine1>	стирка	белье	выключать	
+<http://voice.iot/washing_machine1>	стирка	белье	выруби	
+<http://voice.iot/washing_machine1>	стирка	белье	оффни	
+<http://voice.iot/washing_machine1>	стирка	белье	останови	
+<http://voice.iot/washing_machine1>	стирка	белье	прекрати	
+<http://voice.iot/washing_machine1>	стиралка	стирка	включать	градус
+<http://voice.iot/washing_machine1>	стиралка	стирка	вруби	градус
+<http://voice.iot/washing_machine1>	стиралка	стирка	постирать	градус
+<http://voice.iot/washing_machine1>	стирка	стирка	включать	градус
+<http://voice.iot/washing_machine1>	стирка	стирка	вруби	градус
+<http://voice.iot/washing_machine1>	стирка	стирка	постирать	градус
+<http://voice.iot/washing_machine1>	стиралка	стирка	выключать	
+<http://voice.iot/washing_machine1>	стиралка	стирка	выруби	
+<http://voice.iot/washing_machine1>	стиралка	стирка	оффни	
+<http://voice.iot/washing_machine1>	стиралка	стирка	останови	
+<http://voice.iot/washing_machine1>	стиралка	стирка	прекрати	
+<http://voice.iot/washing_machine1>	стирка	стирка	выключать	
+<http://voice.iot/washing_machine1>	стирка	стирка	выруби	
+<http://voice.iot/washing_machine1>	стирка	стирка	оффни	
+<http://voice.iot/washing_machine1>	стирка	стирка	останови	
+<http://voice.iot/washing_machine1>	стирка	стирка	прекрати
