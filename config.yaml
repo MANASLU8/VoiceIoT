@@ -16,10 +16,10 @@ paths:
     w2v: models/w2v
     ar100w2v: ~/models/ArModel100w2v.txt
   datasets:
-    root: dataset
-    annotations: dataset/annotations
-    flawy-denormalized: dataset/denormalized-annotations/flawy.json
-    nice-denormalized: dataset/denormalized-annotations/nice.json
+    root: truncated-dataset
+    annotations: truncated-dataset/annotations
+    flawy-denormalized: truncated-dataset/denormalized-annotations/flawy.json
+    nice-denormalized: truncated-dataset/denormalized-annotations/nice.json
     request-mapping:
       lemmas: dataset/request-mapping/lemmas.json
       lemmas-fine-splitted: dataset/request-mapping/lemmas-fine-splitted.json
@@ -40,18 +40,18 @@ paths:
     rnnda:
       data: dataset/rnnda/all_text.txt
     pytext:
-      data: dataset/pytext/data.tsv
-      data-extended: dataset/pytext/data-extended.tsv
-      train: dataset/pytext/train.tsv
-      train-extended: dataset/pytext/train-extended.tsv
-      test: dataset/pytext/test.json
-      test-extended: dataset/pytext/test-extended.json
-      validate: dataset/pytext/validate.tsv
-      validate-extended: dataset/pytext/validate-extended.tsv
+      data: truncated-dataset/pytext/data.tsv
+      data-extended: truncated-dataset/pytext/data-extended.tsv
+      train: truncated-dataset/pytext/train.tsv
+      train-extended: truncated-dataset/pytext/train-extended.tsv
+      test: truncated-dataset/pytext/test.json
+      test-extended: truncated-dataset/pytext/test-extended.json
+      validate: truncated-dataset/pytext/validate.tsv
+      validate-extended: truncated-dataset/pytext/validate-extended.tsv
     snips-nlu:
-      data: dataset/snips-nlu/data.json
-      train: dataset/snips-nlu/train.tsv
-      test: dataset/snips-nlu/test.json
+      data: truncated-dataset/snips-nlu/data.json
+      train: truncated-dataset/snips-nlu/train.json
+      test: truncated-dataset/snips-nlu/test.json
     slots-intents:
       data: dataset/slots-intents/data.csv
       train: dataset/slots-intents/train.csv

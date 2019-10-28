@@ -3,7 +3,7 @@
   "utterance-type": "Command",
   "ontology-label": "AudioSystem",
   "text": [
-    "доаваь трек в избранное"
+    "добавь трек в избранное"
   ],
   "slots-indices": [
     {

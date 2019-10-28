@@ -30,8 +30,8 @@ def handle_files(input_files):
 		text = fe.extract_text(annotation)
 		simplified_text = re.sub(r'[^\w\s]','',text).lower()
 		splitted_text = simplified_text.split(' ')
-		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label or not fe.extract_utterance_type(annotation) or fe.extract_utterance_type(annotation) != 'Command' or\
-			len(intersection(forbidden_words, splitted_text)) > 0:
+		if 'slots-indices' not in annotation or len(annotation['slots-indices']) < 1 or not ontology_label or not fe.extract_utterance_type(annotation):\
+			#or fe.extract_utterance_type(annotation) != 'Command' or len(intersection(forbidden_words, splitted_text)) > 0:
 			continue
 		counter += 1
 		if 'slots-indices' in annotation:

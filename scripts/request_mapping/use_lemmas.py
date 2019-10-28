@@ -6,7 +6,7 @@ import collections
 if __name__ == "__main__":
 	config = utils.load_config(utils.parse_args().config)
 
-USE_LEMMAS = True
+USE_LEMMAS = False
 VERBOSE = False
 MOST_FREQUENT_LABEL = "--"#"AudioSystem>"
 

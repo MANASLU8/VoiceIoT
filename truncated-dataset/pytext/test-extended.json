@@ -1,130 +1,771 @@
 {
-  "Lamp": [
+  "AudioSystem": [
     {
-      "text": "меняй каждый день фонарик на время",
+      "text": "воспроизведи альбом abbey road the beatles",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "сделай чуть тише",
+      "slots": [
+        "COMMAND",
+        "IntensityQuantifier",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "запусти плейлист с танцевальной музыкой",
       "slots": [
         "COMMAND",
         "NoLabel",
         "NoLabel",
-        "DeviceFeature",
-        "NoLabel",
-        "CommandParameterValue"
+        "CommandFeature",
+        "CommandFeature"
       ],
-      "intent": "Lamp"
+      "intent": "AudioSystem"
     },
     {
-      "text": "выключи свет",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature"
-      ],
-      "intent": "Lamp"
-    },
-    {
-      "text": "выключи свет в ванной",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature",
-        "NoLabel",
-        "LOC"
-      ],
-      "intent": "Lamp"
-    },
-    {
-      "text": "включи электричество в спальне",
+      "text": "увеличь громкость чтобы не мешал шум ",
       "slots": [
         "COMMAND",
         "CommandFeature",
         "NoLabel",
-        "LOC"
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ],
-      "intent": "Lamp"
+      "intent": "AudioSystem"
     },
     {
-      "text": "оффни светильник",
+      "text": "увеличь громкость на два пункта",
       "slots": [
         "COMMAND",
+        "CommandFeature",
+        "FeatureStateValue",
+        "FeatureStateValue",
+        "FeatureStateValue"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "включай ежедневную подборку музыки к моему приходу",
+      "slots": [
+        "COMMAND",
+        "СommandFeature",
+        "СommandFeature",
+        "СommandFeature",
+        "NoLabel",
+        "Actor",
+        "Aсtion"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "каждый вечер в время включай музыку на плеере",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "DeviceParameterValue",
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "DEVICE"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "выведи текст песни на экран телефона",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "DEVICE"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "добавь песню в мою коллекцию",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "воспроизведи её",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "переключи трек",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "подбирай песни под ритм бега",
+      "slots": [
+        "COMMAND",
+        "DeviceParameter",
+        "NoLabel",
+        "DeviceFeature",
         "DeviceFeature"
       ],
-      "intent": "Lamp"
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "сделай чуть громче",
+      "slots": [
+        "COMMAND",
+        "IntensityQuantifier",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "пусть музыка следует за мной",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "Command",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "проигрывай в случайном порядке",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "добавь трек в избранное",
+      "slots": [
+        "COMMAND",
+        "DeviceParameter",
+        "NoLabel",
+        "DeviceFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "найди клип к этой песне на youtube",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "сделай музыку тише",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "выключи музыку",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "прибавь громкости",
+      "slots": [
+        "COMMAND",
+        "IntensityQuantifier"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "включи следующий трек",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "пометь песню как мою любимую",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "DeviceFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "выключай песню",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "включи музыку в 5 вечера",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "добавь мелодию в мою коллекцию",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "Actor",
+        "DeviceFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "увеличь частоту чтобы не мешал шум",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "увеличь громкость на 4 пункта",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "FeatureStateValue",
+        "FeatureStateValue",
+        "FeatureStateValue"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "ставь эту песню чаще",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "CommandFeature",
+        "IntensityQuantifier"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "добавляй песню в мою коллекцию",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "увеличьте громкость чтобы не мешал стук",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "сделай громче",
+      "slots": [
+        "COMMAND",
+        "IntensityQuantifier"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "пропусти песню",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "добавить песню в мою коллекцию",
+      "slots": [
+        "COMMAND",
+        "DeviceParameter",
+        "NoLabel",
+        "DeviceFeature",
+        "DeviceFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "увеличь звук на три пункта",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "DeviceParameterValue",
+        "DeviceFeature"
+      ],
+      "intent": "AudioSystem"
+    },
+    {
+      "text": "увеличь громкость чтобы не мешал стук",
+      "slots": [
+        "COMMAND",
+        "DeviceParameterValue",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "AudioSystem"
     }
   ],
-  "AlarmClock": [
+  "WindowRelay": [
     {
-      "text": "ставь каждый раз будильник на время",
+      "text": "проветри сейчас",
       "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "DEVICE",
-        "NoLabel",
-        "DeviceParameter"
+        "Command",
+        "NoLabel"
       ],
-      "intent": "AlarmClock"
+      "intent": "WindowRelay"
     },
     {
-      "text": "поменяй каждый вечер будильник на время",
+      "text": "проветривай помещение каждые число минут в течение число минут избегая сквозняков",
       "slots": [
         "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "DEVICE",
-        "NoLabel",
-        "DeviceParameterValue"
-      ],
-      "intent": "AlarmClock"
-    },
-    {
-      "text": "ставь каждый день будильник на время",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "DEVICE",
-        "NoLabel",
-        "DeviceParameterValue"
-      ],
-      "intent": "AlarmClock"
-    },
-    {
-      "text": "поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "DEVICE",
+        "CommandFeature",
         "NoLabel",
         "DeviceParameterValue",
         "NoLabel",
         "NoLabel",
         "NoLabel",
+        "DeviceParameterValue",
+        "NoLabel",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "проветривай каждые число часа",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "проветривай во время моего сна",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "помой окна после дождя",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "проветрить здесь пока я буду на кухне",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
+        "LOC"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "проветрить комнату",
+      "slots": [
+        "COMMAND",
+        "LOC"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "закрыть окно",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "проветрите сейчас пока я буду на кухне",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
+        "LOC"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "проветри здесь пока я буду в ванной",
+      "slots": [
+        "COMMAND",
+        "LOCCurrent",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
+        "LOC"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "проветри там",
+      "slots": [
+        "COMMAND",
+        "LOC"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "проветрите здесь пока я буду в комнате",
+      "slots": [
+        "COMMAND",
+        "LOCCurrent",
+        "NoLabel",
+        "Actor",
+        "Action",
+        "NoLabel",
+        "LOC"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "в комнате душно проветри",
+      "slots": [
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "COMMAND"
+      ],
+      "intent": "WindowRelay"
+    },
+    {
+      "text": "открой окно на кухне на 30 градусов",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature",
+        "NoLabel",
+        "LOC",
+        "NoLabel",
+        "CommandParameterValue",
+        "CommandParameter"
+      ],
+      "intent": "WindowRelay"
+    }
+  ],
+  "WashingMachine": [
+    {
+      "text": "включи стирку а потом отжим",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature"
+      ],
+      "intent": "WashingMachine"
+    },
+    {
+      "text": "включай стиральную машину в время каждое четное число месяца",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "DEVICE",
+        "NoLabel",
+        "CommandParameterValue",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "WashingMachine"
+    },
+    {
+      "text": "полощи 30 минут",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "WashingMachine"
+    },
+    {
+      "text": "запусти стирку для цветного",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "DeviceParameterValue"
+      ],
+      "intent": "WashingMachine"
+    },
+    {
+      "text": "включай стиральную машину по четвергам",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "DEVICE",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "WashingMachine"
+    },
+    {
+      "text": "включай стиральную машину в 2305 каждое четное число месяца",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "DEVICE",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "WashingMachine"
+    },
+    {
+      "text": "постирай на 90 градусах",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "DeviceParameterValue",
+        "DeviceParameter"
+      ],
+      "intent": "WashingMachine"
+    },
+    {
+      "text": "поставь в расписание стирку на 6 утра",
+      "slots": [
+        "COMMAND",
         "NoLabel",
         "NoLabel",
         "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "WashingMachine"
+    }
+  ],
+  "Printer": [
+    {
+      "text": "к время утра напечатай мне свежий выпуск новостей",
+      "slots": [
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "COMMAND",
+        "Actor",
         "CommandFeature",
         "CommandFeature",
-        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "Printer"
+    },
+    {
+      "text": "распечатай документ название через число минут",
+      "slots": [
+        "COMMAND",
         "CommandFeature",
         "CommandFeature",
         "NoLabel",
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "AlarmClock"
+      "intent": "Printer"
+    },
+    {
+      "text": "распечатай документ название спустя число часов",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "Printer"
+    },
+    {
+      "text": "распечатай паспорт название через число часа",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "Printer"
+    },
+    {
+      "text": "распечатай документ название через число секунд",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "Printer"
+    },
+    {
+      "text": "отправь бланк название через число секунд",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "Printer"
+    },
+    {
+      "text": "заполни документ",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "Printer"
+    },
+    {
+      "text": "распечатай документ через 5 минут",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "Printer"
+    },
+    {
+      "text": "распечатай документ спустя 2 часа",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "Printer"
+    },
+    {
+      "text": "сделай копию паспорта",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "intent": "Printer"
+    }
+  ],
+  "HeatingFloor": [
+    {
+      "text": "включи подогрев пола",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature",
+        "DeviceFeature"
+      ],
+      "intent": "HeatingFloor"
+    },
+    {
+      "text": "выключи подогрев дорожек",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "DeviceFeature"
+      ],
+      "intent": "HeatingFloor"
+    },
+    {
+      "text": "включи подогрев дорожек",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature",
+        "DeviceFeature"
+      ],
+      "intent": "HeatingFloor"
     }
   ],
   "SmartFridge": [
-    {
-      "text": "проверь наличие еды в холодильнике",
-      "slots": [
-        "Request",
-        "FeatureState",
-        "CommandFeature",
-        "NoLabel",
-        "LOC"
-      ],
-      "intent": "SmartFridge"
-    },
     {
       "text": "делай больше льда",
       "slots": [
@@ -174,634 +815,204 @@
         "DeviceParameterValue"
       ],
       "intent": "SmartFridge"
+    },
+    {
+      "text": "проверь наличие еды в холодильнике",
+      "slots": [
+        "Request",
+        "FeatureState",
+        "CommandFeature",
+        "NoLabel",
+        "LOC"
+      ],
+      "intent": "SmartFridge"
     }
   ],
-  "AudioSystem": [
+  "CurtainsRelay": [
     {
-      "text": "сделай громче",
+      "text": "занавесь окно",
       "slots": [
         "COMMAND",
-        "IntensityQuantifier"
+        "CommandFeature"
       ],
-      "intent": "AudioSystem"
+      "intent": "CurtainsRelay"
     },
     {
-      "text": "увеличь звук на три пункта",
+      "text": "убери шторы",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "опусти жалюзи",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "закрывай шторы",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "CurtainsRelay"
+    },
+    {
+      "text": "закрой шторы в 9 вечера",
       "slots": [
         "COMMAND",
         "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "CurtainsRelay"
+    }
+  ],
+  "AlarmClock": [
+    {
+      "text": "поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "DEVICE",
         "NoLabel",
         "DeviceParameterValue",
-        "DeviceFeature"
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
       ],
-      "intent": "AudioSystem"
+      "intent": "AlarmClock"
     },
     {
-      "text": "увеличь громкость чтобы не мешал стук",
+      "text": "разбуди меня завтра утром",
       "slots": [
         "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "AlarmClock"
+    },
+    {
+      "text": "ставь каждый день будильник на время",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "DEVICE",
+        "NoLabel",
+        "DeviceParameterValue"
+      ],
+      "intent": "AlarmClock"
+    },
+    {
+      "text": "поменяй каждый вечер будильник на время",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "DEVICE",
+        "NoLabel",
+        "DeviceParameterValue"
+      ],
+      "intent": "AlarmClock"
+    },
+    {
+      "text": "ставь каждый раз будильник на время",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "DEVICE",
+        "NoLabel",
+        "DeviceParameter"
+      ],
+      "intent": "AlarmClock"
+    }
+  ],
+  "CoffeeMachine": [
+    {
+      "text": "свари кофе завтра к число утра",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "DeviceParameterValue",
+        "NoLabel"
+      ],
+      "intent": "CoffeeMachine"
+    },
+    {
+      "text": "включить кофемашину через число минуты после будильника",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "NoLabel",
         "DeviceParameterValue",
         "NoLabel",
         "NoLabel",
+        "DEVICE"
+      ],
+      "intent": "CoffeeMachine"
+    },
+    {
+      "text": "скажи что там с кофемашиной",
+      "slots": [
+        "Request",
+        "Request",
+        "DEVICE",
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "AudioSystem"
+      "intent": "CoffeeMachine"
     },
     {
-      "text": "пропусти песню",
+      "text": "подогрей нам кофе к завтраку",
       "slots": [
         "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "добавить песню в мою коллекцию",
-      "slots": [
-        "COMMAND",
-        "DeviceParameter",
         "NoLabel",
-        "DeviceFeature",
-        "DeviceFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "увеличь частоту чтобы не мешал шум",
-      "slots": [
-        "COMMAND",
         "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "добавь мелодию в мою коллекцию",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "Actor",
-        "DeviceFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "включи музыку в 5 вечера",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "AudioSystem"
+      "intent": "CoffeeMachine"
     },
     {
-      "text": "добавляй песню в мою коллекцию",
+      "text": "приготовь эспрессо к моему возвращению",
       "slots": [
         "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "увеличьте громкость чтобы не мешал стук",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "увеличь громкость на 4 пункта",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "FeatureStateValue",
-        "FeatureStateValue",
-        "FeatureStateValue"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "ставь эту песню чаще",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "CommandFeature",
-        "IntensityQuantifier"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "прибавь громкости",
-      "slots": [
-        "COMMAND",
-        "IntensityQuantifier"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "пометь песню как мою любимую",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "Actor",
-        "DeviceFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "доаваь трек в избранное",
-      "slots": [
-        "COMMAND",
-        "DeviceParameter",
-        "NoLabel",
-        "DeviceFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "включи следующий трек",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "воспроизведи её",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "включай ежедневную подборку музыки к моему приходу",
-      "slots": [
-        "COMMAND",
-        "СommandFeature",
-        "СommandFeature",
         "СommandFeature",
         "NoLabel",
         "Actor",
         "Aсtion"
       ],
-      "intent": "AudioSystem"
+      "intent": "CoffeeMachine"
     },
     {
-      "text": "воспроизведи альбом abbey road the beatles",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "увеличь громкость чтобы не мешал шум ",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "подбирай песни под ритм бега",
-      "slots": [
-        "COMMAND",
-        "DeviceParameter",
-        "NoLabel",
-        "DeviceFeature",
-        "DeviceFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "сделай чуть громче",
-      "slots": [
-        "COMMAND",
-        "IntensityQuantifier",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "увеличь громкость на два пункта",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "FeatureStateValue",
-        "FeatureStateValue",
-        "FeatureStateValue"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "сделай чуть тише",
-      "slots": [
-        "COMMAND",
-        "IntensityQuantifier",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "выведи текст песни на экран телефона",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "DEVICE"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "пусть музыка следует за мной",
-      "slots": [
-        "NoLabel",
-        "NoLabel",
-        "Command",
-        "CommandFeature",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "каждый вечер в время включай музыку на плеере",
-      "slots": [
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "DeviceParameterValue",
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "DEVICE"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "проигрывай в случайном порядке",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "CommandFeature",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "переключи трек",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "запусти плейлист с танцевальной музыкой",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "CommandFeature",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    },
-    {
-      "text": "добавь песню в мою коллекцию",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "CommandFeature",
-        "CommandFeature"
-      ],
-      "intent": "AudioSystem"
-    }
-  ],
-  "WindowRelay": [
-    {
-      "text": "открой окно на кухне на 30 градусов",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature",
-        "NoLabel",
-        "LOC",
-        "NoLabel",
-        "CommandParameterValue",
-        "CommandParameter"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "в комнате душно проветри",
-      "slots": [
-        "NoLabel",
-        "LOC",
-        "NoLabel",
-        "COMMAND"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветрите сейчас пока я буду на кухне",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "Actor",
-        "Action",
-        "NoLabel",
-        "LOC"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветри здесь пока я буду в ванной",
-      "slots": [
-        "COMMAND",
-        "LOCCurrent",
-        "NoLabel",
-        "Actor",
-        "Action",
-        "NoLabel",
-        "LOC"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветрите здесь пока я буду в комнате",
-      "slots": [
-        "COMMAND",
-        "LOCCurrent",
-        "NoLabel",
-        "Actor",
-        "Action",
-        "NoLabel",
-        "LOC"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветри там",
-      "slots": [
-        "COMMAND",
-        "LOC"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "помой окна после дождя",
+      "text": "вари кофе каждый день",
       "slots": [
         "COMMAND",
         "CommandFeature",
         "NoLabel",
         "NoLabel"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветри сейчас",
-      "slots": [
-        "Command",
-        "NoLabel"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветривай каждые число часа",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветривай во время моего сна",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветрить здесь пока я буду на кухне",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "Actor",
-        "Action",
-        "NoLabel",
-        "LOC"
-      ],
-      "intent": "WindowRelay"
-    },
-    {
-      "text": "проветривай помещение каждые число минут в течение число минут избегая сквозняков",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "DeviceParameterValue",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "DeviceParameterValue",
-        "NoLabel",
-        "CommandFeature",
-        "CommandFeature"
-      ],
-      "intent": "WindowRelay"
-    }
-  ],
-  "SmartBreadMaker": [
-    {
-      "text": "включи готовку в 8 вечера",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "SmartBreadMaker"
-    },
-    {
-      "text": "приготовь хлеб к нашему ужину",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "SmartBreadMaker"
-    },
-    {
-      "text": "приготовь хлеб",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "SmartBreadMaker"
-    },
-    {
-      "text": "приготовь хлеб к моему приходу",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "Actor",
-        "Action"
-      ],
-      "intent": "SmartBreadMaker"
-    },
-    {
-      "text": "сделай тост",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "SmartBreadMaker"
-    }
-  ],
-  "WashingMachine": [
-    {
-      "text": "поставь в расписание стирку на 6 утра",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WashingMachine"
-    },
-    {
-      "text": "включай стиральную машину в 2305 каждое четное число месяца",
-      "slots": [
-        "COMMAND",
-        "DEVICE",
-        "DEVICE",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WashingMachine"
-    },
-    {
-      "text": "запусти стирку для цветного",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "DeviceParameterValue"
-      ],
-      "intent": "WashingMachine"
-    },
-    {
-      "text": "включай стиральную машину по четвергам",
-      "slots": [
-        "COMMAND",
-        "DEVICE",
-        "DEVICE",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WashingMachine"
-    },
-    {
-      "text": "постирай на 90 градусах",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "DeviceParameterValue",
-        "DeviceParameter"
-      ],
-      "intent": "WashingMachine"
-    },
-    {
-      "text": "полощи 30 минут",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WashingMachine"
-    },
-    {
-      "text": "включай стиральную машину в время каждое четное число месяца",
-      "slots": [
-        "COMMAND",
-        "DEVICE",
-        "DEVICE",
-        "NoLabel",
-        "CommandParameterValue",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "WashingMachine"
-    },
-    {
-      "text": "включи стирку а потом отжим",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "CommandFeature"
-      ],
-      "intent": "WashingMachine"
-    }
-  ],
-  "CoffeeMachine": [
-    {
-      "text": "проверь состояние кофеварки",
-      "slots": [
-        "Request",
-        "Request",
-        "DEVICE"
       ],
       "intent": "CoffeeMachine"
     },
@@ -840,186 +1051,85 @@
       "intent": "CoffeeMachine"
     },
     {
-      "text": "скажи что там с кофемашиной",
+      "text": "проверь состояние кофеварки",
       "slots": [
         "Request",
         "Request",
-        "DEVICE",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "CoffeeMachine"
-    },
-    {
-      "text": "подогрей нам кофе к завтраку",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "CoffeeMachine"
-    },
-    {
-      "text": "приготовь эспрессо к моему возвращению",
-      "slots": [
-        "COMMAND",
-        "СommandFeature",
-        "NoLabel",
-        "Actor",
-        "Aсtion"
-      ],
-      "intent": "CoffeeMachine"
-    },
-    {
-      "text": "включить кофемашину через число минуты после будильника",
-      "slots": [
-        "COMMAND",
-        "DEVICE",
-        "NoLabel",
-        "DeviceParameterValue",
-        "NoLabel",
-        "NoLabel",
         "DEVICE"
-      ],
-      "intent": "CoffeeMachine"
-    },
-    {
-      "text": "свари кофе завтра к число утра",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "DeviceParameterValue",
-        "NoLabel"
       ],
       "intent": "CoffeeMachine"
     }
   ],
-  "Printer": [
+  "SmartBreadMaker": [
     {
-      "text": "распечатай документ название спустя число часов",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "Printer"
-    },
-    {
-      "text": "распечатай документ название через число секунд",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "Printer"
-    },
-    {
-      "text": "отправь бланк название через число секунд",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "Printer"
-    },
-    {
-      "text": "распечатай паспорт название через число часа",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "Printer"
-    },
-    {
-      "text": "сделай копию паспорта",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "CommandFeature"
-      ],
-      "intent": "Printer"
-    },
-    {
-      "text": "распечатай документ через 5 минут",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "Printer"
-    },
-    {
-      "text": "заполни документ",
+      "text": "сделай тост",
       "slots": [
         "COMMAND",
         "CommandFeature"
       ],
-      "intent": "Printer"
+      "intent": "SmartBreadMaker"
     },
     {
-      "text": "распечатай документ спустя 2 часа",
+      "text": "приготовь хлеб",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "SmartBreadMaker"
+    },
+    {
+      "text": "приготовь хлеб к моему приходу",
       "slots": [
         "COMMAND",
         "CommandFeature",
         "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "Printer"
-    },
-    {
-      "text": "к время утра напечатай мне свежий выпуск новостей",
-      "slots": [
-        "NoLabel",
-        "NoLabel",
-        "NoLabel",
-        "COMMAND",
         "Actor",
-        "CommandFeature",
-        "CommandFeature",
-        "CommandFeature"
+        "Action"
       ],
-      "intent": "Printer"
+      "intent": "SmartBreadMaker"
     },
     {
-      "text": "распечатай документ название через число минут",
+      "text": "включи готовку в 8 вечера",
       "slots": [
         "COMMAND",
-        "CommandFeature",
         "CommandFeature",
         "NoLabel",
         "NoLabel",
         "NoLabel"
       ],
-      "intent": "Printer"
+      "intent": "SmartBreadMaker"
+    },
+    {
+      "text": "приготовь хлеб к нашему ужину",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "NoLabel",
+        "NoLabel"
+      ],
+      "intent": "SmartBreadMaker"
     }
   ],
   "SmartMicrowave": [
     {
-      "text": "разогрей мне завтрак",
+      "text": "погрей еду",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "intent": "SmartMicrowave"
+    },
+    {
+      "text": "разогрей мне еду в микроволновке к время",
       "slots": [
         "COMMAND",
         "Actor",
-        "CommandFeature"
+        "CommandFeature",
+        "NoLabel",
+        "DEVICE",
+        "NoLabel",
+        "DeviceParameterValue"
       ],
       "intent": "SmartMicrowave"
     },
@@ -1041,25 +1151,63 @@
       "intent": "SmartMicrowave"
     },
     {
-      "text": "погрей еду",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "SmartMicrowave"
-    },
-    {
-      "text": "разогрей мне еду в микроволновке к время",
+      "text": "разогрей мне завтрак",
       "slots": [
         "COMMAND",
         "Actor",
-        "CommandFeature",
-        "NoLabel",
-        "DEVICE",
-        "NoLabel",
-        "DeviceParameterValue"
+        "CommandFeature"
       ],
       "intent": "SmartMicrowave"
+    }
+  ],
+  "Lamp": [
+    {
+      "text": "оффни светильник",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature"
+      ],
+      "intent": "Lamp"
+    },
+    {
+      "text": "включи электричество в спальне",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "NoLabel",
+        "LOC"
+      ],
+      "intent": "Lamp"
+    },
+    {
+      "text": "меняй каждый день фонарик на время",
+      "slots": [
+        "COMMAND",
+        "NoLabel",
+        "NoLabel",
+        "DeviceFeature",
+        "NoLabel",
+        "CommandParameterValue"
+      ],
+      "intent": "Lamp"
+    },
+    {
+      "text": "выключи свет в ванной",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature",
+        "NoLabel",
+        "LOC"
+      ],
+      "intent": "Lamp"
+    },
+    {
+      "text": "выключи свет",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature"
+      ],
+      "intent": "Lamp"
     }
   ],
   "FloorLite": [
@@ -1083,72 +1231,6 @@
         "LOC"
       ],
       "intent": "FloorLite"
-    }
-  ],
-  "CurtainsRelay": [
-    {
-      "text": "закрой шторы в 9 вечера",
-      "slots": [
-        "COMMAND",
-        "CommandFeature",
-        "NoLabel",
-        "NoLabel",
-        "NoLabel"
-      ],
-      "intent": "CurtainsRelay"
-    },
-    {
-      "text": "убери шторы",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "CurtainsRelay"
-    },
-    {
-      "text": "занавесь окно",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "CurtainsRelay"
-    },
-    {
-      "text": "опусти жалюзи",
-      "slots": [
-        "COMMAND",
-        "CommandFeature"
-      ],
-      "intent": "CurtainsRelay"
-    }
-  ],
-  "HeatingFloor": [
-    {
-      "text": "выключи подогрев дорожек",
-      "slots": [
-        "COMMAND",
-        "NoLabel",
-        "DeviceFeature"
-      ],
-      "intent": "HeatingFloor"
-    },
-    {
-      "text": "включи подогрев дорожек",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature",
-        "DeviceFeature"
-      ],
-      "intent": "HeatingFloor"
-    },
-    {
-      "text": "включи подогрев пола",
-      "slots": [
-        "COMMAND",
-        "DeviceFeature",
-        "DeviceFeature"
-      ],
-      "intent": "HeatingFloor"
     }
   ]
 }
