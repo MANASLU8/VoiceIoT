@@ -8,11 +8,17 @@ from .. import joint_nlu as jn
 if __name__ == "__main__":
 	config = utils.load_config(utils.parse_args().config)
 
+excluded_files = [
+	'dataset/annotations/MarinaGavrilova/Шаблон.txt'
+]
+
 def handle_files(input_files):
 	result = []
 	for j in range(len(input_files)) :
 		input_file = input_files[j]
 		print(f'handling file {input_file}')
+		if input_file in excluded_files:
+			continue
 		with open(input_file) as f:
 			annotation = json.loads(f.read())
 		if "utterance-type" not in annotation:
