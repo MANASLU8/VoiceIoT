@@ -1,0 +1,91 @@
+@prefix dul: <http://www.loa-cnr.it/ontologies/DUL.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix voice: <http://voice.iot/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.oclc.org/NET/ssnx/ssn#hasSubSystem
+ssn:hasSubSystem rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/hasCommand
+voice:hasCommand rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/hasCommandFeature
+voice:hasCommandFeature rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/hasFunction
+voice:hasFunction rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/hasLabel
+voice:hasLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/hasParameter
+voice:hasParameter rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/hasPrototype
+voice:hasPrototype rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/label
+voice:label rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/lemma
+voice:lemma rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/optional
+voice:optional rdf:type owl:AnnotationProperty .
+
+
+###  http://voice.iot/valueType
+voice:valueType rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.oclc.org/NET/ssnx/ssn#System
+ssn:System rdf:type owl:Class .
+
+
+###  http://voice.iot/ActuatingFunction
+voice:ActuatingFunction rdf:type owl:Class .
+
+
+###  http://voice.iot/Actuator
+voice:Actuator rdf:type owl:Class .
+
+
+###  http://voice.iot/Command
+voice:Command rdf:type owl:Class .
+
+
+###  http://voice.iot/Parameter
+voice:Parameter rdf:type owl:Class .
+
+
+###  http://voice.iot/Prototype
+voice:Prototype rdf:type owl:Class .
+
+
+###  http://voice.iot/PrototypeCommand
+voice:PrototypeCommand rdf:type owl:Class .
