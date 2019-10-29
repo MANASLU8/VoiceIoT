@@ -1,0 +1,48 @@
+{
+	"utterance_id": ,
+  	"utterance-type": "Command/Request/IndirectCommand/IndirectRequest/Other",
+  	"ontology-label": "",
+  	"text": [
+		""
+	],
+  	"slots-indices": [
+ 	   {
+		   "Actor": [],
+		   "Action": [],
+		   "COMMAND": [],
+		   "CommandFeature": [],
+		   "CommandParameter": [],
+		   "CommandParameterValue": [],
+		   "CommandState": [],
+		   "FeatureState": [],
+		   "DEVICE": [],
+		   "DeviceFeature": [],
+		   "DeviceParameter": [],
+		   "DeviceParameterValue": [],
+		   "LOC": [],
+		   "LOCCurrent": [],
+		   "Duration": [],
+		   "IntensityQuantifier": [],
+		   "Quantor": [],
+		   "Analytics": []
+	   }
+  	],
+  	"condition-indices": [],
+  	"schedule": [
+		{
+			"regularlyRepeating": [],
+		},
+		{
+			"time:DateTimeDescription": [],
+		},
+		{
+			"time:Interval": []
+		}
+	],
+  	"hidden-slot-indices": [
+		{
+			"Device": []
+    	}
+
+  	]
+}
