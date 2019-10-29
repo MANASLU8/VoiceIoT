@@ -1,4 +1,5 @@
 # VoiceIoT
+![recognition-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/plot.png)
 ![plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/w2v/cv.png)
 ![test-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/w2v/cv-test.png)
 # Request mapping
