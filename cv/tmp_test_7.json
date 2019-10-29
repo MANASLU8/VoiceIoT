@@ -1,0 +1,139 @@
+{
+  "WindowRelay": [
+    {
+      "command": "проветрите здесь пока я буду в комнате",
+      "slots": [
+        "COMMAND",
+        "LOCCurrent",
+        "O",
+        "Actor",
+        "Action",
+        "O",
+        "LOC"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветрите здесь пока я буду в комнате EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay"
+    },
+    {
+      "command": "проветривай каждые число часа",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветривай каждые число часа EOS O	B-WindowRelay.COMMAND O O O WindowRelay"
+    }
+  ],
+  "Printer": [
+    {
+      "command": "распечатай документ через 5 минут",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "Printer",
+      "original": "BOS распечатай документ через 5 минут EOS O	B-Printer.COMMAND B-Printer.CommandFeature O O O Printer"
+    },
+    {
+      "command": "распечатай документ спустя 2 часа",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "Printer",
+      "original": "BOS распечатай документ спустя 2 часа EOS O	B-Printer.COMMAND B-Printer.CommandFeature O O O Printer"
+    }
+  ],
+  "AudioSystem": [
+    {
+      "command": "увеличь громкость на два пункта",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "FeatureStateValue",
+        "FeatureStateValue",
+        "FeatureStateValue"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS увеличь громкость на два пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue AudioSystem"
+    },
+    {
+      "command": "включи следующий трек",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS включи следующий трек EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O AudioSystem"
+    }
+  ],
+  "CurtainsRelay": [
+    {
+      "command": "опусти жалюзи",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "CurtainsRelay",
+      "original": "BOS опусти жалюзи EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay"
+    }
+  ],
+  "CoffeeMachine": [
+    {
+      "command": "проверь состояние кофеварки",
+      "slots": [
+        "Request",
+        "Request",
+        "DEVICE"
+      ],
+      "device": "CoffeeMachine",
+      "original": "BOS проверь состояние кофеварки EOS O	B-CoffeeMachine.Request I-CoffeeMachine.Request B-CoffeeMachine.DEVICE CoffeeMachine"
+    }
+  ],
+  "HeatingFloor": [
+    {
+      "command": "включи подогрев пола",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature",
+        "DeviceFeature"
+      ],
+      "device": "HeatingFloor",
+      "original": "BOS включи подогрев пола EOS O	B-HeatingFloor.COMMAND B-HeatingFloor.DeviceFeature I-HeatingFloor.DeviceFeature HeatingFloor"
+    }
+  ],
+  "WashingMachine": [
+    {
+      "command": "включи стирку а потом отжим",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "CommandFeature"
+      ],
+      "device": "WashingMachine",
+      "original": "BOS включи стирку а потом отжим EOS O	B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O O I-WashingMachine.CommandFeature WashingMachine"
+    },
+    {
+      "command": "постирай на 90 градусах",
+      "slots": [
+        "COMMAND",
+        "O",
+        "DeviceParameterValue",
+        "DeviceParameter"
+      ],
+      "device": "WashingMachine",
+      "original": "BOS постирай на 90 градусах EOS O	B-WashingMachine.COMMAND O B-WashingMachine.DeviceParameterValue B-WashingMachine.DeviceParameter WashingMachine"
+    }
+  ]
+}

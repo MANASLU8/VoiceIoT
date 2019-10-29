@@ -1,0 +1,161 @@
+{
+  "CoffeeMachine": [
+    {
+      "command": "подогрей кофе завтра к полуночи",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "CoffeeMachine",
+      "original": "BOS подогрей кофе завтра к полуночи EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O O CoffeeMachine"
+    }
+  ],
+  "AudioSystem": [
+    {
+      "command": "прибавь громкости",
+      "slots": [
+        "COMMAND",
+        "IntensityQuantifier"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS прибавь громкости EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier AudioSystem"
+    },
+    {
+      "command": "сделай громче",
+      "slots": [
+        "COMMAND",
+        "IntensityQuantifier"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS сделай громче EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier AudioSystem"
+    },
+    {
+      "command": "сделай музыку тише",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS сделай музыку тише EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "переключи трек",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS переключи трек EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "увеличь звук на три пункта",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "DeviceParameterValue",
+        "DeviceFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS увеличь звук на три пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DeviceParameterValue B-AudioSystem.DeviceFeature AudioSystem"
+    }
+  ],
+  "AlarmClock": [
+    {
+      "command": "поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "DEVICE",
+        "O",
+        "DeviceParameterValue",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "AlarmClock",
+      "original": "BOS поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue O O O O O B-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature O O O AlarmClock"
+    }
+  ],
+  "CurtainsRelay": [
+    {
+      "command": "занавесь окно",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "CurtainsRelay",
+      "original": "BOS занавесь окно EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay"
+    }
+  ],
+  "SmartFridge": [
+    {
+      "command": "сделай льда",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "SmartFridge",
+      "original": "BOS сделай льда EOS O	B-SmartFridge.COMMAND B-SmartFridge.CommandFeature SmartFridge"
+    }
+  ],
+  "WindowRelay": [
+    {
+      "command": "помой окна после дождя",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS помой окна после дождя EOS O	B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O O WindowRelay"
+    },
+    {
+      "command": "проветривай помещение каждые число минут в течение число минут избегая сквозняков",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "DeviceParameterValue",
+        "O",
+        "O",
+        "O",
+        "DeviceParameterValue",
+        "O",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветривай помещение каждые число минут в течение число минут избегая сквозняков EOS O	B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O B-WindowRelay.DeviceParameterValue O O O I-WindowRelay.DeviceParameterValue O B-WindowRelay.CommandFeature I-WindowRelay.CommandFeature WindowRelay"
+    }
+  ],
+  "SmartMicrowave": [
+    {
+      "command": "погрей мне обед",
+      "slots": [
+        "COMMAND",
+        "Actor",
+        "CommandFeature"
+      ],
+      "device": "SmartMicrowave",
+      "original": "BOS погрей мне обед EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature SmartMicrowave"
+    }
+  ]
+}

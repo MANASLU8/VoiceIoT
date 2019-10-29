@@ -1,0 +1,145 @@
+{
+  "AudioSystem": [
+    {
+      "command": "выключи музыку",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS выключи музыку EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "добавить песню в мою коллекцию",
+      "slots": [
+        "COMMAND",
+        "DeviceParameter",
+        "O",
+        "DeviceFeature",
+        "DeviceFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS добавить песню в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature AudioSystem"
+    },
+    {
+      "command": "включи музыку в 5 вечера",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS включи музыку в 5 вечера EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O AudioSystem"
+    }
+  ],
+  "WindowRelay": [
+    {
+      "command": "закрыть окно",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS закрыть окно EOS O	B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature WindowRelay"
+    },
+    {
+      "command": "проветри сейчас",
+      "slots": [
+        "Command",
+        "O"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветри сейчас EOS O	B-WindowRelay.Command O WindowRelay"
+    },
+    {
+      "command": "проветрите сейчас пока я буду на кухне",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "Actor",
+        "Action",
+        "O",
+        "LOC"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветрите сейчас пока я буду на кухне EOS O	B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay"
+    }
+  ],
+  "AlarmClock": [
+    {
+      "command": "разбуди меня завтра утром",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O"
+      ],
+      "device": "AlarmClock",
+      "original": "BOS разбуди меня завтра утром EOS O	B-AlarmClock.COMMAND B-AlarmClock.CommandFeature O O AlarmClock"
+    }
+  ],
+  "WashingMachine": [
+    {
+      "command": "поставь в расписание стирку на 6 утра",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "WashingMachine",
+      "original": "BOS поставь в расписание стирку на 6 утра EOS O	B-WashingMachine.COMMAND O O B-WashingMachine.CommandFeature O O O WashingMachine"
+    }
+  ],
+  "CurtainsRelay": [
+    {
+      "command": "закрой шторы в 9 вечера",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "CurtainsRelay",
+      "original": "BOS закрой шторы в 9 вечера EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O O O CurtainsRelay"
+    }
+  ],
+  "SmartMicrowave": [
+    {
+      "command": "разогрей мне еду в микроволновке к время",
+      "slots": [
+        "COMMAND",
+        "Actor",
+        "CommandFeature",
+        "O",
+        "DEVICE",
+        "O",
+        "DeviceParameterValue"
+      ],
+      "device": "SmartMicrowave",
+      "original": "BOS разогрей мне еду в микроволновке к время EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature O B-SmartMicrowave.DEVICE O B-SmartMicrowave.DeviceParameterValue SmartMicrowave"
+    }
+  ],
+  "Printer": [
+    {
+      "command": "распечатай документ название спустя число часов",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "Printer",
+      "original": "BOS распечатай документ название спустя число часов EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer"
+    }
+  ]
+}

@@ -1,103 +1,112 @@
-BOS меняй каждый день фонарик на время EOS O	B-Lamp.COMMAND O O B-Lamp.DeviceFeature O B-Lamp.CommandParameterValue Lamp
-BOS ставь каждый раз будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameter AlarmClock
-BOS проверь наличие еды в холодильнике EOS O	B-SmartFridge.Request B-SmartFridge.FeatureState B-SmartFridge.CommandFeature O B-SmartFridge.LOC SmartFridge
-BOS сделай громче EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier AudioSystem
-BOS открой окно на кухне на 30 градусов EOS O	B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature O B-WindowRelay.LOC O B-WindowRelay.CommandParameterValue B-WindowRelay.CommandParameter WindowRelay
-BOS включи готовку в 8 вечера EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O SmartBreadMaker
-BOS увеличь звук на три пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DeviceParameterValue B-AudioSystem.DeviceFeature AudioSystem
-BOS в комнате душно проветри EOS O	O B-WindowRelay.LOCCurrent O B-WindowRelay.COMMAND WindowRelay
-BOS поставь в расписание стирку на 6 утра EOS O	B-WashingMachine.COMMAND O O B-WashingMachine.CommandFeature O O O WashingMachine
-BOS выключи свет EOS O	B-Lamp.COMMAND B-Lamp.DeviceFeature Lamp
-BOS увеличь громкость чтобы не мешал стук EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameterValue O O O O AudioSystem
-BOS пропусти песню EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
-BOS поменяй каждый вечер будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue AlarmClock
-BOS добавить песню в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature AudioSystem
-BOS ставь каждый день будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue AlarmClock
-BOS выключи свет в ванной EOS O	B-Lamp.COMMAND B-Lamp.DeviceFeature O B-Lamp.LOC Lamp
-BOS приготовь хлеб к нашему ужину EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O SmartBreadMaker
-BOS проверь состояние кофеварки EOS O	B-CoffeeMachine.Request I-CoffeeMachine.Request B-CoffeeMachine.DEVICE CoffeeMachine
-BOS распечатай документ название спустя число часов EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
-BOS распечатай документ название через число секунд EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
-BOS увеличь частоту чтобы не мешал шум EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O I-AudioSystem.CommandFeature AudioSystem
-BOS отправь бланк название через число секунд EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
-BOS включай стиральную машину в 2305 каждое четное число месяца EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O O O O O WashingMachine
-BOS разогрей мне завтрак EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature SmartMicrowave
-BOS распечатай паспорт название через число часа EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
-BOS проветрите сейчас пока я буду на кухне EOS O	B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
-BOS запусти стирку для цветного EOS O	B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O B-WashingMachine.DeviceParameterValue WashingMachine
-BOS приготовь хлеб EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature SmartBreadMaker
-BOS включай стиральную машину по четвергам EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O WashingMachine
-BOS добавь мелодию в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.DeviceFeature AudioSystem
-BOS сделай кофе к моему приходу EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion CoffeeMachine
-BOS включи музыку в 5 вечера EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O AudioSystem
-BOS каждый день проверяй кофеварку в доме EOS O	O O B-CoffeeMachine.COMMAND B-CoffeeMachine.DEVICE O B-CoffeeMachine.LOC CoffeeMachine
-BOS сделай копию паспорта EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature Printer
-BOS включи подсветку к 7 вечера EOS O	B-FloorLite.COMMAND B-FloorLite.CommandFeature O O O FloorLite
-BOS добавляй песню в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O I-AudioSystem.CommandFeature AudioSystem
-BOS проветри здесь пока я буду в ванной EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
-BOS увеличьте громкость чтобы не мешал стук EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O AudioSystem
-BOS проветрите здесь пока я буду в комнате EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
-BOS распечатай документ через 5 минут EOS O	B-Printer.COMMAND B-Printer.CommandFeature O O O Printer
-BOS включи электричество в спальне EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.LOC Lamp
-BOS подогрей кофе завтра к полуночи EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O O CoffeeMachine
-BOS заполни документ EOS O	B-Printer.COMMAND B-Printer.CommandFeature Printer
-BOS увеличь громкость на 4 пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue AudioSystem
-BOS распечатай документ спустя 2 часа EOS O	B-Printer.COMMAND B-Printer.CommandFeature O O O Printer
-BOS подсвети путь на кухню EOS O	B-FloorLite.COMMAND B-FloorLite.CommandFeature O B-FloorLite.LOC FloorLite
-BOS постирай на 90 градусах EOS O	B-WashingMachine.COMMAND O B-WashingMachine.DeviceParameterValue B-WashingMachine.DeviceParameter WashingMachine
-BOS приготовь хлеб к моему приходу EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O B-SmartBreadMaker.Actor B-SmartBreadMaker.Action SmartBreadMaker
-BOS ставь эту песню чаще EOS O	B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature B-AudioSystem.IntensityQuantifier AudioSystem
-BOS проветри там EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOC WindowRelay
-BOS закрой шторы в 9 вечера EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O O O CurtainsRelay
+BOS приготовь ужин EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor SmartMicrowave
 BOS прибавь громкости EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier AudioSystem
 BOS пометь песню как мою любимую EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.DeviceFeature AudioSystem
+BOS разбуди меня завтра утром EOS O	B-AlarmClock.COMMAND B-AlarmClock.CommandFeature O O AlarmClock
 BOS погрей мне обед EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature SmartMicrowave
-BOS полощи 30 минут EOS O	B-WashingMachine.COMMAND O O WashingMachine
-BOS скажи что там с кофемашиной EOS O	B-CoffeeMachine.Request I-CoffeeMachine.Request B-CoffeeMachine.DEVICE O O CoffeeMachine
-BOS подогрей нам кофе к завтраку EOS O	B-CoffeeMachine.COMMAND O B-CoffeeMachine.CommandFeature O O CoffeeMachine
-BOS доаваь трек в избранное EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature AudioSystem
-BOS приготовь ужин EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor SmartMicrowave
-BOS приготовь эспрессо к моему возвращению EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion CoffeeMachine
 BOS включи следующий трек EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O AudioSystem
+BOS вари кофе каждый день EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O CoffeeMachine
+BOS найди клип к этой песне на youtube EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature O I-AudioSystem.CommandFeature AudioSystem
+BOS добавь трек в избранное EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature AudioSystem
+BOS выключи музыку EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
+BOS подогрей нам кофе к завтраку EOS O	B-CoffeeMachine.COMMAND O B-CoffeeMachine.CommandFeature O O CoffeeMachine
+BOS полощи 30 минут EOS O	B-WashingMachine.COMMAND O O WashingMachine
+BOS приготовь эспрессо к моему возвращению EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion CoffeeMachine
+BOS сделай музыку тише EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
+BOS скажи что там с кофемашиной EOS O	B-CoffeeMachine.Request I-CoffeeMachine.Request B-CoffeeMachine.DEVICE O O CoffeeMachine
+BOS закрывай шторы EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay
+BOS выключай песню EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
 BOS оффни светильник EOS O	B-Lamp.COMMAND B-Lamp.DeviceFeature Lamp
-BOS воспроизведи её EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
-BOS включай ежедневную подборку музыки к моему приходу EOS O	B-AudioSystem.COMMAND B-AudioSystem.СommandFeature I-AudioSystem.СommandFeature I-AudioSystem.СommandFeature O B-AudioSystem.Actor B-AudioSystem.Aсtion AudioSystem
-BOS к время утра напечатай мне свежий выпуск новостей EOS O	O O O B-Printer.COMMAND B-Printer.Actor B-Printer.CommandFeature I-Printer.CommandFeature I-Printer.CommandFeature Printer
-BOS выключи подогрев дорожек EOS O	B-HeatingFloor.COMMAND O O HeatingFloor
-BOS воспроизведи альбом abbey road the beatles EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
+BOS проветрить комнату EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOC WindowRelay
+BOS закрыть окно EOS O	B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature WindowRelay
+BOS сделай кофе к моему приходу EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion CoffeeMachine
+BOS добавь мелодию в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.DeviceFeature AudioSystem
+BOS распечатай документ название спустя число часов EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
+BOS проветрите сейчас пока я буду на кухне EOS O	B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
+BOS увеличь частоту чтобы не мешал шум EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O I-AudioSystem.CommandFeature AudioSystem
+BOS включай стиральную машину в 2305 каждое четное число месяца EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O O O O O WashingMachine
+BOS разогрей мне завтрак EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature SmartMicrowave
+BOS распечатай документ название через число секунд EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
+BOS включи музыку в 5 вечера EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O AudioSystem
+BOS распечатай паспорт название через число часа EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
+BOS отправь бланк название через число секунд EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
+BOS включай стиральную машину по четвергам EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O WashingMachine
+BOS запусти стирку для цветного EOS O	B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O B-WashingMachine.DeviceParameterValue WashingMachine
+BOS приготовь хлеб EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature SmartBreadMaker
+BOS проверь состояние кофеварки EOS O	B-CoffeeMachine.Request I-CoffeeMachine.Request B-CoffeeMachine.DEVICE CoffeeMachine
+BOS увеличь громкость чтобы не мешал стук EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameterValue O O O O AudioSystem
+BOS выключи свет в ванной EOS O	B-Lamp.COMMAND B-Lamp.DeviceFeature O B-Lamp.LOC Lamp
+BOS открой окно на кухне на 30 градусов EOS O	B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature O B-WindowRelay.LOC O B-WindowRelay.CommandParameterValue B-WindowRelay.CommandParameter WindowRelay
+BOS включи готовку в 8 вечера EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O SmartBreadMaker
+BOS сделай громче EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier AudioSystem
+BOS в комнате душно проветри EOS O	O B-WindowRelay.LOCCurrent O B-WindowRelay.COMMAND WindowRelay
+BOS выключи свет EOS O	B-Lamp.COMMAND B-Lamp.DeviceFeature Lamp
+BOS меняй каждый день фонарик на время EOS O	B-Lamp.COMMAND O O B-Lamp.DeviceFeature O B-Lamp.CommandParameterValue Lamp
+BOS поменяй каждый вечер будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue AlarmClock
+BOS ставь каждый день будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue AlarmClock
+BOS увеличь звук на три пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DeviceParameterValue B-AudioSystem.DeviceFeature AudioSystem
+BOS поставь в расписание стирку на 6 утра EOS O	B-WashingMachine.COMMAND O O B-WashingMachine.CommandFeature O O O WashingMachine
+BOS ставь каждый раз будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameter AlarmClock
+BOS добавить песню в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature AudioSystem
+BOS пропусти песню EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
+BOS приготовь хлеб к нашему ужину EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O SmartBreadMaker
+BOS проверь наличие еды в холодильнике EOS O	B-SmartFridge.Request B-SmartFridge.FeatureState B-SmartFridge.CommandFeature O B-SmartFridge.LOC SmartFridge
 BOS сделай тост EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature SmartBreadMaker
-BOS увеличь громкость чтобы не мешал шум  EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O O AudioSystem
-BOS погрей еду EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.CommandFeature SmartMicrowave
-BOS подбирай песни под ритм бега EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature AudioSystem
-BOS убери шторы EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay
-BOS включи подогрев дорожек EOS O	B-HeatingFloor.COMMAND B-HeatingFloor.DeviceFeature I-HeatingFloor.DeviceFeature HeatingFloor
-BOS помой окна после дождя EOS O	B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O O WindowRelay
-BOS сделай чуть громче EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier B-AudioSystem.CommandFeature AudioSystem
-BOS распечатай документ название через число минут EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
-BOS проветри сейчас EOS O	B-WindowRelay.Command O WindowRelay
-BOS делай больше льда EOS O	B-SmartFridge.COMMAND B-SmartFridge.Quantor B-SmartFridge.CommandFeature SmartFridge
-BOS проветривай каждые число часа EOS O	B-WindowRelay.COMMAND O O O WindowRelay
 BOS проветривай во время моего сна EOS O	B-WindowRelay.COMMAND O O O O WindowRelay
-BOS поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue O O O O O B-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature O O O AlarmClock
-BOS увеличь громкость на два пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue AudioSystem
-BOS сделай чуть тише EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier B-AudioSystem.CommandFeature AudioSystem
-BOS включи в морозилке быструю заморозку на число минут EOS O	B-SmartFridge.COMMAND O O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature O B-SmartFridge.DeviceParameterValue O SmartFridge
-BOS проветрить здесь пока я буду на кухне EOS O	B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
 BOS включи подогрев пола EOS O	B-HeatingFloor.COMMAND B-HeatingFloor.DeviceFeature I-HeatingFloor.DeviceFeature HeatingFloor
-BOS разогрей мне еду в микроволновке к время EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature O B-SmartMicrowave.DEVICE O B-SmartMicrowave.DeviceParameterValue SmartMicrowave
-BOS выведи текст песни на экран телефона EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature O O B-AudioSystem.DEVICE AudioSystem
-BOS занавесь окно EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay
-BOS включай стиральную машину в время каждое четное число месяца EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O B-WashingMachine.CommandParameterValue O O O O WashingMachine
-BOS сделай льда EOS O	B-SmartFridge.COMMAND B-SmartFridge.CommandFeature SmartFridge
-BOS пусть музыка следует за мной EOS O	O O B-AudioSystem.Command B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
-BOS проветривай помещение каждые число минут в течение число минут избегая сквозняков EOS O	B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O B-WindowRelay.DeviceParameterValue O O O I-WindowRelay.DeviceParameterValue O B-WindowRelay.CommandFeature I-WindowRelay.CommandFeature WindowRelay
-BOS каждый вечер в время включай музыку на плеере EOS O	O O O B-AudioSystem.DeviceParameterValue B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DEVICE AudioSystem
 BOS опусти жалюзи EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay
-BOS проигрывай в случайном порядке EOS O	B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
-BOS включить кофемашину через число минуты после будильника EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.DEVICE O B-CoffeeMachine.DeviceParameterValue O O B-CoffeeMachine.DEVICE CoffeeMachine
-BOS переключи трек EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
-BOS запусти плейлист с танцевальной музыкой EOS O	B-AudioSystem.COMMAND O O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
-BOS включи стирку а потом отжим EOS O	B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O O I-WashingMachine.CommandFeature WashingMachine
+BOS распечатай документ название через число минут EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer
+BOS помой окна после дождя EOS O	B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O O WindowRelay
+BOS поставь на завтра будильник на время часов в качестве мелодии используй шум дождя с постепенным увеличением громкости в течении получаса EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue O O O O O B-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature I-AlarmClock.CommandFeature O O O AlarmClock
+BOS включи в морозилке быструю заморозку на число минут EOS O	B-SmartFridge.COMMAND O O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature O B-SmartFridge.DeviceParameterValue O SmartFridge
+BOS выключи подогрев дорожек EOS O	B-HeatingFloor.COMMAND O O HeatingFloor
+BOS к время утра напечатай мне свежий выпуск новостей EOS O	O O O B-Printer.COMMAND B-Printer.Actor B-Printer.CommandFeature I-Printer.CommandFeature I-Printer.CommandFeature Printer
 BOS свари кофе завтра к число утра EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O B-CoffeeMachine.DeviceParameterValue O CoffeeMachine
-BOS установи температуру в холодильнике на плюс число а в морозилке на минус число EOS O	B-SmartFridge.COMMAND B-SmartFridge.Devicefeature O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue O O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue SmartFridge
+BOS увеличь громкость на два пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue AudioSystem
+BOS убери шторы EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay
+BOS проветрить здесь пока я буду на кухне EOS O	B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
+BOS воспроизведи её EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
+BOS делай больше льда EOS O	B-SmartFridge.COMMAND B-SmartFridge.Quantor B-SmartFridge.CommandFeature SmartFridge
+BOS переключи трек EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem
+BOS сделай чуть громче EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier B-AudioSystem.CommandFeature AudioSystem
+BOS пусть музыка следует за мной EOS O	O O B-AudioSystem.Command B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
+BOS включи подогрев дорожек EOS O	B-HeatingFloor.COMMAND B-HeatingFloor.DeviceFeature I-HeatingFloor.DeviceFeature HeatingFloor
+BOS сделай чуть тише EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier B-AudioSystem.CommandFeature AudioSystem
+BOS увеличь громкость чтобы не мешал шум  EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O O AudioSystem
+BOS выведи текст песни на экран телефона EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature O O B-AudioSystem.DEVICE AudioSystem
+BOS подбирай песни под ритм бега EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature AudioSystem
+BOS запусти плейлист с танцевальной музыкой EOS O	B-AudioSystem.COMMAND O O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
+BOS сделай льда EOS O	B-SmartFridge.COMMAND B-SmartFridge.CommandFeature SmartFridge
+BOS каждый вечер в время включай музыку на плеере EOS O	O O O B-AudioSystem.DeviceParameterValue B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DEVICE AudioSystem
+BOS разогрей мне еду в микроволновке к время EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature O B-SmartMicrowave.DEVICE O B-SmartMicrowave.DeviceParameterValue SmartMicrowave
+BOS проветривай каждые число часа EOS O	B-WindowRelay.COMMAND O O O WindowRelay
+BOS занавесь окно EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay
 BOS добавь песню в мою коллекцию EOS O	B-AudioSystem.COMMAND O O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
+BOS включай ежедневную подборку музыки к моему приходу EOS O	B-AudioSystem.COMMAND B-AudioSystem.СommandFeature I-AudioSystem.СommandFeature I-AudioSystem.СommandFeature O B-AudioSystem.Actor B-AudioSystem.Aсtion AudioSystem
+BOS установи температуру в холодильнике на плюс число а в морозилке на минус число EOS O	B-SmartFridge.COMMAND B-SmartFridge.Devicefeature O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue O O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue SmartFridge
+BOS погрей еду EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.CommandFeature SmartMicrowave
+BOS включи стирку а потом отжим EOS O	B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O O I-WashingMachine.CommandFeature WashingMachine
+BOS включай стиральную машину в время каждое четное число месяца EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O B-WashingMachine.CommandParameterValue O O O O WashingMachine
+BOS включить кофемашину через число минуты после будильника EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.DEVICE O B-CoffeeMachine.DeviceParameterValue O O B-CoffeeMachine.DEVICE CoffeeMachine
+BOS воспроизведи альбом abbey road the beatles EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
+BOS проигрывай в случайном порядке EOS O	B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem
+BOS проветривай помещение каждые число минут в течение число минут избегая сквозняков EOS O	B-WindowRelay.COMMAND B-WindowRelay.CommandFeature O B-WindowRelay.DeviceParameterValue O O O I-WindowRelay.DeviceParameterValue O B-WindowRelay.CommandFeature I-WindowRelay.CommandFeature WindowRelay
+BOS проветри сейчас EOS O	B-WindowRelay.Command O WindowRelay
+BOS распечатай документ спустя 2 часа EOS O	B-Printer.COMMAND B-Printer.CommandFeature O O O Printer
+BOS сделай копию паспорта EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature Printer
+BOS увеличьте громкость чтобы не мешал стук EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O AudioSystem
+BOS увеличь громкость на 4 пункта EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature B-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue I-AudioSystem.FeatureStateValue AudioSystem
+BOS приготовь хлеб к моему приходу EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O B-SmartBreadMaker.Actor B-SmartBreadMaker.Action SmartBreadMaker
+BOS проветри здесь пока я буду в ванной EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
+BOS подогрей кофе завтра к полуночи EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O O CoffeeMachine
+BOS каждый день проверяй кофеварку в доме EOS O	O O B-CoffeeMachine.COMMAND B-CoffeeMachine.DEVICE O B-CoffeeMachine.LOC CoffeeMachine
+BOS включи электричество в спальне EOS O	B-Lamp.COMMAND B-Lamp.CommandFeature O B-Lamp.LOC Lamp
+BOS постирай на 90 градусах EOS O	B-WashingMachine.COMMAND O B-WashingMachine.DeviceParameterValue B-WashingMachine.DeviceParameter WashingMachine
+BOS распечатай документ через 5 минут EOS O	B-Printer.COMMAND B-Printer.CommandFeature O O O Printer
+BOS добавляй песню в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O I-AudioSystem.CommandFeature AudioSystem
+BOS заполни документ EOS O	B-Printer.COMMAND B-Printer.CommandFeature Printer
+BOS проветрите здесь пока я буду в комнате EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay
+BOS подсвети путь на кухню EOS O	B-FloorLite.COMMAND B-FloorLite.CommandFeature O B-FloorLite.LOC FloorLite
+BOS закрой шторы в 9 вечера EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature O O O CurtainsRelay
+BOS ставь эту песню чаще EOS O	B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature B-AudioSystem.IntensityQuantifier AudioSystem
+BOS проветри там EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOC WindowRelay
+BOS включи подсветку к 7 вечера EOS O	B-FloorLite.COMMAND B-FloorLite.CommandFeature O O O FloorLite

@@ -1,0 +1,154 @@
+{
+  "AudioSystem": [
+    {
+      "command": "воспроизведи альбом abbey road the beatles",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS воспроизведи альбом abbey road the beatles EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "добавь трек в избранное",
+      "slots": [
+        "COMMAND",
+        "DeviceParameter",
+        "O",
+        "DeviceFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS добавь трек в избранное EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature AudioSystem"
+    },
+    {
+      "command": "выключай песню",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS выключай песню EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "пометь песню как мою любимую",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "Actor",
+        "DeviceFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS пометь песню как мою любимую EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.DeviceFeature AudioSystem"
+    },
+    {
+      "command": "пусть музыка следует за мной",
+      "slots": [
+        "O",
+        "O",
+        "Command",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS пусть музыка следует за мной EOS O	O O B-AudioSystem.Command B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem"
+    }
+  ],
+  "CoffeeMachine": [
+    {
+      "command": "сделай кофе к моему приходу",
+      "slots": [
+        "COMMAND",
+        "СommandFeature",
+        "O",
+        "Actor",
+        "Aсtion"
+      ],
+      "device": "CoffeeMachine",
+      "original": "BOS сделай кофе к моему приходу EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion CoffeeMachine"
+    },
+    {
+      "command": "скажи что там с кофемашиной",
+      "slots": [
+        "Request",
+        "Request",
+        "DEVICE",
+        "O",
+        "O"
+      ],
+      "device": "CoffeeMachine",
+      "original": "BOS скажи что там с кофемашиной EOS O	B-CoffeeMachine.Request I-CoffeeMachine.Request B-CoffeeMachine.DEVICE O O CoffeeMachine"
+    }
+  ],
+  "SmartBreadMaker": [
+    {
+      "command": "сделай тост",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "SmartBreadMaker",
+      "original": "BOS сделай тост EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature SmartBreadMaker"
+    },
+    {
+      "command": "приготовь хлеб к моему приходу",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "Actor",
+        "Action"
+      ],
+      "device": "SmartBreadMaker",
+      "original": "BOS приготовь хлеб к моему приходу EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O B-SmartBreadMaker.Actor B-SmartBreadMaker.Action SmartBreadMaker"
+    }
+  ],
+  "WindowRelay": [
+    {
+      "command": "открой окно на кухне на 30 градусов",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature",
+        "O",
+        "LOC",
+        "O",
+        "CommandParameterValue",
+        "CommandParameter"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS открой окно на кухне на 30 градусов EOS O	B-WindowRelay.COMMAND B-WindowRelay.DeviceFeature O B-WindowRelay.LOC O B-WindowRelay.CommandParameterValue B-WindowRelay.CommandParameter WindowRelay"
+    }
+  ],
+  "CurtainsRelay": [
+    {
+      "command": "убери шторы",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "CurtainsRelay",
+      "original": "BOS убери шторы EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay"
+    }
+  ],
+  "SmartFridge": [
+    {
+      "command": "включи в морозилке быструю заморозку на число минут",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "CommandFeature",
+        "CommandFeature",
+        "O",
+        "DeviceParameterValue",
+        "O"
+      ],
+      "device": "SmartFridge",
+      "original": "BOS включи в морозилке быструю заморозку на число минут EOS O	B-SmartFridge.COMMAND O O B-SmartFridge.CommandFeature I-SmartFridge.CommandFeature O B-SmartFridge.DeviceParameterValue O SmartFridge"
+    }
+  ]
+}

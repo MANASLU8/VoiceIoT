@@ -1,0 +1,145 @@
+{
+  "Lamp": [
+    {
+      "command": "оффни светильник",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature"
+      ],
+      "device": "Lamp",
+      "original": "BOS оффни светильник EOS O	B-Lamp.COMMAND B-Lamp.DeviceFeature Lamp"
+    }
+  ],
+  "AudioSystem": [
+    {
+      "command": "ставь эту песню чаще",
+      "slots": [
+        "COMMAND",
+        "O",
+        "CommandFeature",
+        "IntensityQuantifier"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS ставь эту песню чаще EOS O	B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature B-AudioSystem.IntensityQuantifier AudioSystem"
+    },
+    {
+      "command": "включай ежедневную подборку музыки к моему приходу",
+      "slots": [
+        "COMMAND",
+        "СommandFeature",
+        "СommandFeature",
+        "СommandFeature",
+        "O",
+        "Actor",
+        "Aсtion"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS включай ежедневную подборку музыки к моему приходу EOS O	B-AudioSystem.COMMAND B-AudioSystem.СommandFeature I-AudioSystem.СommandFeature I-AudioSystem.СommandFeature O B-AudioSystem.Actor B-AudioSystem.Aсtion AudioSystem"
+    },
+    {
+      "command": "сделай чуть тише",
+      "slots": [
+        "COMMAND",
+        "IntensityQuantifier",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS сделай чуть тише EOS O	B-AudioSystem.COMMAND B-AudioSystem.IntensityQuantifier B-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "увеличь громкость чтобы не мешал шум ",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS увеличь громкость чтобы не мешал шум  EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O O O AudioSystem"
+    },
+    {
+      "command": "добавь мелодию в мою коллекцию",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "Actor",
+        "DeviceFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS добавь мелодию в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.Actor B-AudioSystem.DeviceFeature AudioSystem"
+    }
+  ],
+  "WashingMachine": [
+    {
+      "command": "включай стиральную машину в время каждое четное число месяца",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "DEVICE",
+        "O",
+        "CommandParameterValue",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "WashingMachine",
+      "original": "BOS включай стиральную машину в время каждое четное число месяца EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O B-WashingMachine.CommandParameterValue O O O O WashingMachine"
+    }
+  ],
+  "CoffeeMachine": [
+    {
+      "command": "подогрей нам кофе к завтраку",
+      "slots": [
+        "COMMAND",
+        "O",
+        "CommandFeature",
+        "O",
+        "O"
+      ],
+      "device": "CoffeeMachine",
+      "original": "BOS подогрей нам кофе к завтраку EOS O	B-CoffeeMachine.COMMAND O B-CoffeeMachine.CommandFeature O O CoffeeMachine"
+    }
+  ],
+  "WindowRelay": [
+    {
+      "command": "проветрить комнату",
+      "slots": [
+        "COMMAND",
+        "LOC"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветрить комнату EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOC WindowRelay"
+    }
+  ],
+  "SmartBreadMaker": [
+    {
+      "command": "приготовь хлеб к нашему ужину",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "SmartBreadMaker",
+      "original": "BOS приготовь хлеб к нашему ужину EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O SmartBreadMaker"
+    }
+  ],
+  "SmartMicrowave": [
+    {
+      "command": "разогрей мне завтрак",
+      "slots": [
+        "COMMAND",
+        "Actor",
+        "CommandFeature"
+      ],
+      "device": "SmartMicrowave",
+      "original": "BOS разогрей мне завтрак EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor B-SmartMicrowave.CommandFeature SmartMicrowave"
+    }
+  ]
+}

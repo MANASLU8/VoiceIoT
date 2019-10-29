@@ -1,0 +1,1 @@
+for i in {0..9}; do python -m scripts.slots-intents.test-slots-cv-fold -r cv/tmp_train_$i.csv -s cv/tmp_test_$i.json; done

@@ -1,0 +1,148 @@
+{
+  "Lamp": [
+    {
+      "command": "меняй каждый день фонарик на время",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "DeviceFeature",
+        "O",
+        "CommandParameterValue"
+      ],
+      "device": "Lamp",
+      "original": "BOS меняй каждый день фонарик на время EOS O	B-Lamp.COMMAND O O B-Lamp.DeviceFeature O B-Lamp.CommandParameterValue Lamp"
+    },
+    {
+      "command": "выключи свет в ванной",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature",
+        "O",
+        "LOC"
+      ],
+      "device": "Lamp",
+      "original": "BOS выключи свет в ванной EOS O	B-Lamp.COMMAND B-Lamp.DeviceFeature O B-Lamp.LOC Lamp"
+    }
+  ],
+  "AudioSystem": [
+    {
+      "command": "проигрывай в случайном порядке",
+      "slots": [
+        "COMMAND",
+        "O",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS проигрывай в случайном порядке EOS O	B-AudioSystem.COMMAND O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "добавь песню в мою коллекцию",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS добавь песню в мою коллекцию EOS O	B-AudioSystem.COMMAND O O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem"
+    }
+  ],
+  "SmartMicrowave": [
+    {
+      "command": "приготовь ужин",
+      "slots": [
+        "COMMAND",
+        "Actor"
+      ],
+      "device": "SmartMicrowave",
+      "original": "BOS приготовь ужин EOS O	B-SmartMicrowave.COMMAND B-SmartMicrowave.Actor SmartMicrowave"
+    }
+  ],
+  "AlarmClock": [
+    {
+      "command": "ставь каждый раз будильник на время",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "DEVICE",
+        "O",
+        "DeviceParameter"
+      ],
+      "device": "AlarmClock",
+      "original": "BOS ставь каждый раз будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameter AlarmClock"
+    }
+  ],
+  "SmartFridge": [
+    {
+      "command": "проверь наличие еды в холодильнике",
+      "slots": [
+        "Request",
+        "FeatureState",
+        "CommandFeature",
+        "O",
+        "LOC"
+      ],
+      "device": "SmartFridge",
+      "original": "BOS проверь наличие еды в холодильнике EOS O	B-SmartFridge.Request B-SmartFridge.FeatureState B-SmartFridge.CommandFeature O B-SmartFridge.LOC SmartFridge"
+    }
+  ],
+  "WindowRelay": [
+    {
+      "command": "в комнате душно проветри",
+      "slots": [
+        "O",
+        "LOCCurrent",
+        "O",
+        "COMMAND"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS в комнате душно проветри EOS O	O B-WindowRelay.LOCCurrent O B-WindowRelay.COMMAND WindowRelay"
+    }
+  ],
+  "Printer": [
+    {
+      "command": "распечатай документ название через число минут",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "Printer",
+      "original": "BOS распечатай документ название через число минут EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer"
+    }
+  ],
+  "FloorLite": [
+    {
+      "command": "подсвети путь на кухню",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "LOC"
+      ],
+      "device": "FloorLite",
+      "original": "BOS подсвети путь на кухню EOS O	B-FloorLite.COMMAND B-FloorLite.CommandFeature O B-FloorLite.LOC FloorLite"
+    }
+  ],
+  "SmartBreadMaker": [
+    {
+      "command": "включи готовку в 8 вечера",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "SmartBreadMaker",
+      "original": "BOS включи готовку в 8 вечера EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature O O O SmartBreadMaker"
+    }
+  ]
+}

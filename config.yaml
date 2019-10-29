@@ -53,11 +53,11 @@ paths:
       train: truncated-dataset/snips-nlu/train.json
       test: truncated-dataset/snips-nlu/test.json
     slots-intents:
-      data: dataset/slots-intents/data.csv
-      train: dataset/slots-intents/train.csv
-      test: dataset/slots-intents/test.json
-      validate: dataset/slots-intents/validate.csv
-      info: dataset/slots-intents/dataset_info
+      data: truncated-dataset/slots-intents/data.csv
+      train: truncated-dataset/slots-intents/train.csv
+      test: truncated-dataset/slots-intents/test.json
+      validate: truncated-dataset/slots-intents/validate.csv
+      info: truncated-dataset/slots-intents/dataset_info
     joint-nlu:
       root: dataset/joint-nlu
       data: dataset/joint-nlu/data

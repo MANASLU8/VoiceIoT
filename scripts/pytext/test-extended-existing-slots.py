@@ -44,7 +44,7 @@ def get_best_slots(result):
 configp = pytext.load_config(config['paths']['etc']['pytext']['model-config-extended'])
 predictor = pytext.create_predictor(configp, config['paths']['etc']['pytext']['model-extended'])
 
-test_dataset = fo.read_json("labelled-commands.json")
+test_dataset = fo.read_json("labelled-commands-slots-intents.json")
 
 counter = 0
 ontology_counter = 0

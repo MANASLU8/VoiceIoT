@@ -1,0 +1,157 @@
+{
+  "Printer": [
+    {
+      "command": "распечатай паспорт название через число часа",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "Printer",
+      "original": "BOS распечатай паспорт название через число часа EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature O O O Printer"
+    },
+    {
+      "command": "к время утра напечатай мне свежий выпуск новостей",
+      "slots": [
+        "O",
+        "O",
+        "O",
+        "COMMAND",
+        "Actor",
+        "CommandFeature",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "Printer",
+      "original": "BOS к время утра напечатай мне свежий выпуск новостей EOS O	O O O B-Printer.COMMAND B-Printer.Actor B-Printer.CommandFeature I-Printer.CommandFeature I-Printer.CommandFeature Printer"
+    }
+  ],
+  "CurtainsRelay": [
+    {
+      "command": "закрывай шторы",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "CurtainsRelay",
+      "original": "BOS закрывай шторы EOS O	B-CurtainsRelay.COMMAND B-CurtainsRelay.CommandFeature CurtainsRelay"
+    }
+  ],
+  "Lamp": [
+    {
+      "command": "выключи свет",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature"
+      ],
+      "device": "Lamp",
+      "original": "BOS выключи свет EOS O	B-Lamp.COMMAND B-Lamp.DeviceFeature Lamp"
+    }
+  ],
+  "AudioSystem": [
+    {
+      "command": "пропусти песню",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS пропусти песню EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "увеличь громкость чтобы не мешал стук",
+      "slots": [
+        "COMMAND",
+        "DeviceParameterValue",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS увеличь громкость чтобы не мешал стук EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameterValue O O O O AudioSystem"
+    },
+    {
+      "command": "найди клип к этой песне на youtube",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "CommandFeature",
+        "CommandFeature",
+        "O",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS найди клип к этой песне на youtube EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O I-AudioSystem.CommandFeature I-AudioSystem.CommandFeature O I-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "каждый вечер в время включай музыку на плеере",
+      "slots": [
+        "O",
+        "O",
+        "O",
+        "DeviceParameterValue",
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "DEVICE"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS каждый вечер в время включай музыку на плеере EOS O	O O O B-AudioSystem.DeviceParameterValue B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O B-AudioSystem.DEVICE AudioSystem"
+    }
+  ],
+  "SmartFridge": [
+    {
+      "command": "установи температуру в холодильнике на плюс число а в морозилке на минус число",
+      "slots": [
+        "COMMAND",
+        "Devicefeature",
+        "O",
+        "DEVICE",
+        "O",
+        "O",
+        "DeviceParameterValue",
+        "O",
+        "O",
+        "DEVICE",
+        "O",
+        "O",
+        "DeviceParameterValue"
+      ],
+      "device": "SmartFridge",
+      "original": "BOS установи температуру в холодильнике на плюс число а в морозилке на минус число EOS O	B-SmartFridge.COMMAND B-SmartFridge.Devicefeature O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue O O B-SmartFridge.DEVICE O O B-SmartFridge.DeviceParameterValue SmartFridge"
+    }
+  ],
+  "FloorLite": [
+    {
+      "command": "включи подсветку к 7 вечера",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "FloorLite",
+      "original": "BOS включи подсветку к 7 вечера EOS O	B-FloorLite.COMMAND B-FloorLite.CommandFeature O O O FloorLite"
+    }
+  ],
+  "WashingMachine": [
+    {
+      "command": "включай стиральную машину по четвергам",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "DEVICE",
+        "O",
+        "O"
+      ],
+      "device": "WashingMachine",
+      "original": "BOS включай стиральную машину по четвергам EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O WashingMachine"
+    }
+  ]
+}

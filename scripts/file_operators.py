@@ -14,4 +14,5 @@ def read_lines(filename):
 
 def read_json(filename):
 	with open(filename) as f:
-		return json.load(f)
+		return json.load(f, strict=False)
+			#''.join(f.readlines()).encode().decode('unicode-escape'))

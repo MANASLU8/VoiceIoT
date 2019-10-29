@@ -1,0 +1,140 @@
+{
+  "CoffeeMachine": [
+    {
+      "command": "вари кофе каждый день",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O"
+      ],
+      "device": "CoffeeMachine",
+      "original": "BOS вари кофе каждый день EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O CoffeeMachine"
+    },
+    {
+      "command": "приготовь эспрессо к моему возвращению",
+      "slots": [
+        "COMMAND",
+        "СommandFeature",
+        "O",
+        "Actor",
+        "Aсtion"
+      ],
+      "device": "CoffeeMachine",
+      "original": "BOS приготовь эспрессо к моему возвращению EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.СommandFeature O B-CoffeeMachine.Actor B-CoffeeMachine.Aсtion CoffeeMachine"
+    }
+  ],
+  "WindowRelay": [
+    {
+      "command": "проветри здесь пока я буду в ванной",
+      "slots": [
+        "COMMAND",
+        "LOCCurrent",
+        "O",
+        "Actor",
+        "Action",
+        "O",
+        "LOC"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветри здесь пока я буду в ванной EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOCCurrent O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay"
+    },
+    {
+      "command": "проветривай во время моего сна",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветривай во время моего сна EOS O	B-WindowRelay.COMMAND O O O O WindowRelay"
+    }
+  ],
+  "Printer": [
+    {
+      "command": "сделай копию паспорта",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "Printer",
+      "original": "BOS сделай копию паспорта EOS O	B-Printer.COMMAND B-Printer.CommandFeature I-Printer.CommandFeature Printer"
+    },
+    {
+      "command": "заполни документ",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "Printer",
+      "original": "BOS заполни документ EOS O	B-Printer.COMMAND B-Printer.CommandFeature Printer"
+    }
+  ],
+  "AlarmClock": [
+    {
+      "command": "поменяй каждый вечер будильник на время",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "DEVICE",
+        "O",
+        "DeviceParameterValue"
+      ],
+      "device": "AlarmClock",
+      "original": "BOS поменяй каждый вечер будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue AlarmClock"
+    }
+  ],
+  "SmartBreadMaker": [
+    {
+      "command": "приготовь хлеб",
+      "slots": [
+        "COMMAND",
+        "CommandFeature"
+      ],
+      "device": "SmartBreadMaker",
+      "original": "BOS приготовь хлеб EOS O	B-SmartBreadMaker.COMMAND B-SmartBreadMaker.CommandFeature SmartBreadMaker"
+    }
+  ],
+  "AudioSystem": [
+    {
+      "command": "запусти плейлист с танцевальной музыкой",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "CommandFeature",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS запусти плейлист с танцевальной музыкой EOS O	B-AudioSystem.COMMAND O O B-AudioSystem.CommandFeature I-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "подбирай песни под ритм бега",
+      "slots": [
+        "COMMAND",
+        "DeviceParameter",
+        "O",
+        "DeviceFeature",
+        "DeviceFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS подбирай песни под ритм бега EOS O	B-AudioSystem.COMMAND B-AudioSystem.DeviceParameter O B-AudioSystem.DeviceFeature I-AudioSystem.DeviceFeature AudioSystem"
+    }
+  ],
+  "SmartFridge": [
+    {
+      "command": "делай больше льда",
+      "slots": [
+        "COMMAND",
+        "Quantor",
+        "CommandFeature"
+      ],
+      "device": "SmartFridge",
+      "original": "BOS делай больше льда EOS O	B-SmartFridge.COMMAND B-SmartFridge.Quantor B-SmartFridge.CommandFeature SmartFridge"
+    }
+  ]
+}

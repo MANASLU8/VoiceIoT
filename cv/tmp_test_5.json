@@ -1,0 +1,145 @@
+{
+  "WindowRelay": [
+    {
+      "command": "проветрить здесь пока я буду на кухне",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "Actor",
+        "Action",
+        "O",
+        "LOC"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветрить здесь пока я буду на кухне EOS O	B-WindowRelay.COMMAND O O B-WindowRelay.Actor B-WindowRelay.Action O B-WindowRelay.LOC WindowRelay"
+    },
+    {
+      "command": "проветри там",
+      "slots": [
+        "COMMAND",
+        "LOC"
+      ],
+      "device": "WindowRelay",
+      "original": "BOS проветри там EOS O	B-WindowRelay.COMMAND B-WindowRelay.LOC WindowRelay"
+    }
+  ],
+  "AudioSystem": [
+    {
+      "command": "добавляй песню в мою коллекцию",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS добавляй песню в мою коллекцию EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O I-AudioSystem.CommandFeature AudioSystem"
+    },
+    {
+      "command": "увеличь частоту чтобы не мешал шум",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "O",
+        "CommandFeature"
+      ],
+      "device": "AudioSystem",
+      "original": "BOS увеличь частоту чтобы не мешал шум EOS O	B-AudioSystem.COMMAND B-AudioSystem.CommandFeature O O O I-AudioSystem.CommandFeature AudioSystem"
+    }
+  ],
+  "WashingMachine": [
+    {
+      "command": "включай стиральную машину в 2305 каждое четное число месяца",
+      "slots": [
+        "COMMAND",
+        "DEVICE",
+        "DEVICE",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "device": "WashingMachine",
+      "original": "BOS включай стиральную машину в 2305 каждое четное число месяца EOS O	B-WashingMachine.COMMAND B-WashingMachine.DEVICE I-WashingMachine.DEVICE O O O O O O WashingMachine"
+    },
+    {
+      "command": "запусти стирку для цветного",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "DeviceParameterValue"
+      ],
+      "device": "WashingMachine",
+      "original": "BOS запусти стирку для цветного EOS O	B-WashingMachine.COMMAND B-WashingMachine.CommandFeature O B-WashingMachine.DeviceParameterValue WashingMachine"
+    },
+    {
+      "command": "полощи 30 минут",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O"
+      ],
+      "device": "WashingMachine",
+      "original": "BOS полощи 30 минут EOS O	B-WashingMachine.COMMAND O O WashingMachine"
+    }
+  ],
+  "HeatingFloor": [
+    {
+      "command": "выключи подогрев дорожек",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O"
+      ],
+      "device": "HeatingFloor",
+      "original": "BOS выключи подогрев дорожек EOS O	B-HeatingFloor.COMMAND O O HeatingFloor"
+    },
+    {
+      "command": "включи подогрев дорожек",
+      "slots": [
+        "COMMAND",
+        "DeviceFeature",
+        "DeviceFeature"
+      ],
+      "device": "HeatingFloor",
+      "original": "BOS включи подогрев дорожек EOS O	B-HeatingFloor.COMMAND B-HeatingFloor.DeviceFeature I-HeatingFloor.DeviceFeature HeatingFloor"
+    }
+  ],
+  "CoffeeMachine": [
+    {
+      "command": "свари кофе завтра к число утра",
+      "slots": [
+        "COMMAND",
+        "CommandFeature",
+        "O",
+        "O",
+        "DeviceParameterValue",
+        "O"
+      ],
+      "device": "CoffeeMachine",
+      "original": "BOS свари кофе завтра к число утра EOS O	B-CoffeeMachine.COMMAND B-CoffeeMachine.CommandFeature O O B-CoffeeMachine.DeviceParameterValue O CoffeeMachine"
+    }
+  ],
+  "AlarmClock": [
+    {
+      "command": "ставь каждый день будильник на время",
+      "slots": [
+        "COMMAND",
+        "O",
+        "O",
+        "DEVICE",
+        "O",
+        "DeviceParameterValue"
+      ],
+      "device": "AlarmClock",
+      "original": "BOS ставь каждый день будильник на время EOS O	B-AlarmClock.COMMAND O O B-AlarmClock.DEVICE O B-AlarmClock.DeviceParameterValue AlarmClock"
+    }
+  ]
+}
