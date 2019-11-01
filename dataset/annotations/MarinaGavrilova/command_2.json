@@ -1,0 +1,25 @@
+{
+	"utterance_id": 2,
+	"utterance-type": "Request",
+  	"ontology-label": "DoubleBoiler",
+ 	"text": [
+      "когда будет готова еда в пароварке"
+    ],
+  	"slots-indices": [
+    {
+      "CommandQuestion": [
+        0
+      ],
+      "CommandFeature": [
+        3
+      ],
+      "FeatureState": [
+        1,
+        2
+      ],
+      "DEVICE": [
+        5
+      ]
+    }
+    ]
+}

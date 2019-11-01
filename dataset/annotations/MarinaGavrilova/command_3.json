@@ -1,0 +1,24 @@
+{
+	"utterance_id": 3,
+	"utterance-type": "Command",
+  	"ontology-label": "AudioSystem",
+ 	"text": [
+      "добавь песню в мою коллекцию"
+    ],
+  	"slots-indices": [
+      {
+        "COMMAND": [
+          0
+        ],
+        "CommandFeature": [
+        1
+        ],
+        "Actor": [
+          3
+        ],
+        "DeviceFeature": [
+          4
+        ]
+      }
+    ]
+}

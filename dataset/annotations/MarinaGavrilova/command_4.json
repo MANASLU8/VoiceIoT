@@ -1,0 +1,27 @@
+{
+	"utterance_id": 4,
+	"utterance-type": "Command",
+	"ontology-label": "HeaterController",
+	"text": [
+		"в время включи обогреватель на кухне на число"
+	],
+	"slots-indices": [
+		{
+			"COMMAND": [
+				2
+			],
+			"DEVICE": [
+				3
+			],
+      		"DeviceParameterValue": [
+				7
+			],
+      		"CommandParameterValue": [
+				1
+			],
+			"LOC": [
+				5
+			]
+		}
+	]
+}
