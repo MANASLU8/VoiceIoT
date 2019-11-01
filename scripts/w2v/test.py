@@ -31,7 +31,7 @@ BRIGHT_COLOR = "#851e3e"
 
 DEFAULT_MODEL_FILE_NAME = "test.txt"
 
-plt.rcParams.update({'font.size': 22})
+plt.rcParams.update({'font.size': 16})
 fig, axs = plt.subplots(1)
 
 parser = argparse.ArgumentParser()
@@ -101,21 +101,39 @@ def classify(df, classifier, pieces=config['cv-folds']):
 if not args.tf:
 	classifiers = {
 		"SVM": SVC(gamma='scale', decision_function_shape='ovo'),
-		"Logistic regression (C = 1e9)": LogisticRegression(n_jobs=1, C=1e9),
-		"Logistic regression (C = 1e12)": LogisticRegression(n_jobs=1, C=1e12),
+		"LR (C = 1e9)": LogisticRegression(n_jobs=1, C=1e9),
+		"LR (C = 1e12)": LogisticRegression(n_jobs=1, C=1e12),
 		"KNN (3)": KNeighborsClassifier(3),
 		"KNN (5)": KNeighborsClassifier(5),
 		"KNN (7)": KNeighborsClassifier(7),
-	    "Gaussian process": GaussianProcessClassifier(1.0 * RBF(1.0)),
-	    "Decision tree (max depth = 3)": DecisionTreeClassifier(max_depth=3),
-	    "Decision tree (max depth = 5)": DecisionTreeClassifier(max_depth=5),
-	    "Decision tree (max depth = 7)": DecisionTreeClassifier(max_depth=7),
-	    "Random forest": RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),
+	    "GP": GaussianProcessClassifier(1.0 * RBF(1.0)),
+	    "DT (depth = 3)": DecisionTreeClassifier(max_depth=3),
+	    "DT (depth = 5)": DecisionTreeClassifier(max_depth=5),
+	    "DT (depth = 7)": DecisionTreeClassifier(max_depth=7),
+	    "RF": RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),
 	    "MLP": MLPClassifier(alpha=1, max_iter=1000),
 	    "AdaBoost": AdaBoostClassifier(),
 	    "Gaussian": GaussianNB(),
 	    "QDA": QuadraticDiscriminantAnalysis()
 	}
+
+	# classifiers = {
+	# 	"SVM": SVC(gamma='scale', decision_function_shape='ovo'),
+	# 	"Logistic regression (C = 1e9)": LogisticRegression(n_jobs=1, C=1e9),
+	# 	"Logistic regression (C = 1e12)": LogisticRegression(n_jobs=1, C=1e12),
+	# 	"KNN (3)": KNeighborsClassifier(3),
+	# 	"KNN (5)": KNeighborsClassifier(5),
+	# 	"KNN (7)": KNeighborsClassifier(7),
+	#     "Gaussian process": GaussianProcessClassifier(1.0 * RBF(1.0)),
+	#     "Decision tree (depth = 3)": DecisionTreeClassifier(max_depth=3),
+	#     "Decision tree (depth = 5)": DecisionTreeClassifier(max_depth=5),
+	#     "Decision tree (depth = 7)": DecisionTreeClassifier(max_depth=7),
+	#     "Random forest": RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),
+	#     "MLP": MLPClassifier(alpha=1, max_iter=1000),
+	#     "AdaBoost": AdaBoostClassifier(),
+	#     "Gaussian": GaussianNB(),
+	#     "QDA": QuadraticDiscriminantAnalysis()
+	# }
 
 	results = {classifier: classify(df, classifiers[classifier]) for classifier in classifiers.keys()}
 
@@ -165,7 +183,7 @@ if not args.tf:
 	def draw_bar_labels(x, y, axis, threshold=2, round_precision=2):
 		smallest = sorted(y)[threshold]
 		for c, v in zip(x, y):
-			axis.text(c, v * 0.96 if v > smallest else v + 0.5, str(round(v, 2)), color='white' if v > smallest else 'black', horizontalalignment='center')
+			axis.text(c, v * 0.98 if v > smallest else v + 0.5, str(round(v, 2)), color='white' if v > smallest else 'black', horizontalalignment='center')
 
 	# create two sublots
 	fig, axs = plt.subplots(1)
@@ -177,14 +195,14 @@ if not args.tf:
 
 	type_counts = dict(df.type.value_counts())
 	type_counts['Total'] = int(np.sum(list(type_counts.values())))
-	axs.text(0.05, 0.98, '\n'.join([f"{type:17s}: {type_counts[type]:4d}" for type in type_counts.keys()]) + '\n'*5, horizontalalignment='left', verticalalignment='top', transform=axs.transAxes, family='monospace')
+	#axs.text(0.05, 0.98, '\n'.join([f"{type:17s}: {type_counts[type]:4d}" for type in type_counts.keys()]) + '\n'*5, horizontalalignment='left', verticalalignment='top', transform=axs.transAxes, family='monospace')
 	axs.bar(rdf.classifier, height=rdf.accuracy, color=[COMMON_COLOR if i < max_accuracy else BRIGHT_COLOR for i in accuracy], log = True)
 	# axs.set_title('Accuracy')
 	axs.set_xlabel('Классификатор')
 	axs.set_ylabel('Точность')
 	const_classifier_accuracy = 100*np.max(df.groupby('type').size())/(np.sum(df.groupby('type').size()))
 	axs.axhline(y=const_classifier_accuracy, color="black")
-	axs.text(classifiers[0], const_classifier_accuracy + 0.3, str(round(const_classifier_accuracy, 2)) + ' '*10, color='black', horizontalalignment='right')
+	axs.text(classifiers[0], const_classifier_accuracy + 0.3, str(round(const_classifier_accuracy, 2)) + ' '*6, color='black', horizontalalignment='right')
 	axs.yaxis.set_major_formatter(ScalarFormatter())
 	axs.yaxis.set_minor_formatter(ScalarFormatter())
 	for tick in axs.get_xticklabels():
