@@ -1,0 +1,35 @@
+{
+	"utterance_id": 6,
+	"utterance-type": "Command",
+	"ontology-label": [
+		"SmartCamera",
+		"SmartSmokeDetector"
+	],
+	"text": [
+		"снимай местность и если увидишь дым сообщи"
+	],
+	"slots-indices": [
+		{
+      		"COMMAND": [
+        		0,
+				6
+      		],
+			"LOC": [
+        		1
+      		]
+		},
+    	{
+			"COMMAND": [
+				4
+			],
+      		"CommandFeature": [
+        		5
+      		]
+    	}
+	],
+	"condition-constraints": [
+		3,
+		4,
+		5
+	]
+}
