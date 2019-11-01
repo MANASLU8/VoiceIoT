@@ -1,7 +1,12 @@
 # VoiceIoT
-![recognition-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/plot.png)
-![plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/w2v/cv.png)
-![test-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/w2v/cv-test.png)
+## Device recognition accuracy
+![recognition-device-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/recognition/device.png)
+## Command recognition accuracy
+![recognition-command-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/recognition/command.png)
+## Classification accuracy
+![classification-accuracy-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/classification/accuracy.png)
+## F1-score accuracy
+![classification-f1-score-plot](https://raw.githubusercontent.com/MANASLU8/VoiceIoT/master/images/classification/f1-score.png)
 # Request mapping
 ## Perform sparql query for collecting lemmas and save response
 Response should be written to the file `dataset/request-mapping/sparql-response.txt`. It must include **five** columns - `system id`, `system lemma`, `feature lemma`, `command lemma`, `param lemma`, which are separated by tabs.  
