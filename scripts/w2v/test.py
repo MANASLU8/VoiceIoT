@@ -31,6 +31,9 @@ BRIGHT_COLOR = "#851e3e"
 
 DEFAULT_MODEL_FILE_NAME = "test.txt"
 
+plt.rcParams.update({'font.size': 22})
+fig, axs = plt.subplots(1)
+
 parser = argparse.ArgumentParser()
 parser.add_argument('-m', '--model', dest='model', help='path to the trained model')
 parser.add_argument('-i', '--image', dest='image', help='name of image for saving the plot')
@@ -165,40 +168,42 @@ if not args.tf:
 			axis.text(c, v * 0.96 if v > smallest else v + 0.5, str(round(v, 2)), color='white' if v > smallest else 'black', horizontalalignment='center')
 
 	# create two sublots
-	fig, axs = plt.subplots(2)
+	fig, axs = plt.subplots(1)
 	plt.subplots_adjust(bottom=0.2, top=0.9, hspace=1.2, left=0.05, right=0.95)
 
 	fig.set_figwidth(19)
 	fig.set_figheight(10)
-	fig.suptitle("Results of commands labelling" if args.title is None else args.title, fontsize=16)
+	# fig.suptitle("Results of commands labelling" if args.title is None else args.title, fontsize=16)
 
 	type_counts = dict(df.type.value_counts())
 	type_counts['Total'] = int(np.sum(list(type_counts.values())))
-	axs[0].text(0.05, 0.98, '\n'.join([f"{type:17s}: {type_counts[type]:4d}" for type in type_counts.keys()]) + '\n'*5, horizontalalignment='left', verticalalignment='top', transform=axs[0].transAxes, family='monospace')
-	axs[0].bar(rdf.classifier, height=rdf.accuracy, color=[COMMON_COLOR if i < max_accuracy else BRIGHT_COLOR for i in accuracy], log = True)
-	axs[0].set_title('Accuracy')
-	axs[0].set_xlabel('Classifier')
-	axs[0].set_ylabel('Accuracy (%)')
+	axs.text(0.05, 0.98, '\n'.join([f"{type:17s}: {type_counts[type]:4d}" for type in type_counts.keys()]) + '\n'*5, horizontalalignment='left', verticalalignment='top', transform=axs.transAxes, family='monospace')
+	axs.bar(rdf.classifier, height=rdf.accuracy, color=[COMMON_COLOR if i < max_accuracy else BRIGHT_COLOR for i in accuracy], log = True)
+	# axs.set_title('Accuracy')
+	axs.set_xlabel('Классификатор')
+	axs.set_ylabel('Точность')
 	const_classifier_accuracy = 100*np.max(df.groupby('type').size())/(np.sum(df.groupby('type').size()))
-	axs[0].axhline(y=const_classifier_accuracy, color="black")
-	axs[0].text(classifiers[0], const_classifier_accuracy + 0.3, str(round(const_classifier_accuracy, 2)) + ' '*10, color='black', horizontalalignment='right')
-	axs[0].yaxis.set_major_formatter(ScalarFormatter())
-	axs[0].yaxis.set_minor_formatter(ScalarFormatter())
-	for tick in axs[0].get_xticklabels():
+	axs.axhline(y=const_classifier_accuracy, color="black")
+	axs.text(classifiers[0], const_classifier_accuracy + 0.3, str(round(const_classifier_accuracy, 2)) + ' '*10, color='black', horizontalalignment='right')
+	axs.yaxis.set_major_formatter(ScalarFormatter())
+	axs.yaxis.set_minor_formatter(ScalarFormatter())
+	for tick in axs.get_xticklabels():
 	     tick.set_rotation(45)
-	draw_bar_labels(classifiers, rdf['accuracy'].to_numpy(), axs[0])
-
-	axs[1].bar(rdf.classifier, height=rdf['f1-score'], color=[COMMON_COLOR if i < max_f1_score else BRIGHT_COLOR for i in f1_score], log = True)
-	axs[1].set_title('F1-score')
-	axs[1].set_xlabel('Classifier')
-	axs[1].set_ylabel('F1-score (%)')
-	axs[1].yaxis.set_major_formatter(ScalarFormatter())
-	axs[1].yaxis.set_minor_formatter(ScalarFormatter())
-	for tick in axs[1].get_xticklabels():
+	draw_bar_labels(classifiers, rdf['accuracy'].to_numpy(), axs)
+	fig.savefig('images/classification/accuracy.png')
+	axs.clear()
+	axs.bar(rdf.classifier, height=rdf['f1-score'], color=[COMMON_COLOR if i < max_f1_score else BRIGHT_COLOR for i in f1_score], log = True)
+	# axs.set_title('F1-score')
+	axs.set_xlabel('Классификатор')
+	axs.set_ylabel('F1-мера')
+	axs.yaxis.set_major_formatter(ScalarFormatter())
+	axs.yaxis.set_minor_formatter(ScalarFormatter())
+	for tick in axs.get_xticklabels():
 	     tick.set_rotation(45)
-	draw_bar_labels(classifiers, rdf['f1-score'].to_numpy(), axs[1])
+	draw_bar_labels(classifiers, rdf['f1-score'].to_numpy(), axs)
 
-	fig.savefig(os.path.join(config['paths']['images']['w2v']['root'], 'cv.png' if args.image is None else args.image))
+	fig.savefig('images/classification/f1-score.png')
+	#fig.savefig(os.path.join(config['paths']['images']['w2v']['root'], 'cv.png' if args.image is None else args.image))
 else:
 	print("Using tf...")
 
