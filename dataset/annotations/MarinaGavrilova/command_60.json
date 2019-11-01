@@ -1,0 +1,21 @@
+{
+	"utterance_id": 60,
+	"utterance-type": "Request",
+	"ontology-label": "SmartCar",
+	"text": [
+		"сколько топлива в машине"
+	],
+	"slots-indices": [
+		{
+      		"DeviceQuestion": [
+        		0
+      		],
+      		"CommandFeature": [
+        		1
+      		],
+      		"DEVICE": [
+        		3
+      		]
+		}
+	]
+}

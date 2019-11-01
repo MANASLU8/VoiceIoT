@@ -1,0 +1,29 @@
+{
+	"utterance_id": 46,
+	"utterance-type": "Command",
+	"ontology-label": "WindowRelay",
+	"text": [
+		"проветривай во время моего сна"
+	],
+	"slots-indices": [
+		{
+			"COMMAND": [
+				0
+			],
+			"Duration": [
+				1,
+				2
+			],
+      		"Action": [
+      			3,
+				4
+      		]
+    }
+  	],
+	"condition-indices": [
+		1,
+		2,
+    	3,
+    	4
+  	]
+}

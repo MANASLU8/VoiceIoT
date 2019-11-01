@@ -1,0 +1,22 @@
+{
+	"utterance_id": 98,
+	"utterance-type": "Request",
+	"ontology-label": "SmartCar",
+	"text": [
+		"На сколько времени хватит топлива"
+	],
+	"slots-indices": [
+		{
+      		"DeviceQuestion": [
+        		1,
+        		2
+      		],
+      		"FeatureState": [
+        		3
+      		],
+      		"DeviceFeature": [
+        		4
+      		]
+    	}
+	]
+}

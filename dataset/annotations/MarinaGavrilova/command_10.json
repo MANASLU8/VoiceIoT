@@ -1,0 +1,30 @@
+{
+	"utterance_id": 10,
+	"utterance-type": "Command",
+	"ontology-label": "Pulsometer",
+	"text": [
+		"если я усну разбуди меня"
+	],
+	"slots-indices": [
+		{
+      		"COMMAND": [
+        		3
+      		],
+      		"Actor": [
+        		2
+      		],
+      		"Action": [
+        		3
+      		]
+    	}
+	],
+	"condition-indices": [
+		0,
+		1,
+		2
+	],
+	"corefence": [
+		1,
+		4
+	]
+}

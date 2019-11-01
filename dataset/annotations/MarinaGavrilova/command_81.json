@@ -1,0 +1,29 @@
+{
+	"utterance_id": 81,
+	"utterance-type": "Request",
+	"ontology-label": "SmartElectricityMeter",
+	"text": [
+		"сколько в этом году я заплатил за свет"
+	],
+	"slots-indices": [
+		{
+      		"ParameterValueQuestion": [
+        		0
+      		],
+      		"Actor": [
+        		4
+      		],
+      		"Action": [
+        		5
+      		]
+    	}
+	],
+	"schedule": [
+    	{
+      		"time:DateTimeDescription": [
+        		2,
+        		3
+      		]
+    	}
+  ]
+}

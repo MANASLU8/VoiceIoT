@@ -1,0 +1,24 @@
+{
+	"utterance_id": 78,
+	"utterance-type": "Command",
+	"ontology-label": "WindowRelay",
+	"text": [
+		"Проветривай каждые число часа"
+	],
+	"slots-indices": [
+		{
+			"COMMAND": [
+				0
+			]
+    	}
+  	],
+	"schedule": [
+		{
+			"regularlyRepeating": [
+				1,
+				2,
+				3
+			]
+		}
+	]
+}
