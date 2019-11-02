@@ -1,0 +1,37 @@
+{
+	"utterance_id": 26,
+	"utterance-type": "Command",
+	"ontology-label": [
+		"SmartMicrowave",
+		"SmartOven",
+		"SmartBreadMaker",
+		"SmartKettle",
+		"SmartToaster",
+		"DoubleBoiler",
+		"SmartFridge",
+		"CoffeeMachine"
+	],
+	"text": [
+		"приготовь мне еды к время"
+	],
+	"slots-indices": [
+		{
+			"COMMAND": [
+        		0
+      		],
+      		"CommandFeature": [
+        		2
+      		],
+      		"Actor": [
+        		1
+      		]
+		}
+	],
+	"schedule": [
+    	{
+      		"time:DateTimeDescription": [
+        		4
+      		]
+    	}
+  	]
+}

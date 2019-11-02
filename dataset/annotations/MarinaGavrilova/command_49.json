@@ -1,0 +1,35 @@
+{
+	"utterance_id": 49,
+	"utterance-type": "Command",
+  	"ontology-label": [
+    	"WindowRelay",
+    	"TemperatureSensor"
+  	],
+	"text": [
+		"если станет жарко то открой окно"
+	],
+	"slots-indices": [
+		{
+      		"COMMAND": [
+        		4
+      		],
+      		"DeviceFeature": [
+        		5
+      		]
+    	},
+    	{}
+  	],
+  	"condition-indices": [
+    	0,
+    	1,
+		2
+  	],
+	"hidden-slot-indices": [
+		{},
+    	{
+      		"CommandFeature": [
+        		2
+      		]
+		}
+  	]
+}

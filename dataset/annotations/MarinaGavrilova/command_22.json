@@ -1,0 +1,25 @@
+{
+	"utterance_id": 23,
+	"utterance-type": "Request",
+	"ontology-label": "CurtainsRelay",
+	"text": [
+		"когда последний раз снимали занавески"
+	],
+	"slots-indices": [
+		{
+      		"RequestQuestion": [
+        		0
+      		],
+      		"FeatureState": [
+        		3
+      		],
+      		"DeviceFeature": [
+        		4
+      		],
+      		"Analytics": [
+        		1,
+        		2
+      		]
+    	}
+	]
+}

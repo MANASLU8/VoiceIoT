@@ -1,0 +1,29 @@
+{
+	"utterance_id": 51,
+	"utterance-type": "Command",
+  	"ontology-label": [
+    	"HumiditySensor"
+  	],
+	"text": [
+		"Если будет дождь то напомнить взять зонт перед выходом"
+	],
+	"slots-indices": [
+		{
+      		"COMMAND": [
+        		4,
+        		5
+      		],
+      		"CommandFeature": [
+        		6
+      		],
+      		"Action": [
+        		8
+      		]
+    	}
+  	],
+  	"condition-indices": [
+    	0,
+    	1,
+		2
+  	]
+}

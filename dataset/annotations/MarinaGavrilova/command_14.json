@@ -1,0 +1,25 @@
+{
+	"utterance_id": 14,
+	"utterance-type": "Request",
+	"ontology-label": "SmartCar",
+	"text": [
+		"кто брал мою машину сегодня"
+	],
+	"slots-indices": [
+		{
+			"ParameterValueQuestion": [
+        		0
+      		],
+      		"CommandFeature": [
+        		2,
+        		3
+      		],
+      		"Action": [
+        		1
+      		],
+      		"Duration": [
+        		4
+      		]
+		}
+	]
+}

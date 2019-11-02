@@ -1,0 +1,26 @@
+{
+	"utterance_id": 29,
+	"utterance-type": "Command",
+  	"ontology-label": [
+    	"HumiditySensor",
+    	"TemperatureSensor"
+  	],
+	"text": [
+		"установи температуру на число и влажность на число"
+	],
+	"slots-indices": [
+		{
+			"COMMAND": [
+        		0
+      		],
+      		"Devicefeature": [
+        		1,
+        		5
+      		],
+      		"DeviceParameterValue": [
+        		3,
+        		7
+      		]
+		}
+	]
+}

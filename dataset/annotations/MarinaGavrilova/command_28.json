@@ -1,0 +1,26 @@
+{
+	"utterance_id": 28,
+	"utterance-type": "Request",
+  	"ontology-label": "AudioSystem",
+	"text": [
+		"выведи статистику прослушиваний на телефон"
+	],
+	"slots-indices": [
+		{
+			"COMMAND": [
+        		0
+      		],
+      		"CommandFeature": [
+        		1,
+        		2
+      		],
+      		"DEVICE": [
+        		4
+      		],
+      		"Analytics": [
+        		1,
+        		2
+      		]
+		}
+	]
+}

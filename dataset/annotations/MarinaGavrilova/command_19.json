@@ -1,0 +1,25 @@
+{
+	"utterance_id": 19,
+	"utterance-type": "Request",
+	"ontology-label": "HeaterController",
+	"text": [
+		"почему здесь так холодно"
+	],
+	"slots-indices": [
+		{
+			"RequestQuestion": [
+        		0
+      		],
+      		"LOC": [
+        		1
+      		]
+		}
+	],
+	"hidden-slot-indices": [
+		{
+			"CommandFeature": [
+        		3
+      		]
+		}
+	]
+}

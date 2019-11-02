@@ -1,0 +1,39 @@
+{
+	"utterance_id": 42,
+	"utterance-type": "Command",
+  	"ontology-label": [
+    	"CurtainsRelay",
+    	"LightSensor"
+  	],
+	"text": [
+		"открой шторы если слишком темно"
+	],
+	"slots-indices": [
+		{
+      		"COMMAND": [
+        		0
+      		],
+      		"DeviceFeature": [
+        		1
+      		]
+    	},
+    	{
+      		"IntensityQuantifier": [
+        		3
+      		]
+    	}
+  	],
+  	"condition-indices": [
+    	2,
+    	3,
+		4
+  	],
+	"hidden-slot-indices": [
+		{},
+    	{
+      		"CommandFeature": [
+        		4
+      		]
+		}
+  	]
+}
