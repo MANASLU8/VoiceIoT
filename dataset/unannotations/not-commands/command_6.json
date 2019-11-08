@@ -1,0 +1,7 @@
+{
+  "text": "воле божьей по стиралке",
+  "ontology-label": "WashingMachine",
+  "slots-indices": {
+    "COMMAND": []
+  }
+}

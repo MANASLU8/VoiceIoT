@@ -1,0 +1,7 @@
+{
+  "text": "включи мне свет",
+  "ontology-label": "Lamp",
+  "slots-indices": {
+    "COMMAND": []
+  }
+}

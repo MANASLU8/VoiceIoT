@@ -20,6 +20,7 @@ paths:
     annotations: dataset/annotations
     flawy-denormalized: dataset/denormalized-annotations/flawy.json
     nice-denormalized: dataset/denormalized-annotations/nice.json
+    unannotated: dataset/unannotations
     request-mapping:
       lemmas: dataset/request-mapping/lemmas.json
       requests: dataset/request-mapping/requests.json
