@@ -12,7 +12,7 @@ blis==0.4.1
 boto==2.49.0
 boto3==1.9.207
 botocore==1.12.207
-certifi==2019.6.16
+certifi==2022.12.7
 cffi==1.12.3
 cfgv==2.0.1
 chardet==3.0.4
